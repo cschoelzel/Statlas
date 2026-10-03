@@ -1,0 +1,160 @@
+{
+  "doc_id": "D001",
+  "model": "claude-haiku-4-5-20251001",
+  "source_sha256": "7f24d692c68f42ed2ab11a2d1f8e060a951f8cf6a3974b4e8090e63081ad6f17",
+  "rules": [
+    {
+      "jurisdiction": "Berkeley, CA",
+      "level": "city",
+      "category": "algorithmic_rent_setting",
+      "status": "in_force",
+      "title": "Prohibition on the Sale or Use of Coordinated Pricing Algorithms to Set Rents or Manage Occupancy Levels for Residential Dwelling Units",
+      "requirement": "It shall be unlawful to sell, license, or otherwise provide to City of Berkeley landlords any coordinated pricing algorithm that sets or recommends rents or occupancy levels for residential dwelling units in the City of Berkeley. It shall be unlawful for a landlord to use a coordinated pricing algorithm when setting rents or occupancy levels for residential dwelling units in the City of Berkeley.",
+      "citation": "Berkeley Municipal Code Chapter 13.63.030",
+      "quoted_span": "It shall be unlawful to sell, license, or otherwise provide to City of Berkeley \nlandlords any coordinated pricing algorithm that sets or recommends rents or occupancy \nlevels that may be achieved for residential dwelling units in the City of Berkeley.",
+      "key_value": "$1,000 per violation (each month per unit)",
+      "coverage_conditions": "Covers coordinated pricing algorithms that use non-public competitor data (less than 90 days old) to set or recommend rents or occupancy rates for residential dwelling units in Berkeley; does not regulate rent amounts or general property management software using public data; research, testing, and training for software development using competitor data excluded from operational recommendation",
+      "exemptions": "(a) Aggregated and anonymous rental data reports that do not recommend specific prices; (b) Products for establishing rent or income limits per affordable housing guidelines; (c) Software for market research, appraisals, or research/testing/training that does not use competitor data as operational input for recommendations",
+      "effective_date": "2025-11-18",
+      "conflict_note": null,
+      "sanctions": "Civil action by City Attorney for damages, injunctive relief, restitution of illegal profits, and/or civil penalties of up to $1,000 per violation (each separate month and each separate unit constitutes separate violation); aggrieved tenants may sue for injunctive relief, money damages, and/or civil penalties of up to $1,000 per violation; prevailing party attorney fees awarded",
+      "enacted_at": "2025-11-18",
+      "operative_date": "2025-11-18",
+      "end_date": null,
+      "confidence": 0.95,
+      "conflict_flag": false,
+      "logic": {
+        "coverage": {
+          "all": [
+            {
+              "all": [
+                {
+                  "fact": "legal_city",
+                  "op": "eq",
+                  "value": "Berkeley"
+                },
+                {
+                  "fact": "unit_type",
+                  "op": "eq",
+                  "value": "residential_dwelling"
+                },
+                {
+                  "fact": "algorithm_coordinates_competitor_data",
+                  "op": "eq",
+                  "value": true
+                },
+                {
+                  "fact": "algorithm_sets_or_recommends_rent_or_occupancy",
+                  "op": "eq",
+                  "value": true
+                }
+              ]
+            },
+            {
+              "fact": "unresolved_legal_evidence_D001_1",
+              "op": "eq",
+              "value": true
+            }
+          ]
+        },
+        "exemptions": {
+          "any": [
+            {
+              "fact": "aggregated_anonymous_report_no_recommendation",
+              "op": "eq",
+              "value": true
+            },
+            {
+              "fact": "affordable_housing_guideline_product",
+              "op": "eq",
+              "value": true
+            },
+            {
+              "fact": "market_research_appraisal_or_training_product",
+              "op": "eq",
+              "value": true
+            }
+          ]
+        }
+      },
+      "field_evidence": [
+        {
+          "field": "requirement",
+          "quoted_span": "It shall be unlawful to sell, license, or otherwise provide to City of Berkeley \nlandlords any coordinated pricing algorithm that sets or recommends rents or occupancy \nlevels that may be achieved for residential dwelling units in the City of Berkeley.",
+          "start_char": 4829,
+          "end_char": 5081
+        },
+        {
+          "field": "requirement",
+          "quoted_span": "It shall be unlawful for a landlord to use a coordinated pricing algorithm described \nin subsection A when setting rents or occupancy levels for residential dwelling units in \nthe City of Berkeley.",
+          "start_char": 5086,
+          "end_char": 5283
+        },
+        {
+          "field": "exemptions",
+          "quoted_span": "does not include (a) a product or process that \ngenerates or presents any report, study, or presentation that publishes rental data in an \naggregated and anonymous manner but does not recommend rent prices, fees, or \noccupancy rates or other rental contract terms for future leases",
+          "start_char": 3151,
+          "end_char": 3432
+        },
+        {
+          "field": "exemptions",
+          "quoted_span": "a product used for \nthe purpose of establishing rent or income limits in accordance with the affordable \nhousing guidelines of a local government, the state, the federal government, or other \npolitical subdivision",
+          "start_char": 3438,
+          "end_char": 3651
+        },
+        {
+          "field": "exemptions",
+          "quoted_span": "a product or process that provides or uses, or the provision or \nuse of, information for the purpose of (i) conducting market research for project financing, \n(ii) conducting an appraisal, or (iii) conducting research, testing, or training for software \ndevelopment",
+          "start_char": 3660,
+          "end_char": 3925
+        },
+        {
+          "field": "status",
+          "quoted_span": "At a regular meeting of the Council of the City of Berkeley held on November 18, \n2025, this Ordinance was passed to print and ordered published",
+          "start_char": 7695,
+          "end_char": 7839
+        },
+        {
+          "field": "sanctions",
+          "quoted_span": "civil penalties of up to $1,000 per violation",
+          "start_char": 5717,
+          "end_char": 5762
+        },
+        {
+          "field": "sanctions",
+          "quoted_span": "Each separate month that a violation exists or continues, and each \nseparate residential dwelling unit for which the landlord used the coordinated pricing \nalgorithm, shall constitute a separate and distinct violation.",
+          "start_char": 5284,
+          "end_char": 5502
+        }
+      ],
+      "quote_alignment": "whitespace_only",
+      "evidence_gaps": [
+        "coverage_conditions",
+        "effective_date"
+      ],
+      "team_rule_id": "D001-r001",
+      "source_doc_id": "D001",
+      "source_url": "https://berkeleyca.gov/sites/default/files/documents/2025-12-02%20Item%2001%20Ordinance%207992.pdf",
+      "retrieved_at": "2026-10-01T22:44Z",
+      "query_date": "2026-10-01",
+      "review_status": "unreviewed",
+      "evidence": {
+        "source_doc_id": "D001",
+        "text_sha256": "7f24d692c68f42ed2ab11a2d1f8e060a951f8cf6a3974b4e8090e63081ad6f17",
+        "start_char": 4829,
+        "end_char": 5081,
+        "quoted_span": "It shall be unlawful to sell, license, or otherwise provide to City of Berkeley \nlandlords any coordinated pricing algorithm that sets or recommends rents or occupancy \nlevels that may be achieved for residential dwelling units in the City of Berkeley.",
+        "retrieved_at": "2026-10-01T22:44Z",
+        "original_file": "data/sources/originals/7f24d692c68f42ed2ab11a2d1f8e060a951f8cf6a3974b4e8090e63081ad6f17.txt"
+      }
+    }
+  ],
+  "rejected": [],
+  "gaps": [
+    "No explicit operative date specified beyond enactment date of November 18, 2025; unclear if ordinance became effective immediately upon passage to print or if additional procedural steps were required",
+    "No historical status of this ordinance prior to November 18, 2025 provided in document",
+    "No cross-reference to state preemption statutes provided",
+    "Distinction between 'passed to print' and final adoption/operative date not clarified in source"
+  ],
+  "status": "needs_review"
+}

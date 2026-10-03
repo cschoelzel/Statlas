@@ -1,0 +1,977 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011Cfftop4wdQ4qXyQzagehr",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "Based on the document provided, I can identify the following operative rental housing obligations and exemptions as of the document's retrieval date (2026-10-01). The document addresses just cause eviction and related tenant protections, but does not contain provisions regarding rent caps, deposits, application/screening fees, screening restrictions, or algorithmic pricing.\n\n## JUST CAUSE EVICTION\n\n**Status:** Enacted\n\n**Operative Date:** "
+    },
+    {
+      "citations": [
+        {
+          "type": "char_location",
+          "cited_text": "(Retitled to \u201cResidential Tenant Protections\u201d on 5-25-2023 by O-21647 N.S.;  \neffective 6-24-2023.) \n \n",
+          "document_index": 0,
+          "document_title": "D073",
+          "start_char_index": 378,
+          "end_char_index": 481
+        }
+      ],
+      "type": "text",
+      "text": "Retitled to \"Residential Tenant Protections\" on 5-25-2023 by O-21647 N.S.; effective 6-24-2023"
+    },
+    {
+      "type": "text",
+      "text": "\n\n**Core Requirement:** "
+    },
+    {
+      "citations": [
+        {
+          "type": "char_location",
+          "cited_text": "\u00a798.0704 Just Cause Required for Termination of Tenancy \nA landlord shall not terminate a tenancy without just cause. For purposes of this \nDivision, just cause includes at-fault just cause and no-fault just cause. \n",
+          "document_index": 0,
+          "document_title": "D073",
+          "start_char_index": 10199,
+          "end_char_index": 10415
+        }
+      ],
+      "type": "text",
+      "text": "A landlord shall not terminate a tenancy without just cause. For purposes of this Division, just cause includes at-fault just cause and no-fault just cause."
+    },
+    {
+      "type": "text",
+      "text": "\n\n### At-Fault Just Cause Grounds\n\n"
+    },
+    {
+      "citations": [
+        {
+          "type": "char_location",
+          "cited_text": "(a) At-Fault Just Cause. At-fault just cause is any of the following: \n(1) a default in the payment of rent; \n(2) a breach of a material term of the lease, as described in California \nCode of Civil Procedure section 1161(3), as may be amended, \nincluding violation of a provision of the lease after being issued a \nwritten notice to correct the violation; \nCh. ",
+          "document_index": 0,
+          "document_title": "D073",
+          "start_char_index": 10415,
+          "end_char_index": 10776
+        },
+        {
+          "type": "char_location",
+          "cited_text": "9 8 7 6 \n \nSan Diego Municipal Code Chapter 9:  Building, Housing and Sign Regulations   \n(3-2024) \n \n \n \n(3) the maintaining, committing, or permitting the maintenance or \ncommission of a nuisance as described in California Code of Civil \nProcedure section 1161(4), as may be amended;  \n \n(4) the committing of waste as described in California Code of Civil \nProcedure section 1161(4), as may be amended; \n(5) where the tenant has a written lease that terminated on or after \nJune 24, 2023 and after receiving a written request or demand from the \nlandlord, the tenant refused to execute a written extension or renewal \nof the lease for a substantially similar duration and with substantially \nsimilar provisions, provided the terms of the extension or renewal do \nnot violate this Division or any other provision of law; \n(6) criminal activity by the tenant on the residential rental property, \nincluding any common areas associated with the residential rental \nproperty; \n(7) a criminal threat, as defined in California Penal Code section 422(a), \nas may be amended, by the tenant regardless of where made directed \nat the tenant\u2019s landlord or any other tenant of the residential rental \nproperty;  \n \n(8) the tenant\u2019s assignment or sublet of the residential rental property in \nviolation of the tenant\u2019s lease, as described in California Code of Civil \nProcedure section 1161(4), as may be amended;  \n \n(9) the tenant\u2019s refusal to allow the landlord to enter the residential rental \nproperty as authorized by California Civil Code sections 1101.5 and \n1954, as may be amended, and California Health and Safety Code \nsections 13113.7 and 17926.1, as may be amended; \n(10) the tenant\u2019s use of the residential rental property for an unlawful \npurpose as described in California Code of Civil Procedure \nsection 1161(4), as may be amended; \n(11) where the tenant is an employee, agent, or licensee of the landlord and \nthe tenant fails to vacate the residential rental property after their \ntermination as an employee, agent, or licensee as described in \nCalifornia Code of Civil Procedure section 1161(1), as may be \namended; and  \nCh. ",
+          "document_index": 0,
+          "document_title": "D073",
+          "start_char_index": 10788,
+          "end_char_index": 12925
+        },
+        {
+          "type": "char_location",
+          "cited_text": "9 8 7 7 \n \nSan Diego Municipal Code Chapter 9:  Building, Housing and Sign Regulations   \n(3-2024) \n \n \n \n(12) when the tenant fails to deliver possession of the residential rental \nproperty after providing the landlord written notice as provided in \nCalifornia Civil Code section 1946, as may be amended, of the \ntenant\u2019s intention to terminate the tenancy, or the tenant makes a \nwritten offer to surrender the residential rental property that is \naccepted in writing by the landlord, but fails to deliver possession at \nthe time specified in that written notice as described in California \nCode of Civil Procedure section 1161(5), as may be amended. \n",
+          "document_index": 0,
+          "document_title": "D073",
+          "start_char_index": 12937,
+          "end_char_index": 13591
+        }
+      ],
+      "type": "text",
+      "text": "At-fault just cause includes: (1) a default in the payment of rent; (2) a breach of a material term of the lease; (3) the maintaining, committing, or permitting the maintenance or commission of a nuisance; (4) the committing of waste; (5) refusal to execute a written extension or renewal of the lease for a substantially similar duration and with substantially similar provisions; (6) criminal activity by the tenant on the residential rental property; (7) a criminal threat directed at the tenant's landlord or any other tenant; (8) the tenant's assignment or sublet in violation of the lease; (9) the tenant's refusal to allow the landlord to enter; (10) the tenant's use for an unlawful purpose; (11) failure to vacate after termination as an employee, agent, or licensee; and (12) failure to deliver possession after providing written notice of intention to terminate."
+    },
+    {
+      "type": "text",
+      "text": "\n\n**Requirement for Curable Violations:** "
+    },
+    {
+      "citations": [
+        {
+          "type": "char_location",
+          "cited_text": "If a \nlandlord issues a termination notice for at-fault just cause, the landlord shall \ndo the following:  \n \n(1) Notice to Tenant. Before a landlord issues a notice to terminate a \ntenancy for at-fault just cause that is a curable lease violation, the \nlandlord shall first give written notice of the violation including a \ndescription of the violation and an opportunity to cure the violation \nunder California Code of Civil Procedure section 1161(3), as may be \namended. If the violation is not cured within the time period in the \nnotice, the landlord may terminate the tenancy without another \nopportunity to cure by serving a three-day notice to quit. \n \n",
+          "document_index": 0,
+          "document_title": "D073",
+          "start_char_index": 25142,
+          "end_char_index": 25803
+        }
+      ],
+      "type": "text",
+      "text": "Before a landlord issues a notice to terminate a tenancy for at-fault just cause that is a curable lease violation, the landlord shall first give written notice of the violation including a description of the violation and an opportunity to cure the violation. If the violation is not cured within the time period in the notice, the landlord may terminate the tenancy without another opportunity to cure by serving a three-day notice to quit."
+    },
+    {
+      "type": "text",
+      "text": "\n\n**Notice to Commission:** "
+    },
+    {
+      "citations": [
+        {
+          "type": "char_location",
+          "cited_text": "(2) Notice to Commission. The landlord shall provide written notice to the \nCommission of the at-fault just cause termination of tenancy under \nsection 98.0704(a) no later than three business days after the date the \nlandlord provided the required notice to tenant. Section 98.0706(a)(2) \nshall not apply until 30 days after the Commission establishes a \nsubmission portal and provides the public notice of its creation.  \n \n",
+          "document_index": 0,
+          "document_title": "D073",
+          "start_char_index": 25803,
+          "end_char_index": 26228
+        }
+      ],
+      "type": "text",
+      "text": "The landlord shall provide written notice to the Commission of the at-fault just cause termination of tenancy no later than three business days after the date the landlord provided the required notice to tenant. Section 98.0706(a)(2) shall not apply until 30 days after the Commission establishes a submission portal and provides the public notice of its creation."
+    },
+    {
+      "type": "text",
+      "text": "\n\n### No-Fault Just Cause Grounds\n\n"
+    },
+    {
+      "citations": [
+        {
+          "type": "char_location",
+          "cited_text": "(b) No-Fault Just Cause. No-fault just cause is any of the following actions \ntaken by the landlord in good faith, meaning the landlord acts without ulterior \nmotives and with honest intent: \n(1) The owner seeks to recover possession to occupy the residential rental \nproperty for the owner or their spouse, domestic partner, child (by \nblood or adoption), grandchild (by blood or adoption), parent, or \ngrandparent for a minimum of 12 continuous months as that person\u2019s \nprimary residence. \n",
+          "document_index": 0,
+          "document_title": "D073",
+          "start_char_index": 13591,
+          "end_char_index": 14083
+        }
+      ],
+      "type": "text",
+      "text": "No-fault just cause is any of the following actions taken by the landlord in good faith, meaning the landlord acts without ulterior motives and with honest intent:"
+    },
+    {
+      "type": "text",
+      "text": "\n\n**Owner Occupancy:** "
+    },
+    {
+      "citations": [
+        {
+          "type": "char_location",
+          "cited_text": "No-fault just cause is any of the following actions \ntaken by the landlord in good faith, meaning the landlord acts without ulterior \nmotives and with honest intent: \n(1) The owner seeks to recover possession to occupy the residential rental \nproperty for the owner or their spouse, domestic partner, child (by \nblood or adoption), grandchild (by blood or adoption), parent, or \ngrandparent for a minimum of 12 continuous months as that person\u2019s \nprimary residence. \n(A) For leases entered into on or after June 24, 2023, section \n98.0704(b)(1) shall apply only if the tenant agrees to the \ntermination in writing or if the lease expressly allows the \nowner to terminate the lease if the owner unilaterally decides \nto occupy the residential rental property for the owner or their \nspouse, domestic partner, child (by blood or adoption), \ngrandchild (by blood or adoption), parent, or grandparent. \n",
+          "document_index": 0,
+          "document_title": "D073",
+          "start_char_index": 13616,
+          "end_char_index": 14515
+        }
+      ],
+      "type": "text",
+      "text": "The owner seeks to recover possession to occupy the residential rental property for the owner or their spouse, domestic partner, child (by blood or adoption), grandchild (by blood or adoption), parent, or grandparent for a minimum of 12 continuous months as that person's primary residence. For leases entered into on or after June 24, 2023, this provision shall apply only if the tenant agrees to the termination in writing or if the lease expressly allows the owner to terminate the lease if the owner unilaterally decides to occupy the residential rental property."
+    },
+    {
+      "type": "text",
+      "text": "\n\n"
+    },
+    {
+      "citations": [
+        {
+          "type": "char_location",
+          "cited_text": "(C) Section 98.0704(b)(1) does not apply if the intended occupant \noccupies a rental unit on the property or if a vacancy of a \nsimilar unit already exists at the property.  \n \n \n \n \n",
+          "document_index": 0,
+          "document_title": "D073",
+          "start_char_index": 14820,
+          "end_char_index": 15003
+        }
+      ],
+      "type": "text",
+      "text": "Section 98.0704(b)(1) does not apply if the intended occupant occupies a rental unit on the property or if a vacancy of a similar unit already exists at the property."
+    },
+    {
+      "type": "text",
+      "text": "\n\n"
+    },
+    {
+      "citations": [
+        {
+          "type": "char_location",
+          "cited_text": "(E) Section 98.0704(b)(1) applies only if the intended occupant \nmoves into the residential rental property within 90 days after \nthe tenant vacates and occupies the residential rental property \nfor at least 12 continuous months. \n",
+          "document_index": 0,
+          "document_title": "D073",
+          "start_char_index": 15596,
+          "end_char_index": 15827
+        }
+      ],
+      "type": "text",
+      "text": "Section 98.0704(b)(1) applies only if the intended occupant moves into the residential rental property within 90 days after the tenant vacates and occupies the residential rental property for at least 12 continuous months."
+    },
+    {
+      "type": "text",
+      "text": "\n\n"
+    },
+    {
+      "citations": [
+        {
+          "type": "char_location",
+          "cited_text": "(F) If the intended occupant does not occupy the residential rental \nproperty within 90 days after the tenant vacates or does not \noccupy the residential rental property for at least 12 \ncontinuous months, the owner shall offer the residential rental \nproperty to the tenant who vacated it at the same rent and lease \nterms in effect at the time the tenant vacated and shall \nreimburse the tenant for reasonable moving expenses incurred \nin excess of any relocation assistance that was paid to the \ntenant in connection with the written notice terminating the \ntenancy. \n",
+          "document_index": 0,
+          "document_title": "D073",
+          "start_char_index": 15827,
+          "end_char_index": 16398
+        }
+      ],
+      "type": "text",
+      "text": "If the intended occupant does not occupy the residential rental property within 90 days after the tenant vacates or does not occupy the residential rental property for at least 12 continuous months, the owner shall offer the residential rental property to the tenant who vacated it at the same rent and lease terms in effect at the time the tenant vacated and shall reimburse the tenant for reasonable moving expenses incurred in excess of any relocation assistance that was paid to the tenant in connection with the written notice terminating the tenancy."
+    },
+    {
+      "type": "text",
+      "text": "\n\n**Withdrawal from Rental Market:** "
+    },
+    {
+      "citations": [
+        {
+          "type": "char_location",
+          "cited_text": "9 8 7 9 \n \nSan Diego Municipal Code Chapter 9:  Building, Housing and Sign Regulations   \n(3-2024) \n \n \n \n(2) The landlord seeks to recover possession to withdraw the residential \nrental property from the rental market. \n",
+          "document_index": 0,
+          "document_title": "D073",
+          "start_char_index": 17236,
+          "end_char_index": 17457
+        }
+      ],
+      "type": "text",
+      "text": "The landlord seeks to recover possession to withdraw the residential rental property from the rental market."
+    },
+    {
+      "type": "text",
+      "text": "\n\n**Compliance with Government Orders:** "
+    },
+    {
+      "citations": [
+        {
+          "type": "char_location",
+          "cited_text": "(3) The landlord seeks to recover possession to comply with any of the \nfollowing:  \n(A) an order issued by a government agency or court relating to \nhabitability that requires vacating the residential rental \nproperty for at least 30 days. An order issued by a government \nagency or court relating to habitability that requires vacating \nthe residential rental property for fewer than 30 days is not \ngrounds to terminate a tenancy for just cause and a landlord \nmay be required by applicable state or federal law to provide \ntenant relocation benefits; \n(B) an order issued by a government agency or court to vacate the \nresidential rental property; or  \n(C) a local ordinance that requires vacating the residential rental \nproperty.  \n",
+          "document_index": 0,
+          "document_title": "D073",
+          "start_char_index": 17457,
+          "end_char_index": 18195
+        }
+      ],
+      "type": "text",
+      "text": "The landlord seeks to recover possession to comply with an order issued by a government agency or court relating to habitability that requires vacating the residential rental property for at least 30 days. An order issued by a government agency or court relating to habitability that requires vacating the residential rental property for fewer than 30 days is not grounds to terminate a tenancy for just cause and a landlord may be required by applicable state or federal law to provide tenant relocation benefits."
+    },
+    {
+      "type": "text",
+      "text": "\n\n**Demolition or Substantial Remodel:** "
+    },
+    {
+      "citations": [
+        {
+          "type": "char_location",
+          "cited_text": "(4) The landlord seeks to recover possession to demolish or to \nsubstantially remodel the residential rental property. \n(A) For purposes of section 98.0704(b)(4), substantially remodel \nmeans either of the following that cannot be reasonably \naccomplished in a safe manner with the tenant in place and that \nrequires the tenant to vacate the residential rental property for \nat least 30 continuous days:  \n \n(i) the replacement or substantial modification of any \nstructural, electrical, plumbing, or mechanical system \nthat requires a permit from a governmental agency; or  \n(ii) the abatement of hazardous materials, including lead-\nbased paint, mold, or asbestos, in accordance with \napplicable federal, state, and local laws.  \n",
+          "document_index": 0,
+          "document_title": "D073",
+          "start_char_index": 18466,
+          "end_char_index": 19198
+        }
+      ],
+      "type": "text",
+      "text": "The landlord seeks to recover possession to demolish or to substantially remodel the residential rental property. For purposes of this provision, substantially remodel means either of the following that cannot be reasonably accomplished in a safe manner with the tenant in place and that requires the tenant to vacate the residential rental property for at least 30 continuous days: (i) the replacement or substantial modification of any structural, electrical, plumbing, or mechanical system that requires a permit from a governmental agency; or (ii) the abatement of hazardous materials, including lead-based paint, mold, or asbestos, in accordance with applicable federal, state, and local laws."
+    },
+    {
+      "type": "text",
+      "text": "\n\n**Notice Requirements for Demolition/Remodel:** "
+    },
+    {
+      "citations": [
+        {
+          "type": "char_location",
+          "cited_text": "(C) If permits are required for the demolition or substantial \nremodel of the residential rental property, landlord shall:  \n(i) post at the residential rental property a copy of the \napplication for the necessary permits within three \nbusiness days of submittal of the application; and  \n(ii) secure permits necessary for the demolition or \nsubstantial remodel of the residential rental property \nprior to issuing the written notice required in section \n98.0704(b)(4)(D). \n(D) A written notice terminating a tenancy for just cause under \nsection 98.0704(b)(4) shall include all the following, certified \nunder penalty of perjury: \n(i) A statement informing the tenant of the landlord\u2019s \nintent to demolish or substantially remodel the \nresidential rental property. \n",
+          "document_index": 0,
+          "document_title": "D073",
+          "start_char_index": 19834,
+          "end_char_index": 20601
+        }
+      ],
+      "type": "text",
+      "text": "If permits are required for the demolition or substantial remodel of the residential rental property, landlord shall post at the residential rental property a copy of the application for the necessary permits within three business days of submittal of the application; and secure permits necessary for the demolition or substantial remodel of the residential rental property prior to issuing the written notice."
+    },
+    {
+      "type": "text",
+      "text": "\n\n## NOTICE REQUIREMENTS\n\n**Notice for No-Fault Terminations:** "
+    },
+    {
+      "citations": [
+        {
+          "type": "char_location",
+          "cited_text": "If a \nlandlord issues a termination notice for no-fault just cause, the landlord shall \ndo the following: \n(1) Notice to Tenant. The landlord shall give written notice to the tenant \nat least 30 or 60 days prior to the proposed date of termination as \nrequired by California Civil Code section 1946.1, as may be amended, \nin no less than 12-point font. The written notice shall contain the \nfollowing: \n(A) The landlord shall provide a description of the basis for the \ntermination. \n",
+          "document_index": 0,
+          "document_title": "D073",
+          "start_char_index": 26298,
+          "end_char_index": 26782
+        }
+      ],
+      "type": "text",
+      "text": "The landlord shall give written notice to the tenant at least 30 or 60 days prior to the proposed date of termination as required by California Civil Code section 1946.1, in no less than 12-point font. The written notice shall contain the landlord's description of the basis for the termination."
+    },
+    {
+      "type": "text",
+      "text": "\n\n**Notice to Commission for No-Fault Terminations:** "
+    },
+    {
+      "citations": [
+        {
+          "type": "char_location",
+          "cited_text": "(2) Notice to Commission. The landlord shall provide written notice to the \nCommission of the no-fault just cause termination of tenancy under \nsection 98.0704(b) no later than three business days after the date the \nlandlord provided the required notice to tenant. Section 98.0706(b)(2) \nshall not apply until 30 days after the Commission establishes a \nsubmission portal and provides the public notice of its creation.   \n",
+          "document_index": 0,
+          "document_title": "D073",
+          "start_char_index": 28286,
+          "end_char_index": 28710
+        }
+      ],
+      "type": "text",
+      "text": "The landlord shall provide written notice to the Commission of the no-fault just cause termination of tenancy no later than three business days after the date the landlord provided the required notice to tenant. Section 98.0706(b)(2) shall not apply until 30 days after the Commission establishes a submission portal and provides the public notice of its creation."
+    },
+    {
+      "type": "text",
+      "text": "\n\n**Disclosure of Tenant Rights:** "
+    },
+    {
+      "citations": [
+        {
+          "type": "char_location",
+          "cited_text": "9 8 7 12 \n \nSan Diego Municipal Code Chapter 9:  Building, Housing and Sign Regulations   \n(3-2024) \n \n \n \n\u00a798.0705 Notice to Tenant of Residential Tenant Protections \n(a) A landlord of residential rental property subject to this Division shall provide \nwritten notice in no less than 12-point font to the tenant, and in a manner that \ncomplies with California Civil Code section 1632, as may be amended, that \nstates as follows: \nCalifornia law limits the amount your rent can be increased. See \nCalifornia Civil Code section 1947.12 for more information. Local law \nalso provides that a landlord shall provide a statement of cause in any \nnotice to terminate a tenancy. In some circumstances, tenants who are \nseniors (62 years or older) or disabled may be entitled to additional \ntenant protections. See Chapter 9, Article 8, Division 7 of the San \nDiego Municipal Code for more information. \n \n",
+          "document_index": 0,
+          "document_title": "D073",
+          "start_char_index": 22663,
+          "end_char_index": 23561
+        }
+      ],
+      "type": "text",
+      "text": "A landlord shall provide written notice in no less than 12-point font to the tenant that states: \"California law limits the amount your rent can be increased. See California Civil Code section 1947.12 for more information. Local law also provides that a landlord shall provide a statement of cause in any notice to terminate a tenancy. In some circumstances, tenants who are seniors (62 years or older) or disabled may be entitled to additional tenant protections. See Chapter 9, Article 8, Division 7 of the San Diego Municipal Code for more information.\""
+    },
+    {
+      "type": "text",
+      "text": "\n\n"
+    },
+    {
+      "citations": [
+        {
+          "type": "char_location",
+          "cited_text": "(b) A landlord of residential rental property subject to this Division shall include \na copy of the Tenant Protection Guide with the written notice required by \nsection 98.0705(a). \n \nThe Commission shall prepare and make available on the Commission\u2019s \nwebsite a Tenant Protection Guide, which shall include educational \ninformation and resources for the tenant to understand their rights under this \nDivision and state law, including the rights to quiet enjoyment and habitability \nof the residential rental property. \n \n",
+          "document_index": 0,
+          "document_title": "D073",
+          "start_char_index": 23561,
+          "end_char_index": 24083
+        }
+      ],
+      "type": "text",
+      "text": "A landlord shall include a copy of the Tenant Protection Guide with the written notice required. The Commission shall prepare and make available on the Commission's website a Tenant Protection Guide, which shall include educational information and resources for the tenant to understand their rights under this Division and state law, including the rights to quiet enjoyment and habitability of the residential rental property."
+    },
+    {
+      "type": "text",
+      "text": "\n\n**Timing of Tenant Protections Notice:** "
+    },
+    {
+      "citations": [
+        {
+          "type": "char_location",
+          "cited_text": "(c) For a tenancy in a residential rental property subject to this Division existing \nbefore June 24, 2023, the notice required by section 98.0705(a) and the \nTenant Protection Guide required by section 98.0705(b) shall be provided to \nthe tenant directly or as an addendum to the lease within 90 days of June 24, \n2023.  \n",
+          "document_index": 0,
+          "document_title": "D073",
+          "start_char_index": 24083,
+          "end_char_index": 24406
+        }
+      ],
+      "type": "text",
+      "text": "For a tenancy in a residential rental property subject to this Division existing before June 24, 2023, the notice required and the Tenant Protection Guide shall be provided to the tenant directly or as an addendum to the lease within 90 days of June 24, 2023."
+    },
+    {
+      "type": "text",
+      "text": "\n\n"
+    },
+    {
+      "citations": [
+        {
+          "type": "char_location",
+          "cited_text": "(d) For a tenancy in a residential rental property subject to this Division \ncommencing or renewed on or after June 24, 2023, the notice required by \nsection 98.0705(a) and the Tenant Protection Guide required by \nsection 98.0705(b) shall be included in the lease, or as a written notice signed \nby the tenant at the time the lease is signed, with a copy provided to the \ntenant. \n",
+          "document_index": 0,
+          "document_title": "D073",
+          "start_char_index": 24406,
+          "end_char_index": 24787
+        }
+      ],
+      "type": "text",
+      "text": "For a tenancy in a residential rental property subject to this Division commencing or renewed on or after June 24, 2023, the notice required and the Tenant Protection Guide shall be included in the lease, or as a written notice signed by the tenant at the time the lease is signed, with a copy provided to the tenant."
+    },
+    {
+      "type": "text",
+      "text": "\n\n## RELOCATION ASSISTANCE\n\n**Status:** Enacted; Effective 6-24-2023\n\n**Amount for Standard Tenants:** "
+    },
+    {
+      "citations": [
+        {
+          "type": "char_location",
+          "cited_text": "(c) Relocation Assistance for Termination of Tenancy for No-Fault Just Cause.  \n(1) The landlord shall, regardless of the tenant\u2019s income or length of \ntenancy and at the landlord\u2019s option, provide relocation assistance to \nthe tenant by one of the following:  \nCh. ",
+          "document_index": 0,
+          "document_title": "D073",
+          "start_char_index": 28710,
+          "end_char_index": 28976
+        },
+        {
+          "type": "char_location",
+          "cited_text": "9 8 7 15 \n \nSan Diego Municipal Code Chapter 9:  Building, Housing and Sign Regulations   \n(3-2024) \n \n \n \n(A) The landlord shall provide a direct payment to the tenant. \n \n(i) Unless section 98.0706(c)(1)(A)(ii) applies, the direct \npayment to the tenant shall be in an amount equal to \ntwo months of actual rent under the tenant\u2019s lease in \neffect at the date of the notice.  \n \n",
+          "document_index": 0,
+          "document_title": "D073",
+          "start_char_index": 28988,
+          "end_char_index": 29369
+        }
+      ],
+      "type": "text",
+      "text": "The landlord shall, regardless of the tenant's income or length of tenancy and at the landlord's option, provide relocation assistance to the tenant by direct payment. Unless the tenant is a senior or disabled, the direct payment to the tenant shall be in an amount equal to two months of actual rent under the tenant's lease in effect at the date of the notice."
+    },
+    {
+      "type": "text",
+      "text": "\n\n**Amount for Seniors and Disabled Tenants:** "
+    },
+    {
+      "citations": [
+        {
+          "type": "char_location",
+          "cited_text": "(ii) If the tenant is a senior or disabled, the direct payment \nto the tenant shall be in an amount equal to three \nmonths of actual rent under the tenant\u2019s lease in effect \nat the date of the notice. \n",
+          "document_index": 0,
+          "document_title": "D073",
+          "start_char_index": 29369,
+          "end_char_index": 29571
+        }
+      ],
+      "type": "text",
+      "text": "If the tenant is a senior or disabled, the direct payment to the tenant shall be in an amount equal to three months of actual rent under the tenant's lease in effect at the date of the notice."
+    },
+    {
+      "type": "text",
+      "text": "\n\n**Alternative: Rent Waiver:** "
+    },
+    {
+      "citations": [
+        {
+          "type": "char_location",
+          "cited_text": "(B) The landlord shall waive, and not collect the payment by \ntenant, of any currently due or future rent under the tenant\u2019s \nlease at the time of the notice and through the remainder of the \ntenancy in an amount equal to the applicable direct payment as \nset forth in section 98.0706(c)(1)(A). \n",
+          "document_index": 0,
+          "document_title": "D073",
+          "start_char_index": 29571,
+          "end_char_index": 29867
+        }
+      ],
+      "type": "text",
+      "text": "The landlord shall waive, and not collect the payment by tenant, of any currently due or future rent under the tenant's lease at the time of the notice and through the remainder of the tenancy in an amount equal to the applicable direct payment."
+    },
+    {
+      "type": "text",
+      "text": "\n\n**Multiple Tenants:** "
+    },
+    {
+      "citations": [
+        {
+          "type": "char_location",
+          "cited_text": "(2) When more than one tenant occupies the residential rental property \nand the landlord elects to provide direct payment of relocation \nassistance to the tenants, the landlord may make a single direct \npayment to all the tenants named in the lease. \n \n",
+          "document_index": 0,
+          "document_title": "D073",
+          "start_char_index": 29867,
+          "end_char_index": 30120
+        }
+      ],
+      "type": "text",
+      "text": "When more than one tenant occupies the residential rental property and the landlord elects to provide direct payment of relocation assistance to the tenants, the landlord may make a single direct payment to all the tenants named in the lease."
+    },
+    {
+      "type": "text",
+      "text": "\n\n**Relationship to Other Assistance:** "
+    },
+    {
+      "citations": [
+        {
+          "type": "char_location",
+          "cited_text": "(3) The relocation assistance required by this Division shall not relieve the \nlandlord\u2019s obligation to, and shall be in addition to, the return of any \ndeposit or security amounts owed to the tenant.  \n \n(4) Any relocation assistance required by this Division shall be credited \nagainst any other relocation assistance required by any federal, state, \nor other local law. \n \n",
+          "document_index": 0,
+          "document_title": "D073",
+          "start_char_index": 30120,
+          "end_char_index": 30496
+        }
+      ],
+      "type": "text",
+      "text": "The relocation assistance required by this Division shall not relieve the landlord's obligation to, and shall be in addition to, the return of any deposit or security amounts owed to the tenant. Any relocation assistance required by this Division shall be credited against any other relocation assistance required by any federal, state, or other local law."
+    },
+    {
+      "type": "text",
+      "text": "\n\n**Notice of Relocation Rights:** "
+    },
+    {
+      "citations": [
+        {
+          "type": "char_location",
+          "cited_text": "The written notice shall contain the \nfollowing: \n(A) The landlord shall provide a description of the basis for the \ntermination. \n(B) The notice shall state the tenant\u2019s right to relocation assistance \nestablished in section 98.0706(c) by a direct payment to the \ntenant or rent waiver.  \n \n \n",
+          "document_index": 0,
+          "document_title": "D073",
+          "start_char_index": 26651,
+          "end_char_index": 26945
+        }
+      ],
+      "type": "text",
+      "text": "The notice shall state the tenant's right to relocation assistance by a direct payment to the tenant or rent waiver."
+    },
+    {
+      "type": "text",
+      "text": "\n\n## RIGHT TO RENEW TENANCY\n\n**Status:** Enacted; Effective 6-24-2023\n\n**Scope:** "
+    },
+    {
+      "citations": [
+        {
+          "type": "char_location",
+          "cited_text": "(d) Additional Requirement Upon Termination of a Tenancy for No-Fault Just \nCause.  \nCh. ",
+          "document_index": 0,
+          "document_title": "D073",
+          "start_char_index": 30782,
+          "end_char_index": 30871
+        },
+        {
+          "type": "char_location",
+          "cited_text": "9 8 7 16 \n \nSan Diego Municipal Code Chapter 9:  Building, Housing and Sign Regulations   \n(3-2024) \n \n \n \nIf a residential rental property is offered for rent or lease for residential \npurposes within five years of the date the tenant was evicted under \nsections 98.0704(b)(1), (3), or (4), landlord shall first offer to lease the \nresidential rental property in writing to the tenant displaced from that unit by \nthe no-fault just cause termination if the tenant:   \n(1) advised the landlord in writing within 30 days of the termination \nnotice of the tenant\u2019s desire to receive an offer to renew the tenancy; \nand  \n(2) provided the landlord a mailing address or email address for the \nlandlord to send the offer, including any change of mailing address or \nemail address.  \n",
+          "document_index": 0,
+          "document_title": "D073",
+          "start_char_index": 30883,
+          "end_char_index": 31661
+        }
+      ],
+      "type": "text",
+      "text": "If a residential rental property is offered for rent or lease for residential purposes within five years of the date the tenant was evicted under sections 98.0704(b)(1), (3), or (4), landlord shall first offer to lease the residential rental property in writing to the tenant displaced from that unit by the no-fault just cause termination if the tenant advised the landlord in writing within 30 days of the termination notice of the tenant's desire to receive an offer to renew the tenancy and provided the landlord a mailing address or email address for the landlord to send the offer, including any change of mailing address or email address."
+    },
+    {
+      "type": "text",
+      "text": "\n\n**Screening Rights:** "
+    },
+    {
+      "citations": [
+        {
+          "type": "char_location",
+          "cited_text": "The landlord shall have the right to screen the tenant using industry accepted \nmethods and shall communicate the minimum screening criteria in the written \noffer for the new tenancy. The tenant shall have 30 days from the date of \nreceipt of the offer to accept. \n",
+          "document_index": 0,
+          "document_title": "D073",
+          "start_char_index": 31661,
+          "end_char_index": 31926
+        }
+      ],
+      "type": "text",
+      "text": "The landlord shall have the right to screen the tenant using industry accepted methods and shall communicate the minimum screening criteria in the written offer for the new tenancy. The tenant shall have 30 days from the date of receipt of the offer to accept."
+    },
+    {
+      "type": "text",
+      "text": "\n\n## BUYOUT AGREEMENTS\n\n**Status:** Enacted; Effective 6-24-2023\n\n**Purpose:** "
+    },
+    {
+      "citations": [
+        {
+          "type": "char_location",
+          "cited_text": "\u00a798.0707 Buyout Agreements \nIt is the purpose and intent of section 98.0707 to regulate buyout agreements to \nincrease the fairness of buyout negotiations and agreements, to ensure that tenants \nwho enter into buyout agreements are aware of their rights, and to prevent landlords \nfrom contracting around the legal rights and remedies available to tenants under \nexisting law. \n",
+          "document_index": 0,
+          "document_title": "D073",
+          "start_char_index": 32263,
+          "end_char_index": 32641
+        }
+      ],
+      "type": "text",
+      "text": "It is the purpose and intent of section 98.0707 to regulate buyout agreements to increase the fairness of buyout negotiations and agreements, to ensure that tenants who enter into buyout agreements are aware of their rights, and to prevent landlords from contracting around the legal rights and remedies available to tenants under existing law."
+    },
+    {
+      "type": "text",
+      "text": "\n\n**Definition:** "
+    },
+    {
+      "citations": [
+        {
+          "type": "char_location",
+          "cited_text": "The following \ndefinitions apply in this Division: \nBuyout agreement means an agreement where the landlord pays the tenant money or \nother consideration to vacate the residential rental property. A buyout agreement \ndoes not include an agreement to settle a pending unlawful detainer action. \n \n",
+          "document_index": 0,
+          "document_title": "D073",
+          "start_char_index": 1478,
+          "end_char_index": 1773
+        }
+      ],
+      "type": "text",
+      "text": "Buyout agreement means an agreement where the landlord pays the tenant money or other consideration to vacate the residential rental property. A buyout agreement does not include an agreement to settle a pending unlawful detainer action."
+    },
+    {
+      "type": "text",
+      "text": "\n\n**Pre-Offer Disclosure:** "
+    },
+    {
+      "citations": [
+        {
+          "type": "char_location",
+          "cited_text": "(a) Disclosure Prior to Buyout Offers. Prior to making a buyout offer, the landlord \nshall provide each tenant in a residential rental property a written disclosure \nthat shall include the following: \n(1) a statement that the tenant has a right not to enter into a buyout \nagreement; \n(2) a statement that the tenant may choose to consult with an attorney \nbefore entering into a buyout agreement; \nCh. ",
+          "document_index": 0,
+          "document_title": "D073",
+          "start_char_index": 32641,
+          "end_char_index": 33044
+        },
+        {
+          "type": "char_location",
+          "cited_text": "9 8 7 17 \n \nSan Diego Municipal Code Chapter 9:  Building, Housing and Sign Regulations   \n(3-2024) \n \n \n \n(3) a statement that the landlord may not retaliate against the tenant for \nrefusing to enter into or negotiate a buyout agreement; \n(4) a statement that all tenants of a residential rental property may refuse \nto receive future buyout offers by providing landlord written notice of \ntheir refusal, which shall be effective for six months, and all tenants of \na residential rental property may rescind the refusal to receive future \nbuyout offers by providing landlord written notice of the rescission; \n(5) a statement that the tenant is eligible for relocation assistance and the \namount of the required relocation assistance in section 98.0706(c); \n(6) the names of all people authorized to discuss the buyout offer and enter \ninto a buyout agreement on the landlord\u2019s behalf; \n(7) a space for each tenant to sign and write the date the landlord \nprovided the tenant with the disclosure; and \n(8) a space for the landlord to sign and write the date on which the \nlandlord provided the tenant with the disclosure. \n",
+          "document_index": 0,
+          "document_title": "D073",
+          "start_char_index": 33056,
+          "end_char_index": 34180
+        }
+      ],
+      "type": "text",
+      "text": "Prior to making a buyout offer, the landlord shall provide each tenant in a residential rental property a written disclosure that shall include: a statement that the tenant has a right not to enter into a buyout agreement; a statement that the tenant may choose to consult with an attorney before entering into a buyout agreement; a statement that the landlord may not retaliate against the tenant for refusing to enter into or negotiate a buyout agreement; a statement that all tenants of a residential rental property may refuse to receive future buyout offers by providing landlord written notice of their refusal, which shall be effective for six months; a statement that the tenant is eligible for relocation assistance and the amount of the required relocation assistance; the names of all people authorized to discuss the buyout offer; and spaces for both tenant and landlord signatures and dates."
+    },
+    {
+      "type": "text",
+      "text": "\n\n**Disclosure Delivery:** "
+    },
+    {
+      "citations": [
+        {
+          "type": "char_location",
+          "cited_text": "(b) The landlord shall provide each tenant a fully executed copy of the disclosure \nform within three days of its execution and retain a copy of each signed \ndisclosure form for five years, along with a record of the date the landlord \nprovided the disclosure to each tenant.  \n \n",
+          "document_index": 0,
+          "document_title": "D073",
+          "start_char_index": 34180,
+          "end_char_index": 34460
+        }
+      ],
+      "type": "text",
+      "text": "The landlord shall provide each tenant a fully executed copy of the disclosure form within three days of its execution and retain a copy of each signed disclosure form for five years, along with a record of the date the landlord provided the disclosure to each tenant."
+    },
+    {
+      "type": "text",
+      "text": "\n\n**Agreement Requirements:** "
+    },
+    {
+      "citations": [
+        {
+          "type": "char_location",
+          "cited_text": "(c) Requirements for Buyout Agreements. The landlord shall comply with the \nfollowing: \n(1) The buyout agreement shall be in writing. \n(2) A copy of the buyout agreement shall be given to each tenant at the \ntime the tenant signs the buyout agreement. \n",
+          "document_index": 0,
+          "document_title": "D073",
+          "start_char_index": 34460,
+          "end_char_index": 34713
+        }
+      ],
+      "type": "text",
+      "text": "The buyout agreement shall be in writing. A copy of the buyout agreement shall be given to each tenant at the time the tenant signs the buyout agreement."
+    },
+    {
+      "type": "text",
+      "text": "\n\n**Required Statements in Agreement:** "
+    },
+    {
+      "citations": [
+        {
+          "type": "char_location",
+          "cited_text": "(3) The buyout agreement shall include the following statements in bold \nletters in at least 14-point font in close proximity to the space reserved \nfor the signature of the tenant: \n(A) You, the tenant, have a right not to enter into this buyout \nagreement.  \nCh. ",
+          "document_index": 0,
+          "document_title": "D073",
+          "start_char_index": 34713,
+          "end_char_index": 34978
+        },
+        {
+          "type": "char_location",
+          "cited_text": "9 8 7 18 \n \nSan Diego Municipal Code Chapter 9:  Building, Housing and Sign Regulations   \n(3-2024) \n \n \n \n(B) If you, the tenant, are entitled to relocation assistance under \nfederal, state, or local law, a buyout agreement for less than the \namount of the relocation assistance to which you are entitled \nviolates Chapter 9, Article 8, Division 7 of the San Diego \nMunicipal Code and is void. \n(C) You, the tenant, may choose to consult with an attorney before \nsigning this agreement. \n",
+          "document_index": 0,
+          "document_title": "D073",
+          "start_char_index": 34990,
+          "end_char_index": 35479
+        }
+      ],
+      "type": "text",
+      "text": "The buyout agreement shall include the following statements in bold letters in at least 14-point font in close proximity to the space reserved for the signature of the tenant: \"You, the tenant, have a right not to enter into this buyout agreement\"; \"If you, the tenant, are entitled to relocation assistance under federal, state, or local law, a buyout agreement for less than the amount of the relocation assistance to which you are entitled violates Chapter 9, Article 8, Division 7 of the San Diego Municipal Code and is void\"; and \"You, the tenant, may choose to consult with an attorney before signing this agreement.\""
+    },
+    {
+      "type": "text",
+      "text": "\n\n**Language Accommodation:** "
+    },
+    {
+      "citations": [
+        {
+          "type": "char_location",
+          "cited_text": "(4) If the tenant primarily negotiates the buyout agreement or lease, orally \nor in writing, in a non-English language, the landlord shall provide the \ntenant with an English and a translated version of the buyout \nagreement at the same time. \n",
+          "document_index": 0,
+          "document_title": "D073",
+          "start_char_index": 35479,
+          "end_char_index": 35723
+        }
+      ],
+      "type": "text",
+      "text": "If the tenant primarily negotiates the buyout agreement or lease, orally or in writing, in a non-English language, the landlord shall provide the tenant with an English and a translated version of the buyout agreement at the same time."
+    },
+    {
+      "type": "text",
+      "text": "\n\n**Minimum Amount:** "
+    },
+    {
+      "citations": [
+        {
+          "type": "char_location",
+          "cited_text": "Buyout agreements must be for an amount that is \ngreater than the amount of relocation assistance available to the tenant in \nsection 98.0706(c). A buyout agreement for less than the amount of relocation \nassistance owed to the tenant violates this Division and is void. \n",
+          "document_index": 0,
+          "document_title": "D073",
+          "start_char_index": 35872,
+          "end_char_index": 36144
+        }
+      ],
+      "type": "text",
+      "text": "Buyout agreements must be for an amount that is greater than the amount of relocation assistance available to the tenant. A buyout agreement for less than the amount of relocation assistance owed to the tenant violates this Division and is void."
+    },
+    {
+      "type": "text",
+      "text": "\n\n**Strict Compliance Requirement:** "
+    },
+    {
+      "citations": [
+        {
+          "type": "char_location",
+          "cited_text": "A buyout agreement that does not strictly comply with all the requirements of \nsection 98.0707(c)(1)-(4) shall be void. \n",
+          "document_index": 0,
+          "document_title": "D073",
+          "start_char_index": 35723,
+          "end_char_index": 35844
+        }
+      ],
+      "type": "text",
+      "text": "A buyout agreement that does not strictly comply with all the requirements shall be void."
+    },
+    {
+      "type": "text",
+      "text": "\n\n**Non-Waivability:** "
+    },
+    {
+      "citations": [
+        {
+          "type": "char_location",
+          "cited_text": "(e) No Waiver. The provisions of section 98.0707 may not be waived by a buyout \nagreement. Any term of a buyout agreement, lease, contract, or other \nagreement which purports to waive or limit a tenant's rights under \nsection 98.0707 is contrary to public policy, unenforceable, and void. \n",
+          "document_index": 0,
+          "document_title": "D073",
+          "start_char_index": 36144,
+          "end_char_index": 36434
+        }
+      ],
+      "type": "text",
+      "text": "The provisions of section 98.0707 may not be waived by a buyout agreement. Any term of a buyout agreement, lease, contract, or other agreement which purports to waive or limit a tenant's rights under section 98.0707 is contrary to public policy, unenforceable, and void."
+    },
+    {
+      "type": "text",
+      "text": "\n\n## RETALIATION PROTECTIONS\n\n**Status:** Enacted; Effective 6-24-2023\n\n**Core Prohibition:** "
+    },
+    {
+      "citations": [
+        {
+          "type": "char_location",
+          "cited_text": "\u00a798.0708 Retaliation Prohibited \nA landlord shall not retaliate against a tenant for exercising any right provided by \nthis Division or seeking the enforcement of this Division. \n",
+          "document_index": 0,
+          "document_title": "D073",
+          "start_char_index": 36515,
+          "end_char_index": 36694
+        }
+      ],
+      "type": "text",
+      "text": "A landlord shall not retaliate against a tenant for exercising any right provided by this Division or seeking the enforcement of this Division."
+    },
+    {
+      "type": "text",
+      "text": "\n\n**Definition:** "
+    },
+    {
+      "citations": [
+        {
+          "type": "char_location",
+          "cited_text": "Retaliation means any threat or any other adverse action against a tenant for \nexercising or attempting to exercise any right guaranteed under this Division. \n \n",
+          "document_index": 0,
+          "document_title": "D073",
+          "start_char_index": 4444,
+          "end_char_index": 4605
+        }
+      ],
+      "type": "text",
+      "text": "Retaliation means any threat or any other adverse action against a tenant for exercising or attempting to exercise any right guaranteed under this Division."
+    },
+    {
+      "type": "text",
+      "text": "\n\n## EXEMPTIONS\n\n**Status:** Enacted; Effective 6-24-2023\n\n"
+    },
+    {
+      "citations": [
+        {
+          "type": "char_location",
+          "cited_text": "\u00a798.0703 Exemptions \nThis Division shall not apply to the following types of residential rental properties or \nresidential circumstances: \n(a) transient and tourist hotel occupancy as defined in California Civil Code \nsection 1940(b), as may be amended; \n(b) short-term residential occupancy, as defined in and subject to Chapter 5, \nArticle 10, Division 1 of this Code, as may be amended;  \n \n(c) housing restricted by deed, regulatory restriction contained in an agreement \nwith a government agency, or other document as affordable housing for \npersons and families of very low, low, or moderate income, as defined in \nCalifornia Health and Safety Code section 50093, as may be amended;  \n(d)  housing subject to an agreement that provides housing subsidies for affordable \nhousing for persons and families of very low, low, or moderate income, as \ndefined in California Health and Safety Code section 50093, as may be \namended, or comparable federal statutes. ",
+          "document_index": 0,
+          "document_title": "D073",
+          "start_char_index": 5678,
+          "end_char_index": 6641
+        }
+      ],
+      "type": "text",
+      "text": "This Division shall not apply to the following types of residential rental properties or residential circumstances: (a) transient and tourist hotel occupancy; (b) short-term residential occupancy; (c) housing restricted by deed, regulatory restriction contained in an agreement with a government agency, or other document as affordable housing for persons and families of very low, low, or moderate income; (d) housing subject to an agreement that provides housing subsidies for affordable housing for persons and families of very low, low, or moderate income, or comparable federal statutes (though this exemption shall not include Section 8); (e) mobilehomes subject to the Mobilehome Residency Law; (f) housing accommodations in a nonprofit hospital, religious facility, extended care facility, licensed residential care facility for the elderly, adult residential facility, or non-profit transitional housing; (g) dormitories owned and operated by an institution of higher education or an institution offering instruction to any grade from kindergarten through 12; (h) residential rental property in which the tenant shares bathroom or kitchen facilities with the landlord who maintains their principal residence at the residential rental property; (i) single-family residence occupied by the landlord as the landlord's principal place of residence, including a residence in which the landlord-occupant rents or leases no more than two bedrooms, two accessory dwelling units, or two junior accessory dwelling units, and a mobilehome; (j) a property containing two separate dwelling units within a single structure in which the landlord occupies one of the dwelling units as the landlord's principal place of residence at the beginning of the tenancy, so long as the landlord continues in occupancy; (k) housing that has been issued a certificate of occupancy within the previous 15 years, unless the housing is a mobilehome; and (l) residential rental property, including a mobilehome, that is alienable separate from the title to any other dwelling unit, provided the landlord is not a real estate investment trust, corporation, limited liability company in which at least one member is a corporation, or management of a mobilehome park, and tenants have been provided written notice of exemption in the lease."
+    },
+    {
+      "type": "text",
+      "text": "\n\n"
+    },
+    {
+      "citations": [
+        {
+          "type": "char_location",
+          "cited_text": "For a tenancy existing before January 1, 2024, the notice required \nabove may be provided in the lease. For a tenancy commenced or \nrenewed on or after January 1, 2024, the notice required above shall be \nprovided in the lease. \n",
+          "document_index": 0,
+          "document_title": "D073",
+          "start_char_index": 9898,
+          "end_char_index": 10127
+        }
+      ],
+      "type": "text",
+      "text": "For a tenancy existing before January 1, 2024, the notice required may be provided in the lease. For a tenancy commenced or renewed on or after January 1, 2024, the notice required shall be provided in the lease."
+    },
+    {
+      "type": "text",
+      "text": "\n\n## REMEDIES AND ENFORCEMENT\n\n**Status:** Enacted; Effective 6-24-2023\n\n**Tenant Remedies:** "
+    },
+    {
+      "citations": [
+        {
+          "type": "char_location",
+          "cited_text": "\u00a798.0709 Remedies \n(a) A tenant claiming a violation of this Division may file an action against a \nlandlord in a court of competent jurisdiction. \n \n(b) A tenant may seek injunctive relief, equitable relief, and money damages, \nincluding punitive damages, in a civil action against a landlord for a violation \nof this Division.  \n",
+          "document_index": 0,
+          "document_title": "D073",
+          "start_char_index": 36776,
+          "end_char_index": 37107
+        }
+      ],
+      "type": "text",
+      "text": "A tenant claiming a violation of this Division may file an action against a landlord in a court of competent jurisdiction. A tenant may seek injunctive relief, equitable relief, and money damages, including punitive damages, in a civil action against a landlord for a violation of this Division."
+    },
+    {
+      "type": "text",
+      "text": "\n\n**Affirmative Defense:** "
+    },
+    {
+      "citations": [
+        {
+          "type": "char_location",
+          "cited_text": "Ch. Art. Div.  \n9 8 7 19 \n \nSan Diego Municipal Code Chapter 9:  Building, Housing and Sign Regulations   \n(3-2024) \n \n \n \n(c) A tenant may raise, as an affirmative defense, any violation or noncompliance \nwith this Division in any action by a landlord to recover possession of a \nresidential rental property. \n \n",
+          "document_index": 0,
+          "document_title": "D073",
+          "start_char_index": 37107,
+          "end_char_index": 37420
+        }
+      ],
+      "type": "text",
+      "text": "A tenant may raise, as an affirmative defense, any violation or noncompliance with this Division in any action by a landlord to recover possession of a residential rental property."
+    },
+    {
+      "type": "text",
+      "text": "\n\n**Wrongful Eviction Damages:** "
+    },
+    {
+      "citations": [
+        {
+          "type": "char_location",
+          "cited_text": "(d) Any attempt by a landlord to recover possession of a residential rental \nproperty or any actual recovery of possession of a residential rental property \nin violation of this Division shall render the landlord liable to the tenant in a \ncivil action for wrongful eviction for damages of not less than three times the \nactual economic damages. \n \n",
+          "document_index": 0,
+          "document_title": "D073",
+          "start_char_index": 37420,
+          "end_char_index": 37769
+        }
+      ],
+      "type": "text",
+      "text": "Any attempt by a landlord to recover possession of a residential rental property or any actual recovery of possession of a residential rental property in violation of this Division shall render the landlord liable to the tenant in a civil action for wrongful eviction for damages of not less than three times the actual economic damages."
+    },
+    {
+      "type": "text",
+      "text": "\n\n**Relocation Assistance Non-Compliance:** "
+    },
+    {
+      "citations": [
+        {
+          "type": "char_location",
+          "cited_text": "(e) Any landlord who fails to provide relocation assistance as required by \nsection 98.0706(c) shall be liable to the tenant in a civil action for not less \nthan three times the required relocation assistance and actual economic \ndamages. \n \n",
+          "document_index": 0,
+          "document_title": "D073",
+          "start_char_index": 37769,
+          "end_char_index": 38011
+        }
+      ],
+      "type": "text",
+      "text": "Any landlord who fails to provide relocation assistance as required by section 98.0706(c) shall be liable to the tenant in a civil action for not less than three times the required relocation assistance and actual economic damages."
+    },
+    {
+      "type": "text",
+      "text": "\n\n**Attorney's Fees:** "
+    },
+    {
+      "citations": [
+        {
+          "type": "char_location",
+          "cited_text": "(f) In the court's discretion, a landlord who attempts to recover possession of a \nresidential rental property in material violation of this Division shall be liable \nto the tenant in a civil action for reasonable attorney\u2019s fees and costs. \n \n",
+          "document_index": 0,
+          "document_title": "D073",
+          "start_char_index": 38011,
+          "end_char_index": 38255
+        }
+      ],
+      "type": "text",
+      "text": "In the court's discretion, a landlord who attempts to recover possession of a residential rental property in material violation of this Division shall be liable to the tenant in a civil action for reasonable attorney's fees and costs."
+    },
+    {
+      "type": "text",
+      "text": "\n\n**Cumulative Remedies:** "
+    },
+    {
+      "citations": [
+        {
+          "type": "char_location",
+          "cited_text": "(g) The remedies under section 98.0709 are cumulative and may be used in \naddition to any other remedies in this Division or at law, statute, or ordinance. \n \n",
+          "document_index": 0,
+          "document_title": "D073",
+          "start_char_index": 38255,
+          "end_char_index": 38414
+        }
+      ],
+      "type": "text",
+      "text": "The remedies under section 98.0709 are cumulative and may be used in addition to any other remedies in this Division or at law, statute, or ordinance."
+    },
+    {
+      "type": "text",
+      "text": "\n\n**City Enforcement:** "
+    },
+    {
+      "citations": [
+        {
+          "type": "char_location",
+          "cited_text": "(h) The City may enforce this Division under Chapter 1, Article 2 of this Code, \nincluding civil and criminal remedies. \n",
+          "document_index": 0,
+          "document_title": "D073",
+          "start_char_index": 38414,
+          "end_char_index": 38535
+        }
+      ],
+      "type": "text",
+      "text": "The City may enforce this Division under Chapter 1, Article 2 of this Code, including civil and criminal remedies."
+    },
+    {
+      "type": "text",
+      "text": "\n\n**Void Notices:** "
+    },
+    {
+      "citations": [
+        {
+          "type": "char_location",
+          "cited_text": "\u00a798.0710 Failure to Comply with Division \nIn addition to other remedies applicable to landlord\u2019s failure to comply with this \nDivision, a landlord\u2019s failure to comply with any provision of this Division shall \nrender void any notice of termination required by this Division.  \n",
+          "document_index": 0,
+          "document_title": "D073",
+          "start_char_index": 38664,
+          "end_char_index": 38941
+        }
+      ],
+      "type": "text",
+      "text": "In addition to other remedies applicable to landlord's failure to comply with this Division, a landlord's failure to comply with any provision of this Division shall render void any notice of termination required by this Division."
+    },
+    {
+      "type": "text",
+      "text": "\n\n## TOPICS NOT COVERED IN DOCUMENT\n\nThe document does not contain provisions regarding:\n- Rent caps or rent increase limitations\n- Security deposit limits or regulations\n- Application or screening fees\n- Screening restrictions or criteria\n- Algorithmic pricing or rent-setting methodologies"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 14685,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 5390,
+    "service_tier": "batch",
+    "inference_geo": "not_available"
+  },
+  "diagnostics": null
+}

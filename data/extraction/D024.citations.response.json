@@ -1,0 +1,281 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011CfftopYUFBjdT4LWUNJFk",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "# California Rental Housing Obligations and Exemptions (CIV 1947.12)\n## As of October 1, 2026\n\nBased on the document provided, I can only identify obligations and exemptions related to **rent caps**. The document does not contain information about just cause eviction, deposits, application/screening fees, screening restrictions, or algorithmic pricing.\n\n---\n\n## RENT CAPS\n\n### **Operative Obligation**\n\n"
+    },
+    {
+      "citations": [
+        {
+          "type": "char_location",
+          "cited_text": "(a)\u00a0(1) \u2002 Subject to subdivision (b), an owner of residential real property shall not, over the course of any 12-month period, increase the gross rental rate for a dwelling or a unit more than 5 percent plus the percentage change in the cost of living, or 10 percent, whichever is lower, of the lowest gross rental rate charged for that dwelling or unit at any time during the 12 months prior to the effective date of the increase. ",
+          "document_index": 0,
+          "document_title": "D024",
+          "start_char_index": 1246,
+          "end_char_index": 1678
+        }
+      ],
+      "type": "text",
+      "text": "An owner of residential real property shall not, over the course of any 12-month period, increase the gross rental rate for a dwelling or a unit more than 5 percent plus the percentage change in the cost of living, or 10 percent, whichever is lower, of the lowest gross rental rate charged for that dwelling or unit at any time during the 12 months prior to the effective date of the increase."
+    },
+    {
+      "type": "text",
+      "text": "\n\n"
+    },
+    {
+      "citations": [
+        {
+          "type": "char_location",
+          "cited_text": "(2)\u00a0If the same tenant remains in occupancy of a unit of residential real property over any 12-month period, the gross rental rate for the unit of residential real property shall not be increased in more than two increments over that 12-month period, subject to the other restrictions of this subdivision governing gross rental rate increase.\n",
+          "document_index": 0,
+          "document_title": "D024",
+          "start_char_index": 2151,
+          "end_char_index": 2494
+        }
+      ],
+      "type": "text",
+      "text": "If the same tenant remains in occupancy of a unit of residential real property over any 12-month period, the gross rental rate for the unit of residential real property shall not be increased in more than two increments over that 12-month period, subject to the other restrictions of this subdivision governing gross rental rate increase."
+    },
+    {
+      "type": "text",
+      "text": "\n\n**Status:** "
+    },
+    {
+      "citations": [
+        {
+          "type": "char_location",
+          "cited_text": "(n)\u00a0This section shall become operative on April 1, 2024.\n(o)\u00a0This section shall remain in effect until January 1, 2030, and as of that date is repealed.\n",
+          "document_index": 0,
+          "document_title": "D024",
+          "start_char_index": 15507,
+          "end_char_index": 15661
+        }
+      ],
+      "type": "text",
+      "text": "This section shall become operative on April 1, 2024, and shall remain in effect until January 1, 2030, and as of that date is repealed."
+    },
+    {
+      "type": "text",
+      "text": "\n\n### **Notice Requirement**\n\n"
+    },
+    {
+      "citations": [
+        {
+          "type": "char_location",
+          "cited_text": "(e)\u00a0An owner shall provide notice of any increase in the rental rate, pursuant to subdivision (a), to each tenant in accordance with Section 827.\n",
+          "document_index": 0,
+          "document_title": "D024",
+          "start_char_index": 6422,
+          "end_char_index": 6568
+        }
+      ],
+      "type": "text",
+      "text": "An owner shall provide notice of any increase in the rental rate, pursuant to subdivision (a), to each tenant in accordance with Section 827."
+    },
+    {
+      "type": "text",
+      "text": "\n\n### **Enforcement and Sanctions**\n\n"
+    },
+    {
+      "citations": [
+        {
+          "type": "char_location",
+          "cited_text": "(k)\u00a0(1)\u00a0An owner who demands, accepts, receives, or retains any payment of rent in excess of the maximum rent allowed by this section shall be liable in a civil action to the tenant from whom those payments are demanded, accepted, received, or retained for all of the following:\n(A)\u00a0Injunctive relief.\n(B)\u00a0Damages in the amount by which any payment demanded, accepted, received, or retained exceeds the\nmaximum allowable rent.\n(C)\u00a0In the court\u2019s discretion, reasonable attorney\u2019s fees and costs.\n(D)\u00a0Upon a showing that the owner has acted willfully or with oppression, fraud, or malice, damages up to three times the amount by which any payment demanded, accepted, received, or retained exceeds the maximum allowable rent.\n",
+          "document_index": 0,
+          "document_title": "D024",
+          "start_char_index": 12878,
+          "end_char_index": 13602
+        }
+      ],
+      "type": "text",
+      "text": "An owner who demands, accepts, receives, or retains any payment of rent in excess of the maximum rent allowed by this section shall be liable in a civil action to the tenant for injunctive relief, damages in the amount by which any payment exceeds the maximum allowable rent, in the court's discretion reasonable attorney's fees and costs, and upon a showing that the owner has acted willfully or with oppression, fraud, or malice, damages up to three times the amount by which any payment exceeds the maximum allowable rent."
+    },
+    {
+      "type": "text",
+      "text": "\n\n"
+    },
+    {
+      "citations": [
+        {
+          "type": "char_location",
+          "cited_text": "(2)\u00a0The Attorney General, in the name of the people of the State of California, and the city attorney or county counsel in the jurisdiction in which the rental unit is located, in the name of the city or county, may do both of the following:\n(A)\u00a0Enforce the provisions of this section.\n(B)\u00a0Seek injunctive relief based on violations of this section.\n",
+          "document_index": 0,
+          "document_title": "D024",
+          "start_char_index": 13602,
+          "end_char_index": 13952
+        }
+      ],
+      "type": "text",
+      "text": "The Attorney General and the city attorney or county counsel in the jurisdiction in which the rental unit is located may enforce the provisions of this section and seek injunctive relief based on violations of this section."
+    },
+    {
+      "type": "text",
+      "text": "\n\n"
+    },
+    {
+      "citations": [
+        {
+          "type": "char_location",
+          "cited_text": "(4)\u00a0An action pursuant to this subdivision shall not be brought after the date that is three years from the date on which the cause of action accrued.\n",
+          "document_index": 0,
+          "document_title": "D024",
+          "start_char_index": 14116,
+          "end_char_index": 14267
+        }
+      ],
+      "type": "text",
+      "text": "An action pursuant to this subdivision shall not be brought after the date that is three years from the date on which the cause of action accrued."
+    },
+    {
+      "type": "text",
+      "text": "\n\n### **Exemptions**\n\n"
+    },
+    {
+      "citations": [
+        {
+          "type": "char_location",
+          "cited_text": "(d)\u00a0This section shall not apply to the following residential real properties:\n(1)\u00a0Housing restricted by deed, regulatory restriction contained in an agreement with a government agency, or other recorded document as affordable housing for persons and families of very low, low, or moderate income, as defined in Section 50093 of the Health and Safety Code, or subject to an agreement that provides housing subsidies for affordable housing for persons and families of very low, low, or moderate income, as defined in Section 50093 of the Health and Safety Code or comparable federal statutes.\n",
+          "document_index": 0,
+          "document_title": "D024",
+          "start_char_index": 3145,
+          "end_char_index": 3737
+        }
+      ],
+      "type": "text",
+      "text": "This section shall not apply to housing restricted by deed, regulatory restriction contained in an agreement with a government agency, or other recorded document as affordable housing for persons and families of very low, low, or moderate income, as defined in Section 50093 of the Health and Safety Code, or subject to an agreement that provides housing subsidies for affordable housing for persons and families of very low, low, or moderate income."
+    },
+    {
+      "type": "text",
+      "text": "\n\n"
+    },
+    {
+      "citations": [
+        {
+          "type": "char_location",
+          "cited_text": "(2)\u00a0Dormitories owned and operated by an institution of higher education or a kindergarten\nand grades 1 to 12, inclusive, school.\n",
+          "document_index": 0,
+          "document_title": "D024",
+          "start_char_index": 3737,
+          "end_char_index": 3867
+        }
+      ],
+      "type": "text",
+      "text": "This section shall not apply to dormitories owned and operated by an institution of higher education or a kindergarten and grades 1 to 12, inclusive, school."
+    },
+    {
+      "type": "text",
+      "text": "\n\n"
+    },
+    {
+      "citations": [
+        {
+          "type": "char_location",
+          "cited_text": "(3)\u00a0Housing subject to rent or price control through a public entity\u2019s valid exercise of its police power consistent with Chapter 2.7 (commencing with Section 1954.50) that restricts annual increases in the rental rate to an amount less than that provided in subdivision (a).\n",
+          "document_index": 0,
+          "document_title": "D024",
+          "start_char_index": 3867,
+          "end_char_index": 4143
+        }
+      ],
+      "type": "text",
+      "text": "This section shall not apply to housing subject to rent or price control through a public entity's valid exercise of its police power consistent with Chapter 2.7 (commencing with Section 1954.50) that restricts annual increases in the rental rate to an amount less than that provided in subdivision (a)."
+    },
+    {
+      "type": "text",
+      "text": "\n\n"
+    },
+    {
+      "citations": [
+        {
+          "type": "char_location",
+          "cited_text": "(4)\u00a0Housing that has been issued a certificate of occupancy within the previous 15 years, unless the housing is a mobilehome.\n",
+          "document_index": 0,
+          "document_title": "D024",
+          "start_char_index": 4143,
+          "end_char_index": 4269
+        }
+      ],
+      "type": "text",
+      "text": "This section shall not apply to housing that has been issued a certificate of occupancy within the previous 15 years, unless the housing is a mobilehome."
+    },
+    {
+      "type": "text",
+      "text": "\n\n"
+    },
+    {
+      "citations": [
+        {
+          "type": "char_location",
+          "cited_text": "(5)\u00a0Residential real property that is alienable separate from the title to any other dwelling unit, including a mobilehome, provided that both of the following apply:\n(A)\u00a0The owner is not any of the following:\n(i)\u00a0A real estate investment trust, as defined in Section 856 of the Internal Revenue Code.\n(ii)\u00a0A corporation.\n(iii)\u00a0A limited liability company in which at least one member is a corporation.\n(iv)\u00a0Management of a mobilehome park, as defined in Section 798.2.\n",
+          "document_index": 0,
+          "document_title": "D024",
+          "start_char_index": 4269,
+          "end_char_index": 4739
+        }
+      ],
+      "type": "text",
+      "text": "This section shall not apply to residential real property that is alienable separate from the title to any other dwelling unit, including a mobilehome, provided that the owner is not a real estate investment trust, a corporation, a limited liability company in which at least one member is a corporation, or management of a mobilehome park."
+    },
+    {
+      "type": "text",
+      "text": "\n\n"
+    },
+    {
+      "citations": [
+        {
+          "type": "char_location",
+          "cited_text": "(6)\u00a0A property containing two separate dwelling units within a single\nstructure in which the owner occupied one of the units as the owner\u2019s principal place of residence at the beginning of the tenancy, so long as the owner continues in occupancy, and neither unit is an accessory dwelling unit or a junior accessory dwelling unit.\n",
+          "document_index": 0,
+          "document_title": "D024",
+          "start_char_index": 6091,
+          "end_char_index": 6422
+        }
+      ],
+      "type": "text",
+      "text": "This section shall not apply to a property containing two separate dwelling units within a single structure in which the owner occupied one of the units as the owner's principal place of residence at the beginning of the tenancy, so long as the owner continues in occupancy, and neither unit is an accessory dwelling unit or a junior accessory dwelling unit."
+    },
+    {
+      "type": "text",
+      "text": "\n\n"
+    },
+    {
+      "citations": [
+        {
+          "type": "char_location",
+          "cited_text": "(j)\u00a0This section shall not apply to a homeowner of a mobilehome, as defined in Section 798.9.\n",
+          "document_index": 0,
+          "document_title": "D024",
+          "start_char_index": 12784,
+          "end_char_index": 12878
+        }
+      ],
+      "type": "text",
+      "text": "This section shall not apply to a homeowner of a mobilehome, as defined in Section 798.9."
+    },
+    {
+      "type": "text",
+      "text": "\n\n---\n\nThe document does not contain information regarding proposed or failed obligations in other regulatory areas."
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 5989,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 1196,
+    "service_tier": "batch",
+    "inference_geo": "not_available"
+  },
+  "diagnostics": null
+}

@@ -1,0 +1,26 @@
+[
+ {
+  "doc_id": "T2-JC-25-057",
+  "ordinance": "JC Ord. 25-057 Preventing Algorithmic Rent-Fixing (Ch.218 Sec.12)",
+  "adopted": "2025-05-21",
+  "status": "base text still needed (25-076 only amends Sec.2)"
+ },
+ {
+  "doc_id": "T2-JC-25-076",
+  "ordinance": "JC Ord. 25-076 (clarifies Sec.2)",
+  "adopted": "2025-07-16 (final), approved 2025-07-17",
+  "status": "saved: data/sources_new/JC_Ord25-076_amending_218-12.txt"
+ },
+ {
+  "doc_id": "T2-HOB-2025",
+  "ordinance": "Hoboken algorithmic rent-setting ban",
+  "adopted": "2025-07-09 (introduced Jun 4 2025)",
+  "status": "full text still needed (secondary: hobokengirl 2025-07; Ch.155 verified NOT the ban \u2014 rent leveling instead)"
+ },
+ {
+  "doc_id": "T2-NJ-FAIR",
+  "ordinance": "NJ state FAIR Act (Forbidding Algorithmic Inflation of Rent)",
+  "effective": "2027-07-01 (secondary: housingwire)",
+  "status": "state overlay supersedes inconsistent local rules \u2014 check T3 7/2/2027 framing; primary text still needed"
+ }
+]

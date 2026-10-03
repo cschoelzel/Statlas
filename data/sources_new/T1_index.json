@@ -1,0 +1,22 @@
+[
+ {
+  "doc_id": "T1-AB325",
+  "bill": "CA AB 325 (Aguiar-Curry), Ch. 338 Stats. 2025",
+  "adds": "B&P Code 16729 (common pricing algorithm prohibition) + 16756.1 (pleading)",
+  "approved": "2025-10-06",
+  "effective": "2026-01-01",
+  "source_url": "https://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260AB325",
+  "retrieved_at": "2026-10-04",
+  "note": "Volltext gesichert: data/sources_new/AB325_Ch338_Stats2025.txt (5610 Zeichen) + .meta.json, 2026-10-04 via billTextClient v90"
+ },
+ {
+  "doc_id": "T1-SB763",
+  "bill": "CA SB 763 (Hurtado), Ch. 426 Stats. 2025",
+  "adds": "B&P Code 16755 penalties + 16755.1 civil penalty $1M + 16762 cumulative remedies",
+  "approved": "2025-10-06",
+  "effective": "2026-01-01",
+  "source_url": "https://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260SB763",
+  "retrieved_at": "2026-10-04",
+  "note": "Volltext 2026-10-04 gelesen, Datei-Persistenz ausstehend; leginfo-Download 01:40 UTC mit Timeout (exit 28) - Retry mit Abstand, danach Extraktion (LLM-Budget freigabepflichtig)"
+ }
+]

@@ -1,0 +1,119 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011CfftopENC75e7q1YrRWPf",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "I can only identify rental housing obligations and exemptions that are explicitly covered in the provided document. The document is limited to San Francisco Rent Board current rates and does not comprehensively address all the categories you've requested.\n\n**What the document covers:**\n\n**Rent Caps:**\n"
+    },
+    {
+      "citations": [
+        {
+          "type": "char_location",
+          "cited_text": "Deposit\nRent Board\nFor March 1, 2026 - February 28, 2027\nAllowable Rent Increase:\n1.6% for March 1, 2026 \u2013 February 28, 2027\nSecurity Deposit Interest:\n4.2% for March 1, 2026 \u2013 February 28, 2027\nAllowable rent increase\nAllowable rent increase\nEffective Period\nAmount of Increase\nMarch 1, 2026 \u2013 February 28, 2027\n1.6%\nMarch 1, 2025 \u2013 February 28, 2026\n1.4%\nMarch 1, 2024 \u2013 February 28, 2025\n1.7%\nLearn about rent increases in San Francisco.\n",
+          "document_index": 0,
+          "document_title": "D083",
+          "start_char_index": 289,
+          "end_char_index": 730
+        }
+      ],
+      "type": "text",
+      "text": "The allowable rent increase for March 1, 2026 \u2013 February 28, 2027 is 1.6%"
+    },
+    {
+      "type": "text",
+      "text": ".\n\n**Security Deposits:**\n"
+    },
+    {
+      "citations": [
+        {
+          "type": "char_location",
+          "cited_text": "Previous allowable rent increases:\n571 Allowable Annual Increases\n571 AUMENTOS DE LA RENTA PERMITIDOS\n571 \u5e74\u5ea6\u8a31\u53ef\u52a0\u79df\n571 MGA PINAHIHINTULUTAN NA TAUNANG PAGTATAAS NG UPA\n571 M\u1ee9c T\u0103ng Ti\u1ec1n Thu\u00ea H\u00e0ng N\u0103m \u0110\u01b0\u1ee3c Ch\u1ea5p Thu\u1eadn\nSecurity deposit interest\nSecurity deposit interest\nEffective Period\nAmount of Increase\nMarch 1, 2026 \u2013 February 28, 2027\n4.2%\nMarch 1, 2025 \u2013 February 28, 2026\n5.0%\nMarch 1, 2024 \u2013 February 28, 2025\n5.2%\nLearn about security deposits.\n",
+          "document_index": 0,
+          "document_title": "D083",
+          "start_char_index": 730,
+          "end_char_index": 1180
+        }
+      ],
+      "type": "text",
+      "text": "The security deposit interest rate for March 1, 2026 \u2013 February 28, 2027 is 4.2%"
+    },
+    {
+      "type": "text",
+      "text": ".\n\n**Relocation Payments (for evictions):**\n"
+    },
+    {
+      "citations": [
+        {
+          "type": "char_location",
+          "cited_text": "Labor Rates\nRelocation payments\nRelocation Payments for Evictions based on Owner/Relative Move-in OR Demolition/Permanent Removal of Unit from Housing Use OR Temporary Capital Improvement Work* OR Substantial Rehabilitation\nRelocation payments\nDate of Service of Notice of Termination of Tenancy (\"Eviction Notice\")\nRelocation Amount Due Per Tenant\nMaximum Relocation Amount Due Per Unit\nPLUS Additional Amount Due for Each Elderly (60 years or older) or Disabled Tenant or Household with Minor Child(ren)\n3/01/26 \u2013 2/28/27\n$8,245.00\n$24,733.00\n$5,497.00\n3/01/25 \u2013 2/28/26\n$8,062.00\n$24,184.00\n$5,375.00\n579 Multilingual Relocation Payments 37.9C\n*The amount of relocation payments for temporary capital improvement evictions for less than 20 days is governed by California Civil Code Section 1947.9 and not by Rent Ordinance Section 37.9C. ",
+          "document_index": 0,
+          "document_title": "D083",
+          "start_char_index": 2756,
+          "end_char_index": 3597
+        }
+      ],
+      "type": "text",
+      "text": "For evictions based on Owner/Relative Move-in, Demolition/Permanent Removal of Unit from Housing Use, Temporary Capital Improvement Work, or Substantial Rehabilitation, effective 3/01/26 \u2013 2/28/27, the relocation amount due per tenant is $8,245.00, with a maximum relocation amount due per unit of $24,733.00, plus an additional $5,497.00 for each elderly (60 years or older) or disabled tenant or household with minor child(ren)"
+    },
+    {
+      "type": "text",
+      "text": ".\n\n"
+    },
+    {
+      "citations": [
+        {
+          "type": "char_location",
+          "cited_text": "Labor Rates\nRelocation payments\nRelocation Payments for Evictions based on Owner/Relative Move-in OR Demolition/Permanent Removal of Unit from Housing Use OR Temporary Capital Improvement Work* OR Substantial Rehabilitation\nRelocation payments\nDate of Service of Notice of Termination of Tenancy (\"Eviction Notice\")\nRelocation Amount Due Per Tenant\nMaximum Relocation Amount Due Per Unit\nPLUS Additional Amount Due for Each Elderly (60 years or older) or Disabled Tenant or Household with Minor Child(ren)\n3/01/26 \u2013 2/28/27\n$8,245.00\n$24,733.00\n$5,497.00\n3/01/25 \u2013 2/28/26\n$8,062.00\n$24,184.00\n$5,375.00\n579 Multilingual Relocation Payments 37.9C\n*The amount of relocation payments for temporary capital improvement evictions for less than 20 days is governed by California Civil Code Section 1947.9 and not by Rent Ordinance Section 37.9C. ",
+          "document_index": 0,
+          "document_title": "D083",
+          "start_char_index": 2756,
+          "end_char_index": 3597
+        }
+      ],
+      "type": "text",
+      "text": "For Ellis Act evictions effective 3/01/26 \u2013 2/28/27, the relocation amount due per tenant is $11,110.05, with a maximum of $33,330.13 per unit, plus $7,443.90 for each elderly (62 years or older) or disabled tenant"
+    },
+    {
+      "type": "text",
+      "text": ".\n\n"
+    },
+    {
+      "citations": [
+        {
+          "type": "char_location",
+          "cited_text": "Relocation payments for tenants evicted under the Ellis Act\nRelocation payments for tenants evicted under the Ellis Act\nDate of Service of Notice of Termination of Tenancy (\"Eviction Notice\")\nRelocation Amount Due Per Tenant\nMaximum Relocation Amount Due Per Unit\nPLUS Additional Amount Due for Each Elderly (62 years or older) or Disabled Tenant\n3/01/26 \u2013 2/28/27\n$11,110.05\n$33,330.13\n$7,443.90\n3/01/25 \u2013 2/28/26\n$10,863.45\n$32,590.33\n$7,278.67\n578 Multilingual Relocation Payments 37.9A\nRelocation payments for temporary displacement for less than 20 days\nRelocation payments for temporary displacement for less than 20 days\nDate of Service of Notice of Termination of Tenancy (\"Eviction Notice\")\nRelocation Amount Due Per Tenant Household\n3/01/26 \u2013 2/28/27\n$446.00/day (plus actual moving expenses)\n3/01/25 \u2013 2/28/26\n$436.00/day (plus actual moving expenses)\nLearn about\u00a0Evictions.\n",
+          "document_index": 0,
+          "document_title": "D083",
+          "start_char_index": 3681,
+          "end_char_index": 4567
+        }
+      ],
+      "type": "text",
+      "text": "For temporary displacement for less than 20 days effective 3/01/26 \u2013 2/28/27, relocation payments are $446.00/day plus actual moving expenses"
+    },
+    {
+      "type": "text",
+      "text": ".\n\n**Not addressed in document:**\nThe document does not contain information about just cause eviction requirements, application/screening fees, screening restrictions, or algorithmic pricing restrictions."
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 2577,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 494,
+    "service_tier": "batch",
+    "inference_geo": "not_available"
+  },
+  "diagnostics": null
+}

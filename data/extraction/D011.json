@@ -1,0 +1,11 @@
+{
+  "doc_id": "D011",
+  "model": "claude-haiku-4-5-20251001",
+  "source_sha256": "93835654c3483e7b169677f7a3ccdcf021b6edab4ac81ab7ad3091903de71ff2",
+  "rules": [],
+  "rejected": [],
+  "gaps": [
+    "Bill H.3744 text not provided - only legislative petition header and procedural history available. Document does not contain operative provisions for rent_increase_limits, just_cause_eviction, security_deposits, application_screening_fees, screening_restrictions, or algorithmic_rent_setting. No coverage conditions, exemptions, effective dates, or sanctions specified. Bill status as of 2026-10-01 is pending (last action 9/9/2024 accompanied study order H5035, no final enactment recorded). Full bill text required to extract enforceable rules."
+  ],
+  "status": "needs_review"
+}

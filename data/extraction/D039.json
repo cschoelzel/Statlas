@@ -1,0 +1,11 @@
+{
+  "doc_id": "D039",
+  "model": "claude-haiku-4-5-20251001",
+  "source_sha256": "cf36489eb7db23226ff24eb4a65615b9837c67659221630e0366a4ff4456df00",
+  "rules": [],
+  "rejected": [],
+  "gaps": [
+    "Document D039 is a motion (not enacted legislation) from September 3, 2024, instructing the Los Angeles Housing Department to report on algorithmic rent-setting software and feasibility of a ban. No operative rules exist in this document. San Francisco legislation cited as approved July 2024 but Los Angeles ban status remains pending/investigatory as of motion date. No effective dates, sanctions, coverage conditions, or exemptions are established by this motion. No rent_increase_limits, just_cause_eviction, security_deposits, application_screening_fees, or screening_restrictions content present. Algorithmic_rent_setting: motion requests feasibility study only; no binding legal obligation, threshold, or compliance mechanism is codified. Historical status of any prior Los Angeles algorithmic pricing restrictions not provided in source. Cross-reference to Los Angeles Housing Department report outcome not available. Legislative status post-September 2024 unknown from this document alone."
+  ],
+  "status": "needs_review"
+}

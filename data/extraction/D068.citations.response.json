@@ -1,0 +1,29 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011Cfftop6gTiKLHV1BMhadt",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "I cannot find information in the provided document about the specific rental housing obligations and exemptions you're asking about\u2014namely rent caps, just cause eviction, deposits, application/screening fees, screening restrictions, and algorithmic pricing.\n\nThe document is a brochure from New Jersey's Division on Civil Rights that focuses on housing discrimination protections under the New Jersey Law Against Discrimination (LAD). It addresses protections against discrimination based on protected characteristics (race, religion, disability, familial status, etc.) and source of lawful income, but it does not cover the regulatory topics you've listed.\n\nTo obtain comprehensive information about operative rental housing obligations, exemptions, dates, sanctions, and coverage status as of October 1, 2026, you would need to consult other sources such as New Jersey's landlord-tenant statutes, administrative regulations, or recent legislative bills and enactments."
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 3030,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 189,
+    "service_tier": "batch",
+    "inference_geo": "not_available"
+  },
+  "diagnostics": null
+}

@@ -1,0 +1,168 @@
+{
+  "doc_id": "D066",
+  "model": "claude-haiku-4-5-20251001",
+  "source_sha256": "e06aa61acf6ddb50631d5be3c89c4029caccb13c0dcc7be888e0e64f8b182c2e",
+  "rules": [
+    {
+      "jurisdiction": "NJ",
+      "level": "state",
+      "category": "application_screening_fees",
+      "status": "in_force",
+      "title": "Residential Rental Property Application Fee Limitation",
+      "requirement": "A landlord, or agent thereof, shall not require an application or other similar fee to apply to lease or sublease a residential rental property for dwelling purposes, which exceeds $50. The fee shall be adjusted annually by the Director of the Division of Consumer Affairs in direct proportion to the percent change in the Consumer Price Index over a 12-month period ending October 31 of the previous year, with adjustment effective January 1 of each following calendar year. An adjustment in the fee limitation shall be made only if the percent change in the Consumer Price Index for the period specified is greater than zero.",
+      "citation": "P.L. 2025, c.405 (A4899 4R), C.46:8-18.1, C.46:8-18.2; NJSA 46:8-18.1 et seq.",
+      "quoted_span": "A landlord, or\nagent thereof, shall not require an application or other similar fee to apply\nto lease or sublease a residential rental property for dwelling purposes, which\nexceeds $50.",
+      "key_value": "$50 base limit, adjusted annually by CPI percent change if greater than zero",
+      "coverage_conditions": "Applies to residential rental property for dwelling purposes; excludes one-family and two-family dwellings; excludes licensees of the New Jersey Real Estate Commission unless they are the landlord of the property",
+      "exemptions": "(1) dwelling unit located in a one-family or two-family dwelling that is offered for rent; (2) licensee of the New Jersey Real Estate Commission, unless the licensee is the landlord of the residential rental property",
+      "effective_date": "2026-05-20",
+      "conflict_note": null,
+      "sanctions": "Penalty of up to $500 for a first offense, up to $750 for a second offense, and up to $1,000 for each subsequent offense, enforced by summary proceedings pursuant to the Penalty Enforcement Law of 1999, P.L.1999, c.274. Amount wrongfully charged shall be remitted to the applicant or prospective tenant.",
+      "enacted_at": "2026-01-20",
+      "operative_date": "2026-05-20",
+      "end_date": null,
+      "confidence": 0.95,
+      "conflict_flag": false,
+      "logic": {
+        "coverage": {
+          "all": [
+            {
+              "fact": "state",
+              "op": "eq",
+              "value": "NJ"
+            },
+            {
+              "fact": "property_type_is_residential_rental",
+              "op": "eq",
+              "value": true
+            },
+            {
+              "not": {
+                "any": [
+                  {
+                    "fact": "is_one_family_dwelling",
+                    "op": "eq",
+                    "value": true
+                  },
+                  {
+                    "fact": "is_two_family_dwelling",
+                    "op": "eq",
+                    "value": true
+                  },
+                  {
+                    "fact": "licensee_is_nj_real_estate_commission_not_landlord",
+                    "op": "eq",
+                    "value": true
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "exemptions": {
+          "any": [
+            {
+              "fact": "is_one_family_dwelling",
+              "op": "eq",
+              "value": true
+            },
+            {
+              "fact": "is_two_family_dwelling",
+              "op": "eq",
+              "value": true
+            },
+            {
+              "fact": "licensee_is_nj_real_estate_commission_not_landlord",
+              "op": "eq",
+              "value": true
+            }
+          ]
+        },
+        "fee_limit": {
+          "op": "min",
+          "args": [
+            {
+              "value": 50,
+              "unit": "USD"
+            },
+            {
+              "fact": "cpi_adjusted_fee_limit",
+              "unit": "USD"
+            }
+          ]
+        }
+      },
+      "field_evidence": [
+        {
+          "field": "requirement",
+          "quoted_span": "A landlord, or\nagent thereof, shall not require an application or other similar fee to apply\nto lease or sublease a residential rental property for dwelling purposes, which\nexceeds $50.",
+          "start_char": 427,
+          "end_char": 612
+        },
+        {
+          "field": "coverage_conditions",
+          "quoted_span": "residential rental property for dwelling purposes",
+          "start_char": 543,
+          "end_char": 592
+        },
+        {
+          "field": "exemptions",
+          "quoted_span": "The requirements of subsection a. of this section\nshall not apply to:\n(1) a dwelling unit\nlocated in a one-family or two-family dwelling that is offered for rent; or\n(2)\u00a0 a licensee of the New Jersey Real Estate\nCommission, unless the licensee is the landlord of the residential rental\nproperty.",
+          "start_char": 1527,
+          "end_char": 1822
+        },
+        {
+          "field": "effective_date",
+          "quoted_span": "This act shall take effect on the first day of the\nfourth month next following the date of enactment",
+          "start_char": 3821,
+          "end_char": 3921
+        },
+        {
+          "field": "annual_adjustment",
+          "quoted_span": "and each year thereafter, the amount of the fee limitation established\npursuant to subsection a. of this section shall be adjusted by the Director of\nthe Division of Consumer Affairs in the Department of Law and Public Safety in\ndirect proportion to the percent change in the Consumer Price Index over a\n12-month period ending October 31 of the previous year.",
+          "start_char": 1930,
+          "end_char": 2289
+        },
+        {
+          "field": "status",
+          "quoted_span": "Approved January 20, 2026.",
+          "start_char": 4126,
+          "end_char": 4152
+        },
+        {
+          "field": "sanctions",
+          "quoted_span": "A landlord, or agent thereof, who violates\nsubsection a. of this section shall be liable for a penalty of up to $500 for a\nfirst offense, up to $750 for a second offense, and up to $1,000 for each\nsubsequent offense",
+          "start_char": 617,
+          "end_char": 832
+        }
+      ],
+      "quote_alignment": "whitespace_only",
+      "team_rule_id": "D066-r001",
+      "source_doc_id": "D066",
+      "source_url": "https://pub.njleg.gov/bills/2024/PL25/405_.HTM",
+      "retrieved_at": "2026-10-01T22:37Z",
+      "query_date": "2026-10-01",
+      "review_status": "unreviewed",
+      "evidence": {
+        "source_doc_id": "D066",
+        "text_sha256": "e06aa61acf6ddb50631d5be3c89c4029caccb13c0dcc7be888e0e64f8b182c2e",
+        "start_char": 427,
+        "end_char": 612,
+        "quoted_span": "A landlord, or\nagent thereof, shall not require an application or other similar fee to apply\nto lease or sublease a residential rental property for dwelling purposes, which\nexceeds $50.",
+        "retrieved_at": "2026-10-01T22:37Z",
+        "original_file": "data/sources/originals/e06aa61acf6ddb50631d5be3c89c4029caccb13c0dcc7be888e0e64f8b182c2e.txt"
+      }
+    }
+  ],
+  "rejected": [],
+  "gaps": [
+    "No information provided regarding rent_increase_limits in New Jersey",
+    "No information provided regarding just_cause_eviction in New Jersey",
+    "No information provided regarding security_deposits in New Jersey",
+    "No information provided regarding screening_restrictions in New Jersey",
+    "No information provided regarding algorithmic_rent_setting in New Jersey",
+    "Document does not specify whether CPI adjustment formula is indexed to specific metropolitan area CPI or state-wide CPI; statute references New York-Northern New Jersey-Long Island Metropolitan Area CPI but operative scope of adjustment mechanism not fully specified",
+    "No information regarding cross-reference to existing NJ tenant laws or conflicts with other rental housing protections"
+  ],
+  "status": "needs_review"
+}

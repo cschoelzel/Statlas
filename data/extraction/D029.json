@@ -1,0 +1,11 @@
+{
+  "doc_id": "D029",
+  "model": "claude-haiku-4-5-20251001",
+  "source_sha256": "ce40e4d452c15e43e1bb07e7f03f7bd2bd738b2da614d1d21b7826f7e581e01c",
+  "rules": [],
+  "rejected": [],
+  "gaps": [
+    "Document D029 is from Cambridge Human Rights Commission website describing discrimination enforcement procedures and protected categories under Cambridge Human Rights Ordinance chapter 2.76 and Fair Housing Ordinance chapter 14.04. No substantive rental housing regulations found regarding rent_increase_limits, just_cause_eviction, security_deposits, application_screening_fees, screening_restrictions, or algorithmic_rent_setting. Document references Fair Housing Ordinance but does not cite specific statutory text establishing coverage conditions, exemptions, effective dates, sanctions, or operative provisions for the six rental housing categories. To establish Cambridge rental housing obligations would require access to full text of Cambridge Municipal Code chapters 2.76 and 14.04, or separate housing regulatory ordinances not provided in this source."
+  ],
+  "status": "needs_review"
+}

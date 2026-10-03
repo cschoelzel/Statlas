@@ -1,0 +1,150 @@
+{
+  "doc_id": "D008",
+  "model": "claude-haiku-4-5-20251001",
+  "source_sha256": "969848595b70aa2ff7b9e8420f610c36b914521c4ea4dd1d0656be776e90c39f",
+  "rules": [
+    {
+      "jurisdiction": "Berkeley, CA",
+      "level": "city",
+      "category": "rent_increase_limits",
+      "status": "in_force",
+      "title": "Berkeley 2026 Annual General Adjustment (AGA)",
+      "requirement": "Eligible landlords may increase 2025 permanent rent ceilings by 1.0% no earlier than January 1, 2026. The adjustment is calculated as 65% of the Consumer Price Index increase for All Urban Consumers in the Bay Area.",
+      "citation": "Berkeley Municipal Code section 13.76.110A; Rent Board Regulation 1148; Berkeley Rent Stabilization Board Public Notice dated October 17, 2025",
+      "quoted_span": "the Berkeley Rent Stabilization Board \nadopted the Annual General Adjustment (AGA) Order for Year 2026 which will allow \neligible landlords to increase the 2025 permanent rent ceilings by 1.0% no earlier than \nJanuary 1, 2026",
+      "key_value": "1.0%",
+      "coverage_conditions": "Rent stabilization covered unit in Berkeley, CA with tenancy commencement before January 1, 2025",
+      "exemptions": "Tenancies commenced on or after January 1, 2025; units subject to Costa-Hawkins Rental Housing Act",
+      "effective_date": "2026-01-01",
+      "conflict_note": null,
+      "sanctions": null,
+      "enacted_at": "2025-10-16",
+      "operative_date": "2026-01-01",
+      "end_date": null,
+      "confidence": 0.95,
+      "conflict_flag": false,
+      "logic": {
+        "coverage": {
+          "all": [
+            {
+              "all": [
+                {
+                  "fact": "legal_city",
+                  "op": "eq",
+                  "value": "Berkeley"
+                },
+                {
+                  "fact": "rent_stabilization_covered",
+                  "op": "eq",
+                  "value": true
+                },
+                {
+                  "fact": "tenancy_start_date",
+                  "op": "lt",
+                  "value": "2025-01-01"
+                }
+              ]
+            },
+            {
+              "fact": "unresolved_legal_evidence_D008_1",
+              "op": "eq",
+              "value": true
+            }
+          ]
+        },
+        "exemptions": {
+          "any": [
+            {
+              "fact": "tenancy_start_date",
+              "op": "gte",
+              "value": "2025-01-01"
+            },
+            {
+              "fact": "costa_hawkins_covered",
+              "op": "eq",
+              "value": true
+            }
+          ]
+        },
+        "formula": {
+          "op": "min",
+          "args": [
+            {
+              "op": "mul",
+              "args": [
+                {
+                  "fact": "cpi_percent",
+                  "unit": "percent"
+                },
+                {
+                  "value": 0.65,
+                  "unit": "scalar"
+                }
+              ]
+            },
+            {
+              "value": 1.0,
+              "unit": "percent"
+            }
+          ]
+        }
+      },
+      "field_evidence": [
+        {
+          "field": "requirement",
+          "quoted_span": "allow \neligible landlords to increase the 2025 permanent rent ceilings by 1.0% no earlier than \nJanuary 1, 2026",
+          "start_char": 545,
+          "end_char": 656
+        },
+        {
+          "field": "formula_basis",
+          "quoted_span": "The 2026 AGA of 1.0% represents 65% of the increase in the Consumer \nPrice Index (CPI) for All Urban Consumers in the Bay Area during the period from July 1, \n2024 - June 30, 2025, which was 1.5%",
+          "start_char": 658,
+          "end_char": 853
+        },
+        {
+          "field": "formula_approval",
+          "quoted_span": "The \n65% of CPI formula was approved by Berkeley voters in the November 2004 general \nmunicipal election",
+          "start_char": 899,
+          "end_char": 1003
+        },
+        {
+          "field": "effective_date",
+          "quoted_span": "no earlier than \nJanuary 1, 2026",
+          "start_char": 624,
+          "end_char": 656
+        }
+      ],
+      "quote_alignment": "whitespace_only",
+      "evidence_gaps": [
+        "coverage_conditions",
+        "exemptions",
+        "formula"
+      ],
+      "team_rule_id": "D008-r001",
+      "source_doc_id": "D008",
+      "source_url": "https://rentboard.berkeleyca.gov/sites/default/files/documents/AGA%20Public%20Notice.pdf",
+      "retrieved_at": "2026-10-01T22:35Z",
+      "query_date": "2026-10-01",
+      "review_status": "unreviewed",
+      "evidence": {
+        "source_doc_id": "D008",
+        "text_sha256": "969848595b70aa2ff7b9e8420f610c36b914521c4ea4dd1d0656be776e90c39f",
+        "start_char": 431,
+        "end_char": 656,
+        "quoted_span": "the Berkeley Rent Stabilization Board \nadopted the Annual General Adjustment (AGA) Order for Year 2026 which will allow \neligible landlords to increase the 2025 permanent rent ceilings by 1.0% no earlier than \nJanuary 1, 2026",
+        "retrieved_at": "2026-10-01T22:35Z",
+        "original_file": "data/sources/originals/969848595b70aa2ff7b9e8420f610c36b914521c4ea4dd1d0656be776e90c39f.txt"
+      }
+    }
+  ],
+  "rejected": [],
+  "gaps": [
+    "Full text of Rent Board Regulation 1148 not provided in source document",
+    "Specific list of covered unit types and exemptions under Berkeley rent stabilization ordinance not detailed",
+    "Definition of 'eligible landlords' conditions not fully specified in this notice",
+    "Procedure for notice to tenants referenced but not detailed in this document",
+    "Interaction with other state rent control preemption provisions not addressed"
+  ],
+  "status": "needs_review"
+}

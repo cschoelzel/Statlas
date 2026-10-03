@@ -1,0 +1,55 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011CfftopobM8mzvgPrrUXJ7",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "I cannot provide a comprehensive answer to your query based on the document provided. The document contains information limited to "
+    },
+    {
+      "citations": [
+        {
+          "type": "char_location",
+          "cited_text": "SOURCE: https://rentboard.berkeleyca.gov/elected-rent-board/news/2026-adjustments-relocation-assistance-payments\nRETRIEVED: 2026-10-01 22:35 UTC\n\n2026 Adjustments of Relocation Assistance Payments | Berkeley Rent Board\nSkip to main content\nSkip to site search\nCity of Berkeley\nShare\nPrint\n2026 Adjustments of Relocation Assistance Payments\nAnnual increases for owner move-in and Ellis Act eviction relocation assistance payments go into effect January 1, 2026.\n",
+          "document_index": 0,
+          "document_title": "D004",
+          "start_char_index": 0,
+          "end_char_index": 461
+        },
+        {
+          "type": "char_location",
+          "cited_text": "At its October 16, 2025 Special Meeting, the Rent Board approved relocation assistance payment increases that will go into effect on January 1, 2026.\nThe standard relocation assistance payment will increase to\n$19,413\n.\nThe additional relocation assistance payment for qualifying households will increase to\n$6,471\n.\n",
+          "document_index": 0,
+          "document_title": "D004",
+          "start_char_index": 989,
+          "end_char_index": 1306
+        }
+      ],
+      "type": "text",
+      "text": "2026 adjustments to relocation assistance payments for owner move-in and Ellis Act evictions that go into effect January 1, 2026"
+    },
+    {
+      "type": "text",
+      "text": ", but does not address the full range of rental housing obligations and exemptions you've requested.\n\nThe document does not contain information about:\n- Rent caps and their specifics\n- Just cause eviction requirements\n- Deposit regulations\n- Application and screening fee requirements\n- Screening restrictions\n- Algorithmic pricing regulations\n- Status and effective dates of these various provisions\n- Sanctions for violations\n- Coverage details\n- Proposed or failed legislation\n\nTo obtain comprehensive information about all operative rental housing obligations and exemptions in Berkeley as of October 1, 2026, you would need additional documents that specifically address each of these regulatory areas."
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1451,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 218,
+    "service_tier": "batch",
+    "inference_geo": "not_available"
+  },
+  "diagnostics": null
+}

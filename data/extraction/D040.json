@@ -1,0 +1,670 @@
+{
+  "doc_id": "D040",
+  "model": "claude-haiku-4-5-20251001",
+  "source_sha256": "13f9d54597199b73e23ad12dcc38626d53bb30bd53d89a63b6a7f55ecc570425",
+  "rules": [
+    {
+      "jurisdiction": "Los Angeles",
+      "level": "city",
+      "category": "just_cause_eviction",
+      "status": "in_force",
+      "title": "Just Cause For Eviction Ordinance (JCO) - Prohibition on Termination Without Just Cause",
+      "requirement": "Landlords are prohibited from terminating tenancies without just cause. The ordinance applies to most residential properties in Los Angeles not regulated by the Rent Stabilization Ordinance (RSO). The JCO requires that the tenant has lived in the same unit for at least six months or their original lease has expired, whichever comes first, before the ordinance applies to a tenancy.",
+      "citation": "Los Angeles Housing Department, Just Cause For Eviction Ordinance (JCO), https://housing.lacity.gov/residents/just-cause-for-eviction-ordinance-jco, retrieved 2026-10-01",
+      "quoted_span": "It prohibits terminations of tenancies without just cause and requires relocation assistance for no-fault evictions.",
+      "key_value": null,
+      "coverage_conditions": "Tenant has lived in the same unit for at least six months or original lease has expired, whichever comes first. Applies to most residential properties in Los Angeles City not regulated by RSO.",
+      "exemptions": "Transient hotels; licensed care facilities; fraternity or sorority houses; owner's roommate situations; cooperatives under certain circumstances; some non-profit facilities for the homeless or short-term treatment centers for substance abuse; some properties owned by HACLA or the government; properties regulated by RSO; buildings constructed before October 1, 1978 are not automatically exempt but coverage applies to buildings newer than October 1, 1978; single-family dwellings covered.",
+      "effective_date": null,
+      "conflict_note": null,
+      "sanctions": null,
+      "enacted_at": null,
+      "operative_date": null,
+      "end_date": null,
+      "confidence": 0.95,
+      "conflict_flag": false,
+      "logic": {
+        "coverage": {
+          "all": [
+            {
+              "all": [
+                {
+                  "fact": "legal_city",
+                  "op": "eq",
+                  "value": "Los Angeles"
+                },
+                {
+                  "fact": "property_in_jco_scope",
+                  "op": "eq",
+                  "value": true
+                },
+                {
+                  "fact": "tenancy_duration_six_months_or_lease_expired",
+                  "op": "eq",
+                  "value": true
+                }
+              ]
+            },
+            {
+              "fact": "unresolved_legal_evidence_D040_1",
+              "op": "eq",
+              "value": true
+            }
+          ]
+        },
+        "exemptions": {
+          "any": [
+            {
+              "fact": "property_regulated_by_rso",
+              "op": "eq",
+              "value": true
+            },
+            {
+              "fact": "transient_hotel",
+              "op": "eq",
+              "value": true
+            },
+            {
+              "fact": "licensed_care_facility",
+              "op": "eq",
+              "value": true
+            },
+            {
+              "fact": "fraternity_or_sorority_house",
+              "op": "eq",
+              "value": true
+            },
+            {
+              "fact": "owners_roommate_situation",
+              "op": "eq",
+              "value": true
+            },
+            {
+              "fact": "cooperative_under_certain_circumstances",
+              "op": "eq",
+              "value": true
+            },
+            {
+              "fact": "nonprofit_homeless_facility_or_substance_abuse_center",
+              "op": "eq",
+              "value": true
+            },
+            {
+              "fact": "property_owned_by_hacla_or_government",
+              "op": "eq",
+              "value": true
+            }
+          ]
+        }
+      },
+      "field_evidence": [
+        {
+          "field": "requirement",
+          "quoted_span": "It prohibits terminations of tenancies without just cause and requires relocation assistance for no-fault evictions.",
+          "start_char": 570,
+          "end_char": 686
+        },
+        {
+          "field": "coverage_conditions",
+          "quoted_span": "In order to apply to a tenancy, it requires that the tenant either has lived in the same unit for at least six months or that their original lease expired, whichever comes first.",
+          "start_char": 861,
+          "end_char": 1039
+        }
+      ],
+      "evidence_gaps": [
+        "exemptions"
+      ],
+      "team_rule_id": "D040-r001",
+      "source_doc_id": "D040",
+      "source_url": "https://housing.lacity.gov/residents/just-cause-for-eviction-ordinance-jco",
+      "retrieved_at": "2026-10-01T22:36Z",
+      "query_date": "2026-10-01",
+      "review_status": "unreviewed",
+      "evidence": {
+        "source_doc_id": "D040",
+        "text_sha256": "13f9d54597199b73e23ad12dcc38626d53bb30bd53d89a63b6a7f55ecc570425",
+        "start_char": 570,
+        "end_char": 686,
+        "quoted_span": "It prohibits terminations of tenancies without just cause and requires relocation assistance for no-fault evictions.",
+        "retrieved_at": "2026-10-01T22:36Z",
+        "original_file": "data/sources/originals/13f9d54597199b73e23ad12dcc38626d53bb30bd53d89a63b6a7f55ecc570425.txt"
+      }
+    },
+    {
+      "jurisdiction": "Los Angeles",
+      "level": "city",
+      "category": "just_cause_eviction",
+      "status": "in_force",
+      "title": "Non-Payment of Rent Eviction - Fair Market Rent (FMR) Threshold",
+      "requirement": "Effective March 27, 2023, landlords may not evict a tenant who falls behind in rent unless the tenant owes an amount higher than the Fair Market Rent (FMR) for the unit. The FMR threshold depends on the bedroom size of the rental unit. This applies to all RSO and JCO rental units.",
+      "citation": "Los Angeles Housing Department, Just Cause For Eviction Ordinance (JCO), https://housing.lacity.gov/residents/just-cause-for-eviction-ordinance-jco, retrieved 2026-10-01",
+      "quoted_span": "Effective March 27, 2023, landlords may not evict a tenant who falls behind in rent unless the tenant owes an amount higher than the Fair Market Rent (FMR). The FMR depends on the bedroom size of the rental unit.",
+      "key_value": null,
+      "coverage_conditions": "Applies to all RSO and JCO rental units in Los Angeles. Threshold is FMR for the bedroom size of the rental unit.",
+      "exemptions": null,
+      "effective_date": "2023-03-27",
+      "conflict_note": null,
+      "sanctions": null,
+      "enacted_at": null,
+      "operative_date": "2023-03-27",
+      "end_date": null,
+      "confidence": 0.95,
+      "conflict_flag": false,
+      "logic": {
+        "coverage": {
+          "all": [
+            {
+              "fact": "legal_city",
+              "op": "eq",
+              "value": "Los Angeles"
+            },
+            {
+              "fact": "tenant_behind_in_rent",
+              "op": "eq",
+              "value": true
+            },
+            {
+              "fact": "rent_owed_exceeds_fmr",
+              "op": "eq",
+              "value": true
+            }
+          ]
+        },
+        "exemptions": false
+      },
+      "field_evidence": [
+        {
+          "field": "requirement",
+          "quoted_span": "landlords may not evict a tenant who falls behind in rent unless the tenant owes an amount higher than the Fair Market Rent (FMR)",
+          "start_char": 4132,
+          "end_char": 4261
+        },
+        {
+          "field": "effective_date",
+          "quoted_span": "Effective March 27, 2023",
+          "start_char": 4106,
+          "end_char": 4130
+        },
+        {
+          "field": "coverage_conditions",
+          "quoted_span": "Applies to all RSO & JCO rental units",
+          "start_char": 4067,
+          "end_char": 4104
+        }
+      ],
+      "team_rule_id": "D040-r004",
+      "source_doc_id": "D040",
+      "source_url": "https://housing.lacity.gov/residents/just-cause-for-eviction-ordinance-jco",
+      "retrieved_at": "2026-10-01T22:36Z",
+      "query_date": "2026-10-01",
+      "review_status": "unreviewed",
+      "evidence": {
+        "source_doc_id": "D040",
+        "text_sha256": "13f9d54597199b73e23ad12dcc38626d53bb30bd53d89a63b6a7f55ecc570425",
+        "start_char": 4106,
+        "end_char": 4318,
+        "quoted_span": "Effective March 27, 2023, landlords may not evict a tenant who falls behind in rent unless the tenant owes an amount higher than the Fair Market Rent (FMR). The FMR depends on the bedroom size of the rental unit.",
+        "retrieved_at": "2026-10-01T22:36Z",
+        "original_file": "data/sources/originals/13f9d54597199b73e23ad12dcc38626d53bb30bd53d89a63b6a7f55ecc570425.txt"
+      }
+    },
+    {
+      "jurisdiction": "Los Angeles",
+      "level": "city",
+      "category": "just_cause_eviction",
+      "status": "in_force",
+      "title": "Notice of Right to Counsel Posting Requirement",
+      "requirement": "Beginning August 20, 2025, landlords must post a Notice of Right to Counsel in a conspicuous common area of the residential building where the tenant resides. This notice must also be provided to the tenant at the beginning of the tenancy and anytime an eviction notice is served.",
+      "citation": "Los Angeles Housing Department, Just Cause For Eviction Ordinance (JCO), https://housing.lacity.gov/residents/just-cause-for-eviction-ordinance-jco, retrieved 2026-10-01",
+      "quoted_span": "Beginning August 20, 2025, landlords must post a\nNotice of Right to Counsel\nin a conspicuous common area of the residential building where the tenant resides. This notice is also to be provided to the tenant at the beginning of the tenancy and anytime an eviction notice is served.",
+      "key_value": null,
+      "coverage_conditions": "All residential buildings in Los Angeles.",
+      "exemptions": null,
+      "effective_date": "2025-08-20",
+      "conflict_note": null,
+      "sanctions": null,
+      "enacted_at": null,
+      "operative_date": "2025-08-20",
+      "end_date": null,
+      "confidence": 0.9,
+      "conflict_flag": false,
+      "logic": {
+        "coverage": {
+          "all": [
+            {
+              "all": [
+                {
+                  "fact": "legal_city",
+                  "op": "eq",
+                  "value": "Los Angeles"
+                },
+                {
+                  "fact": "residential_building",
+                  "op": "eq",
+                  "value": true
+                }
+              ]
+            },
+            {
+              "fact": "unresolved_legal_evidence_D040_6",
+              "op": "eq",
+              "value": true
+            }
+          ]
+        },
+        "exemptions": false
+      },
+      "field_evidence": [
+        {
+          "field": "requirement",
+          "quoted_span": "landlords must post a\nNotice of Right to Counsel\nin a conspicuous common area of the residential building",
+          "start_char": 3451,
+          "end_char": 3556
+        },
+        {
+          "field": "effective_date",
+          "quoted_span": "Beginning August 20, 2025",
+          "start_char": 3424,
+          "end_char": 3449
+        }
+      ],
+      "quote_alignment": "whitespace_only",
+      "evidence_gaps": [
+        "coverage_conditions"
+      ],
+      "team_rule_id": "D040-r006",
+      "source_doc_id": "D040",
+      "source_url": "https://housing.lacity.gov/residents/just-cause-for-eviction-ordinance-jco",
+      "retrieved_at": "2026-10-01T22:36Z",
+      "query_date": "2026-10-01",
+      "review_status": "unreviewed",
+      "evidence": {
+        "source_doc_id": "D040",
+        "text_sha256": "13f9d54597199b73e23ad12dcc38626d53bb30bd53d89a63b6a7f55ecc570425",
+        "start_char": 3424,
+        "end_char": 3705,
+        "quoted_span": "Beginning August 20, 2025, landlords must post a\nNotice of Right to Counsel\nin a conspicuous common area of the residential building where the tenant resides. This notice is also to be provided to the tenant at the beginning of the tenancy and anytime an eviction notice is served.",
+        "retrieved_at": "2026-10-01T22:36Z",
+        "original_file": "data/sources/originals/13f9d54597199b73e23ad12dcc38626d53bb30bd53d89a63b6a7f55ecc570425.txt"
+      }
+    },
+    {
+      "jurisdiction": "Los Angeles",
+      "level": "city",
+      "category": "just_cause_eviction",
+      "status": "in_force",
+      "title": "Eviction Notice Filing Requirement with LAHD",
+      "requirement": "All eviction notices issued to tenants in the City of Los Angeles must be filed with LAHD (Los Angeles Housing Department) within three (3) business days of service on the tenant. This applies to all JCO and RSO rental properties.",
+      "citation": "Los Angeles Housing Department, Just Cause For Eviction Ordinance (JCO), https://housing.lacity.gov/residents/just-cause-for-eviction-ordinance-jco, retrieved 2026-10-01",
+      "quoted_span": "Applies to all JCO & RSO rental properties \u2013 All eviction notices issued to tenants in the City of Los Angeles must be filed with LAHD within three (3) business days of service on the tenant.",
+      "key_value": "3 business days",
+      "coverage_conditions": "All JCO and RSO rental properties in Los Angeles.",
+      "exemptions": null,
+      "effective_date": null,
+      "conflict_note": null,
+      "sanctions": null,
+      "enacted_at": null,
+      "operative_date": null,
+      "end_date": null,
+      "confidence": 0.95,
+      "conflict_flag": false,
+      "logic": {
+        "coverage": {
+          "all": [
+            {
+              "fact": "legal_city",
+              "op": "eq",
+              "value": "Los Angeles"
+            },
+            {
+              "fact": "eviction_notice_issued",
+              "op": "eq",
+              "value": true
+            },
+            {
+              "any": [
+                {
+                  "fact": "property_subject_to_jco",
+                  "op": "eq",
+                  "value": true
+                },
+                {
+                  "fact": "property_subject_to_rso",
+                  "op": "eq",
+                  "value": true
+                }
+              ]
+            }
+          ]
+        },
+        "exemptions": false
+      },
+      "field_evidence": [
+        {
+          "field": "requirement",
+          "quoted_span": "All eviction notices issued to tenants in the City of Los Angeles must be filed with LAHD within three (3) business days of service on the tenant",
+          "start_char": 4569,
+          "end_char": 4714
+        },
+        {
+          "field": "coverage_conditions",
+          "quoted_span": "Applies to all JCO & RSO rental properties",
+          "start_char": 4524,
+          "end_char": 4566
+        }
+      ],
+      "team_rule_id": "D040-r008",
+      "source_doc_id": "D040",
+      "source_url": "https://housing.lacity.gov/residents/just-cause-for-eviction-ordinance-jco",
+      "retrieved_at": "2026-10-01T22:36Z",
+      "query_date": "2026-10-01",
+      "review_status": "unreviewed",
+      "evidence": {
+        "source_doc_id": "D040",
+        "text_sha256": "13f9d54597199b73e23ad12dcc38626d53bb30bd53d89a63b6a7f55ecc570425",
+        "start_char": 4524,
+        "end_char": 4715,
+        "quoted_span": "Applies to all JCO & RSO rental properties \u2013 All eviction notices issued to tenants in the City of Los Angeles must be filed with LAHD within three (3) business days of service on the tenant.",
+        "retrieved_at": "2026-10-01T22:36Z",
+        "original_file": "data/sources/originals/13f9d54597199b73e23ad12dcc38626d53bb30bd53d89a63b6a7f55ecc570425.txt"
+      }
+    }
+  ],
+  "rejected": [
+    {
+      "rule": {
+        "jurisdiction": "Los Angeles",
+        "level": "city",
+        "category": "just_cause_eviction",
+        "status": "in_force",
+        "title": "Just Cause Eviction - At-Fault Eviction Grounds",
+        "requirement": "Landlords may evict tenants for at-fault reasons without providing relocation assistance. At-fault grounds include: failure to pay rent; failure to cure a violation of the rental agreement; creating a nuisance or causing damage to the property; using the rental unit for an illegal purpose; failure to renew a similar rental agreement; failure to provide the landlord with reasonable access to the rental unit; and when the person at the end of the lease term is a subtenant not approved by the landlord.",
+        "citation": "Los Angeles Housing Department, Just Cause For Eviction Ordinance (JCO), https://housing.lacity.gov/residents/just-cause-for-eviction-ordinance-jco, retrieved 2026-10-01",
+        "quoted_span": "Failure to pay rent\nFailure to cure a violation of the rental agreement\nCreating a nuisance or causing damage to the property\nUsing the rental unit for an illegal purpose\nFailure to renew a similar rental agreement\nFailure to provide the landlord with reasonable access to the rental unit\nThe person at the end of the lease term is a subtenant not approved by the landlord",
+        "key_value": null,
+        "coverage_conditions": "At-fault grounds trigger no relocation assistance requirement under JCO.",
+        "exemptions": null,
+        "effective_date": null,
+        "conflict_note": null,
+        "sanctions": null,
+        "enacted_at": null,
+        "operative_date": null,
+        "end_date": null,
+        "confidence": 0.95,
+        "conflict_flag": false,
+        "logic": {}
+      },
+      "errors": [
+        "invalid logic DSL"
+      ]
+    },
+    {
+      "rule": {
+        "jurisdiction": "Los Angeles",
+        "level": "city",
+        "category": "just_cause_eviction",
+        "status": "in_force",
+        "title": "Just Cause Eviction - No-Fault Eviction Grounds with Relocation Assistance",
+        "requirement": "Landlords may evict tenants for no-fault reasons (property owner decisions, not tenant fault) but must provide relocation assistance. No-fault grounds include: owner or immediate family member moving into the rental unit; resident manager moving into the rental unit when required by law or by affordable housing covenant or regulatory agreement; demolition, permanent removal from the rental market, or conversion to non-residential; government order to vacate; HUD owns and is selling the property; residential hotel being converted or demolished; conversion to affordable housing.",
+        "citation": "Los Angeles Housing Department, Just Cause For Eviction Ordinance (JCO), https://housing.lacity.gov/residents/just-cause-for-eviction-ordinance-jco, retrieved 2026-10-01",
+        "quoted_span": "Situations in which the property owner wishes to regain the use of the rental unit, as the result of a personal or business decision, and not the tenant's fault, may be cause for eviction, but the property owner may have to pay the tenant relocation assistance. These reasons include\nThe owner or an immediate family member will move into the rental unit\nResident manager will move into the rental unit when required by law or by an affordable housing covenant or regulatory agreement\nDemolition, permanent removal from the rental market, or conversion to non-residential\nGovernment order to vacate\nHUD owns and is selling the property\nResidential Hotel being converted or demolished\nConversion to affordable housing",
+        "key_value": null,
+        "coverage_conditions": "No-fault grounds trigger relocation assistance requirement.",
+        "exemptions": null,
+        "effective_date": null,
+        "conflict_note": null,
+        "sanctions": null,
+        "enacted_at": null,
+        "operative_date": null,
+        "end_date": null,
+        "confidence": 0.95,
+        "conflict_flag": false,
+        "logic": {}
+      },
+      "errors": [
+        "quoted_span is not exact original source substring",
+        "invalid logic DSL"
+      ]
+    },
+    {
+      "rule": {
+        "jurisdiction": "Los Angeles",
+        "level": "city",
+        "category": "just_cause_eviction",
+        "status": "in_force",
+        "title": "Registration of Rental Properties and Registration Certificate Display",
+        "requirement": "All properties rented or offered for rent in Los Angeles must be registered annually. Landlords must complete the Rent Registry form and pay the annual registration fee. Once registration is complete, the landlord receives a Registration Certificate (Statement) which must be displayed in a conspicuous place on the property or served to the tenant.",
+        "citation": "Los Angeles Housing Department, Just Cause For Eviction Ordinance (JCO), https://housing.lacity.gov/residents/just-cause-for-eviction-ordinance-jco, retrieved 2026-10-01",
+        "quoted_span": "All properties rented or offered for rent must be registered annually. In addition to paying the annual registration fee, landlords are required to complete the Rent Registry form. Once registration is complete, the landlord will receive a Registration Certificate (Statement) which must be displayed in a conspicuous place on the property or served to the tenant.",
+        "key_value": null,
+        "coverage_conditions": "All properties rented or offered for rent in Los Angeles.",
+        "exemptions": null,
+        "effective_date": null,
+        "conflict_note": null,
+        "sanctions": null,
+        "enacted_at": null,
+        "operative_date": null,
+        "end_date": null,
+        "confidence": 0.9,
+        "conflict_flag": false,
+        "logic": {
+          "coverage": {
+            "all": [
+              {
+                "fact": "legal_city",
+                "op": "eq",
+                "value": "Los Angeles"
+              },
+              {
+                "fact": "property_offered_for_rent",
+                "op": "eq",
+                "value": true
+              }
+            ]
+          },
+          "exemptions": false
+        },
+        "field_evidence": [
+          {
+            "field": "requirement",
+            "quoted_span": "All properties rented or offered for rent must be registered annually"
+          },
+          {
+            "field": "requirement",
+            "quoted_span": "landlords are required to complete the Rent Registry form"
+          },
+          {
+            "field": "requirement",
+            "quoted_span": "Once registration is complete, the landlord will receive a Registration Certificate (Statement) which must be displayed in a conspicuous place on the property or served to the tenant"
+          }
+        ]
+      },
+      "errors": [
+        "quoted_span is not exact original source substring"
+      ]
+    },
+    {
+      "rule": {
+        "jurisdiction": "Los Angeles",
+        "level": "city",
+        "category": "just_cause_eviction",
+        "status": "in_force",
+        "title": "Notice of Renters' Protections Requirement",
+        "requirement": "All landlords of residential properties must provide a Notice of Renters' Protections to tenants who begin or renew their tenancy on or after January 27, 2023. This notice must also be posted in an accessible common area of the property.",
+        "citation": "Los Angeles Housing Department, Just Cause For Eviction Ordinance (JCO), https://housing.lacity.gov/residents/just-cause-for-eviction-ordinance-jco, retrieved 2026-10-01",
+        "quoted_span": "All landlords of residential properties must provide a Notice of Renters' Protections to tenants who begin or renew their tenancy on or after January 27, 2023. This notice must also be posted in an accessible common area of the property.",
+        "key_value": null,
+        "coverage_conditions": "Tenants whose tenancy begins or is renewed on or after January 27, 2023.",
+        "exemptions": null,
+        "effective_date": "2023-01-27",
+        "conflict_note": null,
+        "sanctions": null,
+        "enacted_at": null,
+        "operative_date": "2023-01-27",
+        "end_date": null,
+        "confidence": 0.9,
+        "conflict_flag": false,
+        "logic": {
+          "coverage": {
+            "all": [
+              {
+                "fact": "legal_city",
+                "op": "eq",
+                "value": "Los Angeles"
+              },
+              {
+                "fact": "residential_property",
+                "op": "eq",
+                "value": true
+              },
+              {
+                "fact": "tenancy_begun_or_renewed_on_or_after_2023_01_27",
+                "op": "eq",
+                "value": true
+              }
+            ]
+          },
+          "exemptions": false
+        },
+        "field_evidence": [
+          {
+            "field": "requirement",
+            "quoted_span": "All landlords of residential properties must provide a Notice of Renters' Protections to tenants"
+          },
+          {
+            "field": "coverage_conditions",
+            "quoted_span": "tenants who begin or renew their tenancy on or after January 27, 2023"
+          },
+          {
+            "field": "requirement",
+            "quoted_span": "This notice must also be posted in an accessible common area of the property"
+          }
+        ]
+      },
+      "errors": [
+        "quoted_span is not exact original source substring"
+      ]
+    },
+    {
+      "rule": {
+        "jurisdiction": "California",
+        "level": "state",
+        "category": "rent_increase_limits",
+        "status": "in_force",
+        "title": "AB 1482 - California Tenant Protection Act of 2019 - Rent Increase Cap",
+        "requirement": "State law AB 1482 (California Tenant Protection Act of 2019) regulates rent increases for buildings older than 15 years. Annual rent increases are limited to no more than 5% plus the percentage change in the cost of living for the region in which the property is located, or 10%, whichever is lower. The current period is August 1, 2024 to July 31, 2025, with maximum allowable increase of 8.9%. Previously from August 1, 2023 to July 31, 2024, the maximum annual increase was 8.8%.",
+        "citation": "Los Angeles Housing Department, Just Cause For Eviction Ordinance (JCO), https://housing.lacity.gov/residents/just-cause-for-eviction-ordinance-jco, retrieved 2026-10-01; California Tenant Protection Act of 2019 (AB 1482)",
+        "quoted_span": "state law AB 1482, the California Tenant Protection Act of 2019, may regulate the rent amount in buildings that are older than 15 years old. Effective August 1, 2024 to July 31, 2025, the maximum allowable increase is 8.9%. (Annual rent increases are limited to no more than 5% plus the percentage change in the cost of living for the region in which the property is located, or 10% whichever is lower).",
+        "key_value": "8.9% for period August 1, 2024 to July 31, 2025; formula is minimum of [5% plus regional CPI or 10%]",
+        "coverage_conditions": "Buildings older than 15 years in California. The 15-year threshold applies on a rolling basis (e.g., a unit constructed on January 1, 2006 is not covered as of January 1, 2020, but is covered on and after January 1, 2021).",
+        "exemptions": "Units constructed within the last 15 years (rolling basis); units restricted by deed or regulatory document to low or moderate-income households; certain dormitories; two-unit properties where the second unit was occupied by an owner for the entire period of the tenancy; single-family homes and condominiums only exempt if not owned by real estate trust, corporation, or LLC with corporate member, AND landlord notified tenant in writing that tenancy is not subject to just cause and rent increase limitations; units already subject to City RSO; limited exemption for single-family homes does not apply where there is more than one dwelling unit on the same lot or any second residential unit in the building that cannot be sold separately.",
+        "effective_date": "2024-08-01",
+        "conflict_note": null,
+        "sanctions": null,
+        "enacted_at": null,
+        "operative_date": "2024-08-01",
+        "end_date": "2025-07-31",
+        "confidence": 0.9,
+        "conflict_flag": false,
+        "logic": {
+          "coverage": {
+            "all": [
+              {
+                "fact": "state",
+                "op": "eq",
+                "value": "CA"
+              },
+              {
+                "fact": "building_age_over_15_years",
+                "op": "eq",
+                "value": true
+              }
+            ]
+          },
+          "exemptions": {
+            "any": [
+              {
+                "fact": "unit_constructed_within_last_15_years",
+                "op": "eq",
+                "value": true
+              },
+              {
+                "fact": "unit_restricted_by_deed_or_regulatory_document",
+                "op": "eq",
+                "value": true
+              },
+              {
+                "fact": "dormitory",
+                "op": "eq",
+                "value": true
+              },
+              {
+                "fact": "two_unit_property_owner_occupied_entire_tenancy",
+                "op": "eq",
+                "value": true
+              },
+              {
+                "fact": "single_family_home_or_condo_individual_owner_with_disclosure",
+                "op": "eq",
+                "value": true
+              },
+              {
+                "fact": "property_subject_to_city_rso",
+                "op": "eq",
+                "value": true
+              }
+            ]
+          }
+        },
+        "field_evidence": [
+          {
+            "field": "requirement",
+            "quoted_span": "Annual rent increases are limited to no more than 5% plus the percentage change in the cost of living for the region in which the property is located, or 10% whichever is lower"
+          },
+          {
+            "field": "effective_date",
+            "quoted_span": "Effective August 1, 2024 to July 31, 2025, the maximum allowable increase is 8.9%."
+          },
+          {
+            "field": "coverage_conditions",
+            "quoted_span": "state law AB 1482, the California Tenant Protection Act of 2019, may regulate the rent amount in buildings that are older than 15 years old"
+          },
+          {
+            "field": "exemptions",
+            "quoted_span": "Units that were constructed within the last 15 years"
+          },
+          {
+            "field": "exemptions",
+            "quoted_span": "Units restricted by a deed, regulatory restrictions, or other recorded document limiting the affordability to low or moderate-income households"
+          },
+          {
+            "field": "exemptions",
+            "quoted_span": "Certain dormitories"
+          },
+          {
+            "field": "exemptions",
+            "quoted_span": "A two-unit property, provided the second unit was occupied by an owner of the property for the entire period of the tenancy"
+          }
+        ]
+      },
+      "errors": [
+        "quoted_span is not exact original source substring"
+      ]
+    }
+  ],
+  "gaps": [
+    "Document does not specify sanctions or penalties for violations of JCO or AB 1482 requirements",
+    "Document does not provide details on relocation assistance amounts or calculation methodology for no-fault evictions",
+    "Document does not contain information on security deposit regulations (category: security_deposits)",
+    "Document does not contain information on application screening fees (category: application_screening_fees)",
+    "Document does not contain information on screening restrictions (category: screening_restrictions)",
+    "Document does not contain information on algorithmic rent setting (category: algorithmic_rent_setting)",
+    "Document references AB 1482 rent increase formula but does not provide actual CPI values for the current or prior period - 8.9% is cited but the underlying CPI calculation is not provided in source",
+    "Document does not clarify whether JCO applies to buildings constructed before October 1, 1978 or if that date is only a reference point",
+    "Relationship between JCO coverage and RSO coverage is noted as mutually exclusive but detailed overlap analysis is not provided",
+    "Document does not specify appeal procedures or remedies for tenants claiming violations",
+    "Document does not provide definition of 'immediate family member' for owner move-in ground",
+    "Document notes 'resident manager will move into the rental unit when required by law' but does not specify which laws are referenced"
+  ],
+  "status": "needs_review"
+}

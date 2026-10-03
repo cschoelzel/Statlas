@@ -1,0 +1,382 @@
+{
+  "doc_id": "D069",
+  "model": "claude-haiku-4-5-20251001",
+  "source_sha256": "1fdbfb48743a46429c3f47dbd8d08c665739202361661e1a2f19b94bb0ec43a6",
+  "rules": [],
+  "rejected": [
+    {
+      "rule": {
+        "jurisdiction": "NJ",
+        "level": "state",
+        "category": "algorithmic_pricing",
+        "status": "not_yet_effective",
+        "title": "Forbidding the Algorithmic Inflation of Rent (FAIR) Act - Prohibition on Coordinator Services",
+        "requirement": "A rental property owner, or any agent, representative, or subcontractor thereof, shall not receive, subscribe to, contract for, or otherwise exchange any form of consideration in return for the use of the services of a coordinator.",
+        "citation": "P.L. 2026, c.043 (A3497 1R ACS), \u00a7 4(a)",
+        "quoted_span": "a rental property owner, or any agent, representative, or subcontractor thereof, to receive, subscribe to, contract for, or otherwise exchange any form of consideration in return for the use of, the services of a coordinator",
+        "key_value": null,
+        "coverage_conditions": "Applies to rental property owners in New Jersey and their agents, representatives, or subcontractors. Residential dwelling unit means any house, apartment, accessory unit, or other unit intended to be used as a primary residence in the State, excluding inpatient medical care, licensed long-term care, or detention or correctional facilities.",
+        "exemptions": "Government affordability controls as defined in the act, including federal section 8 Housing Choice Voucher Homeownership Program, P.L.2004, c.140, Fair Housing Act, New Jersey Housing and Mortgage Finance Agency programs, rent control or rent leveling ordinances, or other local, State, or federal government housing programs.",
+        "effective_date": "2027-07-20",
+        "conflict_note": null,
+        "sanctions": "Violation of the New Jersey Antitrust Act, P.L.1970, c.73 (C.56:9-1 et seq.). The act does not limit application of sections 6 through 17 of P.L.1970, c.73 (C.56:9-6 through 9-17) to violations of this section.",
+        "confidence": 0.95,
+        "conflict_flag": false,
+        "logic": {
+          "coverage": {
+            "all": [
+              {
+                "fact": "is_rental_property_owner",
+                "op": "eq",
+                "value": true
+              },
+              {
+                "fact": "jurisdiction",
+                "op": "eq",
+                "value": "NJ"
+              }
+            ]
+          },
+          "exemptions": {
+            "any": [
+              {
+                "fact": "government_affordability_controls_applied",
+                "op": "eq",
+                "value": true
+              }
+            ]
+          }
+        }
+      },
+      "errors": [
+        "unsupported category",
+        "quoted_span is not exact original source substring"
+      ]
+    },
+    {
+      "rule": {
+        "jurisdiction": "NJ",
+        "level": "state",
+        "category": "algorithmic_pricing",
+        "status": "not_yet_effective",
+        "title": "Forbidding the Algorithmic Inflation of Rent (FAIR) Act - Prohibition on Coordinator Facilitation of Anticompetitive Agreements",
+        "requirement": "A coordinator shall not facilitate a tacit or express agreement among rental property owners that restricts competition with respect to residential dwelling units, including by performing a coordinating function.",
+        "citation": "P.L. 2026, c.043 (A3497 1R ACS), \u00a7 4(b)",
+        "quoted_span": "a coordinator to facilitate a tacit or express agreement among rental property owners that restricts competition with respect to residential dwelling units, including by performing a coordinating function",
+        "key_value": null,
+        "coverage_conditions": "Coordinator means any person who operates algorithmic revenue management software or an algorithmic device that performs a coordinating function for any rental property owner, including a rental property owner performing a coordinating function for their own benefit. Coordinating function means: (1) collecting competitively sensitive information of two or more rental property owners for analyzing or processing through an algorithm where used to set or recommend rental prices, material lease terms, or occupancy levels; (2) setting rental prices, material lease terms, or occupancy levels pursuant to an underlying algorithm analyzing competitively sensitive information of any other rental property owner; or (3) setting for or recommending to two or more rental property owners rental prices, material lease terms, or occupancy levels pursuant to the same or substantially similar underlying algorithm that facilitates parallel pricing coordination.",
+        "exemptions": "Coordinating function does not include: (1) providing, using, or collecting competitively sensitive information solely for research, statistical analysis, or testing where not used in setting or recommending rental prices, material lease terms, fees, occupancy rates or levels, or other contract terms; (2) developing an estimated amount of rent made available to the public at no cost; (3) use of a real estate brokerage database available on equal terms to subscribers that lists properties for rent or sale but does not set or recommend rental prices, material lease terms, or occupancy rates or levels, or collect competitively sensitive information for such purposes; or (4) a government entity setting or limiting rents or sale prices through affordability controls in accordance with law.",
+        "effective_date": "2027-07-20",
+        "conflict_note": null,
+        "sanctions": "Violation of the New Jersey Antitrust Act, P.L.1970, c.73 (C.56:9-1 et seq.). The act does not limit application of sections 6 through 17 of P.L.1970, c.73 (C.56:9-6 through 9-17) to violations of this section.",
+        "confidence": 0.95,
+        "conflict_flag": false,
+        "logic": {
+          "coverage": {
+            "all": [
+              {
+                "fact": "is_coordinator",
+                "op": "eq",
+                "value": true
+              },
+              {
+                "fact": "jurisdiction",
+                "op": "eq",
+                "value": "NJ"
+              }
+            ]
+          },
+          "exemptions": {
+            "any": [
+              {
+                "fact": "is_government_entity_with_affordability_controls",
+                "op": "eq",
+                "value": true
+              }
+            ]
+          }
+        }
+      },
+      "errors": [
+        "unsupported category",
+        "quoted_span is not exact original source substring"
+      ]
+    },
+    {
+      "rule": {
+        "jurisdiction": "NJ",
+        "level": "state",
+        "category": "algorithmic_pricing",
+        "status": "not_yet_effective",
+        "title": "Forbidding the Algorithmic Inflation of Rent (FAIR) Act - Prohibition on Parallel Pricing Coordination",
+        "requirement": "Two or more persons shall not engage in or otherwise facilitate parallel pricing coordination with respect to residential dwelling units.",
+        "citation": "P.L. 2026, c.043 (A3497 1R ACS), \u00a7 4(c)",
+        "quoted_span": "two or more persons to engage in or otherwise facilitate parallel pricing coordination",
+        "key_value": null,
+        "coverage_conditions": "Applies to two or more persons in New Jersey. Parallel pricing coordination means a tacit or express agreement between two or more rental property owners to raise, change, maintain, or manipulate pricing for the leasing of reasonably interchangeable residential dwelling units, unless required to do so in accordance with affordability controls. This includes agreements between a coordinator and multiple property owners. Tacit agreement means mutual consent demonstrated without verbal or written communication, which may be demonstrated by a pattern of conduct.",
+        "exemptions": "Parallel pricing coordination that is required by affordability controls as defined in the act.",
+        "effective_date": "2027-07-20",
+        "conflict_note": null,
+        "sanctions": "Violation of the New Jersey Antitrust Act, P.L.1970, c.73 (C.56:9-1 et seq.). The act does not limit application of sections 6 through 17 of P.L.1970, c.73 (C.56:9-6 through 9-17) to violations of this section.",
+        "confidence": 0.95,
+        "conflict_flag": false,
+        "logic": {
+          "coverage": {
+            "all": [
+              {
+                "fact": "number_of_persons",
+                "op": "gte",
+                "value": 2
+              },
+              {
+                "fact": "engaging_in_parallel_pricing_coordination",
+                "op": "eq",
+                "value": true
+              },
+              {
+                "fact": "jurisdiction",
+                "op": "eq",
+                "value": "NJ"
+              }
+            ]
+          },
+          "exemptions": {
+            "any": [
+              {
+                "fact": "required_by_affordability_controls",
+                "op": "eq",
+                "value": true
+              }
+            ]
+          }
+        }
+      },
+      "errors": [
+        "unsupported category",
+        "quoted_span is not exact original source substring"
+      ]
+    },
+    {
+      "rule": {
+        "jurisdiction": "NJ",
+        "level": "state",
+        "category": "algorithmic_pricing",
+        "status": "not_yet_effective",
+        "title": "Forbidding the Algorithmic Inflation of Rent (FAIR) Act - Prohibition on Agent or Representative Parallel Pricing Coordination",
+        "requirement": "Any agent or representative of a coordinator or subcontractor thereof shall not engage in parallel pricing coordination.",
+        "citation": "P.L. 2026, c.043 (A3497 1R ACS), \u00a7 4(d)",
+        "quoted_span": "any agent or representative of a coordinator or subcontractor thereof to engage in parallel pricing coordination",
+        "key_value": null,
+        "coverage_conditions": "Applies to agents, representatives, or subcontractors of coordinators in New Jersey engaging in parallel pricing coordination with respect to reasonably interchangeable residential dwelling units.",
+        "exemptions": "Parallel pricing coordination required by affordability controls.",
+        "effective_date": "2027-07-20",
+        "conflict_note": null,
+        "sanctions": "Violation of the New Jersey Antitrust Act, P.L.1970, c.73 (C.56:9-1 et seq.). The act does not limit application of sections 6 through 17 of P.L.1970, c.73 (C.56:9-6 through 9-17) to violations of this section.",
+        "confidence": 0.95,
+        "conflict_flag": false,
+        "logic": {
+          "coverage": {
+            "all": [
+              {
+                "fact": "is_agent_or_representative_of_coordinator",
+                "op": "eq",
+                "value": true
+              },
+              {
+                "fact": "engaging_in_parallel_pricing_coordination",
+                "op": "eq",
+                "value": true
+              },
+              {
+                "fact": "jurisdiction",
+                "op": "eq",
+                "value": "NJ"
+              }
+            ]
+          },
+          "exemptions": {
+            "any": [
+              {
+                "fact": "required_by_affordability_controls",
+                "op": "eq",
+                "value": true
+              }
+            ]
+          }
+        }
+      },
+      "errors": [
+        "unsupported category",
+        "quoted_span is not exact original source substring"
+      ]
+    },
+    {
+      "rule": {
+        "jurisdiction": "NJ",
+        "level": "state",
+        "category": "algorithmic_pricing",
+        "status": "not_yet_effective",
+        "title": "Forbidding the Algorithmic Inflation of Rent (FAIR) Act - General Prohibition on Coordinating Function",
+        "requirement": "Any person shall not perform a coordinating function with respect to residential dwelling units.",
+        "citation": "P.L. 2026, c.043 (A3497 1R ACS), \u00a7 4(e)",
+        "quoted_span": "any person to perform a coordinating function",
+        "key_value": null,
+        "coverage_conditions": "Applies to any person performing a coordinating function in New Jersey. Coordinating function means: (1) collecting competitively sensitive information of two or more rental property owners for analyzing or processing through an algorithm where used to set or recommend rental prices, material lease terms, or occupancy levels; (2) setting rental prices, material lease terms, or occupancy levels pursuant to an underlying algorithm analyzing competitively sensitive information of any other rental property owner; or (3) setting for or recommending to two or more rental property owners rental prices, material lease terms, or occupancy levels pursuant to the same or substantially similar underlying algorithm that facilitates parallel pricing coordination.",
+        "exemptions": "Coordinating function does not include: (1) providing, using, or collecting competitively sensitive information solely for research, statistical analysis, or testing where not used in setting or recommending rental prices, material lease terms, fees, occupancy rates or levels, or other contract terms; (2) developing an estimated amount of rent made available to the public at no cost; (3) use of a real estate brokerage database available on equal terms to subscribers that lists properties for rent or sale but does not set or recommend rental prices, material lease terms, or occupancy rates or levels, or collect competitively sensitive information for such purposes; or (4) a government entity setting or limiting rents or sale prices through affordability controls in accordance with law.",
+        "effective_date": "2027-07-20",
+        "conflict_note": null,
+        "sanctions": "Violation of the New Jersey Antitrust Act, P.L.1970, c.73 (C.56:9-1 et seq.). The act does not limit application of sections 6 through 17 of P.L.1970, c.73 (C.56:9-6 through 9-17) to violations of this section.",
+        "confidence": 0.95,
+        "conflict_flag": false,
+        "logic": {
+          "coverage": {
+            "all": [
+              {
+                "fact": "is_person",
+                "op": "eq",
+                "value": true
+              },
+              {
+                "fact": "performing_coordinating_function",
+                "op": "eq",
+                "value": true
+              },
+              {
+                "fact": "jurisdiction",
+                "op": "eq",
+                "value": "NJ"
+              }
+            ]
+          },
+          "exemptions": {
+            "any": [
+              {
+                "fact": "falls_within_coordinating_function_exclusion",
+                "op": "eq",
+                "value": true
+              },
+              {
+                "fact": "is_government_entity_with_affordability_controls",
+                "op": "eq",
+                "value": true
+              }
+            ]
+          }
+        }
+      },
+      "errors": [
+        "unsupported category"
+      ]
+    },
+    {
+      "rule": {
+        "jurisdiction": "NJ",
+        "level": "state",
+        "category": "algorithmic_pricing",
+        "status": "not_yet_effective",
+        "title": "Forbidding the Algorithmic Inflation of Rent (FAIR) Act - Municipal Preemption",
+        "requirement": "A municipality shall be prohibited from enacting an ordinance that conflicts with this act. This subsection shall not be construed to prohibit the enactment of ordinances explicitly authorized or required by any other law.",
+        "citation": "P.L. 2026, c.043 (A3497 1R ACS), \u00a7 6(b)",
+        "quoted_span": "A municipality shall be prohibited from enacting an ordinance that conflicts with this act. This subsection shall not be construed to prohibit the enactment of ordinances explicitly authorized or required by any other law.",
+        "key_value": null,
+        "coverage_conditions": "Applies to all municipalities in New Jersey. Prevents enactment of ordinances conflicting with the FAIR Act.",
+        "exemptions": "Ordinances explicitly authorized or required by any other law.",
+        "effective_date": "2027-07-20",
+        "conflict_note": null,
+        "sanctions": "Municipal ordinances in conflict with the act are preempted and prohibited.",
+        "confidence": 0.95,
+        "conflict_flag": false,
+        "logic": {
+          "coverage": {
+            "all": [
+              {
+                "fact": "jurisdiction",
+                "op": "eq",
+                "value": "NJ"
+              },
+              {
+                "fact": "level_of_government",
+                "op": "eq",
+                "value": "municipal"
+              }
+            ]
+          },
+          "exemptions": {
+            "any": [
+              {
+                "fact": "ordinance_explicitly_authorized_by_other_law",
+                "op": "eq",
+                "value": true
+              },
+              {
+                "fact": "ordinance_required_by_other_law",
+                "op": "eq",
+                "value": true
+              }
+            ]
+          }
+        }
+      },
+      "errors": [
+        "unsupported category",
+        "quoted_span is not exact original source substring"
+      ]
+    },
+    {
+      "rule": {
+        "jurisdiction": "NJ",
+        "level": "state",
+        "category": "algorithmic_pricing",
+        "status": "not_yet_effective",
+        "title": "Forbidding the Algorithmic Inflation of Rent (FAIR) Act - Complaint Mechanism",
+        "requirement": "The Attorney General shall establish, on the official website of the Department of Law and Public Safety, a location to receive complaints alleging any violation or suspected violation of this act, which requirement may be satisfied by establishing or maintaining such a location for complaints alleging violations or suspected violations of the New Jersey Antitrust Act.",
+        "citation": "P.L. 2026, c.043 (A3497 1R ACS), \u00a7 7",
+        "quoted_span": "The Attorney General shall establish, on the official website of the Department of Law and Public Safety, a location to receive complaints alleging any violation or suspected violation of this act",
+        "key_value": null,
+        "coverage_conditions": "Applies to the New Jersey Attorney General and the Department of Law and Public Safety.",
+        "exemptions": null,
+        "effective_date": "2027-07-20",
+        "conflict_note": null,
+        "sanctions": "Procedural requirement for enforcement mechanism; failure to establish complaint location may be subject to administrative review.",
+        "confidence": 0.9,
+        "conflict_flag": false,
+        "logic": {
+          "coverage": {
+            "all": [
+              {
+                "fact": "jurisdiction",
+                "op": "eq",
+                "value": "NJ"
+              },
+              {
+                "fact": "is_attorney_general",
+                "op": "eq",
+                "value": true
+              }
+            ]
+          },
+          "exemptions": false
+        }
+      },
+      "errors": [
+        "unsupported category",
+        "quoted_span is not exact original source substring"
+      ]
+    }
+  ],
+  "gaps": [
+    "Historical status of A3497 prior to enactment (introduction date, committee votes, legislative history)",
+    "Detailed enforcement procedures and penalties under existing New Jersey Antitrust Act sections 6-17 as applied to FAIR Act violations",
+    "Interaction with federal antitrust law and implications of federal preemption",
+    "Definition of 'artificial intelligence' in context of algorithmic device exclusion for spreadsheets",
+    "Specific procedures for Attorney General rulemaking under Administrative Procedure Act",
+    "Potential conflicts with First Amendment or other constitutional protections for algorithmic speech",
+    "Cross-reference to existing rent control or rent leveling ordinances in New Jersey municipalities",
+    "Definition of 'material lease terms' beyond rent pricing",
+    "Treatment of hybrid systems combining spreadsheet and algorithmic functions",
+    "Guidance on burden of proof for establishing 'tacit agreement' through pattern of conduct",
+    "Application to international coordinators or software providers outside New Jersey",
+    "Relationship to existing litigation mentioned in legislative findings"
+  ],
+  "status": "needs_review"
+}

@@ -1,0 +1,173 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011Cfftop4hD3muib85YQ2Pa",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "I can only answer based on the document provided, which covers security deposits in Berkeley. The document does not contain information about rent caps, just cause eviction, application/screening fees, screening restrictions, or algorithmic pricing.\n\nBased on the document, here are the operative security deposit obligations in Berkeley as of the retrieval date (2026-10-01):\n\n## Security Deposit Limits\n\n"
+    },
+    {
+      "citations": [
+        {
+          "type": "char_location",
+          "cited_text": "Security deposit payments\nStarting July 1, 2024, many landlords may only charge one month's rent for unfurnished and\u00a0furnished units\nStarting July 1, 2024, landlords who own only two rental properties with no more than four residential units total can charge up to two months' rent for furnished and unfurnished units if ownership is held by a natural person, family trust, or limited liability company (LLC) where all members are natural persons\nLast month\u2019s rent IS considered part of the security deposit\nFirst month\u2019s rent is NOT considered part of the security deposit\nA California law,\nAssembly Bill 12\n, changed the amount landlords can charge as a security deposit to the amounts described above starting July 1, 2024. ",
+          "document_index": 0,
+          "document_title": "D007",
+          "start_char_index": 380,
+          "end_char_index": 1107
+        }
+      ],
+      "type": "text",
+      "text": "Starting July 1, 2024, many landlords may only charge one month's rent for unfurnished and furnished units. Starting July 1, 2024, landlords who own only two rental properties with no more than four residential units total can charge up to two months' rent for furnished and unfurnished units if ownership is held by a natural person, family trust, or limited liability company (LLC) where all members are natural persons."
+    },
+    {
+      "type": "text",
+      "text": "\n\n## Pre-Tenancy Documentation\n\n"
+    },
+    {
+      "citations": [
+        {
+          "type": "char_location",
+          "cited_text": "Landlord requirement to photograph unit before or at the start of a new tenancy\nFor tenancies that begin on or after July 1, 2025, a landlord must photograph the unit immediately before or at the start of a new tenancy to document the condition of the unit.\n",
+          "document_index": 0,
+          "document_title": "D007",
+          "start_char_index": 1352,
+          "end_char_index": 1610
+        }
+      ],
+      "type": "text",
+      "text": "For tenancies that begin on or after July 1, 2025, a landlord must photograph the unit immediately before or at the start of a new tenancy to document the condition of the unit."
+    },
+    {
+      "type": "text",
+      "text": "\n\n## Move-Out Inspection\n\n"
+    },
+    {
+      "citations": [
+        {
+          "type": "char_location",
+          "cited_text": "Move-out walk-through inspection requirement\nUnder state law, landlords must offer a walk-through inspection during the last two weeks of a tenancy to identify any items that need repair/cleaning. This is to give tenants a chance to correct issues in order to avoid security deposit deductions. ",
+          "document_index": 0,
+          "document_title": "D007",
+          "start_char_index": 1610,
+          "end_char_index": 1905
+        }
+      ],
+      "type": "text",
+      "text": "Landlords must offer a walk-through inspection during the last two weeks of a tenancy to identify any items that need repair/cleaning, to give tenants a chance to correct issues in order to avoid security deposit deductions."
+    },
+    {
+      "type": "text",
+      "text": "\n\n## Security Deposit Return Requirements\n\n"
+    },
+    {
+      "citations": [
+        {
+          "type": "char_location",
+          "cited_text": "Return of Security Deposit\nAll or any remaining portion of a\u00a0security deposit must be returned\nwithin 21 days\nafter the tenant/s leave the unit vacant. ",
+          "document_index": 0,
+          "document_title": "D007",
+          "start_char_index": 2881,
+          "end_char_index": 3033
+        }
+      ],
+      "type": "text",
+      "text": "All or any remaining portion of a security deposit must be returned within 21 days after the tenant/s leave the unit vacant."
+    },
+    {
+      "type": "text",
+      "text": "\n\n"
+    },
+    {
+      "citations": [
+        {
+          "type": "char_location",
+          "cited_text": "If deductions were made, the landlord must give the tenant a\u00a0written statement itemizing the amount of and and purpose for any security deposit deductions, accompanied by copies of documents showing charges incurred and deducted by the landlord to repair or clean the premises, including a copy of any bill, invoice, or receipt for materials or supplies deductions. ",
+          "document_index": 0,
+          "document_title": "D007",
+          "start_char_index": 3033,
+          "end_char_index": 3399
+        }
+      ],
+      "type": "text",
+      "text": "If deductions were made, the landlord must give the tenant a written statement itemizing the amount of and purpose for any security deposit deductions, accompanied by copies of documents showing charges incurred and deducted by the landlord to repair or clean the premises, including a copy of any bill, invoice, or receipt for materials or supplies deductions."
+    },
+    {
+      "type": "text",
+      "text": "\n\n"
+    },
+    {
+      "citations": [
+        {
+          "type": "char_location",
+          "cited_text": "Starting January 1, 2025, landlords must provide proof that necessary repairs were completed.\nStarting April 1, 2025, landlords must take photographs of a unit after regaining possession, but before any repairs or cleaning for which the landlord intends to make a deduction from the security deposit. These photos and a written explanation of the cost of the repairs/cleaning must be given to the tenant along with the itemized statement.\n",
+          "document_index": 0,
+          "document_title": "D007",
+          "start_char_index": 3476,
+          "end_char_index": 3915
+        }
+      ],
+      "type": "text",
+      "text": "Starting January 1, 2025, landlords must provide proof that necessary repairs were completed. Starting April 1, 2025, landlords must take photographs of a unit after regaining possession, but before any repairs or cleaning for which the landlord intends to make a deduction from the security deposit. These photos and a written explanation of the cost of the repairs/cleaning must be given to the tenant along with the itemized statement."
+    },
+    {
+      "type": "text",
+      "text": "\n\n## Security Deposit Interest\n\n"
+    },
+    {
+      "citations": [
+        {
+          "type": "char_location",
+          "cited_text": "Security deposit interest\nFor tenancies in units fully or partially covered by Berkeley's Rent Ordinance, landlords must pay tenants interest on their security deposit at the end of each year and a prorated amount if the tenant moves out before the end of the year. ",
+          "document_index": 0,
+          "document_title": "D007",
+          "start_char_index": 3915,
+          "end_char_index": 4181
+        }
+      ],
+      "type": "text",
+      "text": "For tenancies in units fully or partially covered by Berkeley's Rent Ordinance, landlords must pay tenants interest on their security deposit at the end of each year and a prorated amount if the tenant moves out before the end of the year."
+    },
+    {
+      "type": "text",
+      "text": "\n\n## Permissible Deductions\n\n"
+    },
+    {
+      "citations": [
+        {
+          "type": "char_location",
+          "cited_text": "Security deposit deductions\nA landlord may deduct only the amount that is reasonably necessary to:\nCover rent default\nRepair damages caused by a tenant or a tenant's guest other than normal wear and tear\nClean the unit to return it to the same level of cleanliness as at the start of the tenancy (for tenancies beginning after January 1, 2003)\nIf allowed by the lease, cover the cost of restoring or replacing personal property (including keys) or furniture, excluding ordinary wear and tear\nThe landlord cannot require a tenant to pay for, or assert a claim against the tenant or the security deposit for professional carpet cleaning or other professional cleaning services, unless reasonably necessary to return the premises to the condition it was in at the start of the tenancy, minus ordinary wear and tear.\n",
+          "document_index": 0,
+          "document_title": "D007",
+          "start_char_index": 2068,
+          "end_char_index": 2881
+        }
+      ],
+      "type": "text",
+      "text": "A landlord may deduct only the amount that is reasonably necessary to: cover rent default; repair damages caused by a tenant or a tenant's guest other than normal wear and tear; clean the unit to return it to the same level of cleanliness as at the start of the tenancy (for tenancies beginning after January 1, 2003); and if allowed by the lease, cover the cost of restoring or replacing personal property (including keys) or furniture, excluding ordinary wear and tear."
+    },
+    {
+      "type": "text",
+      "text": "\n\nFor information on rent caps, just cause eviction, application/screening fees, screening restrictions, and algorithmic pricing, you would need additional documents or sources."
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 2056,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 831,
+    "service_tier": "batch",
+    "inference_geo": "not_available"
+  },
+  "diagnostics": null
+}

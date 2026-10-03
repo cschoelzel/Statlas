@@ -1,0 +1,281 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011CfftopDsRjUxE5u9QakMK",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "Based on the document provided, I can only identify obligations and exemptions related to **application screening fees** under California Civil Code Section 1950.6. The document does not contain information about rent caps, just cause eviction, deposits, screening restrictions, or algorithmic pricing.\n\n## Application Screening Fees\n\n**Status:** "
+    },
+    {
+      "citations": [
+        {
+          "type": "char_location",
+          "cited_text": "(Amended by Stats. 2025, Ch. 67, Sec. 29.   (AB 1170)   Effective January 1, 2026.)",
+          "document_index": 0,
+          "document_title": "D026",
+          "start_char_index": 7101,
+          "end_char_index": 7184
+        }
+      ],
+      "type": "text",
+      "text": "Enacted by Stats. 2025, Ch. 67, Sec. 29 (AB 1170), effective January 1, 2026"
+    },
+    {
+      "type": "text",
+      "text": "\n\n**Coverage:** "
+    },
+    {
+      "citations": [
+        {
+          "type": "char_location",
+          "cited_text": "(a)\u00a0Notwithstanding Section 1950.5, when a landlord or their agent receives a request to rent a residential property from an applicant, the landlord or their agent may charge, pursuant to subdivision (c), that applicant an application screening fee to cover the costs of obtaining information about the applicant. ",
+          "document_index": 0,
+          "document_title": "D026",
+          "start_char_index": 1243,
+          "end_char_index": 1557
+        }
+      ],
+      "type": "text",
+      "text": "Applies when a landlord or their agent receives a request to rent a residential property from an applicant"
+    },
+    {
+      "type": "text",
+      "text": "\n\n**Fee Caps:**\n- "
+    },
+    {
+      "citations": [
+        {
+          "type": "char_location",
+          "cited_text": "In no case shall the amount of the application screening fee charged by the landlord or their agent be greater than thirty dollars ($30) per applicant. ",
+          "document_index": 0,
+          "document_title": "D026",
+          "start_char_index": 2307,
+          "end_char_index": 2459
+        }
+      ],
+      "type": "text",
+      "text": "Maximum of thirty dollars ($30) per applicant"
+    },
+    {
+      "type": "text",
+      "text": "\n- "
+    },
+    {
+      "citations": [
+        {
+          "type": "char_location",
+          "cited_text": "The thirty dollar ($30) application screening fee may be adjusted annually by the landlord or their agent commensurate with an increase in the Consumer Price Index, beginning on January 1, 1998.\n",
+          "document_index": 0,
+          "document_title": "D026",
+          "start_char_index": 2459,
+          "end_char_index": 2654
+        }
+      ],
+      "type": "text",
+      "text": "The thirty dollar ($30) application screening fee may be adjusted annually commensurate with an increase in the Consumer Price Index, beginning on January 1, 1998"
+    },
+    {
+      "type": "text",
+      "text": "\n\n**Fee Justification Requirements:**\n- "
+    },
+    {
+      "citations": [
+        {
+          "type": "char_location",
+          "cited_text": "(b)\u00a0The amount of the application screening fee shall not be greater than the actual\nout-of-pocket costs of gathering information concerning the applicant, including, but not limited to, the cost of using a tenant screening service or a consumer credit reporting service, and the reasonable value of time spent by the landlord or their agent in obtaining information on the applicant. ",
+          "document_index": 0,
+          "document_title": "D026",
+          "start_char_index": 1922,
+          "end_char_index": 2307
+        }
+      ],
+      "type": "text",
+      "text": "The fee amount shall not exceed the actual out-of-pocket costs of gathering information, including the cost of using a tenant screening service or consumer credit reporting service, and the reasonable value of time spent by the landlord or their agent"
+    },
+    {
+      "type": "text",
+      "text": "\n\n**Prohibited Charging Circumstances:**\n- "
+    },
+    {
+      "citations": [
+        {
+          "type": "char_location",
+          "cited_text": "(c)\u00a0(1)\u00a0A landlord or their agent shall not charge an applicant an application screening fee when they know or should have known that no rental unit is available at that time or will be available within a reasonable period of time.\n",
+          "document_index": 0,
+          "document_title": "D026",
+          "start_char_index": 2654,
+          "end_char_index": 2886
+        }
+      ],
+      "type": "text",
+      "text": "A landlord or their agent shall not charge an application screening fee when they know or should have known that no rental unit is available at that time or will be available within a reasonable period of time"
+    },
+    {
+      "type": "text",
+      "text": "\n\n**Process Requirements:**\n- "
+    },
+    {
+      "citations": [
+        {
+          "type": "char_location",
+          "cited_text": "(2)\u00a0A landlord or their agent may charge an applicant an application screening fee only if the landlord or their agent, at the time the application screening fee is collected, offers any of the following:\n(A)\u00a0An application screening process that complies with all of the following:\n(i)\u00a0Completed applications are considered, as provided for in the landlord\u2019s established screening criteria, in the order in which the completed applications were received. The landlord\u2019s screening criteria shall be provided to the applicant in writing together with the application form.\n(ii)\u00a0The first applicant who meets the landlord\u2019s established screening criteria is approved for tenancy.\n",
+          "document_index": 0,
+          "document_title": "D026",
+          "start_char_index": 2886,
+          "end_char_index": 3564
+        }
+      ],
+      "type": "text",
+      "text": "Applications must be considered in the order received according to established screening criteria provided in writing, and the first applicant meeting the criteria is approved"
+    },
+    {
+      "type": "text",
+      "text": "\n- "
+    },
+    {
+      "citations": [
+        {
+          "type": "char_location",
+          "cited_text": "(iii)\u00a0Applicants are not\ncharged an application screening fee unless or until their application is actually considered.\n",
+          "document_index": 0,
+          "document_title": "D026",
+          "start_char_index": 3564,
+          "end_char_index": 3684
+        }
+      ],
+      "type": "text",
+      "text": "Applicants are not charged a fee unless or until their application is actually considered"
+    },
+    {
+      "type": "text",
+      "text": "\n\n**Refund Obligations:**\n- "
+    },
+    {
+      "citations": [
+        {
+          "type": "char_location",
+          "cited_text": "(iv)\u00a0Clause (iii) shall not be considered violated if a landlord or their agent inadvertently collects an application screening fee from an applicant as the result of multiple concurrent application submissions, provided that the landlord or their agent issues a refund of the application screening fee within seven days to any applicant whose application is not considered. The landlord may offer, as an alternative to refunding the screening fee, the option, at the applicant\u2019s discretion, for the screening fee paid by the applicant to be applied to an application for another rental unit offered by the landlord. ",
+          "document_index": 0,
+          "document_title": "D026",
+          "start_char_index": 3684,
+          "end_char_index": 4301
+        }
+      ],
+      "type": "text",
+      "text": "If a landlord inadvertently collects a fee from an applicant due to multiple concurrent submissions, a refund must be issued within seven days, or alternatively the fee may be applied to another rental unit at the applicant's discretion"
+    },
+    {
+      "type": "text",
+      "text": "\n- "
+    },
+    {
+      "citations": [
+        {
+          "type": "char_location",
+          "cited_text": "(B)\u00a0An application screening process in which the landlord or their agent returns the entire screening fee to any applicant who is not selected for tenancy, regardless of the reason, within 7 days of selecting an applicant for tenancy or 30 days of when the application was submitted, whichever occurs first.\n",
+          "document_index": 0,
+          "document_title": "D026",
+          "start_char_index": 4537,
+          "end_char_index": 4846
+        }
+      ],
+      "type": "text",
+      "text": "Under an alternative process, landlords must return the entire screening fee to any applicant not selected for tenancy within 7 days of selecting an applicant or 30 days of submission, whichever is first"
+    },
+    {
+      "type": "text",
+      "text": "\n- "
+    },
+    {
+      "citations": [
+        {
+          "type": "char_location",
+          "cited_text": "(e)\u00a0If the landlord or their agent does\nnot perform a personal reference check or does not obtain a consumer credit report, the landlord or their agent shall return any amount of the screening fee that is not used for the purposes authorized by this section to the applicant.\n",
+          "document_index": 0,
+          "document_title": "D026",
+          "start_char_index": 5329,
+          "end_char_index": 5605
+        }
+      ],
+      "type": "text",
+      "text": "If a landlord does not perform a personal reference check or obtain a consumer credit report, unused portions of the screening fee must be returned"
+    },
+    {
+      "type": "text",
+      "text": "\n\n**Disclosure Requirements:**\n- "
+    },
+    {
+      "citations": [
+        {
+          "type": "char_location",
+          "cited_text": "(d)\u00a0The landlord or their agent shall provide, personally, or by mail, the applicant with a receipt for the fee paid by the applicant, which receipt shall itemize the out-of-pocket expenses and time spent by the landlord or their agent to obtain and process the information about the applicant. The landlord or their agent and the applicant may agree to have the landlord provide a copy of the receipt for the fee paid by the applicant to an email account provided by the applicant.\n",
+          "document_index": 0,
+          "document_title": "D026",
+          "start_char_index": 4846,
+          "end_char_index": 5329
+        }
+      ],
+      "type": "text",
+      "text": "Landlords must provide a receipt itemizing out-of-pocket expenses and time spent, delivered personally, by mail, or by email"
+    },
+    {
+      "type": "text",
+      "text": "\n- "
+    },
+    {
+      "citations": [
+        {
+          "type": "char_location",
+          "cited_text": "(f)\u00a0If an application screening fee has been paid by the applicant, the landlord or their agent shall provide a copy of the consumer credit report to the applicant who is the subject of that report by personal delivery, mail, or email within seven days of the landlord or their agent receiving the report.\n",
+          "document_index": 0,
+          "document_title": "D026",
+          "start_char_index": 5605,
+          "end_char_index": 5911
+        }
+      ],
+      "type": "text",
+      "text": "A copy of the consumer credit report must be provided to the applicant within seven days of receipt"
+    },
+    {
+      "type": "text",
+      "text": "\n\n**Definition:**\n- "
+    },
+    {
+      "citations": [
+        {
+          "type": "char_location",
+          "cited_text": "(i)\u00a0As used in\nthis section, \u201capplication screening fee\u201d means any nonrefundable payment of money charged by a landlord or their agent to an applicant, the purpose of which is to purchase a consumer credit report and to validate, review, or otherwise process an application for the rent or lease of residential rental property.\n",
+          "document_index": 0,
+          "document_title": "D026",
+          "start_char_index": 6117,
+          "end_char_index": 6445
+        }
+      ],
+      "type": "text",
+      "text": "An \"application screening fee\" is any nonrefundable payment to purchase a consumer credit report and to validate, review, or process an application for residential rental property"
+    },
+    {
+      "type": "text",
+      "text": "\n\nThe document does not contain information about sanctions for violations, rent caps, just cause eviction, deposits beyond application fees, screening restrictions based on protected characteristics, or algorithmic pricing provisions."
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 3118,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 883,
+    "service_tier": "batch",
+    "inference_geo": "not_available"
+  },
+  "diagnostics": null
+}

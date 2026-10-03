@@ -1,0 +1,65 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011CfftoozjHACsFisZvW8tZ",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "Based on the document provided, I can only identify information related to one specific rental housing obligation:\n\n"
+    },
+    {
+      "citations": [
+        {
+          "type": "char_location",
+          "cited_text": "Upon the neglect or refusal to pay the rent due under a written lease, fourteen days' notice to quit, given in writing by the landlord to the tenant, shall be sufficient to determine the lease, unless the tenant, on or before the day the answer is due, in an action by the landlord to recover possession of the premises, pays or tenders to the landlord or to his attorney all rent then due, with interest and costs of suit. ",
+          "document_index": 0,
+          "document_title": "D050",
+          "start_char_index": 443,
+          "end_char_index": 867
+        }
+      ],
+      "type": "text",
+      "text": "Upon the neglect or refusal to pay the rent due under a written lease, fourteen days' notice to quit, given in writing by the landlord to the tenant, shall be sufficient to determine the lease, unless the tenant, on or before the day the answer is due, in an action by the landlord to recover possession of the premises, pays or tenders to the landlord or to his attorney all rent then due, with interest and costs of suit."
+    },
+    {
+      "type": "text",
+      "text": "\n\nAdditionally, "
+    },
+    {
+      "citations": [
+        {
+          "type": "char_location",
+          "cited_text": "If the neglect or refusal to pay the rent due was caused by a failure or delay of the federal government, the commonwealth or any municipality, or any departments, agencies or authorities thereof, in the mailing or delivery of any subsistence or rental payment, check or voucher other than a salary payment to either the tenant or the landlord, the court in any such action shall continue the hearing not less than seven days in order to furnish notice of such action to the appropriate agency and shall, if all rent due with interest and costs of suit has been tendered to the landlord within such time, treat the tenancy as not having been terminated.\n",
+          "document_index": 0,
+          "document_title": "D050",
+          "start_char_index": 867,
+          "end_char_index": 1521
+        }
+      ],
+      "type": "text",
+      "text": "if the neglect or refusal to pay the rent due was caused by a failure or delay of the federal government, the commonwealth or any municipality, or any departments, agencies or authorities thereof, in the mailing or delivery of any subsistence or rental payment, check or voucher other than a salary payment to either the tenant or the landlord, the court in any such action shall continue the hearing not less than seven days in order to furnish notice of such action to the appropriate agency and shall, if all rent due with interest and costs of suit has been tendered to the landlord within such time, treat the tenancy as not having been terminated."
+    },
+    {
+      "type": "text",
+      "text": "\n\nThe document does not contain information about rent caps, just cause eviction, deposits, application/screening fees, screening restrictions, or algorithmic pricing. To comprehensively answer your question about these rental housing obligations and exemptions, additional sources would be needed."
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1450,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 340,
+    "service_tier": "batch",
+    "inference_geo": "not_available"
+  },
+  "diagnostics": null
+}

@@ -1,0 +1,11 @@
+{
+  "doc_id": "D082",
+  "model": "claude-haiku-4-5-20251001",
+  "source_sha256": "5e1ee2ddac37eb9639650aaa15af33f6820c182edc506f4b6da787a3da7714f6",
+  "rules": [],
+  "rejected": [],
+  "gaps": [
+    "Document D082 contains only relocation payment rate tables effective 2006-2027 for San Francisco evictions under owner/relative move-in, demolition, capital improvements, substantial rehabilitation, and Ellis Act grounds. No statutory language, coverage conditions, exemptions, enforcement mechanisms, or operative sections provided for any of the six required categories: rent_increase_limits, just_cause_eviction, security_deposits, application_screening_fees, screening_restrictions, algorithmic_rent_setting. Source does not establish legal requirements, citations to ordinance sections, effective dates of underlying statutes, or conflict notes. Rate schedules alone do not constitute extractable rules under the schema requiring jurisdiction, category, status, title, requirement, coverage_conditions, exemptions, logic_json with coverage and exemption expressions, evidence_json with quoted spans for material fields, and confidence assessment. Cross-reference to 'Rent Ordinance Section 37.9C' and 'California Civil Code Section 1947.9' noted but full text not supplied. Historical rates 2006-2027 documented but no enactment dates, operative dates, or sunset provisions for rate adjustment mechanism provided. Document appears to be administrative rate archive, not legislative source material enabling rule extraction."
+  ],
+  "status": "needs_review"
+}

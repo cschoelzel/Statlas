@@ -1,0 +1,11 @@
+{
+  "doc_id": "D078",
+  "model": "claude-haiku-4-5-20251001",
+  "source_sha256": "448b85d4e40d5f17d12acf18db20aab4b9337b2e196099fee46c65f46dae91cc",
+  "rules": [],
+  "rejected": [],
+  "gaps": [
+    "Document D078 is a San Francisco Human Rights Commission agency webpage lacking substantive rental housing law text. No operative sections found for rent_increase_limits, just_cause_eviction, security_deposits, application_screening_fees, screening_restrictions, or algorithmic_rent_setting. Only tangential reference to Fair Chance Ordinance (criminal history in affordable housing) which does not fit six target categories. No citations to San Francisco Administrative Code, Municipal Code sections, or Board of Supervisors ordinances containing rental housing obligations, coverage conditions, exemptions, effective dates, or sanctions. Document does not establish jurisdiction-specific rules, key_value formulas, logic conditions, or evidence for any rental housing regulation. Requires access to SF Administrative Code Chapter 49 (rent control), Chapter 42 (just cause eviction), Chapter 41 (application screening), Chapter 37 (security deposits), or recent Board of Supervisors ordinances on algorithmic pricing to extract operative rules."
+  ],
+  "status": "needs_review"
+}

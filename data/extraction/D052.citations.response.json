@@ -1,0 +1,451 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011Cfftop9u1rRc898wsKyGe",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "# Massachusetts Rental Housing Obligations and Exemptions (General Law Part II, Title I, Chapter 186, Section 15B)\n\nBased on the document provided, here are the operative rental housing obligations and exemptions as of 2026-10-01:\n\n## RENT CAPS\n**Status:** Not addressed in this document.\n\n## JUST CAUSE EVICTION\n**Status:** Not addressed in this document.\n\n## SECURITY DEPOSITS\n\n### Deposit Amount Cap\n"
+    },
+    {
+      "citations": [
+        {
+          "type": "char_location",
+          "cited_text": "(b) At or prior to the commencement of any tenancy, no lessor or agent of the lessor may require a tenant or prospective tenant to pay, to the lessor or to an agent of the lessor, any amount in excess of the following:\n(i) rent for the first full month of occupancy;  and,\n(ii) rent for the last full month of occupancy calculated at the same rate as the first month;  and,\n(iii) a security deposit equal to the first month's rent provided that such security deposit is deposited as required by subsection (3) and that the tenant is given the statement of condition as required by subsection (2);  provided, however, that the executive office of housing and livable communities may promulgate regulations to authorize a lessor and a tenant or prospective tenant to agree to the payment of a fee in lieu of payment of a security deposit;  provided further, that any such regulations shall:  (A) require the lessor to utilize a fee collected to waive a security deposit to cover for unpaid rent or unit damage that applies to the tenant's lease;  (B) require that a fee so collected be:  (I) entirely or partially non-refundable;  provided, however, that the lessor shall disclose that the fee is non-refundable in the lease;  provided further, that the tenant shall agree to the fee and acknowledge that the tenant understand that it is entirely or partially non-refundable, as the case may be, in writing;  and (II) a recurring monthly fee, or payable upon any schedule and in an amount that the lessor and tenant agree upon, as authorized by the executive office;  (C) limit the total sum of the fee or recurring payments, regardless of the duration of the lease and any extensions thereto, to an amount not to exceed 1 month's rent;  (D) require that the fee be made optional for both the tenant and the lessor and that the tenant be permitted to choose to pay a full security deposit rather than the fee;  (E) require a lessor who offers such a fee in lieu of security deposit:  (I) to offer the option of a fee in lieu of a security deposit to every prospective tenant whose application for occupancy has been approved, regardless of income, race, gender, gender identity, disability, sexual orientation, immigration status, size of household or credit score;  and (II) not to consider such factors and categories when setting the amount of the fee;  and (F) allow a tenant who agrees to pay a fee to waive a security deposit to opt-out of the obligation to pay such fee if such tenant pays the security deposit that would otherwise be in effect for the tenant's apartment on the day the tenant chooses to opt-out of such fee;  provided further, that the sum of fees paid to waive a security deposit and the payment of the security deposit shall not exceed, in total, the amount of 1 month's rent;  and provided further, that the executive office shall consult with the office of the attorney general prior to promulgating regulations authorizing a fee in lieu of a security deposit under this section;  and,\n(iv) the purchase and installation cost for a key and lock.\n",
+          "document_index": 0,
+          "document_title": "D052",
+          "start_char_index": 1804,
+          "end_char_index": 4877
+        }
+      ],
+      "type": "text",
+      "text": "At or prior to the commencement of any tenancy, no lessor or agent of the lessor may require a tenant or prospective tenant to pay, to the lessor or to an agent of the lessor, any amount in excess of: (i) rent for the first full month of occupancy; and, (ii) rent for the last full month of occupancy calculated at the same rate as the first month; and, (iii) a security deposit equal to the first month's rent"
+    },
+    {
+      "type": "text",
+      "text": ".\n\n### Fee-in-Lieu Alternative\n"
+    },
+    {
+      "citations": [
+        {
+          "type": "char_location",
+          "cited_text": "(b) At or prior to the commencement of any tenancy, no lessor or agent of the lessor may require a tenant or prospective tenant to pay, to the lessor or to an agent of the lessor, any amount in excess of the following:\n(i) rent for the first full month of occupancy;  and,\n(ii) rent for the last full month of occupancy calculated at the same rate as the first month;  and,\n(iii) a security deposit equal to the first month's rent provided that such security deposit is deposited as required by subsection (3) and that the tenant is given the statement of condition as required by subsection (2);  provided, however, that the executive office of housing and livable communities may promulgate regulations to authorize a lessor and a tenant or prospective tenant to agree to the payment of a fee in lieu of payment of a security deposit;  provided further, that any such regulations shall:  (A) require the lessor to utilize a fee collected to waive a security deposit to cover for unpaid rent or unit damage that applies to the tenant's lease;  (B) require that a fee so collected be:  (I) entirely or partially non-refundable;  provided, however, that the lessor shall disclose that the fee is non-refundable in the lease;  provided further, that the tenant shall agree to the fee and acknowledge that the tenant understand that it is entirely or partially non-refundable, as the case may be, in writing;  and (II) a recurring monthly fee, or payable upon any schedule and in an amount that the lessor and tenant agree upon, as authorized by the executive office;  (C) limit the total sum of the fee or recurring payments, regardless of the duration of the lease and any extensions thereto, to an amount not to exceed 1 month's rent;  (D) require that the fee be made optional for both the tenant and the lessor and that the tenant be permitted to choose to pay a full security deposit rather than the fee;  (E) require a lessor who offers such a fee in lieu of security deposit:  (I) to offer the option of a fee in lieu of a security deposit to every prospective tenant whose application for occupancy has been approved, regardless of income, race, gender, gender identity, disability, sexual orientation, immigration status, size of household or credit score;  and (II) not to consider such factors and categories when setting the amount of the fee;  and (F) allow a tenant who agrees to pay a fee to waive a security deposit to opt-out of the obligation to pay such fee if such tenant pays the security deposit that would otherwise be in effect for the tenant's apartment on the day the tenant chooses to opt-out of such fee;  provided further, that the sum of fees paid to waive a security deposit and the payment of the security deposit shall not exceed, in total, the amount of 1 month's rent;  and provided further, that the executive office shall consult with the office of the attorney general prior to promulgating regulations authorizing a fee in lieu of a security deposit under this section;  and,\n(iv) the purchase and installation cost for a key and lock.\n",
+          "document_index": 0,
+          "document_title": "D052",
+          "start_char_index": 1804,
+          "end_char_index": 4877
+        }
+      ],
+      "type": "text",
+      "text": "The executive office of housing and livable communities may promulgate regulations to authorize a lessor and a tenant or prospective tenant to agree to the payment of a fee in lieu of payment of a security deposit"
+    },
+    {
+      "type": "text",
+      "text": ". Requirements include: "
+    },
+    {
+      "citations": [
+        {
+          "type": "char_location",
+          "cited_text": "(b) At or prior to the commencement of any tenancy, no lessor or agent of the lessor may require a tenant or prospective tenant to pay, to the lessor or to an agent of the lessor, any amount in excess of the following:\n(i) rent for the first full month of occupancy;  and,\n(ii) rent for the last full month of occupancy calculated at the same rate as the first month;  and,\n(iii) a security deposit equal to the first month's rent provided that such security deposit is deposited as required by subsection (3) and that the tenant is given the statement of condition as required by subsection (2);  provided, however, that the executive office of housing and livable communities may promulgate regulations to authorize a lessor and a tenant or prospective tenant to agree to the payment of a fee in lieu of payment of a security deposit;  provided further, that any such regulations shall:  (A) require the lessor to utilize a fee collected to waive a security deposit to cover for unpaid rent or unit damage that applies to the tenant's lease;  (B) require that a fee so collected be:  (I) entirely or partially non-refundable;  provided, however, that the lessor shall disclose that the fee is non-refundable in the lease;  provided further, that the tenant shall agree to the fee and acknowledge that the tenant understand that it is entirely or partially non-refundable, as the case may be, in writing;  and (II) a recurring monthly fee, or payable upon any schedule and in an amount that the lessor and tenant agree upon, as authorized by the executive office;  (C) limit the total sum of the fee or recurring payments, regardless of the duration of the lease and any extensions thereto, to an amount not to exceed 1 month's rent;  (D) require that the fee be made optional for both the tenant and the lessor and that the tenant be permitted to choose to pay a full security deposit rather than the fee;  (E) require a lessor who offers such a fee in lieu of security deposit:  (I) to offer the option of a fee in lieu of a security deposit to every prospective tenant whose application for occupancy has been approved, regardless of income, race, gender, gender identity, disability, sexual orientation, immigration status, size of household or credit score;  and (II) not to consider such factors and categories when setting the amount of the fee;  and (F) allow a tenant who agrees to pay a fee to waive a security deposit to opt-out of the obligation to pay such fee if such tenant pays the security deposit that would otherwise be in effect for the tenant's apartment on the day the tenant chooses to opt-out of such fee;  provided further, that the sum of fees paid to waive a security deposit and the payment of the security deposit shall not exceed, in total, the amount of 1 month's rent;  and provided further, that the executive office shall consult with the office of the attorney general prior to promulgating regulations authorizing a fee in lieu of a security deposit under this section;  and,\n(iv) the purchase and installation cost for a key and lock.\n",
+          "document_index": 0,
+          "document_title": "D052",
+          "start_char_index": 1804,
+          "end_char_index": 4877
+        }
+      ],
+      "type": "text",
+      "text": "(A) require the lessor to utilize a fee collected to waive a security deposit to cover for unpaid rent or unit damage that applies to the tenant's lease; (B) require that a fee so collected be: (I) entirely or partially non-refundable; provided, however, that the lessor shall disclose that the fee is non-refundable in the lease; provided further, that the tenant shall agree to the fee and acknowledge that the tenant understand that it is entirely or partially non-refundable, as the case may be, in writing; and (II) a recurring monthly fee, or payable upon any schedule and in an amount that the lessor and tenant agree upon, as authorized by the executive office; (C) limit the total sum of the fee or recurring payments, regardless of the duration of the lease and any extensions thereto, to an amount not to exceed 1 month's rent; (D) require that the fee be made optional for both the tenant and the lessor and that the tenant be permitted to choose to pay a full security deposit rather than the fee; (E) require a lessor who offers such a fee in lieu of security deposit: (I) to offer the option of a fee in lieu of a security deposit to every prospective tenant whose application for occupancy has been approved, regardless of income, race, gender, gender identity, disability, sexual orientation, immigration status, size of household or credit score; and (II) not to consider such factors and categories when setting the amount of the fee; and (F) allow a tenant who agrees to pay a fee to waive a security deposit to opt-out of the obligation to pay such fee if such tenant pays the security deposit that would otherwise be in effect for the tenant's apartment on the day the tenant chooses to opt-out of such fee; provided further, that the sum of fees paid to waive a security deposit and the payment of the security deposit shall not exceed, in total, the amount of 1 month's rent"
+    },
+    {
+      "type": "text",
+      "text": ".\n\n### Key and Lock Fees\n"
+    },
+    {
+      "citations": [
+        {
+          "type": "char_location",
+          "cited_text": "(b) At or prior to the commencement of any tenancy, no lessor or agent of the lessor may require a tenant or prospective tenant to pay, to the lessor or to an agent of the lessor, any amount in excess of the following:\n(i) rent for the first full month of occupancy;  and,\n(ii) rent for the last full month of occupancy calculated at the same rate as the first month;  and,\n(iii) a security deposit equal to the first month's rent provided that such security deposit is deposited as required by subsection (3) and that the tenant is given the statement of condition as required by subsection (2);  provided, however, that the executive office of housing and livable communities may promulgate regulations to authorize a lessor and a tenant or prospective tenant to agree to the payment of a fee in lieu of payment of a security deposit;  provided further, that any such regulations shall:  (A) require the lessor to utilize a fee collected to waive a security deposit to cover for unpaid rent or unit damage that applies to the tenant's lease;  (B) require that a fee so collected be:  (I) entirely or partially non-refundable;  provided, however, that the lessor shall disclose that the fee is non-refundable in the lease;  provided further, that the tenant shall agree to the fee and acknowledge that the tenant understand that it is entirely or partially non-refundable, as the case may be, in writing;  and (II) a recurring monthly fee, or payable upon any schedule and in an amount that the lessor and tenant agree upon, as authorized by the executive office;  (C) limit the total sum of the fee or recurring payments, regardless of the duration of the lease and any extensions thereto, to an amount not to exceed 1 month's rent;  (D) require that the fee be made optional for both the tenant and the lessor and that the tenant be permitted to choose to pay a full security deposit rather than the fee;  (E) require a lessor who offers such a fee in lieu of security deposit:  (I) to offer the option of a fee in lieu of a security deposit to every prospective tenant whose application for occupancy has been approved, regardless of income, race, gender, gender identity, disability, sexual orientation, immigration status, size of household or credit score;  and (II) not to consider such factors and categories when setting the amount of the fee;  and (F) allow a tenant who agrees to pay a fee to waive a security deposit to opt-out of the obligation to pay such fee if such tenant pays the security deposit that would otherwise be in effect for the tenant's apartment on the day the tenant chooses to opt-out of such fee;  provided further, that the sum of fees paid to waive a security deposit and the payment of the security deposit shall not exceed, in total, the amount of 1 month's rent;  and provided further, that the executive office shall consult with the office of the attorney general prior to promulgating regulations authorizing a fee in lieu of a security deposit under this section;  and,\n(iv) the purchase and installation cost for a key and lock.\n",
+          "document_index": 0,
+          "document_title": "D052",
+          "start_char_index": 1804,
+          "end_char_index": 4877
+        }
+      ],
+      "type": "text",
+      "text": "No lessor may require payment for the purchase and installation cost for a key and lock"
+    },
+    {
+      "type": "text",
+      "text": ".\n\n### Deposit Holding and Interest Requirements\n"
+    },
+    {
+      "citations": [
+        {
+          "type": "char_location",
+          "cited_text": "(3) (a) Any security deposit received by such lessor shall be held in a separate, interest-bearing account in a bank, located within the commonwealth under such terms as will place such deposit beyond the claim of creditors of the lessor, including a foreclosing mortgagee or trustee in bankruptcy, and as will provide for its transfer to a subsequent owner of said property.  ",
+          "document_index": 0,
+          "document_title": "D052",
+          "start_char_index": 12565,
+          "end_char_index": 12942
+        }
+      ],
+      "type": "text",
+      "text": "Any security deposit received by such lessor shall be held in a separate, interest-bearing account in a bank, located within the commonwealth under such terms as will place such deposit beyond the claim of creditors of the lessor, including a foreclosing mortgagee or trustee in bankruptcy, and as will provide for its transfer to a subsequent owner of said property"
+    },
+    {
+      "type": "text",
+      "text": ".\n\n"
+    },
+    {
+      "citations": [
+        {
+          "type": "char_location",
+          "cited_text": "(b) A lessor of residential real property who holds a security deposit pursuant to this section for a period of one year or longer from the commencement of the term of the tenancy shall, beginning with the first day of the tenancy, pay interest at the rate of five per cent per year, or other such lesser amount of interest as has been received from the bank where the deposit has been held payable to the tenant at the end of each year of the tenancy.  Such interest shall be paid over to the tenant each year as provided in this clause, provided, however, that in the event that the tenancy is terminated before the anniversary date of the tenancy, the tenant shall receive all accrued interest within thirty days of such termination.  ",
+          "document_index": 0,
+          "document_title": "D052",
+          "start_char_index": 13317,
+          "end_char_index": 14055
+        }
+      ],
+      "type": "text",
+      "text": "A lessor of residential real property who holds a security deposit pursuant to this section for a period of one year or longer from the commencement of the term of the tenancy shall, beginning with the first day of the tenancy, pay interest at the rate of five per cent per year, or other such lesser amount of interest as has been received from the bank where the deposit has been held payable to the tenant at the end of each year of the tenancy. Such interest shall be paid over to the tenant each year as provided in this clause, provided, however, that in the event that the tenancy is terminated before the anniversary date of the tenancy, the tenant shall receive all accrued interest within thirty days of such termination"
+    },
+    {
+      "type": "text",
+      "text": ".\n\n### Receipt and Documentation Requirements\n"
+    },
+    {
+      "citations": [
+        {
+          "type": "char_location",
+          "cited_text": "(b) Any lessor or his agent who receives a security deposit from a tenant or prospective tenant shall give said tenant or prospective tenant at the time of receiving such security deposit a receipt indicating the amount of such security deposit, the name of the person receiving it and, in the case of an agent, the name of the lessor for whom such security deposit is received, the date on which it is received, and a description of the premises leased or rented.  Said receipt shall be signed by the person receiving the security deposit.\n",
+          "document_index": 0,
+          "document_title": "D052",
+          "start_char_index": 8546,
+          "end_char_index": 9087
+        }
+      ],
+      "type": "text",
+      "text": "Any lessor or his agent who receives a security deposit from a tenant or prospective tenant shall give said tenant or prospective tenant at the time of receiving such security deposit a receipt indicating the amount of such security deposit, the name of the person receiving it and, in the case of an agent, the name of the lessor for whom such security deposit is received, the date on which it is received, and a description of the premises leased or rented. Said receipt shall be signed by the person receiving the security deposit"
+    },
+    {
+      "type": "text",
+      "text": ".\n\n"
+    },
+    {
+      "citations": [
+        {
+          "type": "char_location",
+          "cited_text": "A receipt shall be given to the tenant within thirty days after such deposit is received by the lessor which receipt shall indicate the name and location of the bank in which the security deposit has been deposited and the amount and account number of said deposit.  ",
+          "document_index": 0,
+          "document_title": "D052",
+          "start_char_index": 12942,
+          "end_char_index": 13209
+        }
+      ],
+      "type": "text",
+      "text": "A receipt shall be given to the tenant within thirty days after such deposit is received by the lessor which receipt shall indicate the name and location of the bank in which the security deposit has been deposited and the amount and account number of said deposit"
+    },
+    {
+      "type": "text",
+      "text": ".\n\n### Statement of Condition Requirements\n"
+    },
+    {
+      "citations": [
+        {
+          "type": "char_location",
+          "cited_text": "(c) Any lessor of residential real property, or his agent, who accepts a security deposit from a tenant or prospective tenant shall, upon receipt of such security deposit, or within ten days after commencement of the tenancy, whichever is later, furnish to such tenant or prospective tenant a separate written statement of the present condition of the premises to be leased or rented.  Such written statement shall also contain a comprehensive listing of any damage then existing in the premises, including, but not limited to, any violations of the state sanitary or state building codes certified by a local board of health or building official or adjudicated by a court and then existing in the premises.  ",
+          "document_index": 0,
+          "document_title": "D052",
+          "start_char_index": 9087,
+          "end_char_index": 9796
+        }
+      ],
+      "type": "text",
+      "text": "Any lessor of residential real property, or his agent, who accepts a security deposit from a tenant or prospective tenant shall, upon receipt of such security deposit, or within ten days after commencement of the tenancy, whichever is later, furnish to such tenant or prospective tenant a separate written statement of the present condition of the premises to be leased or rented. Such written statement shall also contain a comprehensive listing of any damage then existing in the premises, including, but not limited to, any violations of the state sanitary or state building codes certified by a local board of health or building official or adjudicated by a court and then existing in the premises"
+    },
+    {
+      "type": "text",
+      "text": ".\n\n### Return of Deposits\n"
+    },
+    {
+      "citations": [
+        {
+          "type": "char_location",
+          "cited_text": "(4) The lessor shall, within thirty days after the termination of occupancy under a tenancy-at-will or the end of the tenancy as specified in a valid written lease agreement, return to the tenant the security deposit or any balance thereof;  provided, however, that the lessor may deduct from such security deposit for the following:\n(i) any unpaid rent or water charges which have not been validly withheld or deducted pursuant to any general or special law\n(ii) any unpaid increase in real estate taxes which the tenant is obligated to pay pursuant to a tax escalation clause which conforms to the requirements of section fifteen C;  and\n(iii) a reasonable amount necessary to repair any damage caused to the dwelling unit by the tenant or any person under the tenant's control or on the premises with the tenant's consent, reasonable wear and tear excluded.  ",
+          "document_index": 0,
+          "document_title": "D052",
+          "start_char_index": 14940,
+          "end_char_index": 15802
+        }
+      ],
+      "type": "text",
+      "text": "The lessor shall, within thirty days after the termination of occupancy under a tenancy-at-will or the end of the tenancy as specified in a valid written lease agreement, return to the tenant the security deposit or any balance thereof; provided, however, that the lessor may deduct from such security deposit for the following: (i) any unpaid rent or water charges which have not been validly withheld or deducted pursuant to any general or special law (ii) any unpaid increase in real estate taxes which the tenant is obligated to pay pursuant to a tax escalation clause which conforms to the requirements of section fifteen C; and (iii) a reasonable amount necessary to repair any damage caused to the dwelling unit by the tenant or any person under the tenant's control or on the premises with the tenant's consent, reasonable wear and tear excluded"
+    },
+    {
+      "type": "text",
+      "text": ".\n\n### Damage Documentation Requirements\n"
+    },
+    {
+      "citations": [
+        {
+          "type": "char_location",
+          "cited_text": "In the case of such damage, the lessor shall provide to the tenant within such thirty days an itemized list of damages, sworn to by the lessor or his agent under pains and penalties of perjury, itemizing in precise detail the nature of the damage and of the repairs necessary to correct such damage, and written evidence, such as estimates, bills, invoices or receipts, indicating the actual or estimated cost thereof.  ",
+          "document_index": 0,
+          "document_title": "D052",
+          "start_char_index": 15802,
+          "end_char_index": 16222
+        }
+      ],
+      "type": "text",
+      "text": "In the case of such damage, the lessor shall provide to the tenant within such thirty days an itemized list of damages, sworn to by the lessor or his agent under pains and penalties of perjury, itemizing in precise detail the nature of the damage and of the repairs necessary to correct such damage, and written evidence, such as estimates, bills, invoices or receipts, indicating the actual or estimated cost thereof"
+    },
+    {
+      "type": "text",
+      "text": ".\n\n### Pre-Existing Damage Exemption\n"
+    },
+    {
+      "citations": [
+        {
+          "type": "char_location",
+          "cited_text": "No amount shall be deducted from the security deposit for any damage to the dwelling unit which was listed in the separate written statement of the present condition of the premises which was required to be given to the tenant prior to the execution of the lease or creation of the tenancy pursuant to clause (c) of subsection (2) or any damages listed in any separate list submitted by the tenant and signed by the lessor or his agent pursuant to said clause (c), unless the lessor subsequently repaired or caused to be repaired said damage and can prove that the renewed damage was unrelated to the prior damage and was caused by the tenant or by any person under the tenant's control or on the premises with the tenant's consent.  ",
+          "document_index": 0,
+          "document_title": "D052",
+          "start_char_index": 16222,
+          "end_char_index": 16956
+        }
+      ],
+      "type": "text",
+      "text": "No amount shall be deducted from the security deposit for any damage to the dwelling unit which was listed in the separate written statement of the present condition of the premises which was required to be given to the tenant prior to the execution of the lease or creation of the tenancy pursuant to clause (c) of subsection (2) or any damages listed in any separate list submitted by the tenant and signed by the lessor or his agent pursuant to said clause (c), unless the lessor subsequently repaired or caused to be repaired said damage and can prove that the renewed damage was unrelated to the prior damage and was caused by the tenant or by any person under the tenant's control or on the premises with the tenant's consent"
+    },
+    {
+      "type": "text",
+      "text": ".\n\n### Record Maintenance Requirements\n"
+    },
+    {
+      "citations": [
+        {
+          "type": "char_location",
+          "cited_text": "(d) Every lessor who accepts a security deposit shall maintain a record of all such security deposits received which contains the following information:--\n(i) a detailed description of any damage done to each of the dwelling units or premises for which a security deposit has been accepted, returned to any tenant thereof or for which the lessor has brought suit against any tenant;\n(ii) the date upon which the occupancy of the tenant or tenants charged with such damage was terminated;  and\n(iii) whether repairs were performed to remedy such damage, the dates of said repairs, the cost thereof, and receipts therefor.\nSaid record shall also include copies of any receipt or statement of condition given to a tenant or prospective tenant as required by this section.\n",
+          "document_index": 0,
+          "document_title": "D052",
+          "start_char_index": 11057,
+          "end_char_index": 11826
+        },
+        {
+          "type": "char_location",
+          "cited_text": "The lessor or his agent shall maintain said record for each dwelling unit or premises for which a security deposit was accepted for a period of two years from the date of termination of the tenancy or occupancy upon which the security deposit was conditioned.\n",
+          "document_index": 0,
+          "document_title": "D052",
+          "start_char_index": 12305,
+          "end_char_index": 12565
+        }
+      ],
+      "type": "text",
+      "text": "Every lessor who accepts a security deposit shall maintain a record of all such security deposits received which contains the following information: (i) a detailed description of any damage done to each of the dwelling units or premises for which a security deposit has been accepted, returned to any tenant thereof or for which the lessor has brought suit against any tenant; (ii) the date upon which the occupancy of the tenant or tenants charged with such damage was terminated; and (iii) whether repairs were performed to remedy such damage, the dates of said repairs, the cost thereof, and receipts therefor. Said record shall also include copies of any receipt or statement of condition given to a tenant or prospective tenant as required by this section. The lessor or his agent shall maintain said record for each dwelling unit or premises for which a security deposit was accepted for a period of two years from the date of termination of the tenancy or occupancy upon which the security deposit was conditioned"
+    },
+    {
+      "type": "text",
+      "text": ".\n\n### Deposit Transfer Upon Property Sale\n"
+    },
+    {
+      "citations": [
+        {
+          "type": "char_location",
+          "cited_text": "(5) Whenever a lessor who receives a security deposit transfers his interest in the dwelling unit for which the security deposit is held, whether by sale, assignment, death, appointment of a receiver or trustee in bankruptcy, or otherwise, the lessor shall transfer such security deposit together with any interest which has accrued thereon for the benefit of the tenant who made such security deposit to his successor in interest, and said successor in interest shall be liable for the retention and return of said security deposit in accordance with the provisions of this section from the date upon which said transfer is made;  provided however, that the granting of a mortgage on such premises shall not be a transfer of interest.  The successor in interest shall, within forty-five days from the date of said transfer, notify the tenant who made such security deposit that such security deposit was transferred to him and that he is holding said security deposit.  Such notice shall also contain the lessor's name, business address, and business telephone number, and the name, business address, and business telephone number of his agent, if any.  Said notice shall be in writing.\n",
+          "document_index": 0,
+          "document_title": "D052",
+          "start_char_index": 17389,
+          "end_char_index": 18577
+        }
+      ],
+      "type": "text",
+      "text": "Whenever a lessor who receives a security deposit transfers his interest in the dwelling unit for which the security deposit is held, whether by sale, assignment, death, appointment of a receiver or trustee in bankruptcy, or otherwise, the lessor shall transfer such security deposit together with any interest which has accrued thereon for the benefit of the tenant who made such security deposit to his successor in interest, and said successor in interest shall be liable for the retention and return of said security deposit in accordance with the provisions of this section from the date upon which said transfer is made; provided however, that the granting of a mortgage on such premises shall not be a transfer of interest. The successor in interest shall, within forty-five days from the date of said transfer, notify the tenant who made such security deposit that such security deposit was transferred to him and that he is holding said security deposit. Such notice shall also contain the lessor's name, business address, and business telephone number, and the name, business address, and business telephone number of his agent, if any. Said notice shall be in writing"
+    },
+    {
+      "type": "text",
+      "text": ".\n\n### Sanctions for Non-Compliance\n"
+    },
+    {
+      "citations": [
+        {
+          "type": "char_location",
+          "cited_text": "(6) The lessor shall forfeit his right to retain any portion of the security deposit for any reason, or, in any action by a tenant to recover a security deposit, to counterclaim for any damage to the premises if he:\n(a) fails to deposit such funds in an account as required by subsection (3);\n(b) fails to furnish to the tenant within thirty days after the termination of the occupancy the itemized list of damages, if any, in compliance with the provisions of this section;\n(c) uses in any lease signed by the tenant any provision which conflicts with any provision of this section and attempts to enforce such provision or attempts to obtain from the tenant or prospective tenant a waiver of any provision of this section;\n(d) fails to transfer such security deposit to his successor in interest or to otherwise comply with the provisions of subsection (5) after he has succeeded to an interest in residential real property;  or,\n(e) fails to return to the tenant the security deposit or balance thereof to which the tenant is entitled after deducting therefrom any sums in accordance with the provisions of this section, together with any interest thereon, within thirty days after termination of the tenancy.\n(7) If the lessor or his agent fails to comply with clauses (a), (d), or (e) of subsection 6, the tenant shall be awarded damages in an amount equal to three times the amount of such security deposit or balance thereof to which the tenant is entitled plus interest at the rate of five per cent from the date when such payment became due, together with court costs and reasonable attorney's fees.\n",
+          "document_index": 0,
+          "document_title": "D052",
+          "start_char_index": 20323,
+          "end_char_index": 21932
+        }
+      ],
+      "type": "text",
+      "text": "The lessor shall forfeit his right to retain any portion of the security deposit for any reason, or, in any action by a tenant to recover a security deposit, to counterclaim for any damage to the premises if he: (a) fails to deposit such funds in an account as required by subsection (3); (b) fails to furnish to the tenant within thirty days after the termination of the occupancy the itemized list of damages, if any, in compliance with the provisions of this section; (c) uses in any lease signed by the tenant any provision which conflicts with any provision of this section and attempts to enforce such provision or attempts to obtain from the tenant or prospective tenant a waiver of any provision of this section; (d) fails to transfer such security deposit to his successor in interest or to otherwise comply with the provisions of subsection (5) after he has succeeded to an interest in residential real property; or, (e) fails to return to the tenant the security deposit or balance thereof to which the tenant is entitled after deducting therefrom any sums in accordance with the provisions of this section, together with any interest thereon, within thirty days after termination of the tenancy. If the lessor or his agent fails to comply with clauses (a), (d), or (e) of subsection 6, the tenant shall be awarded damages in an amount equal to three times the amount of such security deposit or balance thereof to which the tenant is entitled plus interest at the rate of five per cent from the date when such payment became due, together with court costs and reasonable attorney's fees"
+    },
+    {
+      "type": "text",
+      "text": ".\n\n## ADVANCE RENT (LAST MONTH)\n\n### Interest Requirements\n"
+    },
+    {
+      "citations": [
+        {
+          "type": "char_location",
+          "cited_text": "(2)(a) Any lessor or his agent who receives, at or prior to the commencement of a tenancy, rent in advance for the last month of the tenancy from a tenant or prospective tenant shall give to such tenant or prospective tenant at the time of such advance payment a receipt indicating the amount of such rent, the date on which it was received, its intended application as rent for the last month of the tenancy, the name of the person receiving it and, in the case of an agent, the name of the lessor for whom the rent is received, and a description of the rented or leased premises, and a statement indicating that the tenant is entitled to interest on said rent payment at the rate of five per cent per year or other such lesser amount of interest as has been received from the bank where the deposit has been held payable in accordance with the provisions of this clause, and a statement indicating that the tenant should provide the lessor with a forwarding address at the termination of the tenancy indicating where such interest may be given or sent.\nAny lessor or his agent who receives said rent in advance for the last month of tenancy shall, beginning with the first day of tenancy, pay interest at the rate of five per cent per year or other such lesser amount of interest as has been received from the bank where the deposit has been held.  Such interest shall be paid over to the tenant each year as provided in this clause;  provided, however, that in the event that the tenancy is terminated before the anniversary date of such tenancy, the tenant shall receive all accrued interest within thirty days of such termination.  Interest shall not accrue for the last month for which rent was paid in advance.  ",
+          "document_index": 0,
+          "document_title": "D052",
+          "start_char_index": 5813,
+          "end_char_index": 7532
+        }
+      ],
+      "type": "text",
+      "text": "Any lessor or his agent who receives, at or prior to the commencement of a tenancy, rent in advance for the last month of the tenancy from a tenant or prospective tenant shall give to such tenant or prospective tenant at or prior to the commencement of a tenancy a receipt indicating the amount of such rent, the date on which it was received, its intended application as rent for the last month of the tenancy, the name of the person receiving it and, in the case of an agent, the name of the lessor for whom the rent is received, and a description of the rented or leased premises, and a statement indicating that the tenant is entitled to interest on said rent payment at the rate of five per cent per year or other such lesser amount of interest as has been received from the bank where the deposit has been held payable in accordance with the provisions of this clause, and a statement indicating that the tenant should provide the lessor with a forwarding address at the termination of the tenancy indicating where such interest may be given or sent. Any lessor or his agent who receives said rent in advance for the last month of tenancy shall, beginning with the first day of tenancy, pay interest at the rate of five per cent per year or other such lesser amount of interest as has been received from the bank where the deposit has been held. Such interest shall be paid over to the tenant each year as provided in this clause; provided, however, that in the event that the tenancy is terminated before the anniversary date of such tenancy, the tenant shall receive all accrued interest within thirty days of such termination. Interest shall not accrue for the last month for which rent was paid in advance"
+    },
+    {
+      "type": "text",
+      "text": ".\n\n### Sanctions for Non-Payment of Interest\n"
+    },
+    {
+      "citations": [
+        {
+          "type": "char_location",
+          "cited_text": "If the lessor fails to pay any interest to which the tenant is then entitled within thirty days after the termination of the tenancy, the tenant upon proof of the same in an action against the lessor shall be awarded damages in an amount equal to three times the amount of interest to which the tenant is entitled, together with court costs and reasonable attorneys fees.\n",
+          "document_index": 0,
+          "document_title": "D052",
+          "start_char_index": 8174,
+          "end_char_index": 8546
+        }
+      ],
+      "type": "text",
+      "text": "If the lessor fails to pay any interest to which the tenant is then entitled within thirty days after the termination of the tenancy, the tenant upon proof of the same in an action against the lessor shall be awarded damages in an amount equal to three times the amount of interest to which the tenant is entitled, together with court costs and reasonable attorneys fees"
+    },
+    {
+      "type": "text",
+      "text": ".\n\n## RENT PAYMENT TERMS\n\n### Interest and Penalty Restrictions\n"
+    },
+    {
+      "citations": [
+        {
+          "type": "char_location",
+          "cited_text": "(c) No lease or other rental agreement shall impose any interest or penalty for failure to pay rent until thirty days after such rent shall have been due.\n",
+          "document_index": 0,
+          "document_title": "D052",
+          "start_char_index": 4877,
+          "end_char_index": 5032
+        }
+      ],
+      "type": "text",
+      "text": "No lease or other rental agreement shall impose any interest or penalty for failure to pay rent until thirty days after such rent shall have been due"
+    },
+    {
+      "type": "text",
+      "text": ".\n\n### Advance Rent Limitations\n"
+    },
+    {
+      "citations": [
+        {
+          "type": "char_location",
+          "cited_text": "(d) No lessor or successor in interest shall at any time subsequent to the commencement of a tenancy demand rent in advance in excess of the current month's rent or a security deposit in excess of the amount allowed by this section.  ",
+          "document_index": 0,
+          "document_title": "D052",
+          "start_char_index": 5032,
+          "end_char_index": 5266
+        }
+      ],
+      "type": "text",
+      "text": "No lessor or successor in interest shall at any time subsequent to the commencement of a tenancy demand rent in advance in excess of the current month's rent or a security deposit in excess of the amount allowed by this section"
+    },
+    {
+      "type": "text",
+      "text": ".\n\n## LANDLORD ACCESS\n\n"
+    },
+    {
+      "citations": [
+        {
+          "type": "char_location",
+          "cited_text": "(1) (a) No lease relating to residential real property shall contain a provision that a lessor may, except to inspect the premises, to make repairs thereto or to show the same to a prospective tenant, purchaser, mortgagee or its agents, enter the premises before the termination date of such lease.  ",
+          "document_index": 0,
+          "document_title": "D052",
+          "start_char_index": 516,
+          "end_char_index": 816
+        }
+      ],
+      "type": "text",
+      "text": "No lease relating to residential real property shall contain a provision that a lessor may, except to inspect the premises, to make repairs thereto or to show the same to a prospective tenant, purchaser, mortgagee or its agents, enter the premises before the termination date of such lease"
+    },
+    {
+      "type": "text",
+      "text": ".\n\n"
+    },
+    {
+      "citations": [
+        {
+          "type": "char_location",
+          "cited_text": "A lessor may, however, enter such premises:\n(i) in accordance with a court order;\n(ii) if the premises appear to have been abandoned by the lessee;  or\n(iii) to inspect, within the last thirty days of the tenancy or after either party has given notice to the other of intention to terminate the tenancy, the premises for the purpose of determining the amount of damage, if any, to the premises which would be cause for deduction from any security deposit held by the lessor pursuant to this section.\n",
+          "document_index": 0,
+          "document_title": "D052",
+          "start_char_index": 816,
+          "end_char_index": 1316
+        }
+      ],
+      "type": "text",
+      "text": "A lessor may, however, enter such premises: (i) in accordance with a court order; (ii) if the premises appear to have been abandoned by the lessee; or (iii) to inspect, within the last thirty days of the tenancy or after either party has given notice to the other of intention to terminate the tenancy, the premises for the purpose of determining the amount of damage, if any, to the premises which would be cause for deduction from any security deposit held by the lessor pursuant to this section"
+    },
+    {
+      "type": "text",
+      "text": ".\n\n## APPLICATION/SCREENING FEES\n**Status:** Not addressed in this document.\n\n## SCREENING RESTRICTIONS\n**Status:** Not addressed in this document (beyond non-discrimination language in the fee-in-lieu deposit regulations).\n\n## ALGORITHMIC PRICING\n**Status:** Not addressed in this document.\n\n## GENERAL ENFORCEABILITY\n\n"
+    },
+    {
+      "citations": [
+        {
+          "type": "char_location",
+          "cited_text": "(8) Any provision of a lease which conflicts with any provision of this section and any waiver by a tenant or prospective tenant of any provision of this section shall be deemed to be against public policy and therefore void and unenforceable.\n",
+          "document_index": 0,
+          "document_title": "D052",
+          "start_char_index": 24803,
+          "end_char_index": 25047
+        }
+      ],
+      "type": "text",
+      "text": "Any provision of a lease which conflicts with any provision of this section and any waiver by a tenant or prospective tenant of any provision of this section shall be deemed to be against public policy and therefore void and unenforceable"
+    },
+    {
+      "type": "text",
+      "text": ".\n\n## EXEMPTIONS\n\n"
+    },
+    {
+      "citations": [
+        {
+          "type": "char_location",
+          "cited_text": "(9) The provisions of this section shall not apply to any lease, rental, occupancy or tenancy of one hundred days or less in duration which lease or rental is for a vacation or recreational purpose.\n",
+          "document_index": 0,
+          "document_title": "D052",
+          "start_char_index": 25047,
+          "end_char_index": 25246
+        }
+      ],
+      "type": "text",
+      "text": "The provisions of this section shall not apply to any lease, rental, occupancy or tenancy of one hundred days or less in duration which lease or rental is for a vacation or recreational purpose"
+    },
+    {
+      "type": "text",
+      "text": "."
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 7670,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 3836,
+    "service_tier": "batch",
+    "inference_geo": "not_available"
+  },
+  "diagnostics": null
+}

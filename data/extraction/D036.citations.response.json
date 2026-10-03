@@ -1,0 +1,101 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011Cfftoqvoqj8uxD96BiNUD",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "Based on the document provided, I can only identify information related to **rent control** obligations and exemptions. The document does not contain information about just cause eviction, deposits, application/screening fees, screening restrictions, or algorithmic pricing.\n\n## Rent Control\n\n**Operative Rent Control Obligation:**\n"
+    },
+    {
+      "citations": [
+        {
+          "type": "char_location",
+          "cited_text": "of Parks, Recreation, & Youth Development\nDivision of Recreation\nDivision of Aquatics\nDivision of Park Maintenance\nRegistration\nJC Rise Staff Training\nResident Resources\nAdvisories\nAffordable Housing\nArt & Culture\nEmergency Resources\nEnvironmental Commission\nEthical Standards Board\nHealthier JC\nLandlord/ Tenant Relations\nLibraries\nOffice of Diversity & Inclusion\nJersey City Wants to Do Business with You\nPay Transparency\nParking\nRecreation\nResident Response Center\nSanitation & Recycling\nSenior Resources\nTax Assessor\n2017 Revaluation Information\nVeterans Affairs\nVolunteer\n/UserFiles/Servers/Server_6189660/Image/Community/Tenant%20Landlord/buildingstwo.jpg,/UserFiles/Servers/Server_6189660/Image/Community/Tenant%20Landlord/buildingsthree.jpg,/UserFiles/Servers/Server_6189660/Image/Community/Tenant%20Landlord/buildings.jpg\n//\n//\n//\nSide Navigation\nSkip Sidebar Navigation\nLandlord/ Tenant Relations\nLast item for navigation\nOFFICE OF L\nANDLORD/ TENANT RELATIONS\nThe Office of Landlord Tenant Relations administers and enforces the\nRent Control Ordinance, Chapter 260\nof the Jersey City Municipal Code and provides education, information and referrals to city residents in connection with landlord/tenant issues.\n",
+          "document_index": 0,
+          "document_title": "D036",
+          "start_char_index": 2073,
+          "end_char_index": 3293
+        }
+      ],
+      "type": "text",
+      "text": "The Office of Landlord Tenant Relations administers and enforces the Rent Control Ordinance, Chapter 260 of the Jersey City Municipal Code"
+    },
+    {
+      "type": "text",
+      "text": ".\n\n**Rent Control Exemptions:**\n"
+    },
+    {
+      "citations": [
+        {
+          "type": "char_location",
+          "cited_text": "(Please Note: All 1-4 Unit Properties are exempt from rent control)\nThe Rent Control Ordinance provides certain exemptions from rent regulation.\u00a0 ",
+          "document_index": 0,
+          "document_title": "D036",
+          "start_char_index": 3961,
+          "end_char_index": 4107
+        }
+      ],
+      "type": "text",
+      "text": "All 1-4 Unit Properties are exempt from rent control"
+    },
+    {
+      "type": "text",
+      "text": ".\n\n"
+    },
+    {
+      "citations": [
+        {
+          "type": "char_location",
+          "cited_text": "(Please Note: All 1-4 Unit Properties are exempt from rent control)\nThe Rent Control Ordinance provides certain exemptions from rent regulation.\u00a0 A\n\"Rent Control Exemption Request\"\ncan be submitted for the Office's review if a property owner meets the criteria for one of the permitted exemptions.\n",
+          "document_index": 0,
+          "document_title": "D036",
+          "start_char_index": 3961,
+          "end_char_index": 4259
+        }
+      ],
+      "type": "text",
+      "text": "The Rent Control Ordinance provides certain exemptions from rent regulation, and a \"Rent Control Exemption Request\" can be submitted for the Office's review if a property owner meets the criteria for one of the permitted exemptions"
+    },
+    {
+      "type": "text",
+      "text": ".\n\n**Tenant Remedies:**\n"
+    },
+    {
+      "citations": [
+        {
+          "type": "char_location",
+          "cited_text": "For assistance with navigating our forms, please review the following guides:\nHow to Submit a Five or More Units Annual Landlord Registration Statement\nLANDLORD REGISTRATION STATEMENTS\nNon-Owner Occupied 1-4 unit Registration\u00a0(No Fee Required)\nFive or More Unit Registration (Part 1 of 2) - Tenancy Information/Rent Roll\nFive or More Unit Registration (Part 2 of 2) - Property Information\nSuperintendent Exemption Request\n- Required when buildings with 6 or more units do not have an onsite Superintendent\nLANDLORD APPLICATION FOR RENT INCREASES\nCapital Improvement Pre-Application\nNotice of Capital Improvement Application\nto Tenants and\nCapital Improvement Application\nCapital Improvement Affidavit\nVacancy Capital Improvement Application\nVacancy Capital Improvement Affidavit\nHardship Rental Increase Application\nNotice to Tenants of Proposed Hardship Increase\nHardship Application Affidavit\nContact Info\nphone\n(201) 547-4821\nOffice of Landlord/Tenant Relations\n3 Jackson Square\n(aka 342 Martin Luther King Drive)\nJersey City, New Jersey, 07305\nOffice Hours:\nMonday - Friday : 8:30 AM - 4:30 PM\nLast Walk-In:\nMonday - Friday : 3:30 PM\nDirections\n[email\u00a0protected]\nTENANT PETITIONS\nA tenant claiming the rent they are being charged is illegal may file an Illegal Rent Petition:\nIllegal Rent Petition\nA tenant seeking a rent reduction due to the conditions of the building and/or apartment may file a Failure to Maintain Service Petition:\nFailure to Maintain Service Petition\nThe Landlord must be provided with a copy of the Petition and all documents. ",
+          "document_index": 0,
+          "document_title": "D036",
+          "start_char_index": 5206,
+          "end_char_index": 6760
+        }
+      ],
+      "type": "text",
+      "text": "A tenant claiming the rent they are being charged is illegal may file an Illegal Rent Petition, and a tenant seeking a rent reduction due to the conditions of the building and/or apartment may file a Failure to Maintain Service Petition"
+    },
+    {
+      "type": "text",
+      "text": ".\n\nThe document does not provide specific details about rent cap percentages, effective dates of these provisions, or sanctions for violations. It also does not address just cause eviction, deposits, screening fees, screening restrictions, or algorithmic pricing."
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 2834,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 351,
+    "service_tier": "batch",
+    "inference_geo": "not_available"
+  },
+  "diagnostics": null
+}

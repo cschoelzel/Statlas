@@ -1,0 +1,14 @@
+{
+  "doc_id": "D057",
+  "model": "claude-haiku-4-5-20251001",
+  "source_sha256": "c678b42f8fc6ecfc7c7a6b1bdf6c68aec877daa80a53d62d5d2ca8176c967d7b",
+  "rules": [],
+  "rejected": [],
+  "gaps": [
+    "Document D057 contains only Massachusetts General Law Chapter 112, Section 87DDD 1/2, which addresses licensing requirements and fee payment rules for real estate brokers and salespersons finding dwelling accommodations. This statute does not establish rental housing obligations in any of the six target categories: rent_increase_limits, just_cause_eviction, security_deposits, application_screening_fees, screening_restrictions, or algorithmic_rent_setting.",
+    "No information provided regarding rent increase limits, just cause eviction protections, security deposit regulations, application or screening fees, screening restrictions, or algorithmic rent-setting in Massachusetts.",
+    "Effective date of amended section (August 1, 2025) is noted in the statute but the amendment does not address rental housing protections covered by the six target categories.",
+    "No sanctions, coverage conditions, exemptions, or conflict notes relevant to the six rental housing categories are present in this document."
+  ],
+  "status": "needs_review"
+}

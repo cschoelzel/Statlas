@@ -1,0 +1,415 @@
+{
+  "doc_id": "D083",
+  "model": "claude-haiku-4-5-20251001",
+  "source_sha256": "764e9e3a023bd434458dfea8ffbb57e57d23e5f0a4939cc10948b9e495034d2f",
+  "rules": [
+    {
+      "jurisdiction": "San Francisco",
+      "level": "city",
+      "category": "rent_increase_limits",
+      "status": "in_force",
+      "title": "Allowable Rent Increase for March 1, 2026 \u2013 February 28, 2027",
+      "requirement": "Landlords may increase rent by a maximum of 1.6% for the period March 1, 2026 through February 28, 2027.",
+      "citation": "SF Rent Board Current Rates",
+      "quoted_span": "Allowable Rent Increase:\n1.6% for March 1, 2026 \u2013 February 28, 2027",
+      "key_value": "1.6%",
+      "coverage_conditions": "San Francisco rental units subject to rent control during period March 1, 2026 \u2013 February 28, 2027",
+      "exemptions": null,
+      "effective_date": "2026-03-01",
+      "conflict_note": null,
+      "sanctions": null,
+      "enacted_at": null,
+      "operative_date": "2026-03-01",
+      "end_date": "2027-02-28",
+      "confidence": 0.95,
+      "conflict_flag": false,
+      "logic": {
+        "coverage": {
+          "all": [
+            {
+              "all": [
+                {
+                  "fact": "legal_city",
+                  "op": "eq",
+                  "value": "San Francisco"
+                },
+                {
+                  "fact": "lease_renewal_or_increase_date",
+                  "op": "gte",
+                  "value": "2026-03-01"
+                },
+                {
+                  "fact": "lease_renewal_or_increase_date",
+                  "op": "lte",
+                  "value": "2027-02-28"
+                }
+              ]
+            },
+            {
+              "fact": "unresolved_legal_evidence_D083_1",
+              "op": "eq",
+              "value": true
+            }
+          ]
+        },
+        "exemptions": false
+      },
+      "field_evidence": [
+        {
+          "field": "requirement",
+          "quoted_span": "Allowable Rent Increase:\n1.6% for March 1, 2026 \u2013 February 28, 2027",
+          "start_char": 346,
+          "end_char": 413
+        },
+        {
+          "field": "effective_date",
+          "quoted_span": "For March 1, 2026 - February 28, 2027",
+          "start_char": 308,
+          "end_char": 345
+        }
+      ],
+      "evidence_gaps": [
+        "coverage_conditions"
+      ],
+      "team_rule_id": "D083-r001",
+      "source_doc_id": "D083",
+      "source_url": "https://www.sf.gov/reports--current-rates-including-rent-increase-relocation-sec-deposit",
+      "retrieved_at": "2026-10-01T22:37Z",
+      "query_date": "2026-10-01",
+      "review_status": "unreviewed",
+      "evidence": {
+        "source_doc_id": "D083",
+        "text_sha256": "764e9e3a023bd434458dfea8ffbb57e57d23e5f0a4939cc10948b9e495034d2f",
+        "start_char": 346,
+        "end_char": 413,
+        "quoted_span": "Allowable Rent Increase:\n1.6% for March 1, 2026 \u2013 February 28, 2027",
+        "retrieved_at": "2026-10-01T22:37Z",
+        "original_file": "data/sources/originals/764e9e3a023bd434458dfea8ffbb57e57d23e5f0a4939cc10948b9e495034d2f.txt"
+      }
+    },
+    {
+      "jurisdiction": "San Francisco",
+      "level": "city",
+      "category": "security_deposits",
+      "status": "in_force",
+      "title": "Security Deposit Interest Rate for March 1, 2026 \u2013 February 28, 2027",
+      "requirement": "Landlords must pay interest on security deposits held for tenants at the rate of 4.2% per annum for the period March 1, 2026 through February 28, 2027.",
+      "citation": "SF Rent Board Current Rates, Section 572",
+      "quoted_span": "Security Deposit Interest:\n4.2% for March 1, 2026 \u2013 February 28, 2027",
+      "key_value": "4.2%",
+      "coverage_conditions": "San Francisco rental units with security deposits held by landlord during period March 1, 2026 \u2013 February 28, 2027",
+      "exemptions": null,
+      "effective_date": "2026-03-01",
+      "conflict_note": null,
+      "sanctions": null,
+      "enacted_at": null,
+      "operative_date": "2026-03-01",
+      "end_date": "2027-02-28",
+      "confidence": 0.95,
+      "conflict_flag": false,
+      "logic": {
+        "coverage": {
+          "all": [
+            {
+              "all": [
+                {
+                  "fact": "legal_city",
+                  "op": "eq",
+                  "value": "San Francisco"
+                },
+                {
+                  "fact": "security_deposit_held",
+                  "op": "eq",
+                  "value": true
+                },
+                {
+                  "fact": "period_start_date",
+                  "op": "gte",
+                  "value": "2026-03-01"
+                },
+                {
+                  "fact": "period_start_date",
+                  "op": "lte",
+                  "value": "2027-02-28"
+                }
+              ]
+            },
+            {
+              "fact": "unresolved_legal_evidence_D083_2",
+              "op": "eq",
+              "value": true
+            }
+          ]
+        },
+        "exemptions": false
+      },
+      "field_evidence": [
+        {
+          "field": "requirement",
+          "quoted_span": "Security Deposit Interest:\n4.2% for March 1, 2026 \u2013 February 28, 2027",
+          "start_char": 414,
+          "end_char": 483
+        },
+        {
+          "field": "effective_date",
+          "quoted_span": "For March 1, 2026 - February 28, 2027",
+          "start_char": 308,
+          "end_char": 345
+        }
+      ],
+      "evidence_gaps": [
+        "coverage_conditions"
+      ],
+      "team_rule_id": "D083-r002",
+      "source_doc_id": "D083",
+      "source_url": "https://www.sf.gov/reports--current-rates-including-rent-increase-relocation-sec-deposit",
+      "retrieved_at": "2026-10-01T22:37Z",
+      "query_date": "2026-10-01",
+      "review_status": "unreviewed",
+      "evidence": {
+        "source_doc_id": "D083",
+        "text_sha256": "764e9e3a023bd434458dfea8ffbb57e57d23e5f0a4939cc10948b9e495034d2f",
+        "start_char": 414,
+        "end_char": 483,
+        "quoted_span": "Security Deposit Interest:\n4.2% for March 1, 2026 \u2013 February 28, 2027",
+        "retrieved_at": "2026-10-01T22:37Z",
+        "original_file": "data/sources/originals/764e9e3a023bd434458dfea8ffbb57e57d23e5f0a4939cc10948b9e495034d2f.txt"
+      }
+    }
+  ],
+  "rejected": [
+    {
+      "rule": {
+        "jurisdiction": "San Francisco",
+        "level": "city",
+        "category": "just_cause_eviction",
+        "status": "in_force",
+        "title": "Relocation Payments for Owner/Relative Move-in, Demolition, Capital Improvement, or Substantial Rehabilitation Evictions",
+        "requirement": "Landlords must provide relocation payments to tenants evicted for owner/relative move-in, demolition/permanent removal from housing use, temporary capital improvement work, or substantial rehabilitation. For period March 1, 2026 \u2013 February 28, 2027: $8,245.00 per tenant (maximum $24,733.00 per unit), plus $5,497.00 additional for each elderly (60+ years), disabled tenant, or household with minor children.",
+        "citation": "SF Rent Ordinance Section 37.9C, SF Rent Board Current Rates Section 579",
+        "quoted_span": "Relocation Payments for Evictions based on Owner/Relative Move-in OR Demolition/Permanent Removal of Unit from Housing Use OR Temporary Capital Improvement Work* OR Substantial Rehabilitation\nRelocation payments\nDate of Service of Notice of Termination of Tenancy\nRelocation Amount Due Per Tenant\nMaximum Relocation Amount Due Per Unit\nPLUS Additional Amount Due for Each Elderly (60 years or older) or Disabled Tenant or Household with Minor Child(ren)\n3/01/26 \u2013 2/28/27\n$8,245.00\n$24,733.00\n$5,497.00",
+        "key_value": "$8,245.00",
+        "coverage_conditions": "San Francisco tenants evicted for owner/relative move-in, demolition/permanent removal from housing use, temporary capital improvement work, or substantial rehabilitation, with notice served March 1, 2026 \u2013 February 28, 2027. Additional $5,497.00 per elderly (60+), disabled tenant, or household with minor children.",
+        "exemptions": null,
+        "effective_date": "2026-03-01",
+        "conflict_note": null,
+        "sanctions": null,
+        "enacted_at": null,
+        "operative_date": "2026-03-01",
+        "end_date": "2027-02-28",
+        "confidence": 0.9,
+        "conflict_flag": false,
+        "logic": {
+          "coverage": {
+            "all": [
+              {
+                "fact": "legal_city",
+                "op": "eq",
+                "value": "San Francisco"
+              },
+              {
+                "fact": "eviction_reason",
+                "op": "in",
+                "value": [
+                  "owner_relative_move_in",
+                  "demolition_permanent_removal",
+                  "temporary_capital_improvement",
+                  "substantial_rehabilitation"
+                ]
+              },
+              {
+                "fact": "notice_of_termination_date",
+                "op": "gte",
+                "value": "2026-03-01"
+              },
+              {
+                "fact": "notice_of_termination_date",
+                "op": "lte",
+                "value": "2027-02-28"
+              }
+            ]
+          },
+          "exemptions": false
+        },
+        "field_evidence": [
+          {
+            "field": "requirement",
+            "quoted_span": "Relocation Amount Due Per Tenant $8,245.00"
+          },
+          {
+            "field": "coverage_conditions",
+            "quoted_span": "Relocation Payments for Evictions based on Owner/Relative Move-in OR Demolition/Permanent Removal of Unit from Housing Use OR Temporary Capital Improvement Work* OR Substantial Rehabilitation"
+          },
+          {
+            "field": "effective_date",
+            "quoted_span": "3/01/26 \u2013 2/28/27"
+          },
+          {
+            "field": "key_value",
+            "quoted_span": "$8,245.00"
+          }
+        ]
+      },
+      "errors": [
+        "quoted_span is not exact original source substring"
+      ]
+    },
+    {
+      "rule": {
+        "jurisdiction": "San Francisco",
+        "level": "city",
+        "category": "just_cause_eviction",
+        "status": "in_force",
+        "title": "Relocation Payments for Ellis Act Evictions",
+        "requirement": "Landlords must provide relocation payments to tenants evicted under the Ellis Act. For period March 1, 2026 \u2013 February 28, 2027: $11,110.05 per tenant (maximum $33,330.13 per unit), plus $7,443.90 additional for each elderly (62+ years) or disabled tenant.",
+        "citation": "SF Rent Ordinance Section 37.9A, SF Rent Board Current Rates Section 578",
+        "quoted_span": "Relocation payments for tenants evicted under the Ellis Act\nDate of Service of Notice of Termination of Tenancy\nRelocation Amount Due Per Tenant\nMaximum Relocation Amount Due Per Unit\nPLUS Additional Amount Due for Each Elderly (62 years or older) or Disabled Tenant\n3/01/26 \u2013 2/28/27\n$11,110.05\n$33,330.13\n$7,443.90",
+        "key_value": "$11,110.05",
+        "coverage_conditions": "San Francisco tenants evicted under the Ellis Act with notice served March 1, 2026 \u2013 February 28, 2027. Additional $7,443.90 per elderly (62+) or disabled tenant.",
+        "exemptions": null,
+        "effective_date": "2026-03-01",
+        "conflict_note": null,
+        "sanctions": null,
+        "enacted_at": null,
+        "operative_date": "2026-03-01",
+        "end_date": "2027-02-28",
+        "confidence": 0.9,
+        "conflict_flag": false,
+        "logic": {
+          "coverage": {
+            "all": [
+              {
+                "fact": "legal_city",
+                "op": "eq",
+                "value": "San Francisco"
+              },
+              {
+                "fact": "eviction_reason",
+                "op": "eq",
+                "value": "ellis_act"
+              },
+              {
+                "fact": "notice_of_termination_date",
+                "op": "gte",
+                "value": "2026-03-01"
+              },
+              {
+                "fact": "notice_of_termination_date",
+                "op": "lte",
+                "value": "2027-02-28"
+              }
+            ]
+          },
+          "exemptions": false
+        },
+        "field_evidence": [
+          {
+            "field": "requirement",
+            "quoted_span": "Relocation Amount Due Per Tenant $11,110.05"
+          },
+          {
+            "field": "coverage_conditions",
+            "quoted_span": "Relocation payments for tenants evicted under the Ellis Act"
+          },
+          {
+            "field": "effective_date",
+            "quoted_span": "3/01/26 \u2013 2/28/27"
+          },
+          {
+            "field": "key_value",
+            "quoted_span": "$11,110.05"
+          }
+        ]
+      },
+      "errors": [
+        "quoted_span is not exact original source substring"
+      ]
+    },
+    {
+      "rule": {
+        "jurisdiction": "San Francisco",
+        "level": "city",
+        "category": "just_cause_eviction",
+        "status": "in_force",
+        "title": "Relocation Payments for Temporary Displacement Less Than 20 Days",
+        "requirement": "Landlords must provide relocation payments to tenants temporarily displaced for less than 20 days at $446.00 per day plus actual moving expenses for period March 1, 2026 \u2013 February 28, 2027.",
+        "citation": "SF Rent Ordinance, SF Rent Board Current Rates, California Civil Code Section 1947.9",
+        "quoted_span": "Relocation payments for temporary displacement for less than 20 days\nDate of Service of Notice of Termination of Tenancy\nRelocation Amount Due Per Tenant Household\n3/01/26 \u2013 2/28/27\n$446.00/day (plus actual moving expenses)",
+        "key_value": "$446.00/day",
+        "coverage_conditions": "San Francisco tenants subject to temporary displacement for capital improvement work or other covered temporary relocation lasting less than 20 days, with notice served March 1, 2026 \u2013 February 28, 2027. Includes actual moving expenses.",
+        "exemptions": null,
+        "effective_date": "2026-03-01",
+        "conflict_note": null,
+        "sanctions": null,
+        "enacted_at": null,
+        "operative_date": "2026-03-01",
+        "end_date": "2027-02-28",
+        "confidence": 0.85,
+        "conflict_flag": false,
+        "logic": {
+          "coverage": {
+            "all": [
+              {
+                "fact": "legal_city",
+                "op": "eq",
+                "value": "San Francisco"
+              },
+              {
+                "fact": "temporary_displacement_less_than_20_days",
+                "op": "eq",
+                "value": true
+              },
+              {
+                "fact": "notice_of_termination_date",
+                "op": "gte",
+                "value": "2026-03-01"
+              },
+              {
+                "fact": "notice_of_termination_date",
+                "op": "lte",
+                "value": "2027-02-28"
+              }
+            ]
+          },
+          "exemptions": false
+        },
+        "field_evidence": [
+          {
+            "field": "requirement",
+            "quoted_span": "$446.00/day (plus actual moving expenses)"
+          },
+          {
+            "field": "coverage_conditions",
+            "quoted_span": "Relocation payments for temporary displacement for less than 20 days"
+          },
+          {
+            "field": "effective_date",
+            "quoted_span": "3/01/26 \u2013 2/28/27"
+          },
+          {
+            "field": "key_value",
+            "quoted_span": "$446.00/day"
+          }
+        ]
+      },
+      "errors": [
+        "quoted_span is not exact original source substring"
+      ]
+    }
+  ],
+  "gaps": [
+    "Document does not establish underlying statutory requirements for just_cause_eviction category beyond relocation payment amounts; no substantive eviction cause standards provided",
+    "Document does not address application_screening_fees category",
+    "Document does not address screening_restrictions category",
+    "Document does not address algorithmic_rent_setting category",
+    "Document does not specify exemptions or coverage conditions for rent increase limits beyond implicit rent control jurisdiction",
+    "Document does not clarify exemptions for security deposit interest requirements",
+    "Document does not provide full text of cited Rent Ordinance sections 37.9A, 37.9C, or defining coverage conditions for relocation payment applicability",
+    "Document references California Civil Code Section 1947.9 for temporary capital improvement evictions less than 20 days but does not provide full statutory text or reconciliation of overlapping requirements",
+    "No information on penalties, sanctions, or enforcement mechanisms for violations",
+    "No explicit statement of legislative enactment dates for underlying ordinances",
+    "Historical context and prior rate tables referenced (571, 572, 573, 574, 575) but not substantively analyzed",
+    "Document does not establish whether relocation payments substitute for or supplement other just-cause eviction protections"
+  ],
+  "status": "needs_review"
+}

@@ -1,0 +1,135 @@
+{
+  "doc_id": "D014",
+  "model": "claude-haiku-4-5-20251001",
+  "source_sha256": "70574b2f50c363398d635ef9cc92eed83ba4eca0e404a04ec04bfba004ff9606",
+  "rules": [
+    {
+      "jurisdiction": "Boston, MA",
+      "level": "city",
+      "category": "just_cause_eviction",
+      "status": "in_force",
+      "title": "Housing Stability Notification Act - Notice Requirements",
+      "requirement": "Landlords must provide tenants with a Notice of Tenants' Rights and Resources when starting the eviction process or deciding not to offer a lease renewal. The notice must be delivered at the same time as the Notice to Quit. Landlords and foreclosing owners must also send a copy of the Notice to Quit or Notice of Non-renewal of Lease, together with a Certificate of Compliance/Service, to the City of Boston's Office of Housing Stability.",
+      "citation": "Boston Housing Stability Notification Act (HSNA), Ordinance passed October 2020, effective November 6, 2020; Sec. 10-11.7",
+      "quoted_span": "The HSNA requires that landlords give this Notice of Tenants\u2019 Rights and Resources\nto tenants when the landlord starts the eviction process, or when the landlord\ndecides to not offer the tenant a renewal of their lease agreement. The Notice of\nTenants\u2019 Rights and Resources must be delivered at the same time as the Notice to\nQuit.",
+      "key_value": "Notice of Tenants' Rights and Resources must accompany Notice to Quit or Notice of Non-renewal",
+      "coverage_conditions": "Applies to all landlords/foreclosing owners in City of Boston intending to end a tenancy or post-foreclosure occupancy of a residential unit. Does not apply to properties in hospitals, skilled nursing facilities, health facilities, or non-profit substance abuse treatment facilities.",
+      "exemptions": "Residences in any hospital, skilled nursing facility or health facility; residences in non-profit facility whose primary purpose is providing short-term treatment, assistance or therapy for alcohol, drug, or other substance abuse. Requirements may not be waived by lease, contract, or other agreement.",
+      "effective_date": "2020-11-06",
+      "conflict_note": null,
+      "sanctions": "First offense: Warning. Second and subsequent offenses: $300 per day. Enforced by Inspectional Services Department. Violation does not halt eviction process.",
+      "enacted_at": "2020-10",
+      "operative_date": "2020-11-06",
+      "end_date": null,
+      "confidence": 0.95,
+      "conflict_flag": false,
+      "logic": {
+        "coverage": {
+          "all": [
+            {
+              "fact": "legal_city",
+              "op": "eq",
+              "value": "Boston"
+            },
+            {
+              "fact": "eviction_process_initiated_or_lease_non_renewal",
+              "op": "eq",
+              "value": true
+            },
+            {
+              "fact": "property_type_excluded",
+              "op": "eq",
+              "value": false
+            }
+          ]
+        },
+        "exemptions": {
+          "any": [
+            {
+              "fact": "property_in_hospital",
+              "op": "eq",
+              "value": true
+            },
+            {
+              "fact": "property_in_nonprofit_substance_abuse_facility",
+              "op": "eq",
+              "value": true
+            }
+          ]
+        }
+      },
+      "field_evidence": [
+        {
+          "field": "requirement",
+          "quoted_span": "The HSNA requires that landlords give this Notice of Tenants\u2019 Rights and Resources\nto tenants when the landlord starts the eviction process, or when the landlord\ndecides to not offer the tenant a renewal of their lease agreement. The Notice of\nTenants\u2019 Rights and Resources must be delivered at the same time as the Notice to\nQuit.",
+          "start_char": 528,
+          "end_char": 859
+        },
+        {
+          "field": "coverage_conditions",
+          "quoted_span": "applies to all landlords/foreclosing owners intending to end a\ntenancy or post-foreclosure occupancy of a unit in the City of Boston",
+          "start_char": 3200,
+          "end_char": 3332
+        },
+        {
+          "field": "exemptions",
+          "quoted_span": "residences:\n1. in any hospital, skilled nursing facility or health facility;  and\n2. in a non-profit facility whose primary purpose is providing short-term\ntreatment, assistance or therapy for alcohol, drug, or other substance\nabuse",
+          "start_char": 3365,
+          "end_char": 3597
+        },
+        {
+          "field": "effective_date",
+          "quoted_span": "The HSNA becomes effective on November 6, 2020",
+          "start_char": 2168,
+          "end_char": 2214
+        },
+        {
+          "field": "status",
+          "quoted_span": "Ordinance passed by the City of\nBoston in October 2020",
+          "start_char": 340,
+          "end_char": 394
+        },
+        {
+          "field": "sanctions",
+          "quoted_span": "Violations of the HSNA are investigated by the Office of Fair Housing and Equity\n(FHE) and enforced by the Inspectional Services Department (ISD)",
+          "start_char": 4099,
+          "end_char": 4244
+        },
+        {
+          "field": "sanctions",
+          "quoted_span": "If a landlord violates the HSNA, it DOES NOT halt the eviction process",
+          "start_char": 5812,
+          "end_char": 5882
+        }
+      ],
+      "quote_alignment": "whitespace_only",
+      "team_rule_id": "D014-r001",
+      "source_doc_id": "D014",
+      "source_url": "https://www.boston.gov/sites/default/files/file/2020/11/Housing%20Stability%20Notification%20Act%20Tenant%20FAQs.pdf",
+      "retrieved_at": "2026-10-01T22:35Z",
+      "query_date": "2026-10-01",
+      "review_status": "unreviewed",
+      "evidence": {
+        "source_doc_id": "D014",
+        "text_sha256": "70574b2f50c363398d635ef9cc92eed83ba4eca0e404a04ec04bfba004ff9606",
+        "start_char": 528,
+        "end_char": 859,
+        "quoted_span": "The HSNA requires that landlords give this Notice of Tenants\u2019 Rights and Resources\nto tenants when the landlord starts the eviction process, or when the landlord\ndecides to not offer the tenant a renewal of their lease agreement. The Notice of\nTenants\u2019 Rights and Resources must be delivered at the same time as the Notice to\nQuit.",
+        "retrieved_at": "2026-10-01T22:35Z",
+        "original_file": "data/sources/originals/70574b2f50c363398d635ef9cc92eed83ba4eca0e404a04ec04bfba004ff9606.txt"
+      }
+    }
+  ],
+  "rejected": [],
+  "gaps": [
+    "No information on rent increase limits in Boston",
+    "No information on just cause eviction substantive grounds in Boston beyond notification requirements",
+    "No information on security deposit regulations in Boston",
+    "No information on application screening fees in Boston",
+    "No information on screening restrictions in Boston",
+    "No information on algorithmic rent setting in Boston",
+    "Historical enforcement data or violation statistics not provided",
+    "Text of complete ordinance not provided; FAQ document is incomplete source"
+  ],
+  "status": "needs_review"
+}

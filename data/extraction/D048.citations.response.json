@@ -1,0 +1,133 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011CfftoorJHGC3LxTtWLZpu",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "Based on the document provided, I can only identify operative provisions related to **rent caps**. The document does not contain information about just cause eviction, deposits, application/screening fees, screening restrictions, or algorithmic pricing.\n\n## Rent Caps\n\n**Status:** Enacted (as of the document retrieval date of 2026-10-01)\n\n**Coverage:** "
+    },
+    {
+      "citations": [
+        {
+          "type": "char_location",
+          "cited_text": "No city or town may enact, maintain or enforce rent control of any kind, except that any city or town that accepts this chapter may adopt rent control regulation that provides:\n(a) after six months from the date of the initial adoption of rent control regulation by a particular city or town, compliance on the part of property owners as to the rent control regulation or any subsequently adopted rent control regulation shall be entirely voluntary and uncoerced, and the property of a person or entity declining to have his or its property subjected to such regulation shall be wholly unaffected by any aspect of the rent control regulation or any subsequently adopted rent control regulation;\n(b) such regulation may not include the regulation of occupancy, services, evictions, condominium conversion or the removal of properties from such regulation, nor may such regulation apply to any rental unit that is owned by a person or entity owning less than ten rental units or that has a fair market rent exceeding $400; and\n(c) a municipality adopting such regulation shall compensate owners of rent controlled units for each unit in the amount of the difference between the unit's fair market rent and the unit's below market, rent controlled rent, with such compensation coming from the municipality's general funds, so that the cost of any rent control shall be borne by all taxpayers of a municipality and not by the owners of regulated units only.\n",
+          "document_index": 0,
+          "document_title": "D048",
+          "start_char_index": 425,
+          "end_char_index": 1879
+        }
+      ],
+      "type": "text",
+      "text": "Cities or towns that accept Massachusetts General Law Chapter 40P may adopt rent control regulation, but only under specific conditions"
+    },
+    {
+      "type": "text",
+      "text": ".\n\n**Key Operative Obligations and Exemptions:**\n\n1. **Voluntary Compliance Requirement:** "
+    },
+    {
+      "citations": [
+        {
+          "type": "char_location",
+          "cited_text": "No city or town may enact, maintain or enforce rent control of any kind, except that any city or town that accepts this chapter may adopt rent control regulation that provides:\n(a) after six months from the date of the initial adoption of rent control regulation by a particular city or town, compliance on the part of property owners as to the rent control regulation or any subsequently adopted rent control regulation shall be entirely voluntary and uncoerced, and the property of a person or entity declining to have his or its property subjected to such regulation shall be wholly unaffected by any aspect of the rent control regulation or any subsequently adopted rent control regulation;\n(b) such regulation may not include the regulation of occupancy, services, evictions, condominium conversion or the removal of properties from such regulation, nor may such regulation apply to any rental unit that is owned by a person or entity owning less than ten rental units or that has a fair market rent exceeding $400; and\n(c) a municipality adopting such regulation shall compensate owners of rent controlled units for each unit in the amount of the difference between the unit's fair market rent and the unit's below market, rent controlled rent, with such compensation coming from the municipality's general funds, so that the cost of any rent control shall be borne by all taxpayers of a municipality and not by the owners of regulated units only.\n",
+          "document_index": 0,
+          "document_title": "D048",
+          "start_char_index": 425,
+          "end_char_index": 1879
+        }
+      ],
+      "type": "text",
+      "text": "After six months from initial adoption of rent control regulation, compliance by property owners is entirely voluntary and uncoerced, and properties of those declining participation shall be wholly unaffected by the regulation"
+    },
+    {
+      "type": "text",
+      "text": ".\n\n2. **Prohibited Regulations:** "
+    },
+    {
+      "citations": [
+        {
+          "type": "char_location",
+          "cited_text": "No city or town may enact, maintain or enforce rent control of any kind, except that any city or town that accepts this chapter may adopt rent control regulation that provides:\n(a) after six months from the date of the initial adoption of rent control regulation by a particular city or town, compliance on the part of property owners as to the rent control regulation or any subsequently adopted rent control regulation shall be entirely voluntary and uncoerced, and the property of a person or entity declining to have his or its property subjected to such regulation shall be wholly unaffected by any aspect of the rent control regulation or any subsequently adopted rent control regulation;\n(b) such regulation may not include the regulation of occupancy, services, evictions, condominium conversion or the removal of properties from such regulation, nor may such regulation apply to any rental unit that is owned by a person or entity owning less than ten rental units or that has a fair market rent exceeding $400; and\n(c) a municipality adopting such regulation shall compensate owners of rent controlled units for each unit in the amount of the difference between the unit's fair market rent and the unit's below market, rent controlled rent, with such compensation coming from the municipality's general funds, so that the cost of any rent control shall be borne by all taxpayers of a municipality and not by the owners of regulated units only.\n",
+          "document_index": 0,
+          "document_title": "D048",
+          "start_char_index": 425,
+          "end_char_index": 1879
+        }
+      ],
+      "type": "text",
+      "text": "Such regulation may not include the regulation of occupancy, services, evictions, condominium conversion or the removal of properties from regulation"
+    },
+    {
+      "type": "text",
+      "text": ".\n\n3. **Property Owner Exemptions:** "
+    },
+    {
+      "citations": [
+        {
+          "type": "char_location",
+          "cited_text": "No city or town may enact, maintain or enforce rent control of any kind, except that any city or town that accepts this chapter may adopt rent control regulation that provides:\n(a) after six months from the date of the initial adoption of rent control regulation by a particular city or town, compliance on the part of property owners as to the rent control regulation or any subsequently adopted rent control regulation shall be entirely voluntary and uncoerced, and the property of a person or entity declining to have his or its property subjected to such regulation shall be wholly unaffected by any aspect of the rent control regulation or any subsequently adopted rent control regulation;\n(b) such regulation may not include the regulation of occupancy, services, evictions, condominium conversion or the removal of properties from such regulation, nor may such regulation apply to any rental unit that is owned by a person or entity owning less than ten rental units or that has a fair market rent exceeding $400; and\n(c) a municipality adopting such regulation shall compensate owners of rent controlled units for each unit in the amount of the difference between the unit's fair market rent and the unit's below market, rent controlled rent, with such compensation coming from the municipality's general funds, so that the cost of any rent control shall be borne by all taxpayers of a municipality and not by the owners of regulated units only.\n",
+          "document_index": 0,
+          "document_title": "D048",
+          "start_char_index": 425,
+          "end_char_index": 1879
+        }
+      ],
+      "type": "text",
+      "text": "Regulation may not apply to rental units owned by a person or entity owning less than ten rental units or that has a fair market rent exceeding $400"
+    },
+    {
+      "type": "text",
+      "text": ".\n\n4. **Municipal Compensation Obligation:** "
+    },
+    {
+      "citations": [
+        {
+          "type": "char_location",
+          "cited_text": "No city or town may enact, maintain or enforce rent control of any kind, except that any city or town that accepts this chapter may adopt rent control regulation that provides:\n(a) after six months from the date of the initial adoption of rent control regulation by a particular city or town, compliance on the part of property owners as to the rent control regulation or any subsequently adopted rent control regulation shall be entirely voluntary and uncoerced, and the property of a person or entity declining to have his or its property subjected to such regulation shall be wholly unaffected by any aspect of the rent control regulation or any subsequently adopted rent control regulation;\n(b) such regulation may not include the regulation of occupancy, services, evictions, condominium conversion or the removal of properties from such regulation, nor may such regulation apply to any rental unit that is owned by a person or entity owning less than ten rental units or that has a fair market rent exceeding $400; and\n(c) a municipality adopting such regulation shall compensate owners of rent controlled units for each unit in the amount of the difference between the unit's fair market rent and the unit's below market, rent controlled rent, with such compensation coming from the municipality's general funds, so that the cost of any rent control shall be borne by all taxpayers of a municipality and not by the owners of regulated units only.\n",
+          "document_index": 0,
+          "document_title": "D048",
+          "start_char_index": 425,
+          "end_char_index": 1879
+        }
+      ],
+      "type": "text",
+      "text": "A municipality adopting such regulation shall compensate owners of rent controlled units for the difference between the unit's fair market rent and the below-market, rent controlled rent, with compensation coming from the municipality's general funds"
+    },
+    {
+      "type": "text",
+      "text": ".\n\n**Source:** "
+    },
+    {
+      "citations": [
+        {
+          "type": "char_location",
+          "cited_text": "SOURCE: https://malegislature.gov/Laws/GeneralLaws/PartI/TitleVII/Chapter40P/Section4\nRETRIEVED: 2026-10-01 22:36 UTC\n\nGeneral Law - Part I, Title VII, Chapter 40P, Section 4\nSkip to Content\nSection 4\nSearch the Legislature\nSearch the Legislature\nSearch\nGeneral Laws\nGo Directly to a General Law\nChapter\nSection\nGo\nto General Law\nSkip to Content\nPrint Page\nPrev\nious\nNext\nSection 4:\nGeneral prohibition; exception\nSection 4. ",
+          "document_index": 0,
+          "document_title": "D048",
+          "start_char_index": 0,
+          "end_char_index": 425
+        }
+      ],
+      "type": "text",
+      "text": "Massachusetts General Law - Part I, Title VII, Chapter 40P, Section 4"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1487,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 422,
+    "service_tier": "batch",
+    "inference_geo": "not_available"
+  },
+  "diagnostics": null
+}

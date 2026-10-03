@@ -1,0 +1,1327 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011Cfg3xhgGcTDgLDAFmpNXX",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "# New Jersey Rental Housing Obligations and Exemptions: Comprehensive Analysis\n\nBased on the Truth in Renting guide (retrieved 2026-10-01), here is the analysis of operative rental housing laws:\n\n## I. RENT CAPS AND RENT CONTROL\n\n### Status: No Statewide Rent Control\n"
+    },
+    {
+      "citations": [
+        {
+          "type": "char_location",
+          "cited_text": "Rent Control/Rent Increases \n The State of New Jersey has no laws that establish, govern or control rents. ",
+          "document_index": 0,
+          "document_title": "D067",
+          "start_char_index": 64664,
+          "end_char_index": 64771
+        }
+      ],
+      "type": "text",
+      "text": "The State of New Jersey has no laws that establish, govern or control rents."
+    },
+    {
+      "type": "text",
+      "text": "\n\n### Municipal Rent Control (Operative)\n"
+    },
+    {
+      "citations": [
+        {
+          "type": "char_location",
+          "cited_text": "Municipalities \nmay pass an ordinance establishing rent control or rent leveling. Locally created boards enforce \nthese ordinances. ",
+          "document_index": 0,
+          "document_title": "D067",
+          "start_char_index": 64771,
+          "end_char_index": 64903
+        }
+      ],
+      "type": "text",
+      "text": "Municipalities may pass an ordinance establishing rent control or rent leveling. Locally created boards enforce these ordinances."
+    },
+    {
+      "type": "text",
+      "text": "\n\n### Newly Constructed Multiple Dwellings Exemption (30 Years)\n"
+    },
+    {
+      "citations": [
+        {
+          "type": "char_location",
+          "cited_text": "286 (1973); Helmsley v. Borough of Fort Lee, 78 N.J. 200 (1978); Orange Taxpayers \nCouncil, Inc. v. City of Orange, 83 N.J. 246 (1980)) \n Under the Newly Constructed Multiple Dwellings Law ( N.J.S.A. 2A:42 -84.5), newly \nconstructed multiple dwellings shall be exempt from any local rent control ordinances for a period \nof 30 years following completion of construction of the building. ",
+          "document_index": 0,
+          "document_title": "D067",
+          "start_char_index": 65083,
+          "end_char_index": 65470
+        }
+      ],
+      "type": "text",
+      "text": "Under the Newly Constructed Multiple Dwellings Law (N.J.S.A. 2A:42-84.5), newly constructed multiple dwellings shall be exempt from any local rent control ordinances for a period of 30 years following completion of construction of the building."
+    },
+    {
+      "type": "text",
+      "text": "\n\n### Subsidized Housing Exemption\n"
+    },
+    {
+      "citations": [
+        {
+          "type": "char_location",
+          "cited_text": "Rent s that are subsidized by \ngovernmental funding may also be exempt from local rent control ordinances. ",
+          "document_index": 0,
+          "document_title": "D067",
+          "start_char_index": 65470,
+          "end_char_index": 65577
+        }
+      ],
+      "type": "text",
+      "text": "Rents that are subsidized by governmental funding may also be exempt from local rent control ordinances."
+    },
+    {
+      "type": "text",
+      "text": "\n\n### Rent Increase Restrictions (Mid-Lease)\n"
+    },
+    {
+      "citations": [
+        {
+          "type": "char_location",
+          "cited_text": "A landlord cannot raise the \nrent mid-lease term. The old lease must be terminated, and the new lease must have the increased \nrental payment. ",
+          "document_index": 0,
+          "document_title": "D067",
+          "start_char_index": 65912,
+          "end_char_index": 66055
+        }
+      ],
+      "type": "text",
+      "text": "A landlord cannot raise the rent mid-lease term. The old lease must be terminated, and the new lease must have the increased rental payment."
+    },
+    {
+      "type": "text",
+      "text": "\n\n### Unconscionable Rent Increase Standard\n"
+    },
+    {
+      "citations": [
+        {
+          "type": "char_location",
+          "cited_text": "The increase in rent must not be \nunconscionable; it must not be so unreasonable as to shock the conscience of a fair and honest \nperson and must comply with any municipal ordinances governing rent increases.  \n ",
+          "document_index": 0,
+          "document_title": "D067",
+          "start_char_index": 67087,
+          "end_char_index": 67299
+        }
+      ],
+      "type": "text",
+      "text": "The increase in rent must not be unconscionable; it must not be so unreasonable as to shock the conscience of a fair and honest person and must comply with any municipal ordinances governing rent increases."
+    },
+    {
+      "type": "text",
+      "text": "\n\n### Conversion Property Exemption\n"
+    },
+    {
+      "citations": [
+        {
+          "type": "char_location",
+          "cited_text": "If a building is converted to a condominium or cooperative form of ownership, or to fee \nsimple ownership of units, rents may not be increased to cover cos ts resulting solely from the \nconversion (N.J.S.A. 2A:18-61.31). ",
+          "document_index": 0,
+          "document_title": "D067",
+          "start_char_index": 68456,
+          "end_char_index": 68677
+        }
+      ],
+      "type": "text",
+      "text": "If a building is converted to a condominium or cooperative form of ownership, or to fee simple ownership of units, rents may not be increased to cover costs resulting solely from the conversion (N.J.S.A. 2A:18-61.31)."
+    },
+    {
+      "type": "text",
+      "text": "\n\n---\n\n## II. JUST CAUSE EVICTION PROTECTIONS\n\n### General Requirement (Operative)\n"
+    },
+    {
+      "citations": [
+        {
+          "type": "char_location",
+          "cited_text": "A landlord must have \ngood cause to evict a tenant (N.J.S.A. 2A:18-53). There are several grounds for a good cause \neviction. ",
+          "document_index": 0,
+          "document_title": "D067",
+          "start_char_index": 109526,
+          "end_char_index": 109652
+        }
+      ],
+      "type": "text",
+      "text": "A landlord must have good cause to evict a tenant (N.J.S.A. 2A:18-53). There are several grounds for a good cause eviction."
+    },
+    {
+      "type": "text",
+      "text": "\n\n### Lease Non-Renewal Requirement\n"
+    },
+    {
+      "citations": [
+        {
+          "type": "char_location",
+          "cited_text": "No landlord of residential rental properties except t hose in owner occupied two or three \nfamily dwellings, motels or hotels, transient, or seasonal units may fail to renew any lease, \nregardless of whether it is written or oral unless they have good cause not to renew the lease. The \ngood causes for eviction are detailed under the section entitled, \u201cEviction,\u201d (N.J.S.A. 2A:18:61.3). \n",
+          "document_index": 0,
+          "document_title": "D067",
+          "start_char_index": 17176,
+          "end_char_index": 17565
+        }
+      ],
+      "type": "text",
+      "text": "No landlord of residential rental properties except those in owner occupied two or three family dwellings, motels or hotels, transient, or seasonal units may fail to renew any lease, regardless of whether it is written or oral unless they have good cause not to renew the lease. The good causes for eviction are detailed under the section entitled, \"Eviction,\" (N.J.S.A. 2A:18:61.3)."
+    },
+    {
+      "type": "text",
+      "text": "\n\n### Statutory Eviction Grounds (17 Categories, N.J.S.A. 2A:18-61.1):\n\n**A. Nonpayment of Rent**\n"
+    },
+    {
+      "citations": [
+        {
+          "type": "char_location",
+          "cited_text": "Failure to Pay Rent  \nIf a tenant fails to pay rent, the landlord may immediately take legal action to have the \ntenant evicted. The landlord is not required to give the tenant notice before filing an \neviction suit, except if the tenant resides in federally subsidized housing. I f the tenant \nresides in federally subsidized housing a 14-day notice must be given before filing a suite \nfor eviction (N.J.S.A. 2A:18-61.1(a)). ",
+          "document_index": 0,
+          "document_title": "D067",
+          "start_char_index": 116796,
+          "end_char_index": 117223
+        }
+      ],
+      "type": "text",
+      "text": "If a tenant fails to pay rent, the landlord may immediately take legal action to have the tenant evicted. The landlord is not required to give the tenant notice before filing an eviction suit, except if the tenant resides in federally subsidized housing. If the tenant resides in federally subsidized housing a 14-day notice must be given before filing a suite for eviction (N.J.S.A. 2A:18-61.1(a))."
+    },
+    {
+      "type": "text",
+      "text": "\n\n**B. Disorderly Conduct**\n"
+    },
+    {
+      "citations": [
+        {
+          "type": "char_location",
+          "cited_text": "35 \n \n \n \nB. Disorderly Conduct \nIf after given written Notice to Cease disorderly conduct, the tenant continues the \ndisorderly conduct and that conduct destroys the peace and quiet of the other tenants living \nin the building or neighborhood, the landlord may file a suite for eviction. A Notice to Quit \nmust be served on the tenant at least three days prior to filing a suit for eviction (N.J.S.A. \n2A:18-61.1(b)).  \n \n",
+          "document_index": 0,
+          "document_title": "D067",
+          "start_char_index": 117799,
+          "end_char_index": 118222
+        }
+      ],
+      "type": "text",
+      "text": "If after given written Notice to Cease disorderly conduct, the tenant continues the disorderly conduct and that conduct destroys the peace and quiet of the other tenants living in the building or neighborhood, the landlord may file a suite for eviction. A Notice to Quit must be served on the tenant at least three days prior to filing a suit for eviction (N.J.S.A. 2A:18-61.1(b))."
+    },
+    {
+      "type": "text",
+      "text": "\n\n**C. Damage or Destruction to Property**\n"
+    },
+    {
+      "citations": [
+        {
+          "type": "char_location",
+          "cited_text": "C. Damage or Destruction to the Property \nThe tenant may be evicted if they have intentionally or by reason of gross negligence \ncaused or allowed destruction, damage, or injury to the property. A Notice to Quit must be \nserved on the tenant at least three days prior to filing a suit for eviction  (N.J.S.A.:2A-\n18-61.1(c)). \n \n",
+          "document_index": 0,
+          "document_title": "D067",
+          "start_char_index": 118222,
+          "end_char_index": 118551
+        }
+      ],
+      "type": "text",
+      "text": "The tenant may be evicted if they have intentionally or by reason of gross negligence caused or allowed destruction, damage, or injury to the property. A Notice to Quit must be served on the tenant at least three days prior to filing a suit for eviction (N.J.S.A.:2A-18-61.1(c))."
+    },
+    {
+      "type": "text",
+      "text": "\n\n**D. Substantial Violation of Lease Rules**\n"
+    },
+    {
+      "citations": [
+        {
+          "type": "char_location",
+          "cited_text": "D. Substantial Violation or Breach of the Landlord\u2019s Rules and Regulations \nIf after given a written Notice to Cease violating or breaching reasonable rules and \nregulations contained in the lease or accepted in writing by the tenant, the tenant continues \nto substantially violate or breach the rules and regulations, the  landlord may file a suit for \neviction. A Notice to Quit must be served on the tenant at least one month prior to filing \nthe suit for eviction. In addition, any notices must be given on or before the start of a \nnew month (N.J.S.A. 2A:18-61.1(d)).  \n \n",
+          "document_index": 0,
+          "document_title": "D067",
+          "start_char_index": 118551,
+          "end_char_index": 119128
+        }
+      ],
+      "type": "text",
+      "text": "If after given a written Notice to Cease violating or breaching reasonable rules and regulations contained in the lease or accepted in writing by the tenant, the tenant continues to substantially violate or breach the rules and regulations, the landlord may file a suit for eviction. A Notice to Quit must be served on the tenant at least one month prior to filing the suit for eviction. In addition, any notices must be given on or before the start of a new month (N.J.S.A. 2A:18-61.1(d))."
+    },
+    {
+      "type": "text",
+      "text": "\n\n**E. Violation of Lease Covenants**\n"
+    },
+    {
+      "citations": [
+        {
+          "type": "char_location",
+          "cited_text": "E. Violation or Breach of Covenants or Agreements Contained in the Lease \n1) If the tenant continues to substantially violate or breach the reasonable covenants or \nagreements contained in the lease, after given written Notice to Cease violating or \nbreaching those covenants or agreements and if the landlord has reserved a right of re-entry \nin the lease, the landlord may file a suit for eviction. A Notice to Quit must be served on \nthe tenant at least one month prior to filing the suit for this type of eviction. \n",
+          "document_index": 0,
+          "document_title": "D067",
+          "start_char_index": 119128,
+          "end_char_index": 119648
+        }
+      ],
+      "type": "text",
+      "text": "If the tenant continues to substantially violate or breach the reasonable covenants or agreements contained in the lease, after given written Notice to Cease violating or breaching those covenants or agreements and if the landlord has reserved a right of re-entry in the lease, the landlord may file a suit for eviction. A Notice to Quit must be served on the tenant at least one month prior to filing the suit for this type of eviction."
+    },
+    {
+      "type": "text",
+      "text": "\n\n**F. Failure to Pay Rent Increase**\n"
+    },
+    {
+      "citations": [
+        {
+          "type": "char_location",
+          "cited_text": "F. Failure to Pay Rent Increase \nIf a tenant fails to pay rent after being given notice of a rent increase and a Notice to Quit, \nthe landlord may file a suit for eviction. The rent increase must not be unconscionable and \nmust comply with all other laws or municipal ordinances, including rent control. A Notice \n \n \n \n36 \n \n \n \nto Quit must be served on the tenant at least one month prior to filing the suit for eviction \n(N.J.S.A. 2A:18-61.1(f)).  \n \n",
+          "document_index": 0,
+          "document_title": "D067",
+          "start_char_index": 120572,
+          "end_char_index": 121027
+        }
+      ],
+      "type": "text",
+      "text": "If a tenant fails to pay rent after being given notice of a rent increase and a Notice to Quit, the landlord may file a suit for eviction. The rent increase must not be unconscionable and must comply with all other laws or municipal ordinances, including rent control. A Notice to Quit must be served on the tenant at least one month prior to filing the suit for eviction (N.J.S.A. 2A:18-61.1(f))."
+    },
+    {
+      "type": "text",
+      "text": "\n\n**G. Health and Safety Violations or Removal from Market**\n"
+    },
+    {
+      "citations": [
+        {
+          "type": "char_location",
+          "cited_text": "A Notice to Quit must be served on the tenant at least three months before filing a suit \nfor eviction. The tenant can\u2019t be evicted until relocation assistance is provided. \nNote: Tenants evicted under this cause may be eligible for financial and other assistance \nfor relocation. If eligible, this assistance must be provided before the tenant can be \nevicted. ",
+          "document_index": 0,
+          "document_title": "D067",
+          "start_char_index": 122455,
+          "end_char_index": 122817
+        }
+      ],
+      "type": "text",
+      "text": "A Notice to Quit must be served on the tenant at least three months before filing a suit for eviction. The tenant can't be evicted until relocation assistance is provided. Tenants evicted under this cause may be eligible for financial and other assistance for relocation. If eligible, this assistance must be provided before the tenant can be evicted."
+    },
+    {
+      "type": "text",
+      "text": "\n\n**H. Permanent Retirement from Residential Use**\n"
+    },
+    {
+      "citations": [
+        {
+          "type": "char_location",
+          "cited_text": "A Notice to Quit must be served on the tenant at least 18 months \nprior to filing the suit for eviction. No legal action may be taken until the lease expires  \n(N.J.S.A. 2A:18-61.1(h)). \n \n",
+          "document_index": 0,
+          "document_title": "D067",
+          "start_char_index": 124416,
+          "end_char_index": 124605
+        }
+      ],
+      "type": "text",
+      "text": "A Notice to Quit must be served on the tenant at least 18 months prior to filing the suit for eviction. No legal action may be taken until the lease expires (N.J.S.A. 2A:18-61.1(h))."
+    },
+    {
+      "type": "text",
+      "text": "\n\n**I. Refusal to Accept Reasonable Lease Changes**\n"
+    },
+    {
+      "citations": [
+        {
+          "type": "char_location",
+          "cited_text": "Refusal to Accept Reasonable Changes in the Terms and Conditions of the Lease \nWhen the lease expires, the landlord may propose reasonable but substantial changes to the \nterms and conditions of the lease. If after written notice the tenant refuses to accept those \nchanges the landlord may file a suit for eviction and the court will determine if the proposed \nchanges are reasonable. ",
+          "document_index": 0,
+          "document_title": "D067",
+          "start_char_index": 124608,
+          "end_char_index": 124994
+        },
+        {
+          "type": "char_location",
+          "cited_text": "A Notice to Quit must be served on the tenant at least one month before \nfiling suit for eviction (N.J.S.A. 2A:18-61.1(i)). \n \n",
+          "document_index": 0,
+          "document_title": "D067",
+          "start_char_index": 125535,
+          "end_char_index": 125662
+        }
+      ],
+      "type": "text",
+      "text": "When the lease expires, the landlord may propose reasonable but substantial changes to the terms and conditions of the lease. If after written notice the tenant refuses to accept those changes the landlord may file a suit for eviction and the court will determine if the proposed changes are reasonable. A Notice to Quit must be served on the tenant at least one month before filing suit for eviction (N.J.S.A. 2A:18-61.1(i))."
+    },
+    {
+      "type": "text",
+      "text": "\n\n**J. Habitual Late Payment**\n"
+    },
+    {
+      "citations": [
+        {
+          "type": "char_location",
+          "cited_text": "J. Tenant Continuously Fails to Pay Rent or Habitually Pays Late \nIf the tenant continuously fails to pay rent or habitually pays late, after written Notice to \nCease, the landlord may file a suit for eviction. A Notice to Quit must be served on the \ntenant at least one month before filing a suit for eviction (N.J.S.A. 2A:18-61.1(j)). \n \n",
+          "document_index": 0,
+          "document_title": "D067",
+          "start_char_index": 125895,
+          "end_char_index": 126235
+        }
+      ],
+      "type": "text",
+      "text": "If the tenant continuously fails to pay rent or habitually pays late, after written Notice to Cease, the landlord may file a suit for eviction. A Notice to Quit must be served on the tenant at least one month before filing a suit for eviction (N.J.S.A. 2A:18-61.1(j))."
+    },
+    {
+      "type": "text",
+      "text": "\n\n**K. Conversion to Condominium/Cooperative**\n"
+    },
+    {
+      "citations": [
+        {
+          "type": "char_location",
+          "cited_text": "K. Conversion to Condominium, Cooperative, or Fee Simple Ownership \nIf the landlord or owner of a building or mobile home park is converting the property  from \nthe rental market to a condominium, cooperative, or fee simple ownership of two or more \ndwelling units or park sites, except as hereinafter provided in subsection ( L) below, the \nlandlord may file a suit for eviction. ",
+          "document_index": 0,
+          "document_title": "D067",
+          "start_char_index": 126808,
+          "end_char_index": 127189
+        },
+        {
+          "type": "char_location",
+          "cited_text": "A Notice to Quit must be ser ved on the tenant at least \nthree years before filing a suit for eviction. No legal action may be taken until the lease \nexpires (N.J.S.A. 2A:18-61.1(k)). \n \n",
+          "document_index": 0,
+          "document_title": "D067",
+          "start_char_index": 128012,
+          "end_char_index": 128199
+        }
+      ],
+      "type": "text",
+      "text": "If the landlord or owner of a building or mobile home park is converting the property from the rental market to a condominium, cooperative, or fee simple ownership of two or more dwelling units or park sites, except as hereinafter provided in subsection (L) below, the landlord may file a suit for eviction. A Notice to Quit must be served on the tenant at least three years before filing a suit for eviction. No legal action may be taken until the lease expires (N.J.S.A. 2A:18-61.1(k))."
+    },
+    {
+      "type": "text",
+      "text": "\n\n**L. Tenancy After Conversion**\n"
+    },
+    {
+      "citations": [
+        {
+          "type": "char_location",
+          "cited_text": "L. Tenancy After Conversion to Condominium, Cooperative, or Fee Simple Ownership \n1) The landlord may file for eviction, if the owner of a building or mobile home park, which \nis constructed as or being converted to a condominium, cooperative or fee simple \nownership, seeks to evict a tenant or sublessee whose initial tenancy began after the master \ndeed, or agreement establishing the cooperative or subdivision plat was recorded, because \nthe owner has contracted to sell the unit to a buyer who seeks to personally occupy it and \nthe contract for sale calls for the unit to be vacant at the time of closing. However, no action \nshall be brought against a tenant under paragraph one (1) of this subsection unless the \ntenant was given a statement, informing the tenant that the property is being converted. A \nNotice to Quit must be served on the tenant at least two months prior to filing suit for \neviction. No legal action may be taken until the lease expires.  \n \n",
+          "document_index": 0,
+          "document_title": "D067",
+          "start_char_index": 128199,
+          "end_char_index": 129171
+        }
+      ],
+      "type": "text",
+      "text": "The landlord may file for eviction, if the owner of a building or mobile home park, which is constructed as or being converted to a condominium, cooperative or fee simple ownership, seeks to evict a tenant or sublessee whose initial tenancy began after the master deed, or agreement establishing the cooperative or subdivision plat was recorded, because the owner has contracted to sell the unit to a buyer who seeks to personally occupy it and the contract for sale calls for the unit to be vacant at the time of closing. However, no action shall be brought against a tenant under paragraph one (1) of this subsection unless the tenant was given a statement, informing the tenant that the property is being converted. A Notice to Quit must be served on the tenant at least two months prior to filing suit for eviction. No legal action may be taken until the lease expires."
+    },
+    {
+      "type": "text",
+      "text": "\n\n**M. Tenancy Based on Employment**\n"
+    },
+    {
+      "citations": [
+        {
+          "type": "char_location",
+          "cited_text": "M. Tenancy Based on Employment \nIf a tenant resides in the property on the condition that, he is employed by the landlord as \na superintendent, janitor, or in some other job and that employment is terminated the \nlandlord may file a suit for eviction. A Notice to Quit must be served on the tenant three \ndays prior to filing a suit for eviction (N.J.S.A. 2A:18-61.1(m)).  \n \n",
+          "document_index": 0,
+          "document_title": "D067",
+          "start_char_index": 130295,
+          "end_char_index": 130671
+        }
+      ],
+      "type": "text",
+      "text": "If a tenant resides in the property on the condition that, he is employed by the landlord as a superintendent, janitor, or in some other job and that employment is terminated the landlord may file a suit for eviction. A Notice to Quit must be served on the tenant three days prior to filing a suit for eviction (N.J.S.A. 2A:18-61.1(m))."
+    },
+    {
+      "type": "text",
+      "text": "\n\n**N. Conviction of Drug Offense on Property**\n"
+    },
+    {
+      "citations": [
+        {
+          "type": "char_location",
+          "cited_text": "N. Conviction of a Drug Offense Committed on the Property \nThe landlord may file a suit for eviction, if the tenant, including juveniles who have been \nfound by the Court to be delinquent, has been convicted of or pleaded guilty to drug \noffenses that took place on the property, and has not in connection with his sentence either \n \n \n \n39 \n \n \n \n(1) successfully completed or (2) been admitted to and continues during probation \nparticipation toward completion of a drug rehabilitation program. ",
+          "document_index": 0,
+          "document_title": "D067",
+          "start_char_index": 130671,
+          "end_char_index": 131168
+        },
+        {
+          "type": "char_location",
+          "cited_text": "A Notice to Quit must be served on the tenant at least three days prior \nto filing suit for eviction (N.J.S.A. 2A:18-61.1(n)). \n    \n",
+          "document_index": 0,
+          "document_title": "D067",
+          "start_char_index": 131758,
+          "end_char_index": 131891
+        }
+      ],
+      "type": "text",
+      "text": "The landlord may file a suit for eviction, if the tenant, including juveniles who have been found by the Court to be delinquent, has been convicted of or pleaded guilty to drug offenses that took place on the property, and has not in connection with his sentence either (1) successfully completed or (2) been admitted to and continues during probation participation toward completion of a drug rehabilitation program. A Notice to Quit must be served on the tenant at least three days prior to filing suit for eviction (N.J.S.A. 2A:18-61.1(n))."
+    },
+    {
+      "type": "text",
+      "text": "\n\n**O. Assault or Threatening Landlord**\n"
+    },
+    {
+      "citations": [
+        {
+          "type": "char_location",
+          "cited_text": "Conviction of Assaulting or Threatening the Landlord, The Landlord\u2019s Family, or \nEmployees \nThe landlord may file for eviction, if the tenant has been convicted of or pleaded guilty to, \nor if a juvenile has been found by the court to be delinquent due to an offense involving \nassault or terrorist threats against the landlord, a member of the landl ord\u2019s family or an \nemployee of the landlord. ",
+          "document_index": 0,
+          "document_title": "D067",
+          "start_char_index": 131894,
+          "end_char_index": 132291
+        },
+        {
+          "type": "char_location",
+          "cited_text": "A Notice to \nQuit must be served on the tenant at least three day s prior to filing a suit for (N.J.S.A. \n2A-18-61.1(o)). \n \n",
+          "document_index": 0,
+          "document_title": "D067",
+          "start_char_index": 132698,
+          "end_char_index": 132823
+        }
+      ],
+      "type": "text",
+      "text": "The landlord may file for eviction, if the tenant has been convicted of or pleaded guilty to, or if a juvenile has been found by the court to be delinquent due to an offense involving assault or terrorist threats against the landlord, a member of the landlord's family or an employee of the landlord. A Notice to Quit must be served on the tenant at least three day s prior to filing a suit for (N.J.S.A. 2A-18-61.1(o))."
+    },
+    {
+      "type": "text",
+      "text": "\n\n**P. Civil Court Finding of Criminal Liability**\n"
+    },
+    {
+      "citations": [
+        {
+          "type": "char_location",
+          "cited_text": "P. Civil Court Action that Holds Tenant Liable for Involvement in Criminal Activities \nThe landlord may file for eviction, if the tenant is found by a civil court proceeding (not \ncriminal) to be liable fo r involvement in theft of property located on the premises, \ninvolvement in assaults or terrorist threats against the landlord, a member of the landlord\u2019s \nfamily or an employee of the landlord, or involved in illegal drug activities that takes place \non the premises and that tenant has not in connection with his sentence for the drug offense \neither (1) successfully completed or (2) been admitted to and continues during probation \nparticipation towards completion of a drug rehabilitation program. ",
+          "document_index": 0,
+          "document_title": "D067",
+          "start_char_index": 132823,
+          "end_char_index": 133532
+        },
+        {
+          "type": "char_location",
+          "cited_text": "A Notice to Quit must be served on the tenant at least three days prior to filing suit \nfor eviction (N.J.S.A. 2A:18-61.1(p)). \n \n",
+          "document_index": 0,
+          "document_title": "D067",
+          "start_char_index": 134107,
+          "end_char_index": 134237
+        }
+      ],
+      "type": "text",
+      "text": "The landlord may file for eviction, if the tenant is found by a civil court proceeding (not criminal) to be liable fo r involvement in theft of property located on the premises, involvement in assaults or terrorist threats against the landlord, a member of the landlord's family or an employee of the landlord, or involved in illegal drug activities that takes place on the premises. A Notice to Quit must be served on the tenant at least three days prior to filing suit for eviction (N.J.S.A. 2A:18-61.1(p))."
+    },
+    {
+      "type": "text",
+      "text": "\n\n**Q. Conviction for Theft**\n"
+    },
+    {
+      "citations": [
+        {
+          "type": "char_location",
+          "cited_text": "Conviction for Theft of Property \nThe landlord may file for eviction, if the tenant has been convicted of or pleaded guilty to, \nor if a juvenile has been found to be delinquent by the Court due to an offense involving \ntheft of property from the landlord or from tenants residing in the same building or \ncomplex. ",
+          "document_index": 0,
+          "document_title": "D067",
+          "start_char_index": 134240,
+          "end_char_index": 134555
+        },
+        {
+          "type": "char_location",
+          "cited_text": "A Notice to Quit must be served on the tenant at least three days \nprior to filing suit for eviction (N.J.S.A. 2A:18-61.1(q)). \n \n",
+          "document_index": 0,
+          "document_title": "D067",
+          "start_char_index": 134772,
+          "end_char_index": 134902
+        }
+      ],
+      "type": "text",
+      "text": "The landlord may file for eviction, if the tenant has been convicted of or pleaded guilty to, or if a juvenile has been found to be delinquent by the Court due to an offense involving theft of property from the landlord or from tenants residing in the same building or complex. A Notice to Quit must be served on the tenant at least three days prior to filing suit for eviction (N.J.S.A. 2A:18-61.1(q))."
+    },
+    {
+      "type": "text",
+      "text": "\n\n**R. Human Trafficking Conviction**\n"
+    },
+    {
+      "citations": [
+        {
+          "type": "char_location",
+          "cited_text": "R. Conviction for Human Trafficking \nThe landlord may file for eviction, if the tenant in a civil action is found to have committed \na violation of the human trafficking provisions set forth in section 1 of P.L. 2005, c.77 \n(2C:13-8) within or upon the leased premises , building, or complex of the building and \nland appurtenant thereto, or the mobile home park, in which those premises are located, or, \nbeing the tenant or lessee of such leased premises, knowingly harbors or harbored a person \nengaged in human trafficking, or permits or permitted such a person to occupy those \npremises for residential purposes, whether continuously or intermittently. No action for \nremoval pursuant to this subsection may be brought mor e than two years after the alleged \nviolation has terminated (N.J.S.A. 2A:18-61.1(r)). \n \n",
+          "document_index": 0,
+          "document_title": "D067",
+          "start_char_index": 134902,
+          "end_char_index": 135720
+        }
+      ],
+      "type": "text",
+      "text": "The landlord may file for eviction, if the tenant in a civil action is found to have committed a violation of the human trafficking provisions set forth in section 1 of P.L. 2005, c.77 (2C:13-8) within or upon the leased premises. No action for removal pursuant to this subsection may be brought mor e than two years after the alleged violation has terminated (N.J.S.A. 2A:18-61.1(r))."
+    },
+    {
+      "type": "text",
+      "text": "\n\n### Applicability and Exemptions\n"
+    },
+    {
+      "citations": [
+        {
+          "type": "char_location",
+          "cited_text": "33 \n \n \n \nApplicability \n The Anti-Eviction Act applies to most residential rental properties including single-family \nhomes, mobile homes and land in a mobile home park, apartment buildings, and complexes. This \nlaw also applies to rooming and boarding homes (N.J.S.A. 2A:18-53 to -84). \n",
+          "document_index": 0,
+          "document_title": "D067",
+          "start_char_index": 111195,
+          "end_char_index": 111484
+        }
+      ],
+      "type": "text",
+      "text": "The Anti-Eviction Act applies to most residential rental properties including single-family homes, mobile homes and land in a mobile home park, apartment buildings, and complexes. This law also applies to rooming and boarding homes (N.J.S.A. 2A:18-53 to -84)."
+    },
+    {
+      "type": "text",
+      "text": "\n\n"
+    },
+    {
+      "citations": [
+        {
+          "type": "char_location",
+          "cited_text": "Exceptions \n This law may not apply to two - or three-unit owner-occupied premises with two (2) or \nfewer rental units. It does not apply to hotel guests, motel guests, or guest houses rented to a \ntransient guest or seasonal tenant. ",
+          "document_index": 0,
+          "document_title": "D067",
+          "start_char_index": 111484,
+          "end_char_index": 111718
+        }
+      ],
+      "type": "text",
+      "text": "This law may not apply to two - or three-unit owner-occupied premises with two (2) or fewer rental units. It does not apply to hotel guests, motel guests, or guest houses rented to a transient guest or seasonal tenant."
+    },
+    {
+      "type": "text",
+      "text": "\n\n### Owner-Occupied Two- and Three-Family Dwellings (Different Standard)\n"
+    },
+    {
+      "citations": [
+        {
+          "type": "char_location",
+          "cited_text": "Evictions for Owner-Occupied Two-and Three-Family Dwellings  \n Tenants of landlord-occupied two- and three-family dwellings can be removed only when \na court issues an order for eviction. However, in these cases, the landlord must prove that the tenant \n(a) is staying after the expiration of the term of the lease, (b) is staying after a failure to pay rent, \n(c) is disorderly so as to destroy the peace and quiet of other tena nts, (d) willfully destroys or \ndamages the premises, (e) constantly violates the written rules and regulations or (f) violates any \nlease provision where the lease reserves a right of re -entry for such violations. ",
+          "document_index": 0,
+          "document_title": "D067",
+          "start_char_index": 135720,
+          "end_char_index": 136366
+        }
+      ],
+      "type": "text",
+      "text": "Tenants of landlord-occupied two- and three-family dwellings can be removed only when a court issues an order for eviction. However, in these cases, the landlord must prove that the tenant (a) is staying after the expiration of the term of the lease, (b) is staying after a failure to pay rent, (c) is disorderly so as to destroy the peace and quiet of other tena nts, (d) willfully destroys or damages the premises, (e) constantly violates the written rules and regulations or (f) violates any lease provision where the lease reserves a right of re -entry for such violations."
+    },
+    {
+      "type": "text",
+      "text": "\n\n### Reprisal Protection (Operative)\n"
+    },
+    {
+      "citations": [
+        {
+          "type": "char_location",
+          "cited_text": "Reprisal - Civil Rights of Tenants  \n A landlord cannot take reprisal action against a tenant by eviction, substantial alteration of \na lease or its terms, or refusal to renew a lease when a tenant exercises certain civil rights (N.J.S.A. \n2A:42-10.10).  The law against reprisal applies to all rental properties used for dwelling purposes, \nincluding mobile homes, except owner-occupied two- or three-family dwellings. ",
+          "document_index": 0,
+          "document_title": "D067",
+          "start_char_index": 140948,
+          "end_char_index": 141368
+        }
+      ],
+      "type": "text",
+      "text": "A landlord cannot take reprisal action against a tenant by eviction, substantial alteration of a lease or its terms, or refusal to renew a lease when a tenant exercises certain civil rights (N.J.S.A. 2A:42-10.10). The law against reprisal applies to all rental properties used for dwelling purposes, including mobile homes, except owner-occupied two- or three-family dwellings."
+    },
+    {
+      "type": "text",
+      "text": "\n\nProtected civil rights include:\n"
+    },
+    {
+      "citations": [
+        {
+          "type": "char_location",
+          "cited_text": "A tenant attempts to enforce any rights under the lease or State or local laws.  \n",
+          "document_index": 0,
+          "document_title": "D067",
+          "start_char_index": 141398,
+          "end_char_index": 141480
+        },
+        {
+          "type": "char_location",
+          "cited_text": "A tenant has made a good faith complaint to a governmental authority about a landlord\u2019s \nviolation of any health or safety law, regulation, code, or ordinance. A tenant must ha ve first \nnotified the landlord in writing and given the landlord a reasonable time to correct the violation \nbefore making the complaint. \n \n \n \n",
+          "document_index": 0,
+          "document_title": "D067",
+          "start_char_index": 141483,
+          "end_char_index": 141806
+        }
+      ],
+      "type": "text",
+      "text": "A tenant attempts to enforce any rights under the lease or State or local laws. A tenant has made a good faith complaint to a governmental authority about a landlord's violation of any health or safety law, regulation, code, or ordinance. A tenant must have first notified the landlord in writing and given the landlord a reasonable time to correct the violation before making the complaint."
+    },
+    {
+      "type": "text",
+      "text": "\n\n"
+    },
+    {
+      "citations": [
+        {
+          "type": "char_location",
+          "cited_text": "A tenant has been an organizer, or member, of any lawful organization, including a tenant \norganization.  \n",
+          "document_index": 0,
+          "document_title": "D067",
+          "start_char_index": 141819,
+          "end_char_index": 141926
+        }
+      ],
+      "type": "text",
+      "text": "A tenant has been an organizer, or member, of any lawful organization, including a tenant organization."
+    },
+    {
+      "type": "text",
+      "text": "\n\n---\n\n## III. SECURITY DEPOSITS\n\n### Operative Requirement\n"
+    },
+    {
+      "citations": [
+        {
+          "type": "char_location",
+          "cited_text": "In New Jersey, the landlord is not required to collect a \nsecurity deposit from  the tenant,  however, if they do, they must  follow prescribed rules and \nregulations (N.J.S.A. 46:8-26).  \n",
+          "document_index": 0,
+          "document_title": "D067",
+          "start_char_index": 41992,
+          "end_char_index": 42181
+        }
+      ],
+      "type": "text",
+      "text": "In New Jersey, the landlord is not required to collect a security deposit from the tenant, however, if they do, they must follow prescribed rules and regulations (N.J.S.A. 46:8-26)."
+    },
+    {
+      "type": "text",
+      "text": "\n\n### Coverage and Exemptions\n"
+    },
+    {
+      "citations": [
+        {
+          "type": "char_location",
+          "cited_text": "Security Deposits \nThe Security Deposit Law applies to most  residential rental properties, including mobile \nhomes. The exception is an owner-occupied two-, or three-family dwelling. ",
+          "document_index": 0,
+          "document_title": "D067",
+          "start_char_index": 41546,
+          "end_char_index": 41730
+        }
+      ],
+      "type": "text",
+      "text": "The Security Deposit Law applies to most residential rental properties, including mobile homes. The exception is an owner-occupied two-, or three-family dwelling."
+    },
+    {
+      "type": "text",
+      "text": "\n\n### Maximum Deposit Limits\n"
+    },
+    {
+      "citations": [
+        {
+          "type": "char_location",
+          "cited_text": "The maximum-security deposit to be collected by the landlord cannot be more than \none and one-half times one month\u2019s rent ( N.J.S.A. 46:8-21.2 ). It can be less. ",
+          "document_index": 0,
+          "document_title": "D067",
+          "start_char_index": 42181,
+          "end_char_index": 42343
+        }
+      ],
+      "type": "text",
+      "text": "The maximum-security deposit to be collected by the landlord cannot be more than one and one-half times one month's rent (N.J.S.A. 46:8-21.2). It can be less."
+    },
+    {
+      "type": "text",
+      "text": "\n\n### Annual Increases\n"
+    },
+    {
+      "citations": [
+        {
+          "type": "char_location",
+          "cited_text": "Any additional \nyearly security deposit increase may not exceed 10% of the current security deposit. ",
+          "document_index": 0,
+          "document_title": "D067",
+          "start_char_index": 42343,
+          "end_char_index": 42444
+        }
+      ],
+      "type": "text",
+      "text": "Any additional yearly security deposit increase may not exceed 10% of the current security deposit."
+    },
+    {
+      "type": "text",
+      "text": "\n\n### Pet Deposits\n"
+    },
+    {
+      "citations": [
+        {
+          "type": "char_location",
+          "cited_text": "A landlord \nmay not charge a pet security deposit if it exceeds one and one-half times one month\u2019s rent when \ncombined with the regular security deposit. ",
+          "document_index": 0,
+          "document_title": "D067",
+          "start_char_index": 42444,
+          "end_char_index": 42598
+        }
+      ],
+      "type": "text",
+      "text": "A landlord may not charge a pet security deposit if it exceeds one and one-half times one month's rent when combined with the regular security deposit."
+    },
+    {
+      "type": "text",
+      "text": "\n\n### Prepaid Rent Restrictions\n"
+    },
+    {
+      "citations": [
+        {
+          "type": "char_location",
+          "cited_text": "In the case of Brownstone Arms v. Asher, 121 N.J. \nSuper. 401 \n \n \n \n13 \n \n \n \n(1972), and Reilly v. Weiss, 406 N.J. Super. 71 (2009), the courts determined that advanced rents \nin excess of one and one-half times the monthly rental payment violate the Security Deposit Law. \nTherefore, any prepaid funds held to secure future rents are considered to be a part of the security \ndeposit. This includes the last month\u2019s rent. It does not matter how the prepaid funds are labeled. \n",
+          "document_index": 0,
+          "document_title": "D067",
+          "start_char_index": 42598,
+          "end_char_index": 43077
+        }
+      ],
+      "type": "text",
+      "text": "In the case of Brownstone Arms v. Asher, 121 N.J. Super. 401 (1972), and Reilly v. Weiss, 406 N.J. Super. 71 (2009), the courts determined that advanced rents in excess of one and one-half times the monthly rental payment violate the Security Deposit Law. Therefore, any prepaid funds held to secure future rents are considered to be a part of the security deposit. This includes the last month's rent. It does not matter how the prepaid funds are labeled."
+    },
+    {
+      "type": "text",
+      "text": "\n\n### Combined Initial Payment Cap\n"
+    },
+    {
+      "citations": [
+        {
+          "type": "char_location",
+          "cited_text": "The landlord may only require one and one -half times the tenant\u2019s monthly rent as security and \nthe first month\u2019s rent at the inception of the lease. That means the landlo rd may not require more \nthan two and one-half times the monthly rent at the inception of the lease, this includes the security \ndeposit and the first month\u2019s rent. ",
+          "document_index": 0,
+          "document_title": "D067",
+          "start_char_index": 43077,
+          "end_char_index": 43415
+        }
+      ],
+      "type": "text",
+      "text": "The landlord may only require one and one -half times the tenant's monthly rent as security and the first month's rent at the inception of the lease. That means the landlord may not require more than two and one-half times the monthly rent at the inception of the lease, this includes the security deposit and the first month's rent."
+    },
+    {
+      "type": "text",
+      "text": "\n\n### Trust Requirements\n"
+    },
+    {
+      "citations": [
+        {
+          "type": "char_location",
+          "cited_text": "The security deposit money continues to be the property of the person making the deposit \nand must be held in trust by the person receiving the money. This means that the person who \nreceives the money must not use the money in any way not permitted by law. The security deposit \nshall not be comingled with the personal property or become an asset of the landlord.  \n ",
+          "document_index": 0,
+          "document_title": "D067",
+          "start_char_index": 43504,
+          "end_char_index": 43873
+        }
+      ],
+      "type": "text",
+      "text": "The security deposit money continues to be the property of the person making the deposit and must be held in trust by the person receiving the money. This means that the person who receives the money must not use the money in any way not permitted by law. The security deposit shall not be comingled with the personal property or become an asset of the landlord."
+    },
+    {
+      "type": "text",
+      "text": "\n\n### Investment Requirements\n"
+    },
+    {
+      "citations": [
+        {
+          "type": "char_location",
+          "cited_text": "A landlord or designee who receives security deposit money for ten or less units must \ndeposit that money in an insured bank or savings and loan association located in New Jersey in an \ninterest-bearing account at the current interest rate at the time of deposit. A landlord or designee \nwho receives security deposit money for 10 or more units has the option of investing the money in \nan insured money market fund of a New Jersey-based investment company where the investments \nmature in one year or less, or deposit that money in a State or federally charted bank, or savings, \nand loan association located in New Jersey in an account bearing a variable rate of intere st. ",
+          "document_index": 0,
+          "document_title": "D067",
+          "start_char_index": 43873,
+          "end_char_index": 44549
+        }
+      ],
+      "type": "text",
+      "text": "A landlord or designee who receives security deposit money for ten or less units must deposit that money in an insured bank or savings and loan association located in New Jersey in an interest-bearing account at the current interest rate at the time of deposit. A landlord or designee who receives security deposit money for 10 or more units has the option of investing the money in an insured money market fund of a New Jersey-based investment company where the investments mature in one year or less, or deposit that money in a State or federally charted bank, or savings, and loan association located in New Jersey in an account bearing a variable rate of intere st."
+    },
+    {
+      "type": "text",
+      "text": "\n\n### Interest Payments\n"
+    },
+    {
+      "citations": [
+        {
+          "type": "char_location",
+          "cited_text": "The interest or earnings paid on the security deposit belongs to the tenant and shall be paid \nto the tenant in cash or credited toward rent due and owing on the ren ewal or anniversary of the \ntenant\u2019s lease or on January 31,  if the tenant has been given written notice, that the interest \npayments will be paid on January 31 of each year (N.J.S.A. 46:8-19 (c)).  \n ",
+          "document_index": 0,
+          "document_title": "D067",
+          "start_char_index": 45159,
+          "end_char_index": 45527
+        }
+      ],
+      "type": "text",
+      "text": "The interest or earnings paid on the security deposit belongs to the tenant and shall be paid to the tenant in cash or credited toward rent due and owing on the ren ewal or anniversary of the tenant's lease or on January 31, if the tenant has been given written notice, that the interest payments will be paid on January 31 of each year (N.J.S.A. 46:8-19 (c))."
+    },
+    {
+      "type": "text",
+      "text": "\n\n### Notice Requirements\n"
+    },
+    {
+      "citations": [
+        {
+          "type": "char_location",
+          "cited_text": "Within 30 days of receipt of the security deposit and at t he time of each annual interest \npayment, the landlord must notify the tenant in writing of the name and address of the banking \ninstitution or investment company in which the money is deposited, the amount of the deposit, \ntype of account, and current rate o f interest for the account. In addition, the landlord must notify \nthe tenant within 30 days of transferring security deposit money to a new landlord or moving the \nsecurity deposit to another account or bank. ",
+          "document_index": 0,
+          "document_title": "D067",
+          "start_char_index": 45527,
+          "end_char_index": 46056
+        }
+      ],
+      "type": "text",
+      "text": "Within 30 days of receipt of the security deposit and at t he time of each annual interest payment, the landlord must notify the tenant in writing of the name and address of the banking institution or investment company in which the money is deposited, the amount of the deposit, type of account, and current rate o f interest for the account. In addition, the landlord must notify the tenant within 30 days of transferring security deposit money to a new landlord or moving the security deposit to another account or bank."
+    },
+    {
+      "type": "text",
+      "text": "\n\n### Remedies for Non-Payment of Interest\n"
+    },
+    {
+      "citations": [
+        {
+          "type": "char_location",
+          "cited_text": "If a tenant does not receive proper notice or is not paid \ninterest as required, the tenant may use the security deposit for payment of rent by giving the \nlandlord written notice that the security money plus interest at the rate of 7% per annum be applied \nto rent payments or payments due or to become due  from the tenant. However, if the tenant does \nnot receive the annual notice at the time of the annual interest payment, or is not paid the annual \n \n \n \n14 \n \n \n \ninterest, as required, the tenant must give the landlord written notice and allow the landlord 30 \ndays to comply with the annual interest payment and notice requirements. If the landlord does not \nreply within the allotted time, the tenant can use his security deposit toward his rent. ",
+          "document_index": 0,
+          "document_title": "D067",
+          "start_char_index": 46056,
+          "end_char_index": 46815
+        }
+      ],
+      "type": "text",
+      "text": "If a tenant does not receive proper notice or is not paid interest as required, the tenant may use the security deposit for payment of rent by giving the landlord written notice that the security money plus interest at the rate of 7% per annum be applied to rent payments or payments due or to become due from the tenant. However, if the tenant does not receive the annual notice at the time of the annual interest payment, or is not paid the annual interest, as required, the tenant must give the landlord written notice and allow the landlord 30 days to comply with the annual interest payment and notice requirements. If the landlord does not reply within the allotted time, the tenant can use his security deposit toward his rent."
+    },
+    {
+      "type": "text",
+      "text": "\n\n### Return Timing and Requirements\n"
+    },
+    {
+      "citations": [
+        {
+          "type": "char_location",
+          "cited_text": "Within 30 days after the termination of a tenancy, a landlord must return the security \ndeposit, plus interest earned less deductions, to the tenant ( N.J.S.A. 46:8-21.1). Deductions may \ninclude the cost of any damages over and above normal wear and tear, and any other money due \nthe landlord under the terms of the lease. The landlord must return the money either by personal \ndelivery, registered, or certified mail. If there are a ny deductions made from the security deposit \nby the landlord, an itemized list of these deductions must also be sent to the tenant by registered \nor certified mail within 30 days from the termination of the tenancy. ",
+          "document_index": 0,
+          "document_title": "D067",
+          "start_char_index": 46982,
+          "end_char_index": 47635
+        }
+      ],
+      "type": "text",
+      "text": "Within 30 days after the termination of a tenancy, a landlord must return the security deposit, plus interest earned less deductions, to the tenant (N.J.S.A. 46:8-21.1). Deductions may include the cost of any damages over and above normal wear and tear, and any other money due the landlord under the terms of the lease. The landlord must return the money either by personal delivery, registered, or certified mail. If there are a ny deductions made from the security deposit by the landlord, an itemized list of these deductions must also be sent to the tenant by registered or certified mail within 30 days from the termination of the tenancy."
+    },
+    {
+      "type": "text",
+      "text": "\n\n### No Deductions from Active Tenancies\n"
+    },
+    {
+      "citations": [
+        {
+          "type": "char_location",
+          "cited_text": "No deductions shall be made from a security deposit of a \ntenant who remains in possession of the rental premises.  \n ",
+          "document_index": 0,
+          "document_title": "D067",
+          "start_char_index": 47801,
+          "end_char_index": 47919
+        }
+      ],
+      "type": "text",
+      "text": "No deductions shall be made from a security deposit of a tenant who remains in possession of the rental premises."
+    },
+    {
+      "type": "text",
+      "text": "\n\n### Tenant Remedies for Wrongful Withholding\n"
+    },
+    {
+      "citations": [
+        {
+          "type": "char_location",
+          "cited_text": "If a landlord fails to return the security deposit within 30 days, or the tenant disagrees with \nthe amount deducted, the tenant may sue for double the amount of the security deposit that the \ntenant contends was wrongfully withheld. If the tenant is successful, the court ma y award the \ntenant double the amount wrongly withheld, together with court costs and reasonable attorney\u2019s \nfees (N.J.S.A. 46:8-21.1). ",
+          "document_index": 0,
+          "document_title": "D067",
+          "start_char_index": 47919,
+          "end_char_index": 48331
+        }
+      ],
+      "type": "text",
+      "text": "If a landlord fails to return the security deposit within 30 days, or the tenant disagrees with the amount deducted, the tenant may sue for double the amount of the security deposit that the tenant contends was wrongfully withheld. If the tenant is successful, the court may award the tenant double the amount wrongly withheld, together with court costs and reasonable attorney's fees (N.J.S.A. 46:8-21.1)."
+    },
+    {
+      "type": "text",
+      "text": "\n\n### Broken Lease Timing\n"
+    },
+    {
+      "citations": [
+        {
+          "type": "char_location",
+          "cited_text": "However, if the tenant breaks the lease and moves out of the dwelling \nunit prior to the expiration of the lease, without l egal cause, the lease is not considered to be \nterminated. The lease is considered to be terminated once the unit is re-rented or the lease expires, \nwhichever occurs first, provided that the tenant notified the landlord as required by the lease \nagreement. T he date the rental unit is re -rented determines the date of the termination of the \nbreached lease, J.C. Mitchell v. First Real Estate, 287 N.J. Super 546 (1996). Therefore, in the \ncase of a broken lease agreement by the tenant, the 30 days that the landlord shall return the tenant\u2019s \nsecurity deposit does not start until the landlord re -rents the rental unit, or until the lease expires, \nwhichever occurs first. \n ",
+          "document_index": 0,
+          "document_title": "D067",
+          "start_char_index": 48331,
+          "end_char_index": 49136
+        }
+      ],
+      "type": "text",
+      "text": "However, if the tenant breaks the lease and moves out of the dwelling unit prior to the expiration of the lease, without l egal cause, the lease is not considered to be terminated. The lease is considered to be terminated once the unit is re-rented or the lease expires, whichever occurs first, provided that the tenant notified the landlord as required by the lease agreement. T he date the rental unit is re -rented determines the date of the termination of the breached lease, J.C. Mitchell v. First Real Estate, 287 N.J. Super 546 (1996). Therefore, in the case of a broken lease agreement by the tenant, the 30 days that the landlord shall return the tenant's security deposit does not start until the landlord re -rents the rental unit, or until the lease expires, whichever occurs first."
+    },
+    {
+      "type": "text",
+      "text": "\n\n### Emergency Displacement\n"
+    },
+    {
+      "citations": [
+        {
+          "type": "char_location",
+          "cited_text": "Within five (5) business days after a tenant is displaced by fire, flood, condemnation, or \nevacuation, the landlord must return the security deposit. The law requires the return when either \nan authorized public official has posted a notice prohibiting occupancy or has certified that the \ndisplacement is expected to continue longer than seven (7) days. Within three (3) business days of \nhaving received notice of the displacement, the landlord must let the tenant know where the \nsecurity deposit can be collected. ",
+          "document_index": 0,
+          "document_title": "D067",
+          "start_char_index": 49136,
+          "end_char_index": 49655
+        }
+      ],
+      "type": "text",
+      "text": "Within five (5) business days after a tenant is displaced by fire, flood, condemnation, or evacuation, the landlord must return the security deposit. The law requires the return when either an authorized public official has posted a notice prohibiting occupancy or has certified that the displacement is expected to continue longer than seven (7) days. Within three (3) business days of having received notice of the displacement, the landlord must let the tenant know where the security deposit can be collected."
+    },
+    {
+      "type": "text",
+      "text": "\n\n### Property Transfer\n"
+    },
+    {
+      "citations": [
+        {
+          "type": "char_location",
+          "cited_text": "15 \n \n \n \n If the property is sold or transferred it is the duty of the new owner to obtain the security \ndeposit, plus accrued interest on the tenant\u2019s deposit, that was collected by the former owner. \nWhether or not the deposit and interest are transferred, t he new owner is responsible for the \ninvestment of the security deposit, giving all notices and paying interest, and for the return of the \nsecurity deposit, plus any accrued earnings or interest (N.J.S.A. 46:8-21). \n ",
+          "document_index": 0,
+          "document_title": "D067",
+          "start_char_index": 50286,
+          "end_char_index": 50766
+        }
+      ],
+      "type": "text",
+      "text": "If the property is sold or transferred it is the duty of the new owner to obtain the security deposit, plus accrued interest on the tenant's deposit, that was collected by the former owner. Whether or not the deposit and interest are transferred, t he new owner is responsible for the investment of the security deposit, giving all notices and paying interest, and for the return of the security deposit, plus any accrued earnings or interest (N.J.S.A. 46:8-21)."
+    },
+    {
+      "type": "text",
+      "text": "\n\n### Jurisdiction\n"
+    },
+    {
+      "citations": [
+        {
+          "type": "char_location",
+          "cited_text": "The Small Claims section of the Special Civil Part of the Superior Court, Law Division in \nthe county where the unit is located or in the county where the landlord resides has jurisdiction in \nactions involving security deposits where the amount does not exceed $5,000, including any \napplicable pena lties, but not including court costs. For actions over $5,000 but not exceeding \n$15,000, a person must file in the Special Civil Part of the Superior Court Law Division, New \nJersey Court Rule 6:11 ( N.J.S.A. 46:8-21.4). ",
+          "document_index": 0,
+          "document_title": "D067",
+          "start_char_index": 50766,
+          "end_char_index": 51289
+        }
+      ],
+      "type": "text",
+      "text": "The Small Claims section of the Special Civil Part of the Superior Court, Law Division in the county where the unit is located or in the county where the landlord resides has jurisdiction in actions involving security deposits where the amount does not exceed $5,000, including any applicable pena lties, but not including court costs. For actions over $5,000 but not exceeding $15,000, a person must file in the Special Civil Part of the Superior Court Law Division, New Jersey Court Rule 6:11 (N.J.S.A. 46:8-21.4)."
+    },
+    {
+      "type": "text",
+      "text": "\n\n### Penalties for Wrongful Withholding from Assisted Tenants\n"
+    },
+    {
+      "citations": [
+        {
+          "type": "char_location",
+          "cited_text": "Any landlord who willfully and intentionally withholds a security deposit made by or on \nbehalf of a tenant who has received financial assistance through any Stat e or federal program, \nincluding welfare or rental assistance , may be penalized. The landlord may be liable for a civil \npenalty of not less than $500 or not more than $2,000 for each offense. The penalty shall be \ncollected and enforced by summary proceeding s pursuant to the Penalty Enforcement Law \n(N.J.S.A. 2A:58-12). ",
+          "document_index": 0,
+          "document_title": "D067",
+          "start_char_index": 51424,
+          "end_char_index": 51912
+        }
+      ],
+      "type": "text",
+      "text": "Any landlord who willfully and intentionally withholds a security deposit made by or on behalf of a tenant who has received financial assistance through any Stat e or federal program, including welfare or rental assistance , may be penalized. The landlord may be liable for a civil penalty of not less than $500 or not more than $2,000 for each offense. The penalty shall be collected and enforced by summary proceeding s pursuant to the Penalty Enforcement Law (N.J.S.A. 2A:58-12)."
+    },
+    {
+      "type": "text",
+      "text": "\n\n### Criminal Liability\n"
+    },
+    {
+      "citations": [
+        {
+          "type": "char_location",
+          "cited_text": "Any person who unlawfully uses security deposit monies may be c riminally charged as a \ndisorderly person and may be subject to a fine of not less than $200 or imprisonment for not more \nthan 30 days, or both (N.J.S.A. 46:8-25). \n",
+          "document_index": 0,
+          "document_title": "D067",
+          "start_char_index": 52303,
+          "end_char_index": 52533
+        }
+      ],
+      "type": "text",
+      "text": "Any person who unlawfully uses security deposit monies may be c riminally charged as a disorderly person and may be subject to a fine of not less than $200 or imprisonment for not more than 30 days, or both (N.J.S.A. 46:8-25)."
+    },
+    {
+      "type": "text",
+      "text": "\n\n---\n\n## IV. APPLICATION AND SCREENING FEES\n\n### Permissible Charges\n"
+    },
+    {
+      "citations": [
+        {
+          "type": "char_location",
+          "cited_text": "Credit Checks and Background Checks \n Landlords may access credit reports for prospective tenants from credit bureaus or tenant \nscreening agencies. The landlord may use the information provided in deciding whether to approve \nor deny an applicant. If a tenant\u2019s  application is denied due their credit report, the landlord must \nprovide the tenant with the name, address, and telephone number of the credit reporting or \nscreening agency that supplied the negative report (15 U.S.C.A. \u00a7 1681m). The landlord is allowed \nto charge the tenant for the cost of the report. The landlord may also request reasonable rental \napplication fees or employment verification. ",
+          "document_index": 0,
+          "document_title": "D067",
+          "start_char_index": 62229,
+          "end_char_index": 62893
+        }
+      ],
+      "type": "text",
+      "text": "Landlords may access credit reports for prospective tenants from credit bureaus or tenant screening agencies. The landlord may use the information provided in deciding whether to approve or deny an applicant. If a tenant's application is denied due their credit report, the landlord must provide the tenant with the name, address, and telephone number of the credit reporting or screening agency that supplied the negative report (15 U.S.C.A. \u00a7 1681m). The landlord is allowed to charge the tenant for the cost of the report. The landlord may also request reasonable rental application fees or employment verification."
+    },
+    {
+      "type": "text",
+      "text": "\n\n### No Detailed Fee Caps in Document\nThe document does not specify maximum amounts for application or screening fees, only that they must be \"reasonable.\"\n\n---\n\n## V. SCREENING RESTRICTIONS\n\n### Permissible Screening\n"
+    },
+    {
+      "citations": [
+        {
+          "type": "char_location",
+          "cited_text": "16 \n \n \n \nA landlord may refuse to rent to an individual or family if they do not have sufficient \nincome, family is too large for the unit, overcrowded occupancy would result in violation of zoning \nlaws, or credit history is poor (42 U.S.C.A. \u00a7 3601 to -3610). \n ",
+          "document_index": 0,
+          "document_title": "D067",
+          "start_char_index": 53524,
+          "end_char_index": 53789
+        }
+      ],
+      "type": "text",
+      "text": "A landlord may refuse to rent to an individual or family if they do not have sufficient income, family is too large for the unit, overcrowded occupancy would result in violation of zoning laws, or credit history is poor (42 U.S.C.A. \u00a7 3601 to -3610)."
+    },
+    {
+      "type": "text",
+      "text": "\n\n### Prohibited Discrimination\n"
+    },
+    {
+      "citations": [
+        {
+          "type": "char_location",
+          "cited_text": "Discrimination \n Under State and federal laws, it is illegal for a landlord or rental agency to refuse to rent or \ndiscriminate in the rental of housing units. The New Jersey Law Against Discrimination (LAD), \nN.J.S.A. 10:5-12(g) to -(h), prohibits discrimination when selling or renting property and requires \nequal treatment in the sale or rental of housing regardless of race, creed, color, national origin, \nancestry, sex, marital status, civil union status, domestic partnership status, familial status, \naffectional or sexual orientation, gender  identity or expression, mental and physical disability, \nnationality, or source of lawful income. \n ",
+          "document_index": 0,
+          "document_title": "D067",
+          "start_char_index": 52533,
+          "end_char_index": 53186
+        }
+      ],
+      "type": "text",
+      "text": "Under State and federal laws, it is illegal for a landlord or rental agency to refuse to rent or discriminate in the rental of housing units. The New Jersey Law Against Discrimination (LAD), N.J.S.A. 10:5-12(g) to -(h), prohibits discrimination when selling or renting property and requires equal treatment in the sale or rental of housing regardless of race, creed, color, national origin, ancestry, sex, marital status, civil union status, domestic partnership status, familial status, affectional or sexual orientation, gender identity or expression, mental and physical disability, nationality, or source of lawful income."
+    },
+    {
+      "type": "text",
+      "text": "\n\n### Familial Status Protection\n"
+    },
+    {
+      "citations": [
+        {
+          "type": "char_location",
+          "cited_text": "Under the LAD and the Fair Housing Amendments Act, the refusal to rent to a family that \nincludes children, with the exception of housing built for older persons and owner -occupied \nstructures with no more than two dwelling units is prohibited under 42 U.S.C.A. \u00a7 3601 to -3610. \n ",
+          "document_index": 0,
+          "document_title": "D067",
+          "start_char_index": 53789,
+          "end_char_index": 54071
+        }
+      ],
+      "type": "text",
+      "text": "Under the LAD and the Fair Housing Amendments Act, the refusal to rent to a family that includes children, with the exception of housing built for older persons and owner -occupied structures with no more than two dwelling units is prohibited under 42 U.S.C.A. \u00a7 3601 to -3610."
+    },
+    {
+      "type": "text",
+      "text": "\n\n### Landlord Liability for Discrimination\n"
+    },
+    {
+      "citations": [
+        {
+          "type": "char_location",
+          "cited_text": "A landlord that discriminates may be required to pay \nmonetary damages and be required to rent the unit to the complainant if a violation is determined \nto have occurred. Under the LAD, landlords who violate this law are subject to substantial fines \nand penalties, up to $10,000 for a first offense (N.J.S.A. 10:5-14.1a(a)).  \n",
+          "document_index": 0,
+          "document_title": "D067",
+          "start_char_index": 55104,
+          "end_char_index": 55432
+        }
+      ],
+      "type": "text",
+      "text": "A landlord that discriminates may be required to pay monetary damages and be required to rent the unit to the complainant if a violation is determined to have occurred. Under the LAD, landlords who violate this law are subject to substantial fines and penalties, up to $10,000 for a first offense (N.J.S.A. 10:5-14.1a(a))."
+    },
+    {
+      "type": "text",
+      "text": "\n\n---\n\n## VI. ALGORITHMIC PRICING\n\n**Status: Not addressed in document**\n\nThe Truth in Renting guide does not contain any provisions, restrictions, or references to algorithmic pricing, automated pricing systems, or dynamic pricing mechanisms.\n\n---\n\n## VII. ADDITIONAL OPERATIVE OBLIGATIONS\n\n### Habitability Requirement\n"
+    },
+    {
+      "citations": [
+        {
+          "type": "char_location",
+          "cited_text": "Tenants have the right to safe, sanitary, and decent housing. Residential leases carry an \nimplied warranty of habitability. The New Jersey Supreme Court has held that a landlord offering \ntwo units or more for rent implies that it is habitable and agrees to keep it in that condition. ",
+          "document_index": 0,
+          "document_title": "D067",
+          "start_char_index": 78037,
+          "end_char_index": 78323
+        }
+      ],
+      "type": "text",
+      "text": "Tenants have the right to safe, sanitary, and decent housing. Residential leases carry an implied warranty of habitability. The New Jersey Supreme Court has held that a landlord offering two units or more for rent implies that it is habitable and agrees to keep it in that condition."
+    },
+    {
+      "type": "text",
+      "text": "\n\n### Lead Paint Disclosure (Federal)\n"
+    },
+    {
+      "citations": [
+        {
+          "type": "char_location",
+          "cited_text": "Federal Lead-Based Paint Disclosure \nUnder rules adopted jointly by the U.S. Environmental Protection  Agency (EPA) and the \nU.S. Department of Housing and Urban Development (HUD) in 1994, landlords of certain types \nof buildings must notify prospective tenants of lead-based paint hazards in the dwelling they wish \nto rent and provide them with information ab out the identification and control of such hazards. \nMore specifically, if the dwelling to be rented was constructed prior to 1978, contains bedrooms \nand is to be rented for more than 100 days, the landlord must provide the tenant, before the lease \nis signed, an EPA pamphlet entitled, \u201dProtect Your Family from Lead in Your Home\u201d (42 U.S.C.S. \n\u00a7 4851 et al.). \n ",
+          "document_index": 0,
+          "document_title": "D067",
+          "start_char_index": 91908,
+          "end_char_index": 92635
+        }
+      ],
+      "type": "text",
+      "text": "Under rules adopted jointly by the U.S. Environmental Protection Agency (EPA) and the U.S. Department of Housing and Urban Development (HUD) in 1994, landlords of certain types of buildings must notify prospective tenants of lead-based paint hazards in the dwelling they wish to rent and provide them with information ab out the identification and control of such hazards. More specifically, if the dwelling to be rented was constructed prior to 1978, contains bedrooms and is to be rented for more than 100 days, the landlord must provide the tenant, before the lease is signed, an EPA pamphlet entitled, \"Protect Your Family from Lead in Your Home\" (42 U.S.C.S. \u00a7 4851 et al.)."
+    },
+    {
+      "type": "text",
+      "text": "\n\n### Truth in Renting Statement (Operative)\n"
+    },
+    {
+      "citations": [
+        {
+          "type": "char_location",
+          "cited_text": "Every landlord subject to the Truth in Renting Act, (N.J.S.A. 46:8-43 to 51), hereinafter \nthe Act, is required to distribute one copy of the Truth in Renting Statement to each of their tenants \nwithin 30 days after it has been posted by the Department on its website and shall thereafter provide \na copy of the most current statement to each new tenant at or prior to the time the tenant executes \na lease for the rental unit.  \n ",
+          "document_index": 0,
+          "document_title": "D067",
+          "start_char_index": 5295,
+          "end_char_index": 5726
+        }
+      ],
+      "type": "text",
+      "text": "Every landlord subject to the Truth in Renting Act, (N.J.S.A. 46:8-43 to 51), hereinafter the Act, is required to distribute one copy of the Truth in Renting Statement to each of their tenants within 30 days after it has been posted by the Department on its website and shall thereafter provide a copy of the most current statement to each new tenant at or prior to the time the tenant executes a lease for the rental unit."
+    },
+    {
+      "type": "text",
+      "text": "\n\n### Applicability\n"
+    },
+    {
+      "citations": [
+        {
+          "type": "char_location",
+          "cited_text": "The Act calls for distribution of the statement by the landlord to all tenants with a rental \nterm of at least one month living in residences with more than two dwelling units,  or more than \nthree if the landlord occupies one of the units. ",
+          "document_index": 0,
+          "document_title": "D067",
+          "start_char_index": 5726,
+          "end_char_index": 5967
+        }
+      ],
+      "type": "text",
+      "text": "The Act calls for distribution of the statement by the landlord to all tenants with a rental term of at least one month living in residences with more than two dwelling units, or more than three if the landlord occupies one of the units."
+    },
+    {
+      "type": "text",
+      "text": "\n\n### Exemptions\n"
+    },
+    {
+      "citations": [
+        {
+          "type": "char_location",
+          "cited_text": "The Act does not require distribution to residents of \nhotels, motels, or other guest houses serving transient or seasonal tenants (N.J.S.A. 46:8-44).  \n",
+          "document_index": 0,
+          "document_title": "D067",
+          "start_char_index": 5967,
+          "end_char_index": 6120
+        }
+      ],
+      "type": "text",
+      "text": "The Act does not require distribution to residents of hotels, motels, or other guest houses serving transient or seasonal tenants (N.J.S.A. 46:8-44)."
+    },
+    {
+      "type": "text",
+      "text": "\n\n### Penalty for Violation\n"
+    },
+    {
+      "citations": [
+        {
+          "type": "char_location",
+          "cited_text": "A landlord who violates any provisions of the Act, contrary to the legal rights of tenants \nshall be liable for a penalty of not more than $100.00 per offense (N.J.S.A. 46:8-47). ",
+          "document_index": 0,
+          "document_title": "D067",
+          "start_char_index": 6120,
+          "end_char_index": 6299
+        }
+      ],
+      "type": "text",
+      "text": "A landlord who violates any provisions of the Act, contrary to the legal rights of tenants shall be liable for a penalty of not more than $100.00 per offense (N.J.S.A. 46:8-47)."
+    },
+    {
+      "type": "text",
+      "text": "\n\n### Landlord Identity Registration (Operative)\n"
+    },
+    {
+      "citations": [
+        {
+          "type": "char_location",
+          "cited_text": "Identity of Landlord \n A landlord who owns a one or two-family non-owner-occupied home is required by law to \nfile a registration statement with the clerk of the municipality in which the building is located. If \nthe building has three (3) or more units, the statement must be filed with the Bureau of Housing \nInspection, Post Office Box 810, Trenton, New Jersey 08625-0810, on a registration form provided \nby the Bureau. ",
+          "document_index": 0,
+          "document_title": "D067",
+          "start_char_index": 73738,
+          "end_char_index": 74162
+        }
+      ],
+      "type": "text",
+      "text": "A landlord who owns a one or two-family non-owner-occupied home is required by law to file a registration statement with the clerk of the municipality in which the building is located. If the building has three (3) or more units, the statement must be filed with the Bureau of Housing Inspection, Post Office Box 810, Trenton, New Jersey 08625-0810, on a registration form provided by the Bureau."
+    },
+    {
+      "type": "text",
+      "text": "\n\n### Registration Penalty\n"
+    },
+    {
+      "citations": [
+        {
+          "type": "char_location",
+          "cited_text": "The Superior Court, Law Division, Special Civil Part and the municipal court in the \nmunicipality in which the premises are located have concurre nt jurisdiction to enforce penalties \nsought against landlords who violate the requirements of the Landlord Identity law. The maximum \npenalty is $500.00 for each offense, recoverable by a summary proceeding under \u201cThe Penalty \nEnforcement Law\u201d (N.J.S.A 2A:58-1 et seq.). ",
+          "document_index": 0,
+          "document_title": "D067",
+          "start_char_index": 76527,
+          "end_char_index": 76945
+        }
+      ],
+      "type": "text",
+      "text": "The Superior Court, Law Division, Special Civil Part and the municipal court in the municipality in which the premises are located have concurrent jurisdiction to enforce penalties sought against landlords who violate the requirements of the Landlord Identity law. The maximum penalty is $500.00 for each offense, recoverable by a summary proceeding under \"The Penalty Enforcement Law\" (N.J.S.A 2A:58-1 et seq.)."
+    },
+    {
+      "type": "text",
+      "text": "\n\n### No Self-Help Evictions (Operative)\n"
+    },
+    {
+      "citations": [
+        {
+          "type": "char_location",
+          "cited_text": "Self-help evictions, or lockouts, made by the landlord are illegal in New Jersey. \nIf a landlord attempts a self -help eviction or lockout, the tenant should call the police. If \nthe landlord refuses to allow the tenant back into the premises after  the police have warned the \nlandlord about the illegal procedures, the landlord may be charged with disorderly conduct.  \n",
+          "document_index": 0,
+          "document_title": "D067",
+          "start_char_index": 114832,
+          "end_char_index": 115204
+        }
+      ],
+      "type": "text",
+      "text": "Self-help evictions, or lockouts, made by the landlord are illegal in New Jersey. If a landlord attempts a self -help eviction or lockout, the tenant should call the police. If the landlord refuses to allow the tenant back into the premises after the police have warned the landlord about the illegal procedures, the landlord may be charged with disorderly conduct."
+    },
+    {
+      "type": "text",
+      "text": "\n\n### Heat Requirements\n"
+    },
+    {
+      "citations": [
+        {
+          "type": "char_location",
+          "cited_text": "Every \nunit or dwelling space must have a heating system that will provide and maintain heat at least 68 \ndegrees F. from October 1 to May 1, from 6:00 a.m. to 11:00 p.m. and 65 degrees F. at other hours, \nsupplying the required fuel or energy, and maintained the heating system in good condition so that \nit can provide the required amount of heat. ",
+          "document_index": 0,
+          "document_title": "D067",
+          "start_char_index": 86339,
+          "end_char_index": 86689
+        }
+      ],
+      "type": "text",
+      "text": "Every unit or dwelling space must have a heating system that will provide and maintain heat at least 68 degrees F. from October 1 to May 1, from 6:00 a.m. to 11:00 p.m. and 65 degrees F. at other hours, supplying the required fuel or energy, and maintained the heating system in good condition so that it can provide the required amount of heat."
+    },
+    {
+      "type": "text",
+      "text": "\n\n---\n\n## VIII. SUMMARY TABLE\n\n| Topic | Status | Coverage | Key Exemptions | Effective Date/Authority |\n|-------|--------|----------|-----------------|-------------------------|\n| Statewide Rent Control | None Operative | N/A | N/A | Per N.J.S.A. 1-493 |\n| Municipal Rent Control | Operative | Varies by municipality | New construction (30 yrs), Subsidized housing | N.J.S.A. 2A:42-84.5 |\n| Just Cause Eviction | Operative | 17 statutory grounds | 2-3 unit owner-occupied, Hotels/motels, Seasonal | N.J.S.A. 2A:18-61.1 |\n| Rent Increase Mid-Lease | Prohibited | Cannot raise rent mid-term | N/A | N.J.S.A. per 1-502,1-503 |\n| Security Deposits | Operative | 1.5x monthly rent max | Owner-occupied 2-3 family units | N.J.S.A. 46:8-21.2 |\n| Deposit Interest | Operative | Required annually | Seasonal rentals (\u2264125 days) | N.J.S.A. 46:8-19(c) |\n| Application Fees | Permitted | \"Reasonable\" amount | N/A | Per 1-478 |\n| Screening Fees | Permitted | Actual cost of report | N/A | 15 U.S.C.A. \u00a7 1681m |\n| Discrimination Protections | Operative | 10 protected classes | 2-unit owner-occupied | N.J.S.A. 10:5-12(g)-(h) |\n| Algorithmic Pricing | Not Addressed | N/A | N/A | Document does not address |\n| Habitability Warranty | Operative | Implied in all leases | N/A | Case law per 1-595 |\n| Lead Paint Disclosure | Operative | Pre-1978 rentals >100 days | Housing for elderly/disabled | 42 U.S.C.S. \u00a7 4851 |\n| Truth in Renting Statement | Operative | 3+ unit buildings | 2 units or fewer | N.J.S.A. 46:8-43 to -51 |\n| Landlord Registration | Operative | All non-owner-occupied | Owner-occupied 2-family | N.J.S.A. 46:8-27 to -37 |\n| Heat Requirement | Operative | 68\u00b0F Oct 1-May 1 | N/A | N.J.A.C. 5:10-14.4 |\n\n---\n\n## NOTE\n\nThis document reflects the Truth in Renting guide's content only, current as of the retrieval date of 2026-10-01. No proposed, failed, or subsequently enacted legislation beyond the scope of this document is included per the instruction to use no external knowledge."
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 61485,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 9216,
+    "service_tier": "batch",
+    "inference_geo": "not_available"
+  },
+  "diagnostics": null
+}

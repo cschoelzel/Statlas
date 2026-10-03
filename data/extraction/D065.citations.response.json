@@ -1,0 +1,515 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011CfftopN3rs1Nrzt4xXUSW",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "# Analysis of New Jersey Fair Chance in Housing Act (P.L. 2021, c.110)\n\nBased on the document provided, this legislation addresses **screening restrictions** only. It does not contain provisions regarding rent caps, just cause eviction, deposits, algorithmic pricing, or application/screening fees (beyond disclosure requirements).\n\n## ENACTED PROVISIONS (Effective Date)\n\n"
+    },
+    {
+      "citations": [
+        {
+          "type": "char_location",
+          "cited_text": "This act shall take effect on the first day of the\nseventh month next following the date of enactment,\nbut the\ndivision\nmay take any anticipatory\nadministrative action in advance as shall be necessary for the implementation\nof this act.\n",
+          "document_index": 0,
+          "document_title": "D065",
+          "start_char_index": 20655,
+          "end_char_index": 20892
+        }
+      ],
+      "type": "text",
+      "text": "The act took effect on the first day of the seventh month next following the date of enactment"
+    },
+    {
+      "type": "text",
+      "text": " (January 18, 2022, based on the June 18, 2021 approval date).\n\n---\n\n## SCREENING RESTRICTIONS - OPERATIVE OBLIGATIONS\n\n### 1. **Pre-Conditional Offer Inquiry Prohibition**\n\n**Obligation:** "
+    },
+    {
+      "citations": [
+        {
+          "type": "char_location",
+          "cited_text": "(1)\nA\nhousing provider\nshall not require an applicant to\ncomplete any housing application that includes any inquiries regarding an\napplicant\u2019s criminal record prior to the provision of a conditional offer,\nexcept that a housing provider may consider whether an applicant has ever been\nconvicted of drug-related criminal activity for the manufacture or production\nof methamphetamine on the premises of federally assisted housing, and whether\nthe applicant is subject to a lifetime registration requirement under a State\nsex offender registration program.\n",
+          "document_index": 0,
+          "document_title": "D065",
+          "start_char_index": 3672,
+          "end_char_index": 4226
+        }
+      ],
+      "type": "text",
+      "text": "A housing provider shall not require an applicant to complete any housing application that includes any inquiries regarding an applicant's criminal record prior to the provision of a conditional offer, except that a housing provider may consider whether an applicant has ever been convicted of drug-related criminal activity for the manufacture or production of methamphetamine on the premises of federally assisted housing, and whether the applicant is subject to a lifetime registration requirement under a State sex offender registration program."
+    },
+    {
+      "type": "text",
+      "text": "\n\n**Additional restriction:** "
+    },
+    {
+      "citations": [
+        {
+          "type": "char_location",
+          "cited_text": "(2)\nA housing\nprovider\nshall not make any oral or written inquiry\nregarding an applicant\u2019s criminal record prior to making a conditional offer.\n",
+          "document_index": 0,
+          "document_title": "D065",
+          "start_char_index": 4226,
+          "end_char_index": 4370
+        }
+      ],
+      "type": "text",
+      "text": "A housing provider shall not make any oral or written inquiry regarding an applicant's criminal record prior to making a conditional offer."
+    },
+    {
+      "type": "text",
+      "text": "\n\n### 2. **Disclosure Requirements**\n\n**Obligation:** "
+    },
+    {
+      "citations": [
+        {
+          "type": "char_location",
+          "cited_text": "Prior to\naccepting any application fee, a housing provider shall disclose in writing to\nthe applicant:\n(1)\u00a0\u00a0 Whether the eligibility criteria of the housing\nprovider include the review and consideration of criminal history; and\n(2)\u00a0\u00a0 A statement that the applicant, pursuant to\nsubsection a. of this section, may provide evidence demonstrating inaccuracies\nwithin the applicant's criminal record or evidence of rehabilitation or other\nmitigating factors.\n",
+          "document_index": 0,
+          "document_title": "D065",
+          "start_char_index": 4560,
+          "end_char_index": 5015
+        }
+      ],
+      "type": "text",
+      "text": "Prior to accepting any application fee, a housing provider shall disclose in writing to the applicant: (1) Whether the eligibility criteria of the housing provider include the review and consideration of criminal history; and (2) A statement that the applicant, pursuant to subsection a. of this section, may provide evidence demonstrating inaccuracies within the applicant's criminal record or evidence of rehabilitation or other mitigating factors."
+    },
+    {
+      "type": "text",
+      "text": "\n\n### 3. **Non-Discriminatory Application**\n\n**Obligation:** "
+    },
+    {
+      "citations": [
+        {
+          "type": "char_location",
+          "cited_text": "c.\u00a0\u00a0\u00a0\u00a0 A housing provider\nshall apply the standards established by this section to each applicant in a\nnondiscriminatory manner.\n",
+          "document_index": 0,
+          "document_title": "D065",
+          "start_char_index": 5015,
+          "end_char_index": 5144
+        }
+      ],
+      "type": "text",
+      "text": "A housing provider shall apply the standards established by this section to each applicant in a nondiscriminatory manner."
+    },
+    {
+      "type": "text",
+      "text": "\n\n### 4. **Applicant Right to Present Mitigating Evidence**\n\n**Obligation:** "
+    },
+    {
+      "citations": [
+        {
+          "type": "char_location",
+          "cited_text": "(3)\nAn applicant\nmay provide evidence to the housing\nprovider demonstrating inaccuracies within the applicant's criminal record or\nevidence of rehabilitation or other mitigating factors.\n",
+          "document_index": 0,
+          "document_title": "D065",
+          "start_char_index": 4370,
+          "end_char_index": 4557
+        }
+      ],
+      "type": "text",
+      "text": "An applicant may provide evidence to the housing provider demonstrating inaccuracies within the applicant's criminal record or evidence of rehabilitation or other mitigating factors."
+    },
+    {
+      "type": "text",
+      "text": "\n\n---\n\n## SCREENING RESTRICTIONS - POST-CONDITIONAL OFFER STANDARDS\n\n### 5. **Prohibited Records Categories**\n\n**Exemption from consideration:** "
+    },
+    {
+      "citations": [
+        {
+          "type": "char_location",
+          "cited_text": "A housing provider shall not, either before\nor after the issuance of a conditional offer, evaluate an applicant based on\nany of the following types of criminal records:\n(1)\u00a0\u00a0 arrests or charges that have not resulted in a\ncriminal conviction;\n(2)\u00a0\u00a0 expunged convictions;\n(3)\u00a0\u00a0 convictions erased through executive pardon;\n(4)\u00a0\u00a0 vacated and otherwise legally nullified\nconvictions;\n(5)\u00a0\u00a0 juvenile adjudications of delinquency; and\n(6)\u00a0\u00a0 records that have been sealed.\n",
+          "document_index": 0,
+          "document_title": "D065",
+          "start_char_index": 5221,
+          "end_char_index": 5688
+        }
+      ],
+      "type": "text",
+      "text": "A housing provider shall not, either before or after the issuance of a conditional offer, evaluate an applicant based on any of the following types of criminal records: (1) arrests or charges that have not resulted in a criminal conviction; (2) expunged convictions; (3) convictions erased through executive pardon; (4) vacated and otherwise legally nullified convictions; (5) juvenile adjudications of delinquency; and (6) records that have been sealed."
+    },
+    {
+      "type": "text",
+      "text": "\n\n### 6. **Allowable Criminal Records (Post-Conditional Offer)**\n\n**Permitted consideration:** "
+    },
+    {
+      "citations": [
+        {
+          "type": "char_location",
+          "cited_text": "After the issuance of a conditional offer to an\napplicant, a housing provider may only consider a criminal record in the\napplicant\u2019s history that:\n(1)\u00a0\u00a0 resulted in a conviction for murder, aggravated\nsexual assault, kidnapping, arson, human trafficking, sexual assault in\nviolation of N.J.S.2C:14-2, causing or permitting a child to engage in a\nprohibited sexual act or in the simulation of such an act in violation of\nparagraph (3) of subsection b. of N.J.S.2C:24-4, or any crime that resulted in\nlifetime registration in a state sex offender registry;\n(2)\u00a0\u00a0 is for an indictable offense of the first degree\nthat was issued, or if the conviction resulted in a prison sentence that\nsentence concluded, within the six years immediately preceding the issuance of\nthe conditional offer;\n(3)\u00a0\u00a0 is for an indictable offense of the second or\nthird degree that was issued, or if the conviction resulted in a prison\nsentence that sentence concluded, within the four years immediately preceding\nthe issuance of the conditional offer; or\n(4)\u00a0\u00a0 is for an indictable offense of the fourth degree\nthat was issued, or if the conviction resulted in a prison sentence that\nsentence concluded, within one year immediately preceding the issuance of the\nconditional offer.\n",
+          "document_index": 0,
+          "document_title": "D065",
+          "start_char_index": 5694,
+          "end_char_index": 6949
+        }
+      ],
+      "type": "text",
+      "text": "After the issuance of a conditional offer to an applicant, a housing provider may only consider a criminal record in the applicant's history that: (1) resulted in a conviction for murder, aggravated sexual assault, kidnapping, arson, human trafficking, sexual assault in violation of N.J.S.2C:14-2, causing or permitting a child to engage in a prohibited sexual act or in the simulation of such an act in violation of paragraph (3) of subsection b. of N.J.S.2C:24-4, or any crime that resulted in lifetime registration in a state sex offender registry; (2) is for an indictable offense of the first degree that was issued, or if the conviction resulted in a prison sentence that sentence concluded, within the six years immediately preceding the issuance of the conditional offer; (3) is for an indictable offense of the second or third degree that was issued, or if the conviction resulted in a prison sentence that sentence concluded, within the four years immediately preceding the issuance of the conditional offer; or (4) is for an indictable offense of the fourth degree that was issued, or if the conviction resulted in a prison sentence that sentence concluded, within one year immediately preceding the issuance of the conditional offer."
+    },
+    {
+      "type": "text",
+      "text": "\n\n### 7. **Individualized Assessment Requirement**\n\n**Obligation:** "
+    },
+    {
+      "citations": [
+        {
+          "type": "char_location",
+          "cited_text": "(3)\u00a0\u00a0 The housing provider shall perform an\nindividualized assessment of the application in light of the following factors:\n(a)\u00a0\u00a0 the nature and severity of the criminal offense;\n(b)\u00a0\u00a0 the age of the applicant at the time of the\noccurrence of the criminal offense;\n(c)\u00a0\u00a0 the time which has elapsed since the occurrence\nof the criminal offense;\n(d)\u00a0\u00a0 any information produced by the applicant, or\nproduced on the applicant's behalf, in regard to the applicant's rehabilitation\nand good conduct since the occurrence of the criminal offense;\n(e)\u00a0\u00a0 the degree to which the criminal offense, if it\nreoccurred, would negatively impact the safety of the housing provider's other\ntenants or property; and\n(f)\u00a0\u00a0 whether the criminal offense occurred on or was\nconnected to property that was rented or leased by the applicant.\n",
+          "document_index": 0,
+          "document_title": "D065",
+          "start_char_index": 7675,
+          "end_char_index": 8492
+        }
+      ],
+      "type": "text",
+      "text": "The housing provider shall perform an individualized assessment of the application in light of the following factors: (a) the nature and severity of the criminal offense; (b) the age of the applicant at the time of the occurrence of the criminal offense; (c) the time which has elapsed since the occurrence of the criminal offense; (d) any information produced by the applicant, or produced on the applicant's behalf, in regard to the applicant's rehabilitation and good conduct since the occurrence of the criminal offense; (e) the degree to which the criminal offense, if it reoccurred, would negatively impact the safety of the housing provider's other tenants or property; and (f) whether the criminal offense occurred on or was connected to property that was rented or leased by the applicant."
+    },
+    {
+      "type": "text",
+      "text": "\n\n### 8. **Conditional Offer Withdrawal Standards**\n\n**Obligation:** "
+    },
+    {
+      "citations": [
+        {
+          "type": "char_location",
+          "cited_text": "c.\u00a0\u00a0\u00a0\u00a0 (1) \u00a0A housing provider may withdraw a\nconditional offer based on an applicant's criminal record only if the housing\nprovider determines, by preponderance of the evidence, that the withdrawal is\nnecessary to fulfill a substantial, legitimate, and nondiscriminatory interest.\n",
+          "document_index": 0,
+          "document_title": "D065",
+          "start_char_index": 6949,
+          "end_char_index": 7231
+        }
+      ],
+      "type": "text",
+      "text": "A housing provider may withdraw a conditional offer based on an applicant's criminal record only if the housing provider determines, by preponderance of the evidence, that the withdrawal is necessary to fulfill a substantial, legitimate, and nondiscriminatory interest."
+    },
+    {
+      "type": "text",
+      "text": "\n\n### 9. **Notification of Withdrawal with Appeal Rights**\n\n**Obligation:** "
+    },
+    {
+      "citations": [
+        {
+          "type": "char_location",
+          "cited_text": "(2)\u00a0\u00a0 If a housing provider withdraws a conditional\noffer, the housing provider shall provide the applicant with written\nnotification that includes, with specificity, the reason or reasons for the\nwithdrawal of the conditional offer and an opportunity to appeal the denial by\nproviding evidence to the housing provider demonstrating inaccuracies within\nthe applicant's criminal record or evidence of rehabilitation or other\nmitigating factors.\n",
+          "document_index": 0,
+          "document_title": "D065",
+          "start_char_index": 7231,
+          "end_char_index": 7675
+        }
+      ],
+      "type": "text",
+      "text": "If a housing provider withdraws a conditional offer, the housing provider shall provide the applicant with written notification that includes, with specificity, the reason or reasons for the withdrawal of the conditional offer and an opportunity to appeal the denial by providing evidence to the housing provider demonstrating inaccuracies within the applicant's criminal record or evidence of rehabilitation or other mitigating factors."
+    },
+    {
+      "type": "text",
+      "text": "\n\n### 10. **Right to Information Access**\n\n**Obligation:** "
+    },
+    {
+      "citations": [
+        {
+          "type": "char_location",
+          "cited_text": "d.\u00a0\u00a0\u00a0 (1) \u00a0The applicant may request, within 30 days\nafter the housing provider's notice of the withdrawal, that the housing\nprovider afford the applicant a copy of all information that the housing\nprovider relied upon in considering the applicant, including criminal records.\n(2)\u00a0\u00a0 A housing provider shall provide the information\nrequested under paragraph (1) of this subsection, free of charge, within l0\ndays after receipt of a timely request.\n",
+          "document_index": 0,
+          "document_title": "D065",
+          "start_char_index": 8492,
+          "end_char_index": 8940
+        }
+      ],
+      "type": "text",
+      "text": "The applicant may request, within 30 days after the housing provider's notice of the withdrawal, that the housing provider afford the applicant a copy of all information that the housing provider relied upon in considering the applicant, including criminal records. A housing provider shall provide the information requested under paragraph (1) of this subsection, free of charge, within 10 days after receipt of a timely request."
+    },
+    {
+      "type": "text",
+      "text": "\n\n---\n\n## ADVERTISING RESTRICTIONS\n\n### 11. **Blanket Exclusion Prohibition**\n\n**Obligation:** "
+    },
+    {
+      "citations": [
+        {
+          "type": "char_location",
+          "cited_text": "A housing provider shall not knowingly or\npurposefully publish, or cause to be published, any housing advertisement that\nexplicitly provides that the housing provider will not consider any applicant\nwho has been arrested or convicted of one or more crimes or offenses, except\nfor\ndrug-related criminal activity for the\nmanufacture or production of methamphetamine on the premises of federally\nassisted housing, and whether the applicant is subject to a lifetime\nregistration requirement under a State sex offender registration program.\n",
+          "document_index": 0,
+          "document_title": "D065",
+          "start_char_index": 10926,
+          "end_char_index": 11462
+        }
+      ],
+      "type": "text",
+      "text": "A housing provider shall not knowingly or purposefully publish, or cause to be published, any housing advertisement that explicitly provides that the housing provider will not consider any applicant who has been arrested or convicted of one or more crimes or offenses, except for drug-related criminal activity for the manufacture or production of methamphetamine on the premises of federally assisted housing, and whether the applicant is subject to a lifetime registration requirement under a State sex offender registration program."
+    },
+    {
+      "type": "text",
+      "text": "\n\n### 12. **Application and Inquiry Limitations**\n\n**Obligation:** "
+    },
+    {
+      "citations": [
+        {
+          "type": "char_location",
+          "cited_text": "A housing provider\nshall not print, publish, circulate, issue, display, post, or mail, or cause to\nbe printed, published, circulated, issued, displayed, posted or mailed any\nstatement, advertisement, publication or sign, or use any form of application\nfor the rental, lease, or sublease of any real property or part or portion\nthereof or make any record or inquiry in connection with the prospective\nrental, lease, or sublease of any real property or part or portion thereof\nwhich expresses, directly or indirectly, any unlawful limitation, specification\nor discrimination as to criminal record, except as permitted by this act and\nfor drug-related criminal activity for the manufacture or production of\nmethamphetamine on the premises of federally assisted housing, and whether the\napplicant is subject to a lifetime registration requirement under a State sex\noffender registration program.\n",
+          "document_index": 0,
+          "document_title": "D065",
+          "start_char_index": 11468,
+          "end_char_index": 12360
+        }
+      ],
+      "type": "text",
+      "text": "A housing provider shall not print, publish, circulate, issue, display, post, or mail, or cause to be printed, published, circulated, issued, displayed, posted or mailed any statement, advertisement, publication or sign, or use any form of application for the rental, lease, or sublease of any real property or part or portion thereof or make any record or inquiry in connection with the prospective rental, lease, or sublease of any real property or part or portion thereof which expresses, directly or indirectly, any unlawful limitation, specification or discrimination as to criminal record, except as permitted by this act and for drug-related criminal activity for the manufacture or production of methamphetamine on the premises of federally assisted housing, and whether the applicant is subject to a lifetime registration requirement under a State sex offender registration program."
+    },
+    {
+      "type": "text",
+      "text": "\n\n### 13. **Criminal Record Dissemination and Use Restrictions**\n\n**Obligation:** "
+    },
+    {
+      "citations": [
+        {
+          "type": "char_location",
+          "cited_text": "c.\u00a0\u00a0\u00a0\u00a0 Unless otherwise\nrequired by law, a housing provider shall not:\n(1)\u00a0\u00a0 distribute or\ndisseminate an applicant\u2019s criminal record to any person who is not expected to\nuse the criminal record for the purpose of evaluating the applicant in a manner\nconsistent with this act; or\n(2)\u00a0\u00a0 use an applicant\u2019s\ncriminal record for a purpose that is not consistent with this act\n.\n",
+          "document_index": 0,
+          "document_title": "D065",
+          "start_char_index": 12360,
+          "end_char_index": 12734
+        }
+      ],
+      "type": "text",
+      "text": "Unless otherwise required by law, a housing provider shall not: (1) distribute or disseminate an applicant's criminal record to any person who is not expected to use the criminal record for the purpose of evaluating the applicant in a manner consistent with this act; or (2) use an applicant's criminal record for a purpose that is not consistent with this act."
+    },
+    {
+      "type": "text",
+      "text": "\n\n---\n\n## ADDITIONAL SCREENING RESTRICTIONS\n\n### 14. **Drug and Alcohol Testing Prohibition**\n\n**Obligation:** "
+    },
+    {
+      "citations": [
+        {
+          "type": "char_location",
+          "cited_text": "A housing provider shall not require an applicant\nto submit to a drug or alcohol test, or request the applicant\u2019s consent to\nobtain information from a drug abuse treatment facility.\n",
+          "document_index": 0,
+          "document_title": "D065",
+          "start_char_index": 13902,
+          "end_char_index": 14084
+        }
+      ],
+      "type": "text",
+      "text": "A housing provider shall not require an applicant to submit to a drug or alcohol test, or request the applicant's consent to obtain information from a drug abuse treatment facility."
+    },
+    {
+      "type": "text",
+      "text": "\n\n---\n\n## ENFORCEMENT & SANCTIONS\n\n### 15. **Complaint Filing Mechanism**\n\n**Process:** "
+    },
+    {
+      "citations": [
+        {
+          "type": "char_location",
+          "cited_text": "An action that alleges a violation of this act\nshall not be initiated by any person in court.\u00a0 The director, or an applicant\nor prospective applicant who believes that a housing provider has violated a\nprovision of this act with respect to that applicant or prospective applicant,\nmay file a complaint with the division.\u00a0 ",
+          "document_index": 0,
+          "document_title": "D065",
+          "start_char_index": 15546,
+          "end_char_index": 15868
+        }
+      ],
+      "type": "text",
+      "text": "An action that alleges a violation of this act shall not be initiated by any person in court. The director, or an applicant or prospective applicant who believes that a housing provider has violated a provision of this act with respect to that applicant or prospective applicant, may file a complaint with the division."
+    },
+    {
+      "type": "text",
+      "text": "\n\n### 16. **Mediation Requirement**\n\n**Obligation:** "
+    },
+    {
+      "citations": [
+        {
+          "type": "char_location",
+          "cited_text": "Upon the filing of a complaint by a\nperson other than the director, the division shall make a good faith effort to\nnotify the housing provider of the alleged violation and offer the housing\nprovider the opportunity to mediate and address the complaint within 14 days of\nreceiving the notice.\u00a0 The division shall not subject a housing provider to any\npenalty pursuant to subsection c. of this section if the complaint is addressed\npursuant to the process identified in this subsection.\n",
+          "document_index": 0,
+          "document_title": "D065",
+          "start_char_index": 15868,
+          "end_char_index": 16353
+        }
+      ],
+      "type": "text",
+      "text": "Upon the filing of a complaint by a person other than the director, the division shall make a good faith effort to notify the housing provider of the alleged violation and offer the housing provider the opportunity to mediate and address the complaint within 14 days of receiving the notice. The division shall not subject a housing provider to any penalty pursuant to subsection c. of this section if the complaint is addressed pursuant to the process identified in this subsection."
+    },
+    {
+      "type": "text",
+      "text": "\n\n### 17. **Monetary Penalties**\n\n**Sanctions structure:** "
+    },
+    {
+      "citations": [
+        {
+          "type": "char_location",
+          "cited_text": "c.\u00a0\u00a0\u00a0\u00a0 A housing provider who violates a provision of\nthis act shall be liable for the following applicable penalties:\n(1)\u00a0\u00a0 an amount not to exceed $1,000 if the housing\nprovider has not committed any prior violation within the five-year period\nending on the date of the filing of the charge;\n(2)\u00a0\u00a0 an amount not to exceed $5,000 if the housing\nprovider has committed one other violation within the five-year period ending\non the date of the filing of the charge; and\n(3)\u00a0\u00a0 an amount not to exceed $10,000 if the housing\nprovider has committed two or more other violations within the seven-year\nperiod ending on the date of the filing of the charge.\n",
+          "document_index": 0,
+          "document_title": "D065",
+          "start_char_index": 17143,
+          "end_char_index": 17794
+        }
+      ],
+      "type": "text",
+      "text": "A housing provider who violates a provision of this act shall be liable for the following applicable penalties: (1) an amount not to exceed $1,000 if the housing provider has not committed any prior violation within the five-year period ending on the date of the filing of the charge; (2) an amount not to exceed $5,000 if the housing provider has committed one other violation within the five-year period ending on the date of the filing of the charge; and (3) an amount not to exceed $10,000 if the housing provider has committed two or more other violations within the seven-year period ending on the date of the filing of the charge."
+    },
+    {
+      "type": "text",
+      "text": "\n\n### 18. **Remedial Actions**\n\n**Director authority:** "
+    },
+    {
+      "citations": [
+        {
+          "type": "char_location",
+          "cited_text": "d.\u00a0\u00a0\u00a0 The director is authorized to require a housing\nprovider to take one or more of the following actions upon a finding that the\nhousing provider has violated a provision of this act:\n(1)\u00a0\u00a0 The director may require a housing provider to\ncease and desist from continuing to violate this act; to communicate in writing\nto the housing provider\u2019s employees and agents their obligations under this\nact; and to report to the director on the manner of compliance for a period not\nto exceed two years provided that the housing provider does not commit future\nviolations of the act;\n(2)\u00a0\u00a0 If a housing provider has committed at least one\nother violation of this act within the preceding five-year period, the director\nmay require the housing provider to make a good faith effort to remedy the\nviolation with respect to the applicant when a remedy is possible, by issuing a\nconditional offer, if the violation has resulted in a failure to issue a\nconditional offer, or by providing the same or a similar rental dwelling unit\nto the applicant on the same terms as the prior conditional offer if the same\nor a similar rental dwelling unit is currently or will become available, if the\nviolation has resulted in the withdrawal of a conditional offer.\n",
+          "document_index": 0,
+          "document_title": "D065",
+          "start_char_index": 17794,
+          "end_char_index": 19035
+        }
+      ],
+      "type": "text",
+      "text": "The director is authorized to require a housing provider to take one or more of the following actions upon a finding that the housing provider has violated a provision of this act: (1) The director may require a housing provider to cease and desist from continuing to violate this act; to communicate in writing to the housing provider's employees and agents their obligations under this act; and to report to the director on the manner of compliance for a period not to exceed two years provided that the housing provider does not commit future violations of the act; (2) If a housing provider has committed at least one other violation of this act within the preceding five-year period, the director may require the housing provider to make a good faith effort to remedy the violation with respect to the applicant when a remedy is possible, by issuing a conditional offer, if the violation has resulted in a failure to issue a conditional offer, or by providing the same or a similar rental dwelling unit to the applicant on the same terms as the prior conditional offer if the same or a similar rental dwelling unit is currently or will become available, if the violation has resulted in the withdrawal of a conditional offer."
+    },
+    {
+      "type": "text",
+      "text": "\n\n### 19. **Retaliation Prohibition**\n\n**Obligation:** "
+    },
+    {
+      "citations": [
+        {
+          "type": "char_location",
+          "cited_text": "A person shall not interfere with, restrain, or\ndeny the exercise of, or the attempt to exercise, any right protected under\nthis act.\u00a0 If the division determines that a housing provider has engaged in\none or more unlawful actions against a person with the intent of retaliating\nfor the person\u2019s filing of an action against the housing provider pursuant to\nsection 12 of this act, then each unlawful retaliatory action shall be\nenforced, pursuant to section 12 of this act, as a separate and distinct\nviolation of this act.\n",
+          "document_index": 0,
+          "document_title": "D065",
+          "start_char_index": 14135,
+          "end_char_index": 14658
+        }
+      ],
+      "type": "text",
+      "text": "A person shall not interfere with, restrain, or deny the exercise of, or the attempt to exercise, any right protected under this act. If the division determines that a housing provider has engaged in one or more unlawful actions against a person with the intent of retaliating for the person's filing of an action against the housing provider pursuant to section 12 of this act, then each unlawful retaliatory action shall be enforced, pursuant to section 12 of this act, as a separate and distinct violation of this act."
+    },
+    {
+      "type": "text",
+      "text": "\n\n### 20. **Appeal Rights**\n\n**For housing providers:** "
+    },
+    {
+      "citations": [
+        {
+          "type": "char_location",
+          "cited_text": "(1)\u00a0\u00a0 A housing provider may appeal a final decision by\nthe director issued pursuant to this section to the Appellate Division of the\nSuperior Court.\n",
+          "document_index": 0,
+          "document_title": "D065",
+          "start_char_index": 16724,
+          "end_char_index": 16874
+        }
+      ],
+      "type": "text",
+      "text": "A housing provider may appeal a final decision by the director issued pursuant to this section to the Appellate Division of the Superior Court."
+    },
+    {
+      "type": "text",
+      "text": "\n\n**For applicants:** "
+    },
+    {
+      "citations": [
+        {
+          "type": "char_location",
+          "cited_text": "(2)\u00a0\u00a0 A complainant may appeal, to the Appellate\nDivision of the Superior Court, a finding by the director following an\ninvestigation that the complaint is not substantiated, but the complainant may\nnot appeal a decision by the director not to investigate a complaint.\n",
+          "document_index": 0,
+          "document_title": "D065",
+          "start_char_index": 16874,
+          "end_char_index": 17143
+        }
+      ],
+      "type": "text",
+      "text": "A complainant may appeal, to the Appellate Division of the Superior Court, a finding by the director following an investigation that the complaint is not substantiated, but the complainant may not appeal a decision by the director not to investigate a complaint."
+    },
+    {
+      "type": "text",
+      "text": "\n\n---\n\n## EXEMPTIONS & PROTECTIONS\n\n### 21. **Landlord Immunity**\n\n**Scope:** "
+    },
+    {
+      "citations": [
+        {
+          "type": "char_location",
+          "cited_text": "To encourage residential landlords to provide\nhousing opportunities to formerly incarcerated individuals, landlords subject\nto the provisions of\nthis act\nshall be immune\nfrom liability in any civil action arising as a result of the landlord\u2019s\ndecision to rent to individuals with a criminal record or who were otherwise\nconvicted of a criminal offense, or as a result of a landlord\u2019s decision to not\nengage in a criminal background screening.\n",
+          "document_index": 0,
+          "document_title": "D065",
+          "start_char_index": 12765,
+          "end_char_index": 13208
+        }
+      ],
+      "type": "text",
+      "text": "To encourage residential landlords to provide housing opportunities to formerly incarcerated individuals, landlords subject to the provisions of this act shall be immune from liability in any civil action arising as a result of the landlord's decision to rent to individuals with a criminal record or who were otherwise convicted of a criminal offense, or as a result of a landlord's decision to not engage in a criminal background screening."
+    },
+    {
+      "type": "text",
+      "text": "\n\n**Limitation:** "
+    },
+    {
+      "citations": [
+        {
+          "type": "char_location",
+          "cited_text": "Nothing in subsection a. of this section shall be\nconstrued to affect in any way the immunity from liability conferred by law\nupon a landlord who rents an apartment to a person with a conviction for\nmurder, aggravated sexual assault, kidnapping, arson, human trafficking, sexual\nassault in violation of N.J.S.2C:14-2, causing or permitting a child to engage\nin a prohibited sexual act or in the simulation of such an act in violation of\nparagraph (3) of subsection b. of N.J.S.2C:24-4, or any crime that resulted in\nlifetime registration in a state sex offender registry.\n",
+          "document_index": 0,
+          "document_title": "D065",
+          "start_char_index": 13214,
+          "end_char_index": 13786
+        }
+      ],
+      "type": "text",
+      "text": "Nothing in subsection a. of this section shall be construed to affect in any way the immunity from liability conferred by law upon a landlord who rents an apartment to a person with a conviction for murder, aggravated sexual assault, kidnapping, arson, human trafficking, sexual assault in violation of N.J.S.2C:14-2, causing or permitting a child to engage in a prohibited sexual act or in the simulation of such an act in violation of paragraph (3) of subsection b. of N.J.S.2C:24-4, or any crime that resulted in lifetime registration in a state sex offender registry."
+    },
+    {
+      "type": "text",
+      "text": "\n\n---\n\n## COVERAGE\n\n"
+    },
+    {
+      "citations": [
+        {
+          "type": "char_location",
+          "cited_text": "\u201cRental dwelling unit\u201d means a dwelling unit offered\nfor rent by a housing provider for residential purposes,\nother than a dwelling unit in an\nowner-occupied premises of not more than four dwelling units.\n",
+          "document_index": 0,
+          "document_title": "D065",
+          "start_char_index": 3428,
+          "end_char_index": 3633
+        }
+      ],
+      "type": "text",
+      "text": "A \"rental dwelling unit\" means a dwelling unit offered for rent by a housing provider for residential purposes, other than a dwelling unit in an owner-occupied premises of not more than four dwelling units."
+    },
+    {
+      "type": "text",
+      "text": "\n\n---\n\n## STATUS\n\n**Status:** ENACTED (not proposed or failed)\n\n**Source Document:** "
+    },
+    {
+      "citations": [
+        {
+          "type": "char_location",
+          "cited_text": "SOURCE: https://pub.njleg.gov/bills/2020/PL21/110_.HTM\nRETRIEVED: 2026-10-01 22:37 UTC\n\nP.L. 2021, c.110 (S250 3R CC CC)\nCHAPTER 110\n(CORRECTED COPY OF\nCORRECTED COPY)\nAn Act\nconcerning the housing rights of certain persons with\ncriminal records and supplementing\nchapter 8 of Title 46 of the Revised Statutes\n.\n",
+          "document_index": 0,
+          "document_title": "D065",
+          "start_char_index": 0,
+          "end_char_index": 312
+        }
+      ],
+      "type": "text",
+      "text": "P.L. 2021, c.110 (S250 3R CC CC) concerning the housing rights of certain persons with criminal records and supplementing chapter 8 of Title 46 of the Revised Statutes"
+    },
+    {
+      "type": "text",
+      "text": "\n\n---\n\n## TOPICS NOT COVERED IN THIS LEGISLATION\n\nThe document contains **no provisions** regarding:\n- Rent caps\n- Just cause eviction standards\n- Security deposit regulations\n- Application/screening fees (disclosure required, but no caps)\n- Algorithmic pricing"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 6889,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 3599,
+    "service_tier": "batch",
+    "inference_geo": "not_available"
+  },
+  "diagnostics": null
+}

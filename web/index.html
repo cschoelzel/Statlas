@@ -1,0 +1,319 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Rental Housing Law Navigator — Suche</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; }
+    body {
+      background: #ffffff;
+      color: #000000;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 24px;
+    }
+    .search-container {
+      width: 100%;
+      max-width: 640px;
+    }
+    h1 {
+      font-size: 28px;
+      font-weight: 600;
+      letter-spacing: -0.5px;
+      margin-bottom: 8px;
+      text-align: center;
+    }
+    .subtitle {
+      font-size: 14px;
+      color: #666666;
+      margin-bottom: 32px;
+      text-align: center;
+    }
+    form {
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+    }
+    .input-group {
+      display: flex;
+      gap: 8px;
+    }
+    input[type="text"] {
+      flex: 1;
+      padding: 14px 16px;
+      font-size: 16px;
+      border: 1px solid #000000;
+      border-radius: 0;
+      background: #ffffff;
+      color: #000000;
+      outline: none;
+    }
+    input[type="text"]:focus {
+      outline: 2px solid #000000;
+    }
+    input[type="date"] {
+      padding: 14px 16px;
+      font-size: 15px;
+      border: 1px solid #000000;
+      border-radius: 0;
+      background: #ffffff;
+      color: #000000;
+      outline: none;
+    }
+    input[type="date"]:focus {
+      outline: 2px solid #000000;
+    }
+    button {
+      padding: 14px 24px;
+      font-size: 16px;
+      font-weight: 600;
+      background: #000000;
+      color: #ffffff;
+      border: 1px solid #000000;
+      border-radius: 0;
+      cursor: pointer;
+      width: 100%;
+    }
+    button:hover {
+      background: #333333;
+    }
+    .samples {
+      margin-top: 24px;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+      justify-content: center;
+    }
+    .sample-tag {
+      font-size: 12px;
+      padding: 6px 10px;
+      border: 1px solid #cccccc;
+      background: #ffffff;
+      color: #333333;
+      cursor: pointer;
+      text-decoration: none;
+    }
+    .sample-tag:hover {
+      border-color: #000000;
+      color: #000000;
+    }
+    footer {
+      margin-top: 48px;
+      font-size: 12px;
+      color: #888888;
+      text-align: center;
+    }
+  </style>
+</head>
+<body style="position: relative;">
+  <div id="lang-toggle" style="position: absolute; top: 16px; right: 20px; font-size: 13px; font-weight: 600;">
+    <button type="button" data-lang-btn="en" style="width:auto;padding:4px 8px;" aria-label="English">EN</button><span style="color:#888;"> | </span><button type="button" data-lang-btn="de" style="width:auto;padding:4px 8px;" aria-label="Deutsch">DE</button><span style="color:#888;"> | </span><button type="button" data-lang-btn="es" style="width:auto;padding:4px 8px;" aria-label="Espanol">ES</button>
+  </div>
+  <div class="search-container">
+    <h1>Rental Housing Law Navigator</h1>
+    <p class="subtitle" data-i18n="subtitle">Deterministic lookup of applicable rental housing rules.</p>
+
+    <form action="/results" method="GET">
+      <input 
+        type="text" 
+        name="q" 
+        id="q" 
+        list="addresses" 
+        data-i18n-ph="searchPh" placeholder="Enter address or ID (e.g. A0001, Hoboken, Boston)..."  (z. B. A0001, Hoboken, Boston)..." 
+        required 
+        autofocus
+        autocomplete="off"
+      >
+      <datalist id="addresses"></datalist>
+
+      <div class="input-group">
+        <input type="date" name="as_of" id="as_of" value="2026-10-01" required>
+        <button type="submit" data-i18n="submitBtn">Run evaluation</button>
+      </div>
+    </form>
+
+    <div class="samples">
+      <span style="font-size: 12px; color: #888888; align-self: center; margin-right: 4px;" data-i18n="samples">Examples:</span>
+      <a class="sample-tag" onclick="selectSample('A0001')">A0001 (Los Angeles, CA)</a>
+      <a class="sample-tag" onclick="selectSample('A0081')">A0081 (San Francisco, CA)</a>
+      <a class="sample-tag" onclick="selectSample('A0211')">A0211 (Hoboken, NJ)</a>
+      <a class="sample-tag" onclick="selectSample('A0251')">A0251 (Jersey City, NJ)</a>
+      <a class="sample-tag" onclick="selectSample('A0301')">A0301 (Newark, NJ)</a>
+      <a class="sample-tag" onclick="selectSample('A0351')">A0351 (Boston, MA)</a>
+      <a class="sample-tag" onclick="selectSample('A0451')">A0451 (Cambridge, MA)</a>
+    </div>
+
+    <div style="max-width: 640px; margin-top: 24px; border: 1px solid #000000; padding: 12px 16px; font-size: 13px; line-height: 1.5;">
+      <strong data-i18n="howTitle">How the evaluation works:</strong><span data-i18n="howBody" style="display:block;margin-top:4px;">Pick an address or type freely (ID e.g. A0001). Census geocoding determines state and legal city (ZIP city alone does not count). The engine filters rules by jurisdiction and checks as-of date, status, coverage and exemptions. The results table shows the original source per rule (document ID and quote). All data is live from the engine (/api/lookup), no demo data.</span> <span data-i18n="legalNote" style="display:block;margin-top:8px;color:#666;">Legal texts shown in original (EN) only.</span>
+    </div>
+    <footer>
+      <span data-i18n="footer">Not legal advice. Source gaps and unresolved interpretations require qualified review.</span>
+    </footer>
+  </div>
+
+  <script>
+    function fillDatalist(items) {
+      const dl = document.getElementById('addresses');
+      dl.innerHTML = '';
+      items.forEach(a => {
+        const id = a.address_id || a.id;
+        const label = a.street_address
+          ? (a.street_address + ', ' + (a.postal_city || a.city || '') + ', ' + (a.state || '') + ' ' + (a.zip || ''))
+          : (a.label || '');
+        const opt = document.createElement('option');
+        opt.value = id + ' - ' + label;
+        dl.appendChild(opt);
+      });
+    }
+    fetch('/api/addresses')
+      .then(r => { if (!r.ok) throw new Error('api'); return r.json(); })
+      .then(data => fillDatalist(data.addresses || []))
+      .catch(() => fetch('addresses.json').then(r => r.json()).then(fillDatalist).catch(() => {}));
+
+    function selectSample(id) {
+      document.getElementById('q').value = id;
+      document.querySelector('form').submit();
+    }
+  </script>
+<script>
+var I18N = {
+"en": {
+"subtitle": "Deterministic lookup of applicable rental housing rules.",
+"searchPh": "Enter address or ID (e.g. A0001, Hoboken, Boston)...",
+"submitBtn": "Run evaluation",
+"samples": "Examples:",
+"howTitle": "How the evaluation works:",
+"howBody": "Pick an address or type freely (ID e.g. A0001). Census geocoding determines state and legal city (ZIP city alone does not count). The engine filters rules by jurisdiction and checks as-of date, status, coverage and exemptions. The results table shows the original source per rule (document ID and quote). All data is live from the engine (/api/lookup), no demo data.",
+"legalNote": "Legal texts shown in original (EN) only.",
+"footer": "Not legal advice. Source gaps and unresolved interpretations require qualified review.",
+"back": "Back to search",
+"asOf": "As of: ",
+"fAll": "All",
+"fApplies": "Applies",
+"fUnknown": "Unclear / review needed",
+"fSup": "Superseded / not applicable",
+"fPending": "Pending / future",
+"filterPh": "Filter table (text, category, citation)...",
+"thStatus": "Status",
+"thLevel": "Level / place",
+"thCat": "Category",
+"thRule": "Rule and requirement",
+"thKey": "Key value",
+"thSource": "Source and citation",
+"openQ": "Open check questions for fact clarification",
+"conflictSuffix": " decision(s) with conflict flag: possible rule collision, human review needed.",
+"emptyMsg": "No rules found for this filter selection.",
+"legalNoteRes": "Legal texts shown in original (EN) only.",
+"statValid": "Valid rules: ",
+"statOpen": "Review open: ",
+"statPending": "Pending / future: ",
+"statSup": "Superseded / inactive: ",
+"statTotal": "Total captured rules: "
+},
+"de": {
+"subtitle": "Deterministische Auswertung anwendbarer Mietrechtsvorschriften.",
+"searchPh": "Adresse oder ID eingeben (z. B. A0001, Hoboken, Boston)...",
+"submitBtn": "Auswertung starten",
+"samples": "Beispiele:",
+"howTitle": "So funktioniert die Auswertung:",
+"howBody": "Adresse w\u00e4hlen oder frei eingeben (ID z. B. A0001). Census-Geocoding bestimmt Bundesstaat und rechtliche Stadt (Postleitzahl-Stadt allein z\u00e4hlt nicht). Die Engine filtert Vorschriften nach Jurisdiktion und pr\u00fcft Stichtag, Status, Deckung und Ausnahmen. Die Ergebnistabelle zeigt pro Regel den Originalbeleg (Dokument-ID und Zitat). Alle Daten kommen live aus der Engine (/api/lookup), keine Demonstrationsdaten.",
+"legalNote": "Rechtstexte nur im Original (EN).",
+"footer": "Keine Rechtsberatung. Quellenl\u00fccken und ungekl\u00e4rte Auslegungen erfordern fachkundige Pr\u00fcfung.",
+"back": "Zur\u00fcck zur Suche",
+"asOf": "Stichtag: ",
+"fAll": "Alle",
+"fApplies": "Gilt",
+"fUnknown": "Unklar / Pr\u00fcfung n\u00f6tig",
+"fSup": "Verdr\u00e4ngt / Nicht anwendbar",
+"fPending": "Anh\u00e4ngig / Zuk\u00fcnftig",
+"filterPh": "Tabelle filtern (Text, Kategorie, Zitation)...",
+"thStatus": "Status",
+"thLevel": "Ebene / Ort",
+"thCat": "Kategorie",
+"thRule": "Vorschrift & Anforderung",
+"thKey": "Schl\u00fcsselwert",
+"thSource": "Quelle & Zitation",
+"openQ": "Offene Pr\u00fcffragen f\u00fcr Faktenkl\u00e4rung",
+"conflictSuffix": " Entscheidung(en) mit Konflikt-Flag: m\u00f6gliche Normenkollision, menschliche Pr\u00fcfung n\u00f6tig.",
+"emptyMsg": "Keine Vorschriften f\u00fcr diese Filterauswahl gefunden.",
+"legalNoteRes": "Rechtstexte nur im Original (EN).",
+"statValid": "G\u00fcltige Vorschriften: ",
+"statOpen": "Pr\u00fcfung offen: ",
+"statPending": "Anh\u00e4ngig / Zuk\u00fcnftig: ",
+"statSup": "Verdr\u00e4ngt / Nicht aktiv: ",
+"statTotal": "Gesamte erfasste Regeln: "
+},
+"es": {
+"subtitle": "B\u00fasqueda determinista de las normas de alquiler aplicables.",
+"searchPh": "Ingrese direcci\u00f3n o ID (p. ej., A0001, Hoboken, Boston)...",
+"submitBtn": "Iniciar evaluaci\u00f3n",
+"samples": "Ejemplos:",
+"howTitle": "C\u00f3mo funciona la evaluaci\u00f3n:",
+"howBody": "Elija una direcci\u00f3n o escr\u00edbala libremente (ID p. ej. A0001). La geocodificaci\u00f3n del censo determina el estado y la ciudad legal (la ciudad del c\u00f3digo postal por s\u00ed sola no cuenta). El motor filtra las normas por jurisdicci\u00f3n y verifica fecha de referencia, estado, cobertura y exenciones. La tabla de resultados muestra la fuente original por norma (ID de documento y cita). Todos los datos provienen en vivo del motor (/api/lookup), sin datos de demostraci\u00f3n.",
+"legalNote": "Textos jur\u00eddicos solo en el original (EN).",
+"footer": "No es asesoramiento legal. Las lagunas de fuentes y las interpretaciones no resueltas requieren revisi\u00f3n calificada.",
+"back": "Volver a la b\u00fasqueda",
+"asOf": "Fecha de referencia: ",
+"fAll": "Todos",
+"fApplies": "Aplicable",
+"fUnknown": "Incierto / revisi\u00f3n necesaria",
+"fSup": "Desplazado / no aplicable",
+"fPending": "Pendiente / futuro",
+"filterPh": "Filtrar tabla (texto, categor\u00eda, cita)...",
+"thStatus": "Estado",
+"thLevel": "Nivel / lugar",
+"thCat": "Categor\u00eda",
+"thRule": "Norma y requisito",
+"thKey": "Valor clave",
+"thSource": "Fuente y cita",
+"openQ": "Preguntas abiertas para aclarar hechos",
+"conflictSuffix": " decisi\u00f3n(es) con bandera de conflicto: posible colisi\u00f3n de normas, se necesita revisi\u00f3n humana.",
+"emptyMsg": "No se encontraron normas para esta selecci\u00f3n de filtros.",
+"legalNoteRes": "Textos jur\u00eddicos solo en el original (EN).",
+"statValid": "Normas v\u00e1lidas: ",
+"statOpen": "Revisi\u00f3n abierta: ",
+"statPending": "Pendiente / futuro: ",
+"statSup": "Desplazado / inactivo: ",
+"statTotal": "Normas registradas en total: "
+}
+};
+var RHN_LANG = "en";
+function t(k) { var d = I18N[RHN_LANG] || I18N["en"]; var v = d ? d[k] : undefined; if (v === undefined) { v = I18N["en"][k]; } return (v === undefined) ? "" : v; }
+function applyI18n() {
+  var els = document.querySelectorAll("[data-i18n]");
+  for (var i = 0; i < els.length; i++) { var k = els[i].getAttribute("data-i18n"); var v = t(k); if (v) { els[i].textContent = v; } }
+  var ph = document.querySelectorAll("[data-i18n-ph]");
+  for (var j = 0; j < ph.length; j++) { var k2 = ph[j].getAttribute("data-i18n-ph"); var v2 = t(k2); if (v2) { ph[j].setAttribute("placeholder", v2); } }
+}
+function markLangButtons() {
+  var bs = document.querySelectorAll("#lang-toggle button");
+  for (var i = 0; i < bs.length; i++) { var on = bs[i].getAttribute("data-lang-btn") === RHN_LANG; bs[i].style.background = on ? "#000" : "#fff"; bs[i].style.color = on ? "#fff" : "#000"; }
+}
+function setLang(l) {
+  if (!I18N[l]) { l = "en"; }
+  RHN_LANG = l;
+  try { localStorage.setItem("rhn-lang", l); } catch (e) {}
+  document.documentElement.lang = l;
+  applyI18n();
+  markLangButtons();
+  if (typeof afterLangChange === "function") { try { afterLangChange(); } catch (e2) {} }
+}
+(function () {
+  var l = "en";
+  try { l = localStorage.getItem("rhn-lang") || "en"; } catch (e3) {}
+  if (!I18N[l]) { l = "en"; }
+  RHN_LANG = l;
+  document.documentElement.lang = l;
+  var bs = document.querySelectorAll("#lang-toggle button");
+  for (var i = 0; i < bs.length; i++) { (function (b) { b.addEventListener("click", function () { setLang(b.getAttribute("data-lang-btn")); }); })(bs[i]); }
+  applyI18n();
+  markLangButtons();
+})();
+</script>
+
+</body>
+</html>

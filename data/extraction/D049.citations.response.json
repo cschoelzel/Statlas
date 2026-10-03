@@ -1,0 +1,47 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011Cfftowyh5DDfHrMca58hq",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "I cannot find information in the provided document about rent caps, just cause eviction requirements, deposit regulations, application/screening fees, screening restrictions, or algorithmic pricing obligations and exemptions for rental housing.\n\nThe document contains Massachusetts General Law Chapter 151B, Section 4, which addresses unlawful discrimination practices in employment, housing accommodations, credit, and related areas. While it does include some housing-related provisions\u2014such as "
+    },
+    {
+      "citations": [
+        {
+          "type": "char_location",
+          "cited_text": "For the owner, lessee, sublessee, licensed real estate broker, assignee or managing agent of publicly assisted or multiple dwelling or contiguously located housing accommodations or other person having the right of ownership or possession or right to rent or lease, or sell or negotiate for the sale of such accommodations, or any agent or employee of such a person, or any organization of unit owners in a condominium or housing cooperative: (a) to refuse to rent or lease or sell or negotiate for sale or otherwise to deny to or withhold from any person or group of persons such accommodations because of the race, religious creed, color, national origin, sex, gender identity, sexual orientation, which shall not include persons whose sexual orientation involves minor children as the sex object, age, genetic information, ancestry, or marital status of such person or persons or because such person is a veteran or member of the armed forces, or because such person is blind, or hearing impaired or has any other handicap; (b) to discriminate against any person because of his race, religious creed, color, national origin, sex, gender identity, sexual orientation, which shall not include persons whose sexual orientation involves minor children as the sex object, age, ancestry, or marital status or because such person is a veteran or member of the armed forces, or because such person is blind, or hearing impaired or has any other handicap in the terms, conditions or privileges of such accommodations or the acquisitions thereof, or in the furnishings of facilities and services in connection therewith, or because such a person possesses a trained dog guide as a consequence of blindness, or hearing impairment; (c) to cause to be made any written or oral inquiry or record concerning the race, religious creed, color, national origin, sex, gender identity, sexual orientation, which shall not include persons whose sexual orientation involves minor children as the sex object, age, genetic information, ancestry or marital status of the person seeking to rent or lease or buy any such accommodation, or concerning the fact that such person is a veteran or a member of the armed forces or because such person is blind or hearing impaired or has any other handicap. ",
+          "document_index": 0,
+          "document_title": "D049",
+          "start_char_index": 18435,
+          "end_char_index": 20711
+        }
+      ],
+      "type": "text",
+      "text": "protections against discrimination in the rental or lease of publicly assisted or multiple dwelling housing accommodations based on race, religious creed, color, national origin, sex, gender identity, sexual orientation, age, genetic information, ancestry, or marital status"
+    },
+    {
+      "type": "text",
+      "text": "\u2014it does not contain specific regulations regarding rent caps, just cause eviction, deposit handling, application fees, screening criteria, or algorithmic pricing in rental housing.\n\nTo obtain comprehensive information about Massachusetts rental housing obligations and exemptions in these specific areas as of October 1, 2026, you would need to consult additional legal documents and statutes beyond what is provided here."
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 14220,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 237,
+    "service_tier": "batch",
+    "inference_geo": "not_available"
+  },
+  "diagnostics": null
+}

@@ -1,0 +1,119 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011CfftoozEPc7JPijEieCuz",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "# San Francisco Rental Housing Obligations and Exemptions\n## As of October 1, 2026\n\nBased on the provided document, I can only identify information regarding **algorithmic pricing**. The document does not contain information about rent caps, just cause eviction, deposits, application/screening fees, or screening restrictions.\n\n### Algorithmic Pricing\n\n**Status:** Enacted\n\n**Effective Date:** "
+    },
+    {
+      "citations": [
+        {
+          "type": "char_location",
+          "cited_text": "October 16, 2024\nLegislation\nadding Section 37.10C to the Rent Ordinance went into effect on October 14, 2024. ",
+          "document_index": 0,
+          "document_title": "D081",
+          "start_char_index": 461,
+          "end_char_index": 572
+        }
+      ],
+      "type": "text",
+      "text": "October 14, 2024"
+    },
+    {
+      "type": "text",
+      "text": "\n\n**Obligation:** "
+    },
+    {
+      "citations": [
+        {
+          "type": "char_location",
+          "cited_text": "The law prohibits the sale or use of algorithmic devices to set rents or manage occupancy levels for residential units in San Francisco.\n",
+          "document_index": 0,
+          "document_title": "D081",
+          "start_char_index": 572,
+          "end_char_index": 709
+        }
+      ],
+      "type": "text",
+      "text": "The law prohibits the sale or use of algorithmic devices to set rents or manage occupancy levels for residential units in San Francisco."
+    },
+    {
+      "type": "text",
+      "text": "\n\n**Definition:** "
+    },
+    {
+      "citations": [
+        {
+          "type": "char_location",
+          "cited_text": "The term \u201calgorithmic device\u201d means a device such as a software program that uses algorithms to analyze nonpublic competitor rental data for the purposes of providing a landlord recommendations on what rent to charge for a vacant unit. ",
+          "document_index": 0,
+          "document_title": "D081",
+          "start_char_index": 709,
+          "end_char_index": 945
+        }
+      ],
+      "type": "text",
+      "text": "The term \"algorithmic device\" means a device such as a software program that uses algorithms to analyze nonpublic competitor rental data for the purposes of providing a landlord recommendations on what rent to charge for a vacant unit."
+    },
+    {
+      "type": "text",
+      "text": "\n\n**Enforcement/Sanctions:** "
+    },
+    {
+      "citations": [
+        {
+          "type": "char_location",
+          "cited_text": "The law prohibits the sale or use of such algorithmic devices and allows a tenant or the City Attorney to bring a civil action if they believe an entity is in violation of the law.",
+          "document_index": 0,
+          "document_title": "D081",
+          "start_char_index": 945,
+          "end_char_index": 1125
+        }
+      ],
+      "type": "text",
+      "text": "A tenant or the City Attorney can bring a civil action if they believe an entity is in violation of the law."
+    },
+    {
+      "type": "text",
+      "text": "\n\n**Legislative Authority:** "
+    },
+    {
+      "citations": [
+        {
+          "type": "char_location",
+          "cited_text": "October 16, 2024\nLegislation\nadding Section 37.10C to the Rent Ordinance went into effect on October 14, 2024. ",
+          "document_index": 0,
+          "document_title": "D081",
+          "start_char_index": 461,
+          "end_char_index": 572
+        }
+      ],
+      "type": "text",
+      "text": "Legislation adding Section 37.10C to the Rent Ordinance went into effect on October 14, 2024."
+    },
+    {
+      "type": "text",
+      "text": "\n\n---\n\n**Note:** The provided document does not contain information about other rental housing obligations such as rent caps, just cause eviction protections, deposit requirements, application/screening fees, or screening restrictions. A comprehensive answer on those topics would require additional source documents."
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 967,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 379,
+    "service_tier": "batch",
+    "inference_geo": "not_available"
+  },
+  "diagnostics": null
+}

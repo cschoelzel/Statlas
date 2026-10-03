@@ -1,0 +1,155 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011Cfftop4CF151VkvX5NmYG",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "# New Jersey Rental Housing Obligations and Exemptions (As of 2026-10-01)\n\nBased on the document provided, I can identify the following:\n\n## Application/Screening Fees\n\n**Operative Obligation:**\n\n"
+    },
+    {
+      "citations": [
+        {
+          "type": "char_location",
+          "cited_text": "A landlord, or\nagent thereof, shall not require an application or other similar fee to apply\nto lease or sublease a residential rental property for dwelling purposes, which\nexceeds $50.\n",
+          "document_index": 0,
+          "document_title": "D066",
+          "start_char_index": 427,
+          "end_char_index": 613
+        }
+      ],
+      "type": "text",
+      "text": "A landlord, or agent thereof, shall not require an application or other similar fee to apply to lease or sublease a residential rental property for dwelling purposes, which exceeds $50."
+    },
+    {
+      "type": "text",
+      "text": "\n\n**Status:** "
+    },
+    {
+      "citations": [
+        {
+          "type": "char_location",
+          "cited_text": "Approved January 20, 2026.",
+          "document_index": 0,
+          "document_title": "D066",
+          "start_char_index": 4126,
+          "end_char_index": 4152
+        }
+      ],
+      "type": "text",
+      "text": "Enacted as of January 20, 2026."
+    },
+    {
+      "type": "text",
+      "text": "\n\n**Effective Date:** "
+    },
+    {
+      "citations": [
+        {
+          "type": "char_location",
+          "cited_text": "This act shall take effect on the first day of the\nfourth month next following the date of enactment, except that the Director of\nthe Division of Consumer Affairs in the Department of Law and Public Safety\nshall be permitted to take anticipatory action necessary to effectuate the\nprovisions of this act.\n",
+          "document_index": 0,
+          "document_title": "D066",
+          "start_char_index": 3821,
+          "end_char_index": 4126
+        }
+      ],
+      "type": "text",
+      "text": "This act shall take effect on the first day of the fourth month next following the date of enactment"
+    },
+    {
+      "type": "text",
+      "text": ", which would be approximately May 20, 2026.\n\n**Sanctions:** "
+    },
+    {
+      "citations": [
+        {
+          "type": "char_location",
+          "cited_text": "A landlord, or agent thereof, who violates\nsubsection a. of this section shall be liable for a penalty of up to $500 for a\nfirst offense, up to $750 for a second offense, and up to $1,000 for each\nsubsequent offense, which shall be collected and enforced by summary\nproceedings pursuant to the \"Penalty Enforcement Law of 1999,\"\nP.L.1999, c.274 (C.2A:58-10 et seq.).\u00a0 ",
+          "document_index": 0,
+          "document_title": "D066",
+          "start_char_index": 617,
+          "end_char_index": 985
+        }
+      ],
+      "type": "text",
+      "text": "A landlord, or agent thereof, who violates this section shall be liable for a penalty of up to $500 for a first offense, up to $750 for a second offense, and up to $1,000 for each subsequent offense, which shall be collected and enforced by summary proceedings pursuant to the \"Penalty Enforcement Law of 1999.\""
+    },
+    {
+      "type": "text",
+      "text": " "
+    },
+    {
+      "citations": [
+        {
+          "type": "char_location",
+          "cited_text": "Following the proceedings, the amount\nwrongfully charged shall be taken from the collected penalty and shall be\nremitted to the applicant or prospective tenant.\n",
+          "document_index": 0,
+          "document_title": "D066",
+          "start_char_index": 1362,
+          "end_char_index": 1523
+        }
+      ],
+      "type": "text",
+      "text": "The amount wrongfully charged shall be taken from the collected penalty and shall be remitted to the applicant or prospective tenant."
+    },
+    {
+      "type": "text",
+      "text": "\n\n**Exemptions:** "
+    },
+    {
+      "citations": [
+        {
+          "type": "char_location",
+          "cited_text": "c.\u00a0 The requirements of subsection a. of this section\nshall not apply to:\n(1) a dwelling unit\nlocated in a one-family or two-family dwelling that is offered for rent; or\n(2)\u00a0 a licensee of the New Jersey Real Estate\nCommission, unless the licensee is the landlord of the residential rental\nproperty.\n",
+          "document_index": 0,
+          "document_title": "D066",
+          "start_char_index": 1523,
+          "end_char_index": 1823
+        }
+      ],
+      "type": "text",
+      "text": "The requirements shall not apply to: (1) a dwelling unit located in a one-family or two-family dwelling that is offered for rent; or (2) a licensee of the New Jersey Real Estate Commission, unless the licensee is the landlord of the residential rental property."
+    },
+    {
+      "type": "text",
+      "text": "\n\n**Annual Adjustment:** "
+    },
+    {
+      "citations": [
+        {
+          "type": "char_location",
+          "cited_text": "and each year thereafter, the amount of the fee limitation established\npursuant to subsection a. of this section shall be adjusted by the Director of\nthe Division of Consumer Affairs in the Department of Law and Public Safety in\ndirect proportion to the percent change in the Consumer Price Index over a\n12-month period ending October 31 of the previous year.\u00a0 ",
+          "document_index": 0,
+          "document_title": "D066",
+          "start_char_index": 1930,
+          "end_char_index": 2291
+        }
+      ],
+      "type": "text",
+      "text": "Beginning on January 1 of the year next following enactment and each year thereafter, the amount of the fee limitation shall be adjusted by the Director of the Division of Consumer Affairs in the Department of Law and Public Safety in direct proportion to the percent change in the Consumer Price Index over a 12-month period ending October 31 of the previous year."
+    },
+    {
+      "type": "text",
+      "text": "\n\n---\n\n## Other Rental Housing Protections\n\nThe document does not contain information regarding rent caps, just cause eviction, deposits, screening restrictions, or algorithmic pricing in New Jersey."
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 2083,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 555,
+    "service_tier": "batch",
+    "inference_geo": "not_available"
+  },
+  "diagnostics": null
+}

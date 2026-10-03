@@ -1,0 +1,423 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011Cfftop9u29RKjPWfHzu7r",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "# California Rental Housing Obligations and Exemptions (as of 2026-10-01)\n\nBased on the provided document (California Civil Code Section 1946.2), I can only identify obligations and exemptions related to **just cause eviction**. The document does not contain information about rent caps, deposits, application/screening fees, screening restrictions, or algorithmic pricing.\n\n## JUST CAUSE EVICTION (CIV 1946.2)\n\n### Operative Status and Dates\n\n"
+    },
+    {
+      "citations": [
+        {
+          "type": "char_location",
+          "cited_text": "(m)\u00a0This section shall become operative on April 1, 2024.\n(n)\u00a0This section shall remain in effect only until January 1, 2030, and as of that date is repealed.\n",
+          "document_index": 0,
+          "document_title": "D023",
+          "start_char_index": 24689,
+          "end_char_index": 24848
+        }
+      ],
+      "type": "text",
+      "text": "This section became operative on April 1, 2024, and shall remain in effect only until January 1, 2030, at which date it is repealed."
+    },
+    {
+      "type": "text",
+      "text": " "
+    },
+    {
+      "citations": [
+        {
+          "type": "char_location",
+          "cited_text": "(AB 1529)   Effective January 1, 2026.   ",
+          "document_index": 0,
+          "document_title": "D023",
+          "start_char_index": 24892,
+          "end_char_index": 24933
+        }
+      ],
+      "type": "text",
+      "text": "The most recent amendment (AB 1529) became effective January 1, 2026."
+    },
+    {
+      "type": "text",
+      "text": "\n\n### Core Obligation\n\n"
+    },
+    {
+      "citations": [
+        {
+          "type": "char_location",
+          "cited_text": "(a)\u00a0Notwithstanding any other law, after a tenant has continuously and lawfully occupied a residential real property for 12 months, the owner of the residential real property shall not terminate a tenancy without just cause, which shall be stated in the written notice to terminate tenancy. ",
+          "document_index": 0,
+          "document_title": "D023",
+          "start_char_index": 1243,
+          "end_char_index": 1534
+        }
+      ],
+      "type": "text",
+      "text": "After a tenant has continuously and lawfully occupied a residential real property for 12 months, the owner of the residential real property shall not terminate a tenancy without just cause, which shall be stated in the written notice to terminate tenancy."
+    },
+    {
+      "type": "text",
+      "text": "\n\n### \"Just Cause\" Categories\n\n**At-Fault Just Cause:**\n"
+    },
+    {
+      "citations": [
+        {
+          "type": "char_location",
+          "cited_text": "(b)\u00a0For purposes of this section, \u201cjust cause\u201d means either of the following:\n(1)\u00a0At-fault just cause, which means any of the following:\n(A)\u00a0Default in the payment of rent.\n(B)\u00a0A breach of a material term of the lease, as described in paragraph (3) of Section 1161 of the Code of Civil Procedure, including, but not limited to, violation of a provision of the lease after being issued a written notice to correct the violation.\n(C)\u00a0Maintaining, committing, or permitting the maintenance or commission of a nuisance as described in paragraph (4) of Section 1161 of the Code of Civil Procedure.\n(D)\u00a0Committing waste as described in paragraph (4) of Section 1161 of the Code of Civil Procedure.\n(E)\u00a0The tenant had a written lease that terminated on or after January 1, 2020, or January 1, 2022, if the lease is for a tenancy in a mobilehome, and after a written request or demand from the owner, the tenant has refused to execute a written extension or renewal of the lease for an additional term of similar duration with similar provisions, provided that those terms do not violate this section or any other provision of law.\n(F)\u00a0Criminal activity by the tenant on the residential real property, including any common areas, or any criminal activity or criminal threat, as defined in subdivision (a) of Section 422 of the Penal Code, on or off the residential real property, that is directed at any owner or agent of the owner of\nthe residential real property.\n(G)\u00a0Assigning or subletting the premises in violation of the tenant\u2019s lease, as described in paragraph (4) of Section 1161 of the Code of Civil Procedure.\n(H)\u00a0The tenant\u2019s refusal to allow the owner to enter the residential real property as authorized by Sections 1101.5 and 1954 of this code, and Sections 13113.7 and 17926.1 of the Health and Safety Code.\n(I)\u00a0Using the premises for an unlawful purpose as described in paragraph (4) of Section 1161 of the Code of Civil Procedure.\n(J)\u00a0The employee, agent, or licensee\u2019s failure to vacate after their termination as an employee, agent, or a licensee as described in paragraph (1) of Section 1161 of the Code of Civil Procedure.\n(K)\u00a0When the tenant fails to deliver possession of the residential real property after providing the owner written notice as provided in Section 1946 of the tenant\u2019s intention to terminate the hiring of the real property, or makes a written offer to surrender that is accepted in writing by the owner, but fails to deliver possession at the time specified in that written notice as described in paragraph (5) of Section 1161 of the Code of Civil Procedure.\n",
+          "document_index": 0,
+          "document_title": "D023",
+          "start_char_index": 2013,
+          "end_char_index": 4607
+        }
+      ],
+      "type": "text",
+      "text": "Includes: default in payment of rent; breach of material lease terms; maintaining a nuisance; committing waste; refusal to execute lease renewal; criminal activity; assigning or subletting in violation of lease; refusal to allow owner entry; using premises for unlawful purpose; failure to vacate after termination of employment; and failure to deliver possession after notice to vacate."
+    },
+    {
+      "type": "text",
+      "text": "\n\n**No-Fault Just Cause:**\n"
+    },
+    {
+      "citations": [
+        {
+          "type": "char_location",
+          "cited_text": "(2)\u00a0No-fault just cause, which means any of the following:\n(A)\u00a0(i)\u00a0Intent to occupy the residential real property by the owner or the owner\u2019s spouse, domestic partner, children, grandchildren, parents, or grandparents for a minimum of 12 continuous months as that person\u2019s primary residence.\n",
+          "document_index": 0,
+          "document_title": "D023",
+          "start_char_index": 4607,
+          "end_char_index": 4899
+        },
+        {
+          "type": "char_location",
+          "cited_text": "(B)\u00a0Withdrawal of the residential real property from the rental market.\n(C)\u00a0(i)\u00a0The\nowner complying with any of the following:\n(I)\u00a0An order issued by a government agency or court relating to habitability that necessitates vacating the residential real property.\n(II)\u00a0An order issued by a government agency or court to vacate the residential real property.\n(III)\u00a0A local ordinance that necessitates vacating the residential real property.\n",
+          "document_index": 0,
+          "document_title": "D023",
+          "start_char_index": 9460,
+          "end_char_index": 9898
+        },
+        {
+          "type": "char_location",
+          "cited_text": "(D)\u00a0(i)\u00a0Intent to demolish or to\nsubstantially remodel the residential real property.\n",
+          "document_index": 0,
+          "document_title": "D023",
+          "start_char_index": 10181,
+          "end_char_index": 10267
+        }
+      ],
+      "type": "text",
+      "text": "Includes: intent to occupy by owner or specified family members for 12 continuous months as primary residence; withdrawal from rental market; compliance with government/court habitability orders or vacation orders; and intent to demolish or substantially remodel."
+    },
+    {
+      "type": "text",
+      "text": "\n\n### Owner-Occupancy Termination Requirements\n\n"
+    },
+    {
+      "citations": [
+        {
+          "type": "char_location",
+          "cited_text": "(ii)\u00a0For leases entered into on or after\nJuly 1, 2020, or July 1, 2022, if the lease is for a tenancy in a mobilehome, clause (i) shall apply only if the tenant agrees, in writing, to the termination, or if a provision of the lease allows the owner to terminate the lease if the owner, or the owner\u2019s spouse, domestic partner, children, grandchildren, parents, or grandparents, unilaterally decides to occupy the residential real property. ",
+          "document_index": 0,
+          "document_title": "D023",
+          "start_char_index": 4899,
+          "end_char_index": 5339
+        }
+      ],
+      "type": "text",
+      "text": "For leases entered into on or after July 1, 2020, or July 1, 2022 for mobilehomes, owner-occupancy termination applies only if the tenant agrees in writing to the termination, or if a lease provision allows the owner to unilaterally decide to occupy the property."
+    },
+    {
+      "type": "text",
+      "text": "\n\n"
+    },
+    {
+      "citations": [
+        {
+          "type": "char_location",
+          "cited_text": "(v)\u00a0Clause (i) applies only if the intended occupant moves into the rental unit within 90 days after the tenant vacates and occupies the rental unit as a primary residence for at least 12 consecutive months.\n(vi)\u00a0(I)\u00a0If the intended occupant fails to occupy the rental unit within 90 days after the tenant vacates or fails to occupy the rental unit as their primary residence for at least 12 consecutive months, the owner shall offer the unit to the tenant\nwho vacated it at the same rent and lease terms in effect at the time the tenant vacated and shall reimburse the tenant for reasonable moving expenses incurred in excess of any relocation assistance that was paid to the tenant in connection with the written notice.\n",
+          "document_index": 0,
+          "document_title": "D023",
+          "start_char_index": 6241,
+          "end_char_index": 6964
+        }
+      ],
+      "type": "text",
+      "text": "The intended occupant must move into the rental unit within 90 days after the tenant vacates and occupy it as a primary residence for at least 12 consecutive months. If the intended occupant fails to occupy within 90 days or fails to occupy for 12 consecutive months, the owner must offer the unit to the vacating tenant at the same rent and lease terms and reimburse reasonable moving expenses."
+    },
+    {
+      "type": "text",
+      "text": "\n\n### Relocation Assistance/Rent Waiver (No-Fault Terminations)\n\n"
+    },
+    {
+      "citations": [
+        {
+          "type": "char_location",
+          "cited_text": "(d)\u00a0(1)\u00a0For a tenancy for which just cause is required to terminate the tenancy under subdivision (a), if an owner of residential real property issues a termination notice based on a no-fault just cause described in paragraph (2) of subdivision (b), the owner shall, regardless of the tenant\u2019s income, at the owner\u2019s option, do one of the following:\n(A)\u00a0Assist the tenant to relocate by providing a direct payment to the tenant as described in paragraph (3).\n(B)\u00a0Waive in writing the payment of rent for the final month of the tenancy, prior to the rent becoming due.\n",
+          "document_index": 0,
+          "document_title": "D023",
+          "start_char_index": 13845,
+          "end_char_index": 14413
+        }
+      ],
+      "type": "text",
+      "text": "When terminating for no-fault just cause, the owner must either assist the tenant to relocate by providing a direct payment or waive in writing the payment of rent for the final month of the tenancy."
+    },
+    {
+      "type": "text",
+      "text": "\n\n"
+    },
+    {
+      "citations": [
+        {
+          "type": "char_location",
+          "cited_text": "(3)\u00a0(A)\u00a0The amount of relocation assistance or rent waiver shall be equal to one month of the tenant\u2019s rent that was in effect when the owner issued the notice to terminate the tenancy. Any relocation assistance shall be provided\nwithin 15 calendar days of service of the notice.\n",
+          "document_index": 0,
+          "document_title": "D023",
+          "start_char_index": 14881,
+          "end_char_index": 15161
+        }
+      ],
+      "type": "text",
+      "text": "The amount of relocation assistance or rent waiver equals one month of the tenant's rent in effect when the owner issued the notice to terminate, and must be provided within 15 calendar days of service of the notice."
+    },
+    {
+      "type": "text",
+      "text": "\n\n### Curable Violations\n\n"
+    },
+    {
+      "citations": [
+        {
+          "type": "char_location",
+          "cited_text": "(c)\u00a0Before an owner of residential real property issues a notice to terminate a tenancy for just cause that is a curable lease violation, the\nowner shall first give notice of the violation to the tenant with an opportunity to cure the violation pursuant to paragraph (3) of Section 1161 of the Code of Civil Procedure. If the violation is not cured within the time period set forth in the notice, a three-day notice to quit without an opportunity to cure may thereafter be served to terminate the tenancy.\n",
+          "document_index": 0,
+          "document_title": "D023",
+          "start_char_index": 13339,
+          "end_char_index": 13845
+        }
+      ],
+      "type": "text",
+      "text": "Before issuing a notice to terminate for a curable lease violation, the owner must first give notice of the violation with an opportunity to cure. If not cured within the specified time period, a three-day notice to quit may then be served."
+    },
+    {
+      "type": "text",
+      "text": "\n\n### Notice Requirements\n\n"
+    },
+    {
+      "citations": [
+        {
+          "type": "char_location",
+          "cited_text": "(f)\u00a0An owner of residential real property subject to this section shall provide notice to the tenant as follows:\n(1)\u00a0(A)\u00a0Except as provided in subparagraph (B), for any tenancy commenced or renewed on or after July 1, 2020, in the lease or rental\nagreement, as an addendum to the lease or rental agreement, or as a written notice signed by the tenant, with a copy provided to the tenant.\n(B)\u00a0For a tenancy in a mobilehome commenced or renewed on or after July 1, 2022, as an addendum to the lease or rental agreement, or as a written notice signed by the tenant, with a copy provided to the tenant.\n(2)\u00a0(A)\u00a0Except as provided in subparagraph (B), for a tenancy existing prior to July 1, 2020, by written notice to the tenant no later than August 1, 2020, or as an addendum to the lease or rental agreement.\n(B)\u00a0For a tenancy in a mobilehome existing prior to July 1, 2022, by written notice to the tenant no later than August 1, 2022, or as an addendum to the lease or rental agreement.\n",
+          "document_index": 0,
+          "document_title": "D023",
+          "start_char_index": 19934,
+          "end_char_index": 20921
+        }
+      ],
+      "type": "text",
+      "text": "For tenancies commenced or renewed on or after July 1, 2020 (or July 1, 2022 for mobilehomes), notice must be provided in the lease, as an addendum, or as a signed written notice. For pre-existing tenancies, notice was required by August 1, 2020 (or August 1, 2022 for mobilehomes)."
+    },
+    {
+      "type": "text",
+      "text": "\n\n"
+    },
+    {
+      "citations": [
+        {
+          "type": "char_location",
+          "cited_text": "(3)\u00a0The notification or lease provision shall be in no less than 12-point type, and shall include the following:\n\u201cCalifornia law limits the amount your rent can be increased. See Section 1947.12 of the Civil Code for more information. California law also provides that after all of the tenants have continuously and lawfully occupied the property for 12 months or more or at least one of the tenants has continuously and lawfully occupied the property for 24 months or more, a landlord must provide a statement of cause in any notice to terminate a tenancy. See Section 1946.2 of the Civil Code for more information.\u201d\n",
+          "document_index": 0,
+          "document_title": "D023",
+          "start_char_index": 20921,
+          "end_char_index": 21539
+        }
+      ],
+      "type": "text",
+      "text": "The notification must be in no less than 12-point type and inform tenants that California law limits rent increases and requires landlords to provide cause for termination after 12 months of continuous occupation."
+    },
+    {
+      "type": "text",
+      "text": "\n\n### Exemptions from Just Cause Requirement\n\n"
+    },
+    {
+      "citations": [
+        {
+          "type": "char_location",
+          "cited_text": "(e)\u00a0This section shall not apply to the following types of residential real properties or residential circumstances:\n(1)\u00a0Transient and tourist hotel occupancy as defined in subdivision (b) of Section 1940.\n(2)\u00a0Housing accommodations in a nonprofit hospital, religious facility, extended care facility, licensed residential care facility for the elderly, as defined in Section 1569.2 of the Health and Safety Code, or an adult residential facility, as defined in Chapter 6 of Division 6 of Title 22 of the Manual of Policies and Procedures published by the State Department of Social Services.\n(3)\u00a0Dormitories owned and operated by an institution of higher education or a kindergarten and grades 1 to 12, inclusive, school.\n(4)\u00a0Housing accommodations in which the tenant shares bathroom or kitchen facilities with the owner who maintains their principal residence at the residential real property.\n",
+          "document_index": 0,
+          "document_title": "D023",
+          "start_char_index": 15690,
+          "end_char_index": 16587
+        }
+      ],
+      "type": "text",
+      "text": "Exemptions include: transient and tourist hotel occupancy; housing in nonprofit hospitals, religious facilities, extended care facilities, and licensed residential care facilities; dormitories owned by institutions of higher education or schools; and housing where tenants share bathroom or kitchen facilities with the owner."
+    },
+    {
+      "type": "text",
+      "text": "\n\n"
+    },
+    {
+      "citations": [
+        {
+          "type": "char_location",
+          "cited_text": "(5)\u00a0Single-family owner-occupied residences, including both of the following:\n(A)\u00a0A residence in which the owner-occupant rents or leases no more than two units or bedrooms, including, but not limited to, an accessory dwelling unit or a junior accessory dwelling unit.\n(B)\u00a0A mobilehome.\n(6)\u00a0A property containing two separate dwelling units within a single structure in which the owner occupied one of the units as the owner\u2019s principal place of residence at the beginning of the tenancy, so long as the owner continues in occupancy, and neither unit is an accessory dwelling unit or a junior accessory dwelling unit.\n",
+          "document_index": 0,
+          "document_title": "D023",
+          "start_char_index": 16587,
+          "end_char_index": 17205
+        }
+      ],
+      "type": "text",
+      "text": "Exemptions also include: single-family owner-occupied residences where the owner rents no more than two units; mobilehomes; and properties with two units where the owner occupied one as principal residence at the beginning of tenancy."
+    },
+    {
+      "type": "text",
+      "text": "\n\n"
+    },
+    {
+      "citations": [
+        {
+          "type": "char_location",
+          "cited_text": "(7)\u00a0Housing that has been issued a certificate of occupancy within the previous 15\nyears, unless the housing is a mobilehome.\n",
+          "document_index": 0,
+          "document_title": "D023",
+          "start_char_index": 17205,
+          "end_char_index": 17331
+        }
+      ],
+      "type": "text",
+      "text": "Housing issued a certificate of occupancy within the previous 15 years is exempt, unless it is a mobilehome."
+    },
+    {
+      "type": "text",
+      "text": "\n\n"
+    },
+    {
+      "citations": [
+        {
+          "type": "char_location",
+          "cited_text": "(8)\u00a0Residential real property, including a mobilehome, that is alienable separate from the title to any other dwelling unit, provided that both of the following apply:\n(A)\u00a0The owner is not any of the following:\n(i)\u00a0A real estate investment trust, as defined in Section 856 of the Internal Revenue Code.\n(ii)\u00a0A corporation.\n(iii)\u00a0A limited liability company in which at least one member is a corporation.\n(iv)\u00a0Management of a mobilehome park, as defined in Section 798.2.\n",
+          "document_index": 0,
+          "document_title": "D023",
+          "start_char_index": 17331,
+          "end_char_index": 17802
+        }
+      ],
+      "type": "text",
+      "text": "Certain single alienable units are exempt if the owner is not a real estate investment trust, corporation, or limited liability company with a corporate member, and not a mobilehome park management."
+    },
+    {
+      "type": "text",
+      "text": "\n\n"
+    },
+    {
+      "citations": [
+        {
+          "type": "char_location",
+          "cited_text": "(9)\u00a0Housing restricted by deed, regulatory restriction contained in an agreement with a government agency, or other recorded document as affordable housing for persons and families of very low, low, or moderate income, as defined in Section 50093 of the Health and Safety Code, or subject to an agreement that provides housing subsidies for affordable housing for persons and families of very low, low, or moderate income, as defined in Section 50093 of the Health and Safety Code or comparable federal statutes.\n",
+          "document_index": 0,
+          "document_title": "D023",
+          "start_char_index": 19421,
+          "end_char_index": 19934
+        }
+      ],
+      "type": "text",
+      "text": "Housing restricted by deed or regulatory restriction as affordable housing for very low, low, or moderate income is exempt."
+    },
+    {
+      "type": "text",
+      "text": "\n\n### Enforcement and Remedies\n\n"
+    },
+    {
+      "citations": [
+        {
+          "type": "char_location",
+          "cited_text": "(h)\u00a0(1)\u00a0An owner who attempts to recover possession of a rental unit in material violation of this section shall be liable to the tenant in a civil action for all of the following:\n(A)\u00a0Actual damages.\n(B)\u00a0In the court\u2019s discretion, reasonable attorney\u2019s fees and costs.\n(C)\u00a0Upon a showing that the owner has acted willfully or with oppression, fraud, or malice, up to three times the actual damages. An award may also be entered for punitive damages for the benefit of the tenant against the owner.\n",
+          "document_index": 0,
+          "document_title": "D023",
+          "start_char_index": 21727,
+          "end_char_index": 22226
+        }
+      ],
+      "type": "text",
+      "text": "An owner attempting to recover possession in material violation of this section is liable for actual damages, reasonable attorney's fees and costs at the court's discretion, and up to three times actual damages upon showing willful or oppressive conduct, fraud, or malice, plus possible punitive damages."
+    },
+    {
+      "type": "text",
+      "text": "\n\n"
+    },
+    {
+      "citations": [
+        {
+          "type": "char_location",
+          "cited_text": "(2)\u00a0The Attorney General, in the name of the people of the State of California, and the city attorney or county counsel in the jurisdiction in\nwhich the rental unit is located, in the name of the city or county, may seek injunctive relief based on violations of this section.\n",
+          "document_index": 0,
+          "document_title": "D023",
+          "start_char_index": 22226,
+          "end_char_index": 22502
+        }
+      ],
+      "type": "text",
+      "text": "The Attorney General and city/county counsel may seek injunctive relief for violations."
+    },
+    {
+      "type": "text",
+      "text": "\n\n### Local Ordinance Preemption\n\n"
+    },
+    {
+      "citations": [
+        {
+          "type": "char_location",
+          "cited_text": "(i)\u00a0(1)\u00a0This section does not apply to the following residential real property:\n(A)\u00a0Residential real property subject to a local ordinance requiring just cause for termination of a residential tenancy adopted on or before September 1, 2019, in which case the local ordinance shall apply.\n(B)\u00a0Residential real property subject to a local ordinance requiring just cause for termination of a residential tenancy adopted or amended after September 1, 2019, that is more protective than this section, in which case the local ordinance shall apply. ",
+          "document_index": 0,
+          "document_title": "D023",
+          "start_char_index": 22502,
+          "end_char_index": 23045
+        }
+      ],
+      "type": "text",
+      "text": "Local ordinances adopted on or before September 1, 2019, or those adopted after September 1, 2019 that are more protective than this section apply instead of this section."
+    },
+    {
+      "type": "text",
+      "text": "\n\n"
+    },
+    {
+      "citations": [
+        {
+          "type": "char_location",
+          "cited_text": "(3)\u00a0A local ordinance adopted\nafter September 1, 2019, that is less protective than this section shall not be enforced unless this section is repealed.\n",
+          "document_index": 0,
+          "document_title": "D023",
+          "start_char_index": 23829,
+          "end_char_index": 23981
+        }
+      ],
+      "type": "text",
+      "text": "Local ordinances adopted after September 1, 2019 that are less protective shall not be enforced unless this section is repealed."
+    },
+    {
+      "type": "text",
+      "text": "\n\n---\n\n## NOT ADDRESSED IN DOCUMENT\n\nThe document does not contain operative provisions regarding:\n- Rent caps/increases\n- Security deposits\n- Application/screening fees\n- Screening restrictions\n- Algorithmic pricing"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 8744,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 1767,
+    "service_tier": "batch",
+    "inference_geo": "not_available"
+  },
+  "diagnostics": null
+}

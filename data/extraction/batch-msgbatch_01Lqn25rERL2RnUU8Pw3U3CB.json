@@ -1,0 +1,24 @@
+{
+  "id": "msgbatch_01Lqn25rERL2RnUU8Pw3U3CB",
+  "type": "message_batch",
+  "processing_status": "in_progress",
+  "request_counts": {
+    "processing": 2,
+    "succeeded": 0,
+    "errored": 0,
+    "canceled": 0,
+    "expired": 0
+  },
+  "ended_at": null,
+  "created_at": "2026-10-03T22:03:39.337969+00:00",
+  "expires_at": "2026-10-04T22:03:39.337969+00:00",
+  "archived_at": null,
+  "cancel_initiated_at": null,
+  "results_url": null,
+  "stage": "structure-split",
+  "ledger_indices": {
+    "D025-p1": 121,
+    "D025-p2": 122
+  },
+  "downloaded": true
+}

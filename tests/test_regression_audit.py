@@ -1,0 +1,26 @@
+import json
+import unittest
+from pathlib import Path
+from navigator.engine import evaluate_rule
+ROOT = Path(__file__).resolve().parents[1]
+class TestAuditRegression(unittest.TestCase):
+    def test_pending_empty_facts_is_unknown(self):
+        r = {'team_rule_id': 't1', 'jurisdiction': 'CA', 'level': 'state', 'status': 'pending', 'logic': {'coverage': True, 'exemptions': False}}
+        self.assertEqual(evaluate_rule(r, {}, '2026-10-01')['result'], 'unknown')
+    def test_ended_beats_pending(self):
+        r = {'team_rule_id': 't2', 'jurisdiction': 'CA', 'level': 'state', 'status': 'pending', 'end_date': '2020-01-01', 'logic': {'coverage': True, 'exemptions': False}}
+        self.assertIsNone(evaluate_rule(r, {'state': 'CA'}, '2026-10-01')['result'])
+    def test_no_boolean_coverage_in_rules(self):
+        rules = json.loads((ROOT / 'data' / 'rules.json').read_text())
+        bad = [x.get('team_rule_id') for x in rules if isinstance(x.get('logic'), dict) and x['logic'].get('coverage') is True]
+        self.assertEqual(bad, [])
+    def test_changes_unresolved_never_affected(self):
+        from navigator.changes import evaluate_changes
+        from navigator.geography import load_addresses
+        rules = json.loads((ROOT / 'data' / 'rules.json').read_text())
+        got = evaluate_changes(rules, load_addresses())
+        for tid, case in got.items():
+            overlap = set(case['affected_address_ids']) & set(case['unresolved_address_ids'])
+            self.assertEqual(overlap, set(), tid)
+if __name__ == '__main__':
+    unittest.main()

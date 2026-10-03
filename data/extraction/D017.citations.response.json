@@ -1,0 +1,155 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011CfftopCsmTUm36gRxj9uf",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "I can only provide information based on the document provided, which contains California Civil Code Section 1950.6 regarding application screening fees. This document does not comprehensively cover all the rental housing obligations and exemptions you've requested.\n\nBased on this single document, here is what I can identify:\n\n## Application Screening Fees (Enacted)\n\n**Status:** "
+    },
+    {
+      "citations": [
+        {
+          "type": "char_location",
+          "cited_text": "(Amended by Stats. 2025, Ch. 67, Sec. 29.   (AB 1170)   Effective January 1, 2026.)",
+          "document_index": 0,
+          "document_title": "D017",
+          "start_char_index": 6964,
+          "end_char_index": 7047
+        }
+      ],
+      "type": "text",
+      "text": "Amended by Stats. 2025, Ch. 67, Sec. 29 (AB 1170), effective January 1, 2026"
+    },
+    {
+      "type": "text",
+      "text": "\n\n**Fee Cap:** "
+    },
+    {
+      "citations": [
+        {
+          "type": "char_location",
+          "cited_text": "In no case shall the amount of the application screening fee charged by the landlord or their agent be greater than thirty dollars ($30) per applicant. ",
+          "document_index": 0,
+          "document_title": "D017",
+          "start_char_index": 2170,
+          "end_char_index": 2322
+        }
+      ],
+      "type": "text",
+      "text": "The application screening fee shall not be greater than thirty dollars ($30) per applicant"
+    },
+    {
+      "type": "text",
+      "text": ", and "
+    },
+    {
+      "citations": [
+        {
+          "type": "char_location",
+          "cited_text": "The thirty dollar ($30) application screening fee may be adjusted annually by the landlord or their agent commensurate with an increase in the Consumer Price Index, beginning on January 1, 1998.\n",
+          "document_index": 0,
+          "document_title": "D017",
+          "start_char_index": 2322,
+          "end_char_index": 2517
+        }
+      ],
+      "type": "text",
+      "text": "may be adjusted annually commensurate with an increase in the Consumer Price Index, beginning on January 1, 1998"
+    },
+    {
+      "type": "text",
+      "text": "\n\n**Coverage:** "
+    },
+    {
+      "citations": [
+        {
+          "type": "char_location",
+          "cited_text": "(a)\u00a0Notwithstanding Section 1950.5, when a landlord or their agent receives a request to rent a residential property from an applicant, the landlord or their agent may charge, pursuant to subdivision (c), that applicant an application screening fee to cover the costs of obtaining information about the applicant. ",
+          "document_index": 0,
+          "document_title": "D017",
+          "start_char_index": 1106,
+          "end_char_index": 1420
+        }
+      ],
+      "type": "text",
+      "text": "Applies when a landlord or their agent receives a request to rent a residential property from an applicant"
+    },
+    {
+      "type": "text",
+      "text": "\n\n**Permitted Charges:** "
+    },
+    {
+      "citations": [
+        {
+          "type": "char_location",
+          "cited_text": "(b)\u00a0The amount of the application screening fee shall not be greater than the actual\nout-of-pocket costs of gathering information concerning the applicant, including, but not limited to, the cost of using a tenant screening service or a consumer credit reporting service, and the reasonable value of time spent by the landlord or their agent in obtaining information on the applicant. ",
+          "document_index": 0,
+          "document_title": "D017",
+          "start_char_index": 1785,
+          "end_char_index": 2170
+        }
+      ],
+      "type": "text",
+      "text": "The fee shall not be greater than the actual out-of-pocket costs of gathering information concerning the applicant, including the cost of using a tenant screening service or a consumer credit reporting service, and the reasonable value of time spent by the landlord or their agent"
+    },
+    {
+      "type": "text",
+      "text": "\n\n**Restrictions and Conditions:** "
+    },
+    {
+      "citations": [
+        {
+          "type": "char_location",
+          "cited_text": "(c)\u00a0(1)\u00a0A landlord or their agent shall not charge an applicant an application screening fee when they know or should have known that no rental unit is available at that time or will be available within a reasonable period of time.\n(2)\u00a0A landlord or their agent may charge an applicant an application screening fee only if the landlord or their agent, at the time the application screening fee is collected, offers any of the following:\n(A)\u00a0An application screening process that complies with all of the following:\n(i)\u00a0Completed applications are considered, as provided for in the landlord\u2019s established screening criteria, in the order in which the completed applications were received. The landlord\u2019s screening criteria shall be provided to the applicant in writing together with the application form.\n(ii)\u00a0The first applicant who meets the landlord\u2019s established screening criteria is approved for tenancy.\n(iii)\u00a0Applicants are not\ncharged an application screening fee unless or until their application is actually considered.\n",
+          "document_index": 0,
+          "document_title": "D017",
+          "start_char_index": 2517,
+          "end_char_index": 3547
+        }
+      ],
+      "type": "text",
+      "text": "Landlords cannot charge when no rental unit is available or will be available within a reasonable period, must provide screening criteria in writing, approve the first applicant meeting criteria, and cannot charge unless the application is actually considered"
+    },
+    {
+      "type": "text",
+      "text": "\n\n**Receipt Requirements:** "
+    },
+    {
+      "citations": [
+        {
+          "type": "char_location",
+          "cited_text": "(d)\u00a0The landlord or their agent shall provide, personally, or by mail, the applicant with a receipt for the fee paid by the applicant, which receipt shall itemize the out-of-pocket expenses and time spent by the landlord or their agent to obtain and process the information about the applicant. ",
+          "document_index": 0,
+          "document_title": "D017",
+          "start_char_index": 4709,
+          "end_char_index": 5004
+        }
+      ],
+      "type": "text",
+      "text": "Landlords must provide a receipt itemizing out-of-pocket expenses and time spent"
+    },
+    {
+      "type": "text",
+      "text": "\n\nFor information on rent caps, just cause eviction, deposits, screening restrictions, and algorithmic pricing, you would need additional documents."
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 3057,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 502,
+    "service_tier": "batch",
+    "inference_geo": "not_available"
+  },
+  "diagnostics": null
+}

@@ -1,0 +1,11 @@
+{
+  "doc_id": "D068",
+  "model": "claude-haiku-4-5-20251001",
+  "source_sha256": "857cb50fde16e0027346c44f502b2f0d854aad4bca7cf0926a31cd54adad8159",
+  "rules": [],
+  "rejected": [],
+  "gaps": [
+    "Document D068 is a Division on Civil Rights brochure addressing housing discrimination under NJ Law Against Discrimination (LAD), covering protected class discrimination and source of lawful income. It contains no operative provisions on rent_increase_limits, just_cause_eviction, security_deposits, application_screening_fees, screening_restrictions, or algorithmic_rent_setting. No rental-housing regulatory obligations in the six target categories are present in this source."
+  ],
+  "status": "needs_review"
+}

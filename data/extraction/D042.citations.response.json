@@ -1,0 +1,119 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011CfftopVzAWJevYD5eMTkH",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "Based on the document provided, I can only identify information related to rent caps. The document does not contain information about just cause eviction, deposits, application/screening fees, screening restrictions, or algorithmic pricing.\n\n## Rent Caps\n\n**Operative Obligation - Rent Increase Limits:**\n"
+    },
+    {
+      "citations": [
+        {
+          "type": "char_location",
+          "cited_text": "SOURCE: https://housing.lacity.gov/rso-rent-increase-calculator\nRETRIEVED: 2026-10-01 22:36 UTC\n\n\ufeff\nRSO Rent Increase Calculator \u2013 LAHD\nSkip to main content\nLos Angeles Housing Department\nQuick Links:\nAnnouncements\nWebsite Feedback\nATTN: TENANTS & LANDLORDS\nAnnual rent increases for rental units subject to the City of Los Angeles Rent Stabilization Ordinance (RSO), effective\nJuly 1, 2025, through June 30, 2026\nis\n3%\n.\n",
+          "document_index": 0,
+          "document_title": "D042",
+          "start_char_index": 0,
+          "end_char_index": 421
+        }
+      ],
+      "type": "text",
+      "text": "Annual rent increases for rental units subject to the City of Los Angeles Rent Stabilization Ordinance (RSO), effective July 1, 2025, through June 30, 2026, is 3%."
+    },
+    {
+      "type": "text",
+      "text": "\n\n**Notice Requirement:**\n"
+    },
+    {
+      "citations": [
+        {
+          "type": "char_location",
+          "cited_text": "State law requires landlords to provide 30 days' written advance notice of rent increases of less than 10%.\n",
+          "document_index": 0,
+          "document_title": "D042",
+          "start_char_index": 532,
+          "end_char_index": 640
+        }
+      ],
+      "type": "text",
+      "text": "State law requires landlords to provide 30 days' written advance notice of rent increases of less than 10%."
+    },
+    {
+      "type": "text",
+      "text": "\n\n**Utility Surcharge Restriction:**\n"
+    },
+    {
+      "citations": [
+        {
+          "type": "char_location",
+          "cited_text": "Beginning February 2, 2026, a landlord can no longer include any additional percentage increase for utilities.\n",
+          "document_index": 0,
+          "document_title": "D042",
+          "start_char_index": 421,
+          "end_char_index": 532
+        }
+      ],
+      "type": "text",
+      "text": "Beginning February 2, 2026, a landlord can no longer include any additional percentage increase for utilities."
+    },
+    {
+      "type": "text",
+      "text": "\n\n**Coverage:**\n"
+    },
+    {
+      "citations": [
+        {
+          "type": "char_location",
+          "cited_text": "To find out if you live in an RSO unit, go to\nzimas.lacity.org\n. ",
+          "document_index": 0,
+          "document_title": "D042",
+          "start_char_index": 698,
+          "end_char_index": 763
+        }
+      ],
+      "type": "text",
+      "text": "To find out if you live in an RSO unit, go to zimas.lacity.gov."
+    },
+    {
+      "type": "text",
+      "text": "\n\n**Surcharges (Permitted Pass-Through):**\n"
+    },
+    {
+      "citations": [
+        {
+          "type": "char_location",
+          "cited_text": "Close\nCalculation :\nTotal New Monthly Rent Payment with Allowable Rent Increase and\nSurcharges:\nEach year landlords may pass through to tenants the RSO and the Systematic Code Enforcement Program fee (SCEP)\nsurcharges with proper written notice as follows:\nSCEP Pass Through Amount:\nEffective January 1, 2022, the SCEP fee is a total of $67.94 per\nunit which landlords may collect from tenants at a rate of $2.83 per month for 12 months each year with a proper\nwritten notice.\nRSO Pass Through Amount:\nEffective January 1, 2020, the RSO fee is a total of $38.75 per unit\nwhich landlords may collect from tenants at a rate of $1.61 per month for 12 months each year with a proper\nwritten notice.\nThe SCEP and RSO surcharges are separate and in addition to the rent amount and can only be collected after the\nlandlord registers the units and gives written notice to the tenant.\n",
+          "document_index": 0,
+          "document_title": "D042",
+          "start_char_index": 1651,
+          "end_char_index": 2527
+        }
+      ],
+      "type": "text",
+      "text": "The RSO fee is $38.75 per unit collected at $1.61 per month, and the SCEP fee is $67.94 per unit collected at $2.83 per month. The SCEP and RSO surcharges are separate and in addition to the rent amount and can only be collected after the landlord registers the units and gives written notice to the tenant."
+    },
+    {
+      "type": "text",
+      "text": "\n\nThe document does not provide information about sanctions, proposed/failed regulations, or the other rental housing obligations and exemptions you requested."
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 2382,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 423,
+    "service_tier": "batch",
+    "inference_geo": "not_available"
+  },
+  "diagnostics": null
+}

@@ -1,0 +1,112 @@
+{
+  "doc_id": "D069",
+  "model": "claude-haiku-4-5-20251001",
+  "source_sha256": "1fdbfb48743a46429c3f47dbd8d08c665739202361661e1a2f19b94bb0ec43a6",
+  "rules": [
+    {
+      "team_rule_id": "D069-r001",
+      "challenge_aliases": [
+        "NJ-ALG-01"
+      ],
+      "jurisdiction": "NJ",
+      "level": "state",
+      "category": "algorithmic_rent_setting",
+      "status": "not_yet_effective",
+      "title": "Forbidding the Algorithmic Inflation of Rent (FAIR) Act",
+      "requirement": "Prohibits rental property owners from using coordinator services, coordinators from facilitating competition-restricting agreements, parallel pricing coordination, and performing coordinating functions for residential dwelling units in NJ.",
+      "citation": "P.L. 2026, c.043 (A3497 1R ACS), C.56:9-20 to 56:9-26",
+      "quoted_span": "a rental property owner, or any agent, representative, or subcontractor thereof, to receive, subscribe to, contract for, or otherwise exchange any form of consideration in return for the use of, the services of a coordinator",
+      "effective_date": "2027-07-01",
+      "operative_date": "2027-07-01",
+      "enacted_at": "2026-07-20",
+      "source_doc_id": "D069",
+      "source_url": "https://pub.njleg.state.nj.us/Bills/2026/AL26/43_.HTM",
+      "retrieved_at": "2026-10-01T22:56Z",
+      "logic": {
+        "coverage": {
+          "all": [
+            {
+              "all": [
+                {
+                  "fact": "state",
+                  "op": "eq",
+                  "value": "NJ"
+                },
+                {
+                  "fact": "unit_type",
+                  "op": "eq",
+                  "value": "residential_dwelling"
+                },
+                {
+                  "any": [
+                    {
+                      "fact": "uses_coordinator_service",
+                      "op": "eq",
+                      "value": true
+                    },
+                    {
+                      "fact": "performs_coordinating_function",
+                      "op": "eq",
+                      "value": true
+                    },
+                    {
+                      "fact": "engages_parallel_pricing_coordination",
+                      "op": "eq",
+                      "value": true
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "fact": "unresolved_legal_evidence_D069_1",
+              "op": "eq",
+              "value": true
+            }
+          ]
+        },
+        "exemptions": false
+      },
+      "review_required": [
+        "Operative predicates extracted from D069 Sec.4; coordinator-service facts not in sample addresses, evaluation yields unknown until asked. Effective 2027-07-01 per Sec.9."
+      ]
+    }
+  ],
+  "rejected": [
+    {
+      "rule": {
+        "jurisdiction": "New Jersey",
+        "level": "state",
+        "category": "algorithmic_rent_setting",
+        "status": "in_force",
+        "title": "Forbidding the Algorithmic Inflation of Rent (FAIR) Act",
+        "requirement": "It shall be unlawful for a rental property owner or any agent, representative, or subcontractor thereof to receive, subscribe to, contract for, or otherwise exchange any form of consideration in return for the use of the services of a coordinator; for a coordinator to facilitate a tacit or express agreement among rental property owners that restricts competition with respect to residential dwelling units, including by performing a coordinating function; for two or more persons to engage in or otherwise facilitate parallel pricing coordination; for any agent or representative of a coordinator or subcontractor thereof to engage in parallel pricing coordination; or for any person to perform a coordinating function.",
+        "citation": "P.L. 2026, c.043 (A3497 1R ACS), Section 4; C.56:9-20 to 56:9-26",
+        "quoted_span": "It shall be unlawful and a violation of the \"New Jersey Antitrust Act,\" P.L.1970, c.73 (C.56:9-1 et seq.) for: a. a rental property owner, or any agent, representative, or subcontractor thereof, to receive, subscribe to, contract for, or otherwise exchange any form of consideration in return for the use of, the services of a coordinator",
+        "key_value": "Coordinator ban; parallel pricing coordination prohibition; competitively sensitive information sharing restriction",
+        "coverage_conditions": "Applies to rental property owners, coordinators, agents, representatives, and subcontractors using algorithmic devices in New Jersey for residential dwelling units",
+        "exemptions": "Research, statistical analysis, or testing without use in setting prices; public rent estimates at no cost; real estate brokerage databases available on equal terms that do not set prices or collect competitive information; government entities administering affordability controls",
+        "effective_date": "2027-07-20",
+        "conflict_note": null,
+        "sanctions": "Violation of the New Jersey Antitrust Act (P.L.1970, c.73); Attorney General enforcement; complaint mechanism established on Department of Law and Public Safety website",
+        "enacted_at": "2026-07-20",
+        "operative_date": "2027-07-20",
+        "end_date": null,
+        "confidence": 0.95,
+        "conflict_flag": false,
+        "logic": {}
+      },
+      "errors": [
+        "quoted_span is not exact original source substring",
+        "invalid logic DSL"
+      ]
+    }
+  ],
+  "gaps": [
+    "No information provided on rent increase limits, just cause eviction, security deposits, application screening fees, or screening restrictions in New Jersey state law or any specific municipalities",
+    "Specific penalty amounts and enforcement remedies under existing New Jersey Antitrust Act not detailed in source document",
+    "Effective implementation details and Attorney General rulemaking timeline not specified",
+    "Interaction with existing municipal rent control ordinances unclear pending rulemaking adoption"
+  ],
+  "status": "needs_review"
+}

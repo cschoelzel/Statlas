@@ -1,0 +1,47 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011Cfftoue44m7TqYpB3iD1A",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "I appreciate your detailed request, but I must inform you that the document provided does not contain comprehensive information about San Francisco's rental housing obligations and exemptions related to rent caps, just cause eviction, deposits, application/screening fees, screening restrictions, or algorithmic pricing.\n\nThe document is primarily a webpage from the San Francisco Human Rights Commission describing the agency's services, programs, and resources. While it does mention "
+    },
+    {
+      "citations": [
+        {
+          "type": "char_location",
+          "cited_text": "Affordable housing protections for people with criminal history\nSan Francisco's Fair Chance Ordinance protects residents with arrest or conviction history in affordable housing decisions.\n",
+          "document_index": 0,
+          "document_title": "D078",
+          "start_char_index": 5050,
+          "end_char_index": 5238
+        }
+      ],
+      "type": "text",
+      "text": "San Francisco's Fair Chance Ordinance protecting residents with arrest or conviction history in affordable housing decisions"
+    },
+    {
+      "type": "text",
+      "text": ", this is limited to fair chance protections and does not address the broader range of rental housing regulations you've asked about.\n\nTo obtain the comprehensive information you're seeking about operative rental housing obligations, exemptions, status, dates, sanctions, coverage, and distinctions between proposed/failed versus enacted regulations, you would need to consult other sources such as:\n- The San Francisco Administrative Code\n- San Francisco Planning Department documents\n- San Francisco Board of Supervisors ordinances\n- Detailed housing policy analysis documents\n\nThe document provided does not supply the detailed regulatory information needed to answer your query accurately."
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 2812,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 247,
+    "service_tier": "batch",
+    "inference_geo": "not_available"
+  },
+  "diagnostics": null
+}

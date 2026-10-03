@@ -1,0 +1,29 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011CffuABUN5k2NKsvcv13Zd",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "{\"rules\":[],\"gaps\":[\"Document D016 covers only California fair housing discrimination law (FEHA) enforced by CRD. No information provided on rent_increase_limits, just_cause_eviction, security_deposits, application_screening_fees, screening_restrictions, or algorithmic_rent_setting. Source does not address rental housing economic protections, eviction standards, deposit regulations, fee caps, or algorithmic pricing restrictions needed to populate the six required categories. Historical status, effective dates, sanctions, coverage conditions, and exemptions for these six categories are absent from supplied document.\"]}"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 7885,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 131,
+    "service_tier": "batch",
+    "inference_geo": "not_available"
+  },
+  "diagnostics": null
+}

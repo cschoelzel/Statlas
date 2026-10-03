@@ -1,0 +1,173 @@
+{
+  "doc_id": "D010",
+  "model": "claude-haiku-4-5-20251001",
+  "source_sha256": "61380f45cb66d87065eb029b6f5ee54dc704a0d059acc6136477337ce5f0cb73",
+  "rules": [
+    {
+      "jurisdiction": "Boston",
+      "level": "city",
+      "category": "screening_restrictions",
+      "status": "in_force",
+      "title": "Boston Fair Chance Tenant Selection Policy",
+      "requirement": "Housing providers receiving Department of Neighborhood Development (DND) funding and/or land, or that have income restricted units created under the Boston Planning and Development Agency (BPDA) Inclusionary Development Policy will not impose a blanket policy that denies housing to anyone with arrests and or convictions. Housing providers will consider applicants on a case-by-case basis. The Developer/Agent agrees to not consider arrests that did not result in conviction (including dismissed charges, diversion programs, and similar non-convictions), convictions subject to judicial relief (expungement, sealing, certificates for relief from disabilities), juvenile records, or convictions more than 5 years old when determining housing eligibility.",
+      "citation": "Boston Fair Chance Tenant Selection Policy, Page 1-3 (February 2017), Department of Neighborhood Development (DND)",
+      "quoted_span": "Housing providers receiving Department of Neighborhood Development (DND) funding and/or \nland, or that have income restricted units created under the Boston Planning and Development \nAgency (BPDA) Inclusionary Development Policy will not impose a blanket policy that denies \nhousing to anyone with arrests and or convictions. Housing providers will consider applicants on \na case-by-case basis. \n \n1. The Developer/Agent (Agent) agrees to not consider any of the following categories when \ndetermining housing eligibility and or considering eviction: \n \na) Arrests that did not result in conviction. This includes dismissed charges, diversion \nprograms, and similar non-convictions. \nb) Convictions that are subject to a form of judicial relief, such as expungement, sealing, \nand certificates for relief from disabilities. \nc) Juvenile records \nd) A conviction more than 5 years old.",
+      "key_value": "case_by_case_consideration_of_arrests_convictions",
+      "coverage_conditions": "Housing provider must receive Department of Neighborhood Development (DND) funding and/or land, or have income restricted units created under the Boston Planning and Development Agency (BPDA) Inclusionary Development Policy",
+      "exemptions": "Exemption applies when there is a direct relationship between a conviction and the housing sought and/or unreasonable risk of substantial harm to the safety of others. Landlords would consider additional factors such as evidence of rehabilitation, time elapsed since conviction, and age of person at time of conviction. This guidance does not apply to current criminal behavior. Federal or state law criminal history requirements preempt this policy.",
+      "effective_date": "2017-02-01",
+      "conflict_note": "Policy explicitly states: 'Where federal or state law imposes a criminal history requirement that conflicts with a requirement of this guidance, the federal or state law preempts this policy.'",
+      "sanctions": null,
+      "enacted_at": "2017-02-01",
+      "operative_date": "2017-02-01",
+      "end_date": null,
+      "confidence": 0.85,
+      "conflict_flag": true,
+      "logic": {
+        "coverage": {
+          "all": [
+            {
+              "fact": "legal_city",
+              "op": "eq",
+              "value": "Boston"
+            },
+            {
+              "any": [
+                {
+                  "fact": "receives_dnd_funding",
+                  "op": "eq",
+                  "value": true
+                },
+                {
+                  "fact": "receives_dnd_land",
+                  "op": "eq",
+                  "value": true
+                },
+                {
+                  "fact": "has_bpda_income_restricted_units",
+                  "op": "eq",
+                  "value": true
+                }
+              ]
+            }
+          ]
+        },
+        "exemptions": {
+          "any": [
+            {
+              "fact": "direct_relationship_conviction_to_housing",
+              "op": "eq",
+              "value": true
+            },
+            {
+              "fact": "unreasonable_risk_substantial_harm_safety",
+              "op": "eq",
+              "value": true
+            }
+          ]
+        },
+        "prohibited_screening_factors": {
+          "all": [
+            {
+              "not": {
+                "fact": "arrest_resulted_in_conviction",
+                "op": "eq",
+                "value": true
+              }
+            },
+            {
+              "not": {
+                "fact": "conviction_subject_to_judicial_relief",
+                "op": "eq",
+                "value": true
+              }
+            },
+            {
+              "not": {
+                "fact": "juvenile_record",
+                "op": "eq",
+                "value": true
+              }
+            },
+            {
+              "not": {
+                "fact": "conviction_more_than_5_years_old",
+                "op": "eq",
+                "value": true
+              }
+            }
+          ]
+        }
+      },
+      "field_evidence": [
+        {
+          "field": "coverage_conditions",
+          "quoted_span": "Housing providers receiving Department of Neighborhood Development (DND) funding and/or \nland, or that have income restricted units created under the Boston Planning and Development \nAgency (BPDA) Inclusionary Development Policy",
+          "start_char": 360,
+          "end_char": 588
+        },
+        {
+          "field": "requirement",
+          "quoted_span": "will not impose a blanket policy that denies \nhousing to anyone with arrests and or convictions. Housing providers will consider applicants on \na case-by-case basis",
+          "start_char": 589,
+          "end_char": 753
+        },
+        {
+          "field": "requirement",
+          "quoted_span": "The Developer/Agent (Agent) agrees to not consider any of the following categories when \ndetermining housing eligibility and or considering eviction: \n \na) Arrests that did not result in conviction. This includes dismissed charges, diversion \nprograms, and similar non-convictions. \nb) Convictions that are subject to a form of judicial relief, such as expungement, sealing, \nand certificates for relief from disabilities. \nc) Juvenile records \nd) A conviction more than 5 years old",
+          "start_char": 761,
+          "end_char": 1243
+        },
+        {
+          "field": "exemptions",
+          "quoted_span": "A direct relationship between a conviction and the housing sought and or unreasonable \nrisk of substantial harm to the safety of others",
+          "start_char": 1355,
+          "end_char": 1490
+        },
+        {
+          "field": "effective_date",
+          "quoted_span": "Page 1 of 3 (February 2017)",
+          "start_char": 126,
+          "end_char": 153
+        },
+        {
+          "field": "status",
+          "quoted_span": "Under this policy, housing providers agree to the following",
+          "start_char": 296,
+          "end_char": 355
+        }
+      ],
+      "team_rule_id": "D010-r001",
+      "source_doc_id": "D010",
+      "source_url": "https://drive.google.com/file/d/1j4U3fDtmnYuwcUWhx5BMUcXc1bnKT8Ku/view?usp=sharing",
+      "retrieved_at": "2026-10-01T22:44Z",
+      "query_date": "2026-10-01",
+      "review_status": "unreviewed",
+      "evidence": {
+        "source_doc_id": "D010",
+        "text_sha256": "61380f45cb66d87065eb029b6f5ee54dc704a0d059acc6136477337ce5f0cb73",
+        "start_char": 360,
+        "end_char": 1244,
+        "quoted_span": "Housing providers receiving Department of Neighborhood Development (DND) funding and/or \nland, or that have income restricted units created under the Boston Planning and Development \nAgency (BPDA) Inclusionary Development Policy will not impose a blanket policy that denies \nhousing to anyone with arrests and or convictions. Housing providers will consider applicants on \na case-by-case basis. \n \n1. The Developer/Agent (Agent) agrees to not consider any of the following categories when \ndetermining housing eligibility and or considering eviction: \n \na) Arrests that did not result in conviction. This includes dismissed charges, diversion \nprograms, and similar non-convictions. \nb) Convictions that are subject to a form of judicial relief, such as expungement, sealing, \nand certificates for relief from disabilities. \nc) Juvenile records \nd) A conviction more than 5 years old.",
+        "retrieved_at": "2026-10-01T22:44Z",
+        "original_file": "data/sources/originals/61380f45cb66d87065eb029b6f5ee54dc704a0d059acc6136477337ce5f0cb73.txt"
+      }
+    }
+  ],
+  "rejected": [],
+  "gaps": [
+    "No information provided regarding rent increase limits category",
+    "No information provided regarding just cause eviction protections",
+    "No information provided regarding security deposit regulations",
+    "No information provided regarding application screening fees restrictions",
+    "No information provided regarding algorithmic rent setting restrictions",
+    "Document does not specify enforcement mechanisms or penalties for non-compliance with screening restrictions policy",
+    "Historical status of policy before February 2017 not provided",
+    "Specific guidance on appeals process feasibility not quantified or detailed",
+    "No statute or ordinance citation provided; policy appears to be administrative guidance from Department of Neighborhood Development",
+    "Preemption clause references unspecified federal and state laws that may impose conflicting criminal history requirements",
+    "Definition of 'direct relationship between conviction and housing sought' not explicitly defined in document",
+    "Detailed mitigation and rehabilitation standards referenced but specific criteria for assessment not exhaustively enumerated"
+  ],
+  "status": "needs_review"
+}

@@ -1,0 +1,284 @@
+{
+  "doc_id": "D036",
+  "model": "claude-haiku-4-5-20251001",
+  "source_sha256": "f444bed30ede0905ce671ac4b9addf27feaa31c9a74ba6ba537b7f8d77e81dce",
+  "rules": [
+    {
+      "jurisdiction": "Jersey City, NJ",
+      "level": "city",
+      "category": "rent_increase_limits",
+      "status": "in_force",
+      "title": "Jersey City Rent Control Ordinance - Chapter 260",
+      "requirement": "Landlords must comply with rent control regulations administered by the Office of Landlord Tenant Relations for properties subject to rent control. Landlords may apply for rent increases through specified procedures including capital improvement applications and hardship rental increase applications.",
+      "citation": "Jersey City Municipal Code, Chapter 260",
+      "quoted_span": "The Office of Landlord Tenant Relations administers and enforces the\nRent Control Ordinance, Chapter 260\nof the Jersey City Municipal Code",
+      "key_value": null,
+      "coverage_conditions": "Properties with five or more units in Jersey City",
+      "exemptions": "All 1-4 unit properties are exempt from rent control; superintendent exemption available for buildings with 6 or more units without onsite superintendent; additional exemptions available upon application for exemption request",
+      "effective_date": null,
+      "conflict_note": null,
+      "sanctions": null,
+      "enacted_at": null,
+      "operative_date": null,
+      "end_date": null,
+      "confidence": 0.75,
+      "conflict_flag": false,
+      "logic": {
+        "coverage": {
+          "all": [
+            {
+              "fact": "legal_city",
+              "op": "eq",
+              "value": "Jersey City"
+            },
+            {
+              "fact": "unit_count",
+              "op": "gte",
+              "value": 5
+            }
+          ]
+        },
+        "exemptions": {
+          "any": [
+            {
+              "fact": "unit_count",
+              "op": "lte",
+              "value": 4
+            }
+          ]
+        }
+      },
+      "field_evidence": [
+        {
+          "field": "requirement",
+          "quoted_span": "The Office of Landlord Tenant Relations administers and enforces the\nRent Control Ordinance, Chapter 260\nof the Jersey City Municipal Code",
+          "start_char": 3043,
+          "end_char": 3181
+        },
+        {
+          "field": "coverage_conditions",
+          "quoted_span": "Five or More Unit Registration (Part 1 of 2) - Tenancy Information/Rent Roll",
+          "start_char": 5450,
+          "end_char": 5526
+        },
+        {
+          "field": "exemptions",
+          "quoted_span": "All 1-4 Unit Properties are exempt from rent control",
+          "start_char": 3975,
+          "end_char": 4027
+        }
+      ],
+      "quote_alignment": "whitespace_only",
+      "team_rule_id": "D036-r001",
+      "source_doc_id": "D036",
+      "source_url": "https://www.jerseycitynj.gov/landlordtenant",
+      "retrieved_at": "2026-10-01T22:36Z",
+      "query_date": "2026-10-01",
+      "review_status": "unreviewed",
+      "evidence": {
+        "source_doc_id": "D036",
+        "text_sha256": "f444bed30ede0905ce671ac4b9addf27feaa31c9a74ba6ba537b7f8d77e81dce",
+        "start_char": 3043,
+        "end_char": 3181,
+        "quoted_span": "The Office of Landlord Tenant Relations administers and enforces the\nRent Control Ordinance, Chapter 260\nof the Jersey City Municipal Code",
+        "retrieved_at": "2026-10-01T22:36Z",
+        "original_file": "data/sources/originals/f444bed30ede0905ce671ac4b9addf27feaa31c9a74ba6ba537b7f8d77e81dce.txt"
+      }
+    },
+    {
+      "jurisdiction": "Jersey City, NJ",
+      "level": "city",
+      "category": "rent_increase_limits",
+      "status": "in_force",
+      "title": "Landlord Applications for Rent Increases - Capital Improvement and Hardship Procedures",
+      "requirement": "Landlords of properties subject to rent control may submit applications for rent increases, including capital improvement applications and hardship rental increase applications, through the TYLER online permitting and licensing system.",
+      "citation": "Jersey City Municipal Code, Chapter 260; Office of Landlord/Tenant Relations procedures",
+      "quoted_span": "LANDLORD APPLICATION FOR RENT INCREASES\nCapital Improvement Pre-Application\nNotice of Capital Improvement Application\nto Tenants and\nCapital Improvement Application\nCapital Improvement Affidavit\nVacancy Capital Improvement Application\nVacancy Capital Improvement Affidavit\nHardship Rental Increase Application\nNotice to Tenants of Proposed Hardship Increase\nHardship Application Affidavit",
+      "key_value": null,
+      "coverage_conditions": "Properties with five or more units; applications must be submitted through TYLER online portal",
+      "exemptions": "1-4 unit properties exempt from rent control provisions",
+      "effective_date": null,
+      "conflict_note": null,
+      "sanctions": null,
+      "enacted_at": null,
+      "operative_date": null,
+      "end_date": null,
+      "confidence": 0.7,
+      "conflict_flag": false,
+      "logic": {
+        "coverage": {
+          "all": [
+            {
+              "all": [
+                {
+                  "fact": "legal_city",
+                  "op": "eq",
+                  "value": "Jersey City"
+                },
+                {
+                  "fact": "unit_count",
+                  "op": "gte",
+                  "value": 5
+                }
+              ]
+            },
+            {
+              "fact": "unresolved_legal_evidence_D036_2",
+              "op": "eq",
+              "value": true
+            }
+          ]
+        },
+        "exemptions": {
+          "any": [
+            {
+              "fact": "unit_count",
+              "op": "lte",
+              "value": 4
+            }
+          ]
+        }
+      },
+      "field_evidence": [
+        {
+          "field": "requirement",
+          "quoted_span": "LANDLORD APPLICATION FOR RENT INCREASES\nCapital Improvement Pre-Application\nNotice of Capital Improvement Application\nto Tenants and\nCapital Improvement Application",
+          "start_char": 5712,
+          "end_char": 5876
+        },
+        {
+          "field": "coverage_conditions",
+          "quoted_span": "All Landlord Applications for Rent Increases, Annual Registrations, Petitions, and Requests, must be submitted through the new\nTYLER\nportal",
+          "start_char": 4927,
+          "end_char": 5066
+        }
+      ],
+      "quote_alignment": "whitespace_only",
+      "evidence_gaps": [
+        "exemptions"
+      ],
+      "team_rule_id": "D036-r002",
+      "source_doc_id": "D036",
+      "source_url": "https://www.jerseycitynj.gov/landlordtenant",
+      "retrieved_at": "2026-10-01T22:36Z",
+      "query_date": "2026-10-01",
+      "review_status": "unreviewed",
+      "evidence": {
+        "source_doc_id": "D036",
+        "text_sha256": "f444bed30ede0905ce671ac4b9addf27feaa31c9a74ba6ba537b7f8d77e81dce",
+        "start_char": 5712,
+        "end_char": 6100,
+        "quoted_span": "LANDLORD APPLICATION FOR RENT INCREASES\nCapital Improvement Pre-Application\nNotice of Capital Improvement Application\nto Tenants and\nCapital Improvement Application\nCapital Improvement Affidavit\nVacancy Capital Improvement Application\nVacancy Capital Improvement Affidavit\nHardship Rental Increase Application\nNotice to Tenants of Proposed Hardship Increase\nHardship Application Affidavit",
+        "retrieved_at": "2026-10-01T22:36Z",
+        "original_file": "data/sources/originals/f444bed30ede0905ce671ac4b9addf27feaa31c9a74ba6ba537b7f8d77e81dce.txt"
+      }
+    }
+  ],
+  "rejected": [
+    {
+      "rule": {
+        "jurisdiction": "Jersey City, NJ",
+        "level": "city",
+        "category": "rent_increase_limits",
+        "status": "in_force",
+        "title": "Tenant Right to Challenge Illegal Rent - Illegal Rent Petition",
+        "requirement": "Tenants claiming the rent they are being charged is illegal may file an Illegal Rent Petition with the Office of Landlord/Tenant Relations, providing the landlord with a copy of the petition and all supporting documents.",
+        "citation": "Jersey City Municipal Code, Chapter 260; Office of Landlord/Tenant Relations procedures",
+        "quoted_span": "A tenant claiming the rent they are being charged is illegal may file an Illegal Rent Petition: Illegal Rent Petition The Landlord must be provided with a copy of the Petition and all documents.",
+        "key_value": null,
+        "coverage_conditions": "Tenants in properties subject to Jersey City rent control; applies to properties with five or more units",
+        "exemptions": "1-4 unit properties exempt from rent control",
+        "effective_date": null,
+        "conflict_note": null,
+        "sanctions": null,
+        "enacted_at": null,
+        "operative_date": null,
+        "end_date": null,
+        "confidence": 0.7,
+        "conflict_flag": false,
+        "logic": {
+          "coverage": {
+            "all": [
+              {
+                "fact": "legal_city",
+                "op": "eq",
+                "value": "Jersey City"
+              },
+              {
+                "fact": "unit_count",
+                "op": "gte",
+                "value": 5
+              }
+            ]
+          },
+          "exemptions": {
+            "any": [
+              {
+                "fact": "unit_count",
+                "op": "lte",
+                "value": 4
+              }
+            ]
+          }
+        },
+        "field_evidence": [
+          {
+            "field": "requirement",
+            "quoted_span": "A tenant claiming the rent they are being charged is illegal may file an Illegal Rent Petition"
+          },
+          {
+            "field": "coverage_conditions",
+            "quoted_span": "A completed Proof of Service form, Petition, and all documents are to be submitted to the Office once the Landlord has been served"
+          }
+        ]
+      },
+      "errors": [
+        "quoted_span is not exact original source substring"
+      ]
+    },
+    {
+      "rule": {
+        "jurisdiction": "Jersey City, NJ",
+        "level": "city",
+        "category": "rent_increase_limits",
+        "status": "in_force",
+        "title": "Tenant Right to Challenge Maintenance Issues - Failure to Maintain Service Petition",
+        "requirement": "A tenant seeking a rent reduction due to the conditions of the building and/or apartment may file a Failure to Maintain Service Petition with the Office of Landlord/Tenant Relations, with the landlord provided a copy of the petition and all documents.",
+        "citation": "Jersey City Municipal Code, Chapter 260; Office of Landlord/Tenant Relations procedures",
+        "quoted_span": "A tenant seeking a rent reduction due to the conditions of the building and/or apartment may file a Failure to Maintain Service Petition:\nFailure to Maintain Service Petition\nThe Landlord must be provided with a copy of the Petition and all documents.",
+        "evidence_json": "[{\"field\":\"requirement\",\"quoted_span\":\"A tenant seeking a rent reduction due to the conditions of the building and/or apartment may file a Failure to Maintain Service Petition\"},{\"field\":\"coverage_conditions\",\"quoted_span\":\"A completed Proof of Service form, Petition, and all documents are to be submitted to the Office once the Landlord has been served\"}]",
+        "key_value": null,
+        "coverage_conditions": "Tenants in properties subject to Jersey City rent control; applies to properties with five or more units",
+        "exemptions": "1-4 unit properties exempt from rent control",
+        "effective_date": null,
+        "conflict_note": null,
+        "sanctions": null,
+        "enacted_at": null,
+        "operative_date": null,
+        "end_date": null,
+        "confidence": 0.7,
+        "conflict_flag": false,
+        "logic": {},
+        "quote_alignment": "whitespace_only"
+      },
+      "errors": [
+        "invalid logic DSL"
+      ]
+    }
+  ],
+  "gaps": [
+    "Specific rent increase cap percentages (CPI adjustment formulas, fixed limits, or other numeric limits) not provided in source document",
+    "Effective date and operative date of Chapter 260 Rent Control Ordinance not specified",
+    "Sanctions and enforcement penalties for rent control violations not detailed",
+    "Just cause eviction requirements not addressed in document",
+    "Security deposit regulations not addressed in document",
+    "Application screening fees regulations not addressed in document",
+    "Screening restrictions not addressed in document",
+    "Algorithmic rent setting restrictions not addressed in document",
+    "Full text of Jersey City Municipal Code Chapter 260 needed to determine complete coverage conditions, exemptions, and procedural requirements",
+    "CPI chart referenced but specific numerical adjustment formula not provided in source document",
+    "Capital improvement and hardship increase standards and approval criteria not specified",
+    "Rent Leveling Board decision procedures and evidentiary standards not detailed"
+  ],
+  "status": "needs_review"
+}

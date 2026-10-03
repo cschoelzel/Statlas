@@ -1,0 +1,13 @@
+{
+  "doc_id": "D004",
+  "model": "claude-haiku-4-5-20251001",
+  "source_sha256": "bb1b00d69bd3ead225e5bd758bf642256df1cb89dfa4275a5699266b78df30e1",
+  "rules": [],
+  "rejected": [],
+  "gaps": [
+    "Document addresses only 2026 relocation assistance payment adjustments for owner move-in and Ellis Act evictions, effective January 1, 2026. No information provided on: rent increase limits, just cause eviction requirements, security deposit regulations, application screening fees, screening restrictions, or algorithmic rent setting. No coverage conditions, exemptions, sanctions, or conflict analysis available. Document does not establish operative legal obligations in the six required categories as of query date 2026-10-01.",
+    "Relocation assistance payments are indexed to inflation but specific statutory formula, coverage conditions (unit age, property type, exemptions), and underlying ordinance text are not provided in source. Cannot extract logic_json or full evidence without access to Rent Stabilization Ordinance, Good Cause for Eviction Ordinance, and Ellis Implementation Ordinance cited but not quoted.",
+    "Document confirms Rent Board action of October 16, 2025, with operative date January 1, 2026, but does not establish whether this constitutes new rule enactment or routine CPI adjustment under existing law. Original ordinance effective dates and any amendments not documented."
+  ],
+  "status": "needs_review"
+}

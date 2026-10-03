@@ -1,0 +1,27 @@
+[
+  {
+    "file": "sql-editor-5.png",
+    "source": "https://docs.databricks.com/aws/en/sql/user/sql-editor/",
+    "image_url": "https://docs.databricks.com/aws/en/assets/images/new-editor-toggle-19cdd1f553c2f003e5f7bdf67cf53a1e.png"
+  },
+  {
+    "file": "sql-editor-6.png",
+    "source": "https://docs.databricks.com/aws/en/sql/user/sql-editor/",
+    "image_url": "https://docs.databricks.com/aws/en/assets/images/new-editor-frame-tools-88c0adb34820959171ca4a5d94d19d38.png"
+  },
+  {
+    "file": "workspace-3.png",
+    "source": "https://docs.databricks.com/aws/en/workspace/workspace-details",
+    "image_url": "https://docs.databricks.com/aws/en/assets/images/workspace-aws-ce9af6e59d08faac258c00cb4a6b103d.png"
+  },
+  {
+    "file": "workspace-5.png",
+    "source": "https://docs.databricks.com/aws/en/workspace/workspace-details",
+    "image_url": "https://docs.databricks.com/aws/en/assets/images/aws-compute-8df60f4221ae7da2db32350f88526e01.png"
+  },
+  {
+    "file": "workspace-7.png",
+    "source": "https://docs.databricks.com/aws/en/workspace/workspace-details",
+    "image_url": "https://docs.databricks.com/aws/en/assets/images/aws-jobs-0cc5dc8dfb7a3a63c0aad5d398786e53.png"
+  }
+]

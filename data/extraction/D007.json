@@ -1,0 +1,1386 @@
+{
+  "doc_id": "D007",
+  "model": "claude-haiku-4-5-20251001",
+  "source_sha256": "2ba3028382b89ee70810a45e25dd9707297bd65512e2723f4f9bda514af57203",
+  "rules": [
+    {
+      "jurisdiction": "Berkeley, CA",
+      "level": "city",
+      "category": "security_deposits",
+      "status": "in_force",
+      "title": "Security Deposit Limit - General Landlords",
+      "requirement": "Starting July 1, 2024, landlords may only charge one month's rent for unfurnished and furnished units",
+      "citation": "Assembly Bill 12; Berkeley Rent Board Security Deposits page",
+      "quoted_span": "Starting July 1, 2024, many landlords may only charge one month's rent for unfurnished and\u00a0furnished units",
+      "key_value": "1 month rent",
+      "coverage_conditions": "Unit is furnished or unfurnished; tenancy begins on or after July 1, 2024; landlord is not exempt small owner",
+      "exemptions": "Small owner exemption: landlords who own only two rental properties with no more than four residential units total where ownership is held by natural person, family trust, or LLC with all natural person members can charge up to two months rent",
+      "effective_date": "2024-07-01",
+      "conflict_note": null,
+      "sanctions": null,
+      "enacted_at": null,
+      "operative_date": "2024-07-01",
+      "end_date": null,
+      "confidence": 0.95,
+      "conflict_flag": false,
+      "logic": {
+        "coverage": {
+          "all": [
+            {
+              "all": [
+                {
+                  "fact": "legal_city",
+                  "op": "eq",
+                  "value": "Berkeley"
+                },
+                {
+                  "fact": "state",
+                  "op": "eq",
+                  "value": "CA"
+                },
+                {
+                  "fact": "unit_furnishing",
+                  "op": "in",
+                  "value": [
+                    "furnished",
+                    "unfurnished"
+                  ]
+                },
+                {
+                  "fact": "tenancy_start_date",
+                  "op": "gte",
+                  "value": "2024-07-01"
+                }
+              ]
+            },
+            {
+              "fact": "unresolved_legal_evidence_D007_1",
+              "op": "eq",
+              "value": true
+            }
+          ]
+        },
+        "exemptions": {
+          "all": [
+            {
+              "fact": "small_owner_exemption_applicable",
+              "op": "eq",
+              "value": true
+            }
+          ]
+        }
+      },
+      "field_evidence": [
+        {
+          "field": "requirement",
+          "quoted_span": "Starting July 1, 2024, many landlords may only charge one month's rent for unfurnished and\u00a0furnished units",
+          "start_char": 406,
+          "end_char": 512
+        },
+        {
+          "field": "effective_date",
+          "quoted_span": "Starting July 1, 2024",
+          "start_char": 406,
+          "end_char": 427
+        }
+      ],
+      "quote_alignment": "whitespace_only",
+      "evidence_gaps": [
+        "coverage_conditions",
+        "exemptions"
+      ],
+      "team_rule_id": "D007-r001",
+      "source_doc_id": "D007",
+      "source_url": "https://rentboard.berkeleyca.gov/rights-responsibilities/security-deposits",
+      "retrieved_at": "2026-10-01T22:35Z",
+      "query_date": "2026-10-01",
+      "review_status": "unreviewed",
+      "evidence": {
+        "source_doc_id": "D007",
+        "text_sha256": "2ba3028382b89ee70810a45e25dd9707297bd65512e2723f4f9bda514af57203",
+        "start_char": 406,
+        "end_char": 512,
+        "quoted_span": "Starting July 1, 2024, many landlords may only charge one month's rent for unfurnished and\u00a0furnished units",
+        "retrieved_at": "2026-10-01T22:35Z",
+        "original_file": "data/sources/originals/2ba3028382b89ee70810a45e25dd9707297bd65512e2723f4f9bda514af57203.txt"
+      }
+    },
+    {
+      "jurisdiction": "Berkeley, CA",
+      "level": "city",
+      "category": "security_deposits",
+      "status": "in_force",
+      "title": "Security Deposit Limit - Small Owner Exemption",
+      "requirement": "Landlords who own only two rental properties with no more than four residential units total can charge up to two months' rent for furnished and unfurnished units if ownership is held by a natural person, family trust, or LLC where all members are natural persons",
+      "citation": "Assembly Bill 12; Berkeley Rent Board Security Deposits page",
+      "quoted_span": "Starting July 1, 2024, landlords who own only two rental properties with no more than four residential units total can charge up to two months' rent for furnished and unfurnished units if ownership is held by a natural person, family trust, or limited liability company (LLC) where all members are natural persons",
+      "key_value": "2 months rent",
+      "coverage_conditions": "Landlord owns exactly two rental properties with no more than four residential units total; ownership is natural person, family trust, or LLC with all natural person members; tenancy begins on or after July 1, 2024",
+      "exemptions": "No statutory exemptions within this category; instead this rule provides an exemption to the general one-month limit",
+      "effective_date": "2024-07-01",
+      "conflict_note": null,
+      "sanctions": null,
+      "enacted_at": null,
+      "operative_date": "2024-07-01",
+      "end_date": null,
+      "confidence": 0.95,
+      "conflict_flag": false,
+      "logic": {
+        "coverage": {
+          "all": [
+            {
+              "all": [
+                {
+                  "fact": "legal_city",
+                  "op": "eq",
+                  "value": "Berkeley"
+                },
+                {
+                  "fact": "state",
+                  "op": "eq",
+                  "value": "CA"
+                },
+                {
+                  "fact": "tenancy_start_date",
+                  "op": "gte",
+                  "value": "2024-07-01"
+                },
+                {
+                  "fact": "landlord_properties_owned",
+                  "op": "eq",
+                  "value": 2
+                },
+                {
+                  "fact": "landlord_total_units",
+                  "op": "lte",
+                  "value": 4
+                },
+                {
+                  "fact": "ownership_structure",
+                  "op": "in",
+                  "value": [
+                    "natural_person",
+                    "family_trust",
+                    "llc_natural_persons"
+                  ]
+                },
+                {
+                  "fact": "unit_furnishing",
+                  "op": "in",
+                  "value": [
+                    "furnished",
+                    "unfurnished"
+                  ]
+                }
+              ]
+            },
+            {
+              "fact": "unresolved_legal_evidence_D007_2",
+              "op": "eq",
+              "value": true
+            }
+          ]
+        },
+        "exemptions": false
+      },
+      "field_evidence": [
+        {
+          "field": "requirement",
+          "quoted_span": "landlords who own only two rental properties with no more than four residential units total can charge up to two months' rent for furnished and unfurnished units if ownership is held by a natural person, family trust, or limited liability company (LLC) where all members are natural persons",
+          "start_char": 536,
+          "end_char": 826
+        },
+        {
+          "field": "effective_date",
+          "quoted_span": "Starting July 1, 2024",
+          "start_char": 406,
+          "end_char": 427
+        },
+        {
+          "field": "coverage_conditions",
+          "quoted_span": "landlords who own only two rental properties with no more than four residential units total",
+          "start_char": 536,
+          "end_char": 627
+        }
+      ],
+      "evidence_gaps": [
+        "exemptions"
+      ],
+      "team_rule_id": "D007-r002",
+      "source_doc_id": "D007",
+      "source_url": "https://rentboard.berkeleyca.gov/rights-responsibilities/security-deposits",
+      "retrieved_at": "2026-10-01T22:35Z",
+      "query_date": "2026-10-01",
+      "review_status": "unreviewed",
+      "evidence": {
+        "source_doc_id": "D007",
+        "text_sha256": "2ba3028382b89ee70810a45e25dd9707297bd65512e2723f4f9bda514af57203",
+        "start_char": 513,
+        "end_char": 826,
+        "quoted_span": "Starting July 1, 2024, landlords who own only two rental properties with no more than four residential units total can charge up to two months' rent for furnished and unfurnished units if ownership is held by a natural person, family trust, or limited liability company (LLC) where all members are natural persons",
+        "retrieved_at": "2026-10-01T22:35Z",
+        "original_file": "data/sources/originals/2ba3028382b89ee70810a45e25dd9707297bd65512e2723f4f9bda514af57203.txt"
+      }
+    },
+    {
+      "jurisdiction": "Berkeley, CA",
+      "level": "city",
+      "category": "security_deposits",
+      "status": "not_yet_effective",
+      "title": "Pre-Tenancy Unit Photography Requirement",
+      "requirement": "For tenancies that begin on or after July 1, 2025, a landlord must photograph the unit immediately before or at the start of a new tenancy to document the condition of the unit",
+      "citation": "Berkeley Rent Board Security Deposits page",
+      "quoted_span": "For tenancies that begin on or after July 1, 2025, a landlord must photograph the unit immediately before or at the start of a new tenancy to document the condition of the unit",
+      "key_value": "photograph_before_occupancy",
+      "coverage_conditions": "Tenancies beginning on or after July 1, 2025 in Berkeley",
+      "exemptions": "None stated",
+      "effective_date": "2025-07-01",
+      "conflict_note": null,
+      "sanctions": null,
+      "enacted_at": null,
+      "operative_date": "2025-07-01",
+      "end_date": null,
+      "confidence": 0.92,
+      "conflict_flag": false,
+      "logic": {
+        "coverage": {
+          "all": [
+            {
+              "all": [
+                {
+                  "fact": "legal_city",
+                  "op": "eq",
+                  "value": "Berkeley"
+                },
+                {
+                  "fact": "state",
+                  "op": "eq",
+                  "value": "CA"
+                },
+                {
+                  "fact": "tenancy_start_date",
+                  "op": "gte",
+                  "value": "2025-07-01"
+                }
+              ]
+            },
+            {
+              "fact": "unresolved_legal_evidence_D007_5",
+              "op": "eq",
+              "value": true
+            }
+          ]
+        },
+        "exemptions": false
+      },
+      "field_evidence": [
+        {
+          "field": "requirement",
+          "quoted_span": "a landlord must photograph the unit immediately before or at the start of a new tenancy to document the condition of the unit",
+          "start_char": 1483,
+          "end_char": 1608
+        },
+        {
+          "field": "effective_date",
+          "quoted_span": "For tenancies that begin on or after July 1, 2025",
+          "start_char": 1432,
+          "end_char": 1481
+        }
+      ],
+      "evidence_gaps": [
+        "coverage_conditions",
+        "exemptions"
+      ],
+      "team_rule_id": "D007-r005",
+      "source_doc_id": "D007",
+      "source_url": "https://rentboard.berkeleyca.gov/rights-responsibilities/security-deposits",
+      "retrieved_at": "2026-10-01T22:35Z",
+      "query_date": "2026-10-01",
+      "review_status": "unreviewed",
+      "evidence": {
+        "source_doc_id": "D007",
+        "text_sha256": "2ba3028382b89ee70810a45e25dd9707297bd65512e2723f4f9bda514af57203",
+        "start_char": 1432,
+        "end_char": 1608,
+        "quoted_span": "For tenancies that begin on or after July 1, 2025, a landlord must photograph the unit immediately before or at the start of a new tenancy to document the condition of the unit",
+        "retrieved_at": "2026-10-01T22:35Z",
+        "original_file": "data/sources/originals/2ba3028382b89ee70810a45e25dd9707297bd65512e2723f4f9bda514af57203.txt"
+      }
+    },
+    {
+      "jurisdiction": "Berkeley, CA",
+      "level": "city",
+      "category": "security_deposits",
+      "status": "in_force",
+      "title": "Move-Out Walk-Through Inspection Requirement",
+      "requirement": "Landlords must offer a walk-through inspection during the last two weeks of a tenancy to identify any items that need repair/cleaning, to give tenants a chance to correct issues in order to avoid security deposit deductions",
+      "citation": "California state law; Berkeley Rent Board Security Deposits page",
+      "quoted_span": "Under state law, landlords must offer a walk-through inspection during the last two weeks of a tenancy to identify any items that need repair/cleaning",
+      "key_value": "offer_walk_through",
+      "coverage_conditions": "During last two weeks of any tenancy in Berkeley",
+      "exemptions": "None stated; however document notes many landlords do not offer this inspection",
+      "effective_date": null,
+      "conflict_note": "Document indicates this is state law requirement, not specific Berkeley ordinance",
+      "sanctions": null,
+      "enacted_at": null,
+      "operative_date": null,
+      "end_date": null,
+      "confidence": 0.88,
+      "conflict_flag": false,
+      "logic": {
+        "coverage": {
+          "all": [
+            {
+              "all": [
+                {
+                  "fact": "legal_city",
+                  "op": "eq",
+                  "value": "Berkeley"
+                },
+                {
+                  "fact": "state",
+                  "op": "eq",
+                  "value": "CA"
+                },
+                {
+                  "fact": "tenancy_stage",
+                  "op": "eq",
+                  "value": "last_two_weeks"
+                }
+              ]
+            },
+            {
+              "fact": "unresolved_legal_evidence_D007_6",
+              "op": "eq",
+              "value": true
+            }
+          ]
+        },
+        "exemptions": false
+      },
+      "field_evidence": [
+        {
+          "field": "requirement",
+          "quoted_span": "landlords must offer a walk-through inspection during the last two weeks of a tenancy to identify any items that need repair/cleaning",
+          "start_char": 1672,
+          "end_char": 1805
+        }
+      ],
+      "evidence_gaps": [
+        "coverage_conditions",
+        "exemptions"
+      ],
+      "team_rule_id": "D007-r006",
+      "source_doc_id": "D007",
+      "source_url": "https://rentboard.berkeleyca.gov/rights-responsibilities/security-deposits",
+      "retrieved_at": "2026-10-01T22:35Z",
+      "query_date": "2026-10-01",
+      "review_status": "unreviewed",
+      "evidence": {
+        "source_doc_id": "D007",
+        "text_sha256": "2ba3028382b89ee70810a45e25dd9707297bd65512e2723f4f9bda514af57203",
+        "start_char": 1655,
+        "end_char": 1805,
+        "quoted_span": "Under state law, landlords must offer a walk-through inspection during the last two weeks of a tenancy to identify any items that need repair/cleaning",
+        "retrieved_at": "2026-10-01T22:35Z",
+        "original_file": "data/sources/originals/2ba3028382b89ee70810a45e25dd9707297bd65512e2723f4f9bda514af57203.txt"
+      }
+    },
+    {
+      "jurisdiction": "Berkeley, CA",
+      "level": "city",
+      "category": "security_deposits",
+      "status": "in_force",
+      "title": "Security Deposit Return Timeline",
+      "requirement": "All or any remaining portion of a security deposit must be returned within 21 days after the tenant/s leave the unit vacant",
+      "citation": "California state law; Berkeley Rent Board Security Deposits page",
+      "quoted_span": "All or any remaining portion of a\u00a0security deposit must be returned\nwithin 21 days\nafter the tenant/s leave the unit vacant",
+      "key_value": "21 days",
+      "coverage_conditions": "Upon tenant vacating unit in Berkeley",
+      "exemptions": "None stated",
+      "effective_date": null,
+      "conflict_note": null,
+      "sanctions": null,
+      "enacted_at": null,
+      "operative_date": null,
+      "end_date": null,
+      "confidence": 0.95,
+      "conflict_flag": false,
+      "logic": {
+        "coverage": {
+          "all": [
+            {
+              "all": [
+                {
+                  "fact": "legal_city",
+                  "op": "eq",
+                  "value": "Berkeley"
+                },
+                {
+                  "fact": "state",
+                  "op": "eq",
+                  "value": "CA"
+                },
+                {
+                  "fact": "unit_vacated",
+                  "op": "eq",
+                  "value": true
+                }
+              ]
+            },
+            {
+              "fact": "unresolved_legal_evidence_D007_7",
+              "op": "eq",
+              "value": true
+            }
+          ]
+        },
+        "exemptions": false
+      },
+      "field_evidence": [
+        {
+          "field": "requirement",
+          "quoted_span": "must be returned\nwithin 21 days\nafter the tenant/s leave the unit vacant",
+          "start_char": 2959,
+          "end_char": 3031
+        }
+      ],
+      "quote_alignment": "whitespace_only",
+      "evidence_gaps": [
+        "coverage_conditions",
+        "exemptions"
+      ],
+      "team_rule_id": "D007-r007",
+      "source_doc_id": "D007",
+      "source_url": "https://rentboard.berkeleyca.gov/rights-responsibilities/security-deposits",
+      "retrieved_at": "2026-10-01T22:35Z",
+      "query_date": "2026-10-01",
+      "review_status": "unreviewed",
+      "evidence": {
+        "source_doc_id": "D007",
+        "text_sha256": "2ba3028382b89ee70810a45e25dd9707297bd65512e2723f4f9bda514af57203",
+        "start_char": 2908,
+        "end_char": 3031,
+        "quoted_span": "All or any remaining portion of a\u00a0security deposit must be returned\nwithin 21 days\nafter the tenant/s leave the unit vacant",
+        "retrieved_at": "2026-10-01T22:35Z",
+        "original_file": "data/sources/originals/2ba3028382b89ee70810a45e25dd9707297bd65512e2723f4f9bda514af57203.txt"
+      }
+    },
+    {
+      "jurisdiction": "Berkeley, CA",
+      "level": "city",
+      "category": "security_deposits",
+      "status": "in_force",
+      "title": "Itemized Security Deposit Deduction Statement Requirement",
+      "requirement": "If deductions were made, the landlord must give the tenant a written statement itemizing the amount and purpose for any security deposit deductions, accompanied by copies of documents showing charges incurred and deducted by the landlord to repair or clean the premises, including a copy of any bill, invoice, or receipt for materials or supplies deductions",
+      "citation": "California state law; Berkeley Rent Board Security Deposits page",
+      "quoted_span": "If deductions were made, the landlord must give the tenant a\u00a0written statement itemizing the amount of and and purpose for any security deposit deductions, accompanied by copies of documents showing charges incurred and deducted by the landlord to repair or clean the premises, including a copy of any bill, invoice, or receipt for materials or supplies deductions",
+      "key_value": "itemized_statement_with_documentation",
+      "coverage_conditions": "When landlord makes deductions from security deposit in Berkeley",
+      "exemptions": "None stated",
+      "effective_date": null,
+      "conflict_note": null,
+      "sanctions": null,
+      "enacted_at": null,
+      "operative_date": null,
+      "end_date": null,
+      "confidence": 0.93,
+      "conflict_flag": false,
+      "logic": {
+        "coverage": {
+          "all": [
+            {
+              "all": [
+                {
+                  "fact": "legal_city",
+                  "op": "eq",
+                  "value": "Berkeley"
+                },
+                {
+                  "fact": "state",
+                  "op": "eq",
+                  "value": "CA"
+                },
+                {
+                  "fact": "deductions_made",
+                  "op": "eq",
+                  "value": true
+                }
+              ]
+            },
+            {
+              "fact": "unresolved_legal_evidence_D007_8",
+              "op": "eq",
+              "value": true
+            }
+          ]
+        },
+        "exemptions": false
+      },
+      "field_evidence": [
+        {
+          "field": "requirement",
+          "quoted_span": "the landlord must give the tenant a\u00a0written statement itemizing the amount of and and purpose for any security deposit deductions",
+          "start_char": 3058,
+          "end_char": 3187
+        },
+        {
+          "field": "requirement",
+          "quoted_span": "accompanied by copies of documents showing charges incurred and deducted by the landlord to repair or clean the premises, including a copy of any bill, invoice, or receipt for materials or supplies deductions",
+          "start_char": 3189,
+          "end_char": 3397
+        }
+      ],
+      "quote_alignment": "whitespace_only",
+      "evidence_gaps": [
+        "coverage_conditions",
+        "exemptions"
+      ],
+      "team_rule_id": "D007-r008",
+      "source_doc_id": "D007",
+      "source_url": "https://rentboard.berkeleyca.gov/rights-responsibilities/security-deposits",
+      "retrieved_at": "2026-10-01T22:35Z",
+      "query_date": "2026-10-01",
+      "review_status": "unreviewed",
+      "evidence": {
+        "source_doc_id": "D007",
+        "text_sha256": "2ba3028382b89ee70810a45e25dd9707297bd65512e2723f4f9bda514af57203",
+        "start_char": 3033,
+        "end_char": 3397,
+        "quoted_span": "If deductions were made, the landlord must give the tenant a\u00a0written statement itemizing the amount of and and purpose for any security deposit deductions, accompanied by copies of documents showing charges incurred and deducted by the landlord to repair or clean the premises, including a copy of any bill, invoice, or receipt for materials or supplies deductions",
+        "retrieved_at": "2026-10-01T22:35Z",
+        "original_file": "data/sources/originals/2ba3028382b89ee70810a45e25dd9707297bd65512e2723f4f9bda514af57203.txt"
+      }
+    },
+    {
+      "jurisdiction": "Berkeley, CA",
+      "level": "city",
+      "category": "security_deposits",
+      "status": "not_yet_effective",
+      "title": "Proof of Completed Repairs Requirement",
+      "requirement": "Starting January 1, 2025, landlords must provide proof that necessary repairs were completed",
+      "citation": "Berkeley Rent Board Security Deposits page",
+      "quoted_span": "Starting January 1, 2025, landlords must provide proof that necessary repairs were completed",
+      "key_value": "proof_of_repairs",
+      "coverage_conditions": "For security deposit returns on or after January 1, 2025 when repairs are deducted in Berkeley",
+      "exemptions": "None stated",
+      "effective_date": "2025-01-01",
+      "conflict_note": null,
+      "sanctions": null,
+      "enacted_at": null,
+      "operative_date": "2025-01-01",
+      "end_date": null,
+      "confidence": 0.9,
+      "conflict_flag": false,
+      "logic": {
+        "coverage": {
+          "all": [
+            {
+              "all": [
+                {
+                  "fact": "legal_city",
+                  "op": "eq",
+                  "value": "Berkeley"
+                },
+                {
+                  "fact": "state",
+                  "op": "eq",
+                  "value": "CA"
+                },
+                {
+                  "fact": "security_deposit_return_date",
+                  "op": "gte",
+                  "value": "2025-01-01"
+                },
+                {
+                  "fact": "repairs_deducted",
+                  "op": "eq",
+                  "value": true
+                }
+              ]
+            },
+            {
+              "fact": "unresolved_legal_evidence_D007_9",
+              "op": "eq",
+              "value": true
+            }
+          ]
+        },
+        "exemptions": false
+      },
+      "field_evidence": [
+        {
+          "field": "requirement",
+          "quoted_span": "landlords must provide proof that necessary repairs were completed",
+          "start_char": 3502,
+          "end_char": 3568
+        },
+        {
+          "field": "effective_date",
+          "quoted_span": "Starting January 1, 2025",
+          "start_char": 3476,
+          "end_char": 3500
+        }
+      ],
+      "evidence_gaps": [
+        "coverage_conditions",
+        "exemptions"
+      ],
+      "team_rule_id": "D007-r009",
+      "source_doc_id": "D007",
+      "source_url": "https://rentboard.berkeleyca.gov/rights-responsibilities/security-deposits",
+      "retrieved_at": "2026-10-01T22:35Z",
+      "query_date": "2026-10-01",
+      "review_status": "unreviewed",
+      "evidence": {
+        "source_doc_id": "D007",
+        "text_sha256": "2ba3028382b89ee70810a45e25dd9707297bd65512e2723f4f9bda514af57203",
+        "start_char": 3476,
+        "end_char": 3568,
+        "quoted_span": "Starting January 1, 2025, landlords must provide proof that necessary repairs were completed",
+        "retrieved_at": "2026-10-01T22:35Z",
+        "original_file": "data/sources/originals/2ba3028382b89ee70810a45e25dd9707297bd65512e2723f4f9bda514af57203.txt"
+      }
+    },
+    {
+      "jurisdiction": "Berkeley, CA",
+      "level": "city",
+      "category": "security_deposits",
+      "status": "not_yet_effective",
+      "title": "Post-Possession Unit Photography Requirement for Deductions",
+      "requirement": "Starting April 1, 2025, landlords must take photographs of a unit after regaining possession, but before any repairs or cleaning for which the landlord intends to make a deduction from the security deposit. These photos and a written explanation of the cost of the repairs/cleaning must be given to the tenant along with the itemized statement",
+      "citation": "Berkeley Rent Board Security Deposits page",
+      "quoted_span": "Starting April 1, 2025, landlords must take photographs of a unit after regaining possession, but before any repairs or cleaning for which the landlord intends to make a deduction from the security deposit. These photos and a written explanation of the cost of the repairs/cleaning must be given to the tenant along with the itemized statement",
+      "key_value": "post_possession_photos",
+      "coverage_conditions": "For security deposit returns on or after April 1, 2025 when repairs or cleaning deductions are made in Berkeley",
+      "exemptions": "None stated",
+      "effective_date": "2025-04-01",
+      "conflict_note": null,
+      "sanctions": null,
+      "enacted_at": null,
+      "operative_date": "2025-04-01",
+      "end_date": null,
+      "confidence": 0.92,
+      "conflict_flag": false,
+      "logic": {
+        "coverage": {
+          "all": [
+            {
+              "all": [
+                {
+                  "fact": "legal_city",
+                  "op": "eq",
+                  "value": "Berkeley"
+                },
+                {
+                  "fact": "state",
+                  "op": "eq",
+                  "value": "CA"
+                },
+                {
+                  "fact": "security_deposit_return_date",
+                  "op": "gte",
+                  "value": "2025-04-01"
+                },
+                {
+                  "fact": "repairs_or_cleaning_deducted",
+                  "op": "eq",
+                  "value": true
+                }
+              ]
+            },
+            {
+              "fact": "unresolved_legal_evidence_D007_10",
+              "op": "eq",
+              "value": true
+            }
+          ]
+        },
+        "exemptions": false
+      },
+      "field_evidence": [
+        {
+          "field": "requirement",
+          "quoted_span": "landlords must take photographs of a unit after regaining possession, but before any repairs or cleaning for which the landlord intends to make a deduction",
+          "start_char": 3594,
+          "end_char": 3749
+        },
+        {
+          "field": "requirement",
+          "quoted_span": "These photos and a written explanation of the cost of the repairs/cleaning must be given to the tenant along with the itemized statement",
+          "start_char": 3777,
+          "end_char": 3913
+        },
+        {
+          "field": "effective_date",
+          "quoted_span": "Starting April 1, 2025",
+          "start_char": 3570,
+          "end_char": 3592
+        }
+      ],
+      "evidence_gaps": [
+        "coverage_conditions",
+        "exemptions"
+      ],
+      "team_rule_id": "D007-r010",
+      "source_doc_id": "D007",
+      "source_url": "https://rentboard.berkeleyca.gov/rights-responsibilities/security-deposits",
+      "retrieved_at": "2026-10-01T22:35Z",
+      "query_date": "2026-10-01",
+      "review_status": "unreviewed",
+      "evidence": {
+        "source_doc_id": "D007",
+        "text_sha256": "2ba3028382b89ee70810a45e25dd9707297bd65512e2723f4f9bda514af57203",
+        "start_char": 3570,
+        "end_char": 3913,
+        "quoted_span": "Starting April 1, 2025, landlords must take photographs of a unit after regaining possession, but before any repairs or cleaning for which the landlord intends to make a deduction from the security deposit. These photos and a written explanation of the cost of the repairs/cleaning must be given to the tenant along with the itemized statement",
+        "retrieved_at": "2026-10-01T22:35Z",
+        "original_file": "data/sources/originals/2ba3028382b89ee70810a45e25dd9707297bd65512e2723f4f9bda514af57203.txt"
+      }
+    },
+    {
+      "jurisdiction": "Berkeley, CA",
+      "level": "city",
+      "category": "security_deposits",
+      "status": "in_force",
+      "title": "Permissible Security Deposit Deductions - Rent Default",
+      "requirement": "A landlord may deduct only the amount that is reasonably necessary to cover rent default",
+      "citation": "California state law; Berkeley Rent Board Security Deposits page",
+      "quoted_span": "A landlord may deduct only the amount that is reasonably necessary to:\nCover rent default",
+      "key_value": "rent_default_deductible",
+      "coverage_conditions": "When tenant has defaulted on rent in Berkeley",
+      "exemptions": "None stated",
+      "effective_date": null,
+      "conflict_note": null,
+      "sanctions": null,
+      "enacted_at": null,
+      "operative_date": null,
+      "end_date": null,
+      "confidence": 0.9,
+      "conflict_flag": false,
+      "logic": {
+        "coverage": {
+          "all": [
+            {
+              "all": [
+                {
+                  "fact": "legal_city",
+                  "op": "eq",
+                  "value": "Berkeley"
+                },
+                {
+                  "fact": "state",
+                  "op": "eq",
+                  "value": "CA"
+                },
+                {
+                  "fact": "deduction_reason",
+                  "op": "eq",
+                  "value": "rent_default"
+                }
+              ]
+            },
+            {
+              "fact": "unresolved_legal_evidence_D007_11",
+              "op": "eq",
+              "value": true
+            }
+          ]
+        },
+        "exemptions": false
+      },
+      "field_evidence": [
+        {
+          "field": "requirement",
+          "quoted_span": "A landlord may deduct only the amount that is reasonably necessary to:\nCover rent default",
+          "start_char": 2096,
+          "end_char": 2185
+        }
+      ],
+      "quote_alignment": "whitespace_only",
+      "evidence_gaps": [
+        "coverage_conditions",
+        "exemptions"
+      ],
+      "team_rule_id": "D007-r011",
+      "source_doc_id": "D007",
+      "source_url": "https://rentboard.berkeleyca.gov/rights-responsibilities/security-deposits",
+      "retrieved_at": "2026-10-01T22:35Z",
+      "query_date": "2026-10-01",
+      "review_status": "unreviewed",
+      "evidence": {
+        "source_doc_id": "D007",
+        "text_sha256": "2ba3028382b89ee70810a45e25dd9707297bd65512e2723f4f9bda514af57203",
+        "start_char": 2096,
+        "end_char": 2185,
+        "quoted_span": "A landlord may deduct only the amount that is reasonably necessary to:\nCover rent default",
+        "retrieved_at": "2026-10-01T22:35Z",
+        "original_file": "data/sources/originals/2ba3028382b89ee70810a45e25dd9707297bd65512e2723f4f9bda514af57203.txt"
+      }
+    },
+    {
+      "jurisdiction": "Berkeley, CA",
+      "level": "city",
+      "category": "security_deposits",
+      "status": "in_force",
+      "title": "Permissible Security Deposit Deductions - Tenant Damage",
+      "requirement": "A landlord may deduct only the amount that is reasonably necessary to repair damages caused by a tenant or a tenant's guest other than normal wear and tear",
+      "citation": "California state law; Berkeley Rent Board Security Deposits page",
+      "quoted_span": "Repair damages caused by a tenant or a tenant's guest other than normal wear and tear",
+      "key_value": "damage_deductible",
+      "coverage_conditions": "When tenant or guest caused damage exceeding normal wear and tear in Berkeley",
+      "exemptions": "None stated; normal wear and tear is excluded from deductible damages",
+      "effective_date": null,
+      "conflict_note": null,
+      "sanctions": null,
+      "enacted_at": null,
+      "operative_date": null,
+      "end_date": null,
+      "confidence": 0.93,
+      "conflict_flag": false,
+      "logic": {
+        "coverage": {
+          "all": [
+            {
+              "all": [
+                {
+                  "fact": "legal_city",
+                  "op": "eq",
+                  "value": "Berkeley"
+                },
+                {
+                  "fact": "state",
+                  "op": "eq",
+                  "value": "CA"
+                },
+                {
+                  "fact": "deduction_reason",
+                  "op": "eq",
+                  "value": "tenant_caused_damage"
+                },
+                {
+                  "fact": "damage_type",
+                  "op": "ne",
+                  "value": "normal_wear_and_tear"
+                }
+              ]
+            },
+            {
+              "fact": "unresolved_legal_evidence_D007_12",
+              "op": "eq",
+              "value": true
+            }
+          ]
+        },
+        "exemptions": false
+      },
+      "field_evidence": [
+        {
+          "field": "requirement",
+          "quoted_span": "Repair damages caused by a tenant or a tenant's guest other than normal wear and tear",
+          "start_char": 2186,
+          "end_char": 2271
+        }
+      ],
+      "evidence_gaps": [
+        "coverage_conditions",
+        "exemptions"
+      ],
+      "team_rule_id": "D007-r012",
+      "source_doc_id": "D007",
+      "source_url": "https://rentboard.berkeleyca.gov/rights-responsibilities/security-deposits",
+      "retrieved_at": "2026-10-01T22:35Z",
+      "query_date": "2026-10-01",
+      "review_status": "unreviewed",
+      "evidence": {
+        "source_doc_id": "D007",
+        "text_sha256": "2ba3028382b89ee70810a45e25dd9707297bd65512e2723f4f9bda514af57203",
+        "start_char": 2186,
+        "end_char": 2271,
+        "quoted_span": "Repair damages caused by a tenant or a tenant's guest other than normal wear and tear",
+        "retrieved_at": "2026-10-01T22:35Z",
+        "original_file": "data/sources/originals/2ba3028382b89ee70810a45e25dd9707297bd65512e2723f4f9bda514af57203.txt"
+      }
+    },
+    {
+      "jurisdiction": "Berkeley, CA",
+      "level": "city",
+      "category": "security_deposits",
+      "status": "in_force",
+      "title": "Permissible Security Deposit Deductions - Cleaning",
+      "requirement": "A landlord may deduct only the amount that is reasonably necessary to clean the unit to return it to the same level of cleanliness as at the start of the tenancy (for tenancies beginning after January 1, 2003)",
+      "citation": "California state law; Berkeley Rent Board Security Deposits page",
+      "quoted_span": "Clean the unit to return it to the same level of cleanliness as at the start of the tenancy (for tenancies beginning after January 1, 2003)",
+      "key_value": "cleaning_deductible",
+      "coverage_conditions": "For tenancies beginning after January 1, 2003 in Berkeley",
+      "exemptions": "None stated; only applies to tenancies after January 1, 2003",
+      "effective_date": null,
+      "conflict_note": null,
+      "sanctions": null,
+      "enacted_at": null,
+      "operative_date": null,
+      "end_date": null,
+      "confidence": 0.92,
+      "conflict_flag": false,
+      "logic": {
+        "coverage": {
+          "all": [
+            {
+              "all": [
+                {
+                  "fact": "legal_city",
+                  "op": "eq",
+                  "value": "Berkeley"
+                },
+                {
+                  "fact": "state",
+                  "op": "eq",
+                  "value": "CA"
+                },
+                {
+                  "fact": "tenancy_start_date",
+                  "op": "gte",
+                  "value": "2003-01-01"
+                },
+                {
+                  "fact": "deduction_reason",
+                  "op": "eq",
+                  "value": "cleaning"
+                }
+              ]
+            },
+            {
+              "fact": "unresolved_legal_evidence_D007_13",
+              "op": "eq",
+              "value": true
+            }
+          ]
+        },
+        "exemptions": false
+      },
+      "field_evidence": [
+        {
+          "field": "requirement",
+          "quoted_span": "Clean the unit to return it to the same level of cleanliness as at the start of the tenancy (for tenancies beginning after January 1, 2003)",
+          "start_char": 2272,
+          "end_char": 2411
+        },
+        {
+          "field": "coverage_conditions",
+          "quoted_span": "for tenancies beginning after January 1, 2003",
+          "start_char": 2365,
+          "end_char": 2410
+        }
+      ],
+      "evidence_gaps": [
+        "exemptions"
+      ],
+      "team_rule_id": "D007-r013",
+      "source_doc_id": "D007",
+      "source_url": "https://rentboard.berkeleyca.gov/rights-responsibilities/security-deposits",
+      "retrieved_at": "2026-10-01T22:35Z",
+      "query_date": "2026-10-01",
+      "review_status": "unreviewed",
+      "evidence": {
+        "source_doc_id": "D007",
+        "text_sha256": "2ba3028382b89ee70810a45e25dd9707297bd65512e2723f4f9bda514af57203",
+        "start_char": 2272,
+        "end_char": 2411,
+        "quoted_span": "Clean the unit to return it to the same level of cleanliness as at the start of the tenancy (for tenancies beginning after January 1, 2003)",
+        "retrieved_at": "2026-10-01T22:35Z",
+        "original_file": "data/sources/originals/2ba3028382b89ee70810a45e25dd9707297bd65512e2723f4f9bda514af57203.txt"
+      }
+    },
+    {
+      "jurisdiction": "Berkeley, CA",
+      "level": "city",
+      "category": "security_deposits",
+      "status": "in_force",
+      "title": "Permissible Security Deposit Deductions - Personal Property and Furniture",
+      "requirement": "If allowed by the lease, a landlord may deduct to cover the cost of restoring or replacing personal property (including keys) or furniture, excluding ordinary wear and tear",
+      "citation": "California state law; Berkeley Rent Board Security Deposits page",
+      "quoted_span": "If allowed by the lease, cover the cost of restoring or replacing personal property (including keys) or furniture, excluding ordinary wear and tear",
+      "key_value": "personal_property_deductible",
+      "coverage_conditions": "When lease allows such deductions and wear exceeds ordinary in Berkeley",
+      "exemptions": "Ordinary wear and tear excluded; deduction must be allowed by lease",
+      "effective_date": null,
+      "conflict_note": null,
+      "sanctions": null,
+      "enacted_at": null,
+      "operative_date": null,
+      "end_date": null,
+      "confidence": 0.91,
+      "conflict_flag": false,
+      "logic": {
+        "coverage": {
+          "all": [
+            {
+              "all": [
+                {
+                  "fact": "legal_city",
+                  "op": "eq",
+                  "value": "Berkeley"
+                },
+                {
+                  "fact": "state",
+                  "op": "eq",
+                  "value": "CA"
+                },
+                {
+                  "fact": "lease_allows_deduction",
+                  "op": "eq",
+                  "value": true
+                },
+                {
+                  "fact": "deduction_reason",
+                  "op": "in",
+                  "value": [
+                    "personal_property_restoration",
+                    "furniture_restoration",
+                    "keys_replacement"
+                  ]
+                },
+                {
+                  "fact": "damage_type",
+                  "op": "ne",
+                  "value": "ordinary_wear_and_tear"
+                }
+              ]
+            },
+            {
+              "fact": "unresolved_legal_evidence_D007_14",
+              "op": "eq",
+              "value": true
+            }
+          ]
+        },
+        "exemptions": false
+      },
+      "field_evidence": [
+        {
+          "field": "requirement",
+          "quoted_span": "If allowed by the lease, cover the cost of restoring or replacing personal property (including keys) or furniture, excluding ordinary wear and tear",
+          "start_char": 2412,
+          "end_char": 2559
+        }
+      ],
+      "evidence_gaps": [
+        "coverage_conditions",
+        "exemptions"
+      ],
+      "team_rule_id": "D007-r014",
+      "source_doc_id": "D007",
+      "source_url": "https://rentboard.berkeleyca.gov/rights-responsibilities/security-deposits",
+      "retrieved_at": "2026-10-01T22:35Z",
+      "query_date": "2026-10-01",
+      "review_status": "unreviewed",
+      "evidence": {
+        "source_doc_id": "D007",
+        "text_sha256": "2ba3028382b89ee70810a45e25dd9707297bd65512e2723f4f9bda514af57203",
+        "start_char": 2412,
+        "end_char": 2559,
+        "quoted_span": "If allowed by the lease, cover the cost of restoring or replacing personal property (including keys) or furniture, excluding ordinary wear and tear",
+        "retrieved_at": "2026-10-01T22:35Z",
+        "original_file": "data/sources/originals/2ba3028382b89ee70810a45e25dd9707297bd65512e2723f4f9bda514af57203.txt"
+      }
+    },
+    {
+      "jurisdiction": "Berkeley, CA",
+      "level": "city",
+      "category": "security_deposits",
+      "status": "in_force",
+      "title": "Professional Cleaning Services Restriction",
+      "requirement": "The landlord cannot require a tenant to pay for, or assert a claim against the tenant or the security deposit for professional carpet cleaning or other professional cleaning services, unless reasonably necessary to return the premises to the condition it was in at the start of the tenancy, minus ordinary wear and tear",
+      "citation": "California state law; Berkeley Rent Board Security Deposits page",
+      "quoted_span": "The landlord cannot require a tenant to pay for, or assert a claim against the tenant or the security deposit for professional carpet cleaning or other professional cleaning services, unless reasonably necessary to return the premises to the condition it was in at the start of the tenancy, minus ordinary wear and tear",
+      "key_value": "professional_cleaning_prohibited",
+      "coverage_conditions": "All tenancies in Berkeley",
+      "exemptions": "Exception: professional cleaning deductions allowed if reasonably necessary to restore premises to starting condition minus ordinary wear and tear",
+      "effective_date": null,
+      "conflict_note": null,
+      "sanctions": null,
+      "enacted_at": null,
+      "operative_date": null,
+      "end_date": null,
+      "confidence": 0.93,
+      "conflict_flag": false,
+      "logic": {
+        "coverage": {
+          "all": [
+            {
+              "all": [
+                {
+                  "fact": "legal_city",
+                  "op": "eq",
+                  "value": "Berkeley"
+                },
+                {
+                  "fact": "state",
+                  "op": "eq",
+                  "value": "CA"
+                },
+                {
+                  "fact": "cleaning_type",
+                  "op": "in",
+                  "value": [
+                    "professional_carpet_cleaning",
+                    "professional_cleaning_services"
+                  ]
+                }
+              ]
+            },
+            {
+              "fact": "unresolved_legal_evidence_D007_15",
+              "op": "eq",
+              "value": true
+            }
+          ]
+        },
+        "exemptions": {
+          "all": [
+            {
+              "fact": "cleaning_reasonably_necessary",
+              "op": "eq",
+              "value": true
+            },
+            {
+              "fact": "condition_exceeds_ordinary_wear",
+              "op": "eq",
+              "value": true
+            }
+          ]
+        }
+      },
+      "field_evidence": [
+        {
+          "field": "requirement",
+          "quoted_span": "The landlord cannot require a tenant to pay for, or assert a claim against the tenant or the security deposit for professional carpet cleaning or other professional cleaning services",
+          "start_char": 2560,
+          "end_char": 2742
+        },
+        {
+          "field": "exemptions",
+          "quoted_span": "unless reasonably necessary to return the premises to the condition it was in at the start of the tenancy, minus ordinary wear and tear",
+          "start_char": 2744,
+          "end_char": 2879
+        }
+      ],
+      "evidence_gaps": [
+        "coverage_conditions"
+      ],
+      "team_rule_id": "D007-r015",
+      "source_doc_id": "D007",
+      "source_url": "https://rentboard.berkeleyca.gov/rights-responsibilities/security-deposits",
+      "retrieved_at": "2026-10-01T22:35Z",
+      "query_date": "2026-10-01",
+      "review_status": "unreviewed",
+      "evidence": {
+        "source_doc_id": "D007",
+        "text_sha256": "2ba3028382b89ee70810a45e25dd9707297bd65512e2723f4f9bda514af57203",
+        "start_char": 2560,
+        "end_char": 2879,
+        "quoted_span": "The landlord cannot require a tenant to pay for, or assert a claim against the tenant or the security deposit for professional carpet cleaning or other professional cleaning services, unless reasonably necessary to return the premises to the condition it was in at the start of the tenancy, minus ordinary wear and tear",
+        "retrieved_at": "2026-10-01T22:35Z",
+        "original_file": "data/sources/originals/2ba3028382b89ee70810a45e25dd9707297bd65512e2723f4f9bda514af57203.txt"
+      }
+    },
+    {
+      "jurisdiction": "Berkeley, CA",
+      "level": "city",
+      "category": "security_deposits",
+      "status": "in_force",
+      "title": "Security Deposit Interest Requirement",
+      "requirement": "For tenancies in units fully or partially covered by Berkeley's Rent Ordinance, landlords must pay tenants interest on their security deposit at the end of each year and a prorated amount if the tenant moves out before the end of the year",
+      "citation": "Berkeley Rent Ordinance; Berkeley Rent Board Security Deposits page",
+      "quoted_span": "For tenancies in units fully or partially covered by Berkeley's Rent Ordinance, landlords must pay tenants interest on their security deposit at the end of each year and a prorated amount if the tenant moves out before the end of the year",
+      "key_value": "annual_interest_required",
+      "coverage_conditions": "Tenancies in units fully or partially covered by Berkeley Rent Ordinance",
+      "exemptions": "Units not covered by Berkeley Rent Ordinance; document indicates interest requirement is specific to rent-controlled units",
+      "effective_date": null,
+      "conflict_note": "Coverage dependent on unit's status under Berkeley Rent Ordinance; interest rate and calculation not specified in document",
+      "sanctions": null,
+      "enacted_at": null,
+      "operative_date": null,
+      "end_date": null,
+      "confidence": 0.88,
+      "conflict_flag": false,
+      "logic": {
+        "coverage": {
+          "all": [
+            {
+              "all": [
+                {
+                  "fact": "legal_city",
+                  "op": "eq",
+                  "value": "Berkeley"
+                },
+                {
+                  "fact": "unit_covered_by_rent_ordinance",
+                  "op": "in",
+                  "value": [
+                    "fully_covered",
+                    "partially_covered"
+                  ]
+                }
+              ]
+            },
+            {
+              "fact": "unresolved_legal_evidence_D007_16",
+              "op": "eq",
+              "value": true
+            }
+          ]
+        },
+        "exemptions": {
+          "fact": "unit_not_covered_by_rent_ordinance",
+          "op": "eq",
+          "value": true
+        }
+      },
+      "field_evidence": [
+        {
+          "field": "requirement",
+          "quoted_span": "landlords must pay tenants interest on their security deposit at the end of each year and a prorated amount if the tenant moves out before the end of the year",
+          "start_char": 4021,
+          "end_char": 4179
+        },
+        {
+          "field": "coverage_conditions",
+          "quoted_span": "For tenancies in units fully or partially covered by Berkeley's Rent Ordinance",
+          "start_char": 3941,
+          "end_char": 4019
+        }
+      ],
+      "evidence_gaps": [
+        "exemptions"
+      ],
+      "team_rule_id": "D007-r016",
+      "source_doc_id": "D007",
+      "source_url": "https://rentboard.berkeleyca.gov/rights-responsibilities/security-deposits",
+      "retrieved_at": "2026-10-01T22:35Z",
+      "query_date": "2026-10-01",
+      "review_status": "unreviewed",
+      "evidence": {
+        "source_doc_id": "D007",
+        "text_sha256": "2ba3028382b89ee70810a45e25dd9707297bd65512e2723f4f9bda514af57203",
+        "start_char": 3941,
+        "end_char": 4179,
+        "quoted_span": "For tenancies in units fully or partially covered by Berkeley's Rent Ordinance, landlords must pay tenants interest on their security deposit at the end of each year and a prorated amount if the tenant moves out before the end of the year",
+        "retrieved_at": "2026-10-01T22:35Z",
+        "original_file": "data/sources/originals/2ba3028382b89ee70810a45e25dd9707297bd65512e2723f4f9bda514af57203.txt"
+      }
+    }
+  ],
+  "rejected": [
+    {
+      "rule": {
+        "jurisdiction": "Berkeley, CA",
+        "level": "city",
+        "category": "security_deposits",
+        "status": "in_force",
+        "title": "Last Month's Rent as Part of Security Deposit",
+        "requirement": "Last month's rent IS considered part of the security deposit",
+        "citation": "Berkeley Rent Board Security Deposits page",
+        "quoted_span": "Last month's rent IS considered part of the security deposit",
+        "key_value": "last_month_rent_included",
+        "coverage_conditions": "All tenancies in Berkeley",
+        "exemptions": "None stated",
+        "effective_date": null,
+        "conflict_note": null,
+        "sanctions": null,
+        "enacted_at": null,
+        "operative_date": null,
+        "end_date": null,
+        "confidence": 0.9,
+        "conflict_flag": false,
+        "logic": {
+          "coverage": {
+            "all": [
+              {
+                "fact": "legal_city",
+                "op": "eq",
+                "value": "Berkeley"
+              },
+              {
+                "fact": "state",
+                "op": "eq",
+                "value": "CA"
+              }
+            ]
+          },
+          "exemptions": false
+        },
+        "field_evidence": [
+          {
+            "field": "requirement",
+            "quoted_span": "Last month's rent IS considered part of the security deposit"
+          }
+        ]
+      },
+      "errors": [
+        "quoted_span is not exact original source substring"
+      ]
+    },
+    {
+      "rule": {
+        "jurisdiction": "Berkeley, CA",
+        "level": "city",
+        "category": "security_deposits",
+        "status": "in_force",
+        "title": "First Month's Rent Exclusion from Security Deposit",
+        "requirement": "First month's rent is NOT considered part of the security deposit",
+        "citation": "Berkeley Rent Board Security Deposits page",
+        "quoted_span": "First month's rent is NOT considered part of the security deposit",
+        "key_value": "first_month_rent_excluded",
+        "coverage_conditions": "All tenancies in Berkeley",
+        "exemptions": "None stated",
+        "effective_date": null,
+        "conflict_note": null,
+        "sanctions": null,
+        "enacted_at": null,
+        "operative_date": null,
+        "end_date": null,
+        "confidence": 0.9,
+        "conflict_flag": false,
+        "logic": {
+          "coverage": {
+            "all": [
+              {
+                "fact": "legal_city",
+                "op": "eq",
+                "value": "Berkeley"
+              },
+              {
+                "fact": "state",
+                "op": "eq",
+                "value": "CA"
+              }
+            ]
+          },
+          "exemptions": false
+        },
+        "field_evidence": [
+          {
+            "field": "requirement",
+            "quoted_span": "First month's rent is NOT considered part of the security deposit"
+          }
+        ]
+      },
+      "errors": [
+        "quoted_span is not exact original source substring"
+      ]
+    }
+  ],
+  "gaps": [
+    "Interest rate or formula for security deposit interest calculation not specified in source document",
+    "Effective date for security deposit limit changes (July 1, 2024) retroactive application to existing tenancies not addressed",
+    "Whether AB 12 state law preempts any Berkeley local ordinance provisions not explicitly addressed",
+    "Citation to specific Berkeley Rent Ordinance sections or California Civil Code sections not provided",
+    "Small owner exemption definition and verification procedures not detailed",
+    "Detailed procedures for dispute resolution of deductions claims not provided in document",
+    "Whether units not covered by Berkeley Rent Ordinance have different security deposit rules",
+    "Remedies and penalties for landlord non-compliance with return timeline or documentation requirements not specified",
+    "Calculation methodology for prorated interest for mid-year tenant move-outs not detailed"
+  ],
+  "status": "needs_review"
+}

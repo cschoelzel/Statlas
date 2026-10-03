@@ -1,0 +1,1431 @@
+{
+  "doc_id": "D073",
+  "model": "claude-haiku-4-5-20251001",
+  "source_sha256": "d1d4b9874a7c4b51a97cb81809e9ece2658f0f9e52898d904f90d48f3c1a140b",
+  "rules": [
+    {
+      "jurisdiction": "San Diego",
+      "level": "city",
+      "category": "just_cause_eviction",
+      "status": "in_force",
+      "title": "Just Cause Required for Termination of Tenancy",
+      "requirement": "A landlord shall not terminate a tenancy without just cause. Just cause includes at-fault just cause (default in rent payment, breach of material lease term, nuisance, waste, refusal to execute lease renewal, criminal activity, criminal threat, unauthorized assignment or sublet, refusal to allow entry, unlawful purpose use, failure to vacate as employee/agent/licensee, failure to deliver possession) and no-fault just cause (owner occupancy for 12+ months as primary residence, withdrawal from rental market, compliance with government habitability orders requiring 30+ day vacation, demolition or substantial remodel).",
+      "citation": "San Diego Municipal Code \u00a798.0704",
+      "quoted_span": "A landlord shall not terminate a tenancy without just cause. For purposes of this \nDivision, just cause includes at-fault just cause and no-fault just cause.",
+      "key_value": null,
+      "coverage_conditions": "Applies to residential rental property in San Diego for tenancies exceeding 30 days that are not exempted. Exemptions include transient/tourist hotels, short-term occupancy, deed-restricted affordable housing, subsidized affordable housing (except Section 8), mobilehomes under Mobilehome Residency Law, institutional housing, properties with shared facilities with landlord, landlord-occupied single-family residences with limited rentals, two-unit properties with landlord-occupied units, and properties with certificate of occupancy within 15 years.",
+      "exemptions": "Transient and tourist hotel occupancy; short-term residential occupancy (Chapter 5, Article 10, Division 1); deed-restricted affordable housing; housing with subsidies for very low/low/moderate income (excluding Section 8); mobilehomes subject to Mobilehome Residency Law; nonprofit hospital, religious facility, extended care facility, licensed residential care facility for elderly, adult residential facility, non-profit transitional housing; dormitories of educational institutions; properties where tenant shares bathroom or kitchen with landlord-occupant; single-family residence occupied by landlord as principal residence (including up to 2 bedrooms, 2 ADUs, or 2 JADUs, or mobilehome); two-unit structure with landlord in one unit; housing with certificate of occupancy within previous 15 years (unless mobilehome); alienable separate dwelling units if landlord is not REIT, corporation, LLC with corporate member, or mobilehome park management, with written notice requirement.",
+      "effective_date": "2023-06-24",
+      "conflict_note": null,
+      "sanctions": "Wrongful eviction damages of not less than three times actual economic damages; tenant may seek injunctive relief, equitable relief, punitive damages; void notice of termination for failure to comply; reasonable attorney's fees and costs at court's discretion for material violations; retaliation liability.",
+      "enacted_at": "2023-05-25",
+      "operative_date": "2023-06-24",
+      "end_date": null,
+      "confidence": 0.95,
+      "conflict_flag": false,
+      "logic": {
+        "coverage": {
+          "all": [
+            {
+              "all": [
+                {
+                  "fact": "legal_city",
+                  "op": "eq",
+                  "value": "San Diego"
+                },
+                {
+                  "fact": "residential_rental_property",
+                  "op": "eq",
+                  "value": true
+                },
+                {
+                  "fact": "tenancy_duration_exceeds_30_days",
+                  "op": "eq",
+                  "value": true
+                },
+                {
+                  "fact": "not_transient_tourist_hotel",
+                  "op": "eq",
+                  "value": true
+                },
+                {
+                  "fact": "not_short_term_occupancy",
+                  "op": "eq",
+                  "value": true
+                },
+                {
+                  "fact": "not_subsidized_affordable_housing",
+                  "op": "eq",
+                  "value": true
+                },
+                {
+                  "fact": "not_mobilehome_residency_law",
+                  "op": "eq",
+                  "value": true
+                },
+                {
+                  "fact": "not_institutional_housing",
+                  "op": "eq",
+                  "value": true
+                },
+                {
+                  "fact": "not_shared_facilities_with_landlord",
+                  "op": "eq",
+                  "value": true
+                },
+                {
+                  "fact": "not_landlord_occupied_single_family",
+                  "op": "eq",
+                  "value": true
+                },
+                {
+                  "fact": "not_two_unit_landlord_occupied",
+                  "op": "eq",
+                  "value": true
+                },
+                {
+                  "fact": "not_certificate_occupancy_within_15_years",
+                  "op": "eq",
+                  "value": true
+                }
+              ]
+            },
+            {
+              "fact": "unresolved_legal_evidence_D073_1",
+              "op": "eq",
+              "value": true
+            }
+          ]
+        },
+        "exemptions": {
+          "any": [
+            {
+              "fact": "transient_tourist_hotel",
+              "op": "eq",
+              "value": true
+            },
+            {
+              "fact": "short_term_occupancy_under_90_days",
+              "op": "eq",
+              "value": true
+            },
+            {
+              "fact": "deed_restricted_affordable_housing",
+              "op": "eq",
+              "value": true
+            },
+            {
+              "fact": "subsidized_affordable_housing_agreement",
+              "op": "eq",
+              "value": true
+            },
+            {
+              "fact": "section_8_housing_choice_voucher",
+              "op": "eq",
+              "value": true
+            },
+            {
+              "fact": "mobilehome_residency_law_subject",
+              "op": "eq",
+              "value": true
+            },
+            {
+              "fact": "nonprofit_hospital_housing",
+              "op": "eq",
+              "value": true
+            },
+            {
+              "fact": "religious_facility_housing",
+              "op": "eq",
+              "value": true
+            },
+            {
+              "fact": "extended_care_facility_housing",
+              "op": "eq",
+              "value": true
+            },
+            {
+              "fact": "licensed_residential_care_elderly",
+              "op": "eq",
+              "value": true
+            },
+            {
+              "fact": "adult_residential_facility_housing",
+              "op": "eq",
+              "value": true
+            },
+            {
+              "fact": "nonprofit_transitional_housing",
+              "op": "eq",
+              "value": true
+            },
+            {
+              "fact": "higher_ed_dormitory",
+              "op": "eq",
+              "value": true
+            },
+            {
+              "fact": "k12_dormitory",
+              "op": "eq",
+              "value": true
+            },
+            {
+              "fact": "shared_bathroom_kitchen_with_landlord",
+              "op": "eq",
+              "value": true
+            },
+            {
+              "fact": "landlord_occupied_single_family_residence",
+              "op": "eq",
+              "value": true
+            },
+            {
+              "fact": "landlord_occupied_two_units_in_structure",
+              "op": "eq",
+              "value": true
+            },
+            {
+              "fact": "certificate_occupancy_within_15_years",
+              "op": "eq",
+              "value": true
+            },
+            {
+              "fact": "alienable_separate_dwelling_unit_with_entity_landlord",
+              "op": "eq",
+              "value": true
+            }
+          ]
+        }
+      },
+      "field_evidence": [
+        {
+          "field": "requirement",
+          "quoted_span": "A landlord shall not terminate a tenancy without just cause",
+          "start_char": 10256,
+          "end_char": 10315
+        },
+        {
+          "field": "at_fault_grounds",
+          "quoted_span": "At-Fault Just Cause. At-fault just cause is any of the following: \n(1) a default in the payment of rent",
+          "start_char": 10419,
+          "end_char": 10522
+        },
+        {
+          "field": "at_fault_grounds",
+          "quoted_span": "a breach of a material term of the lease, as described in California \nCode of Civil Procedure section 1161(3)",
+          "start_char": 10529,
+          "end_char": 10638
+        },
+        {
+          "field": "at_fault_grounds",
+          "quoted_span": "the maintaining, committing, or permitting the maintenance or \ncommission of a nuisance",
+          "start_char": 10898,
+          "end_char": 10985
+        },
+        {
+          "field": "at_fault_grounds",
+          "quoted_span": "the committing of waste",
+          "start_char": 11082,
+          "end_char": 11105
+        },
+        {
+          "field": "at_fault_grounds",
+          "quoted_span": "criminal activity by the tenant on the residential rental property",
+          "start_char": 11616,
+          "end_char": 11682
+        },
+        {
+          "field": "no_fault_grounds",
+          "quoted_span": "The landlord seeks to recover possession to withdraw the residential \nrental property from the rental market",
+          "start_char": 17346,
+          "end_char": 17454
+        },
+        {
+          "field": "no_fault_grounds",
+          "quoted_span": "The landlord seeks to recover possession to demolish or to \nsubstantially remodel the residential rental property",
+          "start_char": 18470,
+          "end_char": 18583
+        }
+      ],
+      "quote_alignment": "whitespace_only",
+      "evidence_gaps": [
+        "coverage_conditions",
+        "exemptions",
+        "effective_date"
+      ],
+      "team_rule_id": "D073-r001",
+      "source_doc_id": "D073",
+      "source_url": "https://docs.sandiego.gov/municode/municodechapter09/ch09art08division07.pdf",
+      "retrieved_at": "2026-10-01T22:37Z",
+      "query_date": "2026-10-01",
+      "review_status": "unreviewed",
+      "evidence": {
+        "source_doc_id": "D073",
+        "text_sha256": "d1d4b9874a7c4b51a97cb81809e9ece2658f0f9e52898d904f90d48f3c1a140b",
+        "start_char": 10256,
+        "end_char": 10413,
+        "quoted_span": "A landlord shall not terminate a tenancy without just cause. For purposes of this \nDivision, just cause includes at-fault just cause and no-fault just cause.",
+        "retrieved_at": "2026-10-01T22:37Z",
+        "original_file": "data/sources/originals/d1d4b9874a7c4b51a97cb81809e9ece2658f0f9e52898d904f90d48f3c1a140b.txt"
+      }
+    },
+    {
+      "jurisdiction": "San Diego",
+      "level": "city",
+      "category": "just_cause_eviction",
+      "status": "in_force",
+      "title": "At-Fault Just Cause - Specific Grounds and Cure Requirements",
+      "requirement": "Landlord must provide written notice with opportunity to cure for curable lease violations before terminating tenancy. Grounds include: (1) default in rent payment; (2) breach of material lease term; (3) nuisance; (4) waste; (5) refusal to execute lease renewal after June 24, 2023; (6) criminal activity on property; (7) criminal threat directed at landlord or tenant; (8) unauthorized assignment or sublet; (9) refusal to allow lawful entry; (10) unlawful use of property; (11) failure to vacate after employee/agent/licensee termination; (12) failure to deliver possession after notice of termination intent.",
+      "citation": "San Diego Municipal Code \u00a798.0704(a) and \u00a798.0706(a)",
+      "quoted_span": "Before a landlord issues a notice to terminate a \ntenancy for at-fault just cause that is a curable lease violation, the \nlandlord shall first give written notice of the violation including a \ndescription of the violation and an opportunity to cure the violation \nunder California Code of Civil Procedure section 1161(3)",
+      "key_value": null,
+      "coverage_conditions": "Applies to curable lease violations in covered residential rental properties in San Diego.",
+      "exemptions": "Does not apply to properties exempt under \u00a798.0703, including transient/tourist hotels, short-term occupancy, subsidized affordable housing (excluding Section 8), institutional housing, landlord-occupied properties, and recently constructed properties (certificate of occupancy within 15 years).",
+      "effective_date": "2023-06-24",
+      "conflict_note": null,
+      "sanctions": "Void notice of termination for failure to comply with cure notice requirement; wrongful eviction damages of not less than three times actual economic damages; attorney's fees at court's discretion.",
+      "enacted_at": "2023-05-25",
+      "operative_date": "2023-06-24",
+      "end_date": null,
+      "confidence": 0.95,
+      "conflict_flag": false,
+      "logic": {
+        "coverage": {
+          "all": [
+            {
+              "all": [
+                {
+                  "fact": "legal_city",
+                  "op": "eq",
+                  "value": "San Diego"
+                },
+                {
+                  "fact": "at_fault_just_cause_ground_exists",
+                  "op": "eq",
+                  "value": true
+                },
+                {
+                  "fact": "curable_violation",
+                  "op": "eq",
+                  "value": true
+                }
+              ]
+            },
+            {
+              "fact": "unresolved_legal_evidence_D073_2",
+              "op": "eq",
+              "value": true
+            }
+          ]
+        },
+        "exemptions": {
+          "any": [
+            {
+              "fact": "transient_tourist_hotel",
+              "op": "eq",
+              "value": true
+            },
+            {
+              "fact": "property_exempt_from_division",
+              "op": "eq",
+              "value": true
+            }
+          ]
+        }
+      },
+      "field_evidence": [
+        {
+          "field": "requirement",
+          "quoted_span": "Before a landlord issues a notice to terminate a \ntenancy for at-fault just cause that is a curable lease violation, the \nlandlord shall first give written notice of the violation",
+          "start_char": 25274,
+          "end_char": 25453
+        },
+        {
+          "field": "cure_opportunity",
+          "quoted_span": "an opportunity to cure the violation \nunder California Code of Civil Procedure section 1161(3)",
+          "start_char": 25500,
+          "end_char": 25594
+        },
+        {
+          "field": "notice_after_cure_failure",
+          "quoted_span": "If the violation is not cured within the time period in the \nnotice, the landlord may terminate the tenancy without another \nopportunity to cure by serving a three-day notice to quit",
+          "start_char": 25616,
+          "end_char": 25798
+        }
+      ],
+      "quote_alignment": "whitespace_only",
+      "evidence_gaps": [
+        "coverage_conditions",
+        "exemptions",
+        "effective_date"
+      ],
+      "team_rule_id": "D073-r002",
+      "source_doc_id": "D073",
+      "source_url": "https://docs.sandiego.gov/municode/municodechapter09/ch09art08division07.pdf",
+      "retrieved_at": "2026-10-01T22:37Z",
+      "query_date": "2026-10-01",
+      "review_status": "unreviewed",
+      "evidence": {
+        "source_doc_id": "D073",
+        "text_sha256": "d1d4b9874a7c4b51a97cb81809e9ece2658f0f9e52898d904f90d48f3c1a140b",
+        "start_char": 25274,
+        "end_char": 25594,
+        "quoted_span": "Before a landlord issues a notice to terminate a \ntenancy for at-fault just cause that is a curable lease violation, the \nlandlord shall first give written notice of the violation including a \ndescription of the violation and an opportunity to cure the violation \nunder California Code of Civil Procedure section 1161(3)",
+        "retrieved_at": "2026-10-01T22:37Z",
+        "original_file": "data/sources/originals/d1d4b9874a7c4b51a97cb81809e9ece2658f0f9e52898d904f90d48f3c1a140b.txt"
+      }
+    },
+    {
+      "jurisdiction": "San Diego",
+      "level": "city",
+      "category": "just_cause_eviction",
+      "status": "in_force",
+      "title": "No-Fault Just Cause - Withdrawal from Rental Market",
+      "requirement": "Landlord may terminate tenancy for no-fault just cause to withdraw residential rental property from rental market. Landlord must act in good faith without ulterior motives or dishonest intent.",
+      "citation": "San Diego Municipal Code \u00a798.0704(b)(2)",
+      "quoted_span": "The landlord seeks to recover possession to withdraw the residential \nrental property from the rental market.",
+      "key_value": null,
+      "coverage_conditions": "Good faith requirement applies; landlord must act without ulterior motives and with honest intent.",
+      "exemptions": "Does not apply to properties exempt under \u00a798.0703.",
+      "effective_date": "2023-06-24",
+      "conflict_note": null,
+      "sanctions": "Wrongful eviction damages of not less than three times actual economic damages; relocation assistance of 2-3 months rent required; void notice of termination for non-compliance.",
+      "enacted_at": "2023-05-25",
+      "operative_date": "2023-06-24",
+      "end_date": null,
+      "confidence": 0.9,
+      "conflict_flag": false,
+      "logic": {
+        "coverage": {
+          "all": [
+            {
+              "all": [
+                {
+                  "fact": "legal_city",
+                  "op": "eq",
+                  "value": "San Diego"
+                },
+                {
+                  "fact": "withdrawal_from_rental_market",
+                  "op": "eq",
+                  "value": true
+                },
+                {
+                  "fact": "landlord_good_faith",
+                  "op": "eq",
+                  "value": true
+                }
+              ]
+            },
+            {
+              "fact": "unresolved_legal_evidence_D073_4",
+              "op": "eq",
+              "value": true
+            }
+          ]
+        },
+        "exemptions": {
+          "any": [
+            {
+              "fact": "property_exempt_from_division",
+              "op": "eq",
+              "value": true
+            }
+          ]
+        }
+      },
+      "field_evidence": [
+        {
+          "field": "requirement",
+          "quoted_span": "The landlord seeks to recover possession to withdraw the residential \nrental property from the rental market",
+          "start_char": 17346,
+          "end_char": 17454
+        }
+      ],
+      "quote_alignment": "whitespace_only",
+      "evidence_gaps": [
+        "coverage_conditions",
+        "exemptions",
+        "effective_date"
+      ],
+      "team_rule_id": "D073-r004",
+      "source_doc_id": "D073",
+      "source_url": "https://docs.sandiego.gov/municode/municodechapter09/ch09art08division07.pdf",
+      "retrieved_at": "2026-10-01T22:37Z",
+      "query_date": "2026-10-01",
+      "review_status": "unreviewed",
+      "evidence": {
+        "source_doc_id": "D073",
+        "text_sha256": "d1d4b9874a7c4b51a97cb81809e9ece2658f0f9e52898d904f90d48f3c1a140b",
+        "start_char": 17346,
+        "end_char": 17455,
+        "quoted_span": "The landlord seeks to recover possession to withdraw the residential \nrental property from the rental market.",
+        "retrieved_at": "2026-10-01T22:37Z",
+        "original_file": "data/sources/originals/d1d4b9874a7c4b51a97cb81809e9ece2658f0f9e52898d904f90d48f3c1a140b.txt"
+      }
+    },
+    {
+      "jurisdiction": "San Diego",
+      "level": "city",
+      "category": "just_cause_eviction",
+      "status": "in_force",
+      "title": "Retaliation Prohibited",
+      "requirement": "Landlord shall not retaliate against tenant for exercising any right provided by Division 7 (Residential Tenant Protections) or seeking enforcement of this Division. Retaliation means any threat or adverse action against tenant for exercising or attempting to exercise any right guaranteed under this Division.",
+      "citation": "San Diego Municipal Code \u00a798.0708",
+      "quoted_span": "A landlord shall not retaliate against a tenant for exercising any right provided by \nthis Division or seeking the enforcement of this Division.",
+      "key_value": null,
+      "coverage_conditions": "Applies to all covered residential rental properties in San Diego. Protects tenant exercise of any rights under \u00a798.0701-\u00a798.0710.",
+      "exemptions": "Properties exempt under \u00a798.0703.",
+      "effective_date": "2023-06-24",
+      "conflict_note": null,
+      "sanctions": "Wrongful eviction damages of not less than three times actual economic damages if eviction attempted in retaliation; tenant may raise as affirmative defense; injunctive relief; punitive damages available; attorney's fees at court discretion.",
+      "enacted_at": "2023-05-25",
+      "operative_date": "2023-06-24",
+      "end_date": null,
+      "confidence": 0.92,
+      "conflict_flag": false,
+      "logic": {
+        "coverage": {
+          "all": [
+            {
+              "all": [
+                {
+                  "fact": "legal_city",
+                  "op": "eq",
+                  "value": "San Diego"
+                },
+                {
+                  "fact": "tenant_exercised_protected_right",
+                  "op": "eq",
+                  "value": true
+                },
+                {
+                  "fact": "landlord_adverse_action_taken",
+                  "op": "eq",
+                  "value": true
+                }
+              ]
+            },
+            {
+              "fact": "unresolved_legal_evidence_D073_11",
+              "op": "eq",
+              "value": true
+            }
+          ]
+        },
+        "exemptions": {
+          "any": [
+            {
+              "fact": "property_exempt_from_division",
+              "op": "eq",
+              "value": true
+            }
+          ]
+        }
+      },
+      "field_evidence": [
+        {
+          "field": "retaliation_prohibition",
+          "quoted_span": "A landlord shall not retaliate against a tenant for exercising any right provided by \nthis Division or seeking the enforcement of this Division",
+          "start_char": 36548,
+          "end_char": 36691
+        },
+        {
+          "field": "retaliation_definition",
+          "quoted_span": "Retaliation means any threat or any other adverse action against a tenant for \nexercising or attempting to exercise any right guaranteed under this Division",
+          "start_char": 4444,
+          "end_char": 4600
+        }
+      ],
+      "quote_alignment": "whitespace_only",
+      "evidence_gaps": [
+        "coverage_conditions",
+        "exemptions",
+        "effective_date"
+      ],
+      "team_rule_id": "D073-r011",
+      "source_doc_id": "D073",
+      "source_url": "https://docs.sandiego.gov/municode/municodechapter09/ch09art08division07.pdf",
+      "retrieved_at": "2026-10-01T22:37Z",
+      "query_date": "2026-10-01",
+      "review_status": "unreviewed",
+      "evidence": {
+        "source_doc_id": "D073",
+        "text_sha256": "d1d4b9874a7c4b51a97cb81809e9ece2658f0f9e52898d904f90d48f3c1a140b",
+        "start_char": 36548,
+        "end_char": 36692,
+        "quoted_span": "A landlord shall not retaliate against a tenant for exercising any right provided by \nthis Division or seeking the enforcement of this Division.",
+        "retrieved_at": "2026-10-01T22:37Z",
+        "original_file": "data/sources/originals/d1d4b9874a7c4b51a97cb81809e9ece2658f0f9e52898d904f90d48f3c1a140b.txt"
+      }
+    }
+  ],
+  "rejected": [
+    {
+      "rule": {
+        "jurisdiction": "San Diego",
+        "level": "city",
+        "category": "just_cause_eviction",
+        "status": "in_force",
+        "title": "No-Fault Just Cause - Owner Occupancy",
+        "requirement": "Owner may terminate tenancy for no-fault just cause to occupy property as primary residence for owner, spouse, domestic partner, child, grandchild, parent, or grandparent for minimum 12 continuous months. For leases after June 24, 2023, only if tenant agrees in writing or lease expressly allows unilateral termination. Does not apply if intended occupant already occupies unit on property or similar vacancy exists. Intended occupant must occupy within 90 days of tenant vacation and remain 12+ continuous months or owner must offer re-tenancy at original terms and reimburse moving expenses.",
+        "citation": "San Diego Municipal Code \u00a798.0704(b)(1)",
+        "quoted_span": "The owner seeks to recover possession to occupy the residential rental property for the owner or their spouse, domestic partner, child (by blood or adoption), grandchild (by blood or adoption), parent, or grandparent for a minimum of 12 continuous months as that person's primary residence.",
+        "evidence_json": "[{\"field\":\"requirement\",\"quoted_span\":\"The owner seeks to recover possession to occupy the residential rental property for the owner or their spouse, domestic partner, child (by blood or adoption), grandchild (by blood or adoption), parent, or grandparent for a minimum of 12 continuous months as that person's primary residence\"},{\"field\":\"lease_requirement_after_date\",\"quoted_span\":\"For leases entered into on or after June 24, 2023, section 98.0704(b)(1) shall apply only if the tenant agrees to the termination in writing or if the lease expressly allows the owner to terminate the lease if the owner unilaterally decides to occupy the residential rental property\"},{\"field\":\"exclusion_condition\",\"quoted_span\":\"Section 98.0704(b)(1) does not apply if the intended occupant occupies a rental unit on the property or if a vacancy of a similar unit already exists at the property\"},{\"field\":\"timing_requirement\",\"quoted_span\":\"Section 98.0704(b)(1) applies only if the intended occupant moves into the residential rental property within 90 days after the tenant vacates and occupies the residential rental property for at least 12 continuous months\"},{\"field\":\"remedy_for_non_compliance\",\"quoted_span\":\"If the intended occupant does not occupy the residential rental property within 90 days after the tenant vacates or does not occupy the residential rental property for at least 12 continuous months, the owner shall offer the residential rental property to the tenant who vacated it at the same rent and lease terms in effect at the time the tenant vacated and shall reimburse the tenant for reasonable moving expenses\"}]",
+        "key_value": null,
+        "coverage_conditions": "Owner occupancy must be in good faith. Applies only to owner or immediate family (spouse, domestic partner, child, grandchild, parent, grandparent). Intended occupant must vacate within 90 days and occupy continuously for 12+ months, or original tenant gets right to re-tenancy offer and reimbursement.",
+        "exemptions": "Does not apply if intended occupant already occupies rental unit on property; does not apply if similar unit vacancy already exists; does not apply to properties exempt under \u00a798.0703.",
+        "effective_date": "2023-06-24",
+        "conflict_note": "Lease requirements differ based on execution date: pre-June 24, 2023 leases do not require written tenant agreement or lease provision; post-June 24, 2023 leases require either written tenant agreement or lease allowing unilateral termination.",
+        "sanctions": "Wrongful eviction damages of not less than three times actual economic damages; obligation to offer re-tenancy and reimburse moving expenses if intended occupant does not comply with timing and duration requirements; void notice of termination for non-compliance.",
+        "enacted_at": "2023-05-25",
+        "operative_date": "2023-06-24",
+        "end_date": null,
+        "confidence": 0.93,
+        "conflict_flag": false,
+        "logic": {}
+      },
+      "errors": [
+        "quoted_span is not exact original source substring",
+        "invalid logic DSL"
+      ]
+    },
+    {
+      "rule": {
+        "jurisdiction": "San Diego",
+        "level": "city",
+        "category": "just_cause_eviction",
+        "status": "in_force",
+        "title": "No-Fault Just Cause - Compliance with Government Orders and Habitability",
+        "requirement": "Landlord may terminate tenancy for no-fault just cause to comply with government order relating to habitability requiring vacation for at least 30 days, court order to vacate, or local ordinance requiring vacation. If order requires vacation for fewer than 30 days, not grounds for just cause termination and landlord may be required to provide relocation benefits under state or federal law. If tenant determined at fault for condition triggering order, tenant not entitled to relocation assistance.",
+        "citation": "San Diego Municipal Code \u00a798.0704(b)(3)",
+        "quoted_span": "The landlord seeks to recover possession to comply with an order issued by a government agency or court relating to habitability that requires vacating the residential rental property for at least 30 days.",
+        "key_value": null,
+        "coverage_conditions": "Applies only to orders/ordinances requiring vacation of 30+ days. Orders requiring vacation for fewer than 30 days do not constitute just cause and tenant may be entitled to relocation benefits under state/federal law. Good faith requirement applies.",
+        "exemptions": "Orders requiring vacation for fewer than 30 days; properties exempt under \u00a798.0703; applies when tenant at fault only to deny relocation assistance, not to prevent termination on other grounds.",
+        "effective_date": "2023-06-24",
+        "conflict_note": null,
+        "sanctions": "Wrongful eviction damages of not less than three times actual economic damages; relocation assistance of 2-3 months rent required unless tenant determined at fault; void notice for non-compliance.",
+        "enacted_at": "2023-05-25",
+        "operative_date": "2023-06-24",
+        "end_date": null,
+        "confidence": 0.92,
+        "conflict_flag": false,
+        "logic": {
+          "coverage": {
+            "all": [
+              {
+                "fact": "legal_city",
+                "op": "eq",
+                "value": "San Diego"
+              },
+              {
+                "fact": "government_order_exists",
+                "op": "eq",
+                "value": true
+              },
+              {
+                "any": [
+                  {
+                    "all": [
+                      {
+                        "fact": "order_relates_to_habitability",
+                        "op": "eq",
+                        "value": true
+                      },
+                      {
+                        "fact": "order_requires_vacation_30_plus_days",
+                        "op": "eq",
+                        "value": true
+                      }
+                    ]
+                  },
+                  {
+                    "fact": "government_agency_court_vacate_order",
+                    "op": "eq",
+                    "value": true
+                  },
+                  {
+                    "fact": "local_ordinance_vacate_requirement",
+                    "op": "eq",
+                    "value": true
+                  }
+                ]
+              },
+              {
+                "fact": "landlord_good_faith",
+                "op": "eq",
+                "value": true
+              }
+            ]
+          },
+          "exemptions": {
+            "any": [
+              {
+                "fact": "order_requires_vacation_fewer_30_days",
+                "op": "eq",
+                "value": true
+              },
+              {
+                "fact": "property_exempt_from_division",
+                "op": "eq",
+                "value": true
+              }
+            ]
+          },
+          "relocation_assistance_exclusion": {
+            "fact": "tenant_determined_at_fault",
+            "op": "eq",
+            "value": true
+          }
+        },
+        "field_evidence": [
+          {
+            "field": "requirement",
+            "quoted_span": "The landlord seeks to recover possession to comply with any of the following: (A) an order issued by a government agency or court relating to habitability that requires vacating the residential rental property for at least 30 days"
+          },
+          {
+            "field": "requirement",
+            "quoted_span": "(B) an order issued by a government agency or court to vacate the residential rental property"
+          },
+          {
+            "field": "requirement",
+            "quoted_span": "(C) a local ordinance that requires vacating the residential rental property"
+          },
+          {
+            "field": "vacancy_threshold",
+            "quoted_span": "An order issued by a government agency or court relating to habitability that requires vacating the residential rental property for fewer than 30 days is not grounds to terminate a tenancy for just cause"
+          },
+          {
+            "field": "relocation_assistance_exception",
+            "quoted_span": "If any government agency or court determines that the tenant is at fault for the condition or conditions triggering the order or need to vacate under section 98.0704(b)(3), the tenant shall not be entitled to any relocation assistance"
+          }
+        ]
+      },
+      "errors": [
+        "quoted_span is not exact original source substring"
+      ]
+    },
+    {
+      "rule": {
+        "jurisdiction": "San Diego",
+        "level": "city",
+        "category": "just_cause_eviction",
+        "status": "in_force",
+        "title": "No-Fault Just Cause - Demolition or Substantial Remodel",
+        "requirement": "Landlord may terminate tenancy for no-fault just cause to demolish or substantially remodel property. Substantial remodel means replacement or substantial modification of structural, electrical, plumbing, or mechanical system requiring permit, or abatement of hazardous materials (lead-based paint, mold, asbestos), that cannot be reasonably accomplished with tenant in place and requires 30+ continuous days vacation. Cosmetic improvements, painting, decorating, minor repairs do not qualify. Landlord must post permit application within 3 business days and secure permits before notice. Notice must include landlord's intent, description of work, expected duration/completion, permits or contractor contract, statement why work requires vacation, and notification of tenant's relocation rights. Tenant can re-occupy if remodel not commenced or completed upon offer by landlord at original rent and terms.",
+        "citation": "San Diego Municipal Code \u00a798.0704(b)(4)",
+        "quoted_span": "The landlord seeks to recover possession to demolish or to substantially remodel the residential rental property. For purposes of this provision, substantially remodel means either of the following that cannot be reasonably accomplished in a safe manner with the tenant in place and that requires the tenant to vacate the residential rental property for at least 30 continuous days: (i) the replacement or substantial modification of any structural, electrical, plumbing, or mechanical system that requires a permit from a governmental agency; or (ii) the abatement of hazardous materials, including lead-based paint, mold, or asbestos",
+        "evidence_json": "[{\"field\":\"substantial_remodel_definition\",\"quoted_span\":\"substantially remodel means either of the following that cannot be reasonably accomplished in a safe manner with the tenant in place and that requires the tenant to vacate the residential rental property for at least 30 continuous days: (i) the replacement or substantial modification of any structural, electrical, plumbing, or mechanical system that requires a permit from a governmental agency; or (ii) the abatement of hazardous materials, including lead-based paint, mold, or asbestos\"},{\"field\":\"exclusions\",\"quoted_span\":\"Cosmetic improvements alone, including painting, decorating, and minor repairs, or other work that can be performed safely without having the residential rental property vacated, do not qualify as substantial remodel\"},{\"field\":\"permit_posting\",\"quoted_span\":\"If permits are required for the demolition or substantial remodel of the residential rental property, landlord shall: (i) post at the residential rental property a copy of the application for the necessary permits within three business days of submittal of the application\"},{\"field\":\"permit_requirement\",\"quoted_span\":\"(ii) secure permits necessary for the demolition or substantial remodel of the residential rental property prior to issuing the written notice\"}]",
+        "key_value": null,
+        "coverage_conditions": "Applies to substantial remodels requiring 30+ continuous days vacation and work that cannot be safely done with tenant in place. Applies to demolition. Permit posting required within 3 business days of application. Permits must be secured before notice issuance.",
+        "exemptions": "Cosmetic improvements (painting, decorating, minor repairs); work that can be performed safely without vacation; work under 30 continuous days; properties exempt under \u00a798.0703.",
+        "effective_date": "2023-06-24",
+        "conflict_note": null,
+        "sanctions": "Wrongful eviction damages of not less than three times actual economic damages; relocation assistance of 2-3 months rent required; right to re-occupancy offer if work not commenced or completed; void notice for non-compliance with permit posting or notice requirements.",
+        "enacted_at": "2023-05-25",
+        "operative_date": "2023-06-24",
+        "end_date": null,
+        "confidence": 0.94,
+        "conflict_flag": false,
+        "logic": {}
+      },
+      "errors": [
+        "quoted_span is not exact original source substring",
+        "invalid logic DSL"
+      ]
+    },
+    {
+      "rule": {
+        "jurisdiction": "San Diego",
+        "level": "city",
+        "category": "just_cause_eviction",
+        "status": "in_force",
+        "title": "Notice Requirements for No-Fault Just Cause Terminations",
+        "requirement": "Landlord must give written notice to tenant at least 30 or 60 days prior to termination (as required by California Civil Code \u00a71946.1) in 12-point font or larger. Notice must include: (1) description of basis for termination; (2) statement of tenant's right to relocation assistance (2 or 3 months rent via direct payment or rent waiver); (3) if direct payment elected, amount of assistance and landlord shall provide payment within 15 days of notice; (4) if rent waiver elected, amount of rent waived and no rent due for final corresponding months; (5) statement of tenant's right to receive offer to renew if property offered for rent within 5 years of eviction under owner occupancy, compliance with orders, or demolition/remodel; (6) instructions for tenant to notify landlord within 30 days of desire to receive renewal offer and provide contact information.",
+        "citation": "San Diego Municipal Code \u00a798.0706(b)(1)",
+        "quoted_span": "The landlord shall give written notice to the tenant at least 30 or 60 days prior to the proposed date of termination as required by California Civil Code section 1946.1, in no less than 12-point font. The written notice shall contain: (A) The landlord shall provide a description of the basis for the termination. (B) The notice shall state the tenant's right to relocation assistance.",
+        "key_value": null,
+        "coverage_conditions": "Applies to all no-fault just cause terminations. Notice period determined by California Civil Code \u00a71946.1 (30 or 60 days as applicable).",
+        "exemptions": "Properties exempt under \u00a798.0703.",
+        "effective_date": "2023-06-24",
+        "conflict_note": null,
+        "sanctions": "Void notice of termination for failure to provide proper notice or include required content; wrongful eviction damages of not less than three times actual economic damages; attorney's fees at court's discretion.",
+        "enacted_at": "2023-05-25",
+        "operative_date": "2023-06-24",
+        "end_date": null,
+        "confidence": 0.93,
+        "conflict_flag": false,
+        "logic": {
+          "coverage": {
+            "all": [
+              {
+                "fact": "legal_city",
+                "op": "eq",
+                "value": "San Diego"
+              },
+              {
+                "fact": "no_fault_just_cause_termination",
+                "op": "eq",
+                "value": true
+              },
+              {
+                "fact": "written_notice_provided",
+                "op": "eq",
+                "value": true
+              },
+              {
+                "fact": "notice_period_30_or_60_days",
+                "op": "eq",
+                "value": true
+              },
+              {
+                "fact": "font_size_12_point_minimum",
+                "op": "eq",
+                "value": true
+              },
+              {
+                "all": [
+                  {
+                    "fact": "basis_for_termination_described",
+                    "op": "eq",
+                    "value": true
+                  },
+                  {
+                    "fact": "relocation_assistance_right_stated",
+                    "op": "eq",
+                    "value": true
+                  }
+                ]
+              }
+            ]
+          },
+          "exemptions": {
+            "any": [
+              {
+                "fact": "property_exempt_from_division",
+                "op": "eq",
+                "value": true
+              }
+            ]
+          }
+        },
+        "field_evidence": [
+          {
+            "field": "notice_timing",
+            "quoted_span": "The landlord shall give written notice to the tenant at least 30 or 60 days prior to the proposed date of termination as required by California Civil Code section 1946.1"
+          },
+          {
+            "field": "font_requirement",
+            "quoted_span": "in no less than 12-point font"
+          },
+          {
+            "field": "basis_requirement",
+            "quoted_span": "The landlord shall provide a description of the basis for the termination"
+          },
+          {
+            "field": "relocation_right",
+            "quoted_span": "The notice shall state the tenant's right to relocation assistance established in section 98.0706(c) by a direct payment to the tenant or rent waiver"
+          }
+        ]
+      },
+      "errors": [
+        "quoted_span is not exact original source substring"
+      ]
+    },
+    {
+      "rule": {
+        "jurisdiction": "San Diego",
+        "level": "city",
+        "category": "just_cause_eviction",
+        "status": "in_force",
+        "title": "Relocation Assistance - Amount and Method of Provision",
+        "requirement": "For no-fault just cause terminations, landlord must provide relocation assistance to tenant regardless of income or length of tenancy. Amount: 2 months of actual rent for standard tenants, 3 months of actual rent for seniors (62+) or disabled tenants, calculated from rent under tenant's lease in effect at notice date. Landlord may elect to provide assistance by: (1) direct payment within 15 days of notice, or (2) rent waiver of equivalent amount through remainder of tenancy. For multiple tenants, single payment to all named tenants permitted. Relocation assistance is in addition to deposit/security return and credited against other relocation assistance under federal/state/local law. If tenant fails to vacate after notice expiration, actual relocation assistance provided may be recoverable by landlord as damages.",
+        "citation": "San Diego Municipal Code \u00a798.0706(c)",
+        "quoted_span": "The landlord shall, regardless of the tenant's income or length of tenancy and at the landlord's option, provide relocation assistance to the tenant by one of the following: (A) The landlord shall provide a direct payment to the tenant. (i) Unless section 98.0706(c)(1)(A)(ii) applies, the direct payment to the tenant shall be in an amount equal to two months of actual rent under the tenant's lease in effect at the date of the notice. (ii) If the tenant is a senior or disabled, the direct payment to the tenant shall be in an amount equal to three months of actual rent.",
+        "key_value": "2 months actual rent (standard); 3 months actual rent (senior/disabled)",
+        "coverage_conditions": "Applies to all no-fault just cause terminations covered by \u00a798.0704(b). Amount based on actual rent under tenant's lease in effect at notice date. Seniors defined as 62+ years old. Disabled defined per California Government Code \u00a712955.3.",
+        "exemptions": "No exemptions; relocation assistance required for all covered no-fault terminations except where tenant at fault for condition triggering government order (\u00a798.0704(b)(3)).",
+        "effective_date": "2023-06-24",
+        "conflict_note": null,
+        "sanctions": "Landlord liable for not less than three times required relocation assistance plus actual economic damages if assistance not provided; wrongful eviction damages; void notice for non-compliance.",
+        "enacted_at": "2023-05-25",
+        "operative_date": "2023-06-24",
+        "end_date": null,
+        "confidence": 0.96,
+        "conflict_flag": false,
+        "logic": {
+          "coverage": {
+            "all": [
+              {
+                "fact": "legal_city",
+                "op": "eq",
+                "value": "San Diego"
+              },
+              {
+                "fact": "no_fault_just_cause_termination_issued",
+                "op": "eq",
+                "value": true
+              }
+            ]
+          },
+          "relocation_amount": {
+            "any": [
+              {
+                "all": [
+                  {
+                    "not": {
+                      "fact": "tenant_senior_or_disabled",
+                      "op": "eq",
+                      "value": true
+                    }
+                  },
+                  {
+                    "formula": {
+                      "op": "mul",
+                      "args": [
+                        {
+                          "fact": "actual_monthly_rent",
+                          "unit": "USD"
+                        },
+                        {
+                          "value": 2,
+                          "unit": "scalar"
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              {
+                "all": [
+                  {
+                    "fact": "tenant_senior_or_disabled",
+                    "op": "eq",
+                    "value": true
+                  },
+                  {
+                    "formula": {
+                      "op": "mul",
+                      "args": [
+                        {
+                          "fact": "actual_monthly_rent",
+                          "unit": "USD"
+                        },
+                        {
+                          "value": 3,
+                          "unit": "scalar"
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          "method": {
+            "any": [
+              {
+                "fact": "direct_payment_method",
+                "op": "eq",
+                "value": true
+              },
+              {
+                "fact": "rent_waiver_method",
+                "op": "eq",
+                "value": true
+              }
+            ]
+          }
+        },
+        "field_evidence": [
+          {
+            "field": "amount_standard_tenant",
+            "quoted_span": "Unless section 98.0706(c)(1)(A)(ii) applies, the direct payment to the tenant shall be in an amount equal to two months of actual rent under the tenant's lease in effect at the date of the notice"
+          },
+          {
+            "field": "amount_senior_disabled",
+            "quoted_span": "If the tenant is a senior or disabled, the direct payment to the tenant shall be in an amount equal to three months of actual rent under the tenant's lease in effect at the date of the notice"
+          },
+          {
+            "field": "no_income_requirement",
+            "quoted_span": "The landlord shall, regardless of the tenant's income or length of tenancy and at the landlord's option, provide relocation assistance"
+          },
+          {
+            "field": "direct_payment_method",
+            "quoted_span": "(A) The landlord shall provide a direct payment to the tenant"
+          },
+          {
+            "field": "rent_waiver_method",
+            "quoted_span": "(B) The landlord shall waive, and not collect the payment by tenant, of any currently due or future rent under the tenant's lease at the time of the notice and through the remainder of the tenancy in an amount equal to the applicable direct payment"
+          },
+          {
+            "field": "multiple_tenants",
+            "quoted_span": "When more than one tenant occupies the residential rental property and the landlord elects to provide direct payment of relocation assistance to the tenants, the landlord may make a single direct payment to all the tenants named in the lease"
+          },
+          {
+            "field": "addition_to_deposit",
+            "quoted_span": "The relocation assistance required by this Division shall not relieve the landlord's obligation to, and shall be in addition to, the return of any deposit or security amounts owed to the tenant"
+          },
+          {
+            "field": "credit_against_other",
+            "quoted_span": "Any relocation assistance required by this Division shall be credited against any other relocation assistance required by any federal, state, or other local law"
+          }
+        ]
+      },
+      "errors": [
+        "quoted_span is not exact original source substring",
+        "invalid logic DSL"
+      ]
+    },
+    {
+      "rule": {
+        "jurisdiction": "San Diego",
+        "level": "city",
+        "category": "just_cause_eviction",
+        "status": "in_force",
+        "title": "Right to Renew Tenancy After No-Fault Eviction",
+        "requirement": "If residential rental property is offered for rent or lease within 5 years of tenant eviction under owner occupancy, government order compliance, or demolition/substantial remodel no-fault just cause, landlord must first offer lease to displaced tenant in writing. Tenant eligible if: (1) advised landlord in writing within 30 days of termination notice of desire to receive renewal offer, and (2) provided mailing address or email for landlord to send offer including any address/email changes. Landlord may screen tenant using industry-accepted methods and must communicate minimum screening criteria in written offer. Tenant has 30 days from receipt of offer to accept.",
+        "citation": "San Diego Municipal Code \u00a798.0706(d)",
+        "quoted_span": "If a residential rental property is offered for rent or lease for residential purposes within five years of the date the tenant was evicted under sections 98.0704(b)(1), (3), or (4), landlord shall first offer to lease the residential rental property in writing to the tenant displaced from that unit by the no-fault just cause termination if the tenant: (1) advised the landlord in writing within 30 days of the termination notice of the tenant's desire to receive an offer to renew the tenancy",
+        "evidence_json": "[{\"field\":\"right_scope\",\"quoted_span\":\"If a residential rental property is offered for rent or lease for residential purposes within five years of the date the tenant was evicted under sections 98.0704(b)(1), (3), or (4), landlord shall first offer to lease the residential rental property in writing to the tenant displaced from that unit\"},{\"field\":\"tenant_request_timing\",\"quoted_span\":\"advised the landlord in writing within 30 days of the termination notice of the tenant's desire to receive an offer to renew the tenancy\"},{\"field\":\"contact_requirement\",\"quoted_span\":\"provided the landlord a mailing address or email address for the landlord to send the offer, including any change of mailing address or email address\"},{\"field\":\"screening_right\",\"quoted_span\":\"The landlord shall have the right to screen the tenant using industry accepted methods and shall communicate the minimum screening criteria in the written offer for the new tenancy\"},{\"field\":\"acceptance_deadline\",\"quoted_span\":\"The tenant shall have 30 days from the date of receipt of the offer to accept\"}]",
+        "key_value": null,
+        "coverage_conditions": "Applies within 5-year window following no-fault evictions under \u00a798.0704(b)(1) (owner occupancy), \u00a798.0704(b)(3) (government orders), or \u00a798.0704(b)(4) (demolition/remodel). Tenant must request within 30 days of termination notice and provide contact information.",
+        "exemptions": "Properties exempt under \u00a798.0703; applies only if tenant affirmatively requested renewal offer within 30-day window.",
+        "effective_date": "2023-06-24",
+        "conflict_note": null,
+        "sanctions": "Wrongful eviction damages if right to renewal offer not honored; tenant may raise violation as affirmative defense in eviction action.",
+        "enacted_at": "2023-05-25",
+        "operative_date": "2023-06-24",
+        "end_date": null,
+        "confidence": 0.91,
+        "conflict_flag": false,
+        "logic": {}
+      },
+      "errors": [
+        "quoted_span is not exact original source substring",
+        "invalid logic DSL"
+      ]
+    },
+    {
+      "rule": {
+        "jurisdiction": "San Diego",
+        "level": "city",
+        "category": "just_cause_eviction",
+        "status": "in_force",
+        "title": "Buyout Agreement Regulations - Disclosure and Fairness Requirements",
+        "requirement": "Prior to making buyout offer, landlord must provide each tenant written disclosure including: (1) tenant's right not to enter buyout agreement; (2) right to consult attorney; (3) landlord may not retaliate for refusing offer; (4) tenant may refuse future offers for 6 months via written notice and rescind refusal; (5) statement of relocation assistance eligibility and amount under \u00a798.0706(c); (6) names of authorized representatives; (7) signature and date spaces for tenant and landlord. Landlord must provide fully executed copy within 3 days and retain copy for 5 years. Buyout agreement must be in writing; copy provided to tenant at signing. Agreement must include bold 14-point statements: tenant's right not to sign; buyout less than relocation assistance violates code and is void; right to consult attorney. If negotiated in non-English language, landlord must provide English and translated versions simultaneously. Buyout must exceed relocation assistance amount or agreement is void. Strict compliance with all requirements required or agreement void. No waiver of these protections permitted.",
+        "citation": "San Diego Municipal Code \u00a798.0707",
+        "quoted_span": "Prior to making a buyout offer, the landlord \nshall provide each tenant in a residential rental property a written disclosure \nthat shall include the following: \n(1) a statement that the tenant has a right not to enter into a buyout \nagreement; \n(2) a statement that the tenant may choose to consult with an attorney \nbefore entering into a buyout agreement",
+        "key_value": null,
+        "coverage_conditions": "All buyout offers in San Diego for covered residential rental properties subject to full compliance with disclosure and agreement requirements. Relocation assistance amount determination required (2 or 3 months rent per \u00a798.0706(c)).",
+        "exemptions": "Properties exempt under \u00a798.0703; agreement for amounts exceeding relocation assistance not subject to void provisions.",
+        "effective_date": "2023-06-24",
+        "conflict_note": null,
+        "sanctions": "Void buyout agreement for non-compliance with any disclosure requirement, agreement format requirement, or minimum amount requirement; void for non-compliance with strict written requirements; unenforceable and void for attempted waiver of protections; tenant may seek injunctive relief, damages, attorney's fees.",
+        "enacted_at": "2023-05-25",
+        "operative_date": "2023-06-24",
+        "end_date": null,
+        "confidence": 0.96,
+        "conflict_flag": false,
+        "logic": {
+          "coverage": {
+            "all": [
+              {
+                "fact": "legal_city",
+                "op": "eq",
+                "value": "San Diego"
+              },
+              {
+                "fact": "buyout_offer_made",
+                "op": "eq",
+                "value": true
+              }
+            ]
+          },
+          "disclosure_requirements": {
+            "all": [
+              {
+                "fact": "written_disclosure_provided",
+                "op": "eq",
+                "value": true
+              },
+              {
+                "fact": "right_not_to_agree_stated",
+                "op": "eq",
+                "value": true
+              },
+              {
+                "fact": "attorney_consultation_right_stated",
+                "op": "eq",
+                "value": true
+              },
+              {
+                "fact": "no_retaliation_stated",
+                "op": "eq",
+                "value": true
+              },
+              {
+                "fact": "refusal_option_stated",
+                "op": "eq",
+                "value": true
+              },
+              {
+                "fact": "relocation_assistance_amount_stated",
+                "op": "eq",
+                "value": true
+              },
+              {
+                "fact": "authorized_representatives_named",
+                "op": "eq",
+                "value": true
+              },
+              {
+                "fact": "signatures_and_dates_obtained",
+                "op": "eq",
+                "value": true
+              }
+            ]
+          },
+          "agreement_requirements": {
+            "all": [
+              {
+                "fact": "buyout_in_writing",
+                "op": "eq",
+                "value": true
+              },
+              {
+                "fact": "copy_provided_at_signing",
+                "op": "eq",
+                "value": true
+              },
+              {
+                "fact": "bold_14_point_statements_included",
+                "op": "eq",
+                "value": true
+              },
+              {
+                "fact": "buyout_amount_exceeds_relocation_assistance",
+                "op": "eq",
+                "value": true
+              }
+            ]
+          },
+          "language_requirement": {
+            "fact": "if_non_english_negotiation_both_versions_provided",
+            "op": "eq",
+            "value": true
+          },
+          "delivery_requirement": {
+            "fact": "fully_executed_copy_within_3_days",
+            "op": "eq",
+            "value": true
+          }
+        },
+        "field_evidence": [
+          {
+            "field": "pre_offer_disclosure_requirement",
+            "quoted_span": "Prior to making a buyout offer, the landlord shall provide each tenant in a residential rental property a written disclosure"
+          },
+          {
+            "field": "disclosure_elements",
+            "quoted_span": "a statement that the tenant has a right not to enter into a buyout agreement; a statement that the tenant may choose to consult with an attorney before entering into a buyout agreement; a statement that the landlord may not retaliate against the tenant for refusing to enter into or negotiate a buyout agreement"
+          },
+          {
+            "field": "disclosure_minimum_amount",
+            "quoted_span": "a statement that the tenant is eligible for relocation assistance and the amount of the required relocation assistance in section 98.0706(c)"
+          },
+          {
+            "field": "disclosure_delivery",
+            "quoted_span": "The landlord shall provide each tenant a fully executed copy of the disclosure form within three days of its execution and retain a copy of each signed disclosure form for five years"
+          },
+          {
+            "field": "agreement_writing",
+            "quoted_span": "The buyout agreement shall be in writing"
+          },
+          {
+            "field": "agreement_bold_statements",
+            "quoted_span": "The buyout agreement shall include the following statements in bold letters in at least 14-point font in close proximity to the space reserved for the signature of the tenant: (A) You, the tenant, have a right not to enter into this buyout agreement"
+          },
+          {
+            "field": "void_if_less_relocation",
+            "quoted_span": "If you, the tenant, are entitled to relocation assistance under federal, state, or local law, a buyout agreement for less than the amount of the relocation assistance to which you are entitled violates Chapter 9, Article 8, Division 7 of the San Diego Municipal Code and is void"
+          },
+          {
+            "field": "language_accommodation",
+            "quoted_span": "If the tenant primarily negotiates the buyout agreement or lease, orally or in writing, in a non-English language, the landlord shall provide the tenant with an English and a translated version of the buyout agreement at the same time"
+          },
+          {
+            "field": "minimum_amount",
+            "quoted_span": "Buyout agreements must be for an amount that is greater than the amount of relocation assistance available to the tenant in section 98.0706(c)"
+          },
+          {
+            "field": "strict_compliance",
+            "quoted_span": "A buyout agreement that does not strictly comply with all the requirements of section 98.0707(c)(1)-(4) shall be void"
+          },
+          {
+            "field": "non_waivability",
+            "quoted_span": "The provisions of section 98.0707 may not be waived by a buyout agreement. Any term of a buyout agreement, lease, contract, or other agreement which purports to waive or limit a tenant's rights under section 98.0707 is contrary to public policy, unenforceable, and void"
+          }
+        ],
+        "quote_alignment": "whitespace_only"
+      },
+      "errors": [
+        "invalid logic DSL"
+      ]
+    },
+    {
+      "rule": {
+        "jurisdiction": "San Diego",
+        "level": "city",
+        "category": "just_cause_eviction",
+        "status": "in_force",
+        "title": "Notice to Tenant of Residential Tenant Protections",
+        "requirement": "Landlord must provide written notice in 12-point font or larger, complying with California Civil Code \u00a71632, to all tenants of covered properties stating: \"California law limits the amount your rent can be increased. See California Civil Code section 1947.12 for more information. Local law also provides that a landlord shall provide a statement of cause in any notice to terminate a tenancy. In some circumstances, tenants who are seniors (62 years or older) or disabled may be entitled to additional tenant protections. See Chapter 9, Article 8, Division 7 of the San Diego Municipal Code for more information.\" Landlord must also include copy of Tenant Protection Guide prepared by San Diego Housing Commission with educational information and resources explaining tenant rights under this Division and state law, including quiet enjoyment and habitability. For tenancies existing before June 24, 2023, notice and Guide must be provided within 90 days of June 24, 2023, directly or as lease addendum. For tenancies commencing or renewed on/after June 24, 2023, notice and Guide must be included in lease or provided as written notice signed by tenant at lease signing.",
+        "citation": "San Diego Municipal Code \u00a798.0705",
+        "quoted_span": "A landlord of residential rental property subject to this Division shall provide written notice in no less than 12-point font to the tenant, and in a manner that complies with California Civil Code section 1632, that states as follows: California law limits the amount your rent can be increased. See California Civil Code section 1947.12 for more information. Local law also provides that a landlord shall provide a statement of cause in any notice to terminate a tenancy. In some circumstances, tenants who are seniors (62 years or older) or disabled may be entitled to additional tenant protections.",
+        "key_value": null,
+        "coverage_conditions": "All covered residential rental properties in San Diego must provide notice. Timing depends on when tenancy commenced: pre-June 24, 2023 tenancies had 90-day deadline from effective date; new tenancies required notice at lease signing.",
+        "exemptions": "Properties exempt under \u00a798.0703.",
+        "effective_date": "2023-06-24",
+        "conflict_note": "Notice requirements have different timing based on tenancy commencement date. Pre-existing tenancies had 90-day transition period. New tenancies must include notice at signing.",
+        "sanctions": "Void notice of termination for failure to comply; tenant may raise failure as affirmative defense; wrongful eviction damages.",
+        "enacted_at": "2023-05-25",
+        "operative_date": "2023-06-24",
+        "end_date": null,
+        "confidence": 0.91,
+        "conflict_flag": false,
+        "logic": {
+          "coverage": {
+            "all": [
+              {
+                "fact": "legal_city",
+                "op": "eq",
+                "value": "San Diego"
+              },
+              {
+                "fact": "landlord_of_covered_property",
+                "op": "eq",
+                "value": true
+              }
+            ]
+          },
+          "timing": {
+            "any": [
+              {
+                "all": [
+                  {
+                    "fact": "tenancy_existed_before_2023_06_24",
+                    "op": "eq",
+                    "value": true
+                  },
+                  {
+                    "fact": "notice_provided_within_90_days_of_2023_06_24",
+                    "op": "eq",
+                    "value": true
+                  }
+                ]
+              },
+              {
+                "all": [
+                  {
+                    "fact": "tenancy_commenced_on_or_after_2023_06_24",
+                    "op": "eq",
+                    "value": true
+                  },
+                  {
+                    "fact": "notice_in_lease_at_signing",
+                    "op": "eq",
+                    "value": true
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "field_evidence": [
+          {
+            "field": "notice_requirement",
+            "quoted_span": "A landlord of residential rental property subject to this Division shall provide written notice in no less than 12-point font to the tenant, and in a manner that complies with California Civil Code section 1632"
+          },
+          {
+            "field": "notice_content",
+            "quoted_span": "California law limits the amount your rent can be increased. See California Civil Code section 1947.12 for more information. Local law also provides that a landlord shall provide a statement of cause in any notice to terminate a tenancy. In some circumstances, tenants who are seniors (62 years or older) or disabled may be entitled to additional tenant protections"
+          },
+          {
+            "field": "guide_requirement",
+            "quoted_span": "A landlord of residential rental property subject to this Division shall include a copy of the Tenant Protection Guide with the written notice required by section 98.0705(a)"
+          },
+          {
+            "field": "guide_content",
+            "quoted_span": "The Commission shall prepare and make available on the Commission's website a Tenant Protection Guide, which shall include educational information and resources for the tenant to understand their rights under this Division and state law, including the rights to quiet enjoyment and habitability"
+          },
+          {
+            "field": "existing_tenancy_timing",
+            "quoted_span": "For a tenancy in a residential rental property subject to this Division existing before June 24, 2023, the notice required by section 98.0705(a) and the Tenant Protection Guide required by section 98.0705(b) shall be provided to the tenant directly or as an addendum to the lease within 90 days of June 24, 2023"
+          },
+          {
+            "field": "new_tenancy_timing",
+            "quoted_span": "For a tenancy in a residential rental property subject to this Division commencing or renewed on or after June 24, 2023, the notice required by section 98.0705(a) and the Tenant Protection Guide required by section 98.0705(b) shall be included in the lease, or as a written notice signed by the tenant at the time the lease is signed, with a copy provided to the tenant"
+          }
+        ]
+      },
+      "errors": [
+        "quoted_span is not exact original source substring",
+        "invalid logic DSL"
+      ]
+    },
+    {
+      "rule": {
+        "jurisdiction": "San Diego",
+        "level": "city",
+        "category": "just_cause_eviction",
+        "status": "in_force",
+        "title": "Remedies for Violations and Enforcement",
+        "requirement": "Tenant may file civil action against landlord for any violation. Tenant may seek injunctive relief, equitable relief, money damages including punitive damages. Tenant may raise any violation or noncompliance as affirmative defense in landlord's possession recovery action. Landlord attempting or actually recovering possession in violation is liable for wrongful eviction damages of not less than three times actual economic damages. Landlord failing to provide required relocation assistance liable for not less than three times required relocation assistance plus actual economic damages. In court's discretion, landlord attempting to recover possession in material violation liable for reasonable attorney's fees and costs. Remedies are cumulative and in addition to any other remedies available at law, statute, or ordinance. City may enforce under Chapter 1, Article 2 (including civil and criminal remedies). Landlord's failure to comply with any provision renders void any notice of termination required by this Division.",
+        "citation": "San Diego Municipal Code \u00a798.0709 and \u00a798.0710",
+        "quoted_span": "A tenant claiming a violation of this Division may file an action against a landlord in a court of competent jurisdiction. A tenant may seek injunctive relief, equitable relief, and money damages, including punitive damages, in a civil action against a landlord for a violation of this Division.",
+        "key_value": null,
+        "coverage_conditions": "Applies to all covered residential rental properties in San Diego. Wrongful eviction damages apply to violations of just cause requirement. Relocation assistance damages apply to failures to provide required amounts. Material violation triggers attorney's fees provision.",
+        "exemptions": "Properties exempt under \u00a798.0703; relocation assistance not owed if tenant determined at fault for condition triggering government order under \u00a798.0704(b)(3).",
+        "effective_date": "2023-06-24",
+        "conflict_note": null,
+        "sanctions": "Wrongful eviction: not less than 3\u00d7 actual economic damages; relocation non-compliance: not less than 3\u00d7 required assistance plus actual damages; attorney's fees at court discretion for material violations; injunctive relief, equitable relief, punitive damages available; void notice of termination for non-compliance; city civil and criminal enforcement authority.",
+        "enacted_at": "2023-05-25",
+        "operative_date": "2023-06-24",
+        "end_date": null,
+        "confidence": 0.95,
+        "conflict_flag": false,
+        "logic": {
+          "coverage": {
+            "all": [
+              {
+                "fact": "legal_city",
+                "op": "eq",
+                "value": "San Diego"
+              },
+              {
+                "any": [
+                  {
+                    "fact": "landlord_violation_of_division",
+                    "op": "eq",
+                    "value": true
+                  },
+                  {
+                    "fact": "landlord_attempted_wrongful_eviction",
+                    "op": "eq",
+                    "value": true
+                  },
+                  {
+                    "fact": "landlord_failed_relocation_assistance",
+                    "op": "eq",
+                    "value": true
+                  }
+                ]
+              }
+            ]
+          },
+          "damages_formula_wrongful_eviction": {
+            "op": "max",
+            "args": [
+              {
+                "op": "mul",
+                "args": [
+                  {
+                    "fact": "actual_economic_damages",
+                    "unit": "USD"
+                  },
+                  {
+                    "value": 3,
+                    "unit": "scalar"
+                  }
+                ]
+              },
+              {
+                "fact": "actual_economic_damages",
+                "unit": "USD"
+              }
+            ]
+          },
+          "damages_formula_relocation": {
+            "op": "add",
+            "args": [
+              {
+                "op": "mul",
+                "args": [
+                  {
+                    "fact": "required_relocation_assistance",
+                    "unit": "USD"
+                  },
+                  {
+                    "value": 3,
+                    "unit": "scalar"
+                  }
+                ]
+              },
+              {
+                "fact": "actual_economic_damages",
+                "unit": "USD"
+              }
+            ]
+          }
+        },
+        "field_evidence": [
+          {
+            "field": "tenant_action_right",
+            "quoted_span": "A tenant claiming a violation of this Division may file an action against a landlord in a court of competent jurisdiction"
+          },
+          {
+            "field": "remedies_available",
+            "quoted_span": "A tenant may seek injunctive relief, equitable relief, and money damages, including punitive damages, in a civil action against a landlord for a violation of this Division"
+          },
+          {
+            "field": "affirmative_defense",
+            "quoted_span": "A tenant may raise, as an affirmative defense, any violation or noncompliance with this Division in any action by a landlord to recover possession of a residential rental property"
+          },
+          {
+            "field": "wrongful_eviction_damages",
+            "quoted_span": "Any attempt by a landlord to recover possession of a residential rental property or any actual recovery of possession of a residential rental property in violation of this Division shall render the landlord liable to the tenant in a civil action for wrongful eviction for damages of not less than three times the actual economic damages"
+          },
+          {
+            "field": "relocation_non_compliance",
+            "quoted_span": "Any landlord who fails to provide relocation assistance as required by section 98.0706(c) shall be liable to the tenant in a civil action for not less than three times the required relocation assistance and actual economic damages"
+          },
+          {
+            "field": "attorney_fees",
+            "quoted_span": "In the court's discretion, a landlord who attempts to recover possession of a residential rental property in material violation of this Division shall be liable to the tenant in a civil action for reasonable attorney's fees and costs"
+          },
+          {
+            "field": "cumulative_remedies",
+            "quoted_span": "The remedies under section 98.0709 are cumulative and may be used in addition to any other remedies in this Division or at law, statute, or ordinance"
+          },
+          {
+            "field": "city_enforcement",
+            "quoted_span": "The City may enforce this Division under Chapter 1, Article 2 of this Code, including civil and criminal remedies"
+          },
+          {
+            "field": "void_notice",
+            "quoted_span": "a landlord's failure to comply with any provision of this Division shall render void any notice of termination required by this Division"
+          }
+        ]
+      },
+      "errors": [
+        "quoted_span is not exact original source substring",
+        "invalid logic DSL"
+      ]
+    }
+  ],
+  "gaps": [
+    "Rent increase limitations under California Civil Code \u00a71947.12 referenced but not detailed in this local ordinance",
+    "Security deposit provisions and limits not addressed in this ordinance",
+    "Application and screening fee restrictions not addressed in this ordinance",
+    "Screening criteria restrictions not addressed in this ordinance",
+    "Algorithmic or automated rent-setting restrictions not addressed in this ordinance",
+    "Details of San Diego Housing Commission Tenant Protection Guide not provided in source document",
+    "Appeal or dispute resolution procedures not specified",
+    "Specific implementation details for Commission notice submission portal referenced as not yet operational as of document date",
+    "Historical status or prior versions of this ordinance prior to June 24, 2023 effective date not included",
+    "Cross-reference details to California Civil Code sections not fully detailed in source"
+  ],
+  "status": "needs_review"
+}

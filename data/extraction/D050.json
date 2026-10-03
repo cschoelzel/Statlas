@@ -1,0 +1,14 @@
+{
+  "doc_id": "D050",
+  "model": "claude-haiku-4-5-20251001",
+  "source_sha256": "cdc077701a5c63533240e370c77ce86546bd2c8372d771433c52a98fadc48f19",
+  "rules": [],
+  "rejected": [],
+  "gaps": [
+    "MA General Law Chapter 186 Section 11 addresses eviction procedures for nonpayment of rent (14-day notice requirement) and payment cure rights, but does not establish rules within the six target categories: rent_increase_limits, just_cause_eviction, security_deposits, application_screening_fees, screening_restrictions, or algorithmic_rent_setting. Document scope does not cover tenant protections in these statutory categories as of 2026-10-01.",
+    "Cross-reference needed: MA General Law Part II Title I Chapter 186 may contain related sections on security deposits, application fees, or screening practices in adjacent sections not provided in this document.",
+    "Status of MA algorithmic_rent_setting regulation unknown; no state-level rule identified in source.",
+    "Status of MA screening_restrictions regulation unknown; no state-level rule identified in source."
+  ],
+  "status": "needs_review"
+}

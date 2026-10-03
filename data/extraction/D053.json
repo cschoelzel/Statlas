@@ -1,0 +1,13 @@
+{
+  "doc_id": "D053",
+  "model": "claude-haiku-4-5-20251001",
+  "source_sha256": "5c418b18df23a00a8b6b056e68352f67b378b94321ee42867df8ce02ce36830a",
+  "rules": [],
+  "rejected": [],
+  "gaps": [
+    "Document D053 contains only reprisal protections under MA General Law Chapter 186 Section 18, which does not fall within the six specified rental housing categories: rent_increase_limits, just_cause_eviction, security_deposits, application_screening_fees, screening_restrictions, or algorithmic_rent_setting. No extractable rules matching the required categories are present in this source.",
+    "Cross-reference to MA General Law Chapter 164 Section 124D and Chapter 183A Section 6 mentioned but not provided in source.",
+    "Historical status and text of referenced sections not supplied."
+  ],
+  "status": "needs_review"
+}

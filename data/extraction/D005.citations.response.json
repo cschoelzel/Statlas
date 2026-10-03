@@ -1,0 +1,209 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011Cfftop1U6qzDyXk6J5sej",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "Based on the document provided, I can only identify obligations and exemptions related to **application/screening fees** in Berkeley as of 2026-10-01. The document does not contain information about rent caps, just cause eviction, deposits, screening restrictions, or algorithmic pricing.\n\n## Application/Screening Fees\n\n**Screening Fee Cap:**\n"
+    },
+    {
+      "citations": [
+        {
+          "type": "char_location",
+          "cited_text": "Screening Fee\nThe maximum tenant screening fee for 2026 is\n$68.96\nLandlords may use screening fees to obtain information about a prospective tenant like a consumer credit report. ",
+          "document_index": 0,
+          "document_title": "D005",
+          "start_char_index": 445,
+          "end_char_index": 624
+        }
+      ],
+      "type": "text",
+      "text": "The maximum tenant screening fee for 2026 is $68.96"
+    },
+    {
+      "type": "text",
+      "text": ". "
+    },
+    {
+      "citations": [
+        {
+          "type": "char_location",
+          "cited_text": "Screening Fee\nThe maximum tenant screening fee for 2026 is\n$68.96\nLandlords may use screening fees to obtain information about a prospective tenant like a consumer credit report. ",
+          "document_index": 0,
+          "document_title": "D005",
+          "start_char_index": 445,
+          "end_char_index": 624
+        }
+      ],
+      "type": "text",
+      "text": "Landlords may use screening fees to obtain information about a prospective tenant like a consumer credit report."
+    },
+    {
+      "type": "text",
+      "text": "\n\n**Tenant Rights Upon Payment:**\n"
+    },
+    {
+      "citations": [
+        {
+          "type": "char_location",
+          "cited_text": "Prospective tenants should expect to receive a copy of their credit report within 7 days of receipt by the landlord, a receipt for the fee paid and an itemized list of any out-of-pocket expenses and time spent by the landlord on the screening, and a refund of any unused portion of the fee. ",
+          "document_index": 0,
+          "document_title": "D005",
+          "start_char_index": 624,
+          "end_char_index": 915
+        }
+      ],
+      "type": "text",
+      "text": "Prospective tenants should expect to receive a copy of their credit report within 7 days of receipt by the landlord, a receipt for the fee paid and an itemized list of any out-of-pocket expenses and time spent by the landlord on the screening, and a refund of any unused portion of the fee."
+    },
+    {
+      "type": "text",
+      "text": "\n\n**Reusable Reports Exemption:**\n"
+    },
+    {
+      "citations": [
+        {
+          "type": "char_location",
+          "cited_text": "If the tenant provides a reusable screening report, the landlord must use it.\n",
+          "document_index": 0,
+          "document_title": "D005",
+          "start_char_index": 915,
+          "end_char_index": 993
+        }
+      ],
+      "type": "text",
+      "text": "If the tenant provides a reusable screening report, the landlord must use it."
+    },
+    {
+      "type": "text",
+      "text": "\n\n**Fee Prohibitions:**\n"
+    },
+    {
+      "citations": [
+        {
+          "type": "char_location",
+          "cited_text": "The landlord cannot charge a prospective tenant a screening fee if no\u00a0rental unit is actually available. ",
+          "document_index": 0,
+          "document_title": "D005",
+          "start_char_index": 993,
+          "end_char_index": 1098
+        }
+      ],
+      "type": "text",
+      "text": "The landlord cannot charge a prospective tenant a screening fee if no rental unit is actually available."
+    },
+    {
+      "type": "text",
+      "text": " "
+    },
+    {
+      "citations": [
+        {
+          "type": "char_location",
+          "cited_text": "The landlord must also return a screening fee to any applicant not selected, or have a policy under which they: (1) review\u00a0applications in\u00a0the order received\u00a0and the first qualified applicant gets the unit, and (2) do not charge a screening fee to any applicant not considered.\n",
+          "document_index": 0,
+          "document_title": "D005",
+          "start_char_index": 1098,
+          "end_char_index": 1376
+        }
+      ],
+      "type": "text",
+      "text": "The landlord must also return a screening fee to any applicant not selected, or have a policy under which they: (1) review applications in the order received and the first qualified applicant gets the unit, and (2) do not charge a screening fee to any applicant not considered."
+    },
+    {
+      "type": "text",
+      "text": "\n\n**Non-Refundable Application Fees for Existing Tenants:**\n"
+    },
+    {
+      "citations": [
+        {
+          "type": "char_location",
+          "cited_text": "Prohibition of non-refundable application fees associated with existing tenancies (BMC 13.78.016)\nAn owner of residential rental property (or the owner\u2019s agent) cannot charge a non-refundable fee to any existing tenant for the purpose of renewing a tenancy, in whole or in part, including any fee associated with the departure of a roommate or to request to add or replace a roommate in a pre-existing household.\n",
+          "document_index": 0,
+          "document_title": "D005",
+          "start_char_index": 2549,
+          "end_char_index": 2962
+        }
+      ],
+      "type": "text",
+      "text": "An owner of residential rental property (or the owner's agent) cannot charge a non-refundable fee to any existing tenant for the purpose of renewing a tenancy, in whole or in part, including any fee associated with the departure of a roommate or to request to add or replace a roommate in a pre-existing household."
+    },
+    {
+      "type": "text",
+      "text": "\n\n**Disclosure Requirements:**\n"
+    },
+    {
+      "citations": [
+        {
+          "type": "char_location",
+          "cited_text": "Notification of state law limitation on tenant screening fees (BMC 13.78.010)\nWhen an owner or the owner\u2019s agent gets a request to rent residential property in Berkeley from an applicant and the owner charges a fee to purchase a consumer credit report and to validate, review, or otherwise process an application, the owner must provide, either in the rental application or in a separate disclosure before receiving the fee, a clear and conspicuous tenant screening fee rights statement and a statement of the maximum fee cap permitted under\nCalifornia Civil Code Section 1950.6(b)\n.\n",
+          "document_index": 0,
+          "document_title": "D005",
+          "start_char_index": 1441,
+          "end_char_index": 2025
+        }
+      ],
+      "type": "text",
+      "text": "When an owner or the owner's agent gets a request to rent residential property in Berkeley from an applicant and the owner charges a fee to purchase a consumer credit report and to validate, review, or otherwise process an application, the owner must provide, either in the rental application or in a separate disclosure before receiving the fee, a clear and conspicuous tenant screening fee rights statement and a statement of the maximum fee cap permitted under California Civil Code Section 1950.6(b)."
+    },
+    {
+      "type": "text",
+      "text": "\n\n**Applicability:**\n"
+    },
+    {
+      "citations": [
+        {
+          "type": "char_location",
+          "cited_text": "Applicability to Existing Rental Agreements (BMC 13.78.018)\nChapter 13.78 applies to all residential rental agreements regardless of any contractual language in any rental agreement or lease to the contrary. ",
+          "document_index": 0,
+          "document_title": "D005",
+          "start_char_index": 2962,
+          "end_char_index": 3170
+        }
+      ],
+      "type": "text",
+      "text": "Chapter 13.78 applies to all residential rental agreements regardless of any contractual language in any rental agreement or lease to the contrary."
+    },
+    {
+      "type": "text",
+      "text": " "
+    },
+    {
+      "citations": [
+        {
+          "type": "char_location",
+          "cited_text": "Any provision of an existing rental agreement or lease that violates the provisions of this chapter are unenforceable.\n",
+          "document_index": 0,
+          "document_title": "D005",
+          "start_char_index": 3170,
+          "end_char_index": 3289
+        }
+      ],
+      "type": "text",
+      "text": "Any provision of an existing rental agreement or lease that violates the provisions of this chapter are unenforceable."
+    },
+    {
+      "type": "text",
+      "text": "\n\nThe document does not contain information about enforcement sanctions or details on the other rental housing areas you requested."
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1766,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 746,
+    "service_tier": "batch",
+    "inference_geo": "not_available"
+  },
+  "diagnostics": null
+}

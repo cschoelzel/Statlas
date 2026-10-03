@@ -1,0 +1,299 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011Cfftop2xMmaKFwWShEDwL",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "Based on the document provided, here is what is covered regarding Santa Ana's rental housing obligations and exemptions:\n\n## RENT STABILIZATION ORDINANCE\n\n**Operative Obligation - Rent Caps:**\n"
+    },
+    {
+      "citations": [
+        {
+          "type": "char_location",
+          "cited_text": "SOURCE: https://santa-ana.gov/santa-ana-city-council-adopts-rent-stabilization-and-just-cause-eviction-ordinances-effective-nov-19\nRETRIEVED: 2026-10-01 22:37 UTC\n\nSanta Ana City Council adopts rent stabilization and just cause eviction ordinances, effective Nov. 19 - City of Santa Ana\nThe Santa Ana City Council on Tuesday night adopted two new ordinances to help protect renters: a Rent Stabilization Ordinance, which limits residential rent increases to no more than 3% per year, and a Just Cause Eviction Ordinance, which limits the allowed reasons for which a renter can be evicted.\u00a0",
+          "document_index": 0,
+          "document_title": "D085",
+          "start_char_index": 0,
+          "end_char_index": 589
+        }
+      ],
+      "type": "text",
+      "text": "Rent increases are limited to no more than 3% per year"
+    },
+    {
+      "type": "text",
+      "text": ". More specifically, "
+    },
+    {
+      "citations": [
+        {
+          "type": "char_location",
+          "cited_text": "Key requirements of the Rent Stabilization Ordinance\nIncrease in residential rents are limited to the lower of 3% per year, or 80% of the percent change in the Consumer Price Index over the most recent 12-month period. ",
+          "document_index": 0,
+          "document_title": "D085",
+          "start_char_index": 1155,
+          "end_char_index": 1374
+        }
+      ],
+      "type": "text",
+      "text": "increases in residential rents are limited to the lower of 3% per year, or 80% of the percent change in the Consumer Price Index over the most recent 12-month period"
+    },
+    {
+      "type": "text",
+      "text": ". "
+    },
+    {
+      "citations": [
+        {
+          "type": "char_location",
+          "cited_text": "If the CPI is negative, no rent increase is permitted.\n",
+          "document_index": 0,
+          "document_title": "D085",
+          "start_char_index": 1374,
+          "end_char_index": 1429
+        }
+      ],
+      "type": "text",
+      "text": "If the CPI is negative, no rent increase is permitted"
+    },
+    {
+      "type": "text",
+      "text": ".\n\n**Status and Effective Date:**\n"
+    },
+    {
+      "citations": [
+        {
+          "type": "char_location",
+          "cited_text": "SOURCE: https://santa-ana.gov/santa-ana-city-council-adopts-rent-stabilization-and-just-cause-eviction-ordinances-effective-nov-19\nRETRIEVED: 2026-10-01 22:37 UTC\n\nSanta Ana City Council adopts rent stabilization and just cause eviction ordinances, effective Nov. 19 - City of Santa Ana\nThe Santa Ana City Council on Tuesday night adopted two new ordinances to help protect renters: a Rent Stabilization Ordinance, which limits residential rent increases to no more than 3% per year, and a Just Cause Eviction Ordinance, which limits the allowed reasons for which a renter can be evicted.\u00a0The new ordinances are not effective until November 19, 2021.\n",
+          "document_index": 0,
+          "document_title": "D085",
+          "start_char_index": 0,
+          "end_char_index": 651
+        }
+      ],
+      "type": "text",
+      "text": "The ordinance was adopted by the Santa Ana City Council and became effective November 19, 2021"
+    },
+    {
+      "type": "text",
+      "text": ".\n\n**Exemptions - Rent Caps:**\n"
+    },
+    {
+      "citations": [
+        {
+          "type": "char_location",
+          "cited_text": "The rent cap does not apply to residential buildings constructed after February 1, 1995, or to mobile home spaces offered for rent after January 1, 1990.\n",
+          "document_index": 0,
+          "document_title": "D085",
+          "start_char_index": 1727,
+          "end_char_index": 1881
+        }
+      ],
+      "type": "text",
+      "text": "The rent cap does not apply to residential buildings constructed after February 1, 1995, or to mobile home spaces offered for rent after January 1, 1990"
+    },
+    {
+      "type": "text",
+      "text": ".\n\n**Relief Mechanism:**\n"
+    },
+    {
+      "citations": [
+        {
+          "type": "char_location",
+          "cited_text": "Any owner of residential rental property or a mobile home park may petition for relief from the cap, but will need to provide evidence that a rate increase in excess of the annual allowance is necessary to provide a fair and reasonable return for their property. The City Manager, or designee, may consider a variety of relevant factors and will decide on the petition within 60 days of receiving a complete application. ",
+          "document_index": 0,
+          "document_title": "D085",
+          "start_char_index": 1881,
+          "end_char_index": 2302
+        }
+      ],
+      "type": "text",
+      "text": "Any owner of residential rental property or a mobile home park may petition for relief from the cap, but will need to provide evidence that a rate increase in excess of the annual allowance is necessary to provide a fair and reasonable return for their property. The City Manager, or designee, may consider a variety of relevant factors and will decide on the petition within 60 days of receiving a complete application"
+    },
+    {
+      "type": "text",
+      "text": ".\n\n**Notice Requirement:**\n"
+    },
+    {
+      "citations": [
+        {
+          "type": "char_location",
+          "cited_text": "Property owners are required to provide written notice of the Ordinance and tenant\u2019s rights at commencement of a lease or as part of any notice to increase rent. ",
+          "document_index": 0,
+          "document_title": "D085",
+          "start_char_index": 2388,
+          "end_char_index": 2550
+        }
+      ],
+      "type": "text",
+      "text": "Property owners are required to provide written notice of the Ordinance and tenant's rights at commencement of a lease or as part of any notice to increase rent"
+    },
+    {
+      "type": "text",
+      "text": ".\n\n## JUST CAUSE EVICTION ORDINANCE\n\n**Operative Obligation:**\n"
+    },
+    {
+      "citations": [
+        {
+          "type": "char_location",
+          "cited_text": "Key provisions of the Just Cause Eviction Ordinance\nAfter 30 days, an owner shall not terminate a tenancy without just cause, which shall be stated in a written notice.\n",
+          "document_index": 0,
+          "document_title": "D085",
+          "start_char_index": 2649,
+          "end_char_index": 2818
+        }
+      ],
+      "type": "text",
+      "text": "After 30 days, an owner shall not terminate a tenancy without just cause, which shall be stated in a written notice"
+    },
+    {
+      "type": "text",
+      "text": ".\n\n**Status and Effective Date:**\n"
+    },
+    {
+      "citations": [
+        {
+          "type": "char_location",
+          "cited_text": "SOURCE: https://santa-ana.gov/santa-ana-city-council-adopts-rent-stabilization-and-just-cause-eviction-ordinances-effective-nov-19\nRETRIEVED: 2026-10-01 22:37 UTC\n\nSanta Ana City Council adopts rent stabilization and just cause eviction ordinances, effective Nov. 19 - City of Santa Ana\nThe Santa Ana City Council on Tuesday night adopted two new ordinances to help protect renters: a Rent Stabilization Ordinance, which limits residential rent increases to no more than 3% per year, and a Just Cause Eviction Ordinance, which limits the allowed reasons for which a renter can be evicted.\u00a0The new ordinances are not effective until November 19, 2021.\n",
+          "document_index": 0,
+          "document_title": "D085",
+          "start_char_index": 0,
+          "end_char_index": 651
+        }
+      ],
+      "type": "text",
+      "text": "The ordinance was adopted by the Santa Ana City Council and became effective November 19, 2021"
+    },
+    {
+      "type": "text",
+      "text": ".\n\n**Defined Causes - At-Fault:**\n"
+    },
+    {
+      "citations": [
+        {
+          "type": "char_location",
+          "cited_text": "\u201cJust cause\u201d includes certain at-fault causes such as default in payment of rent, breach of a material term of the lease, committing a nuisance, criminal activity, and other actions.\n",
+          "document_index": 0,
+          "document_title": "D085",
+          "start_char_index": 2818,
+          "end_char_index": 3001
+        }
+      ],
+      "type": "text",
+      "text": "\"Just cause\" includes certain at-fault causes such as default in payment of rent, breach of a material term of the lease, committing a nuisance, criminal activity, and other actions"
+    },
+    {
+      "type": "text",
+      "text": ".\n\n**Defined Causes - No-Fault:**\n"
+    },
+    {
+      "citations": [
+        {
+          "type": "char_location",
+          "cited_text": "\u201cJust cause\u201d also includes certain no-fault causes such as the intent of the owner to occupy the property, removal of the property from the rental market, and demolition or substantial remodel.\n",
+          "document_index": 0,
+          "document_title": "D085",
+          "start_char_index": 3001,
+          "end_char_index": 3195
+        }
+      ],
+      "type": "text",
+      "text": "\"Just cause\" also includes certain no-fault causes such as the intent of the owner to occupy the property, removal of the property from the rental market, and demolition or substantial remodel"
+    },
+    {
+      "type": "text",
+      "text": ".\n\n**Notice and Cure Requirement:**\n"
+    },
+    {
+      "citations": [
+        {
+          "type": "char_location",
+          "cited_text": "Before issuing a notice to terminate for just cause, the owner shall first give notice of the violation with a time period for the tenant to fix the violation(s).\n",
+          "document_index": 0,
+          "document_title": "D085",
+          "start_char_index": 3195,
+          "end_char_index": 3358
+        }
+      ],
+      "type": "text",
+      "text": "Before issuing a notice to terminate for just cause, the owner shall first give notice of the violation with a time period for the tenant to fix the violation(s)"
+    },
+    {
+      "type": "text",
+      "text": ".\n\n**Relocation Assistance Requirement:**\n"
+    },
+    {
+      "citations": [
+        {
+          "type": "char_location",
+          "cited_text": "Under a no-fault just cause termination, the owner shall either provide 3 months of relocation assistance or waive payment of rent for the final 3 months of the tenancy.\n",
+          "document_index": 0,
+          "document_title": "D085",
+          "start_char_index": 3358,
+          "end_char_index": 3528
+        }
+      ],
+      "type": "text",
+      "text": "Under a no-fault just cause termination, the owner shall either provide 3 months of relocation assistance or waive payment of rent for the final 3 months of the tenancy"
+    },
+    {
+      "type": "text",
+      "text": ".\n\n**Exemptions - Just Cause Eviction:**\n"
+    },
+    {
+      "citations": [
+        {
+          "type": "char_location",
+          "cited_text": "The Just Cause Ordinance shall not apply to certain types of residential property, including housing produced in the last 15 years; deed-restricted affordable housing; hotel and transient occupancy; hospital and care facilities; dormitories; and other shared living quarters.\n",
+          "document_index": 0,
+          "document_title": "D085",
+          "start_char_index": 3528,
+          "end_char_index": 3804
+        }
+      ],
+      "type": "text",
+      "text": "The Just Cause Ordinance shall not apply to certain types of residential property, including housing produced in the last 15 years; deed-restricted affordable housing; hotel and transient occupancy; hospital and care facilities; dormitories; and other shared living quarters"
+    },
+    {
+      "type": "text",
+      "text": ".\n\n**Notice to Tenants:**\n"
+    },
+    {
+      "citations": [
+        {
+          "type": "char_location",
+          "cited_text": "Property owners must provide notice to existing tenants before December 19, 2021, or at commencement or renewal of their lease of the Just Cause Eviction Ordinance protections. ",
+          "document_index": 0,
+          "document_title": "D085",
+          "start_char_index": 3804,
+          "end_char_index": 3981
+        }
+      ],
+      "type": "text",
+      "text": "Property owners must provide notice to existing tenants before December 19, 2021, or at commencement or renewal of their lease of the Just Cause Eviction Ordinance protections"
+    },
+    {
+      "type": "text",
+      "text": ".\n\n## NOT ADDRESSED IN DOCUMENT\n\nThe document does not contain information regarding: deposits, application/screening fees, screening restrictions, algorithmic pricing, or sanctions for violations."
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 2305,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 1019,
+    "service_tier": "batch",
+    "inference_geo": "not_available"
+  },
+  "diagnostics": null
+}

@@ -1,0 +1,1931 @@
+[PAGE 1]
+New Jersey Department of Community Affairs 
+Division of Codes and Standards 
+ Landlord-Tenant Information Service
+NEW JERSEY EVICTION LAW 
+N.J.S.A. 2A:18-53 THROUGH 2A:18-84 
+Reprinted February 2008 
+NEW JERSEY DEPARTMENT OF COMMUNITY AFFAIRS 
+LANDLORD-TENANT INFORMATION SERVICE 
+POST OFFICE BOX 805 
+TRENTON, NEW JERSEY 08625-0805 
+
+
+[PAGE 2]
+2  
+CO
+NTENTS 
+2A: 18-53 Removal of tenant in certain cases; jurisdiction 
+2A:18-54 Notices and summons; substitu ted service; service by posting 
+2A:18-55 Discontinuance upon payment into court of rent in arrears; receipt 
+2A:18-56 Proof of notice to quit prerequisite to judgment 
+2A:18-57 Judgment for possession; warrant for removal; issuance 
+2A:18-58 Execution of warrant; use of force 
+2A:18-59 Review; landlord liable for unlawful proceedings 
+2A:18-59.1 Terminally ill tenant 
+2A:18-59.2 Inapplicability of act to hotel, motel or guesth ouse rented to transient guest or seasonal tenant or to 
+residential health care facility 
+2A:18-60 Removal of proceedings into Law Division 
+2A:18-61 Trail by jury in Law Division  
+2A:18-61.1 Grounds for removal of tenants 
+2A:18-61.1a Findings 
+2A:18-61.1b Permanent retirement from residential use 
+2A:18-61. 1c 5 year restriction  
+2A:18-61.1d Maximum authorized rent   
+2A:18-61.le Rights of former tenants  
+2A:18-61.1f Local ordinances permitted  
+2A-18-61.1g Relocation of displaced tenant; violations, penalty 
+2A:18-61.1h Reimbursement to displaced tenant 
+2A:18-61.2 Removal of residential ten ants; required notice; contents; service 
+2A:18-61.3 Causes for eviction or non-renewal of lease  
+2A:18-61.3a Mobile home parks; restrictions on “for sale” signs; prohibition 
+2A:18-61.4 Waiver of rights by provision in lease; unenforceability 
+2A:18-61.5 Severability 
+2A:18-61.6 Owner liability for wrongful evictions  
+2A:18-61.7 Definitions 
+2A:18-61.8 Conversion of multiple dwelling into condomin ium, cooperative or fee simple ownership; notice to and 
+rights to tenants 
+2A:18-61.9 Notice to tenant after master deed or agreement to establish cooperative 
+2A:18-61.10 Removal of tenant to allow conversion to cooperative or condominium; moving expense compensation 
+2A:18-61.11 Comparable housing; offer of rental; stay of eviction; alternative compensation; senior citizens and 
+disabled protected tenancy period 
+2A:18-61.12 Rules and regulations 
+2A:18-61.16a Rent defined 
+
+[PAGE 3]
+3  
+2A:18-61.22 Short title 
+2A:18-61.23 Legislative findings and declarations 
+2A:18-61.24 Definitions 
+2A:18-61.25 Protected tenanc y status, conversion of dwelling unit of eligible senior citizen or disabled tenant 
+2A:18-61.26 Administrative agency 
+2A:18-61.27 Notice to tenants 
+2A:18-61.28 Eligibility for protected tenancy status 
+2A:18-61.29 Registration of conversion; approval after proof of notice of eligibility to tenants 
+2A:18-61.30 Protected tenancy status; applicability after notice of eligibility and filing of conversion recording 
+2A:18-61.31 Rent increase  restrictions 
+2A:18-61.32 Termination of protected  tenancy 
+2A:18-61.33 Termination upon purchase of uni t by senior citizen or disabled tenant 
+2A:18-61.34 Informing prospective pur chaser of act; contract or agreement for sale; clause informing of 
+application of act and acknowledgement by purchaser 
+2A:18-61.35. Fee 
+2A:18-61.36 Agreement by tenant to waive right s; deemed against public policy and unenforceable 
+2A:18-61.37 Severability 
+2A:18-61.38 Rules and regulations 
+2A:18-61.39 Liberal construction of act 
+2A:18-61.40 Short title  
+2A:18.61.41 Findings, declarations 
+2A:18-61.42 Definitions 
+2A:18-61.43 Maximum qualifying income, adjustment 
+2A:18-61.44 Protected tenancy, qualification, duration  
+2A:18-61.45 Designation of administrative agency  
+2A:18-61.46 Notice, etc required of owner seeking to convert, notice to tenants  
+2A:18-61.47 Determining tenants’ qualifications 
+2A:18-61.48 Requisites for approval of registration of conversion  
+2A:18-61.49 Applicability of protected tenancy 
+2A:18-61.50 Termination of protected tenancy   
+2A:18-61.51 Tenancy protection terminated by tenant purchase 
+2A:18-61.52. Costs of conver sion no basis for rent increases 
+2A:18.61.53 Public offering statement; requisites 
+2A:18-61.54 Municipal fees 
+2A:18-61.55. Tenant wa ivers, unenforceable 
+2A:18-61.56 Actions against qualified tenants, limitations 
+2A:18-61.57 Removal for good cause 
+2A:18-61.58 Severability 
+2A:18-61.59 Rules, regulations  
+2A:18-61.60 Tenant’s organization permitted to accept billing for utility 
+
+[PAGE 4]
+4  
+2A:18-61.61 Deduction of certain utility costs from rental payment 
+2A:18-61.62 Issuance of “Notice of Rent Protection Emergency.” 
+2A:18-61.63 Effect of issuance of “N otice of Rent Protection Emergency.” 
+2A:18-61.64 Report of violation, investigation, penalties 
+2A:18-61.65 Violations considered as consumer fraud 
+2A:18-66 Judgment; order as to  payment; stay of execution 
+2A:18-67 Docketing small claims judgments 
+2A:18.69 Costs 
+2A:18-71. Costs on vacation judgment 
+2A:18-72. Disposal of remaining personal property abandoned by tenant 
+2A:18-73.  Notice to tenant prior to disposition 
+2A:18-74 Contents of notice   
+2A:18-75 Storing abandoned property  
+2A:18-76. Conditions under which property is considered abandoned 
+2A:18-77. Tenant’s reimbur sement for storage costs 
+2A:18-78. Disposal of property, options  
+2A:18-79. Immunity  
+2A:18-80. Deductions from sale proceeds 
+2A:18-81. Compliance with ac t constitutes complete defense 
+2A:18-82  Noncompliance with act; tenants recovery 
+2A:18-83 Applicability of act 
+2A:18-84 Nonapplicability to motor vehicles 
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+[PAGE 5]
+5  
+2A:18-53.    Removal of tenant in certain cases; jurisdiction   
+ 
+Except for residential lessees and tenants included in section 2 of this act, any lessee or tenant at will or at sufferance, 
+or for a part of a year, or for one or more years, of an y houses, buildings, lands or tenements, and the assigns, under 
+tenants or legal representatives of such  tenant or lessee, may be removed from such premises by the Superior Court, 
+Law Division, Special Civil Part in an action in the following cases:   
+a. Where such person holds over and continues in poss ession of all or any par t of the demised premises 
+after the expiration of his term, and after demand m ade and written notice given by the landlord or his 
+agent, for delivery of possession thereof. The notice shal l be served either personally upon the tenant or 
+such person in possession by giving him a copy thereof  or by leaving a copy of the same at his usual 
+place of abode with a member of his family above the age of 14 years. 
+b.  Where such person shall hold over after a default in  the payment of rent, pursuant to the agreement under 
+which the premises are held. 
+c.  Where such person (1) shall be so disorderly as to destroy the peace and quiet of the landlord or the 
+other tenants or occupants living in said house or the neighborhood, or (2) shall willfully destroy, damage 
+or injure the premises, or (3) shall constantly viol ate the landlord's rules and regulations governing said 
+premises, provided, such rules have been accepted in wr iting by the tenant or are made a part of the 
+lease; or (4) shall commit any breach or violation of any of the covenants or  agreements in the nature 
+thereof contained in the lease for the premises where a right of re-entry is re served in the lease for a 
+violation of such covenants or agreements, and shall hold over and continue in possession of the demised 
+premises or any part thereof, after the landlord or his agent for that purpose has caused a written notice of 
+the termination of said tenancy to be served upon said tenant, and a demand that said tenant remove from 
+said premises within three days from the service of such notice. The notice shall specify the cause of the 
+termination of the tenancy, and shall be served eit her personally upon the tenant or such person in 
+possession by giving him a copy thereof, or by leav ing a copy thereof at his usual place of abode with 
+some member of his family above the age of 14 years.   
+Amended L. 1966,c.319; L.1974,c.49, s.1; L.1991,c.91,s.64  
+ 
+2A:18-54.  Notices and summons; substituted service; service by posting 
+ 
+Where for any reason, any of the notices required by secti on 2A:18-53 of this title, cannot be served as provided in 
+said section or a summons and complaint cannot be served as in other actions, such notices or summons and 
+complaint may be served upon any person actually occupying the premises, either  personally or by leaving same with 
+a member of his family above the age of 14  years, or when admission to the premises is denied or the tenant or 
+occupant  and all members of his fami ly above the age of 14 years are absent from the  premises, or there is no 
+person actually occupying them, the offi cer or other  person may post or affix a copy of the same upon the door or 
+other conspicuous  part of such premises.  Such posting shall be deemed to be lawful service. 
+  
+
+[PAGE 6]
+6  
+2A:18-55.  Discontinuance upon payment into court of rent in arrears; receipt  
+ 
+If, in actions instituted under paragraph  "b " of section 2A:18-53 of th is  title, the tenant or person in possession of the 
+demised premises shall at any  time on or  before entry of final judgment, pay to t he clerk of the court the  rent claimed 
+to be in default, together with the accrued costs of the  proceedings, all proceedi ngs shall be stopped.  The receipt of 
+the clerk shall be evidence of such payment. 
+ 
+The clerk shall forthwith pay all moneys so received to the landlord, his agent or assigns. 
+ 
+2A:18-56.  Proof of notice to quit prerequisite to judgment 
+ 
+No judgment for possession in cases specified in paragraph  "a." of section  2A:18-53 of this Title shall be ordered 
+unless: 
+a. The tenancy, if a tenancy at will or from year to  year, has been terminated by the giving of 3 months' 
+notice to quit, which notice shall be deemed to be sufficient; or 
+b. The tenancy, if a tenancy from month to month, ha s been terminated by the giving of 1 month's notice to 
+quit, which notice shall be deemed to be sufficient; or 
+c. The tenancy, if for a term other than at will, fr om year to year, or from month to month, has been 
+terminated by the giving of one term's notice to quit, which notice shall be deemed to be sufficient; and 
+d. It shall be shown to the satisfaction of the c ourt by due proof that the not ice herein required has been 
+given. 
+Amended by L.1975, c. 136, s. 1, eff. July 7, 1975 
+ 
+2A:18-57.  Judgment for possession; warrant for removal; issuance 
+ 
+If no sufficient cause is shown to the contrary when the action comes on for trial, the court shall issue its warrant to any 
+officer of the court, commanding him to remove all persons from the premises, and to put the claimant into full 
+possession thereof, and to levy and make the costs out of the goods and chattels of the person in possession. 
+ 
+No warrant of removal shall issue until the expiration of  3 days after entry of judgment  for possession, except as 
+provided for in chapter 42 of this Title.    
+Amended by L.1979, c. 392, s. 1, eff. Feb. 6, 1980. 
+ 
+2A:18-58.  Execution of warrant; use of force 
+ 
+An officer, to whom a warrant is issued by virtue of this article, shall obey the command of and faithfully execute the 
+same, and may, if necessary to the execution thereof, uses such force as may be necessary. 
+ 
+ 
+ 
+
+[PAGE 7]
+7  
+2A:18-59.  Review; landlord liable for unlawful proceedings 
+ 
+Proceedings had by virtue of this article shall not be appeal able except on the ground of lack of jurisdiction.  The 
+landlord, however, shall remain liable in a civil action for unlawful proceedings under this article. 
+ 
+2A:18-59.1.  Terminally ill tenants  
+ 
+Notwithstanding the provisions of any other law to the cont rary, the Superior Court may authorize and review one year 
+stays of eviction during which the tenant shall be entitled to  renew the lease at its term of expiration, subject to 
+reasonable changes proposed to the tenant by the landlord in written notice, whenever:  
+a.  The tenant fulfills all the terms of the lease and removal is sought under subsection a. of N.J.S.2A:18-53  
+         where a residential tenant holds over after written notice for delivery of possession; and   
+b. The tenant has a terminal illness which illness has been certified by a licensed physician; and   
+c. There is substantial likelihood t hat the tenant would be unable to search for, rent and move to a   
+comparable alternative rental dwelling unit without serious medical harm; and   
+ d.   The tenant has been a tenant of the landlord for a least two years prior to the issuance of the stay.   
+ 
+In reviewing a petition for a stay of evic tion, the court shall specifically consid er whether the granting of the stay of 
+eviction would cause an undue hardship to the landlord because of the landlord's financial condition or any other factor 
+relating to the landlord's ownership of the premises.   
+L.1983,c.446, s.1; Amended 1991,c.91,s.65.   
+ 
+2A:18-59.2.  Inapplicability of act to hotel, motel or guesthouse rented to transient guest or seasonal tenant or 
+to residential health care facility 
+ 
+This act shall not apply to a hotel, motel or other guest hous e, or part thereof, rented to a transient guest or seasonal 
+tenant, or a residential health care facility as defined in section 1 of P.L. 1953, c. 212 (C.30:11A-1). 
+L.1983, c. 446, s. 2, eff. Jan. 9, 1984. 
+ 
+2A:18-60.  Removal of proceedings into Law Division   
+ 
+At any time before an action for the removal of a tenant co mes on for trial, either the landlord or person possession 
+may apply to the Superior Court, which may, if it deems it of sufficient importance, order the cause transferred from the 
+Special Civil Part to the Law Division. 
+Amended L.1991, c.91.s.66 
+ 
+2A:18-61.  Trial by jury in Law Division   
+ 
+A summary action for the removal of a tenant, commenced in the Special Civil Part but transferred to the Law Division 
+shall be tried before a jury, unless a jury is waived.   
+Amended L.1991,c.91,s.67. 
+
+[PAGE 8]
+8  
+ 
+2A:18-61.1  Grounds for removal of tenants 
+ 
+No lessee or tenant or the assigns, under-tenants or legal representatives of such lessee or tenant may be removed by 
+the Superior Court from any house, building, mobile home or  land in a mobile home park or tenement leased for 
+residential purposes, other than (1) owner-occupied premises wi th not more than two rental units or a hotel, motel or 
+other guesthouse or part thereof rented to a transient guest or seasonal tenant;  (2) a dwelling unit which is held in 
+trust on behalf of a member of the immediate family of t he person or persons establishing  the trust, provided that the 
+member of the immediate family on whose behalf the trus t is established permanently occupies the unit; and (3) a 
+dwelling unit which is permanently occupied by a member of the immediate family of the owner of that unit, provided, 
+however, that exception (2) or (3) shall apply only in case s in which the member of the immediate family has a 
+developmental disability, except upon establishment of one of the following grounds as good cause:
+ 
+a. The person fails to pay rent due and owing under the le ase whether the same be oral or written; provided 
+that, for the purposes of this section, any portion of rent unpaid by a tenant to a landlord but utilized by the 
+tenant to continue utility service to the rental premises  after receiving notice from an electric, gas, water or 
+sewer public utility that such service was in dang er of discontinuance based on non payment by the 
+landlord, shall not be deemed to be unpaid rent.  
+b. The person has continued to be, after written notice to cease, so disorderly as to destroy the peace and 
+quiet of the occupants or other tenants living in said house or neighborhood. 
+c. The person has willfully or by reason of gross neglig ence caused or allowed destruction, damage or injury 
+to    the premises.  
+d.  The person has continued, after written notice to ce ase, to substantially violate or breach any of the 
+landlord's rules and regulations governing said premises, provided such rules and regulations are 
+reasonable and have been accepted in writing by the tenant or made a part of the lease at the beginning of 
+the lease term. 
+e.  (1) The person has continued, after written notice to ce ase, to substantially violate or breach any of the 
+covenants or agreements contained in the lease for the premises where a right of reentry is reserved to the 
+landlord in the lease for a violation of such cove nant or agreement, provided that such covenant or 
+agreement is reasonable and was contained in the lease at the beginning of the lease term.                   
+(2) In public housing under the control of a public housing authority or redevelopment agency, the person 
+substantially violated or breached any of the co venants or agreements contained in the lease for the 
+premises pertaining to illegal uses of controlled dangerous substances, or other illegal activities, whether or 
+not a right of reentry is reserved to the landlord in th e lease for a violation of such covenant or agreement, 
+provided that such covenant or agreement conforms to  federal guidelines regarding such lease provisions 
+and was contained in the lease at the beginning of the lease term.                                                              
+f.  The person has failed pay rent after a valid notice to quit and notice of increase of said rent, provided the 
+increase in rent is not unconscionable and complies with any an all other laws or municipal ordinances 
+governing rent increases. 
+g. The landlord or owner (1) seeks to permanently board up or demolish the premises because he has been 
+cited by local or State housing inspectors for substantial violations affecting the health and safety of tenants 
+
+[PAGE 9]
+9  
+and it is economically unfeasible for the owner to elimi nate the violations; (2) seeks to comply with local or 
+State housing inspectors who have cited him for substantial violations affecting the health and safety of 
+tenants and it is unfeasible to so comply without re moving the tenant; simultaneously with service of notice 
+of eviction pursuant to this clause, the landlord shall notify the Department of Community Affairs  of the 
+intention to institute proceedings and shall provide the department with such other information as it may 
+require pursuant to rules and regulations.  The department  shall inform all parties and the court of its view 
+with respect to the feasibility of compliance without removal of the tenant and may in its discretion appear 
+and present evidence; (3) seeks to correct an illegal occupancy because he has been cited by local or 
+State housing inspectors or zoning officers and it is unfeasible to correct such illegal occupancy without 
+removing the tenant; or (4) is a governmental agency wh ich seeks to permanently retire the premises from 
+the rental market pursuant to a redevelopment or la nd clearance plan in a bli ghted area. In those cases 
+where the tenant is being removed for any reason specified in this subsection , no warrant for possession 
+shall be issued until P.L. 1967, c.79 (C.52:31B-1 et s eq.) and P.L. 1971, c.362 (C.20:4-1 et seq.) have 
+been complied with. 
+h. The o
+wner seeks to retire permanently the residential building or the mobile home park from residential use
+or use as a mobile home park, provided this subsection shall not apply to circumstances covered under
+subsection g. of this section.
+i. The lan
+dlord or owner proposes, at the termination of a lease, reasonable changes of substance in the
+terms and conditions of the lease, including specifica lly any change in the term thereof, which the tenant,
+after written notice, refuses to accept; provided that  in cases where a tenant has received a notice  of
+terminatio
+n pursuant to subsection g. of section 3 of P.L.1974, c.49 (C.2A:18- 61.2), or has a protected
+tenancy status pursuant to sectio n 9 of the "Senior Citizens and Disabled Protected Tenan cy Act,"
+P.L.1981, c.2
+26 (C.2A:18-61.30), or pursuant to the "Tenant Protection Act of 1992," P.L.1991, c.509
+(C.2A:18-61.40 et al.), the landlord or owner shall have  the burden of proving that any change in the term s
+and 
+conditions of the lease, rental or regulations both is reasonable and does not substantially reduce th e
+rights a
+nd privileges to which the tenant  was entitled prior to the conversion.
+j. The perso
+n, after written notice to cease, has habitually and without legal justification failed to pay re nt
+whi
+ch is due and owing.
+k. The lan
+dlord or owner of a building or mobile home park is converting from the rental market to a
+condominium, cooperative or fee simp le ownership of two or more dwelli ng units or park sites, except as
+hereinafter provided in subsection l. of this section.  Where the tenant is being removed pursuant to this
+subsection, no warrant for possession shall be issued until this act has been complied with. No action  for
+posse
+ssion shall be brought pursuant to this subsection against any senior citizen tenant or disabled tenant
+with protecte
+d tenancy status pursuant to the “Senior Citizens and Disabled Tenancy Act,” P.L. 1981, c.226
+(C.2A:18-61.22 et al), or against a qualified tenant under the “Tenant Protection Ac t of 1992,” P.L. 199 1,
+c.509
+ (C2A:18-61.40 et al), as long as the agency has not terminated the protec ted tenancy status or th e
+prote
+cted tenancy period has not expired.
+l. (1) T
+he owner of a building or mobile home park, wh ich is constructed as or being converted to a
+condominium, cooperative or fee simple ownership, seeks to evict a tenant or sublessee whose initial
+tenancy began after the master deed, agreement est ablishing the cooperative or subdivision plat wa
+s
+
+[PAGE 10]
+10  
+recorded, because the owner has contracted to sell the unit to a buyer who seeks to personally occupy it 
+and the contract for sale calls for the unit to be vacant at the time of closing.  However, no action shall be 
+brought against a tenant under paragraph (1) of this subsection unless the tenant was given a statement in 
+accordance with section 6 of P.L.1975, c.311 (C.2A:18-61.9); 
+(2) The owner of three or less condominium or cooper ative units seeks to evict a tenant whose initial 
+tenancy began by rental from an owner of three or  less units after the master deed or agreement 
+establishing the cooperative was reco rded, because the owner seeks to personally occupy the unit, or has 
+contracted to sell the unit to a buyer who seeks to personally occupy it and the contract for sale calls for the 
+unit to be vacant at the time of closing; 
+(3) The owner of a building of three residential units or less seeks to personally occupy a unit, or has 
+contracted to sell the residential unit to a buyer who wishes to personally occupy it and the contract for sale 
+calls for the unit to be vacant at the time of closing. 
+m. The landlord or owner conditioned the tenancy upon and in consideration for the tenant’s employment by 
+the landlord or owner as superintendent, janitor or in  some other capacity and such employment is being 
+terminated. 
+n.  The person has been convicted of or pleaded guilty to, or  if a juvenile, has been adjudicated delinquent on 
+the basis of an act which if committed by an adult would constitute an offense under the "Comprehensive 
+Drug Reform Act of 1987," N.J.S.2C:35-1 et al. involv ing the use, possession, manufacture, dispensing or 
+distribution of a controlled dangerous substance,  controlled dangerous substance analog or drug 
+paraphernalia within the meaning of that act within or upon the leased premises or the building or complex 
+of buildings and land appurtenant thereto, or the mobile  home park, in which those premises are located, 
+and has not in connection with his sentence for that o ffense either (1) successfully completed or (2) been 
+admitted to and continued upon probation while comple ting, a drug rehabilitation program pursuant to 
+N.J.S.2C:35-14; or, being the tenant or lessee of such leased premises, knowingly harbors or harbored 
+therein a person who has been so convicted or has so  pleaded, or otherwise permits or permitted such a 
+person to occupy those premises for residential purpos es, whether continuously or intermittently, except 
+that this subsection shall not apply to a person harboring or permitting a juvenile to occupy the premises if 
+the juvenile has been adjudicated delinquent upon the basis of an act which if committed by an adult would 
+constitute the offense of use or possession under the said act. No action for removal may be brought 
+pursuant to this subsection more than two years afte r the date of the adjudication or conviction or more 
+than two years after the person's release from incarceration whichever is the later. 
+o. The person has been convicted of or pleaded guilty to, or if a juvenile, has been adjudicated delinquent on 
+the basis of an act which if committed by an adult w ould constitute an offens e under N.J.S.2C:12-1 or 
+N.J.S.2C:12-3 involving assault, or te rrorist threats against the landlord, a member of the landlord's family 
+or an employee of the landlord; or, being the tenant or  lessee of such leased premises, knowingly harbors 
+or harbored therein a person who has been so convict ed or has so pleaded, or otherwise permits or 
+permitted such a person to occupy those premises for residential purposes, whether continuously or 
+intermittently. No action for removal may be brought purs uant to this subsection more than two years after 
+the adjudication or conviction or more than two year s after the person's release from incarceration 
+whichever is the later. 
+
+[PAGE 11]
+11  
+p. The person has been found, by a preponderance of t he evidence, liable in a civil action for removal 
+commenced under this act for an offense under N.J.S.2C: 20-1 et al. involving theft of property located on 
+the leased premises from the landlord, the leased  premises or other ten ants residing in the leased 
+premises, or N.J.S.2C:12-1 or N.J.S. 2C:12-3 involving assault or terror ist threats against the landlord, a 
+member of the landlord's family or an employee of the landlord, or under the "Comprehensive Drug Reform 
+Act of 1987," N.J.S.2C:35-1 et al., in volving the use, possession, manufacture, dispensing or distribution of 
+a controlled dangerous substance, controlled dangerous substance analog or drug paraphernalia within the 
+meaning of that act within or upon the leased premis es or the building or complex of buildings and land 
+appurtenant thereto, or the mobile home park, in which those premises are located, and has not in 
+connection with his sentence for that offense either (1 ) successfully completed or (2) been admitted to and 
+continued upon probation while completing a drug rehab ilitation program pursuant to N.J.S.2C:35-14; or, 
+being the tenant or lessee of such leased premises , knowingly harbors or harbored therein a person who 
+committed such an offense, or otherwise permits or pe rmitted such a person to occupy those premises for 
+residential purposes, whether continuously or intermittent ly, except that this subsection shall not apply to a 
+person who harbors or permits a juvenile to occupy  the premises if the juvenile has been adjudicated 
+delinquent upon the basis of an act which if committed by  an adult would constitute the offense of use or 
+possession under the said "Comprehensive Drug Reform Act of 1987. 
+q.  The person has been convicted of or pleaded guilty to, or  if a juvenile, has been adjudicated delinquent on 
+the basis of an act which if committed by an adult woul d constitute an offense under N.J.S.2C:20-1 et al. 
+involving theft of property from the landlord, the le ased premises or other ten ants residing in the same 
+building or complex; or, being the tenant or lessee of  such leased premises, knowingly harbors therein a 
+person who has been so convicted or has so pleaded, or  otherwise permits such a person to occupy those 
+premises for residential purposes, whether continuously or intermittently. 
+ 
+For purposes of this section, (1) "dev elopmental disability" means any disabilit y which is defined as such pursuant to 
+section 3 of P.L.1977, c.82 (C .30:6D-3); (2) "member of the immediate fa mily" means a person's spouse, parent, child 
+or sibling, or a spouse, parent, child or sibling of any of them; and (3) "permanently" occupies or occupied means that 
+the occupant maintains no other domicile at  which the occupant votes, pays rent or property taxes or at which rent or 
+property taxes are paid on the occupant's behalf.  
+L.1974,c.49,s.2;  Amended 1975, c.311, s.1; 1981, c.8, s.1; 1981, c.226, s.13; 1989, c.294, s.1; 1991, c.91, s.68; 1991, c.307;  1991, c.509, s.19; 
+1993, c.342, s.1; 1995, c.269; 1996, c.131; 1997,c.228,s.1.L.2000, c.113, s.3 
+ 
+2A:18-61.1a.  Findings  
+ 
+The Legislature finds that:  
+a. Acute State and local shortages of supply and high levels of demand for residential dwellings have 
+motivated removal of blameless tenants in order to dire ctly or indirectly profit from conversion to higher 
+income rental or ownership interest residential use.  
+
+[PAGE 12]
+12  
+b.  This has resulted in unfortunate attempts to disp lace tenants employing pretex ts, stratagems or means 
+other than those provided pursuant to the intent of State eviction laws  designated to fairly balance and 
+protect rights of tenants and landlords.  
+c. These devices have circumvented the intent of curr ent State eviction laws by failing to utilize available 
+means to avoid displacement, such as: protected tenancies; rights to purchase; rent affordability protection; 
+full disclosures relevant to eviction challenges; and stays of eviction where relocation is lacking.  
+d. It is in the public interest of the State to maintain for citizens the broadest protections available under State 
+eviction laws to avoid such displacement and resultant loss of affordable housing, which, due to housing's 
+uniqueness as the most costly and difficult to change  necessity of life, causes  overcrowding, unsafe and 
+unsanitary conditions, blight, burdens on communit y services, wasted resources, homelessness, 
+emigration from the State and personal hardship, which is  particularly severe fo r vulnerable seniors, the 
+disabled, the frail, minorities, large families and single parents.  
+e. Such personal hardship includes, but is not limited to:  economic loss, time loss, physical and emotional 
+stress, and in some cases severe emotional trauma, illness, homelessness or other irreparable harm 
+resulting from strain of eviction controversy; relocati on search and moving difficulties; anxiety caused by 
+lack of information, uncertainty, and resultant planning difficulty; empl oyment, education, family and social 
+disruption; relocation and empty unit security hazards; re location to premises of less affordability, capacity, 
+accessibility and physical or environment al quality; and relocation adjustment  problems, particularly of the 
+blind or other disabled citizens.  
+f. It is appropriate to take legislative notice of releva nt legislative findings adopted pursuant to section 2 of the 
+"Senior Citizens and Disabled Protected Tenancy Act," P.L. 1981, c. 226 (C. 2A:18-61.23) and section 2 of 
+the "Prevention of Homelessness Act (1984)," P.L. 1984, c. 180 (C. 52:27D-281), which, with the findings of 
+this section, have relevance to this 1986 amendat ory and supplementary act and P.L. 1974, c. 49 (C. 
+2A:18-61.1 et seq.). 
+g. This 1986 amendatory and supplementary act is adopted in order to protect the public health, safety and     
+welfare of the citizens of New Jersey.  
+L. 1986, c. 138, s. 10, eff. Oct. 29, 1986.  
+ 
+2A:18-61.1b.  Permanent retirement from residential use  
+ 
+If an owner seeks an eviction alleging permanent retirem ent of the premises from residential use pursuant to 
+subsection h. of section 2 of P.L. 1974, c. 49 (C. 2A:18-61.1) and if, pursuant to land use law, nonresidential use of the 
+premises is not permitted as a principal permitted use or is limited to accessory, conditional or public use, a rebuttal 
+presumption is created that the premises are not and will not be permanently retired from residential use.  Residential 
+premises that are unoccupied, boarded up or otherwise out of  service shall not be deemed retired from residential use 
+unless they are converted to a principal permitted nonres idential use.  No tenant shall be evicted pursuant to 
+subsection h. of section 2 of P.L. 1974, c. 49 (C. 2A:18-61.1) if any State or local permit or approval required by law for 
+the nonresidential use is not obtained.  Nothing contained in this section shall be deemed to require obtaining a 
+certificate of occupancy for the propos ed use prior to an eviction.  The detail specified in notice given pursuant to 
+
+[PAGE 13]
+13  
+subsection d. of section 3 of P.L. 1974, c. 49 (C. 2A:18-61.2) shall disclose the proposed nonresidential use to which 
+the premises are to be permanently retired.  
+L. 1986, c. 138, s. 2, eff. Oct. 29, 1986.  
+  
+2A:18-61.1c. 5 year restriction  
+ 
+The Department of Community Affairs shall not approve an application for registration of  conversion pursuant to "The 
+Planned Real Estate Development Full Disclosure Act," P.L. 1977, c. 419 (C. 45:22A-21 et seq.) for any premises for a 
+period of five years following the date on which any dwellin g unit in the premises beco mes vacant after notice has 
+been given that the owner seeks to permanently board up or dem olish the premises or seeks to retire permanently the 
+premises from residential use pursuant to subsection g.(1) or h. of section 2 of P.L. 1974, c. 49 (C. 2A:18-61.1).  Within 
+five days of the date on which any owner provides notice of termination to a tenant pursuant to subsection g.(1) or h. of 
+section 2 of P.L. 1974, c. 49 (C. 2A:1 8-61.1), the owner shall provide a copy  of the notice to the Department of 
+Community Affairs.  
+L. 1986, c. 138, s. 3, eff. Oct. 29, 1986.  
+ 
+2A:18-61.1d. Maximum authorized rent  
+ 
+In a municipality which has an ordinance regulating rents in effect, if a dwelling unit in the premises becomes vacated 
+after notice has been given that the owner seeks to permanent ly board up or demolish the premises or seeks to retire 
+permanently the premises from residential use pursuant to s ubsection g.(1) or h. of sect ion 2 of P.L. 1974, c. 49 (C. 
+2A:18-61.1) and if any time thereafter an owner permits the personal occupancy of the premises, the maximum rent 
+authorized for a unit in the premises shall not exceed the rent that would have been authorized for that unit if there had 
+been no vacancy or change of tenancy for the unit.  Increase d costs which occur during the period of vacancy, which 
+are solely the result of the premises being vacated, closed and reoccupied and which do not add services or amenities 
+not previously provided, or which add new services or ameni ties whose costs significantly reduce the affordability of 
+the premises, shall not be used as a basis for any rent incr ease pursuant to any municipal  rent regulation provision, 
+fair return or hardship hearing before a municipal rent boar d or any appeal from such determination.  Increased costs 
+of new services and amenities create a rebuttal presumption that they signifi cantly reduce the affordability of the 
+premises, if they result in a doubling of  the rent increases otherwise permitted by law during the period of vacancy.  
+Within five days of the date on which any owner provides notic e of termination to a tenant pursuant to subsection g.(1) 
+or h. of section 2 of P.L. 1974, c. 49 (C. 2A:18-61.1), the owner shall provide a copy of the notice to the municipal 
+agency responsible for administering the regulation of rents in  the municipality.  The owner's notice to the municipal 
+agency shall also include a listing of the current tenants and rents for each dwelling unit in the premises, unless the 
+owner has previously submitted to the municipal agency a listing which is still current.   
+L. 1986, c. 138, s. 4, eff. Oct. 29, 1986.  
+ 
+ 
+ 
+ 
+
+[PAGE 14]
+14  
+2A:18-61.1e.  Rights of former tenants  
+ 
+If a dwelling unit becomes vacated after notice has been giv en that the owner seeks to permanently board up or 
+demolish the premises or seeks to retire permanently the pr emises from residential use pursuant to paragraph (1) of 
+subsection g. or subsection h. of section 2 of P.L.1974, c.49 (C.2A:18-61.1) and if at any time thereafter an owner 
+instead seeks to return the premises to residential use, the owner shall provide the former tenant:   
+a. Written notice 90 days in advance of any return to residential use or any agreement for possession of the 
+unit by any other party, which notice discloses the owner's intention to return the unit to residential use and 
+all appropriate specifics;   
+b. The right to return to possession of the vacated unit or , if return is not available, the right to possession of 
+affordable housing relocation in accord with the standards and criteria set forth for comparable housing as 
+defined by section 4 of P.L.1975, c.311 (C.2A:18-61.7); and   
+c. In the case of a conversion, the right to a protecte d tenancy pursuant to the "Senior Citizens and Disabled 
+Protected Tenancy Act," P.L.1981, c.226 (C.2A:18-61.22 et seq.), or pursuant to the "Tenant Protection Act 
+of 1992," P.L.1991, c.509 (C.2A:18-6 1.40 et al.), if the former tenant  would have at the time of the 
+conversion been eligible for a protected tenancy under  either of those acts, had the former tenant not 
+vacated the premises.   
+ 
+The 90-day notice shall disclose the tenant's rights pursuant to this section and the method for the tenant's response to 
+exercise these rights. A duplicate of t he notice shall be transmitted within the fi rst five days of the 90-day period to the 
+rent board in the municipality or the muni cipal clerk, if there is no board. Notwit hstanding the provisions of subsection 
+c. of section 3 of P.L.1975, c.311 (C.2A:18-61.6), damages awarded shall not be trebled where possession has been 
+returned in accord with this section; nor shall any damages be awarded as provided for in subsection e. of section 3 of 
+P.L.1975, c.311 (C.2A:18-61.6).  An owner who fails to prov ide a former tenant a notice of intention to return to 
+residential use pursuant to this section is liable to a civil penalty of not less than $2,500.00 or more than $10,000.00 for 
+each offense, and shall also be liable in treble damages, plus attorney fees and costs of suit, for any loss or expenses 
+incurred by a former tenant as a result of that failure.  The penalty prescribed in this section shall be collected and 
+enforced by summary proceedings pursuant to "the penalty en forcement law" (N.J.S.2A:58-1 et seq.).  The Superior 
+Court, Law Division, Special Civil Part, in the county in wh ich the rental premises are located shall have jurisdiction 
+over such proceedings.  Process shall be in the nature of  a summons or warrant, shall issue upon the complaint of the 
+Commissioner of the Department of Community Affairs, the A ttorney General, or any other person.  No owner shall be 
+liable for a penalty pursuant to this section if the unit is re turned to residential use more than five years after the date 
+the premises are vacated or if the owner made every reason able effort to locate the former tenant and provide the 
+notice, including, but not limited to, the employment of a qualified professional lo cator service, where no return receipt 
+is obtained from the former tenant.   
+ 
+In any action under this section the court shall, in additi on to damages, award any other appropriate legal or equitable 
+relief.  
+L.1986,c.138,s.6; Amended 1991,c.509,s.20.   
+ 
+
+[PAGE 15]
+15  
+2A:18-61.1f.  Local ordinances permitted 
+  Nothing contained in this 1986 amendatory and supplementar y act shall authorize any civil action to require that 
+dwelling units remain vacant, shall limit any defense or challenge to evictions that is otherwise provided by law or shall 
+prohibit any provision of a local ordinance which is not less restrictive, except as prohibi ted pursuant to subsection e. 
+of section 3 of P.L. 1975, c. 311 (C. 2A:18- 61.6).  Except as provided in subsection e. of section 3 of P.L. 1975, c. 311 
+(C. 2A:18-61.6), local ordinances may facilitate the objectives of this 1986 amendatory and supplementary act 
+pertaining to premises where tenants have received notice pursuant to subsection g.(1) or h. of section 2 of P.L. 1974, 
+c. 49 (C. 2A:18-61.1
+),including, but not limited to, any ordinance intended to:
+a.
+Require owners to obtain and register tenants' current and forwarding addresses;
+b.
+Provide to tenants and former tenants who have received notice of terminati on pursuant to subsection
+g.(1) or h. of section 2 of P.L. 1974, c. 49 (C. 2A:18-61.1) basic information on their relevant rights;
+c. Provide a municip
+al registry for former tenants to file current addresses for receiving notice; and
+d.
+Assist in locating former tenants who become entitled to  receive notice pursuant to section 6 of this 198 6
+amend
+atory and supplementary act.
+L. 1986, c. 138, s. 8, eff. Oct. 29, 1986.
+2A:18
+-61.1g.  Relocation of displaced tenant; violations, penalty 
+a. A muni
+cipality may enact an ordinance providing that  any tenant who receives a not ice of eviction pursuan t to
+se
+ction 3 of P.L.1974, c.49 (C.2A:18-61. 2) that results from zoning or code enforcement activity for an illega l
+occup
+ancy, as set forth in paragraph (3) of subsection g.  of section 2 of P.L.1974, c.49 (C.2A:18-61.1), shall be
+considered a displaced person and shall be entitled to re location assistance in an amount equal to six times the
+monthly rental paid by the displaced person.  The owner-l andlord of the structure shall be liable for th e payment of
+relo
+cation assistance pursuant to this section.
+b. A municipality that has en
+acted an ordinance pursuant  to subsection a. of this section may pa y relocation
+assista
+nce to any displaced person w ho has not received the required payment from the owner-landlord of the
+structure at the time of eviction pursuan t to subsection a. of this section from a revolving relocation assistance fund
+established pursuant to section 2 of P.L.1987, c.98 (C.20:4-4.1a)  All reloca tion assistance costs incurred by a
+munici
+pality pursuant to this subsection shall be repaid by the owner-landlord of the structure to the municipality in the
+same
+ manner as relocation costs are billed and collected under section 1 of P.L.1983, c.536 (C.20:4-4.1) and section 1
+of P.L.1984, c.30 (C.20:4
+-4.2).  These repayments shall be deposited into the municipality's revolving  relocation
+assista
+nce fund.
+c. A 
+municipality that has enacted an ordinance pursuant to  subsection a. of this section, in addition to requi ring
+reimb
+ursement from the owner-landlord of the structure for relocation assistance paid to a displaced  tenant, may
+requi
+re that an additional fine for zoning or housing code violation for an illegal occupancy, up to an amount equal to
+six times the monthly rental paid by the displaced person, be paid to t he municipality by the owner-landlord  of the
+st
+ructure.
+
+[PAGE 16]
+16  
+ 
+In addition to this penalty, a municipality, after affording the owner-landlord an opportunity for a hearing on the matter, 
+may impose upon the owner-landlord, for a second or subsequent violation for an illegal occupancy, a fine equal to the 
+annual tuition cost of any resident of the illegally occupied unit attending a public school, which fine shall be recovered 
+in a civil action by a summary proceeding in the name of the municipality pursuant to “t he penalty enforcement law of 
+1999,” P.L.1999, c.274 (C.2A:58-10 et seq. ).  The municipal court and the Superior Court shall have jurisdiction of 
+proceedings for the enforcement of the penalty provided by this section.  The tuition cost shall be determined in the 
+manner prescribed for nonresident pupils pursuant to N.J.S.18A:38-19 and the payment of the fine shall be remitted to 
+the appropriate school district. 
+ 
+d.   For the purposes of this sectio n, the owner-landlord of a structure shall exclude mortgages in possession of a 
+structure through foreclosure.   
+ 
+For the purposes of this section, a “second or subsequent violation for an illegal occupancy” shall be limited to those 
+violations that are new and are a result of distinct and separate zoning code enforcement  activities, and shall not 
+include any continuing violations for which citations are iss ued by a zoning or code enforce ment agent during the time 
+period required for summary dispossession proceedings to conc lude if the owner has initiated eviction proceedings in 
+a court of proper jurisdiction.  
+L.1993,c.342, s.3., Amended L. 1999, c. 425   
+ 
+2A:18-61.1h.  Reimbursement to displaced tenant 
+ 
+a.  If a residential tenant is displaced because of an ill egal occupancy in a residential rental premises pursuant to 
+paragraph (3) of subsection g. of sect ion 2 of P.L.1974, c.49 (C.2A:18-61.1) a nd the municipality in which the rental 
+premises is located has not enacted an ordinance pursu ant to section 3 of P.L.1993,  c.342 (C.2A:18-61.1g), the 
+displaced residential tenant shall be entitled to reimbursem ent for relocation expenses from the owner in an amount 
+equal to six times the monthly rental paid by the displaced person.   
+ 
+b.   Payment by the owner shall be due five days prior to the removal of the displaced tenant.  If payment is not made 
+within this time, interest shall accrue and be due to the displaced residential tenant on the unpaid balance at the rate of 
+18% per annum until the amount due and all interest accumulated thereon shall be paid in full.   
+ 
+c.   If reimbursement for which an owner is liable is not paid in full within 30 days of removal of the tenant, the unpaid 
+balance thereof and all interest accruing thereon and, in a ddition thereto, an amount equal to six times the monthly 
+rental paid by the displaced tenant shall be a lien upon the pa rcel of property on which t he dwelling of the displaced 
+residential tenant was located, for the benef it of that tenant.  To perfect the li en, a statement showing the amount and 
+due date of the unpaid balance and identify ing the parcel shall be recorded with the county clerk or registrar of deeds 
+and mortgages of the county in which the affected propert y is located, and upon recording, the lien shall have the 
+priority of a mortgage lien. Identification of the parcel by reference to its designation on the tax map of the municipality  
+
+[PAGE 17]
+17  
+shall be sufficient for purposes of recording.  Whenever th e unpaid balance and all interest accrued thereon has been 
+fully paid, the displaced residential tenant shall promptly wit hdraw or cancel the statement, in writing, at the place of 
+recording.   
+ 
+d.   This section shall not authorize the enforcement of a lien for actual reasonable moving expenses with respect to 
+any real property the title to which has been acquired by  a municipality and which has been transferred pursuant to a 
+rehabilitation agreement.   
+ 
+e.   For the purposes of this section, the owner of a structure shall exclude mortgagees in possession of a structure 
+through foreclosure.    
+L.1993,c.342, s.4.   
+ 
+2A:18-61.2  Removal of residential tenants; required notice; contents; service. 
+ 
+No judgment of possession shall be entered for any premis es covered by section 2 of this act, except in the 
+nonpayment of rent under subsection a. or f. of section 2, unless the landlord has made written demand and given 
+written notice for delivery of possession of the premises.  The following notice shall be required: 
+ a. For an action alleging disorderly conduct under subsecti on b. of section 2, or injury to the premises under 
+subsection c. of section 2, or any grounds under subsection m., n., o. or p. of section 2, three days' notice 
+prior to the institution of the action for possession; 
+ b.   For an action alleging continued violation of ru les and regulations under subs ection d. of section 2, or 
+substantial breach of covenant under subsection e. of section 2, or habitual failure to pay rent, one 
+month's notice prior to the institution of the action for possession; 
+ c.   For an action alleging any grounds under subsection  g. of section 2, three months' notice prior to the 
+institution of the action; 
+ d.   For an action alleging permanent retirement under subsection h. of section 2,  18 months' notice prior to 
+the institution of the action and, provided that, wh ere there is a lease in effect, no action may be 
+instituted until the lease expires; 
+ e.   For an action alleging refusal of acceptance of reasonable lease changes under subsection i. of section 
+2, one month's notice prior to institution of action; 
+ f.   For an action alleging any grounds under subsecti on l. of section 2, two months' notice prior to the 
+institution of the action and, provid ed that where there is a written lease in effect no action shall be 
+instituted until the lease expires; 
+ g.   For an action alleging any grounds under subsection k. of section 2, three years' notice prior to the 
+institution of action, and provided that where there is a written lease in effect, no action shall be instituted 
+until the lease expires; 
+ h.   In public housing under the control of a public housing authority or redevelopment agency, for an action 
+alleging substantial breach of contract under paragra ph (2) of subsection e. of section 2, the period of 
+notice required prior to the institution of an action for possession shall be in accordance with federal 
+regulations pertaining to public housing leases. 
+
+[PAGE 18]
+18  
+ 
+The notice in each of the foregoing inst ances shall specify in detail the cause of the termination of the tenancy and 
+shall be served either personally upon the tenant or lessee or  such person in possession by giving him a copy thereof, 
+or by leaving a copy thereof at his usual  place of abode with some member of his family above the age of 14 years, or 
+by certified mail; if the certified letter is not claimed, notice shall be sent by regular mail.   
+L.1974,c.49, s.3; Amended L.1975, c.311, s.2; L.1981, c.8, s.2; L.1986, c.138, s.1; L.1989, c.294, s.2; L.1997,c.228,s.2.   
+ 
+2A:18-61.3.  Causes for eviction or non-renewal of lease 
+ 
+a.  No landlord may evict or fail to renew any lease of any premises covered by section 2 of this act except for good 
+cause as defined in section 2.   
+b.  A person who was a tenant of a landlord in premises covered by section 2 of P.L. 1974, c.49 (C.2A:18-61.1) may 
+not be removed by any order or judgment for possession from the premises by the owner's or landlord's successor in 
+ownership or possession except:  
+(1) For good cause in accordance with the requirement s which apply to premises covered pursuant to  
+       P.L.1974, c.49 (C.2A:18-61.1 et al.); or   
+(2) For proceedings in premises where federal  law supersedes applicable State law governing 
+removal of occupants; or   
+(3) For proceedings where removal of occupants is sought by an authorized State or local agency 
+pursuant to eminent domain or code or zoning enforcement laws and which comply with 
+applicable relocation laws pursuant to the "Reloc ation Assistance Law of  1967," P.L.1967, c.79 
+(C.52:31B-1 et seq.), the "Rel ocation Assistance Act," P.L.1971,  c.362 (C.20:4-1 et seq.) or 
+section 3 of P.L.1993, c.342 (C.2A:18-61.1g).   
+ 
+Where the owner's or landlord's successor in ownership or possession is not bound by the lease entered into with the 
+former tenant and may offer a different lease to the former tenant, nothing in P.L.1986, c.138 shall limit that right.   
+L.1974,c.49,s.4; Amended L.1986,c.138,s.7; L.1993,c.342,s.2.   
+ 
+2A:18-61.3a.  Mobile home parks; restrictions on  "for sale" signs; prohibition 
+ 
+No mobile home park owner or operator may evict a mobile ho me resident for posting in or on his mobile home a  "for 
+sale" sign or similar notice of the private sale of the m obile home.  Nor may a mobile home park owner or operator 
+prohibit or unreasonably restrict such posting by any mean s, including but not limited to, rules and regulations of the 
+mobile home park or written leases or rental agreem ents between the park owner or operator and mobile home 
+residents.  
+L.1983, c. 432, s. 1, eff. Jan. 5, 1984. 
+ 
+ 
+ 
+ 
+
+[PAGE 19]
+19  
+2A:18-61.4.  Waiver of rights by provision in lease;  unenforceability 
+ 
+Any provision in a lease whereby any tenant covered by section 2 of this act agrees that his tenancy may be 
+terminated or not renewed for other than good  cause as def ined in section 2, or whereby  the tenant waives any other 
+rights  under this act shall be deemed against public policy and unenforceable.  
+L.1974, c. 49, s. 5, eff. June 25, 1974. 
+  
+2A:18-61.5.  Severability 
+ 
+If any section, subsection, paragraph, sent ence or other part of this act is adjudged unconstitutional or invalid, such 
+judgment shall not affect, impair or invalidate the remainder of this act, but shall be confined in its effect to the section, 
+subsection, paragraph, sentence or other part of this act di rectly  involved in the controversy in which said judgment 
+shall have been rendered.   
+L.1974, c. 49, s. 7, eff. June 25, 1974. 
+ 
+2A:18-61.6.  Owner liability for wrongful evictions  
+ 
+a.   Where a tenant vacates the premises after being given a notice alleging the owner seeks to personally occupy the 
+premises under subsection L. of section 2 of P.L. 1974, c. 49 (C. 2A:18-61.1) and the owner thereafter arbitrarily fails 
+to personally occupy the premises for a total of at least six months, or arbitrarily fails to execute the contract for sale, 
+but instead permits personal occupancy of the premises by another tenant or instead permits registration of conversion 
+of the premises by the Department of Community Affair s pursuant to "The Planned Real Estate Development Full 
+Disclosure Act," P.L. 1977, c. 419 (C. 45: 22A-21 et seq.), such owner shall be liable to the former tenant in a civil 
+action for three times the damages plus the tenant's attorney fees and costs. 
+ 
+b.   If an owner purchases the premises pursuant to a cont ract requiring the tenant to vacate in accordance with 
+subsection l. of section 2 of P.L. 1974,  c. 49 (C. 2A:18-61.1) and thereafter ar bitrarily fails to personally occupy the 
+premises for a total of at least six months, but instead per mits personal occupancy of the premises by another tenant 
+or instead permits registration of conver sion of the premises by the Department  of Community Affairs pursuant to P.L. 
+1977, c. 419 (C. 45:22A-21 et seq.), such owner-purchaser shall be liable to the former tenant in a civil action for three 
+times the damages plus the tenant's attorney fees and costs.  
+ 
+c.  If a tenant vacates a dwelling unit after notice has been given alleging that the owner seeks to permanently board 
+up or demolish the premises or to retire permanently the pr emises from residential use pursuant to subsection g.(1) or 
+h. of section 2 of P.L. 1974, c. 49 (C . 2A:18-61.1) and instead, within five years following the date on which the 
+dwelling unit or the premises become vacant, an owner perm its residential use of the vacated premises, the owner 
+shall be liable to the former tenant in a civil action for three times the damages plus the tenant's attorney fees and 
+costs of suit.  
+ 
+
+[PAGE 20]
+20  
+An owner of any premises where notice has been given pursuant to subsection g. (1) or h. of section 2 of P.L. 1974, c. 
+49 (C. 2A:18-61.1), who subsequently seeks to sell, lease or co nvey the property to anothe r, shall, before executing 
+any lease, deed or contract for such conveyance, advise in writin g the prospective owner that such notice was given 
+and that the owners of the property are subject to the liabilitie s provided in this subsection and sections 3 and 4 of this 
+1986 amendatory and supplementary act.  Whoever fails to so advise a prospective owner prior to the execution of the 
+contract of sale, lease or conveyance  is liable to $10,000.00 for each offense, and shall also be liable in treble 
+damages, plus attorney fees and costs of suit, for any loss or expenses incurred by a new  owner of the property as a 
+result of that failure. The civil penalty prescribed in th is subsection shall be collected and enforced by summary 
+proceedings pursuant to "the penalty enforcement law" (N.J.S . 2A:58-1 et seq.).  The Superior Court, Law Division, 
+Special Civil Part, in the county in which the rental premises  are located shall have jurisdiction over such proceedings.  
+Process shall be in the nature of a summons or warrant, and shall issue upon the complaint of the Commissioner of  
+the Department of Community Affairs, the Attorney General, or any other person.  
+ 
+d.  If a tenant vacates a dwelling unit after receiving from an owner an eviction notice (1) purporting to compel by law 
+the tenant to vacate the premises for cause or purporting t hat if the tenant does not va cate the premises, the tenant 
+shall be compelled by law to vacate the premises for cause; and (2) using a cause that is clearly not provided by law or 
+using a cause that is based upon a lease clause which is cont rary to law pursuant to section 6 of P.L. 1975, c. 310 (C. 
+46:8-48); and (3) misrepresenting that, under the facts alleged, the tenant would be subject to eviction, the owner shall 
+be liable to the former tenant in a civil action for three times the damages plus the tenant's attorney fees and costs.  An 
+owner shall not be liable under this subsection for alleging an y cause for eviction which, if proven, would subject the 
+tenant to eviction pursuant to N.J.S. 2A:18-53 et seq. or P.L. 1974, c. 49 (C. 2A:18-61.1 et seq.).  
+ 
+In any action under this section the court shall, in additi on to damages, award any other appropriate legal or equitable 
+relief.  For the purposes of P.L. 1974, c. 49 (C. 2A:18-61.1 et seq.), the term "owner" includes, but is not limited to, 
+lessee, successor owner and lessee, and other successors in interest.  
+ 
+e.  An owner shall not be liable for damages pursuant to  this section or section 6 of this 1986 amendatory and 
+supplementary act or subject to a more restrictive loca l ordinance adopted pursuant to section 8 of this 1986 
+amendatory and supplementary act if:  
+(1) Title to the premises was transferred to that ow ner by means of a foreclosure sale, execution sale 
+or bankruptcy sale; and  
+(2) Prior to the foreclosure sale, execution sale or ba nkruptcy sale, the former tenant vacated the      
+premises after receiving eviction notice from the former owner pursuant to subsection g.(1) or h. of 
+section 2 of P.L. 1974, c. 49 (C. 2A:18-61.1); and  
+(3) The former owner retains no financial interest, direct or indirect, in the premises.  The term "former 
+owner" shall include, but not be limited to, any officer or board member of a corporation which was 
+the former owner and any holder of more than 5%  equity interest in any incorporated or 
+unincorporated business entity that was the former owner; and  
+ 
+ 
+
+[PAGE 21]
+21  
+(4) The former tenant is provided notice and rights in accordan ce with the provisions of section 6 of         
+this 1986 amendatory and supplementary act.  
+L. 1975, c. 311, s. 3, eff. Feb. 19, 1976.  Amended by L. 1986, c. 138, s. 5, eff. Oct. 29, 1986.  
+ 
+2A:18-61.7.  Definitions 
+ 
+As used in this act: 
+a. "Comparable housing or park site" means housing that is (1) decent, safe, sanitary, and in compliance with 
+all local and State housing codes;  (2) open to a ll persons regardless of ra ce, creed, national origin, 
+ancestry, marital status or sex; and (3) provided with fa cilities equivalent to that provided by the landlord in 
+the dwelling unit or park site in which the tenant then resides in regard to each of the following: (a) 
+apartment size including number of rooms or park si te size, (b) rent range, (c) apartment's major kitchen 
+and bathroom facilities, and (d) special facilities necessar y for the handicapped or infirmed;  (4) located in 
+an area not less desirable than the area in which the tenant  then resides in regard to each of the following:  
+(a) accessibility to the tenant's place of employ ment, (b) accessibility of community and commercial 
+facilities, and (c) environmental quality and conditions;  and (5) in accordance with additional reasonable 
+criteria which the tenant has requested in writing at the time of making any request under this act. 
+b. "Condominium" means a condominium as defined in the  "Condominium Act," P.L.1969, c. 257 (C. 46:8B-1 
+et seq.). 
+c. "Cooperative" means a housing corporation or as sociation which entitles the holder of a share or 
+membership interest thereof to possess and occupy  for dwelling purposes a house, apartment or other 
+structure owned or leased by said corporation or as sociation, or to lease or purchase a dwelling 
+constructed or to be constructed by said corporation or association. 
+d. "Mobile home park" means any park, including a trailer park or camp, equipped to handle mobile homes 
+sited on a year-round basis. 
+L.1975, c. 311, s. 4, eff. Feb. 19, 1976.  Amended by L.1981, c. 8, s. 3, eff.  Jan. 26, 1981. 
+  
+2A:18-61.8.  Conversion of multiple dwelling into condom inium, cooperative or fee simple ownership; notice 
+to and rights to tenants 
+ 
+Any owner who intends to convert a multiple dwelling as de fined in P.L.1967, c. 76 (C. 55: 13A-1 et seq.), other than a 
+hotel or motel, or a mobile home park into a condominium or cooperative, or to fee simp le ownership of the several 
+dwelling units or park sites shall give the tenants 60 days'  notice of his intention to convert and the full plan of the 
+conversion prior to serving  notice, provided for in section 3 of P.L.1974, c. 49 (C. 2A:18-61. 2).  A duplicate of the first 
+such 60-day notice and full plan shall be transmitted to the clerk of the municipality at t he same time. In the notice of 
+intention to convert tenants shall be notified of their right to purchase ownership in the  premises at a specified price in 
+accordance with this section, and their ot her  rights as tenants under this act in relation to the conversion of a building 
+or  park to a condominium, cooperative or fee simple owners hip.  A tenant in occupancy at  the time of the notice of 
+intention to convert shall have the exclusive right to purchase his unit, the shares of stock allocated thereto or the park 
+
+[PAGE 22]
+22  
+site, as the case may be, for the first 90 days after such notice that  such purchase could be made during which time 
+the unit or site shall not be  shown to a third party unless the tenant has in writing waived the right to  purchase. 
+L.1975, c. 311, s. 5, eff. Feb. 19, 1976.  Amended by L.1981, c. 8, s. 4, eff.  Jan. 26, 1981. 
+ 
+2A:18-61.9.  Notice to tenant after master deed or agreement to establish cooperative 
+ 
+Any owner who establishes with a person an initial t enancy after the master deed or agreement establishing the 
+cooperative was recorded shall provide to  such person at the time of applying for tenancy and at the time of 
+establishing any rental agreement a separate written statement as follows: 
+ 
+"STATEMENT” 
+ 
+THIS BUILDING (PARK) IS BEING CONVERTED TO OR IS A CONDOMINIUM OR COOPERATIVE (OR FEE 
+SIMPLE OWNERSHIP OF THE SEVERAL DWELLING UNITS OR PARK SITES).  YOUR TENANCY CAN BE 
+TERMINATED UPON 60 DAYS’ NOTI CE IF YOUR APARTMENT (PARK SI TE) IS SOLD TO A BUYER WHO 
+SEEKS TO PERSONALLY OCCUPY IT. IF YOU MOVE OUT AS A RESULT OF RECEIVING SUCH A NOTICE, 
+AND THE LANDLORD ARBITRARILY FAILS TO COMPLE TE THE SALE, THE LANDLORD SHALL BE LIABLE 
+FOR TREBLE DAMAGES AND COURT COSTS.” 
+ 
+The parenthesized words shall be omitted or substituted for preceding words where appropriate.  Such statement shall 
+also be reproduced as the first clause in any written lease provided to such person.  
+L.1975, c. 311, s. 6, eff. Feb. 19, 1976.  Amended by L.1981, c. 8, s. 5, eff.  Jan. 26, 1981. 
+ 
+2A:18-61.10.  Removal of tenant to allow conversion to cooperative or condominium; moving expense 
+compensation 
+ 
+Any tenant receiving notice under section 3 g. of P.L.1974, c. 49 who is not evict ed for any cause under this act other 
+than under section 3 g. shall receive from the owner moving expense compensation of waiver of payment of 1 month's 
+rent.   
+L.1975, c. 311, s. 7, eff. Feb. 19, 1976. 
+ 
+2A:18-61.11.  Comparable housing; offer of rental; stay of  eviction; alternative compensation;  senior citizens 
+and disabled protected tenancy period 
+ 
+a. Tenants receiving notice under sect ion 3 g. of P.L.1974, c. 49 may r equest of the landlord within 18 full 
+months after receipt of such notice, and  the landlor d shall offer to the tenant, personally or through an 
+agent, the  rental of comparable housing or park site and a reasonable opportunity to examine and rent 
+such comparable housing or park site.  In any pr oceeding under subsection 2 k. of P.L.1974, c. 49 
+instituted following the expiration of notice required under section 3 g. of P.L.1974,  c. 49, the owner shall 
+prove that a tenant was offered such comparable hous ing or park site and provided such reasonable 
+
+[PAGE 23]
+23  
+opportunity to examine and rent such housing or park site  as requested pursuant to this section.  The court 
+shall authorize 1-year stays of eviction with reasonabl e rent increases until such time as the court is 
+satisfied that the tenant has been offered comparable housing or park site and  provided a reasonable 
+opportunity to examine and rent such housing or park site  as requested pursuant to this section.  However, 
+in no case shall more than five such stays be granted. 
+b. The court shall automatically rene w any 1-year stay of eviction in any  case where the landlord failed to 
+allege to the court within 1 year of a prior stay that the tenant was offered a reasonable opportunity to 
+examine and rent comparable housing or park site within such prior year. 
+c. However the court shall not authorize any further stay s at any time after one such stay has been authorized 
+when the owner has also provided a tenant with hards hip relocation compensation of waiver of payment of 
+5 months' rent. 
+d. On or after the effective date of the  "Senior Ci tizens and Disabled Protected Tenancy Act," P.L. 1981, c. 
+226 (C. 2A:18-61.22 et seq.), notwith standing the provisions of subsection a. of this section, where the 
+court has jurisdiction pursuant to that subsection, whet her by virtue of the authoriz ation by the court of a 
+stay of eviction or by virtue of any other proceedings required or inst ituted pursuant to P. L.1974, c. 49 (C. 
+2A:18-61.1 et seq.) or P.L.1975, c. 311 (C. 2A:18-61.6 et seq.), or in any action for declaratory judgment, 
+the court may invoke some or all of the provisions of the   "Senior Citizens and Disabled Protected Tenancy 
+Act" and grant to a tenant,  pursuant to that amendatory and supplementary act, a protected tenancy period  
+upon the court's determination that: 
+(1) The tenant would otherwise qualify as a senior citi zen tenant or disabled tenant pursuant to that     
+amendatory and supplementary act, except that the build ing or structure in which the dwelling unit is 
+located was converted prior to the effective date of that amendatory and supplementary act; and 
+(2) The granting of the protected tenancy period as app lied to the tenant, giving particular  consideration to 
+whether a unit was sold on or before the date that the amendatory and supplementary act takes effect to a 
+bona fide individual purchaser who intended personally to occupy the unit, would not be violative of 
+concepts of fundamental fairness or due process. Where a court declines to grant a protected tenancy 
+status, it shall nevertheless order such hardships stay s as authorized by subsections a. and b. of this 
+section until comparable relocation housing is provided.   The hardship relocation compensation alternative 
+of subsection c. of this section shall not be applicable in this situation.   
+L.1975, c. 311, s. 8, eff. Feb. 19, 1976.  Amended by L.1981, c. 8, s. 6, eff.  Jan. 26, 1981;  L.1981, c. 226, s. 14, eff. July 27, 1981. 
+ 
+2A:18-61.12.  Rules and regulations 
+ 
+In accordance with the  "Administrativ e Procedure Act"  (P.L.1968, c. 410, C.  52:14B-1 et seq.), the Department of 
+Community Affairs shall adopt rules and regulations setting forth procedures required to be followed by  landlords in 
+providing tenants a reasonable opportunity to examine and rent comparable housing and setting forth procedures and 
+content for information required to be disclosed to tenants regarding such procedures, the rights and responsibilities of 
+tenants under this act, and the plans and proposals of landlor ds which may affect any tenant in order to maximize 
+tenants' ability to exercise rights provided under this act.  Any rules and regulations adopted under this section shall 
+only be applicable to tenants and owners of a building or mobile  home park which is being, or is about to be converted 
+
+[PAGE 24]
+24  
+from the rental market to a condominium,  cooperative or to fee simple ownershi p of the several dwelling  units or park 
+sites, or to any mobile home park being permanently retired from  the rental market.  
+L.1975, c. 311, s. 9, eff. Feb. 19, 1976.  Amended by L.1981, c. 8, s. 7, eff.  Jan. 26, 1981. 
+ 
+2A:18-61.16a.  Rent defined 
+ 
+"Rent" means the amount currently payable by the tenant to the landlord pursuant to lease or other agreement, without 
+regard to any modification thereof by any authorized board or agency, or any court.    
+L.1981, c. 495, s. 4. 
+ 
+2A:18-61.22.  Short title 
+ 
+This amendatory and supplementary act shall be known and may be cited as the "Senior Citizens and Disabled 
+Protected Tenancy Act.”  
+L. 1981, c. 226, s. 1, eff. July 27, 1991.  
+ 
+2A:18-61.23.  Legislative findings and declarations 
+ 
+The Legislature finds that research studies have demonstra ted that the forced eviction and relocation of elderly 
+persons from their established homes and communities harm the mental and physical health of these senior citizens, 
+and that these disruptions in the lives of older persons  affect adversely the social, economic and cultural 
+characteristics of communities of the State, and increase the costs borne by all State citizens in providing for their 
+public health, safety and welfare.  These conditions are par ticularly serious in light of the rising costs of home 
+ownership, and are of increasing concern where rental hous ing is converted into condominiums or cooperatives which 
+senior citizens on fixed limited incomes cannot afford, an  occurrence which is becoming more and more frequent in 
+this State under prevailing economic circumstances.  The Legislature, therefore, declares that it is in the public interest 
+of the State to avoid the forced eviction and relocation of senior citizen tenants wherever possible, specifically in those 
+instances where rental housing market conditions and particular financial circumstances combine to diminish the ability 
+of senior citizens to obtain satisfactory comparable housing within their established communities, and where the 
+eviction action is the result not of any failure of the senior citizen tenant to abi de by the  terms of a lease or rental 
+agreement, but of the owner's decision  advantageously to  dispose of residential property through the device of  
+conversion to a condominium or cooperative. 
+ 
+The Legislature further finds that it is in the public inte rest of the State to avoid the forced eviction and the 
+displacement of the handicapped wherever possible becaus e of their limited mobility and the limited number of 
+housing units which are suitable for their needs. 
+ 
+The Legislature further declares that in the service of this public interest it is appropriate that qualified senior citizen 
+tenants and disabled tenants be accorded a period of protected tenancy, during which they shall be entitled to the fair 
+
+[PAGE 25]
+25  
+enjoyment of the dwelling unit within the converted residentia l structure, to continue for su ch time, up to 40 years, as 
+the conditions and circumstances which make necessary such protected tenancy shall continue. 
+ 
+The Legislature further finds that the promotion of this pub lic interest is possible only if senior citizen tenants and 
+disabled tenants are protected during this period from alte rations in the terms of the tenancy or rent increases which 
+are the result solely of an owner's decision to convert.  
+L.1981, c. 226, s. 2, eff. July 27, 1981. 
+  
+2A:18-61.24. Definitions   
+ 
+As used in this amendatory and supplementary act: 
+a. "Senior citizen tenant" means a person who is at le ast 62 years of age on the date of the conversion 
+recording for the building or structure in which is loca ted the dwelling unit of which he is a tenant, or the 
+surviving spouse of such a person if the person should die after the owner files the conversion recording 
+and the surviving spouse is at least 50 years of age at the time of the filing; provided that the building or 
+structure has been the principal residence of the senior  citizen tenant or the spouse for at least one year 
+immediately preceding the conversion recording or the death or that the building or structure is the principal 
+residence of the senior citizen tenant or the spouse under the terms of a lease for a period of more than 
+one year, as the case may be;   
+b. "Disabled tenant" means a person who is, on the date of the conversion recording for the building or 
+structure in which is located the dwelling unit of which he is a tenant, totally and permanently unable to 
+engage in any substantial gainful activity by reason  of any medically determinable physical or mental 
+impairment, including blindness, or a person who has been honorably discharged or released under 
+honorable circumstances from active service in any br anch of the United States Armed Forces and who is 
+rated as having a 60% disability or higher as a resu lt of that service pursuant to any federal law 
+administered by the United States Veterans' Act; prov ided that the building or structure has been the 
+principal residence of the disabled tenant for at least one year immediately preceding the conversion 
+recording or that the building or structure is the pr incipal residence of the disabled tenant under the terms 
+of a lease for a period of more than one year. Fo r the purposes of this subsection, "blindness" means 
+central visual acuity of 20/200 or less in the better ey e with the use of correcting lens.  An eye which is 
+accompanied by a limitation in the fields of vision such that the widest diameter of the visual field subtends 
+an angle no greater than 20 degrees shall be considered as having a central visual acuity of 20/200 or less;   
+c. "Tenant's annual household income" means the total in come from all sources during the last full calendar 
+year for all members of the household who reside in the dwelling unit at the time the tenant applies for 
+protected tenant status, whether or not such income is subject to taxation by any taxing authority;   
+d. "Application for registration of c onversion" means an application for registration filed with the Department of 
+Community Affairs in accordance with "The Plan ned Real Estate Development Full Disclosure Act," 
+P.L.1977, c.419 (C.45:22A-21 et seq.);   
+
+[PAGE 26]
+26  
+e. “Registration of conversion" mean s an approval of an application for registration by the Department of 
+Community Affairs in accordance with "The Plan ned Real Estate Development Full Disclosure Act," 
+P.L.1977, c.419 (C.45:22A-21 et seq.);   
+f. "Convert" means to convert one or more buildings or  structures or a mobile home park containing in the 
+aggregate not less than five dwelling units or mobile home sites or pads from residential rental use to 
+condominium, cooperative, planned residential devel opment or separable fee simple ownership of the 
+dwelling units or of the mobile home sites or pads;   
+g. "Conversion recording" means the recording with the appropriate county officer of a master deed for 
+condominium or a deed to a cooperative corporation for a cooperative or the first deed of sale to a 
+purchaser of an individual unit for a planned residentia l development or separable fee simple ownership of 
+the dwelling units;   
+h. "Protected tenancy period" mean s, except as otherwise provided in section 11 of this amendatory and 
+supplementary act, the 40 years following the conversion recording for the building or structure in which is 
+located the dwelling unit of the senior citizen tenant or disabled tenant.   
+L.1981,c.226, s.3; Amended 1981, c.445, s.1; 1983,c.389,s.1; 1990,c.110,s.1;  1990,c.111,s.1.   
+ 
+2A:18-61.25.  Protected tenancy status; conversion of dwelling unit of eligible senior citizen or disabled tenant 
+ 
+Each eligible senior citizen tenant or disabled tenant shall be granted a protected tenancy status with respect to his 
+dwelling unit whenever the building or structure in which that unit is located shall be converted.  The protected tenancy 
+status shall be granted upon proper application and qualific ation pursuant to the provisio ns of this amendatory and 
+supplementary act.   
+L.1981, c. 226, s. 4, eff. July 27, 1981. 
+  
+2A:18-61.26.  Administrative agency 
+ 
+The governing body of the municipality may authorize a municipal  board, agency or officer to act as its administrative 
+agency for the purposes of this amendatory and supplementary act or may enter into a contractual agreement with a 
+county office on aging or a similar agency to act as it s administrative agency for purposes of this amendatory and 
+supplementary act. In the absence of such authoriz ation or contractual agreement, this amendatory and 
+supplementary act shall be administered by a municipal board whose principal responsibility concerns the regulation of 
+residential rents or, if no such  board exists, by the municipal clerk.     
+L.1981, c. 226, s. 5, eff. July 27, 1981. 
+ 
+2A:18-61.27. Notice to tenants   
+ 
+The owner of any building or structure who, after the effective date of this amendatory and supplementary act, seeks to 
+convert any premises, shall, prior to his filing of the applic ation for registration of conv ersion with the Department of 
+Community Affairs, notify the administrative agency or offi cer responsible for administering this amendatory and 
+supplementary act of his intention to so file.  The owner shall supply the agency or officer with a list of every tenant 
+
+[PAGE 27]
+27  
+residing in the premises, with stamped envelopes addressed to each tenant and with suffici ent copies of the notice to 
+tenants and application form for protected tenancy status.  Within 10 days thereafter, the administrative agency or 
+officer shall notify each residential tenant in writing of the owner's intention and of the appl icability of the provisions of 
+this amendatory and supplementary act and shall provide him with a written application form.  The agency's or officer's 
+notice shall be substantially in the following form:   
+ 
+“NOTICE” 
+ 
+THE OWNER OF YOUR APARTMENT HAS NOTIFIED_________________________________________________ OF HIS  
+                            (insert name of municipality) 
+INTENTION TO CONVERT TO A CONDOMINIUM OR COOPERATIVE .  THE LEGISLATURE HAS PROVIDED THAT , IF YOU ARE A SENIOR 
+CITIZEN, 62 YEARS OF AGE OR OLDER , OR DISABLED , YOU MAY BE ENTITLED TO A PROTECTED TENANCY PERIOD .  PROTECTED 
+TENANCY MEANS THAT YOU CANNOT BE EVICTED BECAUSE OF THE CONVERSION. YOU MAY BE ELIGIBLE: 
+(1) I F YOU ARE 62, OR WILL SOON BE 62, OR IF YOU ARE DISABLED; AND 
+(2) I F YOU HAVE LIVED IN YOUR APARTMENT FOR AT LEASE ONE YEAR OR IF THE LEASE ON YOUR APARTMENT IS FOR A 
+PERIOD OF MORE THAN ONE YEAR; AND 
+(3)  IF YOU HOUSEHOLD INCOME IS LESS THAN __________________________________________________________
+  ( insert current income figure for county as established by Section 7c. of this amendatory and supplementary act.)  
+IF YOU WISH THIS PROTECTION , SEND THE APPLICATION FORM BY ________________________________________
+            (insert date 60 days after municipality’s mailing) 
+              TO THE __________________________________________________________________________________         
+      (insert name and address of administrative agency). 
+       FOR FURTHER INFORMATION CALL _______________________________________________________________           
+        (insert phone number of administrative agency), 
+       OR___________________________________________ IF YOU DO NOT APPLY YOU CAN BE EVICTED BY YOUR             
+      (insert phone number of Department of Community Affairs). 
+       LANDLORD UPON PROPER NOTICE” 
+ 
+The Department of Community Affairs shall not accept any application for registration of conversion for any building or 
+structure unless included in the application is proof that the agency or officer notified the tenants prior to the application 
+for registration.  The proof shall be by affidavit or in such other form as the department shall require.   
+L.1981, c.226, s.6; Amended L.1987, c.287, s.1; L.1990, c.110, s.2.   
+ 
+2A:18-61.28. Eligibility for protected tenancy status   
+ 
+Within 30 days after receipt of an application for protec ted tenancy status by a tenant, the administrative agency or 
+officer shall make a determination of eligibility.  It shall se nd written notice of eligibility to each senior citizen tenant o r 
+disabled tenant who:   
+a. Applied therefore on or before the date of registration of  conversion by the Department of Community        
+Affairs; and   
+
+[PAGE 28]
+28  
+b. Qualifies as an eligible senior ci tizen tenant or disabled tenant pursuant to this amendatory and        
+supplementary act; and   
+c. Has an annual household income that does not exceed an amount equal to three times the county per     
+capita personal income, as last reported by the Department  of Labor and Industry on t he basis of the U.S.    
+Department of Commerce's Bureau of Economic Analysis data, or $50,000.00, whichever is greater; and 
+d. Has occupied the premises as his principal residenc e for at least one year or has a lease on the premise 
+for a period longer than one year.  
+ 
+The department shall adjust the county per capita personal income to be used in subsection c. of this section if there is 
+a difference of one or more years between (1) the year in which the last reported county per capita personal income 
+was based and (2) the last year in which the tenant's an nual household income is based.  The county per capita 
+personal income shall be adjusted by t he department by an amount equal to the number of years of the difference 
+above times the average increase or decrea se in the county per capita personal income for three years, including in 
+the calculation the current year reported and the three immediately preceding years.   
+ 
+The administrative agency or officer may require that the application include such documents and information as may 
+be necessary to establish that  the tenant is eligible for a protected tena ncy status under the provisions of this 
+amendatory and supplementary act and shall require such appl ication to be submitted under oath.  The Department of 
+Community Affairs may by regulation adopt forms for applicat ion for protected tenancy st atus and notification of 
+eligibility or ineligibility or adopt such other regulations for the procedure of determining elig ibility as it determines are 
+necessary.  
+L.1981,c.226, s.7; Amended L.1987,c.287,s.2; L.1990,c.110,s.3.   
+ 
+2A:18-61.29.  Registration of conversion; approval after proof of notice of eligibility to tenants 
+ 
+No registration of conversion shall be  approved until the Department of Communi ty Affairs receives proof that the 
+administrative agency or officer has made determinations and notified all tenants who applied for protected tenancy 
+status within the initial 60-day period of their eligibility or lack of eligibility.   The proof shall be by affidavit or in suc h 
+other form as the department may require. 
+ 
+The department may grant registrations of conversion for applications pending on the effective date of this amendatory 
+and supplementary act upon the  implementation of a procedure whereby any eligible tenant may make application  for 
+protected tenancy status in a manner comparable to that specified in  sections 6 and 7 of this amendatory and 
+supplementary act.    
+L.1981, c. 226, s. 8, eff. July 27, 1981. 
+ 
+ 
+ 
+ 
+
+[PAGE 29]
+29  
+2A:18-61.30.  Protected tenancy stat us; applicability after notice of e ligibility and filing of conversion 
+recording 
+ 
+Protected tenancy status shall not be applicable to any elig ible tenant until such time as the owner has filed his 
+conversion recording.  The protected tenancy status shall aut omatically apply as soon as a tenant receives notice of 
+eligibility and the landlord files his conversion recording.  The conversion recording sha ll not be filed until after the 
+registration of conversion.   
+L.1981, c. 226, s. 9, eff. July 27, 1981. 
+ 
+2A:18-61.31. Rent increase restrictions 
+ 
+In a municipality which does not have a rent control ordinan ce in effect, no evidence of increased costs which are 
+solely the result of the conversion, including but not limited to any increase in financing or carrying costs, and which do 
+not add services or amenities not previ ously provided shall be used as a basis to establish the reasonableness of a 
+rent increase under section 2f. of P.L. 1974, c. 49 (C. 2A:18-61.1).  
+ 
+In a municipality which has a rent control ordinance in effect, a rent increase for a tenant with a protected tenancy 
+status, or for any tenant to whom notic e of termination pursuant to section 3g. of P.L. 1974, c. 49 (C. 2A:18-61.2) has 
+been given, shall not exceed the increase authorized by the or dinance for rent controlled units.  Increased costs which 
+are solely the result of a conversion, including but not limited to any increase in financing or carrying costs, and which 
+do not add services or amenities not pr eviously provided shall not be passed directly through to these tenants as 
+surcharges or pass-through on the rent, shall not be used as the basis for a rent increase, and shall not be used as a 
+basis for an increase in a fair return or hardship heari ng before a municipal rent board or on any appeal from such 
+determination.   
+L. 1981, c. 226, s. 10; Amended by L. 1987, c. 287, s. 3.  
+ 
+2A:18-61.32. Termination of protected tenancy  
+ 
+The administrative agency or officer shall terminate the protected tenancy status immediately upon finding that:   
+      a.   The dwelling unit is no longer the principal re sidence of the senior citizen tenant or disabled tenant; or   
+b. The tenant's annual household income, or the avera ge of the tenant's annual household income for the 
+current year, computed on an annual basis, and t he tenant's annual household income for the two 
+preceding years, whichever is less, exceeds an amount equal to three times the county per capita 
+personal income, as last reported by the Department  of Labor and Industry on the basis of the U.S. 
+Department of Commerce's Bureau of Economic Analysis data, or $50,000.00, whichever is greater.   
+ 
+The department shall adjust the county per capita personal income to be used in subsection b. of this section if there is 
+a difference of one or more years between (1) the year in which the last reported county per capita personal income 
+was based and (2) the last year in which the tenant's an nual household income is based.  The county per capita 
+personal income shall be adjusted by t he department by an amount equal to the number of years of the difference 
+
+[PAGE 30]
+30  
+above times the average increase or decrea se in the county per capita personal income for three years, including in 
+the calculation the current year reported and the three immediately preceding years.   
+ 
+Upon the termination of the protected tenan cy status by the administrative agency  or officer, the senior citizen tenant 
+or disabled tenant may be removed from the dwelling unit pur suant to P.L.1974, c.49 (C.2A:18-61.1 et al.), except that 
+all notice and other times set forth therein shall be calculated  and extend from the date of the expiration or termination 
+of the protected tenancy period, or the date of the expiration of the last lease entered into with the senior citizen tenant 
+or disabled tenant during the protected tenancy period, whichever shall be later.   
+ 
+If the administrative agency determines pursuant to this se ction that a tenant is no l onger qualified for protected 
+tenancy under this act, the administrative agency shall proceed to determine the eligibility of that tenant under the 
+"Tenant Protection Act of 1992," P.L.1991, c. 509 (C.2A:18-61.40 et al.), or, in any  case in which the administrative 
+agency is not the same as the agency administering that other act in the municipality, refer the case to the appropriate 
+administrative agency for such determinati on.  If the tenant is found to be eligible under the "Tenant Protection Act of 
+1992," P.L.1991, c.509 (C.2A:18-61.40 et al.), his protected tenancy status shall be continued.  The protected tenancy 
+status of the tenant shall remain in full force pending such determination.   
+L.1981,c.226,s.11; Amended L.1987,c.287,s.4; L.1991,c.509,s.23.   
+ 
+2A:18-61.33.  Termination upon purchase of unit by senior citizen or disabled tenant 
+ 
+In the event that a senior citizen tenant or disabled t enant purchases the dwelling unit he occupies, the protected 
+tenancy status shall terminate immediately upon purchase.   
+L.1981, c. 226, s. 12, eff. July 27, 1981. 
+ 
+2A:18-61.34.  Informing prospective purchaser of act; co ntract or agreement for sale; clause informing of 
+application of act and acknowledgment by purchaser 
+ 
+Any public offering statement for a conversion as required by “The Planned Real Estate Development Full Disclosure 
+Act," P.L.1977, c. 419 (C. 45:22A-21 et seq. ), shall clearly inform the prospective purchaser of the provisions of this 
+amendatory and supplementary act, including, but not limited to, the provisions concerning eviction, rent increases and 
+leases. Any contract or agreement for sale of a converted unit shall contain a clause in 10-point bold type or larger that 
+the contract is subject to the terms of this amendatory and  supplementary act concerning eviction and rent increases 
+and an acknowledgement  that the purchaser has been informed of these terms.    
+L.1981, c. 226, s. 15, eff. July 27, 1981. 
+  
+2A:18-61.35.  Fee 
+ 
+A municipality is authorized to charge an owner a fee which ma y vary according to the size of the building to cover the 
+cost of providing the services required by this amendatory and supplementary act.  
+L.1981, c. 226, s. 16, eff. July 27, 1981. 
+ 
+
+[PAGE 31]
+31  
+2A:18-61.36.  Agreement by tenant to waive rights; deemed against public policy and unenforceable 
+ 
+Any agreement whereby the tenant waives any rights under P.L. 1981, c. 226 (C. 2A:18-61.22 et seq.) on or after the 
+effective date of this 1983 amendatory  act shall be deemed to be against public policy and unenforceable.  
+L.1981, c. 226, s. 17, eff. July 27, 1981.  Amended by L.1983, c. 389, s. 2, eff. Dec. 2, 1983. 
+  
+2A:18-61.37.  Severability 
+ 
+If any section, subsection, paragraph, sentence or other  part of this amendatory and supplementary act is adjudged 
+unconstitutional or invalid, such judgment shall not affect, im pair or invalidate the remainder of this act, but shall be 
+confined in its effect to the section, su bsection, paragraph, sentence  or other pa rt of this act directly involved in the 
+controversy in which said  judgment shall have been rendered.     
+L.1981, c. 226, s. 18, eff. July 27, 1981. 
+ 
+2A:18-61.38.  Rules and regulations 
+ 
+The Department of Community Affairs is authorized to adopt such rules and regulations as may be necessary to 
+implement the provisions of this amendatory and supplementary act.   
+L.1981, c. 226, s. 19, eff. July 27, 1981. 
+ 
+2A:18-61.39.  Liberal construction of act 
+ 
+This amendatory and supplementary act shall be liberally construed to effectuate the purposes thereof. 
+L.1981, c. 226, s. 20, eff. July 27, 1981. 
+ 
+2A:18-61.40. Short title 
+ 
+This act shall be known and may be cited as the "Tenant Protection Act of 1992."   
+L.1991,c.509,s.1.   
+  
+2A:18-61.41. Findings, declarations 
+ 
+The Legislature finds that the provisi on and maintenance of an adequate supply of housing affordable to persons of 
+low and moderate income in this Stat e has been and is becoming  increasingly difficult as a result of economic and 
+market forces which require special public actions or subsidie s to counteract.  One particularly acute result of this has 
+been the continual increase in the number of displaced or homeless persons who, lacking permanent shelter, require 
+special assistance from public services in this State and in surrounding states in order to remain alive.  The Legislature 
+has in the past taken various actions, and is currently co nsidering several measures, to increase the supply of 
+affordable housing in the State.  At the same time, it is nec essary to protect residential te nants, particularly those of 
+advanced age or disability, or lower economic status, from the effects of eviction from affordable housing in recognition 
+of the high costs, both financial and social, to the public of displacement from affordable housing and of homelessness.  
+
+[PAGE 32]
+32  
+The Legislature has in the past through various enactments recognized that the eviction of residential tenants pursuant 
+to the process of conversion of residential premises to condominiums or cooperatives exacerbates homelessness and 
+makes more difficult the maintenance of an adequate supply of  low and moderate income housing.  The Legislature, 
+therefore, declares that it is in t he public interest to establish a tenant pr otection program specifically designed to 
+provide protection to residential tenants, particularly t he aged and disabled and those of low and moderate income, 
+from eviction resulting from condominium or cooperative conversion.    
+L.1991,c.509,s.2.   
+ 
+2A:18-61.42. Definitions   
+ 
+As used in this act: 
+    "Administrative agency" means the municipal board, officer or agency designated, or the county agency 
+contracted with, pursuant to section 6 of this act.   
+    "Annual household income" means the total income from all sources during the last full calendar year, or the  
+annual average of that total income during the last two calendar years, whichever is less, of a tenant and all members 
+of the household who are residing in the tenant's dwelling uni t when the tenant applies for protected tenancy, whether 
+or not such income is subject to taxation by any taxing authority.   
+    "Commissioner" means the Commissioner of Community Affairs. 
+    "Conversion" means conversion as defined in section 3 of "The Planned Real Estate Development Full  
+Disclosure Act," P.L.1977, c.419 (C.45:22A-23).   
+    "Conversion recording" means the recording with the appropriate county officer of a master deed for a  
+condominium or a deed to a cooperative corporation for a planned residential development or separable fee simple 
+ownership of the dwelling units.   
+    "County rental housing shortage" means a certificat ion issued by the Commissioner of Community Affairs that 
+there has occurred a significant decline in the availability of rental dwelling units in the county due to conversions; 
+provided, however, that the commissioner shall not issue any such certification unless during the immediately 
+preceding 10 year period:   
+    a.   The aggregate number of rental units subject to registrations of conversion during any three consecutive 
+          years in the county exceeds 10,000; and   
+b. The aggregate number of rental units subject to registrations of conversion in at least one of those three 
+years exceeds 5,000.   
+    "Department" means the Department of Community Affairs. 
+    "Index" means the annual average over a 12-month  period beginning September 1 and ending August 31 of the 
+Consumer Price Index for Urban Wage Earners and Clerical Workers (CPI-W), All Items Series A, of the United 
+States Department of Labor  (1957-1959 = 100), for either the New York, NY-Northeastern New Jersey or the 
+Philadelphia, PA-New Jersey region, according as either shall have been determined by the commissioner to be 
+applicable in the locality of a property undergoing conversion.   
+    "Protected tenancy period" means, ex cept as otherwise provided in section 11  of this act, all that time following 
+the conversion recording for a building or structure durin g which a qualified tenant in that building or structure 
+continues to be a qualified tenant and continues to occupy a dwelling unit therein as his principal residence.   
+
+[PAGE 33]
+33  
+          "Qualified county" means:   
+a. Any county with a population in excess of 500,000 and a population density in excess of 8,500 per square  
+       mile, according to the most recent federal decennial census; or   
+         b.   Any county wherein there exists a county rental housing shortage. 
+    "Qualified tenant" means a tenant who is a resident in a qualified county and: 
+(1) Applied for protected tenancy status  on or before the date of registrati on of conversion by the       
+department, or within one year of the effective date of this act, whichever is later;   
+(2) Has occupied the premises as his principal residence for at  least 12 consecutive months next                 
+preceding the date of application; and   
+(3) Has an annual household income that does not at the time of application exceed the maximum        
+qualifying income as determined pursuant to section 4 of  this act, except that this income        
+limitation shall not apply to any tenant who is age 75 or more years or is disabled within the 
+meaning of section 3 of P.L.1981, c.226 (C.2A:18-61.24).   
+    "Registration of conversion" means an approval of an application for registration by the department in 
+accordance with "The Planned Real Estate Development  Full Disclosure Act," P.L.1977, c.419 (C.45:22A-21 et 
+seq.).   
+    "Tenant in need of comparable housing" means a tenant who is not a qualified tenant under this act and is not 
+eligible for protected tenancy under the "Senior Citizens  and Disabled Protected Te nancy Act," P.L.1981, c.226 
+(C.2A:18-61.22 et al.).  
+L.1991,c.509,s.3.   
+ 
+2A:18-61.43. Maximum qualifying income, adjustment 
+ 
+As of the effective date of this act, maximum qualifying in come for the purpose of determining qualified tenant status 
+as defined in section 3 of this act shall be  in the case  of a household comprising one person, $31,400; two persons, 
+$38,500; three persons, $44,800; four persons, $50,300; five  persons, $55,000; six perso ns, $58,900; seven persons, 
+$62,000; eight or more persons, $64,300.  In the case of  any application for protected tenancy filed more than one 
+year from the effective date of this act, and upon any oc casion when termination of a previously granted protected 
+tenancy is sought pursuant to section 11 of this act upon the grounds set forth in paragraph (2) of subsection a. of that 
+section, these figures shall be adjusted by the percentage change, if any, in the applic able index that has occurred 
+since the effective date of this act. 
+L.1991,c.509,s.4.   
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+[PAGE 34]
+34  
+2A:18-61.44. Protected tenancy, qualification, durations  
+ 
+Each qualified tenant shall be granted a protected tenancy st atus with respect to his dwelling unit upon conversion of 
+the building or structure in which the unit is located.   The protected tenancy stat us shall be granted upon proper 
+application and qualification pursuant to the provisions of this act.   
+a. Each qualified tenant in need of comparable housin g shall be entitled to remain in his dwelling unit upon 
+conversion of the building or structure in which the unit is  located until the owner of the building or        
+structure has complied with the provisions of P.L.1975, c.311 (C.2A:18-61.7 et al.). 
+b. Each qualified tenant in need of comparable housing sha ll be entitled to remain in his dwelling unit upon       
+conversion of the building or structure in which th e unit is located until the owner of the building or 
+structure has complied with the provision of P.L. 1975, c.311 (C.2A:18-61.7 et al.) 
+L.1991,c.509, s.6. 
+ 
+2A:18-61.45.  Designation of administrative agency   
+ 
+Each municipal governing body in a qualified county shall desi gnate a municipal board, agency or officer to act as its 
+administrative agency for the purposes of this act or ma y enter into a contractual agreement with an appropriate 
+county to act as its administrative agency for purposes of this  act.  In the absence of such authorization or contractual 
+agreement, this act shall be administered by the board, agency  or officer administering the provisions of the "Senior 
+Citizens and Disabled Protected Tenancy Act," P.L.1981, c.226 (C.2A:18-61.22 et al.) in the municipality.   
+L.1991,c. 509, s.6.   
+ 
+2A:18-61.46.  Notice, etc required of owner seeking to convert, notice to tenants 
+ 
+The owner of any building or structure in a qualified co unty who seeks to convert any premises shall notify the 
+administrative agency of that intention pr ior to filing the application for registra tion of conversion wi th the department.  
+The owner shall supply the administrative agency with a list of every tenant residing in the premises, with stamped 
+envelopes addressed to each tenant and with sufficient co pies of the notice to tenants and application form for 
+protected tenancy status.  Within 10 days thereafter, the administrative agency shall notify each residential tenant in 
+writing of the owner's intention and of t he applicability of the provisions of this act and shall provide him with a written 
+application form.  The agency's notice shall be substantially in the following form:   
+ 
+      “ N O T I C E ”  
+ 
+T
+HE OWNER OF YOUR APARTMENT HAS NOTIFIED ____________________________________ OF HIS INTENTION TO 
+          (insert name of municipality) 
+CONVERT TO A CONDOMINIUM OR COOPERATIVE .  UNDER STATE LAW YOU MAY BE EN TITLED TO A PROTECTED TENANCY .     
+PROTECTED TENANCY MEANS THAT YOU CANNOT BE EVICTED BECAUSE OF THE CONVERSION. 
+YOU MAY BE QUALIFIED: 
+ 
+ 
+
+[PAGE 35]
+35  
+(1) I F YOU HAVE LIVED IN YOUR APARTMENT FOR A YEAR AND 
+(2)   IF YOUR HOUSEHOLD INCOME IS LESS THAN __________________________________OR YOU ARE DISABLED                          
+    ( insert current maximum qualifying income established under section 3 of this act) 
+OR AT LEAST 75 YEARS OLD . IF YOU THINK YOU MAY QUALIFY , SEND IN THE APPLICATION FORM BY 
+______________________________________ TO THE _______________________________________________       
+(insert date 60 days after municipality’s mailing)                                          (insert Name and address of administrative agency) 
+EVEN IF YOU DO NOT QUALIFY , YOU HAVE THE RIGHT TO REMAIN IN YOUR APARTMENT UNTIL YOUR LANDLORD HAS 
+COMPLIED WITH LAWS  REGARDING THE OFFER OF COMPARABLE HOUSING .  FOR FURTHER INFORMATION CALL 
+________________________________________ OR  ______________________________________________.  
+   (insert phone number of administrative agent)                      (insert phone number of Department of Community Affairs) 
+ 
+The department shall not accept any application for registra tion of conversion for any building or structure unless 
+included in the application is proof that the administrativ e agency notified the tenants prior to the application for 
+registration.  The proof shall be by affidavit or in such other form as the department shall require.   
+ 
+In any municipality where the administrative agency is the same as the agency administering the "Senior Citizens and 
+Disabled Protected Tenancy Act," P.L. 1981, c.226 (C.2A:18-61.22 et al.), the not ices required under that act and this 
+act may be combined in a single mailing.  
+L.1991,c.509, s.7.   
+  
+2A:18-61.47.   Determining tenants’ qualifications  
+ 
+Within 30 days after receipt of an application for the protecte d tenancy status authorized un der the provisions of this 
+act, the administrative agency shall make a determination of qualification.  It shall send written notice of qualification to 
+each tenant who is a resident of the qualified county and:   
+a. applied on or before the date of regi stration of conversion by the department, or within one year from the      
+effective date of this act, whichever is later; and,   
+b. has an annual household income that does not exceed the maximum amount permitted for qualification,      
+or is exempt from that income limitation by reason of age or disability; and,   
+c. has occupied the premises as his principal reside nce for at least 12 consecutive months next proceeding 
+the date of application.   
+ 
+The administrative agency shall likewise send a notice of deni al, with reasons therefore, to any tenant whom it 
+determines not to be qualified.  That notice shall inform the tenant of his right to remain in his dwelling unit until the 
+owner shall have complied with the requirements of P. L.1975, c.311 (C.2A:18-61.7 et al.) and shall include an 
+explanation of the meaning of "comparable housing" as used in  that act.  The owner shall be notified of those tenants 
+who are determined to be qualified and unqualified.   
+ 
+The administrative agency may require that the applicati on include such documents and information as may be 
+necessary to establish the tenant  is qualified for a protected tenancy status  under the provisions of this act and shall 
+
+[PAGE 36]
+36  
+require that such documentation and information be submitted under oath. The commissioner may by regulation adopt 
+uniform forms to used in applying for protected tenancy stat us, for notifying an applicant of qualification or denial 
+thereof, and conveying to a denied applicant the information concerning his rights to continued tenancy and offer of 
+comparable housing; he may also adopt su ch other regulations for the procedur e of determining qualification as he 
+deems necessary or expedient to the proper effectuation of the provisions and purposes of this act.   
+L.1991,c.509, s.8.   
+  
+2A:18-61.48.  Requisites for approval or registration of conversion 
+ 
+No registration of conversion for a bu ilding or structure located in a qualif ied county shall be approved until the 
+department receives proof that the provis ions of section 8 of this act have been complied with, and that notification as 
+required in that section has been made to all tenants who filed application for protected tenancy status on or before the 
+application deadline prescribed in the notice given pursuant to se ction 7 of this act. The proof shall be by affidavit or in 
+such form as the department may require.   
+L.1991,c.509, s,9.   
+ 
+2A:18-61.49.  Applicability of protected tenancy 
+ 
+The protected tenancy status authorized under the provisions of this act shall not be applicable to any qualified tenant 
+until such time as the owner has filed his conversion recording.  The protected tenancy status shall automatically apply 
+as soon as a tenant receives notice of qualification and t he landlord files his conversion recording.  The conversion 
+recording shall not be filed until after the registration of conversion. 
+L.1991,c.509, s.10.   
+  
+2A:18-61.50.  Termination of protected tenancy  
+ 
+a. The administrative agency shall terminate the protec ted tenancy status authorized under the provisions of 
+this act immediately upon finding that:   
+    (1) the dwelling unit is no longer the principal residence of the tenant, or 
+  (2) the tenant's annual household income exceed s the maximum amount permitted for qualification.  
+b. Upon presentation to the administra tive agency of credible evidence that a tenant is no longer qualified for 
+protected tenancy status under this act, the administrative agency shall proceed, in accordance with such       
+regulations and procedures as the department shall adopt and prescribe for use in such cases, to       
+investigate and make a determination as to the continuance of that status.   
+c. Upon the termination of the pr otected tenancy status by the administrative agen cy, the tenant may be 
+removed from the dwelling unit pursua nt to P.L.1974, c.49 (C.2A:18-61.1 et  al.), except that all notice and 
+other times set forth therein shall be calculated and extend from the date of the expiration or termination of 
+the protected tenancy period, or the date of the expiration of the last lease entered into with the tenant 
+during the protected tenancy period, whichever shall be later.   
+
+[PAGE 37]
+37  
+d. Any protection afforded to a person under the "Sen ior Citizens and Disabled Protected Tenancy Act," 
+P.L.1981, c.226 (C.2A:18-61.22 et al.) shall remain in  full force and effect.  If the administrative agency 
+determines that a tenant is no longer qualified for protected tenancy under that act, the administrative 
+agency shall proceed to determine the eligibility of that  tenant under the "Tenant Protection Act of 1992," 
+P.L.1991, c.509 (C.2A:18-61.40 et al.), or, in any case in which the administrative agency is not the same 
+as the agency administering the "Tenant Protection Act of 1992" in the municipality, shall refer the case to 
+the appropriate administrative agency for such determi nation.  If the tenant is found by such determination 
+to be eligible, his protected tenancy status shall be cont inued.  The protected tenan cy status of the tenant 
+shall remain in full force pending such determination.   
+L.1991,c.509, s.11.   
+ 
+2A:18-61.51.  Tenancy protection terminated by tenant purchase   
+ 
+In the event that a qualified tenant purchases the dwelling unit he occupies, the protected tenanc y status afforded 
+under the provisions of this act shall terminate immediately upon purchase.  
+L.1991,c.509, s.12.   
+ 
+2A:18-61.52.  Costs of conversion no basis for rent increases   
+ 
+a. In the case of a municipality subject to the provisions of this act that does not have a rent control ordinance in effect, 
+no evidence of increased costs that are solely the result of the conversion, including but not limited to any increase in 
+financing or carrying costs, and do not add services or ameniti es not previously provided shall be used as a basis to 
+establish the reasonableness of a rent increase under subsection f. of section 2 of P.L.1974, c.49 (C.2A:18-61.1).   
+ 
+b.  In the case of a municipality subject to the provisions of  this act that has a rent control ordinance in effect, a rent 
+increase for a qualified tenant with a protected tenancy status, or for any tenant to whom notice of termination pursuant 
+to subsection g. of section 3 of P.L.1974, c.49 (C.2A: 18-61.2) has been given, shall not exceed the increase 
+authorized by the ordinance for rent-cont rolled units.  Increased costs that ar e solely the result of a conversion, 
+including but not limited to any increase in financing or carrying costs, and do not add services or amenities not 
+previously provided shall not be used as a basis for an increa se in a fair-return or hardship hearing before a municipal 
+rent board or on any appeal from such determination.   
+L.1991,c.509, s.13.   
+  
+2A:18-61.53.  Public offering statement; requisites   
+ 
+In the case of a building or structure located in a qualifi ed county, the public offering st atement for a conversion as 
+required by “The Planned Real Estate Development Full Discl osure Act," P.L.1977, c.419 (C .45:22A-21 et seq.), shall 
+clearly inform the prospective purchaser of the provisions of this act regardin g the protection of qualified tenants and 
+tenants in need of comparable housing.  Any contract or agr eement for sale of a converted unit shall contain a clause 
+
+[PAGE 38]
+38  
+in 10-point bold type or larger that the contract is subject to the terms of this act concerning such tenant protection and 
+an acknowledgement that the purchaser has been informed of these terms.   
+L.1991,c.509,s.14.   
+ 
+2A:18-61.54.  Municipal fees   
+ 
+A municipality located in a qualified county is authorized to  charge an owner a fee which may vary according to the 
+size of the building to cover the cost of providing the services required by this act.  
+L.1991,c509, s.15.   
+ 
+2A:18-61.55.  Tenant waivers, unenforceable 
+ 
+Any agreement whereby the tenant waives any rights under this act shall be deemed to be against public policy and 
+unenforceable.    
+L.1991, c.509, s.16.   
+ 
+2A:18-61.56.  Actions against qualified tenants, limitations   
+ 
+For one year from the effective date of this act, no action for removal of a qualified tenant shall be instituted, no 
+judgment shall be entered against a qualified tenant based upon  a previously instituted action, and no qualified tenant 
+shall be removed from his dwelling unit by a landlord, on the basis of the conversion of the premises.  The owner of 
+any residential premises located in a qualified county who, prio r to that date, has registered those residential premises 
+for conversion or applied for such registration shall comply with the provisions of this act, and the tenants residing in 
+those premises shall be entitled to the protections extended under this act as if  the registration or application for 
+registration had not so occurred prior to that date.  Howe ver, the provisions of this section shall not apply to any 
+residential unit for which a conversion was registered prior to March 4, 1991 if the unit was sold to a bona fide 
+individual purchaser prior to that date and that purchaser intends to personally occupy the unit as his principal 
+residence.    
+L.1991,c.509, s.17.   
+  
+2A:18-61.57.  Removal for good cause   
+ 
+Nothing in this act shall be deemed to prevent a court fr om removing a tenant, qualified tenant or tenant in need of 
+comparable housing from a dwellin g unit located in a qualified county fo r good cause shown not to be related to 
+conversion of the building or structure to a condominium or cooperative.  
+L.1991,c.509,s.18.   
+  
+2A:18-61.58.  Severability 
+ 
+If any section, subsection, paragraph, sent ence or other part of this act is adjudged unconstitutional or invalid, such 
+judgment shall not affect, impair or invalidate the remainder of this act, but shall be confined in its effect to the section, 
+
+[PAGE 39]
+39  
+subsection, paragraph, sentence or other part of this act directly involved in  the controversy in which the judgment 
+shall have been rendered.   
+L.1991,c.509,s.24 
+ 
+2A:18-61.59.  Rules, regulations  
+ 
+The commissioner is authorized to adopt, in accordance with  the provisions of the "Administrative Procedure Act," 
+P.L.1968, c.410 (C.52:14B-1 et seq.), su ch rules and regulations as may be necessary to implement the provisions of 
+this act, including but not limited to, the prescribing of adm inistrative and notification procedures which integrate the 
+procedural requirements of this act with those of P.L.1981, c.226 (C.2A:18-61.22 et al.) in order to facilitate the efficient 
+administration of both acts.    
+L.1991,c.509, s.25.   
+ 
+2A:18-61.60.  Tenants’ organization permitted to accept billing for utility 
+ 
+Whenever an electric, gas, water or sewer public utilit y has provided written notice to  tenants residing in rental 
+premises of a proposed discontinuance of service and the tenants so notified have indicated a desire to continue 
+service, but the utility has determined that it would not be feasible to bill each tenant individually for the service, the 
+utility shall permit a tenants’ organization representing each te nant of the rental premises to accept billing for the utility 
+including the periodic billing for current charges, and a st atement of any arrearage which is unpaid by the landlord for 
+service previously supplied by the ut ility, and shall continue providing the se rvice to the premises provided that 
+payment is received. 
+L.2000, c.113, s.1 
+ 
+2A:18-61.61.  Deduction of certain utility costs from rental payment 
+ 
+Whenever a tenants’ organization agrees to accept billing fo r a utility service, the tenants comprising the membership 
+of the organization accepting an d paying such billing shall be permitted to deduc t from each of their respective rental 
+payments to the landlord of the premises an amount corres ponding to the tenant’s contribution towards the currently 
+due utility payment and the arrearage, if any , owed by the landlord, provided that  any contribution by a tenant to the 
+arrearage shall not exceed 15 percent of  the tenant’s rental payment which wo uld have been payable to the landlord, 
+but for the contribution. 
+L.2000, c.113, s.2 
+ 
+2A:18-61.62.  Issuance of “Notice of Rent Protection Emergency.” 
+ 
+The Governor shall be empowered, whenever declaring a st ate of emergency, to determi ne whether the emergency 
+will, or is likely to, significantly affect the availabilit y and pricing of rental housing in the areas included in the 
+declaration.  If the Governor determines that unconscionable rental practices are likely to occur unless the protections       
+afforded under P.L.2002, c. 133 (C.2A:18-61. 62 et al.) are invoked, the Governor  may issue a “Notice of Rent 
+Protection Emergency” at any time during the declared state of emergency.            
+L.2002, c.133 s.1,  
+
+[PAGE 40]
+40  
+2A:18-61.63.  Effect of issuance of “Notice of Rent Protection Emergency.” 
+ 
+Whenever the Governor declares a state of emergency within  certain areas of the State, and issues a “Notice of Rent 
+Protection Emergency,” the following shall apply: 
+a. Within a zone which includes the area declared to be in a state of emergency and, if so indicated in the 
+Notice of Rent Protection Emergency extending a distance not to exceed 10 miles in all directions from the 
+outward boundaries thereof, there shall be a presumpt ion of unreasonableness given to a notice of 
+increase in rental charges provided subsequent to t he date of the declaration by a landlord to a tenant 
+occupying premises which are utilized  as a residence, when the propos ed percentage increase in rent is 
+greater than twice the rate of inflation as indicated by increases in the CPI for the immediately preceding 
+nine month period.  For the purposes of this sect ion, “CPI” means the annual average over a 12-month 
+period beginning September 1 and ending August 31 of the Consumer Price Index for Urban Wage 
+Earners and Clerical Workers (CPI-W), All Items Seri es A, of the United Stat es Department of Labor 
+(1957-1959  = 100), for the New York, NY-Northeastern New Jersey region. 
+b. Within a zone which includes the area declared to be in a state of emergency and, if so indicated in the 
+Notice of Rent Protection Emergency extending a distance not to exceed 10 miles in all directions from the 
+outward boundaries thereof, there shall be a limitat ion on the amount of rent which may be charged a 
+tenant undertaking a new lease for residential premises during the duration of the declaration of a “Notice 
+of Rent Protection Emergency” made pursuant to se ction 1 of P.L.2002, c. 1 33 (C.2A:18-61.62).  The 
+amount of rent which may be charged shall be limited to th e product of the fair market rental value of the 
+premises prior to the emergency conditions and tw o times the rate of inflation as determined by the 
+increase in the CPI for the immediately preceding nine month period.  For the purposes of this section, 
+“CPI” means the annual average over a 12-month period beginning September 1 and ending August 31 of 
+the Consumer price Index for Urban Wage Earners and Cl erical Workers (CPI-W), All items Series A, of 
+the United States Department of  Labor (1957-1959 = 100), for New York, NY-Northeastern New Jersey 
+region. 
+c. In the event that a landlord believes that the limita tions on increases in rental charges imposed by a 
+“Notice of Rent Protection Emerge ncy” prevent the landlord from realizing a just and reasonable rate of 
+return on the landlord’s investment, the landlord may file an application with the Director of the Division of 
+Consumer Affairs in the Department of Law and Public Safety for the purpose of requesting permission to 
+increase rental charges in exce ss of the increases otherwise aut horized under the “Notice of Rent 
+Protection Emergency”.  In evaluating such an applicat ion, the director shall ta ke into consideration the 
+purposes intended to be achieved by P.L.2002, c. 133 (C.2A:18-61.62 et al.) and the “Notice of Rent 
+Protection Emergency” and the amount of rental char ges required to provide the landlord with a just and 
+reasonable return.  The Director shall promulgate rules and regulations in accordance with the 
+“Administrative Procedure Act,” P.L. 1968, c.410 (C.52:14B-1 et seq.) to effectuate the purpose of this act. 
+d. The provisions of subsections a. and b. of this se ction will serve to supplement, not replace, any existing 
+local, State, or Federal restrictions  on rent increases for any dwelling units in residential buildings located 
+within the zone described in subsections a. and b. of  this section, and will only apply to those dwelling  
+
+[PAGE 41]
+41  
+units where they cause a lowering of the maximum a llowable rent increase or of the maximum reasonable 
+rent increase. 
+e.  The provisions of subsections a. and b. of this section shall cease to apply upon the expiration of the state 
+of emergency, or upon the rescission of the either the declaration of the state of emergency or the “Notice 
+of Rent Protection Emergency.” 
+L.2002,c. 133, s. 2. 
+ 
+2A:18-61.64.  Report of violation, investigations, penalties 
+ 
+a. A tenant or prospective tenant may report a violation of the provisions of P.L. 2002, c.133 (C.2A:18-61.62 et 
+al.) to the Director of the Divisi on of Consumer Affairs in the Department of Law and Public Safety.  The 
+director shall investigate any complaint within 10 days of receipt o the complaint.  
+b. If the director determines that a violation of this act has occurred: 
+(1) a penalty may be assessed against the landlord in an amount equal to six times the monthly rental 
+sought to be imposed upon a tenant in contravention of the “Notice of Rent Protection Emergency”; or  
+(2) any penalties for violations of the New Jersey Consumer Fraud Act, P.L.1960 , c.39 (C.56:8-1 et al.) 
+may be sought by the director. 
+c. Notwithstanding the provisions of subsections a. and b. of this section, a tenant shall have the right to petition 
+a court of competent jurisdiction to terminate a lease containing a provision in violation of the provisions of P.L. 
+2002, c. 133 (C.2A:18-61.62 et al.). 
+L.2002, c.133, s. 3.  
+ 
+2A:18-61.65.  Violations considered as consumer fraud 
+ 
+Any violation of P.L.2002, c. 133 (C. 2A: 18-61.62 et al.) shall be considered a violation of the New Jersey Consumer 
+Fraud Act, P.L.1960,c.39(C.56:8-1 et seq.). 
+L.2002, c.133, s. 4  
+ 
+2A:18-66.  Judgment;  order as to payment;  stay of execution 
+ 
+The court may either order the judgment paid to the prevailing party or into court for the use of the prevailing party at a 
+certain date or by specified installments, and may stay the issue of executi on and other supplementary process during 
+compliance with its order.  Such stay shall at all times be subject to be modified or vacated. 
+  
+2A:18-67.  Docketing small claims judgments   
+ 
+Judgments recovered in the division of small claims of the Superior Court, Law Division,  Special Civil Part may be 
+docketed as judgments in the Special Civil Part proper are docketed.   
+Amended L.1991, c.91, s.69.   
+ 
+ 
+
+[PAGE 42]
+42  
+2A:18-69.  Costs 
+ 
+The actual cash disbursements of the prevailing party for any fees paid to the clerk and witness and officers' fees shall 
+be allowed as costs. 
+ 
+2A:18-71.  Costs on vacation of judgment 
+ 
+When a judgment is vacated, the court, in its discretion ma y award costs not exceeding $10, for or against either party 
+and enter judgment and issue execution therefor. 
+ 
+2A:18-72.  Disposal of remaining personal property abandoned by tenant  
+ 
+A landlord of commercial or residential property, in the manner provided by P.L.1999, c. 340 (C.2A:18-72 et al.), may 
+dispose of any tangible goods, chattels, manufactured or mobile homes or other personal property left upon a 
+premises by a tenant after giving notice as required by se ction 2 of P.L.1999, c.340 (C.2A: 18-73), only if the landlord 
+reasonable believes under all the circum stances that the tenant has left the property upon the premises with no 
+intention of asserting any further claim to the premises or the property and: 
+a. A warrant for removal has been executed and posses sion of the premises has been restored to the  
+      landlord; or 
+ b.   The tenant has given written notice that he or sh e is voluntarily relinquishing possession of the premises. 
+  
+The provision of P.L.1999, c.340 (C.2A:18- 72 et al.) shall not apply to the disposal of tenant property left on 
+nonresidential rental property if there is a lease in effect which has been duly executed by all parties which contains 
+specific terms and conditions for the disposal of tenant property. 
+L.1999, c.340,s. 1: Amended L.2001, c.51. 
+ 
+2A:18-73. Notice to tenant prior to disposition 
+ 
+To dispose of a tenant’s property under this act, a landlord shall first give written notice to the tenant, which shall be 
+sent by certified mail, return receipt requested or by rece ipted first class mail addressed to the tenant, at the tenant’s 
+last known address (which may be the address of the premis es) and at any alternate address or addresses known to 
+the landlord in an envelope endorsed “Please Forward.” 
+ 
+“Receipted first class mail” for purposes of this section means first class mail for which a certificate of mailing has been 
+obtained by the sender but does not include certified or registered mail. 
+ 
+When the property subject to disposal is a manufactured or mobile home, a copy of the notice required pursuant to this 
+section shall also be sent to the Director of the Division of Motor Vehicles and to any lienholders with security interests 
+in the property which has been recorded with the Division of Motor Vehicles. 
+L.199.c.340,s.2. 
+
+[PAGE 43]
+43  
+2A:18-74. Contents of notice   
+ 
+The notice required under section 2 of P.L.1999, c.340 (C2A:18-73) shall state as follows: 
+a. That the property is considered abandoned and must be removed from the premises or from the place of 
+safekeeping, if the landlord has stored the property as provided in section 4 of P.L.1999, c.340 (C.2A:18-
+75), by a date as follows; 
+(i) for all property other than manufactured or mobile homes not less than 30 days after delivery 
+of the notice, all not less than 33 days after the date of mailing, whichever comes first, or 
+(ii) for property which consists solely of manuf actured or mobile homes, not less than 75 days 
+after the delivery of the notice, or not less than 78 days after the date of mailing, whichever 
+comes first, or the property will be sold or otherwise disposed of; and 
+b. That if the abandoned property is not removed: 
+  (i)  The landlord may sell the property at a public or private sale; or 
+ (ii)  The landlord may destroy or otherwise dispos e of the property if the landlord reasonable      
+  determines that the value of the property is so  low that cost of storage and conducting a public 
+  sale would probably exceed the amount that would be realized from the sale; or 
+(iii) The landlord may sell items of value and de stroy or otherwise dispose of the remaining 
+property. 
+c. That in the case of a residential tenant, if the tenant clai ms the property within the time provided in the        
+notice, the landlord must make the pro perty available for removal by the tenan t without payment by the        
+tenant of any unpaid rent. 
+L.1999,c.340, s.3 
+ 
+2A:18-75. Storing abandoned property  
+ 
+After notifying a tenant as required by section 2 and 3 of P.L.1999, c.340 (C.2A:18-73 et seq.) a landlord shall store all 
+goods, chattels, manufactured or mobile homes and other pers onal property of the tenant in a place of safekeeping 
+and shall exercise reasonable care for the property, except that the landlord may promptly dispose of perishable food 
+and shall allow an animal control agency or humane society to remove any abandoned pets or livestock.  A landlord 
+may store a tenant’s manufactured dwelling or residential vehicle on the space previous ly rented, elsewhere on the 
+premises or in a safe location off the premises.  A landlor d shall be entitled to reasonable storage charges and costs 
+incidental to storage.  A landlord may store property in a commercial storage facility, in which case the storage cost 
+shall include the actual storage charge plus the reasonable cost of removal of the property to the place of storage.
+ 
+L.1999,c.340, s.4. 
+ 
+2A:18-76.  Conditions under which the property is considered abandoned 
+ 
+a.  If a tenant responds in writing or orally to the landlord, on or before the day specified in the required notice, that the 
+tenant intends to remove the property from the premises, or  from the place of safekeeping if the landlord has stored 
+the property as provided in section 4 of P.L.1999, c.340 (C.2A:18-75), and does not do so within the time specified in 
+
+[PAGE 44]
+44  
+the notice or within 15 days after the written response, whic hever is later, the tenant’s property shall be conclusively 
+presumed to be abandoned. 
+ 
+b.  If a lienholder responds in writing to the landlord conc erning a security interest in any manufactured or mobile 
+home, and the lienholder indicates an intent to remove the property from the premises, or from the place of 
+safekeeping, or to pay rent as a condition of leaving the pr operty on the premises, but fails to remove the property or 
+make rental payments within the time sp ecified in the notice or within 15 days after the written response, whichever is 
+later, then the landlord may proceed as if the lienholder had not responded. 
+ 
+c.  If no response is received from a tenant or lienholder with in the time period provided under section 3 of P.L.1999, 
+c.340 (C2A:18-74), then the tenant’s property shall be conclusively presumed to be abandoned. 
+L.1999,  c.340, s.5. 
+ 
+2A:18-77.  Tenant’s reimbursement for storage costs  
+ 
+Upon removal of his property, a tenant shall reimburse the la ndlord for the reasonable cost of storage for the period 
+the property was in the landlord’s safekeeping, including the re asonable cost of removal of the property to a place of 
+storage.  A landlord shall not be entitled to reimbursem ent for storage and removal costs which are greater than the 
+fair market value of such costs in the locale of the rental property.  A landlord shall not be responsible for any loss to a 
+tenant resulting from storage of property in compliance with  this act unless the loss was caused by the landlord’s 
+deliberate or negligent act or omission. 
+L.1999.c,340, s.6. 
+ 
+2A:18-78.  Disposal of property, options 
+ 
+Property that has been conclusively presumed to be abandoned may be disposed of in any of the following ways: 
+a.  The landlord may sell the property at a public or private sale; 
+b.  The landlord may destroy or otherwise dispose of the pr operty if the landlord reasonably determines that the value 
+of the property is so low that the cost of storage and conducting a public sale would probably exceed the amount that 
+would be realized from the sale; or 
+c.  The landlord may sell certain items a nd destroy or otherwise dispose of the remaining property, in accordance with 
+subsections a. and b. of this section. 
+ 
+A public or private sale authorized by this section shall be conducted in accordance with the provisions of 12A:9-601 et 
+seq. of the “Uniform Commercial Code” .
+ 
+L.1999, c.340, s.7 ; Amended L.2001, c.117,s.24. 
+ 
+ 
+ 
+ 
+
+[PAGE 45]
+45  
+2A:18-79.  Immunity 
+ 
+Nothing in P.L.1999, c.340 (C.2A:18-72 et al.) shall diminish t he right of a landlord of a nonresidential property to use 
+distraint when authorized by law. 
+L.1999, c. 340, s. 7 
+ 
+2A:18-80.  Deductions from sale proceeds 
+ 
+A landlord may deduct from the proceeds of any sale the re asonable costs of notice, storage and sale and any unpaid 
+rent and charges not covered by a secu rity deposit.  After deducting these amounts, the landlords shall remit to the 
+tenant the remaining proceeds, if any, together with an it emized accounting. If the tenant, after due diligence, cannot 
+be found the remaining proceeds shall be deposited into the S uperior Court and, if not claimed within 10 years, shall 
+escheat to the State. 
+L.1999,c.340, s.11. 
+ 
+2A:18-81.  Compliance with act constitutes complete defense 
+ 
+Compliance in good faith with all the requirements of this act shall constitute a complete defense in any action brought 
+by a tenant against a landlord for loss or damage to personal property disposed of pursuant to this act. 
+L.1999,c.340,s.12. 
+ 
+2A:18-82.  Noncompliance with act; tenant’s recovery 
+ 
+If a landlord seizes and retains a tenant’s personal property without complying with this act, the tenant shall be relieved 
+of any liability for reimbursement to the landlord for stor age and removal costs and shall be entitled to recover up to 
+twice the actual damages sustained by the tenant. 
+L.1999, c.340, s.13 
+ 
+2A:18-83.  Applicability of act 
+ 
+This act shall not be applicable to any unclaimed property whic h must be disposed of in accordance with the “Uniform 
+Unclaimed Property Act,” P.L.1989, c.58 (C.46:30B-1 et seq.). 
+L. 1999, c. 340, s. 14  
+ 
+2A:18-84.  Nonapplicability to motor vehicles 
+ 
+This act shall not be applicable to abandoned motor vehicles. 
+L.1999, c. 340, s. 15 
+ 
+end 
+  

@@ -1,0 +1,393 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011Cfftop3TPitswyFJwta62",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "# Berkeley Rental Housing Obligations and Exemptions Under Measure BB\n\nBased on the document dated 2026-10-01, here are the operative rental housing provisions:\n\n## RENT CAPS\n\n**Status:** Enacted\n\n"
+    },
+    {
+      "citations": [
+        {
+          "type": "char_location",
+          "cited_text": "Owners of partially covered units must now report new tenancies to the Rent Board within 15 days of the tenancy\u2019s start date\nAnnual General Adjustments are capped at a maximum of 5%.\n",
+          "document_index": 0,
+          "document_title": "D006",
+          "start_char_index": 2579,
+          "end_char_index": 2762
+        },
+        {
+          "type": "char_location",
+          "cited_text": "NEW:\nThe maximum AGA is 5%. ",
+          "document_index": 0,
+          "document_title": "D006",
+          "start_char_index": 11879,
+          "end_char_index": 11907
+        }
+      ],
+      "type": "text",
+      "text": "Annual General Adjustments are capped at a maximum of 5%."
+    },
+    {
+      "type": "text",
+      "text": " "
+    },
+    {
+      "citations": [
+        {
+          "type": "char_location",
+          "cited_text": "This means that, if the formula in the Rent\u00a0Ordinance results in an AGA that is greater than 5%, the AGA approved by the Board for that year can be no more than 5%. ",
+          "document_index": 0,
+          "document_title": "D006",
+          "start_char_index": 11907,
+          "end_char_index": 12072
+        }
+      ],
+      "type": "text",
+      "text": "If the formula in the Rent Ordinance results in an AGA that is greater than 5%, the AGA approved by the Board for that year can be no more than 5%."
+    },
+    {
+      "type": "text",
+      "text": " "
+    },
+    {
+      "citations": [
+        {
+          "type": "char_location",
+          "cited_text": "This cap does not prevent a landlord who has \u201cbanked\u201d (unused) AGAs from previous years from implementing a rent\u00a0increase that is greater than 5% in order to raise the rent to the rent ceiling. ",
+          "document_index": 0,
+          "document_title": "D006",
+          "start_char_index": 12072,
+          "end_char_index": 12266
+        }
+      ],
+      "type": "text",
+      "text": "This cap does not prevent a landlord who has \"banked\" (unused) AGAs from previous years from implementing a rent increase that is greater than 5% in order to raise the rent to the rent ceiling."
+    },
+    {
+      "type": "text",
+      "text": "\n\n"
+    },
+    {
+      "citations": [
+        {
+          "type": "char_location",
+          "cited_text": "Owners may only petition for rent increases for completed capital improvements, rather than planned capital improvements.\n",
+          "document_index": 0,
+          "document_title": "D006",
+          "start_char_index": 2457,
+          "end_char_index": 2579
+        }
+      ],
+      "type": "text",
+      "text": "Owners may only petition for rent increases for completed capital improvements, rather than planned capital improvements."
+    },
+    {
+      "type": "text",
+      "text": "\n\n"
+    },
+    {
+      "citations": [
+        {
+          "type": "char_location",
+          "cited_text": "Utility charges must be a set amount incorporated into the base rent at the start of a tenancy unless the utility is separately metered and the account is in the tenant\u2019s name as specified in the lease.\n",
+          "document_index": 0,
+          "document_title": "D006",
+          "start_char_index": 2141,
+          "end_char_index": 2344
+        }
+      ],
+      "type": "text",
+      "text": "Utility charges must be a set amount incorporated into the base rent at the start of a tenancy unless the utility is separately metered and the account is in the tenant's name as specified in the lease."
+    },
+    {
+      "type": "text",
+      "text": "\n\n## JUST CAUSE EVICTION\n\n**Status:** Enacted\n\n"
+    },
+    {
+      "citations": [
+        {
+          "type": "char_location",
+          "cited_text": "Eviction for nonpayment of rent is no longer permitted for rental debt of less than one month\u2019s Fair Market Rent for a unit of equivalent size.\n",
+          "document_index": 0,
+          "document_title": "D006",
+          "start_char_index": 1252,
+          "end_char_index": 1396
+        }
+      ],
+      "type": "text",
+      "text": "Eviction for nonpayment of rent is no longer permitted for rental debt of less than one month's Fair Market Rent for a unit of equivalent size."
+    },
+    {
+      "type": "text",
+      "text": " "
+    },
+    {
+      "citations": [
+        {
+          "type": "char_location",
+          "cited_text": "Eviction for nonpayment of rent is no longer allowed for rental debt less than one month of the Fair Market Rent for the unit\nNEW\n: For a landlord to evict a tenant for nonpayment of rent, the tenant must owe an amount of rental debt equal to or greater than one month of the Fair Market Rent (FMR) value for a unit of equivalent size in the metro area Oakland-Fremont, CA HUD Metro FMR as determined by the US Department of Housing and Urban Development for the fiscal year in which the rent is demanded. ",
+          "document_index": 0,
+          "document_title": "D006",
+          "start_char_index": 6528,
+          "end_char_index": 7034
+        }
+      ],
+      "type": "text",
+      "text": "For a landlord to evict a tenant for nonpayment of rent, the tenant must owe an amount of rental debt equal to or greater than one month of the Fair Market Rent (FMR) value for a unit of equivalent size in the metro area Oakland-Fremont, CA HUD Metro FMR as determined by the US Department of Housing and Urban Development for the fiscal year in which the rent is demanded."
+    },
+    {
+      "type": "text",
+      "text": "\n\n"
+    },
+    {
+      "citations": [
+        {
+          "type": "char_location",
+          "cited_text": "A landlord may no longer evict a tenant for failure to sign a new fixed term lease\nIn any notice terminating a tenancy for a lease breach, the landlord must clearly describe the alleged breach. ",
+          "document_index": 0,
+          "document_title": "D006",
+          "start_char_index": 1396,
+          "end_char_index": 1590
+        },
+        {
+          "type": "char_location",
+          "cited_text": "Tenants can no longer be evicted for failing to sign a substantially similar lease\nNEW:\nA landlord cannot evict a tenant for failing to sign a substantially similar lease upon expiration of a fixed-term lease.\n",
+          "document_index": 0,
+          "document_title": "D006",
+          "start_char_index": 7142,
+          "end_char_index": 7352
+        }
+      ],
+      "type": "text",
+      "text": "A landlord may no longer evict a tenant for failure to sign a new fixed term lease."
+    },
+    {
+      "type": "text",
+      "text": "\n\n"
+    },
+    {
+      "citations": [
+        {
+          "type": "char_location",
+          "cited_text": "A landlord may no longer evict a tenant for failure to sign a new fixed term lease\nIn any notice terminating a tenancy for a lease breach, the landlord must clearly describe the alleged breach. The landlord must demonstrate that the tenant\u2019s behavior was unreasonable, and may not evict tenants for lease breaches that do not cause the landlord any actual harm.\n",
+          "document_index": 0,
+          "document_title": "D006",
+          "start_char_index": 1396,
+          "end_char_index": 1758
+        }
+      ],
+      "type": "text",
+      "text": "In any notice terminating a tenancy for a lease breach, the landlord must clearly describe the alleged breach. The landlord must demonstrate that the tenant's behavior was unreasonable, and may not evict tenants for lease breaches that do not cause the landlord any actual harm."
+    },
+    {
+      "type": "text",
+      "text": "\n\n"
+    },
+    {
+      "citations": [
+        {
+          "type": "char_location",
+          "cited_text": "New requirements related to eviction notices and lawsuits\nNEW:\nAny notice terminating a tenancy must contain a statement that advice about the notice is available from the Rent Board, the current phone number for the Rent Board\u2019s Housing counseling services, and the current address of the Rent Board\u2019s website.\nThe landlord must file with the Rent Board a copy of any notice to terminate a tenancy, notice to quit, and summons and complaint no later than three business days after the tenant was served with the document.\n",
+          "document_index": 0,
+          "document_title": "D006",
+          "start_char_index": 8317,
+          "end_char_index": 8840
+        }
+      ],
+      "type": "text",
+      "text": "Any notice terminating a tenancy must contain a statement that advice about the notice is available from the Rent Board, the current phone number for the Rent Board's Housing counseling services, and the current address of the Rent Board's website. The landlord must file with the Rent Board a copy of any notice to terminate a tenancy, notice to quit, and summons and complaint no later than three business days after the tenant was served with the document."
+    },
+    {
+      "type": "text",
+      "text": "\n\n## DEPOSITS AND APPLICATION/SCREENING FEES\n\n**Status:** Not addressed in document\n\nThe document does not contain information about security deposits, application fees, or screening fees.\n\n## SCREENING RESTRICTIONS\n\n**Status:** Not addressed in document\n\nThe document does not contain information about screening restrictions or algorithmic pricing.\n\n## ALGORITHMIC PRICING\n\n**Status:** Not addressed in document\n\nThe document does not contain information about algorithmic pricing.\n\n## COVERAGE EXEMPTIONS AND APPLICABILITY\n\n**Status:** Enacted (with modifications to prior exemptions)\n\n"
+    },
+    {
+      "citations": [
+        {
+          "type": "char_location",
+          "cited_text": "Rental units where the tenant shares kitchen or bath facilities with the landlord are only exempt if the landlord resided at the property prior to the tenants.\n",
+          "document_index": 0,
+          "document_title": "D006",
+          "start_char_index": 983,
+          "end_char_index": 1143
+        },
+        {
+          "type": "char_location",
+          "cited_text": "Units where the tenant shares a kitchen or bath facilities with the landlord\nNEW:\nWhere the tenant shares a kitchen or bath facilities with the landlord, the unit will be exempt from the Rent Ordinance only if the landlord lived in a unit on the same property at the start of the tenancy.\n",
+          "document_index": 0,
+          "document_title": "D006",
+          "start_char_index": 3268,
+          "end_char_index": 3557
+        }
+      ],
+      "type": "text",
+      "text": "Rental units where the tenant shares kitchen or bath facilities with the landlord are only exempt if the landlord resided at the property prior to the tenants."
+    },
+    {
+      "type": "text",
+      "text": "\n\n"
+    },
+    {
+      "citations": [
+        {
+          "type": "char_location",
+          "cited_text": "Government-owned or -subsidized rental units become either fully or partially covered by the Rent Ordinance.\n",
+          "document_index": 0,
+          "document_title": "D006",
+          "start_char_index": 1143,
+          "end_char_index": 1252
+        },
+        {
+          "type": "char_location",
+          "cited_text": "Government-owned or -subsidized rental units like Section 8 and Shelter + Care units are Now Fully or Partially Covered by the Rent Ordinance\nNEW:\nLandlords of government-owned or -subsidized units must\nregister them with the Rent Board as either fully or partially covered\n, and pay an annual registration fee. ",
+          "document_index": 0,
+          "document_title": "D006",
+          "start_char_index": 3557,
+          "end_char_index": 3869
+        },
+        {
+          "type": "char_location",
+          "cited_text": "Whether a unit is fully or partially covered depends on unit type and if Federal law, State law, or administrative regulation exempts the unit from the rent control provisions of Berkeley\u2019s Rent Ordinance. ",
+          "document_index": 0,
+          "document_title": "D006",
+          "start_char_index": 4029,
+          "end_char_index": 4235
+        }
+      ],
+      "type": "text",
+      "text": "Government-owned or -subsidized rental units become either fully or partially covered by the Rent Ordinance. Landlords of government-owned or -subsidized units must register them with the Rent Board as either fully or partially covered, and pay an annual registration fee. Whether a unit is fully or partially covered depends on unit type and if Federal law, State law, or administrative regulation exempts the unit from the rent control provisions of Berkeley's Rent Ordinance."
+    },
+    {
+      "type": "text",
+      "text": "\n\n## TENANT RIGHTS AND PROTECTIONS\n\n**Status:** Enacted\n\n"
+    },
+    {
+      "citations": [
+        {
+          "type": "char_location",
+          "cited_text": "NEW NOTICE OF TENANT RIGHTS REQUIREMENTS\nNEW:\nFor tenancies started on or after December 20, 2024, landlords must, within fifteen days of the start of the tenancy, give the tenant written notice containing the following information: The existence of and scope of the Rent Ordinance; the tenant\u2019s right to petition against certain rent increases, if applicable; whether the unit is exempt from rent control; and any other partial exemptions which may exist.\nIf the property has an interior common area that all tenants have access to, the landlord must post the notice in the common area.\n",
+          "document_index": 0,
+          "document_title": "D006",
+          "start_char_index": 8840,
+          "end_char_index": 9428
+        }
+      ],
+      "type": "text",
+      "text": "For tenancies started on or after December 20, 2024, landlords must, within fifteen days of the start of the tenancy, give the tenant written notice containing the following information: The existence of and scope of the Rent Ordinance; the tenant's right to petition against certain rent increases, if applicable; whether the unit is exempt from rent control; and any other partial exemptions which may exist. If the property has an interior common area that all tenants have access to, the landlord must post the notice in the common area."
+    },
+    {
+      "type": "text",
+      "text": "\n\n"
+    },
+    {
+      "citations": [
+        {
+          "type": "char_location",
+          "cited_text": "Tenants have an enforceable right to organize and may petition for a decrease in rent if this right is violated.\n",
+          "document_index": 0,
+          "document_title": "D006",
+          "start_char_index": 2344,
+          "end_char_index": 2457
+        }
+      ],
+      "type": "text",
+      "text": "Tenants have an enforceable right to organize and may petition for a decrease in rent if this right is violated."
+    },
+    {
+      "type": "text",
+      "text": "\n\n## REPORTING AND ENFORCEMENT\n\n**Status:** Enacted\n\n"
+    },
+    {
+      "citations": [
+        {
+          "type": "char_location",
+          "cited_text": "CHANGE TO TENANCY REPORTING REQUIREMENTS FOR LANDLORDS OF PARTIALLY COVERED UNITS\nNEW:\nOwners of partially covered units must now report new tenancies to the Rent Board within 15 days of the tenancy\u2019s start date. Owners must also update tenancy information annually during the registration billing cycle.\n",
+          "document_index": 0,
+          "document_title": "D006",
+          "start_char_index": 11291,
+          "end_char_index": 11596
+        }
+      ],
+      "type": "text",
+      "text": "Owners of partially covered units must now report new tenancies to the Rent Board within 15 days of the tenancy's start date. Owners must also update tenancy information annually during the registration billing cycle."
+    },
+    {
+      "type": "text",
+      "text": "\n\n"
+    },
+    {
+      "citations": [
+        {
+          "type": "char_location",
+          "cited_text": "THE RENT BOARD IS NOW REQUIRED TO ANNUALLY ADJUST OWNER MOVE-IN EVICTION RELOCATION ASSISTANCE PAYMENTS\nNEW:\nThe Rent Board must make inflationary adjustments to owner move-in eviction relocation assistance amounts each year.\n",
+          "document_index": 0,
+          "document_title": "D006",
+          "start_char_index": 12339,
+          "end_char_index": 12565
+        }
+      ],
+      "type": "text",
+      "text": "The Rent Board must make inflationary adjustments to owner move-in eviction relocation assistance amounts each year."
+    },
+    {
+      "type": "text",
+      "text": "\n\n"
+    },
+    {
+      "citations": [
+        {
+          "type": "char_location",
+          "cited_text": "RENT BOARD EMPOWERED TO IMPLEMENT FINES FOR THE FAILURE TO TIMELY REPORT NEW TENANCIES\nNEW:\nMeasure BB gives the Rent Board the power to impose fines for failing to report new tenancies within fifteen days of the tenancy start date.\nIMPORTANT:\nWhile Measure BB gives the Board the power to impose these fines, it does not create a fine system. The elected Board must adopt regulations to impose any fines.\n",
+          "document_index": 0,
+          "document_title": "D006",
+          "start_char_index": 12565,
+          "end_char_index": 12971
+        }
+      ],
+      "type": "text",
+      "text": "Measure BB gives the Rent Board the power to impose fines for failing to report new tenancies within fifteen days of the tenancy start date. While Measure BB gives the Board the power to impose these fines, it does not create a fine system. The elected Board must adopt regulations to impose any fines."
+    },
+    {
+      "type": "text",
+      "text": "\n\n## STATUS SUMMARY\n\nAll provisions identified above are **enacted** as part of "
+    },
+    {
+      "citations": [
+        {
+          "type": "char_location",
+          "cited_text": "Measure BB, a ballot measure passed by Berkeley voters in the November 2024 election, makes several changes to Berkeley\u2019s Rent Ordinance that affect tenant and landlord rights and responsibilities. ",
+          "document_index": 0,
+          "document_title": "D006",
+          "start_char_index": 403,
+          "end_char_index": 601
+        }
+      ],
+      "type": "text",
+      "text": "Measure BB, a ballot measure passed by Berkeley voters in the November 2024 election."
+    },
+    {
+      "type": "text",
+      "text": " The document contains no information about proposed or failed provisions."
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 5006,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 1477,
+    "service_tier": "batch",
+    "inference_geo": "not_available"
+  },
+  "diagnostics": null
+}

@@ -1,0 +1,151 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011Cfftopcgj9q3r8mpkYgqo",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "# San Diego Rental Housing Obligations and Exemptions\n\nBased on the document provided, I can only identify information regarding **algorithmic pricing**. The document does not contain information about rent caps, just cause eviction, deposits, application/screening fees, or screening restrictions.\n\n## Algorithmic Pricing\n\n**Status:** "
+    },
+    {
+      "citations": [
+        {
+          "type": "char_location",
+          "cited_text": "This Ordinance will take effect and be in force on the thirtieth day from\nand after its final passage.\n",
+          "document_index": 0,
+          "document_title": "D076",
+          "start_char_index": 16903,
+          "end_char_index": 17006
+        }
+      ],
+      "type": "text",
+      "text": "Proposed ordinance (will take effect on the thirtieth day from and after its final passage)"
+    },
+    {
+      "type": "text",
+      "text": "\n\n**Operative Obligations:**\n\n1. "
+    },
+    {
+      "citations": [
+        {
+          "type": "char_location",
+          "cited_text": "\u00a798.1103  Use and Sale of Algorithmic Devices Prohibited\n(a) It is unlawful for a person to sell, license, or otherwise provide an\nalgorithmic device to a landlord.\n",
+          "document_index": 0,
+          "document_title": "D076",
+          "start_char_index": 15459,
+          "end_char_index": 15624
+        }
+      ],
+      "type": "text",
+      "text": "It is unlawful for a person to sell, license, or otherwise provide an algorithmic device to a landlord."
+    },
+    {
+      "type": "text",
+      "text": "\n\n2. "
+    },
+    {
+      "citations": [
+        {
+          "type": "char_location",
+          "cited_text": "(b) It is unlawful for a landlord to use an algorithmic device to set rental rates\nor occupancy levels for residential rental property.\n",
+          "document_index": 0,
+          "document_title": "D076",
+          "start_char_index": 15624,
+          "end_char_index": 15760
+        }
+      ],
+      "type": "text",
+      "text": "It is unlawful for a landlord to use an algorithmic device to set rental rates or occupancy levels for residential rental property."
+    },
+    {
+      "type": "text",
+      "text": "\n\n**Definition of Algorithmic Device:**\n\n"
+    },
+    {
+      "citations": [
+        {
+          "type": "char_location",
+          "cited_text": "The following\ndefinitions apply in this Division:\nAlgorithmic device means a software or product that uses or incorporates one or\nmore algorithms to perform calculations of nonpublic competitor data concerning\nrental rates, occupancy levels, or other information regarding the leasing of\nresidential rental property to advise a landlord on, or recommend to a landlord,\nrental rates or occupancy levels that may be achieved for a residential rental\nproperty in the City of San Diego. ",
+          "document_index": 0,
+          "document_title": "D076",
+          "start_char_index": 13427,
+          "end_char_index": 13910
+        }
+      ],
+      "type": "text",
+      "text": "An algorithmic device means a software or product that uses or incorporates one or more algorithms to perform calculations of nonpublic competitor data concerning rental rates, occupancy levels, or other information regarding the leasing of residential rental property to advise a landlord on, or recommend to a landlord, rental rates or occupancy levels that may be achieved for a residential rental property in the City of San Diego."
+    },
+    {
+      "type": "text",
+      "text": "\n\n**Exemptions:**\n\n"
+    },
+    {
+      "citations": [
+        {
+          "type": "char_location",
+          "cited_text": "Algorithmic device does not include either of\nthe following:\n(a) A software or product used by a person to publish reports regarding rental\nrates or occupancy levels from aggregated historical nonpublic competitor\ndata that is more than 90 days old, or from information available to the\ngeneral public, and does not recommend rental rates or occupancy levels\nfor future residential rental property leases or renewals.\n(b) A software or product used by a person to establish rental rates or income\nlimits in accordance with local, state, or federal affordable housing\nprogram guidelines.\n",
+          "document_index": 0,
+          "document_title": "D076",
+          "start_char_index": 13910,
+          "end_char_index": 14497
+        }
+      ],
+      "type": "text",
+      "text": "Algorithmic device does not include: (a) A software or product used by a person to publish reports regarding rental rates or occupancy levels from aggregated historical nonpublic competitor data that is more than 90 days old, or from information available to the general public, and does not recommend rental rates or occupancy levels for future residential rental property leases or renewals; or (b) A software or product used by a person to establish rental rates or income limits in accordance with local, state, or federal affordable housing program guidelines."
+    },
+    {
+      "type": "text",
+      "text": "\n\n**Violations and Sanctions:**\n\n"
+    },
+    {
+      "citations": [
+        {
+          "type": "char_location",
+          "cited_text": "For each month a violation of section 98.1103(b) exists or continues, and\nfor each residential rental property a landlord uses an algorithmic device,\nit shall constitute a separate and distinct violation.\n",
+          "document_index": 0,
+          "document_title": "D076",
+          "start_char_index": 15760,
+          "end_char_index": 15965
+        }
+      ],
+      "type": "text",
+      "text": "For each month a violation of section 98.1103(b) exists or continues, and for each residential rental property a landlord uses an algorithmic device, it shall constitute a separate and distinct violation."
+    },
+    {
+      "type": "text",
+      "text": "\n\n"
+    },
+    {
+      "citations": [
+        {
+          "type": "char_location",
+          "cited_text": "(O-2025-107)\n-PAGE 5 OF 6-\n\u00a798.1104  Remedies\n( a ) A tenant may seek injunctive relief, damages, or civil penalties of up to\n$1,000 per violation of this Division, in a civil action against a landlord.\nIn an action brought under this Division, a prevailing tenant shall recover\ncosts and reasonable attorney\u2019s fees. ",
+          "document_index": 0,
+          "document_title": "D076",
+          "start_char_index": 15965,
+          "end_char_index": 16282
+        }
+      ],
+      "type": "text",
+      "text": "A tenant may seek injunctive relief, damages, or civil penalties of up to $1,000 per violation of this Division, in a civil action against a landlord. In an action brought under this Division, a prevailing tenant shall recover costs and reasonable attorney's fees."
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 8706,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 602,
+    "service_tier": "batch",
+    "inference_geo": "not_available"
+  },
+  "diagnostics": null
+}

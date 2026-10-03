@@ -1,0 +1,29 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011CffuAAixvwEApumiPBFM2",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "{\"rules\": [], \"gaps\": [\"Bill H.3744 text not provided - only legislative petition header and procedural history available. Document does not contain operative provisions for rent_increase_limits, just_cause_eviction, security_deposits, application_screening_fees, screening_restrictions, or algorithmic_rent_setting. No coverage conditions, exemptions, effective dates, or sanctions specified. Bill status as of 2026-10-01 is pending (last action 9/9/2024 accompanied study order H5035, no final enactment recorded). Full bill text required to extract enforceable rules.\"]}"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 3427,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 138,
+    "service_tier": "batch",
+    "inference_geo": "not_available"
+  },
+  "diagnostics": null
+}

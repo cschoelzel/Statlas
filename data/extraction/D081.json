@@ -1,0 +1,99 @@
+{
+  "doc_id": "D081",
+  "model": "claude-haiku-4-5-20251001",
+  "source_sha256": "e3437f99eae3882641b5052fd7006f2a0304abd2033e1b721a8c32324be2afab",
+  "rules": [
+    {
+      "jurisdiction": "San Francisco, CA",
+      "level": "city",
+      "category": "algorithmic_rent_setting",
+      "status": "in_force",
+      "title": "Prohibition on Algorithmic Devices for Rent Setting",
+      "requirement": "The sale or use of algorithmic devices to set rents or manage occupancy levels for residential units in San Francisco is prohibited. An algorithmic device is defined as a device such as a software program that uses algorithms to analyze nonpublic competitor rental data for the purposes of providing a landlord recommendations on what rent to charge for a vacant unit.",
+      "citation": "San Francisco Rent Ordinance Section 37.10C",
+      "quoted_span": "The law prohibits the sale or use of algorithmic devices to set rents or manage occupancy levels for residential units in San Francisco.",
+      "key_value": "algorithmic_device_prohibition",
+      "coverage_conditions": "Applies to residential units in San Francisco; applies to any entity selling or using algorithmic devices",
+      "exemptions": null,
+      "effective_date": "2024-10-14",
+      "conflict_note": null,
+      "sanctions": "Civil action may be brought by a tenant or the City Attorney for violation",
+      "enacted_at": "2024-10-16",
+      "operative_date": "2024-10-14",
+      "end_date": null,
+      "confidence": 0.95,
+      "conflict_flag": false,
+      "logic": {
+        "coverage": {
+          "all": [
+            {
+              "all": [
+                {
+                  "fact": "legal_city",
+                  "op": "eq",
+                  "value": "San Francisco"
+                },
+                {
+                  "fact": "device_is_algorithmic_rent_setter",
+                  "op": "eq",
+                  "value": true
+                }
+              ]
+            },
+            {
+              "fact": "unresolved_legal_evidence_D081_1",
+              "op": "eq",
+              "value": true
+            }
+          ]
+        },
+        "exemptions": false
+      },
+      "field_evidence": [
+        {
+          "field": "requirement",
+          "quoted_span": "The law prohibits the sale or use of algorithmic devices to set rents or manage occupancy levels for residential units in San Francisco.",
+          "start_char": 572,
+          "end_char": 708
+        },
+        {
+          "field": "effective_date",
+          "quoted_span": "Legislation\nadding Section 37.10C to the Rent Ordinance went into effect on October 14, 2024.",
+          "start_char": 478,
+          "end_char": 571
+        },
+        {
+          "field": "sanctions",
+          "quoted_span": "allows a tenant or the City Attorney to bring a civil action if they believe an entity is in violation of the law",
+          "start_char": 1011,
+          "end_char": 1124
+        }
+      ],
+      "evidence_gaps": [
+        "coverage_conditions"
+      ],
+      "team_rule_id": "D081-r001",
+      "source_doc_id": "D081",
+      "source_url": "https://www.sf.gov/news/new-law-prohibits-algorithmic-devices-used-set-rents-san-francisco",
+      "retrieved_at": "2026-10-01T22:37Z",
+      "query_date": "2026-10-01",
+      "review_status": "unreviewed",
+      "evidence": {
+        "source_doc_id": "D081",
+        "text_sha256": "e3437f99eae3882641b5052fd7006f2a0304abd2033e1b721a8c32324be2afab",
+        "start_char": 572,
+        "end_char": 708,
+        "quoted_span": "The law prohibits the sale or use of algorithmic devices to set rents or manage occupancy levels for residential units in San Francisco.",
+        "retrieved_at": "2026-10-01T22:37Z",
+        "original_file": "data/sources/originals/e3437f99eae3882641b5052fd7006f2a0304abd2033e1b721a8c32324be2afab.txt"
+      }
+    }
+  ],
+  "rejected": [],
+  "gaps": [
+    "No information provided regarding coverage exemptions for specific building types, tenant protections, or landlord categories",
+    "No information on remedies, penalties, or damages beyond civil action availability",
+    "No information on other rental housing obligations: rent_increase_limits, just_cause_eviction, security_deposits, application_screening_fees, screening_restrictions"
+  ],
+  "status": "needs_review"
+}

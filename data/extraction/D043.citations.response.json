@@ -1,0 +1,605 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011CfftopAeAx5av7Esf5Mgv",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "# Los Angeles Rental Housing Obligations and Exemptions (as of 2026-10-01)\n\nBased on the provided document, I can only identify obligations and information related to **relocation assistance for no-fault evictions**. The document does not contain information about rent caps, just cause eviction requirements, deposits, application/screening fees, screening restrictions, or algorithmic pricing.\n\n## Relocation Assistance Obligations (Enacted)\n\n### No-Fault Evictions Under RSO & JCO\n\n**Operative Requirement:**\n"
+    },
+    {
+      "citations": [
+        {
+          "type": "char_location",
+          "cited_text": "SOURCE: https://housing.lacity.gov/wp-content/uploads/2026/08/Relocation-Assistance-Bulletins-A-and-B-Combined.pdf\nRETRIEVED: 2026-10-01 22:36 UTC\n\nA. RELOCATION ASSISTANCE BULLETIN\n RELOCATION ASSISTANCE \n No-Fault Evictions Under the RSO & JCO \nAll tenant not- at-fault evictions require payment of relocation assistance and the filing of a \nDeclaration of Intent to Evict form with the Los Angeles Housing Department (LAHD) before \nevicting tenants from units covered by the Rent Stabilization Ordinance (RSO) or the Just Cause \nOrdinance (JCO). ",
+          "document_index": 0,
+          "document_title": "D043",
+          "start_char_index": 0,
+          "end_char_index": 549
+        }
+      ],
+      "type": "text",
+      "text": "All tenant not-at-fault evictions require payment of relocation assistance and the filing of a Declaration of Intent to Evict form with the Los Angeles Housing Department (LAHD) before evicting tenants from units covered by the Rent Stabilization Ordinance (RSO) or the Just Cause Ordinance (JCO)."
+    },
+    {
+      "type": "text",
+      "text": "\n\n**Filing Requirements:**\n"
+    },
+    {
+      "citations": [
+        {
+          "type": "char_location",
+          "cited_text": "Notices to terminate tenancy can only be served on the tenant after \nthe landlord files the Declaration with LAHD, and a copy of the notice must be filed with LAHD \nno later than 3 days after it is served. ",
+          "document_index": 0,
+          "document_title": "D043",
+          "start_char_index": 655,
+          "end_char_index": 861
+        }
+      ],
+      "type": "text",
+      "text": "Notices to terminate tenancy can only be served on the tenant after the landlord files the Declaration with LAHD, and a copy of the notice must be filed with LAHD no later than 3 days after it is served."
+    },
+    {
+      "type": "text",
+      "text": "\n\n**Violation Sanctions:**\n"
+    },
+    {
+      "citations": [
+        {
+          "type": "char_location",
+          "cited_text": "Failure to file the Landlord Declaration with the LAHD makes the eviction a \nviolation of the RSO or JCO. ",
+          "document_index": 0,
+          "document_title": "D043",
+          "start_char_index": 549,
+          "end_char_index": 655
+        }
+      ],
+      "type": "text",
+      "text": "Failure to file the Landlord Declaration with the LAHD makes the eviction a violation of the RSO or JCO."
+    },
+    {
+      "type": "text",
+      "text": "\n\n### Payment Timing and Methods\n\n**Timing:**\n"
+    },
+    {
+      "citations": [
+        {
+          "type": "char_location",
+          "cited_text": "Payment shall be made available within fifteen (15) days of service of the written notice of\neviction; however,\n2. ",
+          "document_index": 0,
+          "document_title": "D043",
+          "start_char_index": 8731,
+          "end_char_index": 8846
+        }
+      ],
+      "type": "text",
+      "text": "Payment shall be made available within fifteen (15) days of service of the written notice of eviction."
+    },
+    {
+      "type": "text",
+      "text": "\n\n**Escrow Option:**\n"
+    },
+    {
+      "citations": [
+        {
+          "type": "char_location",
+          "cited_text": "At the landlord's sole discretion and cost, the landlord may elect to pay the monetary\nrelocation benefits through an escrow account. The monies must be placed in the escrow\naccount within the required 15-day period. The escrow account must provide for payments to\nthe tenant(s) for actual relocation expenses incurred by the tenant before vacating the unit\nfor the following relocation expenses: first and last month\u2019s rent; security deposit; utility\nconnection charges; moving expenses. ",
+          "document_index": 0,
+          "document_title": "D043",
+          "start_char_index": 8846,
+          "end_char_index": 9335
+        }
+      ],
+      "type": "text",
+      "text": "At the landlord's sole discretion and cost, the landlord may elect to pay the monetary relocation benefits through an escrow account. The monies must be placed in the escrow account within the required 15-day period. The escrow account must provide for payments to the tenant(s) for actual relocation expenses incurred by the tenant before vacating the unit for the following relocation expenses: first and last month's rent; security deposit; utility connection charges; moving expenses."
+    },
+    {
+      "type": "text",
+      "text": "\n\n**Distribution Among Multiple Tenants:**\n"
+    },
+    {
+      "citations": [
+        {
+          "type": "char_location",
+          "cited_text": "If two or more tenants occupy a rental unit, each tenant shall be paid an equal pro rata\nshare of the payment.\n",
+          "document_index": 0,
+          "document_title": "D043",
+          "start_char_index": 8439,
+          "end_char_index": 8550
+        }
+      ],
+      "type": "text",
+      "text": "If two or more tenants occupy a rental unit, each tenant shall be paid an equal pro rata share of the payment."
+    },
+    {
+      "type": "text",
+      "text": "\n\n### Relocation Assistance Amounts (Effective July 1, 2026 through June 30, 2027)\n\n**Standard Amounts:**\n"
+    },
+    {
+      "citations": [
+        {
+          "type": "char_location",
+          "cited_text": "Chart A: Relocation Assistance Amounts \nEffective July 1, 2026 through June 30, 2027 \nTenant \nHousehold \nTenants with \nLess Than 3 \nYears \nTenants with Length \nof Tenancy of 3 or \nMore Years, or Low \nIncome at or below \n80% AMI (Low \nIncome) \nTenants Renting \nUnits in Mom & Pop \nProperties (Only \nfor owner or family \noccupancy evictions) \nSingle Family \nDwelling \nowned by \nnatural person \n(JCO only) \nEligible \nHousehold $11,000 $14,400 $10,550 \nOne month\u2019s \nrent Qualified \nHousehold $23,150 $27,400 $21,250 \nIncreases every July 1st. \n",
+          "document_index": 0,
+          "document_title": "D043",
+          "start_char_index": 6670,
+          "end_char_index": 7210
+        }
+      ],
+      "type": "text",
+      "text": "For Eligible Households with less than 3 years tenancy: $11,000; with 3 or more years tenancy or low income: $14,400. For Qualified Households with less than 3 years: $23,150; with 3 or more years or low income: $27,400."
+    },
+    {
+      "type": "text",
+      "text": "\n\n**Mom & Pop Properties (Reduced):**\n"
+    },
+    {
+      "citations": [
+        {
+          "type": "char_location",
+          "cited_text": "Chart A: Relocation Assistance Amounts \nEffective July 1, 2026 through June 30, 2027 \nTenant \nHousehold \nTenants with \nLess Than 3 \nYears \nTenants with Length \nof Tenancy of 3 or \nMore Years, or Low \nIncome at or below \n80% AMI (Low \nIncome) \nTenants Renting \nUnits in Mom & Pop \nProperties (Only \nfor owner or family \noccupancy evictions) \nSingle Family \nDwelling \nowned by \nnatural person \n(JCO only) \nEligible \nHousehold $11,000 $14,400 $10,550 \nOne month\u2019s \nrent Qualified \nHousehold $23,150 $27,400 $21,250 \nIncreases every July 1st. \n",
+          "document_index": 0,
+          "document_title": "D043",
+          "start_char_index": 6670,
+          "end_char_index": 7210
+        }
+      ],
+      "type": "text",
+      "text": "For Mom & Pop Properties for owner or family occupancy evictions, Eligible Households: $10,550; Qualified Households: $21,250."
+    },
+    {
+      "type": "text",
+      "text": "\n\n**Single Family Dwellings:**\n"
+    },
+    {
+      "citations": [
+        {
+          "type": "char_location",
+          "cited_text": "Chart A: Relocation Assistance Amounts \nEffective July 1, 2026 through June 30, 2027 \nTenant \nHousehold \nTenants with \nLess Than 3 \nYears \nTenants with Length \nof Tenancy of 3 or \nMore Years, or Low \nIncome at or below \n80% AMI (Low \nIncome) \nTenants Renting \nUnits in Mom & Pop \nProperties (Only \nfor owner or family \noccupancy evictions) \nSingle Family \nDwelling \nowned by \nnatural person \n(JCO only) \nEligible \nHousehold $11,000 $14,400 $10,550 \nOne month\u2019s \nrent Qualified \nHousehold $23,150 $27,400 $21,250 \nIncreases every July 1st. \n",
+          "document_index": 0,
+          "document_title": "D043",
+          "start_char_index": 6670,
+          "end_char_index": 7210
+        }
+      ],
+      "type": "text",
+      "text": "For single-family dwellings owned by natural persons (JCO only): one month's rent."
+    },
+    {
+      "type": "text",
+      "text": "\n\n### Qualified Tenant Definition\n\n"
+    },
+    {
+      "citations": [
+        {
+          "type": "char_location",
+          "cited_text": "\u25cf Qualified tenant \u2013 A qualified tenant is any tenant who, on the date of service of the\nwritten notice of termination is 62 years of age or older; handicapped, as defined in Section\n50072 of the California Health and Safety Code, or disabled, as defined in Title 42 of the\nUnited States Code, Section 423; or who has one or more minor dependent children (as\ndetermined for federal income tax purposes).\n",
+          "document_index": 0,
+          "document_title": "D043",
+          "start_char_index": 3526,
+          "end_char_index": 3930
+        }
+      ],
+      "type": "text",
+      "text": "A qualified tenant is any tenant who, on the date of service of the written notice of termination is 62 years of age or older; handicapped, as defined in Section 50072 of the California Health and Safety Code, or disabled, as defined in Title 42 of the United States Code, Section 423; or who has one or more minor dependent children (as determined for federal income tax purposes)."
+    },
+    {
+      "type": "text",
+      "text": "\n\n### Eligible Tenant Definition\n\n"
+    },
+    {
+      "citations": [
+        {
+          "type": "char_location",
+          "cited_text": "\u25cf Eligible tenant \u2013 Unless a tenant is a  qualified tenant as explained above, the tenant is  an\neligible tenant and is entitled to receive a relocation assistance amount that depends on\nlength of time in the unit and income.\n",
+          "document_index": 0,
+          "document_title": "D043",
+          "start_char_index": 3930,
+          "end_char_index": 4156
+        }
+      ],
+      "type": "text",
+      "text": "Unless a tenant is a qualified tenant as explained above, the tenant is an eligible tenant and is entitled to receive a relocation assistance amount that depends on length of time in the unit and income."
+    },
+    {
+      "type": "text",
+      "text": "\n\n### Low Income Tenant Definition\n\n"
+    },
+    {
+      "citations": [
+        {
+          "type": "char_location",
+          "cited_text": "\u25cf Low Income Tenant \u2013 A tenant whose income is 80 percent or less of the Area Median In- \ncome, as adjusted for household  size,  as defined by the  U.S. Department of  Housing  and\nUrban Development, regardless of the length of tenancy.\n",
+          "document_index": 0,
+          "document_title": "D043",
+          "start_char_index": 4156,
+          "end_char_index": 4394
+        }
+      ],
+      "type": "text",
+      "text": "A tenant whose income is 80 percent or less of the Area Median Income, as adjusted for household size, as defined by the U.S. Department of Housing and Urban Development, regardless of the length of tenancy."
+    },
+    {
+      "type": "text",
+      "text": "\n\n### No-Fault Eviction Reasons\n\n"
+    },
+    {
+      "citations": [
+        {
+          "type": "char_location",
+          "cited_text": "The landlord evicts for the occupancy of her/himself, spouse, grandchildren, children,  \nparents or grandparents, or a resident manager (Los Angeles Municipal Code (LAMC)  \n151.09.A.8, 165.03.H.). ",
+          "document_index": 0,
+          "document_title": "D043",
+          "start_char_index": 959,
+          "end_char_index": 1156
+        }
+      ],
+      "type": "text",
+      "text": "The landlord evicts for the occupancy of her/himself, spouse, grandchildren, children, parents or grandparents, or a resident manager."
+    },
+    {
+      "type": "text",
+      "text": "\n\n"
+    },
+    {
+      "citations": [
+        {
+          "type": "char_location",
+          "cited_text": "The landlord seeks in good faith to recover possession of the rental unit to demolish, convert \nto a commercial use, or remove it from rental housing use (LAMC 151.09.A.10, 165.03.I). ",
+          "document_index": 0,
+          "document_title": "D043",
+          "start_char_index": 1403,
+          "end_char_index": 1587
+        }
+      ],
+      "type": "text",
+      "text": "The landlord seeks in good faith to recover possession of the rental unit to demolish, convert to a commercial use, or remove it from rental housing use."
+    },
+    {
+      "type": "text",
+      "text": "\n\n"
+    },
+    {
+      "citations": [
+        {
+          "type": "char_location",
+          "cited_text": "The landlord evicts to comply with a governmental agency\u2019s Order to Vacate (LAMC  \n151.09.A.11, 165.03.J.). ",
+          "document_index": 0,
+          "document_title": "D043",
+          "start_char_index": 1759,
+          "end_char_index": 1867
+        }
+      ],
+      "type": "text",
+      "text": "The landlord evicts to comply with a governmental agency's Order to Vacate."
+    },
+    {
+      "type": "text",
+      "text": "\n\n"
+    },
+    {
+      "citations": [
+        {
+          "type": "char_location",
+          "cited_text": "The Secretary of Housing and Urban Development is both the owner and plaintiff and seeks \nto recover possession to vacate the property prior to sale (LAMC 151.09.A.12, 165.03.K.).\n",
+          "document_index": 0,
+          "document_title": "D043",
+          "start_char_index": 1970,
+          "end_char_index": 2150
+        }
+      ],
+      "type": "text",
+      "text": "The Secretary of Housing and Urban Development is both the owner and plaintiff and seeks to recover possession to vacate the property prior to sale."
+    },
+    {
+      "type": "text",
+      "text": "\n\n"
+    },
+    {
+      "citations": [
+        {
+          "type": "char_location",
+          "cited_text": "Residential Hotel Unit conversion or demolition (LAMC 151.09.A.13, 165.03.L.).\n",
+          "document_index": 0,
+          "document_title": "D043",
+          "start_char_index": 2153,
+          "end_char_index": 2232
+        }
+      ],
+      "type": "text",
+      "text": "Residential Hotel Unit conversion or demolition."
+    },
+    {
+      "type": "text",
+      "text": "\n\n"
+    },
+    {
+      "citations": [
+        {
+          "type": "char_location",
+          "cited_text": "The landlord seeks to recover possession of the rental unit to convert the subject property \nto an affordable housing accommodation (LAMC 151.09.A.14, 165.03.M.).\n",
+          "document_index": 0,
+          "document_title": "D043",
+          "start_char_index": 2235,
+          "end_char_index": 2398
+        }
+      ],
+      "type": "text",
+      "text": "The landlord seeks to recover possession of the rental unit to convert the subject property to an affordable housing accommodation."
+    },
+    {
+      "type": "text",
+      "text": "\n\n"
+    },
+    {
+      "citations": [
+        {
+          "type": "char_location",
+          "cited_text": "The landlord demolishes the property or converts the use of the property to condominiums, \nstock cooperatives, community apartment projects, hotels, and commercial uses, regardless \nof whether the property is subject to the RSO OR JCO (LAMC 47.06 & 47.07). \n",
+          "document_index": 0,
+          "document_title": "D043",
+          "start_char_index": 2401,
+          "end_char_index": 2659
+        }
+      ],
+      "type": "text",
+      "text": "The landlord demolishes the property or converts the use of the property to condominiums, stock cooperatives, community apartment projects, hotels, and commercial uses, regardless of whether the property is subject to the RSO OR JCO."
+    },
+    {
+      "type": "text",
+      "text": "\n\n### Exemptions from Relocation Assistance\n\n**Resident Manager Replacement:**\n"
+    },
+    {
+      "citations": [
+        {
+          "type": "char_location",
+          "cited_text": "Evicting a resident manager to replace him/her with another resident manager. ",
+          "document_index": 0,
+          "document_title": "D043",
+          "start_char_index": 9727,
+          "end_char_index": 9805
+        }
+      ],
+      "type": "text",
+      "text": "Evicting a resident manager to replace him/her with another resident manager."
+    },
+    {
+      "type": "text",
+      "text": "\n\n**Natural Disasters:**\n"
+    },
+    {
+      "citations": [
+        {
+          "type": "char_location",
+          "cited_text": "They are required to evict due to hazardous conditions caused by a natural disaster ,\nwhich is not caused by the landlord's negligence.\n",
+          "document_index": 0,
+          "document_title": "D043",
+          "start_char_index": 10012,
+          "end_char_index": 10148
+        }
+      ],
+      "type": "text",
+      "text": "They are required to evict due to hazardous conditions caused by a natural disaster, which is not caused by the landlord's negligence."
+    },
+    {
+      "type": "text",
+      "text": "\n\n**Rent Offset:**\n"
+    },
+    {
+      "citations": [
+        {
+          "type": "char_location",
+          "cited_text": "Relocation Offset: A landlord may offset the tenant's accumulated rent against any\nrelocation assistance, unless the relocation assistance is owed because a termination of\ntenancy is required by a governmental agency order to vacate or comply with an issued\norder for an unpermitted dwelling. ",
+          "document_index": 0,
+          "document_title": "D043",
+          "start_char_index": 10151,
+          "end_char_index": 10444
+        }
+      ],
+      "type": "text",
+      "text": "A landlord may offset the tenant's accumulated rent against any relocation assistance, unless the relocation assistance is owed because a termination of tenancy is required by a governmental agency order to vacate or comply with an issued order for an unpermitted dwelling."
+    },
+    {
+      "type": "text",
+      "text": "\n\n### Mom & Pop Property Reduced Fee Conditions\n\n"
+    },
+    {
+      "citations": [
+        {
+          "type": "char_location",
+          "cited_text": "The reduced fee for Mom and Pop properties applies only for evictions for occupancy by the \nowner or an eligible relative and only if all of the following conditions exist: \n1. The building containing the rental unit contains four or fewer rental units;\n2. The landlord has not utilized this provision during the previous three years;\n3. The landlord owns no more than four units of residential property and a single-family\nhome on a separate lot in the City of Los Angeles; and\n4. Any eligible relative for whom the landlord is recovering possession of the rental unit does\nnot own residential property in the City of Los Angeles.\n",
+          "document_index": 0,
+          "document_title": "D043",
+          "start_char_index": 6038,
+          "end_char_index": 6670
+        }
+      ],
+      "type": "text",
+      "text": "The reduced fee for Mom and Pop properties applies only for evictions for occupancy by the owner or an eligible relative and only if all of the following conditions exist: 1) The building containing the rental unit contains four or fewer rental units; 2) The landlord has not utilized this provision during the previous three years; 3) The landlord owns no more than four units of residential property and a single-family home on a separate lot in the City of Los Angeles; and 4) Any eligible relative for whom the landlord is recovering possession of the rental unit does not own residential property in the City of Los Angeles."
+    },
+    {
+      "type": "text",
+      "text": "\n\n### Administrative Fees (Effective July 1, 2026 to June 30, 2027)\n\n"
+    },
+    {
+      "citations": [
+        {
+          "type": "char_location",
+          "cited_text": "Application Fees \nEffective July 1, 2026 to June 30, 2027 FE\nE PER UNIT \nRelocation Service Fee for Eligible Tenants $623* \nRelocation Service Fee for Qualified Tenants $1002* \nRelocation Service Administrative Fee $86* \nDemolition Monitoring Administrative Fee $46 \nRelocation Assistance Dispute Resolution Fee $300 \nResidential Hotel Ordinance \u2013 Claim of Exemption $205 \nLandlord Declaration for Owner, Eligible \nRelative, or Resident Manager Occupancy Filing $75 \n*Increases every July 1st \nRELOCATION ASSISTANCE QUESTIONS \nCan a tenant request relocation fees and services before being served with a Notice to \nTerminate Tenancy if a tentative parcel or tract map for a condominium conversion has been \napproved? \n",
+          "document_index": 0,
+          "document_title": "D043",
+          "start_char_index": 12078,
+          "end_char_index": 12796
+        }
+      ],
+      "type": "text",
+      "text": "Relocation Service Fee for Eligible Tenants: $623; Relocation Service Fee for Qualified Tenants: $1002; Relocation Service Administrative Fee: $86; Demolition Monitoring Administrative Fee: $46; Relocation Assistance Dispute Resolution Fee: $300; Landlord Declaration for Owner, Eligible Relative, or Resident Manager Occupancy Filing: $75."
+    },
+    {
+      "type": "text",
+      "text": "\n\n## Demolition for New Construction (Resident Protections Ordinance)\n\n**Effective Date:**\n"
+    },
+    {
+      "citations": [
+        {
+          "type": "char_location",
+          "cited_text": "On February 11, 2025, the Los Angeles City Council adopted the RPO which codified and expanded upon \nreplacement requirements and occupant protections of the HCA, and enhanced requirements for \nRestricted Affordable Units.  ",
+          "document_index": 0,
+          "document_title": "D043",
+          "start_char_index": 19047,
+          "end_char_index": 19271
+        }
+      ],
+      "type": "text",
+      "text": "On February 11, 2025, the Los Angeles City Council adopted the RPO which codified and expanded upon replacement requirements and occupant protections of the HCA."
+    },
+    {
+      "type": "text",
+      "text": "\n\n**Scope:**\n"
+    },
+    {
+      "citations": [
+        {
+          "type": "char_location",
+          "cited_text": "The RPO only applies to Protected Units that will be demolished for the \npurpose of new construction.  \n",
+          "document_index": 0,
+          "document_title": "D043",
+          "start_char_index": 19271,
+          "end_char_index": 19375
+        }
+      ],
+      "type": "text",
+      "text": "The RPO only applies to Protected Units that will be demolished for the purpose of new construction."
+    },
+    {
+      "type": "text",
+      "text": "\n\n**Filing Requirements:**\n"
+    },
+    {
+      "citations": [
+        {
+          "type": "char_location",
+          "cited_text": "File with LAHD a Declaration of Intent to Evict for units regulated by the JCO per the Los Angeles\nMunicipal Code (LAMC) Section 165.03.I(1) or file with LAHD a  Notice of Intent to Withdraw Units\nFrom Rental Housing Use for units regulated by the RSO.  ",
+          "document_index": 0,
+          "document_title": "D043",
+          "start_char_index": 16308,
+          "end_char_index": 16562
+        }
+      ],
+      "type": "text",
+      "text": "File with LAHD a Declaration of Intent to Evict for units regulated by the JCO per the Los Angeles Municipal Code (LAMC) Section 165.03.I(1) or file with LAHD a Notice of Intent to Withdraw Units From Rental Housing Use for units regulated by the RSO."
+    },
+    {
+      "type": "text",
+      "text": "\n\n**Three Relocation Options:**\n"
+    },
+    {
+      "citations": [
+        {
+          "type": "char_location",
+          "cited_text": "Owners have 3 relocation options to comply with the RPO relocation rules. The owner chooses one of \nthe options. The owner must pay the highest of the applicable relocation amounts to comply with State \nand City laws.  \n",
+          "document_index": 0,
+          "document_title": "D043",
+          "start_char_index": 20387,
+          "end_char_index": 20607
+        }
+      ],
+      "type": "text",
+      "text": "Owners have 3 relocation options to comply with the RPO relocation rules. The owner chooses one of the options. The owner must pay the highest of the applicable relocation amounts to comply with State and City laws."
+    },
+    {
+      "type": "text",
+      "text": "\n\n**Option 1 - Standardized Payment:**\n"
+    },
+    {
+      "citations": [
+        {
+          "type": "char_location",
+          "cited_text": "Option 1: Standardized Payment \nUnder Option 1, the City\u2019s Relocation Consultant handles the entire relocation determination \namount process and provides relocation services to tenants. Option 1 has predictable relocation \nconsultant services fees for owners and predictable relocation payments to lower income \nhouseholds at the amounts in Chart B per RPO. ",
+          "document_index": 0,
+          "document_title": "D043",
+          "start_char_index": 20607,
+          "end_char_index": 20965
+        }
+      ],
+      "type": "text",
+      "text": "Under Option 1, the City's Relocation Consultant handles the entire relocation determination amount process and provides relocation services to tenants. Option 1 has predictable relocation consultant services fees for owners and predictable relocation payments to lower income households at the amounts in Chart B per RPO."
+    },
+    {
+      "type": "text",
+      "text": "\n\n**Chart B Amounts (July 1, 2026 through June 30, 2027):**\n"
+    },
+    {
+      "citations": [
+        {
+          "type": "char_location",
+          "cited_text": "CHART B: Resident Protections Ordinance Standardized Payments \n(Only for Low, Very Low and Extremely Low Income Households) \nEffective July 1, 2026 through June 30, 2027 (Increases July 1st) \nHousehold Type \nExtremely Low \nIncome \nVery Low \nIncome Low Income Above Low Income \nTenants Displaced by \nNew Development $115,480 $96,750 $87,450\nSee Cha\nrt A (RSO or \nJCO amounts) \nOption 2: Comparable Replacement Unit & RSO/JCO Relocation \nFor Option 2, the owner must provide a letter from the LAHD Housing Development Bureau \napproving the comparable replacement unit in compliance with State law at the time of filing with \nLAHD. ",
+          "document_index": 0,
+          "document_title": "D043",
+          "start_char_index": 21786,
+          "end_char_index": 22415
+        }
+      ],
+      "type": "text",
+      "text": "Extremely Low Income: $115,480; Very Low Income: $96,750; Low Income: $87,450."
+    },
+    {
+      "type": "text",
+      "text": "\n\n**Penalties for Non-Compliance:**\n"
+    },
+    {
+      "citations": [
+        {
+          "type": "char_location",
+          "cited_text": "Relocation Options Under the RPO \nOwners who demolish a Protected Unit for the purpose of new construction within 5 years after the \nfiling of the Notice of Intent to Withdraw or Declaration of Intent to Evict with LAHD are required to \ncomply with relocation requirements under the RPO. Failure to comply with the RPO may result in \nfinancial penalties starting at $250,000 per displaced unit and withholding of LAHD permit clearances.  \n",
+          "document_index": 0,
+          "document_title": "D043",
+          "start_char_index": 19948,
+          "end_char_index": 20387
+        }
+      ],
+      "type": "text",
+      "text": "Owners who demolish a Protected Unit for the purpose of new construction within 5 years after the filing of the Notice of Intent to Withdraw or Declaration of Intent to Evict with LAHD are required to comply with relocation requirements under the RPO. Failure to comply with the RPO may result in financial penalties starting at $250,000 per displaced unit and withholding of LAHD permit clearances."
+    },
+    {
+      "type": "text",
+      "text": "\n\n**Occupant Protections:**\n"
+    },
+    {
+      "citations": [
+        {
+          "type": "char_location",
+          "cited_text": "The RPO\u2019s occupant protections include: 1) Right to Relocation, 2) Right to Remain in the unit up to 6 \nmonths prior to start of construction activities, which includes a 6-month notice to move out, 3) Right \nto Return to the same unit if the demolition does not proceed, 4) Right of First Refusal to the new \nbuilding for some tenants and 5) Tenant Notification Requirements.  ",
+          "document_index": 0,
+          "document_title": "D043",
+          "start_char_index": 19375,
+          "end_char_index": 19753
+        }
+      ],
+      "type": "text",
+      "text": "The RPO's occupant protections include: 1) Right to Relocation, 2) Right to Remain in the unit up to 6 months prior to start of construction activities, which includes a 6-month notice to move out, 3) Right to Return to the same unit if the demolition does not proceed, 4) Right of First Refusal to the new building for some tenants and 5) Tenant Notification Requirements."
+    },
+    {
+      "type": "text",
+      "text": "\n\n---\n\n**Note:** The document does not contain information on rent caps, just cause eviction requirements (beyond the context of no-fault evictions), deposits, application/screening fees, screening restrictions, or algorithmic pricing. To obtain comprehensive information on all Los Angeles rental housing obligations, additional sources would be required."
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 13279,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 2626,
+    "service_tier": "batch",
+    "inference_geo": "not_available"
+  },
+  "diagnostics": null
+}

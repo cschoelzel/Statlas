@@ -1,0 +1,83 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011CfftopfQYivSFDr1KTaXW",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "Based on the document provided, I can only identify information related to **notice requirements for terminating estates at will** in Massachusetts rental housing law. The document does not contain information about the comprehensive set of rental housing obligations and exemptions you've requested.\n\nSpecifically, the document addresses:\n\n**Notice to Determine Estate at Will:**\n- "
+    },
+    {
+      "citations": [
+        {
+          "type": "char_location",
+          "cited_text": "Estates at will may be determined by either party by three months' notice in writing for that purpose given to the other party; and, if the rent reserved is payable at periods of less than three months, the time of such notice shall be sufficient if it is equal to the interval between the days of payment or thirty days, whichever is longer. ",
+          "document_index": 0,
+          "document_title": "D051",
+          "start_char_index": 432,
+          "end_char_index": 775
+        }
+      ],
+      "type": "text",
+      "text": "Estates at will may be determined by either party by three months' notice in writing, or if rent is payable at periods of less than three months, notice equal to the interval between payment days or thirty days, whichever is longer"
+    },
+    {
+      "type": "text",
+      "text": ".\n- "
+    },
+    {
+      "citations": [
+        {
+          "type": "char_location",
+          "cited_text": "In case of neglect or refusal to pay the rent due from a tenant at will, fourteen days' notice to quit, given in writing by the landlord to the tenant, shall be sufficient to determine the tenancy; provided, that the tenancy of a tenant who has not received a similar notice from the landlord within the twelve months next preceding the receipt of such notice shall not be determined if the tenant, within ten days after the receipt thereof, pays or tenders to the landlord, the landlord's attorney, or the person to whom the tenant customarily pays rent, the full amount of any rent due. ",
+          "document_index": 0,
+          "document_title": "D051",
+          "start_char_index": 1020,
+          "end_char_index": 1609
+        }
+      ],
+      "type": "text",
+      "text": "For nonpayment of rent, a landlord may provide fourteen days' notice to quit, but a tenant who has not received a similar notice within the preceding twelve months may prevent termination by paying the full amount of rent due within ten days"
+    },
+    {
+      "type": "text",
+      "text": ".\n- "
+    },
+    {
+      "citations": [
+        {
+          "type": "char_location",
+          "cited_text": "Every notice to determine an estate at will for nonpayment of rent shall contain the following notification to the tenant: ''If you have not received a notice to quit for nonpayment of rent within the last twelve months, you have a right to prevent termination of your tenancy by paying or tendering to your landlord, your landlord's attorney or the person to whom you customarily pay your rent the full amount of rent due within ten days after your receipt of this notice.'' If any notice to determine an estate at will for nonpayment of rent shall fail to contain such notification, the time within which the tenant receiving the notice would be entitled to pay or tender rent pursuant to this section shall be extended to the day the answer is due in any action by the landlord to recover possession of the premises. ",
+          "document_index": 0,
+          "document_title": "D051",
+          "start_char_index": 1609,
+          "end_char_index": 2429
+        }
+      ],
+      "type": "text",
+      "text": "Notices for nonpayment must include specific notification language to the tenant about their right to pay/tender rent within ten days; if this notification is omitted, the time to pay is extended to when the answer is due in any possession action"
+    },
+    {
+      "type": "text",
+      "text": ".\n\nThe document does not contain information regarding rent caps, just cause eviction protections, security deposits, application/screening fees, screening restrictions, or algorithmic pricing requirements. To answer your comprehensive question, you would need additional sources covering Massachusetts rental housing law."
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1865,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 333,
+    "service_tier": "batch",
+    "inference_geo": "not_available"
+  },
+  "diagnostics": null
+}

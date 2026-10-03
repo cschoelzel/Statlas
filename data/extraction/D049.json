@@ -1,0 +1,14 @@
+{
+  "doc_id": "D049",
+  "model": "claude-haiku-4-5-20251001",
+  "source_sha256": "ac42593c79533c25223582de77eb5411d2f8ef501a0d027d2a61042b7e81d7ef",
+  "rules": [],
+  "rejected": [],
+  "gaps": [
+    "Chapter 151B Section 4 of Massachusetts General Law addresses employment discrimination, housing discrimination (subsections 6, 7, 7A, 7B, 11, 18), credit discrimination, and related unlawful practices, but contains no provisions establishing rent increase limits, just cause eviction requirements, security deposit regulations, application screening fees, screening restrictions, or algorithmic rent setting obligations. The document does not provide Massachusetts state-level rental housing protections in the six specified categories. Cross-reference needed to identify Massachusetts statutes establishing rent control, eviction standards, deposit rules, and algorithmic pricing restrictions if any exist as of 2026-10-01.",
+    "No operative dates, effective dates, enactment dates, or sunset provisions relevant to the six rental housing categories are present in this document.",
+    "No sanctions, enforcement mechanisms, or remedies specific to rent increase limits, just cause eviction, security deposits, application fees, screening restrictions, or algorithmic rent setting are identified in this source.",
+    "Status of Massachusetts rent regulation, just cause eviction, and algorithmic pricing rules unknown from this document alone; additional statutory research required."
+  ],
+  "status": "needs_review"
+}

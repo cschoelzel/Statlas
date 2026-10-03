@@ -1,0 +1,147 @@
+{
+  "doc_id": "D076",
+  "model": "claude-haiku-4-5-20251001",
+  "source_sha256": "31b29a40becda1c218d4f64aedcb56a44241857b0f5d8b451c7b20b5737edc1e",
+  "rules": [
+    {
+      "jurisdiction": "San Diego, CA",
+      "level": "city",
+      "category": "algorithmic_rent_setting",
+      "status": "pending",
+      "title": "Prohibition of Anti-Competitive Automated Rent Price-Fixing Ordinance",
+      "requirement": "It is unlawful for a person to sell, license, or otherwise provide an algorithmic device to a landlord. It is unlawful for a landlord to use an algorithmic device to set rental rates or occupancy levels for residential rental property.",
+      "citation": "San Diego Municipal Code \u00a798.1103",
+      "quoted_span": "It is unlawful for a person to sell, license, or otherwise provide an\nalgorithmic device to a landlord.\n(b) It is unlawful for a landlord to use an algorithmic device to set rental rates\nor occupancy levels for residential rental property.",
+      "key_value": "ban on use of algorithmic pricing software that uses nonpublic competitor data to set rental rates or occupancy levels",
+      "coverage_conditions": "Applies to residential rental property in the City of San Diego",
+      "exemptions": "Software publishing aggregated historical data more than 90 days old from public sources without recommending future rates; software establishing rates under local, state, or federal affordable housing program guidelines",
+      "effective_date": null,
+      "conflict_note": "Document marked as proposed ordinance with staff report dated February 27, 2025. Final passage date and approval status not yet completed as of query date 2026-10-01. Ordinance number O-2025-107 shows pending signature/enactment. Status marked pending rather than in_force due to blank signature lines and lack of finalization evidence in document.",
+      "sanctions": "Tenants may seek injunctive relief, damages, or civil penalties of up to $1,000 per violation in civil action against landlord. For each month violation exists and for each residential rental property where algorithmic device is used, constitutes separate and distinct violation. Prevailing tenant recovers costs and reasonable attorney's fees.",
+      "enacted_at": "2025-02-27",
+      "operative_date": null,
+      "end_date": null,
+      "confidence": 0.75,
+      "conflict_flag": true,
+      "logic": {
+        "coverage": {
+          "all": [
+            {
+              "all": [
+                {
+                  "fact": "legal_city",
+                  "op": "eq",
+                  "value": "San Diego"
+                },
+                {
+                  "fact": "property_type_is_residential_rental",
+                  "op": "eq",
+                  "value": true
+                }
+              ]
+            },
+            {
+              "fact": "unresolved_legal_evidence_D076_1",
+              "op": "eq",
+              "value": true
+            }
+          ]
+        },
+        "exemptions": {
+          "any": [
+            {
+              "all": [
+                {
+                  "fact": "software_publishes_aggregated_historical_data",
+                  "op": "eq",
+                  "value": true
+                },
+                {
+                  "fact": "historical_data_older_than_90_days",
+                  "op": "eq",
+                  "value": true
+                },
+                {
+                  "fact": "does_not_recommend_future_rates",
+                  "op": "eq",
+                  "value": true
+                }
+              ]
+            },
+            {
+              "all": [
+                {
+                  "fact": "establishes_rates_under_affordable_housing_guidelines",
+                  "op": "eq",
+                  "value": true
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "field_evidence": [
+        {
+          "field": "requirement",
+          "quoted_span": "It is unlawful for a person to sell, license, or otherwise provide an\nalgorithmic device to a landlord.\n(b) It is unlawful for a landlord to use an algorithmic device to set rental rates\nor occupancy levels for residential rental property.",
+          "start_char": 15520,
+          "end_char": 15759
+        },
+        {
+          "field": "algorithmic_device_definition",
+          "quoted_span": "Algorithmic device means a software or product that uses or incorporates one or\nmore algorithms to perform calculations of nonpublic competitor data concerning\nrental rates, occupancy levels, or other information regarding the leasing of\nresidential rental property to advise a landlord on, or recommend to a landlord,\nrental rates or occupancy levels that may be achieved for a residential rental\nproperty in the City of San Diego.",
+          "start_char": 13477,
+          "end_char": 13909
+        },
+        {
+          "field": "exemptions",
+          "quoted_span": "Algorithmic device does not include either of\nthe following:\n(a) A software or product used by a person to publish reports regarding rental\nrates or occupancy levels from aggregated historical nonpublic competitor\ndata that is more than 90 days old, or from information available to the\ngeneral public, and does not recommend rental rates or occupancy levels\nfor future residential rental property leases or renewals.\n(b) A software or product used by a person to establish rental rates or income\nlimits in accordance with local, state, or federal affordable housing\nprogram guidelines.",
+          "start_char": 13910,
+          "end_char": 14496
+        },
+        {
+          "field": "status",
+          "quoted_span": "PROPOSED ACTIONS:\nAmend San Diego Municipal Code Chapter 9, Article 8 by adding new Division 11, sections 98.1101, \n98.1102, 98.1103, and 98.1104, to adopt the proposed Prohibition of Anti-Competitive Automated Rent \nPrice-Fixing Ordinance.",
+          "start_char": 1172,
+          "end_char": 1412
+        },
+        {
+          "field": "effective_date",
+          "quoted_span": "This Ordinance will take effect and be in force on the thirtieth day from\nand after its final passage.",
+          "start_char": 16903,
+          "end_char": 17005
+        }
+      ],
+      "quote_alignment": "whitespace_only",
+      "evidence_gaps": [
+        "coverage_conditions"
+      ],
+      "team_rule_id": "D076-r001",
+      "source_doc_id": "D076",
+      "source_url": "https://sandiego.gov/sites/default/files/2025-04/automated-rent-price-fixing-prohibition-ordinance-materials.pdf",
+      "retrieved_at": "2026-10-01T22:37Z",
+      "query_date": "2026-10-01",
+      "review_status": "unreviewed",
+      "evidence": {
+        "source_doc_id": "D076",
+        "text_sha256": "31b29a40becda1c218d4f64aedcb56a44241857b0f5d8b451c7b20b5737edc1e",
+        "start_char": 15520,
+        "end_char": 15759,
+        "quoted_span": "It is unlawful for a person to sell, license, or otherwise provide an\nalgorithmic device to a landlord.\n(b) It is unlawful for a landlord to use an algorithmic device to set rental rates\nor occupancy levels for residential rental property.",
+        "retrieved_at": "2026-10-01T22:37Z",
+        "original_file": "data/sources/originals/31b29a40becda1c218d4f64aedcb56a44241857b0f5d8b451c7b20b5737edc1e.txt"
+      }
+    }
+  ],
+  "rejected": [],
+  "gaps": [
+    "Final passage date of ordinance not recorded in document",
+    "Mayor approval/veto status not finalized",
+    "Exact effective date 30 days from final passage cannot be calculated without final passage date",
+    "Cross-reference definitions in SDMC \u00a798.0702 (landlord, lease, residential rental property, tenant) and \u00a711.0210 (person) not provided in source",
+    "Enforcement mechanism details beyond tenant private right of action not specified",
+    "Interaction with Department of Justice litigation against RealPage not detailed",
+    "Preemption or conflict analysis with state law not addressed"
+  ],
+  "status": "needs_review"
+}

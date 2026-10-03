@@ -1,0 +1,29 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011CfftopSWs7WAHgLtmuvwN",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "I cannot find information in the provided document about rent caps, just cause eviction requirements, deposit regulations, application/screening fee limits, algorithmic pricing restrictions, or related sanctions and coverage details.\n\nThe document focuses exclusively on **housing discrimination and fair housing law** under California's Fair Employment and Housing Act (FEHA), enforced by the California Civil Rights Department. It addresses protected characteristics, reasonable accommodations for disabilities, and discrimination complaint procedures\u2014but does not cover the rental housing obligations and exemptions you've asked about.\n\nTo obtain accurate information on rent control, just cause eviction, security deposit limits, screening fee restrictions, and algorithmic pricing regulations in California as of October 2026, you would need to consult other sources such as:\n- California tenant protection statutes (e.g., AB 1482, local rent control ordinances)\n- California Department of Consumer Affairs guidance\n- State legislative records and regulatory agencies\n\nI cannot provide this information based on the document supplied."
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 8198,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 208,
+    "service_tier": "batch",
+    "inference_geo": "not_available"
+  },
+  "diagnostics": null
+}

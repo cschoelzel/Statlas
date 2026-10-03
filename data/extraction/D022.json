@@ -1,0 +1,115 @@
+{
+  "doc_id": "D022",
+  "model": "claude-haiku-4-5-20251001",
+  "source_sha256": "0699980875e6bf3d797abd8b734db7d449b295173e33668cc655e3b394c084ed",
+  "rules": [
+    {
+      "jurisdiction": "CA",
+      "level": "state",
+      "category": "algorithmic_rent_setting",
+      "status": "in_force",
+      "title": "Cartwright Act: Common Pricing Algorithm Prohibition",
+      "requirement": "It shall be unlawful for a person to use or distribute a common pricing algorithm as part of a contract, combination in the form of a trust, or conspiracy to restrain trade or commerce in violation of this chapter. It shall be unlawful for a person to use or distribute a common pricing algorithm if the person coerces another person to set or adopt a recommended price or commercial term recommended by the common pricing algorithm for the same or similar products or services in the jurisdiction of this state.",
+      "citation": "California Business and Professions Code Section 16729(a) and (b), AB 325 Chapter 338",
+      "quoted_span": "It shall be unlawful for a person to use or distribute a common pricing algorithm as part of a contract, combination in the form of a trust, or conspiracy to restrain trade or commerce in violation of this chapter.\n(b)\u00a0It shall be unlawful for a person to use or distribute a common pricing algorithm if the person coerces another person to set or adopt a recommended price or commercial term recommended by the common pricing algorithm for the same or similar products or services in the jurisdiction of this state.",
+      "key_value": "common_pricing_algorithm_prohibition",
+      "coverage_conditions": "Applies to use or distribution of a common pricing algorithm as part of contract, combination in trust, or conspiracy to restrain trade; or use with coercion to adopt recommended price or commercial term for same or similar products or services in California",
+      "exemptions": null,
+      "effective_date": "2025-10-06",
+      "conflict_note": null,
+      "sanctions": "Violation constitutes crime or infraction under California law; state-mandated local program applies to enforcement",
+      "enacted_at": "2025-01-27",
+      "operative_date": "2025-10-06",
+      "end_date": null,
+      "confidence": 0.92,
+      "conflict_flag": false,
+      "logic": {
+        "coverage": {
+          "all": [
+            {
+              "all": [
+                {
+                  "fact": "state",
+                  "op": "eq",
+                  "value": "CA"
+                },
+                {
+                  "any": [
+                    {
+                      "fact": "algorithm_used_as_part_of_contract_combination_or_conspiracy",
+                      "op": "eq",
+                      "value": true
+                    },
+                    {
+                      "fact": "algorithm_used_with_coercion_to_set_price_or_term",
+                      "op": "eq",
+                      "value": true
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "fact": "unresolved_legal_evidence_D022_1",
+              "op": "eq",
+              "value": true
+            }
+          ]
+        },
+        "exemptions": {
+          "fact": "false",
+          "op": "eq",
+          "value": true
+        }
+      },
+      "field_evidence": [
+        {
+          "field": "requirement",
+          "quoted_span": "It shall be unlawful for a person to use or distribute a common pricing algorithm as part of a contract, combination in the form of a trust, or conspiracy to restrain trade or commerce in violation of this chapter",
+          "start_char": 3789,
+          "end_char": 4002
+        },
+        {
+          "field": "requirement",
+          "quoted_span": "It shall be unlawful for a person to use or distribute a common pricing algorithm if the person coerces another person to set or adopt a recommended price or commercial term recommended by the common pricing algorithm for the same or similar products or services in the jurisdiction of this state",
+          "start_char": 4008,
+          "end_char": 4304
+        }
+      ],
+      "quote_alignment": "whitespace_only",
+      "evidence_gaps": [
+        "coverage_conditions",
+        "effective_date"
+      ],
+      "team_rule_id": "D022-r001",
+      "source_doc_id": "D022",
+      "source_url": "https://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260AB325",
+      "retrieved_at": "2026-10-01T22:35Z",
+      "query_date": "2026-10-01",
+      "review_status": "unreviewed",
+      "evidence": {
+        "source_doc_id": "D022",
+        "text_sha256": "0699980875e6bf3d797abd8b734db7d449b295173e33668cc655e3b394c084ed",
+        "start_char": 3789,
+        "end_char": 4305,
+        "quoted_span": "It shall be unlawful for a person to use or distribute a common pricing algorithm as part of a contract, combination in the form of a trust, or conspiracy to restrain trade or commerce in violation of this chapter.\n(b)\u00a0It shall be unlawful for a person to use or distribute a common pricing algorithm if the person coerces another person to set or adopt a recommended price or commercial term recommended by the common pricing algorithm for the same or similar products or services in the jurisdiction of this state.",
+        "retrieved_at": "2026-10-01T22:35Z",
+        "original_file": "data/sources/originals/0699980875e6bf3d797abd8b734db7d449b295173e33668cc655e3b394c084ed.txt"
+      }
+    }
+  ],
+  "rejected": [],
+  "gaps": [
+    "Document does not address rent_increase_limits category or statutes",
+    "Document does not address just_cause_eviction category or statutes",
+    "Document does not address security_deposits category or statutes",
+    "Document does not address application_screening_fees category or statutes",
+    "Document does not address screening_restrictions category or statutes",
+    "No historical version status information provided prior to chaptered status of AB 325",
+    "No specific rental housing application or exemption language provided for algorithmic_rent_setting rule",
+    "Definition of common pricing algorithm does not explicitly reference rental housing or residential tenancy context",
+    "No coverage conditions limiting application to residential rental properties versus commercial contexts",
+    "No exemptions specified in statute for algorithmic_rent_setting violations in housing context"
+  ],
+  "status": "needs_review"
+}

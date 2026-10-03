@@ -1,0 +1,20 @@
+{
+  "doc_id": "D012",
+  "model": "claude-haiku-4-5-20251001",
+  "source_sha256": "aaed5c3d1e3aacb57a1f9a8fa9e855ecaa857bdbedc3d7b99a1992e7fc0aed0f",
+  "rules": [],
+  "rejected": [],
+  "gaps": [
+    "Rent increase limits for Boston residential tenancies not addressed in source",
+    "Just cause eviction requirements for Boston not established in source",
+    "Security deposit regulations for Boston not specified in source",
+    "Application screening fees and restrictions for Boston not documented in source",
+    "Algorithmic rent-setting prohibitions for Boston not covered in source",
+    "Boston Municipal Code sections governing rental housing obligations not provided",
+    "Massachusetts state-level rental housing protections beyond fair housing discrimination not included in source",
+    "Effective dates, enactment dates, and operative dates for Boston rental regulations not established",
+    "Exemptions for specific property types (owner-occupied, single-family, etc.) not documented",
+    "Sanctions and enforcement mechanisms for rental housing violations not specified"
+  ],
+  "status": "needs_review"
+}

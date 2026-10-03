@@ -1,0 +1,29 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011CffuABb4NjWM1ssRJjfHX",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "{\"rules\":[{\"jurisdiction\":\"San Francisco\",\"level\":\"city\",\"category\":\"rent_increase_limits\",\"status\":\"in_force\",\"title\":\"Annual Allowable Rent Increase for Rent-Controlled Units (3/1/26-2/28/27)\",\"requirement\":\"For rent-controlled units, the annual allowable increase amount is 1.6% effective March 1, 2026 through February 28, 2027. Calculated by multiplying tenant's base rent by 0.016.\",\"citation\":\"SF.gov Rent Board announcement, January 14, 2026\",\"quoted_span\":\"For rent-controlled units, the annual allowable increase amount effective March 1, 2026 through February 28, 2027 is 1.6%.\",\"logic_json\":\"{\\\"coverage\\\":{\\\"all\\\":[{\\\"fact\\\":\\\"legal_city\\\",\\\"op\\\":\\\"eq\\\",\\\"value\\\":\\\"San Francisco\\\"},{\\\"fact\\\":\\\"unit_type\\\",\\\"op\\\":\\\"eq\\\",\\\"value\\\":\\\"rent_controlled\\\"}]},\\\"exemptions\\\":false,\\\"formula\\\":{\\\"op\\\":\\\"mul\\\",\\\"args\\\":[{\\\"fact\\\":\\\"base_rent\\\",\\\"unit\\\":\\\"USD\\\"},{\\\"value\\\":1.6,\\\"unit\\\":\\\"percent\\\"}]}}\",\"evidence_json\":\"[{\\\"field\\\":\\\"requirement\\\",\\\"quoted_span\\\":\\\"For rent-controlled units, the annual allowable increase amount effective March 1, 2026 through February 28, 2027 is 1.6%.\\\"},{\\\"field\\\":\\\"coverage_conditions\\\",\\\"quoted_span\\\":\\\"For rent-controlled units\\\"},{\\\"field\\\":\\\"effective_date\\\",\\\"quoted_span\\\":\\\"effective March 1, 2026 through February 28, 2027\\\"},{\\\"field\\\":\\\"calculation_method\\\",\\\"quoted_span\\\":\\\"To calculate the dollar amount of the 1.6% annual rent increase, multiply the tenant's base rent by .016.\\\"}]\",\"key_value\":\"1.6%\",\"coverage_conditions\":\"Rent-controlled units in San Francisco; effective period March 1, 2026 through February 28, 2027\",\"exemptions\":null,\"effective_date\":\"2026-03-01\",\"conflict_note\":null,\"sanctions\":null,\"enacted_at\":\"2026-01-14\",\"operative_date\":\"2026-03-01\",\"end_date\":\"2027-02-28\",\"confidence\":0.95,\"conflict_flag\":false},{\"jurisdiction\":\"San Francisco\",\"level\":\"city\",\"category\":\"rent_increase_limits\",\"status\":\"in_force\",\"title\":\"Annual Allowable Rent Increase for Rent-Controlled Units (3/1/25-2/28/26)\",\"requirement\":\"For rent-controlled units, the annual allowable increase amount is 1.4% effective March 1, 2025 through February 28, 2026.\",\"citation\":\"SF.gov Rent Board announcement, January 14, 2026\",\"quoted_span\":\"The annual allowable increase amount effective March 1, 2025 through February 28, 2026 is 1.4%.\",\"logic_json\":\"{\\\"coverage\\\":{\\\"all\\\":[{\\\"fact\\\":\\\"legal_city\\\",\\\"op\\\":\\\"eq\\\",\\\"value\\\":\\\"San Francisco\\\"},{\\\"fact\\\":\\\"unit_type\\\",\\\"op\\\":\\\"eq\\\",\\\"value\\\":\\\"rent_controlled\\\"}]},\\\"exemptions\\\":false,\\\"formula\\\":{\\\"op\\\":\\\"mul\\\",\\\"args\\\":[{\\\"fact\\\":\\\"base_rent\\\",\\\"unit\\\":\\\"USD\\\"},{\\\"value\\\":1.4,\\\"unit\\\":\\\"percent\\\"}]}}\",\"evidence_json\":\"[{\\\"field\\\":\\\"requirement\\\",\\\"quoted_span\\\":\\\"The annual allowable increase amount effective March 1, 2025 through February 28, 2026 is 1.4%.\\\"},{\\\"field\\\":\\\"coverage_conditions\\\",\\\"quoted_span\\\":\\\"For rent-controlled units\\\"},{\\\"field\\\":\\\"effective_date\\\",\\\"quoted_span\\\":\\\"effective March 1, 2025 through February 28, 2026\\\"}]\",\"key_value\":\"1.4%\",\"coverage_conditions\":\"Rent-controlled units in San Francisco; effective period March 1, 2025 through February 28, 2026\",\"exemptions\":null,\"effective_date\":\"2025-03-01\",\"conflict_note\":null,\"sanctions\":null,\"enacted_at\":null,\"operative_date\":\"2025-03-01\",\"end_date\":\"2026-02-28\",\"confidence\":0.95,\"conflict_flag\":false}],\"gaps\":[\"Source does not establish coverage conditions for which rental unit types are excluded from rent control (e.g., single-family homes, owner-occupied duplexes, new construction exemptions, or other statutory exemptions under San Francisco Rent Ordinance)\",\"Source does not cite the enabling statute or ordinance authorizing these annual increases\",\"Source does not provide information on just cause eviction requirements\",\"Source does not provide information on security deposit limits or regulations\",\"Source does not provide information on application screening fees\",\"Source does not provide information on screening restrictions\",\"Source does not provide information on algorithmic rent-setting prohibitions or regulations\",\"Source does not indicate whether these increases are mandatory maximum caps or guidance figures\",\"Source does not specify enforcement mechanisms or sanctions for violations\"]}"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 3089,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 1208,
+    "service_tier": "batch",
+    "inference_geo": "not_available"
+  },
+  "diagnostics": null
+}

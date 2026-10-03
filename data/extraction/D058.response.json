@@ -1,0 +1,29 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011CffuAAnC48f91XqyrcP2y",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "{\"rules\":[],\"gaps\":[\"MA General Law Chapter 186 Section 31 addresses notice-to-quit form requirements for nonpayment evictions but does not establish or reference rent increase limits, just cause eviction standards, security deposit regulations, application screening fees, screening restrictions, or algorithmic rent setting. Document scope limited to procedural notice requirements; no substantive rent control or tenant protection rules within this section. Cross-reference to Chapter 186 other sections and Chapter 239 summary process procedures not provided in source. Historical status of this notice requirement and any amendments not documented.\"]}"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 3536,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 129,
+    "service_tier": "batch",
+    "inference_geo": "not_available"
+  },
+  "diagnostics": null
+}

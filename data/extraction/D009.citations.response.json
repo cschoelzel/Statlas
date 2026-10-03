@@ -1,0 +1,101 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011Cfftopff8ss3R5gdkzgoj",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "Based on the document provided, I can only identify obligations and exemptions that are explicitly covered in the Berkeley Rent Stabilization and Eviction for Just Cause Ordinance guide. The document does not comprehensively address all the categories you've requested.\n\n## Covered Obligations:\n\n"
+    },
+    {
+      "citations": [
+        {
+          "type": "char_location",
+          "cited_text": "Unit/ Tenancy Type Coverage Registration Rent Control Just Cause for \nEviction \nSecurity Deposit \nInterest \nMost units in multifamily properties built before 1980** Fully Covered Yes Yes Yes Yes \nSingle family homes with current tenancies that began before 1996** Fully Covered Yes Yes Yes Yes \nRooming house: single-family homes with five or more rooms rented \nout individually with separate leases** \nFully Covered Yes Yes Yes Yes \nNew construction: units that were built and received a Certificate of \nOccupancy after June 1980** \nPartially Covered Yes No Yes Yes \nSingle-family home with a tenancy that began on or after January 1, \n1996** \nPartially Covered Yes No Yes Yes \nMost condominiums** Partially Covered Yes No Yes Yes \nUnits with the following government subsidies regardless of unit type: \nSection 202 Supportive Housing for the Elderly, Section 811 \nSupportive Housing for Persons with Disabilities \nPartially Covered Yes No Yes Yes \nRegardless of unit type, units with Rental Supplement Program, \nSection 8 Loan Management Set Aside, Project-based Section 8 \nsubsidies AND in a project with a mortgage insured or held by HUD. \n",
+          "document_index": 0,
+          "document_title": "D009",
+          "start_char_index": 554,
+          "end_char_index": 1698
+        }
+      ],
+      "type": "text",
+      "text": "The ordinance includes three main obligations: Registration, Rent Control, and Just Cause for Eviction, plus Security Deposit Interest requirements."
+    },
+    {
+      "type": "text",
+      "text": "\n\n### Coverage Categories:\n\n**Fully Covered Units:**\n"
+    },
+    {
+      "citations": [
+        {
+          "type": "char_location",
+          "cited_text": "Unit/ Tenancy Type Coverage Registration Rent Control Just Cause for \nEviction \nSecurity Deposit \nInterest \nMost units in multifamily properties built before 1980** Fully Covered Yes Yes Yes Yes \nSingle family homes with current tenancies that began before 1996** Fully Covered Yes Yes Yes Yes \nRooming house: single-family homes with five or more rooms rented \nout individually with separate leases** \nFully Covered Yes Yes Yes Yes \nNew construction: units that were built and received a Certificate of \nOccupancy after June 1980** \nPartially Covered Yes No Yes Yes \nSingle-family home with a tenancy that began on or after January 1, \n1996** \nPartially Covered Yes No Yes Yes \nMost condominiums** Partially Covered Yes No Yes Yes \nUnits with the following government subsidies regardless of unit type: \nSection 202 Supportive Housing for the Elderly, Section 811 \nSupportive Housing for Persons with Disabilities \nPartially Covered Yes No Yes Yes \nRegardless of unit type, units with Rental Supplement Program, \nSection 8 Loan Management Set Aside, Project-based Section 8 \nsubsidies AND in a project with a mortgage insured or held by HUD. \n",
+          "document_index": 0,
+          "document_title": "D009",
+          "start_char_index": 554,
+          "end_char_index": 1698
+        }
+      ],
+      "type": "text",
+      "text": "Most units in multifamily properties built before 1980, single family homes with current tenancies that began before 1996, and rooming houses (single-family homes with five or more rooms rented out individually with separate leases) receive full coverage including registration requirements, rent control, just cause for eviction protections, and security deposit interest."
+    },
+    {
+      "type": "text",
+      "text": "\n\n**Partially Covered Units:**\n"
+    },
+    {
+      "citations": [
+        {
+          "type": "char_location",
+          "cited_text": "Unit/ Tenancy Type Coverage Registration Rent Control Just Cause for \nEviction \nSecurity Deposit \nInterest \nMost units in multifamily properties built before 1980** Fully Covered Yes Yes Yes Yes \nSingle family homes with current tenancies that began before 1996** Fully Covered Yes Yes Yes Yes \nRooming house: single-family homes with five or more rooms rented \nout individually with separate leases** \nFully Covered Yes Yes Yes Yes \nNew construction: units that were built and received a Certificate of \nOccupancy after June 1980** \nPartially Covered Yes No Yes Yes \nSingle-family home with a tenancy that began on or after January 1, \n1996** \nPartially Covered Yes No Yes Yes \nMost condominiums** Partially Covered Yes No Yes Yes \nUnits with the following government subsidies regardless of unit type: \nSection 202 Supportive Housing for the Elderly, Section 811 \nSupportive Housing for Persons with Disabilities \nPartially Covered Yes No Yes Yes \nRegardless of unit type, units with Rental Supplement Program, \nSection 8 Loan Management Set Aside, Project-based Section 8 \nsubsidies AND in a project with a mortgage insured or held by HUD. \nPartially Covered Yes No Yes Yes \n\u201cGolden Duplex\u201d: duplex that was owner-occupied on December 31, \n1979, and currently has an owner living in one of the units \nExempt No No No No \nUnit where the owner shares a kitchen or bath with the tenant if the \nowner lived on the property at the time the tenancy started \nExempt No No No No \nTenancies started after Nov 7, 2018, on properties where one unit is \nan ADU and either unit is owner-occupied. \n",
+          "document_index": 0,
+          "document_title": "D009",
+          "start_char_index": 554,
+          "end_char_index": 2142
+        }
+      ],
+      "type": "text",
+      "text": "New construction (built and received Certificate of Occupancy after June 1980), single-family homes with tenancies beginning on or after January 1, 1996, most condominiums, units with Section 202 or 811 subsidies, and units with certain HUD-related subsidies are partially covered with registration and security deposit interest, but without rent control."
+    },
+    {
+      "type": "text",
+      "text": "\n\n### Exemptions:\n\n"
+    },
+    {
+      "citations": [
+        {
+          "type": "char_location",
+          "cited_text": "Partially Covered Yes No Yes Yes \n\u201cGolden Duplex\u201d: duplex that was owner-occupied on December 31, \n1979, and currently has an owner living in one of the units \nExempt No No No No \nUnit where the owner shares a kitchen or bath with the tenant if the \nowner lived on the property at the time the tenancy started \nExempt No No No No \nTenancies started after Nov 7, 2018, on properties where one unit is \nan ADU and either unit is owner-occupied. \nExempt No No No No \nUniversity rental units such as dormitories. Exempt No No No No \nNonprofit Cooperative Exempt No No No No \n**Includes units with the following government subsidies: Housing Choice Voucher (Section 8), Shelter Plus Care, VASH Voucher, LIHTC, California Community Housing Agency, HOME, City of \nBerkeley Housing Trust Fund, Mental Health Safety Act; And Rental Supplement Program, Section 8 Loan Management Set Aside, Project-based Section 8 subsidies IF the project DOES NOT \nHAVE a mortgage insured or held by HUD. ",
+          "document_index": 0,
+          "document_title": "D009",
+          "start_char_index": 1698,
+          "end_char_index": 2677
+        }
+      ],
+      "type": "text",
+      "text": "Exempt units include \"Golden Duplexes\" (owner-occupied on December 31, 1979 with an owner currently living in one unit), units where the owner shares kitchen/bath with tenant, tenancies after November 7, 2018 on properties with an ADU where either unit is owner-occupied, university rental units such as dormitories, and nonprofit cooperatives."
+    },
+    {
+      "type": "text",
+      "text": "\n\n**Not covered in this document:** Application/screening fees, screening restrictions, and algorithmic pricing are not addressed in this source material."
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1487,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 465,
+    "service_tier": "batch",
+    "inference_geo": "not_available"
+  },
+  "diagnostics": null
+}

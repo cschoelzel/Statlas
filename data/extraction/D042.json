@@ -1,0 +1,404 @@
+{
+  "doc_id": "D042",
+  "model": "claude-haiku-4-5-20251001",
+  "source_sha256": "21a8e44f111659923f120ad5543bf46611e1b2dd5af0087cc16f98de479cd262",
+  "rules": [
+    {
+      "jurisdiction": "Los Angeles, CA",
+      "level": "city",
+      "category": "rent_increase_limits",
+      "status": "in_force",
+      "title": "RSO Annual Rent Increase Limit",
+      "requirement": "Annual rent increases for rental units subject to the City of Los Angeles Rent Stabilization Ordinance (RSO) are limited to 3% for the period July 1, 2025, through June 30, 2026.",
+      "citation": "https://housing.lacity.gov/rso-rent-increase-calculator, retrieved 2026-10-01",
+      "quoted_span": "Annual rent increases for rental units subject to the City of Los Angeles Rent Stabilization Ordinance (RSO), effective\nJuly 1, 2025, through June 30, 2026\nis\n3%",
+      "key_value": "3%",
+      "coverage_conditions": "Rental units subject to the City of Los Angeles Rent Stabilization Ordinance (RSO); coverage determinable via zimas.lacity.org",
+      "exemptions": null,
+      "effective_date": "2025-07-01",
+      "conflict_note": null,
+      "sanctions": null,
+      "enacted_at": null,
+      "operative_date": "2025-07-01",
+      "end_date": "2026-06-30",
+      "confidence": 0.95,
+      "conflict_flag": false,
+      "logic": {
+        "coverage": {
+          "all": [
+            {
+              "fact": "legal_city",
+              "op": "eq",
+              "value": "Los Angeles"
+            },
+            {
+              "fact": "state",
+              "op": "eq",
+              "value": "CA"
+            },
+            {
+              "fact": "rso_covered_unit",
+              "op": "eq",
+              "value": true
+            }
+          ]
+        },
+        "exemptions": false
+      },
+      "field_evidence": [
+        {
+          "field": "requirement",
+          "quoted_span": "Annual rent increases for rental units subject to the City of Los Angeles Rent Stabilization Ordinance (RSO), effective\nJuly 1, 2025, through June 30, 2026\nis\n3%",
+          "start_char": 257,
+          "end_char": 418
+        },
+        {
+          "field": "effective_date",
+          "quoted_span": "effective\nJuly 1, 2025, through June 30, 2026",
+          "start_char": 367,
+          "end_char": 412
+        },
+        {
+          "field": "coverage_conditions",
+          "quoted_span": "rental units subject to the City of Los Angeles Rent Stabilization Ordinance (RSO)",
+          "start_char": 283,
+          "end_char": 365
+        }
+      ],
+      "quote_alignment": "whitespace_only",
+      "team_rule_id": "D042-r001",
+      "source_doc_id": "D042",
+      "source_url": "https://housing.lacity.gov/rso-rent-increase-calculator",
+      "retrieved_at": "2026-10-01T22:36Z",
+      "query_date": "2026-10-01",
+      "review_status": "unreviewed",
+      "evidence": {
+        "source_doc_id": "D042",
+        "text_sha256": "21a8e44f111659923f120ad5543bf46611e1b2dd5af0087cc16f98de479cd262",
+        "start_char": 257,
+        "end_char": 418,
+        "quoted_span": "Annual rent increases for rental units subject to the City of Los Angeles Rent Stabilization Ordinance (RSO), effective\nJuly 1, 2025, through June 30, 2026\nis\n3%",
+        "retrieved_at": "2026-10-01T22:36Z",
+        "original_file": "data/sources/originals/21a8e44f111659923f120ad5543bf46611e1b2dd5af0087cc16f98de479cd262.txt"
+      }
+    },
+    {
+      "jurisdiction": "Los Angeles, CA",
+      "level": "city",
+      "category": "rent_increase_limits",
+      "status": "in_force",
+      "title": "RSO Utility Surcharge Prohibition",
+      "requirement": "Beginning February 2, 2026, a landlord can no longer include any additional percentage increase for utilities as part of rent increases.",
+      "citation": "https://housing.lacity.gov/rso-rent-increase-calculator, retrieved 2026-10-01",
+      "quoted_span": "Beginning February 2, 2026, a landlord can no longer include any additional percentage increase for utilities.",
+      "key_value": null,
+      "coverage_conditions": "Rental units subject to the City of Los Angeles Rent Stabilization Ordinance (RSO)",
+      "exemptions": null,
+      "effective_date": "2026-02-02",
+      "conflict_note": null,
+      "sanctions": null,
+      "enacted_at": null,
+      "operative_date": "2026-02-02",
+      "end_date": null,
+      "confidence": 0.9,
+      "conflict_flag": false,
+      "logic": {
+        "coverage": {
+          "all": [
+            {
+              "all": [
+                {
+                  "fact": "legal_city",
+                  "op": "eq",
+                  "value": "Los Angeles"
+                },
+                {
+                  "fact": "state",
+                  "op": "eq",
+                  "value": "CA"
+                },
+                {
+                  "fact": "rso_covered_unit",
+                  "op": "eq",
+                  "value": true
+                }
+              ]
+            },
+            {
+              "fact": "unresolved_legal_evidence_D042_2",
+              "op": "eq",
+              "value": true
+            }
+          ]
+        },
+        "exemptions": false
+      },
+      "field_evidence": [
+        {
+          "field": "requirement",
+          "quoted_span": "Beginning February 2, 2026, a landlord can no longer include any additional percentage increase for utilities.",
+          "start_char": 421,
+          "end_char": 531
+        },
+        {
+          "field": "effective_date",
+          "quoted_span": "Beginning February 2, 2026",
+          "start_char": 421,
+          "end_char": 447
+        }
+      ],
+      "evidence_gaps": [
+        "coverage_conditions"
+      ],
+      "team_rule_id": "D042-r002",
+      "source_doc_id": "D042",
+      "source_url": "https://housing.lacity.gov/rso-rent-increase-calculator",
+      "retrieved_at": "2026-10-01T22:36Z",
+      "query_date": "2026-10-01",
+      "review_status": "unreviewed",
+      "evidence": {
+        "source_doc_id": "D042",
+        "text_sha256": "21a8e44f111659923f120ad5543bf46611e1b2dd5af0087cc16f98de479cd262",
+        "start_char": 421,
+        "end_char": 531,
+        "quoted_span": "Beginning February 2, 2026, a landlord can no longer include any additional percentage increase for utilities.",
+        "retrieved_at": "2026-10-01T22:36Z",
+        "original_file": "data/sources/originals/21a8e44f111659923f120ad5543bf46611e1b2dd5af0087cc16f98de479cd262.txt"
+      }
+    },
+    {
+      "jurisdiction": "California",
+      "level": "state",
+      "category": "rent_increase_limits",
+      "status": "in_force",
+      "title": "State Law Notice Requirement for Rent Increases",
+      "requirement": "State law requires landlords to provide 30 days' written advance notice of rent increases of less than 10%.",
+      "citation": "https://housing.lacity.gov/rso-rent-increase-calculator, retrieved 2026-10-01",
+      "quoted_span": "State law requires landlords to provide 30 days' written advance notice of rent increases of less than 10%.",
+      "key_value": "30 days",
+      "coverage_conditions": "Applies to rent increases of less than 10%",
+      "exemptions": null,
+      "effective_date": null,
+      "conflict_note": "Document references state law but does not cite specific statute; CA Government Code \u00a7 1947.2 or similar may apply",
+      "sanctions": null,
+      "enacted_at": null,
+      "operative_date": null,
+      "end_date": null,
+      "confidence": 0.75,
+      "conflict_flag": true,
+      "logic": {
+        "coverage": {
+          "all": [
+            {
+              "fact": "state",
+              "op": "eq",
+              "value": "CA"
+            },
+            {
+              "fact": "unresolved_legal_evidence_D042_3",
+              "op": "eq",
+              "value": true
+            }
+          ]
+        },
+        "exemptions": {
+          "fact": "unresolved_legal_condition_state_notice_exemption",
+          "op": "eq",
+          "value": true
+        }
+      },
+      "field_evidence": [
+        {
+          "field": "requirement",
+          "quoted_span": "State law requires landlords to provide 30 days' written advance notice of rent increases of less than 10%.",
+          "start_char": 532,
+          "end_char": 639
+        }
+      ],
+      "evidence_gaps": [
+        "coverage_conditions"
+      ],
+      "team_rule_id": "D042-r003",
+      "source_doc_id": "D042",
+      "source_url": "https://housing.lacity.gov/rso-rent-increase-calculator",
+      "retrieved_at": "2026-10-01T22:36Z",
+      "query_date": "2026-10-01",
+      "review_status": "unreviewed",
+      "evidence": {
+        "source_doc_id": "D042",
+        "text_sha256": "21a8e44f111659923f120ad5543bf46611e1b2dd5af0087cc16f98de479cd262",
+        "start_char": 532,
+        "end_char": 639,
+        "quoted_span": "State law requires landlords to provide 30 days' written advance notice of rent increases of less than 10%.",
+        "retrieved_at": "2026-10-01T22:36Z",
+        "original_file": "data/sources/originals/21a8e44f111659923f120ad5543bf46611e1b2dd5af0087cc16f98de479cd262.txt"
+      }
+    },
+    {
+      "jurisdiction": "Los Angeles, CA",
+      "level": "city",
+      "category": "rent_increase_limits",
+      "status": "in_force",
+      "title": "RSO Surcharge Pass-Through - RSO Fee",
+      "requirement": "Effective January 1, 2020, the RSO fee is a total of $38.75 per unit which landlords may collect from tenants at a rate of $1.61 per month for 12 months each year with proper written notice. The RSO surcharge is separate and in addition to the rent amount and can only be collected after the landlord registers the units and gives written notice to the tenant.",
+      "citation": "https://housing.lacity.gov/rso-rent-increase-calculator, retrieved 2026-10-01",
+      "quoted_span": "Effective January 1, 2020, the RSO fee is a total of $38.75 per unit\nwhich landlords may collect from tenants at a rate of $1.61 per month for 12 months each year with a proper\nwritten notice.\nThe SCEP and RSO surcharges are separate and in addition to the rent amount and can only be collected after the\nlandlord registers the units and gives written notice to the tenant.",
+      "key_value": "$38.75 per unit annually or $1.61 per month",
+      "coverage_conditions": "RSO-covered units that are registered; requires written notice to tenant",
+      "exemptions": null,
+      "effective_date": "2020-01-01",
+      "conflict_note": null,
+      "sanctions": null,
+      "enacted_at": null,
+      "operative_date": "2020-01-01",
+      "end_date": null,
+      "confidence": 0.92,
+      "conflict_flag": false,
+      "logic": {
+        "coverage": {
+          "all": [
+            {
+              "fact": "legal_city",
+              "op": "eq",
+              "value": "Los Angeles"
+            },
+            {
+              "fact": "state",
+              "op": "eq",
+              "value": "CA"
+            },
+            {
+              "fact": "rso_covered_unit",
+              "op": "eq",
+              "value": true
+            },
+            {
+              "fact": "unit_registered",
+              "op": "eq",
+              "value": true
+            }
+          ]
+        },
+        "exemptions": false
+      },
+      "field_evidence": [
+        {
+          "field": "requirement",
+          "quoted_span": "Effective January 1, 2020, the RSO fee is a total of $38.75 per unit\nwhich landlords may collect from tenants at a rate of $1.61 per month for 12 months each year with a proper\nwritten notice.",
+          "start_char": 2153,
+          "end_char": 2345
+        },
+        {
+          "field": "coverage_conditions",
+          "quoted_span": "landlord registers the units and gives written notice to the tenant",
+          "start_char": 2458,
+          "end_char": 2525
+        },
+        {
+          "field": "effective_date",
+          "quoted_span": "Effective January 1, 2020",
+          "start_char": 2153,
+          "end_char": 2178
+        }
+      ],
+      "quote_alignment": "whitespace_only",
+      "team_rule_id": "D042-r004",
+      "source_doc_id": "D042",
+      "source_url": "https://housing.lacity.gov/rso-rent-increase-calculator",
+      "retrieved_at": "2026-10-01T22:36Z",
+      "query_date": "2026-10-01",
+      "review_status": "unreviewed",
+      "evidence": {
+        "source_doc_id": "D042",
+        "text_sha256": "21a8e44f111659923f120ad5543bf46611e1b2dd5af0087cc16f98de479cd262",
+        "start_char": 2153,
+        "end_char": 2526,
+        "quoted_span": "Effective January 1, 2020, the RSO fee is a total of $38.75 per unit\nwhich landlords may collect from tenants at a rate of $1.61 per month for 12 months each year with a proper\nwritten notice.\nThe SCEP and RSO surcharges are separate and in addition to the rent amount and can only be collected after the\nlandlord registers the units and gives written notice to the tenant.",
+        "retrieved_at": "2026-10-01T22:36Z",
+        "original_file": "data/sources/originals/21a8e44f111659923f120ad5543bf46611e1b2dd5af0087cc16f98de479cd262.txt"
+      }
+    }
+  ],
+  "rejected": [
+    {
+      "rule": {
+        "jurisdiction": "Los Angeles, CA",
+        "level": "city",
+        "category": "rent_increase_limits",
+        "status": "in_force",
+        "title": "SCEP Surcharge Pass-Through - Systematic Code Enforcement Program Fee",
+        "requirement": "Effective January 1, 2022, the SCEP fee is a total of $67.94 per unit which landlords may collect from tenants at a rate of $2.83 per month for 12 months each year with proper written notice. The SCEP surcharge is separate and in addition to the rent amount and can only be collected after the landlord registers the units and gives written notice to the tenant.",
+        "citation": "https://housing.lacity.gov/rso-rent-increase-calculator, retrieved 2026-10-01",
+        "quoted_span": "Effective January 1, 2022, the SCEP fee is a total of $67.94 per unit which landlords may collect from tenants at a rate of $2.83 per month for 12 months each year with a proper written notice. The SCEP and RSO surcharges are separate and in addition to the rent amount and can only be collected after the landlord registers the units and gives written notice to the tenant.",
+        "key_value": "$67.94 per unit annually or $2.83 per month",
+        "coverage_conditions": "RSO-covered units that are registered; requires written notice to tenant",
+        "exemptions": null,
+        "effective_date": "2022-01-01",
+        "conflict_note": null,
+        "sanctions": null,
+        "enacted_at": null,
+        "operative_date": "2022-01-01",
+        "end_date": null,
+        "confidence": 0.92,
+        "conflict_flag": false,
+        "logic": {
+          "coverage": {
+            "all": [
+              {
+                "fact": "legal_city",
+                "op": "eq",
+                "value": "Los Angeles"
+              },
+              {
+                "fact": "state",
+                "op": "eq",
+                "value": "CA"
+              },
+              {
+                "fact": "rso_covered_unit",
+                "op": "eq",
+                "value": true
+              },
+              {
+                "fact": "unit_registered",
+                "op": "eq",
+                "value": true
+              }
+            ]
+          },
+          "exemptions": false
+        },
+        "field_evidence": [
+          {
+            "field": "requirement",
+            "quoted_span": "Effective January 1, 2022, the SCEP fee is a total of $67.94 per unit which landlords may collect from tenants at a rate of $2.83 per month for 12 months each year with a proper written notice."
+          },
+          {
+            "field": "coverage_conditions",
+            "quoted_span": "landlord registers the units and gives written notice to the tenant"
+          },
+          {
+            "field": "effective_date",
+            "quoted_span": "Effective January 1, 2022"
+          }
+        ]
+      },
+      "errors": [
+        "quoted_span is not exact original source substring"
+      ]
+    }
+  ],
+  "gaps": [
+    "No statutory text provided; document is a rent calculator tool, not ordinance; underlying RSO ordinance citation needed for full rule text and exemptions",
+    "Just cause eviction requirement not addressed in source document",
+    "Security deposit limits and requirements not addressed in source document",
+    "Application screening fees regulations not addressed in source document",
+    "Screening restrictions (background check, credit report prohibitions) not addressed in source document",
+    "Algorithmic rent-setting prohibitions not addressed in source document",
+    "Specific exemptions for RSO rent increase caps (e.g., new construction, owner-move-in, capital improvements) not detailed in source document",
+    "Sanctions and enforcement provisions for rent increase violations not specified in source document",
+    "State law citation for 30-day notice requirement not provided; statute number unclear",
+    "Non-RSO property rent increase standards referenced but not detailed in source document"
+  ],
+  "status": "needs_review"
+}

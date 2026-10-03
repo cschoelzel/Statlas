@@ -1,0 +1,11 @@
+{
+  "doc_id": "D027",
+  "model": "claude-haiku-4-5-20251001",
+  "source_sha256": "511f8074b8f4959161fb4c7ec922c8fa963735b47c13d852b8a09ca42b922ecf",
+  "rules": [],
+  "rejected": [],
+  "gaps": [
+    "Document D027 (CA GOV 12955) addresses housing discrimination prohibitions based on protected characteristics (race, color, religion, sex, gender identity, sexual orientation, marital status, national origin, ancestry, familial status, source of income, disability, veteran/military status, genetic information) and related discriminatory practices. However, it does not establish obligations in the six target categories: rent_increase_limits, just_cause_eviction, security_deposits, application_screening_fees, screening_restrictions, or algorithmic_rent_setting. The document covers anti-discrimination in tenant selection, financial/income standards with government rent subsidies, and credit history alternatives, but these fall outside the specified category scope. No rent increase caps, just cause eviction standards, security deposit limits, screening fee caps, screening criteria restrictions, or algorithmic pricing prohibitions are present in GOV 12955. To obtain comprehensive California rental housing obligations in the six categories as of 2026-10-01, consult California Civil Code sections on security deposits (CA CIV 1950.5 et seq.), unlawful detainer/eviction (CA CIV 1161 et seq.), rent control ordinances (local city codes), and statewide tenant protection statutes such as AB 1482 (just cause eviction), AB 1437 (source of income discrimination), and any enacted algorithmic rent-setting restrictions."
+  ],
+  "status": "needs_review"
+}

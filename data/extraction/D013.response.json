@@ -1,0 +1,29 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011Cfg3nsWLjuFJZvj9BRqzH",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "{\"rules\":[{\"jurisdiction\":\"Boston\",\"level\":\"city\",\"category\":\"just_cause_eviction\",\"status\":\"in_force\",\"title\":\"Housing Stability Notification Act - Notice Requirements for Tenancy Termination\",\"requirement\":\"Landlords must provide tenants with a Notice of Tenants' Rights and Resources when planning to end a tenancy agreement, delivered at the same time as the Notice to quit or Notice of non-renewal of lease. Landlords and foreclosing owners must also complete the Notice to Quit / Non-renewal of Lease Submission Verification Form using an online form to provide tenant contact information and upload a copy of the termination notice to the City.\",\"citation\":\"Boston City Ordinance Sec. 10-11.7; https://www.boston.gov/housing-stability-notification-act\",\"quoted_span\":\"The Housing Stability Notification Act requires ANY LANDLORDS planning to end a tenancy agreement to provide the tenant with a Notice of Tenants' Rights and Resources. The Notice of Tenants' Rights and Resources should be delivered at the same time as the Notice to quit or Notice of non-renewal of lease.\",\"logic_json\":\"{\\\"coverage\\\":{\\\"all\\\":[{\\\"fact\\\":\\\"legal_city\\\",\\\"op\\\":\\\"eq\\\",\\\"value\\\":\\\"Boston\\\"},{\\\"fact\\\":\\\"landlord_terminating_tenancy\\\",\\\"op\\\":\\\"eq\\\",\\\"value\\\":true}]},\\\"exemptions\\\":false}\",\"evidence_json\":\"[{\\\"field\\\":\\\"requirement\\\",\\\"quoted_span\\\":\\\"The Housing Stability Notification Act requires ANY LANDLORDS planning to end a tenancy agreement to provide the tenant with a Notice of Tenants' Rights and Resources\\\"},{\\\"field\\\":\\\"requirement\\\",\\\"quoted_span\\\":\\\"The Notice of Tenants' Rights and Resources should be delivered at the same time as the Notice to quit or Notice of non-renewal of lease\\\"},{\\\"field\\\":\\\"requirement\\\",\\\"quoted_span\\\":\\\"The Housing Stability Notification Act also requires landlords and foreclosing owners to complete the Notice to Quit / Non-renewal of Lease Submission Verification Form. Landlords must use this online form to provide tenant contact information and upload a copy of the Notice to Quit or Notice of Non-renewal of Lease\\\"},{\\\"field\\\":\\\"coverage_conditions\\\",\\\"quoted_span\\\":\\\"ALL LANDLORDS planning to end a tenancy agreement\\\"},{\\\"field\\\":\\\"status\\\",\\\"quoted_span\\\":\\\"The Housing Stability Notification Act requires any landlord to provide renters with a Notice of Tenant's Rights and Resources when planning to end a tenancy agreement\\\"}]\",\"key_value\":null,\"coverage_conditions\":\"Applies to all landlords in Boston planning to end a tenancy agreement through Notice to quit or Notice of non-renewal of lease\",\"exemptions\":null,\"effective_date\":null,\"conflict_note\":null,\"sanctions\":\"1st Offense: Warning; 2nd and Subsequent Offenses: $300 per day. Failure to submit required information may result in fine up to $300 per day. Violations do not halt the eviction process.\",\"enacted_at\":null,\"operative_date\":null,\"end_date\":null,\"confidence\":0.95,\"conflict_flag\":false}],\"gaps\":[\"Effective date of Housing Stability Notification Act ordinance not specified in source\",\"Date of enactment not provided in source\",\"Whether ordinance applies to all rental units or has property type/size exemptions unclear from source\",\"No information on just cause eviction protections beyond notification requirement\",\"No regulations regarding rent increase limits, security deposits, application screening fees, screening restrictions, or algorithmic rent setting found in source\",\"Source does not detail whether notice requirements apply to no-cause terminations or only cause-based evictions\"]}"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 5974,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 841,
+    "service_tier": "standard",
+    "inference_geo": "not_available"
+  },
+  "diagnostics": null
+}

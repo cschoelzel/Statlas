@@ -1,0 +1,101 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011CfftopFrGoxj3A3ogWUGB",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "Based on the document provided, I can only identify information related to **notice requirements for nonpayment of rent evictions**. The document does not contain information about the other rental housing obligations and exemptions you've requested.\n\nHere is what the document covers:\n\n**Notice to Quit Requirements for Nonpayment of Rent:**\n\n"
+    },
+    {
+      "citations": [
+        {
+          "type": "char_location",
+          "cited_text": "(a) A notice to quit for nonpayment of rent given in writing by a landlord to a residential tenant pursuant to this chapter shall be accompanied by a form that shall include, but not be limited to: (i) documentation of any agreements between the tenant and landlord for the tenant to repay the landlord for nonpayment of rent; and (ii) information on: (1) rental assistance programs including, but not limited to, the residential assistance for families in transition program; (2) applicable trial court rules, standing orders or emergency administrative orders pertaining to actions for summary process; and (3) any relevant federal or state legal restrictions on residential evictions. ",
+          "document_index": 0,
+          "document_title": "D058",
+          "start_char_index": 435,
+          "end_char_index": 1123
+        }
+      ],
+      "type": "text",
+      "text": "A notice to quit for nonpayment of rent given in writing by a landlord to a residential tenant must be accompanied by a form that includes documentation of any agreements between the tenant and landlord for repayment of rent, and information on rental assistance programs, applicable trial court rules, and legal restrictions on residential evictions."
+    },
+    {
+      "type": "text",
+      "text": "\n\n"
+    },
+    {
+      "citations": [
+        {
+          "type": "char_location",
+          "cited_text": "The form shall also prominently display the following statement:\n''THIS NOTICE TO QUIT IS NOT AN EVICTION. YOU DO NOT NEED TO IMMEDIATELY LEAVE YOUR UNIT. YOU ARE ENTITLED TO A LEGAL PROCEEDING IN WHICH YOU CAN DEFEND AGAINST THE EVICTION. ONLY A COURT ORDER CAN FORCE YOU TO LEAVE YOUR UNIT.''\n",
+          "document_index": 0,
+          "document_title": "D058",
+          "start_char_index": 1123,
+          "end_char_index": 1418
+        }
+      ],
+      "type": "text",
+      "text": "The form must prominently display a statement indicating that the notice to quit is not an eviction, the tenant does not need to immediately leave, they are entitled to a legal proceeding to defend against eviction, and only a court order can force them to leave."
+    },
+    {
+      "type": "text",
+      "text": "\n\n"
+    },
+    {
+      "citations": [
+        {
+          "type": "char_location",
+          "cited_text": "(b) The executive office of housing and livable communities shall develop the form required pursuant to this section and make it publicly available on its website. ",
+          "document_index": 0,
+          "document_title": "D058",
+          "start_char_index": 1418,
+          "end_char_index": 1582
+        }
+      ],
+      "type": "text",
+      "text": "The executive office of housing and livable communities must develop the form and make it publicly available on its website."
+    },
+    {
+      "type": "text",
+      "text": "\n\n"
+    },
+    {
+      "citations": [
+        {
+          "type": "char_location",
+          "cited_text": "No court having jurisdiction over an action for summary process pursuant to chapter 239, including the Boston municipal court department, shall, in an eviction for nonpayment of rent for a residential dwelling unit, accept for filing a writ, summons or complaint without proof of delivery of the form required under this section.\n",
+          "document_index": 0,
+          "document_title": "D058",
+          "start_char_index": 1737,
+          "end_char_index": 2067
+        }
+      ],
+      "type": "text",
+      "text": "No court having jurisdiction over an action for summary process may accept a writ, summons or complaint for an eviction for nonpayment of rent for a residential dwelling unit without proof of delivery of the required form."
+    },
+    {
+      "type": "text",
+      "text": "\n\nThe document does not address rent caps, just cause eviction standards, deposits, application/screening fees, screening restrictions, or algorithmic pricing."
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1673,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 372,
+    "service_tier": "batch",
+    "inference_geo": "not_available"
+  },
+  "diagnostics": null
+}

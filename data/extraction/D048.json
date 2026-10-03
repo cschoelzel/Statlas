@@ -1,0 +1,202 @@
+{
+  "doc_id": "D048",
+  "model": "claude-haiku-4-5-20251001",
+  "source_sha256": "090647f489ec5f03c114df23b74c28a107a7e0b855e382969c27dbf58a55837d",
+  "rules": [
+    {
+      "jurisdiction": "MA",
+      "level": "state",
+      "category": "rent_increase_limits",
+      "status": "in_force",
+      "title": "General prohibition on rent control with limited municipal option under Chapter 40P Section 4",
+      "requirement": "No city or town may enact, maintain or enforce rent control of any kind, except that any city or town that accepts this chapter may adopt rent control regulation only if: (1) after six months from initial adoption, compliance by property owners is entirely voluntary and uncoerced; (2) regulation may not include occupancy, services, evictions, condominium conversion or removal of properties from regulation; (3) regulation may not apply to rental units owned by entities owning fewer than ten rental units or units with fair market rent exceeding $400; and (4) municipality must compensate owners for the difference between fair market rent and rent-controlled rent from general funds.",
+      "citation": "Mass. Gen. Laws c. 40P, \u00a7 4",
+      "quoted_span": "No city or town may enact, maintain or enforce rent control of any kind, except that any city or town that accepts this chapter may adopt rent control regulation that provides:\n(a) after six months from the date of the initial adoption of rent control regulation by a particular city or town, compliance on the part of property owners as to the rent control regulation or any subsequently adopted rent control regulation shall be entirely voluntary and uncoerced, and the property of a person or entity declining to have his or its property subjected to such regulation shall be wholly unaffected by any aspect of the rent control regulation or any subsequently adopted rent control regulation;\n(b) such regulation may not include the regulation of occupancy, services, evictions, condominium conversion or the removal of properties from such regulation, nor may such regulation apply to any rental unit that is owned by a person or entity owning less than ten rental units or that has a fair market rent exceeding $400; and\n(c) a municipality adopting such regulation shall compensate owners of rent controlled units for each unit in the amount of the difference between the unit's fair market rent and the unit's below market, rent controlled rent, with such compensation coming from the municipality's general funds, so that the cost of any rent control shall be borne by all taxpayers of a municipality and not by the owners of regulated units only.",
+      "key_value": "Massachusetts prohibits all rent control except for municipalities accepting Chapter 40P, which may regulate only multi-unit properties (\u226510 units) with fair market rent \u2264$400, with voluntary compliance after 6 months and mandatory municipal compensation from general funds.",
+      "coverage_conditions": "Massachusetts state law applying to any city or town that accepts Chapter 40P and elects to adopt rent control regulation. Coverage is limited to rental units owned by entities owning ten or more rental units with fair market rent not exceeding $400.",
+      "exemptions": "Exemptions apply to: (1) rental units owned by persons or entities owning fewer than ten rental units; (2) rental units with fair market rent exceeding $400; (3) after six months from initial adoption, property owners may opt out entirely and their property shall be wholly unaffected by the regulation. Regulation explicitly cannot regulate occupancy, services, evictions, condominium conversion, or removal of properties from regulation.",
+      "effective_date": null,
+      "conflict_note": null,
+      "sanctions": null,
+      "enacted_at": null,
+      "operative_date": null,
+      "end_date": null,
+      "confidence": 0.95,
+      "conflict_flag": false,
+      "logic": {
+        "coverage": {
+          "all": [
+            {
+              "all": [
+                {
+                  "fact": "state",
+                  "op": "eq",
+                  "value": "MA"
+                },
+                {
+                  "fact": "municipality_accepts_chapter_40p",
+                  "op": "eq",
+                  "value": true
+                }
+              ]
+            },
+            {
+              "fact": "unresolved_legal_evidence_D048_1",
+              "op": "eq",
+              "value": true
+            }
+          ]
+        },
+        "exemptions": {
+          "any": [
+            {
+              "fact": "owner_rental_units_count",
+              "op": "lt",
+              "value": 10
+            },
+            {
+              "fact": "unit_fair_market_rent",
+              "op": "gt",
+              "value": {
+                "value": 400,
+                "unit": "USD"
+              }
+            }
+          ]
+        },
+        "voluntary_compliance_after_six_months": {
+          "fact": "months_since_initial_adoption",
+          "op": "gte",
+          "value": 6
+        },
+        "prohibited_regulations": {
+          "not": {
+            "any": [
+              {
+                "fact": "regulation_covers_occupancy",
+                "op": "eq",
+                "value": true
+              },
+              {
+                "fact": "regulation_covers_services",
+                "op": "eq",
+                "value": true
+              },
+              {
+                "fact": "regulation_covers_evictions",
+                "op": "eq",
+                "value": true
+              },
+              {
+                "fact": "regulation_covers_condominium_conversion",
+                "op": "eq",
+                "value": true
+              },
+              {
+                "fact": "regulation_covers_property_removal",
+                "op": "eq",
+                "value": true
+              }
+            ]
+          }
+        },
+        "municipal_compensation_required": {
+          "all": [
+            {
+              "fact": "municipality_adopts_rent_control",
+              "op": "eq",
+              "value": true
+            },
+            {
+              "fact": "compensation_source",
+              "op": "eq",
+              "value": "municipal_general_funds"
+            }
+          ]
+        }
+      },
+      "field_evidence": [
+        {
+          "field": "requirement_general_prohibition",
+          "quoted_span": "No city or town may enact, maintain or enforce rent control of any kind",
+          "start_char": 425,
+          "end_char": 496
+        },
+        {
+          "field": "exception_municipality_acceptance",
+          "quoted_span": "except that any city or town that accepts this chapter may adopt rent control regulation",
+          "start_char": 498,
+          "end_char": 586
+        },
+        {
+          "field": "voluntary_compliance",
+          "quoted_span": "after six months from the date of the initial adoption of rent control regulation by a particular city or town, compliance on the part of property owners as to the rent control regulation or any subsequently adopted rent control regulation shall be entirely voluntary and uncoerced",
+          "start_char": 606,
+          "end_char": 887
+        },
+        {
+          "field": "property_unaffected_by_declination",
+          "quoted_span": "the property of a person or entity declining to have his or its property subjected to such regulation shall be wholly unaffected by any aspect of the rent control regulation",
+          "start_char": 893,
+          "end_char": 1066
+        },
+        {
+          "field": "prohibited_regulations",
+          "quoted_span": "such regulation may not include the regulation of occupancy, services, evictions, condominium conversion or the removal of properties from such regulation",
+          "start_char": 1124,
+          "end_char": 1278
+        },
+        {
+          "field": "unit_exemptions",
+          "quoted_span": "nor may such regulation apply to any rental unit that is owned by a person or entity owning less than ten rental units or that has a fair market rent exceeding $400",
+          "start_char": 1280,
+          "end_char": 1444
+        },
+        {
+          "field": "municipal_compensation_obligation",
+          "quoted_span": "a municipality adopting such regulation shall compensate owners of rent controlled units for each unit in the amount of the difference between the unit's fair market rent and the unit's below market, rent controlled rent, with such compensation coming from the municipality's general funds",
+          "start_char": 1454,
+          "end_char": 1743
+        },
+        {
+          "field": "cost_distribution",
+          "quoted_span": "the cost of any rent control shall be borne by all taxpayers of a municipality and not by the owners of regulated units only",
+          "start_char": 1753,
+          "end_char": 1877
+        }
+      ],
+      "quote_alignment": "whitespace_only",
+      "evidence_gaps": [
+        "coverage_conditions",
+        "exemptions"
+      ],
+      "team_rule_id": "D048-r001",
+      "source_doc_id": "D048",
+      "source_url": "https://malegislature.gov/Laws/GeneralLaws/PartI/TitleVII/Chapter40P/Section4",
+      "retrieved_at": "2026-10-01T22:36Z",
+      "query_date": "2026-10-01",
+      "review_status": "unreviewed",
+      "evidence": {
+        "source_doc_id": "D048",
+        "text_sha256": "090647f489ec5f03c114df23b74c28a107a7e0b855e382969c27dbf58a55837d",
+        "start_char": 425,
+        "end_char": 1878,
+        "quoted_span": "No city or town may enact, maintain or enforce rent control of any kind, except that any city or town that accepts this chapter may adopt rent control regulation that provides:\n(a) after six months from the date of the initial adoption of rent control regulation by a particular city or town, compliance on the part of property owners as to the rent control regulation or any subsequently adopted rent control regulation shall be entirely voluntary and uncoerced, and the property of a person or entity declining to have his or its property subjected to such regulation shall be wholly unaffected by any aspect of the rent control regulation or any subsequently adopted rent control regulation;\n(b) such regulation may not include the regulation of occupancy, services, evictions, condominium conversion or the removal of properties from such regulation, nor may such regulation apply to any rental unit that is owned by a person or entity owning less than ten rental units or that has a fair market rent exceeding $400; and\n(c) a municipality adopting such regulation shall compensate owners of rent controlled units for each unit in the amount of the difference between the unit's fair market rent and the unit's below market, rent controlled rent, with such compensation coming from the municipality's general funds, so that the cost of any rent control shall be borne by all taxpayers of a municipality and not by the owners of regulated units only.",
+        "retrieved_at": "2026-10-01T22:36Z",
+        "original_file": "data/sources/originals/090647f489ec5f03c114df23b74c28a107a7e0b855e382969c27dbf58a55837d.txt"
+      }
+    }
+  ],
+  "rejected": [],
+  "gaps": [
+    "Historical enactment date of Massachusetts General Law Chapter 40P Section 4 not provided in source",
+    "Effective date of Chapter 40P not specified in retrieved statute",
+    "Specific date of statutory adoption not provided in source",
+    "Details of enforcement mechanism or penalties for non-compliance not included in Section 4",
+    "Interaction with federal fair housing law or other state housing regulations not addressed",
+    "Definition of 'fair market rent' methodology not specified",
+    "Procedures for municipal compensation calculation not detailed",
+    "Whether Section 4 preempts local rent control ordinances enacted before Chapter 40P acceptance not addressed"
+  ],
+  "status": "needs_review"
+}
