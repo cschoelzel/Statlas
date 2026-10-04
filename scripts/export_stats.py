@@ -1,7 +1,7 @@
 import json
 from pathlib import Path
 from collections import Counter
-ROOT = Path("/Users/constantinscholzel/Documents/Projekte/Aktiv/hacknation26")
+ROOT = Path(__file__).resolve().parent.parent
 out = json.load(open(ROOT / "output/lookups.json"))
 looks = out.get("lookups", out) if isinstance(out, dict) else out
 c = Counter()
