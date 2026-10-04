@@ -200,7 +200,8 @@
         if (currentStatusFilter === 'superseded' && !['superseded', 'not_applicable', 'repealed_or_expired', 'does_not_apply', 'failed'].includes(d.result)) return false;
         if (!filterText) return true;
         const rule = d.rule || {};
-        const haystack = [d.result, rule.title, rule.requirement, rule.category, rule.jurisdiction, rule.level, rule.citation, rule.key_value, d.computed_value, rule.source_doc_id].join(' ').toLowerCase();
+        const reviewHay = (Array.isArray(d.review_required) ? d.review_required.join(' ') : '');
+        const haystack = [d.result, rule.title, rule.requirement, rule.category, rule.jurisdiction, rule.level, rule.citation, rule.key_value, d.computed_value, rule.source_doc_id, reviewHay].join(' ').toLowerCase();
         return haystack.includes(filterText);
       });
       const statusMap = {
@@ -237,7 +238,7 @@
         if (conflicts.length > 0) { cb.style.display = 'block'; cb.textContent = conflicts.length + (typeof t === 'function' ? t('conflictSuffix') : ' Entscheidung(en) mit Konflikt-Flag: moegliche Normenkollision, menschliche Pruefung noetig.'); }
         else { cb.style.display = 'none'; }
       }
-      tbody.innerHTML = filtered.map(d => {
+      tbody.innerHTML = filtered.map(function(d, rowIdx) {
         const rule = d.rule || {};
         const sInfo = statusMap[d.result] || { label: d.result, cls: 'badge-other' };
         const evC = d.evidence || {};
@@ -255,8 +256,7 @@
           questionsHtml = '<div class="questions-box"><strong>Offene Prüfung:</strong>' + d.targeted_questions.map(q => '• ' + (q.question || q.prompt || q.fact)).join('<br>') + '</div>';
         }
         if (Array.isArray(d.review_required) && d.review_required.length) {
-          const escaped = d.review_required.map(note => String(note).replace(/[&<>"']/g, char => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[char])));
-          questionsHtml += '<div class="questions-box"><strong>Quellenprüfung erforderlich:</strong><br>' + escaped.join('<br>') + '</div>';
+          questionsHtml += '<div class="questions-box"><strong>Quellenprüfung erforderlich:</strong><br><span data-review-anchor="' + rowIdx + '" data-review-count="' + d.review_required.length + '"></span></div>';
         }
         let keyVal = d.computed_value || rule.key_value || '-';
         if (typeof keyVal === 'object') keyVal = JSON.stringify(keyVal);
@@ -291,6 +291,16 @@
           '<td>' + sourceHtml + '</td>' +
         '</tr>';
       }).join('');
+      Array.prototype.forEach.call(tbody.querySelectorAll('[data-review-anchor]'), function(anchor) {
+        const idx = parseInt(anchor.getAttribute('data-review-anchor'), 10);
+        const dec = filtered[idx];
+        if (!dec || !Array.isArray(dec.review_required) || !dec.review_required.length) return;
+        dec.review_required.forEach(function(note) {
+          const line = document.createElement('div');
+          line.textContent = String(note);
+          anchor.appendChild(line);
+        });
+      });
     }
   </script>
 <script>
