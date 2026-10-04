@@ -1,15 +1,15 @@
 # Rental Housing Law Navigator (HackNation26 × RealPage)
 
-**Live-Demo:** https://cschoelzel.github.io/hacknation26/
+**Demo:** lokal in `web/`; öffentliches Hosting ausstehend. Das GitHub-Repository bleibt privat.
 
 Antwort auf eine Frage pro Adresse: welche Mietrechts-Regeln gelten hier heute, was aendert sich?
 Module: A Extraktion (Korpus -> rules.json), B Lookup (Adresse -> Regeln mit Beleg), C Change-Tracking (T1-T6).
 
 ## Stand
-- Korrektheit: 10/10 freigegeben (reports/ziel_100_prozent.md), Export-SHA siehe output/manifest.json
+- Vollständige fachliche Abnahme ausstehend; bekannte Lücken siehe unten. Export-SHA siehe output/manifest.json
 - Spitze: reports/ziel_spitze.md (16 Abnahmetests, v3), Tests: tests/test_spitzen_goal.py
 - Dev-Score: reports/score_dev.md (offizielles score.py fehlt im Starter-Pack, Ersatzmetrik dokumentiert)
-- Live-Demo: https://cschoelzel.github.io/hacknation26/ | Videos: reports/videos.md
+- Öffentliches Hosting ausstehend; `reports/videos.md` enthält Drehbücher, keine bestätigten Videoaufnahmen.
 
 ## Repro
 - python3 -m unittest discover -s tests

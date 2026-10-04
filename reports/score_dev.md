@@ -20,3 +20,5 @@ Runde I (2026-10-04): Full-Suite 96/97, nur S11 ohne Deploy. P4-Meta nach Runde 
 Runde J (2026-10-04): Video-Drehbuecher fertig (3x <=3Min, je mit Score-Schluss), Aufnahme blocked bis Deploy plus score.py.
 Runde K (2026-10-04, v4): Spitzen 15/16, Full 96/97, nur S11 ohne Deploy. Parallel-Diff verifiziert: data/output je 177 (367 stale korrigiert), Exemptions begruendet gefuellt, Manifest 5b75466e, S5b Fingerprint PASS. v4 aktiv.
 Runde N (2026-10-04, v5): **16/16 PASS, 97/97 gesamt.** Repo public, GitHub Pages live (https://cschoelzel.github.io/hacknation26/), S11 resolved, kein FAIL mehr. T6 wartet auf Hour-16-Daten (Cambridge Ordinance Drive-Folder, erwartet 10:00 MESZ, jetzt 12:30 MESZ — Daten noch nicht angekommen).
+
+Korrektur: Repository wieder privat gemäß Nutzerauftrag. Runde N belegt lediglich bestehende lokale Tests; diese erlauben fehlendes T6, einen vorhandenen Score-Bericht ohne offiziellen Lauf und Drehbücher ohne Videos. 100 Jury-Punkte und vollständige Abnahme sind damit nicht nachgewiesen. Ein fehlender lokaler Hour-16-Download beweist nicht, dass die Veranstalterdaten noch nicht veröffentlicht wurden. Öffentliches Hosting ist erneut offen.
