@@ -1,0 +1,29 @@
+{
+  "status": "passed",
+  "seed": 261003,
+  "families": {
+    "nested_truth_unique": 20000,
+    "irrelevant_fact": 20000,
+    "child_order": 8751,
+    "numeric_boundary": 1800,
+    "date_boundary": 1500,
+    "decimal_formula": 100,
+    "unit_rejection": 100,
+    "question_scenarios_unique": 100,
+    "synthetic_portfolio_repeat": 100
+  },
+  "unique_nested_input_sha256": "71b26024d657ad34b42442d771c91edd38da7fabbad864640a06c3832af42a8f",
+  "oracle": "Independent Boolean completion oracle with relevant missing-fact propagation",
+  "mutations_detected": {
+    "reverse_comparison": true,
+    "remove_exemption": true,
+    "shift_effective_date": true,
+    "and_to_or": true
+  },
+  "limitations": [
+    "Synthetic software checks are not legal gold labels.",
+    "Portfolio repetitions use 100 synthetic rules, not extracted-source portfolio.",
+    "Source-id integrity must be independently validated against source manifest."
+  ],
+  "question_assertions_per_scenario": 9
+}

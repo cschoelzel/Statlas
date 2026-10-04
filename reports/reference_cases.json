@@ -1,0 +1,589 @@
+{
+  "scope": "Small independent source-based reference; not lawyer reviewed; no verified real-object gold cases; not T1-T5 derived",
+  "engine_outputs_seen": false,
+  "case_count": 22,
+  "cases": [
+    {
+      "id": "REF-MOTION",
+      "severity": "critical",
+      "requirement": "§§10–12 independent source/status/time/exception validation",
+      "source": "D039",
+      "minimal_input": {
+        "city": "Los Angeles",
+        "date": "2026-10-01",
+        "algorithmic_pricing": true
+      },
+      "expected": {
+        "source_status": "motion",
+        "ban_from_this_source": false
+      },
+      "actual": "not tested; no engine outputs consulted",
+      "evidence": {
+        "quote": "I THEREFORE MOVE that the City Council instruct the Los Angeles Housing Department to \nreport on the number of ownership and management entities that are using algorithm-based \nsoftware to establish rents and the feasibility of instituting a ban on the use of this software to set \nrents in the City.",
+        "start": 131,
+        "end": 431,
+        "sha256": "cf36489eb7db23226ff24eb4a65615b9837c67659221630e0366a4ff4456df00"
+      },
+      "classification": "confirmed",
+      "regression": "REF-MOTION",
+      "split": "independent_reference",
+      "synthetic": true
+    },
+    {
+      "id": "REF-LA-RATE-2025-06-30",
+      "severity": "critical",
+      "requirement": "§§10–12 independent source/status/time/exception validation",
+      "source": "D042",
+      "minimal_input": {
+        "city": "Los Angeles",
+        "rso_covered": true,
+        "date": "2025-06-30"
+      },
+      "expected": {
+        "three_percent_supported_by_source": false,
+        "current_rate_if_outside": "unknown"
+      },
+      "actual": "not tested; no engine outputs consulted",
+      "evidence": {
+        "quote": "July 1, 2025, through June 30, 2026\nis\n3%",
+        "start": 377,
+        "end": 418,
+        "sha256": "21a8e44f111659923f120ad5543bf46611e1b2dd5af0087cc16f98de479cd262"
+      },
+      "classification": "confirmed",
+      "regression": "REF-LA-RATE-2025-06-30",
+      "split": "independent_reference",
+      "synthetic": true
+    },
+    {
+      "id": "REF-LA-RATE-2025-07-01",
+      "severity": "critical",
+      "requirement": "§§10–12 independent source/status/time/exception validation",
+      "source": "D042",
+      "minimal_input": {
+        "city": "Los Angeles",
+        "rso_covered": true,
+        "date": "2025-07-01"
+      },
+      "expected": {
+        "three_percent_supported_by_source": true,
+        "current_rate_if_outside": "unknown"
+      },
+      "actual": "not tested; no engine outputs consulted",
+      "evidence": {
+        "quote": "July 1, 2025, through June 30, 2026\nis\n3%",
+        "start": 377,
+        "end": 418,
+        "sha256": "21a8e44f111659923f120ad5543bf46611e1b2dd5af0087cc16f98de479cd262"
+      },
+      "classification": "confirmed",
+      "regression": "REF-LA-RATE-2025-07-01",
+      "split": "independent_reference",
+      "synthetic": true
+    },
+    {
+      "id": "REF-LA-RATE-2026-06-30",
+      "severity": "critical",
+      "requirement": "§§10–12 independent source/status/time/exception validation",
+      "source": "D042",
+      "minimal_input": {
+        "city": "Los Angeles",
+        "rso_covered": true,
+        "date": "2026-06-30"
+      },
+      "expected": {
+        "three_percent_supported_by_source": true,
+        "current_rate_if_outside": "unknown"
+      },
+      "actual": "not tested; no engine outputs consulted",
+      "evidence": {
+        "quote": "July 1, 2025, through June 30, 2026\nis\n3%",
+        "start": 377,
+        "end": 418,
+        "sha256": "21a8e44f111659923f120ad5543bf46611e1b2dd5af0087cc16f98de479cd262"
+      },
+      "classification": "confirmed",
+      "regression": "REF-LA-RATE-2026-06-30",
+      "split": "independent_reference",
+      "synthetic": true
+    },
+    {
+      "id": "REF-LA-RATE-2026-07-01",
+      "severity": "critical",
+      "requirement": "§§10–12 independent source/status/time/exception validation",
+      "source": "D042",
+      "minimal_input": {
+        "city": "Los Angeles",
+        "rso_covered": true,
+        "date": "2026-07-01"
+      },
+      "expected": {
+        "three_percent_supported_by_source": false,
+        "current_rate_if_outside": "unknown"
+      },
+      "actual": "not tested; no engine outputs consulted",
+      "evidence": {
+        "quote": "July 1, 2025, through June 30, 2026\nis\n3%",
+        "start": 377,
+        "end": 418,
+        "sha256": "21a8e44f111659923f120ad5543bf46611e1b2dd5af0087cc16f98de479cd262"
+      },
+      "classification": "confirmed",
+      "regression": "REF-LA-RATE-2026-07-01",
+      "split": "independent_reference",
+      "synthetic": true
+    },
+    {
+      "id": "REF-LA-RATE-2026-10-01",
+      "severity": "critical",
+      "requirement": "§§10–12 independent source/status/time/exception validation",
+      "source": "D042",
+      "minimal_input": {
+        "city": "Los Angeles",
+        "rso_covered": true,
+        "date": "2026-10-01"
+      },
+      "expected": {
+        "three_percent_supported_by_source": false,
+        "current_rate_if_outside": "unknown"
+      },
+      "actual": "not tested; no engine outputs consulted",
+      "evidence": {
+        "quote": "July 1, 2025, through June 30, 2026\nis\n3%",
+        "start": 377,
+        "end": 418,
+        "sha256": "21a8e44f111659923f120ad5543bf46611e1b2dd5af0087cc16f98de479cd262"
+      },
+      "classification": "confirmed",
+      "regression": "REF-LA-RATE-2026-10-01",
+      "split": "independent_reference",
+      "synthetic": true
+    },
+    {
+      "id": "REF-LA-UTILITY",
+      "severity": "critical",
+      "requirement": "§§10–12 independent source/status/time/exception validation",
+      "source": "D042",
+      "minimal_input": {
+        "city": "Los Angeles",
+        "rso_covered": true,
+        "date": "2026-02-02",
+        "utilities_supplied": true
+      },
+      "expected": {
+        "additional_utility_percentage_permitted": false
+      },
+      "actual": "not tested; no engine outputs consulted",
+      "evidence": {
+        "quote": "Beginning February 2, 2026, a landlord can no longer include any additional percentage increase for utilities.",
+        "start": 421,
+        "end": 531,
+        "sha256": "21a8e44f111659923f120ad5543bf46611e1b2dd5af0087cc16f98de479cd262"
+      },
+      "classification": "confirmed",
+      "regression": "REF-LA-UTILITY",
+      "split": "independent_reference",
+      "synthetic": true
+    },
+    {
+      "id": "REF-MA-D045",
+      "severity": "critical",
+      "requirement": "§§10–12 independent source/status/time/exception validation",
+      "source": "D045",
+      "minimal_input": {
+        "state": "MA",
+        "date": "2026-10-01"
+      },
+      "expected": {
+        "source_status": "pending_as_supplied",
+        "full_bill_text_available": false,
+        "enacted_ban_supported": false
+      },
+      "actual": "not tested; no engine outputs consulted",
+      "evidence": {
+        "quote": "Bill reported favorably by committee and referred to the committee on\nHouse Ways and Means",
+        "start": 683,
+        "end": 773,
+        "sha256": "8bc537dfe4d0e00b829147ae82ba11d40bef8a2b0696f487c417ca517673bba7"
+      },
+      "classification": "confirmed",
+      "regression": "REF-MA-D045",
+      "split": "independent_reference",
+      "synthetic": true
+    },
+    {
+      "id": "REF-MA-D046",
+      "severity": "critical",
+      "requirement": "§§10–12 independent source/status/time/exception validation",
+      "source": "D046",
+      "minimal_input": {
+        "state": "MA",
+        "date": "2026-10-01"
+      },
+      "expected": {
+        "source_status": "pending_as_supplied",
+        "full_bill_text_available": false,
+        "enacted_ban_supported": false
+      },
+      "actual": "not tested; no engine outputs consulted",
+      "evidence": {
+        "quote": "Bill reported favorably by committee and referred to the committee on\nSenate Ways and Means",
+        "start": 1131,
+        "end": 1222,
+        "sha256": "6ea5313d0a656ab73b683e72b594cf143ee61bd6923ee1d9f3df46682248004d"
+      },
+      "classification": "confirmed",
+      "regression": "REF-MA-D046",
+      "split": "independent_reference",
+      "synthetic": true
+    },
+    {
+      "id": "REF-MA-D047",
+      "severity": "critical",
+      "requirement": "§§10–12 independent source/status/time/exception validation",
+      "source": "D047",
+      "minimal_input": {
+        "state": "MA",
+        "date": "2026-10-01"
+      },
+      "expected": {
+        "source_status": "pending_as_supplied",
+        "full_bill_text_available": false,
+        "enacted_ban_supported": false
+      },
+      "actual": "not tested; no engine outputs consulted",
+      "evidence": {
+        "quote": "Bill reported favorably by committee and referred to the committee on\nSenate Ways and Means",
+        "start": 1143,
+        "end": 1234,
+        "sha256": "9af3e5eba834b37a5115fef298f5e2a1c1fc0b93c1d69500aea9d6bc7ee24b93"
+      },
+      "classification": "confirmed",
+      "regression": "REF-MA-D047",
+      "split": "independent_reference",
+      "synthetic": true
+    },
+    {
+      "id": "REF-FAIR-TIME-2026-10-01",
+      "severity": "critical",
+      "requirement": "§§10–12 independent source/status/time/exception validation",
+      "source": "D069",
+      "minimal_input": {
+        "state": "NJ",
+        "date": "2026-10-01",
+        "enactment_date": "2026-07-20"
+      },
+      "expected": {
+        "effective_date": "2027-07-01",
+        "operative_status": "future"
+      },
+      "actual": "not tested; no engine outputs consulted",
+      "evidence": {
+        "quote": "This act shall take effect on the first day of\nthe twelfth month next following the date of enactment.",
+        "start": 10181,
+        "end": 10283,
+        "sha256": "1fdbfb48743a46429c3f47dbd8d08c665739202361661e1a2f19b94bb0ec43a6"
+      },
+      "classification": "interpretation",
+      "regression": "REF-FAIR-TIME-2026-10-01",
+      "split": "independent_reference",
+      "synthetic": true
+    },
+    {
+      "id": "REF-FAIR-TIME-2027-06-30",
+      "severity": "critical",
+      "requirement": "§§10–12 independent source/status/time/exception validation",
+      "source": "D069",
+      "minimal_input": {
+        "state": "NJ",
+        "date": "2027-06-30",
+        "enactment_date": "2026-07-20"
+      },
+      "expected": {
+        "effective_date": "2027-07-01",
+        "operative_status": "future"
+      },
+      "actual": "not tested; no engine outputs consulted",
+      "evidence": {
+        "quote": "This act shall take effect on the first day of\nthe twelfth month next following the date of enactment.",
+        "start": 10181,
+        "end": 10283,
+        "sha256": "1fdbfb48743a46429c3f47dbd8d08c665739202361661e1a2f19b94bb0ec43a6"
+      },
+      "classification": "interpretation",
+      "regression": "REF-FAIR-TIME-2027-06-30",
+      "split": "independent_reference",
+      "synthetic": true
+    },
+    {
+      "id": "REF-FAIR-TIME-2027-07-01",
+      "severity": "critical",
+      "requirement": "§§10–12 independent source/status/time/exception validation",
+      "source": "D069",
+      "minimal_input": {
+        "state": "NJ",
+        "date": "2027-07-01",
+        "enactment_date": "2026-07-20"
+      },
+      "expected": {
+        "effective_date": "2027-07-01",
+        "operative_status": "effective"
+      },
+      "actual": "not tested; no engine outputs consulted",
+      "evidence": {
+        "quote": "This act shall take effect on the first day of\nthe twelfth month next following the date of enactment.",
+        "start": 10181,
+        "end": 10283,
+        "sha256": "1fdbfb48743a46429c3f47dbd8d08c665739202361661e1a2f19b94bb0ec43a6"
+      },
+      "classification": "interpretation",
+      "regression": "REF-FAIR-TIME-2027-07-01",
+      "split": "independent_reference",
+      "synthetic": true
+    },
+    {
+      "id": "REF-FAIR-SPREADSHEET",
+      "severity": "critical",
+      "requirement": "§§10–12 independent source/status/time/exception validation",
+      "source": "D069",
+      "minimal_input": {
+        "state": "NJ",
+        "date": "2027-07-01",
+        "tool": "spreadsheet",
+        "uses_ai": false,
+        "requires_human_analysis": true
+      },
+      "expected": {
+        "algorithmic_device": false
+      },
+      "actual": "not tested; no engine outputs consulted",
+      "evidence": {
+        "quote": "a spreadsheet that (a) operates without artificial\nintelligence and (b) requires human analysis to process or otherwise perform\ncalculations of data",
+        "start": 3464,
+        "end": 3612,
+        "sha256": "1fdbfb48743a46429c3f47dbd8d08c665739202361661e1a2f19b94bb0ec43a6"
+      },
+      "classification": "confirmed",
+      "regression": "REF-FAIR-SPREADSHEET",
+      "split": "independent_reference",
+      "synthetic": true
+    },
+    {
+      "id": "REF-FAIR-RESEARCH",
+      "severity": "critical",
+      "requirement": "§§10–12 independent source/status/time/exception validation",
+      "source": "D069",
+      "minimal_input": {
+        "state": "NJ",
+        "date": "2027-07-01",
+        "use": "research_only",
+        "used_for_current_or_future_lease_terms": false
+      },
+      "expected": {
+        "coordinating_function": false
+      },
+      "actual": "not tested; no engine outputs consulted",
+      "evidence": {
+        "quote": "providing, using, or collecting competitively sensitive\ninformation solely for the purpose of conducting\nresearch, statistical analysis, or testing, where the competitively\nsensitive information is not used in setting or recommending rental prices,\nmaterial lease terms, fees, occupancy rates or levels, or other contract terms\nfor current or future leases;",
+        "start": 5082,
+        "end": 5439,
+        "sha256": "1fdbfb48743a46429c3f47dbd8d08c665739202361661e1a2f19b94bb0ec43a6"
+      },
+      "classification": "confirmed",
+      "regression": "REF-FAIR-RESEARCH",
+      "split": "independent_reference",
+      "synthetic": true
+    },
+    {
+      "id": "REF-FAIR-MIXED-DATA",
+      "severity": "critical",
+      "requirement": "§§10–12 independent source/status/time/exception validation",
+      "source": "D069",
+      "minimal_input": {
+        "state": "NJ",
+        "date": "2027-07-01",
+        "data_contains_public": true,
+        "data_contains_nonpublic": true
+      },
+      "expected": {
+        "combined_data_nonpublic": true
+      },
+      "actual": "not tested; no engine outputs consulted",
+      "evidence": {
+        "quote": "In instances where the information is\ncombined with public information, all combined information shall be deemed\nnonpublic information.",
+        "start": 6637,
+        "end": 6772,
+        "sha256": "1fdbfb48743a46429c3f47dbd8d08c665739202361661e1a2f19b94bb0ec43a6"
+      },
+      "classification": "confirmed",
+      "regression": "REF-FAIR-MIXED-DATA",
+      "split": "independent_reference",
+      "synthetic": true
+    },
+    {
+      "id": "REF-DEPOSIT-QUALIFIES",
+      "severity": "high",
+      "requirement": "§§10–12 independent source/status/time/exception validation",
+      "source": "D007",
+      "minimal_input": {
+        "state": "CA",
+        "date": "2026-10-01",
+        "new_tenancy": true,
+        "properties": 2,
+        "total_units": 4,
+        "ownership": "natural_person"
+      },
+      "expected": {
+        "max_months_from_supplied_summary": 2,
+        "statute_crosscheck_required": true
+      },
+      "actual": "not tested; no engine outputs consulted",
+      "evidence": {
+        "quote": "Starting July 1, 2024, landlords who own only two rental properties with no more than four residential units total can charge up to two months' rent for furnished and unfurnished units if ownership is held by a natural person, family trust, or limited liability company (LLC) where all members are natural persons",
+        "start": 513,
+        "end": 826,
+        "sha256": "2ba3028382b89ee70810a45e25dd9707297bd65512e2723f4f9bda514af57203"
+      },
+      "classification": "interpretation",
+      "regression": "REF-DEPOSIT-QUALIFIES",
+      "split": "independent_reference",
+      "synthetic": true
+    },
+    {
+      "id": "REF-DEPOSIT-TOO-MANY-UNITS",
+      "severity": "high",
+      "requirement": "§§10–12 independent source/status/time/exception validation",
+      "source": "D007",
+      "minimal_input": {
+        "state": "CA",
+        "date": "2026-10-01",
+        "new_tenancy": true,
+        "properties": 2,
+        "total_units": 5,
+        "ownership": "natural_person"
+      },
+      "expected": {
+        "max_months_from_supplied_summary": 1,
+        "statute_crosscheck_required": true
+      },
+      "actual": "not tested; no engine outputs consulted",
+      "evidence": {
+        "quote": "Starting July 1, 2024, landlords who own only two rental properties with no more than four residential units total can charge up to two months' rent for furnished and unfurnished units if ownership is held by a natural person, family trust, or limited liability company (LLC) where all members are natural persons",
+        "start": 513,
+        "end": 826,
+        "sha256": "2ba3028382b89ee70810a45e25dd9707297bd65512e2723f4f9bda514af57203"
+      },
+      "classification": "interpretation",
+      "regression": "REF-DEPOSIT-TOO-MANY-UNITS",
+      "split": "independent_reference",
+      "synthetic": true
+    },
+    {
+      "id": "REF-DEPOSIT-CORPORATION",
+      "severity": "high",
+      "requirement": "§§10–12 independent source/status/time/exception validation",
+      "source": "D007",
+      "minimal_input": {
+        "state": "CA",
+        "date": "2026-10-01",
+        "new_tenancy": true,
+        "properties": 2,
+        "total_units": 4,
+        "ownership": "corporation"
+      },
+      "expected": {
+        "max_months_from_supplied_summary": 1,
+        "statute_crosscheck_required": true
+      },
+      "actual": "not tested; no engine outputs consulted",
+      "evidence": {
+        "quote": "Starting July 1, 2024, landlords who own only two rental properties with no more than four residential units total can charge up to two months' rent for furnished and unfurnished units if ownership is held by a natural person, family trust, or limited liability company (LLC) where all members are natural persons",
+        "start": 513,
+        "end": 826,
+        "sha256": "2ba3028382b89ee70810a45e25dd9707297bd65512e2723f4f9bda514af57203"
+      },
+      "classification": "interpretation",
+      "regression": "REF-DEPOSIT-CORPORATION",
+      "split": "independent_reference",
+      "synthetic": true
+    },
+    {
+      "id": "REF-DEPOSIT-MISSING-OWNERSHIP",
+      "severity": "high",
+      "requirement": "§§10–12 independent source/status/time/exception validation",
+      "source": "D007",
+      "minimal_input": {
+        "state": "CA",
+        "date": "2026-10-01",
+        "new_tenancy": true,
+        "properties": 2,
+        "total_units": 4
+      },
+      "expected": {
+        "max_months_from_supplied_summary": "unknown",
+        "statute_crosscheck_required": true
+      },
+      "actual": "not tested; no engine outputs consulted",
+      "evidence": {
+        "quote": "Starting July 1, 2024, landlords who own only two rental properties with no more than four residential units total can charge up to two months' rent for furnished and unfurnished units if ownership is held by a natural person, family trust, or limited liability company (LLC) where all members are natural persons",
+        "start": 513,
+        "end": 826,
+        "sha256": "2ba3028382b89ee70810a45e25dd9707297bd65512e2723f4f9bda514af57203"
+      },
+      "classification": "interpretation",
+      "regression": "REF-DEPOSIT-MISSING-OWNERSHIP",
+      "split": "independent_reference",
+      "synthetic": true
+    },
+    {
+      "id": "REF-DEPOSIT-LAST-MONTH",
+      "severity": "high",
+      "requirement": "§§10–12 independent source/status/time/exception validation",
+      "source": "D007",
+      "minimal_input": {
+        "state": "CA",
+        "date": "2026-10-01",
+        "last_month_rent_prepaid": true
+      },
+      "expected": {
+        "counts_toward_security_deposit": true
+      },
+      "actual": "not tested; no engine outputs consulted",
+      "evidence": {
+        "quote": "Last month’s rent IS considered part of the security deposit",
+        "start": 827,
+        "end": 887,
+        "sha256": "2ba3028382b89ee70810a45e25dd9707297bd65512e2723f4f9bda514af57203"
+      },
+      "classification": "confirmed",
+      "regression": "REF-DEPOSIT-LAST-MONTH",
+      "split": "independent_reference",
+      "synthetic": true
+    },
+    {
+      "id": "REF-DEPOSIT-FIRST-MONTH",
+      "severity": "high",
+      "requirement": "§§10–12 independent source/status/time/exception validation",
+      "source": "D007",
+      "minimal_input": {
+        "state": "CA",
+        "date": "2026-10-01",
+        "first_month_rent_prepaid": true
+      },
+      "expected": {
+        "counts_toward_security_deposit": false
+      },
+      "actual": "not tested; no engine outputs consulted",
+      "evidence": {
+        "quote": "First month’s rent is NOT considered part of the security deposit",
+        "start": 888,
+        "end": 953,
+        "sha256": "2ba3028382b89ee70810a45e25dd9707297bd65512e2723f4f9bda514af57203"
+      },
+      "classification": "confirmed",
+      "regression": "REF-DEPOSIT-FIRST-MONTH",
+      "split": "independent_reference",
+      "synthetic": true
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "provider": "Bright Data",
+  "configured_variable": "BRIGHTDATA",
+  "key_configured": true,
+  "verification": [
+    {
+      "endpoint": "https://api.brightdata.com/zone/get_all_zones",
+      "http_status": 401
+    },
+    {
+      "endpoint": "https://api.brightdata.com/customer/balance",
+      "http_status": 401
+    }
+  ],
+  "verified_access": false,
+  "cost_incurred_usd": 0,
+  "pricing_verified": false,
+  "blocker": "Configured credential rejected by account endpoints; valid API token and authorized zone needed. No paid acquisition requests issued.",
+  "acquisitions": [
+    {
+      "doc_id": "D017",
+      "status": "retained_official_current_text",
+      "historical_verification": "unverified"
+    },
+    {
+      "doc_id": "D018",
+      "status": "official_single_fetch_timeout"
+    },
+    {
+      "doc_id": "D019",
+      "status": "official_single_fetch_timeout"
+    }
+  ]
+}

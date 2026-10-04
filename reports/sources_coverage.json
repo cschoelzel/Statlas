@@ -1,0 +1,556 @@
+{
+  "total": 87,
+  "status_counts": {
+    "full_text_ready": 58,
+    "missing": 26,
+    "landing_page_only": 3
+  },
+  "integrity_note": "SHA256 authenticates retained bytes only; upstream hashes are separate and unverified.",
+  "historical_note": "Retrieval time is not an effective date. All historical applicability awaits source review.",
+  "jurisdictions": {
+    "Berkeley, CA": {
+      "documents": [
+        "D001",
+        "D002",
+        "D003",
+        "D004",
+        "D005",
+        "D006",
+        "D007",
+        "D008",
+        "D009"
+      ],
+      "missing": [
+        "D002"
+      ],
+      "landing_only": [],
+      "categories": {
+        "rent_increase_limits": {
+          "status": "not_reviewed",
+          "reason": "Category coverage requires extraction and legal review; source presence is not legal completeness."
+        },
+        "just_cause_eviction": {
+          "status": "not_reviewed",
+          "reason": "Category coverage requires extraction and legal review; source presence is not legal completeness."
+        },
+        "security_deposits": {
+          "status": "not_reviewed",
+          "reason": "Category coverage requires extraction and legal review; source presence is not legal completeness."
+        },
+        "application_screening_fees": {
+          "status": "not_reviewed",
+          "reason": "Category coverage requires extraction and legal review; source presence is not legal completeness."
+        },
+        "screening_restrictions": {
+          "status": "not_reviewed",
+          "reason": "Category coverage requires extraction and legal review; source presence is not legal completeness."
+        },
+        "algorithmic_rent_setting": {
+          "status": "not_reviewed",
+          "reason": "Category coverage requires extraction and legal review; source presence is not legal completeness."
+        }
+      }
+    },
+    "Boston, MA": {
+      "documents": [
+        "D010",
+        "D011",
+        "D012",
+        "D013",
+        "D014"
+      ],
+      "missing": [],
+      "landing_only": [],
+      "categories": {
+        "rent_increase_limits": {
+          "status": "not_reviewed",
+          "reason": "Category coverage requires extraction and legal review; source presence is not legal completeness."
+        },
+        "just_cause_eviction": {
+          "status": "not_reviewed",
+          "reason": "Category coverage requires extraction and legal review; source presence is not legal completeness."
+        },
+        "security_deposits": {
+          "status": "not_reviewed",
+          "reason": "Category coverage requires extraction and legal review; source presence is not legal completeness."
+        },
+        "application_screening_fees": {
+          "status": "not_reviewed",
+          "reason": "Category coverage requires extraction and legal review; source presence is not legal completeness."
+        },
+        "screening_restrictions": {
+          "status": "not_reviewed",
+          "reason": "Category coverage requires extraction and legal review; source presence is not legal completeness."
+        },
+        "algorithmic_rent_setting": {
+          "status": "not_reviewed",
+          "reason": "Category coverage requires extraction and legal review; source presence is not legal completeness."
+        }
+      }
+    },
+    "CA": {
+      "documents": [
+        "D015",
+        "D016",
+        "D017",
+        "D018",
+        "D019",
+        "D020",
+        "D021",
+        "D022",
+        "D023",
+        "D024",
+        "D025",
+        "D026",
+        "D027",
+        "D028"
+      ],
+      "missing": [
+        "D015",
+        "D028"
+      ],
+      "landing_only": [],
+      "categories": {
+        "rent_increase_limits": {
+          "status": "not_reviewed",
+          "reason": "Category coverage requires extraction and legal review; source presence is not legal completeness."
+        },
+        "just_cause_eviction": {
+          "status": "not_reviewed",
+          "reason": "Category coverage requires extraction and legal review; source presence is not legal completeness."
+        },
+        "security_deposits": {
+          "status": "not_reviewed",
+          "reason": "Category coverage requires extraction and legal review; source presence is not legal completeness."
+        },
+        "application_screening_fees": {
+          "status": "not_reviewed",
+          "reason": "Category coverage requires extraction and legal review; source presence is not legal completeness."
+        },
+        "screening_restrictions": {
+          "status": "not_reviewed",
+          "reason": "Category coverage requires extraction and legal review; source presence is not legal completeness."
+        },
+        "algorithmic_rent_setting": {
+          "status": "not_reviewed",
+          "reason": "Category coverage requires extraction and legal review; source presence is not legal completeness."
+        }
+      }
+    },
+    "Cambridge, MA": {
+      "documents": [
+        "D029",
+        "D030",
+        "D031"
+      ],
+      "missing": [
+        "D030"
+      ],
+      "landing_only": [],
+      "categories": {
+        "rent_increase_limits": {
+          "status": "not_reviewed",
+          "reason": "Category coverage requires extraction and legal review; source presence is not legal completeness."
+        },
+        "just_cause_eviction": {
+          "status": "not_reviewed",
+          "reason": "Category coverage requires extraction and legal review; source presence is not legal completeness."
+        },
+        "security_deposits": {
+          "status": "not_reviewed",
+          "reason": "Category coverage requires extraction and legal review; source presence is not legal completeness."
+        },
+        "application_screening_fees": {
+          "status": "not_reviewed",
+          "reason": "Category coverage requires extraction and legal review; source presence is not legal completeness."
+        },
+        "screening_restrictions": {
+          "status": "not_reviewed",
+          "reason": "Category coverage requires extraction and legal review; source presence is not legal completeness."
+        },
+        "algorithmic_rent_setting": {
+          "status": "not_reviewed",
+          "reason": "Category coverage requires extraction and legal review; source presence is not legal completeness."
+        }
+      }
+    },
+    "Hoboken, NJ": {
+      "documents": [
+        "D032",
+        "D033",
+        "D034"
+      ],
+      "missing": [
+        "D032",
+        "D033",
+        "D034"
+      ],
+      "landing_only": [],
+      "categories": {
+        "rent_increase_limits": {
+          "status": "not_reviewed",
+          "reason": "Category coverage requires extraction and legal review; source presence is not legal completeness."
+        },
+        "just_cause_eviction": {
+          "status": "not_reviewed",
+          "reason": "Category coverage requires extraction and legal review; source presence is not legal completeness."
+        },
+        "security_deposits": {
+          "status": "not_reviewed",
+          "reason": "Category coverage requires extraction and legal review; source presence is not legal completeness."
+        },
+        "application_screening_fees": {
+          "status": "not_reviewed",
+          "reason": "Category coverage requires extraction and legal review; source presence is not legal completeness."
+        },
+        "screening_restrictions": {
+          "status": "not_reviewed",
+          "reason": "Category coverage requires extraction and legal review; source presence is not legal completeness."
+        },
+        "algorithmic_rent_setting": {
+          "status": "not_reviewed",
+          "reason": "Category coverage requires extraction and legal review; source presence is not legal completeness."
+        }
+      }
+    },
+    "Jersey City, NJ": {
+      "documents": [
+        "D035",
+        "D036",
+        "D037"
+      ],
+      "missing": [
+        "D035",
+        "D037"
+      ],
+      "landing_only": [],
+      "categories": {
+        "rent_increase_limits": {
+          "status": "not_reviewed",
+          "reason": "Category coverage requires extraction and legal review; source presence is not legal completeness."
+        },
+        "just_cause_eviction": {
+          "status": "not_reviewed",
+          "reason": "Category coverage requires extraction and legal review; source presence is not legal completeness."
+        },
+        "security_deposits": {
+          "status": "not_reviewed",
+          "reason": "Category coverage requires extraction and legal review; source presence is not legal completeness."
+        },
+        "application_screening_fees": {
+          "status": "not_reviewed",
+          "reason": "Category coverage requires extraction and legal review; source presence is not legal completeness."
+        },
+        "screening_restrictions": {
+          "status": "not_reviewed",
+          "reason": "Category coverage requires extraction and legal review; source presence is not legal completeness."
+        },
+        "algorithmic_rent_setting": {
+          "status": "not_reviewed",
+          "reason": "Category coverage requires extraction and legal review; source presence is not legal completeness."
+        }
+      }
+    },
+    "Los Angeles, CA": {
+      "documents": [
+        "D038",
+        "D039",
+        "D040",
+        "D041",
+        "D042",
+        "D043",
+        "D044"
+      ],
+      "missing": [
+        "D038",
+        "D044"
+      ],
+      "landing_only": [],
+      "categories": {
+        "rent_increase_limits": {
+          "status": "not_reviewed",
+          "reason": "Category coverage requires extraction and legal review; source presence is not legal completeness."
+        },
+        "just_cause_eviction": {
+          "status": "not_reviewed",
+          "reason": "Category coverage requires extraction and legal review; source presence is not legal completeness."
+        },
+        "security_deposits": {
+          "status": "not_reviewed",
+          "reason": "Category coverage requires extraction and legal review; source presence is not legal completeness."
+        },
+        "application_screening_fees": {
+          "status": "not_reviewed",
+          "reason": "Category coverage requires extraction and legal review; source presence is not legal completeness."
+        },
+        "screening_restrictions": {
+          "status": "not_reviewed",
+          "reason": "Category coverage requires extraction and legal review; source presence is not legal completeness."
+        },
+        "algorithmic_rent_setting": {
+          "status": "not_reviewed",
+          "reason": "Category coverage requires extraction and legal review; source presence is not legal completeness."
+        }
+      }
+    },
+    "MA": {
+      "documents": [
+        "D045",
+        "D046",
+        "D047",
+        "D048",
+        "D049",
+        "D050",
+        "D051",
+        "D052",
+        "D053",
+        "D054",
+        "D055",
+        "D056",
+        "D057",
+        "D058",
+        "D059"
+      ],
+      "missing": [
+        "D054",
+        "D055",
+        "D056",
+        "D059"
+      ],
+      "landing_only": [
+        "D045",
+        "D046",
+        "D047"
+      ],
+      "categories": {
+        "rent_increase_limits": {
+          "status": "not_reviewed",
+          "reason": "Category coverage requires extraction and legal review; source presence is not legal completeness."
+        },
+        "just_cause_eviction": {
+          "status": "not_reviewed",
+          "reason": "Category coverage requires extraction and legal review; source presence is not legal completeness."
+        },
+        "security_deposits": {
+          "status": "not_reviewed",
+          "reason": "Category coverage requires extraction and legal review; source presence is not legal completeness."
+        },
+        "application_screening_fees": {
+          "status": "not_reviewed",
+          "reason": "Category coverage requires extraction and legal review; source presence is not legal completeness."
+        },
+        "screening_restrictions": {
+          "status": "not_reviewed",
+          "reason": "Category coverage requires extraction and legal review; source presence is not legal completeness."
+        },
+        "algorithmic_rent_setting": {
+          "status": "not_reviewed",
+          "reason": "Category coverage requires extraction and legal review; source presence is not legal completeness."
+        }
+      }
+    },
+    "NJ": {
+      "documents": [
+        "D060",
+        "D061",
+        "D062",
+        "D063",
+        "D064",
+        "D065",
+        "D066",
+        "D067",
+        "D068",
+        "D069"
+      ],
+      "missing": [
+        "D060",
+        "D061",
+        "D064"
+      ],
+      "landing_only": [],
+      "categories": {
+        "rent_increase_limits": {
+          "status": "not_reviewed",
+          "reason": "Category coverage requires extraction and legal review; source presence is not legal completeness."
+        },
+        "just_cause_eviction": {
+          "status": "not_reviewed",
+          "reason": "Category coverage requires extraction and legal review; source presence is not legal completeness."
+        },
+        "security_deposits": {
+          "status": "not_reviewed",
+          "reason": "Category coverage requires extraction and legal review; source presence is not legal completeness."
+        },
+        "application_screening_fees": {
+          "status": "not_reviewed",
+          "reason": "Category coverage requires extraction and legal review; source presence is not legal completeness."
+        },
+        "screening_restrictions": {
+          "status": "not_reviewed",
+          "reason": "Category coverage requires extraction and legal review; source presence is not legal completeness."
+        },
+        "algorithmic_rent_setting": {
+          "status": "not_reviewed",
+          "reason": "Category coverage requires extraction and legal review; source presence is not legal completeness."
+        }
+      }
+    },
+    "Newark, NJ": {
+      "documents": [
+        "D070",
+        "D071",
+        "D072"
+      ],
+      "missing": [
+        "D070",
+        "D071",
+        "D072"
+      ],
+      "landing_only": [],
+      "categories": {
+        "rent_increase_limits": {
+          "status": "not_reviewed",
+          "reason": "Category coverage requires extraction and legal review; source presence is not legal completeness."
+        },
+        "just_cause_eviction": {
+          "status": "not_reviewed",
+          "reason": "Category coverage requires extraction and legal review; source presence is not legal completeness."
+        },
+        "security_deposits": {
+          "status": "not_reviewed",
+          "reason": "Category coverage requires extraction and legal review; source presence is not legal completeness."
+        },
+        "application_screening_fees": {
+          "status": "not_reviewed",
+          "reason": "Category coverage requires extraction and legal review; source presence is not legal completeness."
+        },
+        "screening_restrictions": {
+          "status": "not_reviewed",
+          "reason": "Category coverage requires extraction and legal review; source presence is not legal completeness."
+        },
+        "algorithmic_rent_setting": {
+          "status": "not_reviewed",
+          "reason": "Category coverage requires extraction and legal review; source presence is not legal completeness."
+        }
+      }
+    },
+    "San Diego, CA": {
+      "documents": [
+        "D073",
+        "D074",
+        "D075",
+        "D076",
+        "D077"
+      ],
+      "missing": [
+        "D074",
+        "D075",
+        "D077"
+      ],
+      "landing_only": [],
+      "categories": {
+        "rent_increase_limits": {
+          "status": "not_reviewed",
+          "reason": "Category coverage requires extraction and legal review; source presence is not legal completeness."
+        },
+        "just_cause_eviction": {
+          "status": "not_reviewed",
+          "reason": "Category coverage requires extraction and legal review; source presence is not legal completeness."
+        },
+        "security_deposits": {
+          "status": "not_reviewed",
+          "reason": "Category coverage requires extraction and legal review; source presence is not legal completeness."
+        },
+        "application_screening_fees": {
+          "status": "not_reviewed",
+          "reason": "Category coverage requires extraction and legal review; source presence is not legal completeness."
+        },
+        "screening_restrictions": {
+          "status": "not_reviewed",
+          "reason": "Category coverage requires extraction and legal review; source presence is not legal completeness."
+        },
+        "algorithmic_rent_setting": {
+          "status": "not_reviewed",
+          "reason": "Category coverage requires extraction and legal review; source presence is not legal completeness."
+        }
+      }
+    },
+    "San Francisco, CA": {
+      "documents": [
+        "D078",
+        "D079",
+        "D080",
+        "D081",
+        "D082",
+        "D083"
+      ],
+      "missing": [],
+      "landing_only": [],
+      "categories": {
+        "rent_increase_limits": {
+          "status": "not_reviewed",
+          "reason": "Category coverage requires extraction and legal review; source presence is not legal completeness."
+        },
+        "just_cause_eviction": {
+          "status": "not_reviewed",
+          "reason": "Category coverage requires extraction and legal review; source presence is not legal completeness."
+        },
+        "security_deposits": {
+          "status": "not_reviewed",
+          "reason": "Category coverage requires extraction and legal review; source presence is not legal completeness."
+        },
+        "application_screening_fees": {
+          "status": "not_reviewed",
+          "reason": "Category coverage requires extraction and legal review; source presence is not legal completeness."
+        },
+        "screening_restrictions": {
+          "status": "not_reviewed",
+          "reason": "Category coverage requires extraction and legal review; source presence is not legal completeness."
+        },
+        "algorithmic_rent_setting": {
+          "status": "not_reviewed",
+          "reason": "Category coverage requires extraction and legal review; source presence is not legal completeness."
+        }
+      }
+    },
+    "Santa Ana, CA": {
+      "documents": [
+        "D084",
+        "D085",
+        "D086",
+        "D087"
+      ],
+      "missing": [
+        "D086",
+        "D087"
+      ],
+      "landing_only": [],
+      "categories": {
+        "rent_increase_limits": {
+          "status": "not_reviewed",
+          "reason": "Category coverage requires extraction and legal review; source presence is not legal completeness."
+        },
+        "just_cause_eviction": {
+          "status": "not_reviewed",
+          "reason": "Category coverage requires extraction and legal review; source presence is not legal completeness."
+        },
+        "security_deposits": {
+          "status": "not_reviewed",
+          "reason": "Category coverage requires extraction and legal review; source presence is not legal completeness."
+        },
+        "application_screening_fees": {
+          "status": "not_reviewed",
+          "reason": "Category coverage requires extraction and legal review; source presence is not legal completeness."
+        },
+        "screening_restrictions": {
+          "status": "not_reviewed",
+          "reason": "Category coverage requires extraction and legal review; source presence is not legal completeness."
+        },
+        "algorithmic_rent_setting": {
+          "status": "not_reviewed",
+          "reason": "Category coverage requires extraction and legal review; source presence is not legal completeness."
+        }
+      }
+    }
+  }
+}
