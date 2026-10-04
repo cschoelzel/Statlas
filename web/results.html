@@ -127,7 +127,10 @@
     .catch(() => fetch("data/" + encodeURIComponent(addressId) + ".json").then(r => {
       if (!r.ok) throw new Error("Static-Demo nicht gefunden");
       return r.json();
-    }).then(data => { currentData = data; renderAll(); }))
+    }).then(data => {
+      if (data.as_of !== asOf) throw new Error("Stored export uses " + data.as_of + "; the requested date " + asOf + " requires live evaluation.");
+      currentData = data; renderAll();
+    }))
     .catch(err => {
       document.getElementById('loading-state').style.display = 'none';
       const errBox = document.getElementById('error-state');
@@ -294,7 +297,7 @@ var I18N = {
 "submitBtn": "Run evaluation",
 "samples": "Examples:",
 "howTitle": "How the evaluation works:",
-"howBody": "Pick an address or type freely (ID e.g. A0001). Census geocoding determines state and legal city (ZIP city alone does not count). The engine filters rules by jurisdiction and checks as-of date, status, coverage and exemptions. The results table shows the original source per rule (document ID and quote). All data is live from the engine (/api/lookup), no demo data.",
+"howBody": "Pick an address or type freely (ID e.g. A0001). Census geocoding determines state and legal city (ZIP city alone does not count). The engine filters rules by jurisdiction and checks as-of date, status, coverage and exemptions. The results table shows the original source per rule (document ID and quote). Results come from the engine, either evaluated live or loaded from a stored export for the displayed date.",
 "legalNote": "Legal texts shown in original (EN) only.",
 "footer": "Not legal advice. Source gaps and unresolved interpretations require qualified review.",
 "back": "Back to search",
@@ -327,7 +330,7 @@ var I18N = {
 "submitBtn": "Auswertung starten",
 "samples": "Beispiele:",
 "howTitle": "So funktioniert die Auswertung:",
-"howBody": "Adresse w\u00e4hlen oder frei eingeben (ID z. B. A0001). Census-Geocoding bestimmt Bundesstaat und rechtliche Stadt (Postleitzahl-Stadt allein z\u00e4hlt nicht). Die Engine filtert Vorschriften nach Jurisdiktion und pr\u00fcft Stichtag, Status, Deckung und Ausnahmen. Die Ergebnistabelle zeigt pro Regel den Originalbeleg (Dokument-ID und Zitat). Alle Daten kommen live aus der Engine (/api/lookup), keine Demonstrationsdaten.",
+"howBody": "Adresse w\u00e4hlen oder frei eingeben (ID z. B. A0001). Census-Geocoding bestimmt Bundesstaat und rechtliche Stadt (Postleitzahl-Stadt allein z\u00e4hlt nicht). Die Engine filtert Vorschriften nach Jurisdiktion und pr\u00fcft Stichtag, Status, Deckung und Ausnahmen. Die Ergebnistabelle zeigt pro Regel den Originalbeleg (Dokument-ID und Zitat). Ergebnisse stammen aus der Engine: live ausgewertet oder aus einem gespeicherten Export zum angezeigten Stichtag.",
 "legalNote": "Rechtstexte nur im Original (EN).",
 "footer": "Keine Rechtsberatung. Quellenl\u00fccken und ungekl\u00e4rte Auslegungen erfordern fachkundige Pr\u00fcfung.",
 "back": "Zur\u00fcck zur Suche",
@@ -360,7 +363,7 @@ var I18N = {
 "submitBtn": "Iniciar evaluaci\u00f3n",
 "samples": "Ejemplos:",
 "howTitle": "C\u00f3mo funciona la evaluaci\u00f3n:",
-"howBody": "Elija una direcci\u00f3n o escr\u00edbala libremente (ID p. ej. A0001). La geocodificaci\u00f3n del censo determina el estado y la ciudad legal (la ciudad del c\u00f3digo postal por s\u00ed sola no cuenta). El motor filtra las normas por jurisdicci\u00f3n y verifica fecha de referencia, estado, cobertura y exenciones. La tabla de resultados muestra la fuente original por norma (ID de documento y cita). Todos los datos provienen en vivo del motor (/api/lookup), sin datos de demostraci\u00f3n.",
+"howBody": "Elija una direcci\u00f3n o escr\u00edbala libremente (ID p. ej. A0001). La geocodificaci\u00f3n del censo determina el estado y la ciudad legal (la ciudad del c\u00f3digo postal por s\u00ed sola no cuenta). El motor filtra las normas por jurisdicci\u00f3n y verifica fecha de referencia, estado, cobertura y exenciones. La tabla de resultados muestra la fuente original por norma (ID de documento y cita). Los resultados proceden del motor, calculados en vivo o cargados desde una exportaci\u00f3n guardada para la fecha mostrada.",
 "legalNote": "Textos jur\u00eddicos solo en el original (EN).",
 "footer": "No es asesoramiento legal. Las lagunas de fuentes y las interpretaciones no resueltas requieren revisi\u00f3n calificada.",
 "back": "Volver a la b\u00fasqueda",
