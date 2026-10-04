@@ -14,6 +14,14 @@ class TestAuditRegression(unittest.TestCase):
         rules = json.loads((ROOT / 'data' / 'rules.json').read_text())
         bad = [x.get('team_rule_id') for x in rules if isinstance(x.get('logic'), dict) and x['logic'].get('coverage') is True]
         self.assertEqual(bad, [])
+    def test_unknown_jurisdiction_has_actionable_review(self):
+        from navigator.engine import evaluate_rule
+        rules = json.loads((ROOT / 'data/rules.json').read_text())
+        rule = next(r for r in rules if r['team_rule_id'] == 'D083-r002')
+        decision = evaluate_rule(rule, {}, '2026-10-01')
+        self.assertEqual(decision['result'], 'unknown')
+        self.assertTrue(decision['targeted_questions'] or decision['review_required'])
+
     def test_d022_unverified_commencement_blocks_applies(self):
         from navigator.engine import evaluate_rule
         rules = json.loads((ROOT / 'data/rules.json').read_text())

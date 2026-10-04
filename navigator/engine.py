@@ -393,6 +393,7 @@ def evaluate_rule(rule, facts, as_of="2026-10-01"):
         if clock["terminal"] == "ended":
             return assemble(None, "Rule ended before the query date.", set(), None, "ended")
         temporal = "unknown" if clock["timing_unknown"] else clock["temporal_state"]
+        review.append("Verify the address jurisdiction using authoritative geocoding before evaluating this rule.")
         return assemble("unknown", "Legal jurisdiction has not been established.", set(coverage_gaps + exemption_gaps), None, temporal)
     condition, needs = evaluate_condition(coverage, facts, trace)
     exempt, exemption_needs = evaluate_condition(exemptions, facts, trace)
