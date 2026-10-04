@@ -1918,7 +1918,12 @@
    "units",
    "unit_count",
    "use_code",
-   "use_description"
+   "use_description",
+   "is_residential_property",
+   "property_type",
+   "property_type_is_residential_rental",
+   "rental_property_type",
+   "is_mobilehome"
   ]
  }
 }

@@ -16,6 +16,27 @@ def select_rules(rules, ids):
     return selected,missing
 
 
+T1_SB763_NOTE = (' SB 763: no verified statutory source text in the supplied corpus'
+                 ' (unresolved_source_gap); open research_task: procure the authoritative'
+                 ' SB 763 text and map its coverage separately.'
+                 ' The CA-ALG-01 alias currently covers only AB 325 (D022-r001, Chapter 338).')
+T1_FAILCLOSED_NOTE = (' T1 fail-closed: jurisdiction is established and the mapped AB 325 rule'
+                      ' is in force after 2026-01-01; only missing documented property facts'
+                      ' (e.g. algorithm_used_*) prevent applies, so unknown plus'
+                      ' hypothetically_affected is the honest result and the'
+                      ' not_yet_effective-to-unknown flip demonstrates the law took effect;'
+                      ' it never promotes unknown to applies.')
+
+
+def _t1_notes(case, affected, hypothetical):
+    if case.get('test_id') != 'T1':
+        return ''
+    parts = [T1_SB763_NOTE]
+    if not affected and hypothetical:
+        parts.append(T1_FAILCLOSED_NOTE)
+    return ''.join(parts)
+
+
 def evaluate_changes(rules, addresses, tests=None):
     if tests is None:
         default_path = ROOT/'participant-final-no-hour16 3/dev/change_tests.json'
@@ -58,11 +79,13 @@ def evaluate_changes(rules, addresses, tests=None):
             records.append({'address_id':address['address_id'],'snapshots':snapshots,'geography_status':geo['status']})
         negative_empty=case.get('type')=='negative' and not selected
         status=('correctly_empty' if negative_empty else 'incomplete') if missing else ('evaluated_with_geographic_gaps' if unresolved else 'evaluated')
+        base_notes = ('Referenzierte Maßnahme ist gescheitert/ohne Rechtswirkung; leere Treffermenge ist das erwartete Ergebnis. ' if negative_empty else '')+'Evaluated using extracted rules and the same deterministic engine. Pending impact is hypothetical. hypothetically_affected means: jurisdiction established and rule in force, decision unknown only for lack of documented property facts (no jurisdiction, timing, or source gap); it never promotes unknown to applies. Missing rules do not imply absence of legal duties. Unresolved addresses lack a verified geocoded jurisdiction and are excluded from the affected count (never counted as affected, even for pending).'
+        base_notes += _t1_notes(case, affected, hypothetical)
         result[case['test_id']]={'title':case['title'],'affected_address_ids':affected,
              'conflict_flag_address_ids':flagged,'unresolved_address_ids':unresolved,
              'hypothetically_affected_address_ids':hypothetical,
              'missing_rule_ids':missing,'status':status,
-             'notes':('Referenzierte Maßnahme ist gescheitert/ohne Rechtswirkung; leere Treffermenge ist das erwartete Ergebnis. ' if negative_empty else '')+'Evaluated using extracted rules and the same deterministic engine. Pending impact is hypothetical. hypothetically_affected means: jurisdiction established and rule in force, decision unknown only for lack of documented property facts (no jurisdiction, timing, or source gap); it never promotes unknown to applies. Missing rules do not imply absence of legal duties. Unresolved addresses lack a verified geocoded jurisdiction and are excluded from the affected count (never counted as affected, even for pending).',
+             'notes': base_notes,
             'comparisons':records,'disclaimer':'Not legal advice.'}
     return result
 

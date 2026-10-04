@@ -121,3 +121,13 @@ Anlass: Voll-Re-Verifikation aller 10 Punkte nach Gate-Verifizierer-Fixes (ROOT-
 - P10 bestanden (alle 5 Faelle protokollkonform; Befund P10-B1 umgesetzt: id-Schema wirft ValueError mit Hinweis statt KeyError; Notiz P10-B2: T3-unresolved-Zaehler enthaelt Fakt-Unknowns — Statusname uebertreibt Geo-Anteil, keine falsche Zaehlung).
 - Folgefunde umgesetzt (nur eigene Dateien): navigator/engine.py (P8-B1), navigator/changes.py (P10-B1), tests/test_iteration8.py (3 Tests: D084-r001-applies mit Quartett+Formel 2,4 %, Exemption-vs-Coverage, ValueError-Hint). Export-Drift 0 (verify_quotes 177/177, unknown_noq patterns 0, export_stats identisch: 24.970 Decisions, 0 leere Adressen). Suite-ausschnitt 66 passed + 218 Subtests (iteration8/engine/redteam/fact_vocabulary).
 - Freigabe: 10/10 — TEST BESTANDEN (Export-SHA d33244a8, 177 Regeln, 500 Adressen, Datum 2026-10-04). Rest-Backlog (keine Gate-Verstoesse): T1/T2-Beschaffung (Nutzerentscheidung), beendete-Regeln-Sichtbarkeit, regel­spezifische Fragetexte, failed-Rule-Unit-Test, T3-Statusname. Demo-Track gehoert der Parallel-Session (fremde Dateien nicht angefasst).
+
+## Iteration 9 (Goal-Runde, 2026-10-04, T1-Alias + SB763/Fail-closed-Doku, Export-SHA 3fa123cf)
+
+Anlass: T1-Audit (CA-ALG-01-Alias auf D022-r001) freigegeben mit zwei Doku-Auflagen; keine Engine-Logikaenderung.
+
+- Fix: challenge_alias CA-ALG-01 auf D022-r001 (AB 325, Chapter 338, Zitat BPC 16729(a)/(b) belegt); T1 meldet missing [], hypothetisch 248, unresolved 256 (8 Geo-unresolved korrekt ausgeschlossen).
+- Fix: T1-Notes dokumentieren SB 763 als unresolved_source_gap mit research_task (kein erfundener Regeltext; Alias deckt nur AB 325) plus Fail-closed-Satz (Jurisdiktion steht, Regel ab 2026-01-01 in Kraft, nur Objektfakten fehlen; not_yet_effective-zu-unknown-Kippung belegt Inkrafttreten; never promotes unknown to applies). Regression: tests/test_t1_notes.py (2 Tests).
+- Re-Export: 177 Regeln, 500 Adressen, 24.970 Decisions (unknown 24.181 / applies 240 D024-r009 / does_not_apply 151 / not_yet_effective 139 / pending 259), 0 fraglose Unknowns, 0 Adressen ohne Entscheidungen. SHA 3fa123cfe9f0b9c427394994ffe767e1776c9b63fba88665a27b0b24e303d070.
+- Verifikation (3 frische read-only Pruefer): Gates (quotes 177/177, unknown_noq 0, export_stats ok, SHA-Recompute MATCH) bestanden; T1-T5 (T1 mit SB763+Fail-closed-Notes, T2 incomplete HOB/JC, T3 hyp 139, T4 105 pending, T5 correctly_empty) erfuellt; Engine (65 passed + 223 Subtests, 3 Adversarial-Proben) PASS.
+- Restluecken (keine Gate-Verstoesse): T2-Beschaffung (HOB-ALG-01, JC-ALG-01) braucht Nutzerentscheidung; Demo-Track-Fehler der parallelen Session (web/*) nicht angefasst. Goal bleibt aktiv.

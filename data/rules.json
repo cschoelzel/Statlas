@@ -3479,6 +3479,7 @@
   ],
   "team_rule_id": "D022-r001",
   "source_doc_id": "D022",
+  "challenge_aliases": ["CA-ALG-01"],
   "source_url": "https://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260AB325",
   "retrieved_at": "2026-10-01T22:35Z",
   "query_date": "2026-10-01",

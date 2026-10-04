@@ -59,6 +59,22 @@ def resolve_address(address, facts=None, geography_path=None):
         result['fact_provenance']['unit_count'] = {
             'source': address.get('source_dataset'), 'retrieved_at': address.get('retrieved_at'),
             'status': 'derived_alias_of_units_unverified'}
+    # Ehrliche Wohn-Facts aus use_code/use_description (parcel_facts.py):
+    # nur positive Allowlist-Facts, unverified, kein Raten von Exemptions/COO.
+    # Versorgte Facts: 'is_residential_property', 'property_type',
+    # 'property_type_is_residential_rental', 'rental_property_type', 'is_mobilehome'.
+    # 'unit_type' bewusst ausgenommen (Vokabular-Mix in Regeln, siehe parcel_facts.py).
+    try:
+        from navigator.parcel_facts import derive_parcel_facts as _derive_parcel
+        for _k, _v in _derive_parcel(address, result['facts']).items():
+            if _k not in result['facts']:
+                result['facts'][_k] = _v
+                result['fact_provenance'][_k] = {
+                    'source': address.get('source_dataset'),
+                    'retrieved_at': address.get('retrieved_at'),
+                    'status': 'derived_from_use_code_unverified'}
+    except ImportError:
+        pass
     if address.get('state'):
         result['fact_provenance']['supplied_state'] = {
             'source': address.get('source_dataset'), 'status': 'supplied_dataset_unverified',
