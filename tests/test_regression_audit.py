@@ -14,6 +14,17 @@ class TestAuditRegression(unittest.TestCase):
         rules = json.loads((ROOT / 'data' / 'rules.json').read_text())
         bad = [x.get('team_rule_id') for x in rules if isinstance(x.get('logic'), dict) and x['logic'].get('coverage') is True]
         self.assertEqual(bad, [])
+    def test_d022_unverified_commencement_blocks_applies(self):
+        from navigator.engine import evaluate_rule
+        rules = json.loads((ROOT / 'data/rules.json').read_text())
+        rule = next(r for r in rules if r['team_rule_id'] == 'D022-r001')
+        facts = {'state': 'CA', 'algorithm_used_as_part_of_contract_combination_or_conspiracy': True}
+        for date in ('2025-12-31', '2026-01-02'):
+            decision = evaluate_rule(rule, facts, date)
+            self.assertEqual(decision['result'], 'unknown')
+            self.assertIn('effective_date', decision['missing_facts'])
+            self.assertTrue(decision['targeted_questions'])
+
     def test_negative_change_requires_recorded_failed_measure(self):
         from navigator.changes import evaluate_changes
         case = {'test_id': 'T5', 'title': 'Failed rent-control ballot',
