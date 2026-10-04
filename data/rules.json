@@ -15948,7 +15948,8 @@
    "quoted_span": "Allowable Rent Increase:\n1.6% for March 1, 2026 – February 28, 2027",
    "retrieved_at": "2026-10-01T22:37Z",
    "original_file": "data/sources/originals/764e9e3a023bd434458dfea8ffbb57e57d23e5f0a4939cc10948b9e495034d2f.txt"
-  }
+  },
+  "research_task": "SF Rent Ordinance (Admin. Code Ch. 37) pruefen: welche Units unter SF Rent Control fallen (Baujahr-/Certificate-of-Occupancy-Stichtag, Unit-Anzahl, Owner-Typ, Ausnahmen). D083-Korpus enthaelt keinen Scope-Satz; dann Leaf durch unit_type=rent_controlled plus belegte Exemptions ersetzen."
  },
  {
   "jurisdiction": "San Francisco, CA",
@@ -15995,7 +15996,20 @@
      }
     ]
    },
-   "exemptions": false
+   "exemptions": false,
+   "formula": {
+    "op": "mul",
+    "args": [
+     {
+      "fact": "security_deposit_amount",
+      "unit": "USD"
+     },
+     {
+      "value": 0.042,
+      "unit": "scalar"
+     }
+    ]
+   }
   },
   "field_evidence": [
    {
@@ -16009,6 +16023,24 @@
     "quoted_span": "For March 1, 2026 - February 28, 2027",
     "start_char": 308,
     "end_char": 345
+   },
+   {
+    "field": "key_value",
+    "quoted_span": "4.2% for March 1, 2026 – February 28, 2027",
+    "start_char": 441,
+    "end_char": 483
+   },
+   {
+    "field": "logic.formula",
+    "quoted_span": "Security Deposit Interest:\n4.2% for March 1, 2026 – February 28, 2027",
+    "start_char": 414,
+    "end_char": 483
+   },
+   {
+    "field": "logic.coverage.period_start_date",
+    "quoted_span": "March 1, 2026 – February 28, 2027\n4.2%",
+    "start_char": 1032,
+    "end_char": 1070
    }
   ],
   "evidence_gaps": [
@@ -16059,9 +16091,19 @@
       "value": "Santa Ana"
      },
      {
-      "fact": "unresolved_annual_rent_increase_D084",
+      "fact": "rent_increase_planned",
       "op": "eq",
       "value": true
+     },
+     {
+      "fact": "lease_renewal_or_increase_date",
+      "op": "gte",
+      "value": "2026-09-01"
+     },
+     {
+      "fact": "lease_renewal_or_increase_date",
+      "op": "lte",
+      "value": "2027-08-31"
      }
     ]
    },
@@ -16097,6 +16139,12 @@
     "end_char": 1079
    },
    {
+    "field": "coverage_conditions",
+    "quoted_span": "Your landlord can only raise your rent by a certain amount each year.",
+    "start_char": 885,
+    "end_char": 954
+   },
+   {
     "field": "effective_date",
     "quoted_span": "2.87 percent is the maximum allowable rent increase for the period of September 1, 2026 through August 31, 2027.",
     "start_char": 619,
@@ -16107,16 +16155,9 @@
     "quoted_span": "Current Maximum Allowable Rent Increase",
     "start_char": 579,
     "end_char": 618
-   },
-   {
-    "field": "coverage_conditions",
-    "quoted_span": "Your landlord can only raise your rent by a certain amount each year."
    }
   ],
-  "evidence_gaps": [
-   "coverage_conditions",
-   "formula"
-  ],
+  "evidence_gaps": [],
   "team_rule_id": "D084-r001",
   "source_doc_id": "D084",
   "source_url": "https://santa-ana.gov/departments/rent-stabilization",
@@ -16304,7 +16345,8 @@
    "quoted_span": "If your landlord evicts you for certain reasons, they might have to help pay for your moving costs.",
    "retrieved_at": "2026-10-01T22:37Z",
    "original_file": "data/sources/originals/fc10720530c3f1eeb733fe7954d39b62ad374c8d954053c61dea0a89444f08b3.txt"
-  }
+  },
+  "research_task": "Santa Ana Rent Stabilization and Just Cause Eviction Ordinance (Volltext, Read the Ordinance): aufzahlen, welche Kuendigungsgruende Relocation-/Moving-Cost-Beihilfe ausloesen (certain reasons im Quellsatz 1315-1414). Nicht aus r002-Gruenden ableiten."
  },
  {
   "jurisdiction": "Santa Ana, CA",

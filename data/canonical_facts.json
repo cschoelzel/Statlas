@@ -1808,11 +1808,6 @@
    "example_rule": "D042-r004",
    "occurrences": 1
   },
-  "unresolved_annual_rent_increase_D084": {
-   "rules_count": 1,
-   "example_rule": "D084-r001",
-   "occurrences": 1
-  },
   "unresolved_relocation_trigger_reason_D084": {
    "rules_count": 1,
    "example_rule": "D084-r003",
@@ -1841,6 +1836,11 @@
   "government_affordability_controls_action": {
    "rules_count": 1,
    "example_rule": "D069-r001",
+   "occurrences": 1
+  },
+  "security_deposit_amount": {
+   "rules_count": 1,
+   "example_rule": "D083-r002",
    "occurrences": 1
   }
  },
