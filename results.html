@@ -1,0 +1,426 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Rental Housing Law Navigator — Auswertung</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; }
+    body { background: #ffffff; color: #000000; padding: 24px; line-height: 1.4; }
+    .container { max-width: 1400px; margin: 0 auto; }
+    header { border-bottom: 2px solid #000000; padding-bottom: 16px; margin-bottom: 24px; display: flex; justify-content: space-between; align-items: flex-start; flex-wrap: wrap; gap: 16px; }
+    .nav-back { display: inline-block; text-decoration: none; color: #000000; font-weight: 600; font-size: 14px; border: 1px solid #000000; padding: 8px 14px; margin-bottom: 12px; }
+    .nav-back:hover { background: #000000; color: #ffffff; }
+    h1 { font-size: 24px; font-weight: 700; letter-spacing: -0.5px; }
+    .meta-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 12px; background: #fbfbfb; border: 1px solid #000000; padding: 16px; margin-bottom: 24px; }
+    .meta-item { font-size: 13px; }
+    .meta-label { font-size: 11px; text-transform: uppercase; letter-spacing: 0.5px; color: #555555; margin-bottom: 2px; }
+    .meta-value { font-weight: 600; color: #000000; }
+    .stats-bar { display: flex; gap: 16px; margin-bottom: 16px; flex-wrap: wrap; }
+    .stat-badge { border: 1px solid #000000; padding: 6px 12px; font-size: 13px; font-weight: 600; }
+    .controls { display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 12px; margin-bottom: 16px; }
+    .filter-group { display: flex; gap: 6px; flex-wrap: wrap; }
+    .filter-btn { background: #ffffff; color: #000000; border: 1px solid #000000; padding: 6px 12px; font-size: 13px; cursor: pointer; font-weight: 500; }
+    .filter-btn.active { background: #000000; color: #ffffff; }
+    .search-filter { padding: 6px 10px; font-size: 13px; border: 1px solid #000000; min-width: 240px; outline: none; }
+    table { width: 100%; border-collapse: collapse; border: 1px solid #000000; font-size: 13px; margin-bottom: 32px; }
+    th { background: #000000; color: #ffffff; text-align: left; padding: 10px 12px; font-weight: 600; border: 1px solid #000000; }
+    td { padding: 10px 12px; border: 1px solid #e0e0e0; vertical-align: top; }
+    tr:nth-child(even) td { background: #fafafa; }
+    tr:hover td { background: #f0f0f0; }
+    .badge { display: inline-block; padding: 2px 6px; font-size: 11px; font-weight: 700; text-transform: uppercase; border: 1px solid #000000; letter-spacing: 0.5px; }
+    .badge-applies { background: #000000; color: #ffffff; }
+    .badge-unknown { background: #ffffff; color: #000000; border: 1px dashed #000000; }
+    .badge-superseded { background: #eeeeee; color: #777777; border-color: #cccccc; text-decoration: line-through; }
+    .badge-future { background: #ffffff; color: #000000; border: 1px dotted #000000; }
+    .badge-other { background: #f5f5f5; color: #888888; border-color: #cccccc; }
+    .rule-title { font-weight: 600; margin-bottom: 4px; }
+    .rule-req { color: #333333; margin-bottom: 6px; }
+    .questions-box { margin-top: 6px; padding: 6px 8px; border-left: 2px solid #000000; background: #f4f4f4; font-size: 12px; }
+    .questions-box strong { display: block; margin-bottom: 2px; }
+    .source-link { color: #000000; text-decoration: underline; word-break: break-all; }
+    .key-value { font-family: ui-monospace, SFMono-Regular, Consolas, monospace; font-weight: 600; }
+    .section-title { font-size: 18px; font-weight: 700; margin-top: 32px; margin-bottom: 12px; border-bottom: 1px solid #000000; padding-bottom: 4px; }
+    .disclaimer { border: 1px solid #000000; padding: 12px 16px; font-size: 12px; color: #444444; margin-top: 32px; }
+    .loading { text-align: center; padding: 64px 0; font-size: 16px; }
+    .error { border: 2px solid #000000; padding: 24px; margin: 32px 0; background: #fafafa; }
+  </style>
+</head>
+<body style="position: relative;">
+  <div id="lang-toggle" style="position: absolute; top: 16px; right: 20px; font-size: 13px; font-weight: 600; z-index: 5;">
+    <button type="button" data-lang-btn="en" style="width:auto;padding:4px 8px;border:1px solid #000;font-weight:600;cursor:pointer;background:#fff;color:#000;" aria-label="English">EN</button><span style="color:#888;"> | </span><button type="button" data-lang-btn="de" style="width:auto;padding:4px 8px;border:1px solid #000;font-weight:600;cursor:pointer;background:#fff;color:#000;" aria-label="Deutsch">DE</button><span style="color:#888;"> | </span><button type="button" data-lang-btn="es" style="width:auto;padding:4px 8px;border:1px solid #000;font-weight:600;cursor:pointer;background:#fff;color:#000;" aria-label="Espanol">ES</button>
+  </div>
+  <div class="container">
+    <a href="/" class="nav-back" data-i18n="back">Back to search</a>
+    <header>
+      <div>
+        <h1 id="page-title">Auswertung Mietrecht</h1>
+        <div id="subtitle" style="font-size: 14px; color: #555555; margin-top: 4px;">Wird geladen...</div>
+      </div>
+      <div id="as-of-badge" class="stat-badge">As of: --</div>
+    </header>
+    <div id="loading-state" class="loading">Lade Vorschriften und Adressdaten...</div>
+    <div id="error-state" class="error" style="display: none;"></div>
+    <div id="content-state" style="display: none;">
+      <div class="meta-grid" id="meta-grid"></div>
+      <div class="stats-bar" id="stats-bar"></div>
+      <div id="conflict-banner" style="display: none; border: 2px solid #000000; padding: 10px 14px; font-size: 13px; font-weight: 600; margin-bottom: 16px;"></div>
+      <div class="controls">
+        <div class="filter-group" id="status-filters">
+          <button class="filter-btn active" onclick="setStatusFilter('all', this)"><span data-i18n="fAll">All</span> (<span id="count-all">0</span>)</button>
+          <button class="filter-btn" onclick="setStatusFilter('applies', this)"><span data-i18n="fApplies">Applies</span> (<span id="count-applies">0</span>)</button>
+          <button class="filter-btn" onclick="setStatusFilter('unknown', this)"><span data-i18n="fUnknown">Unclear / review needed</span> (<span id="count-unknown">0</span>)</button>
+          <button class="filter-btn" onclick="setStatusFilter('superseded', this)"><span data-i18n="fSup">Superseded / not applicable</span> (<span id="count-other">0</span>)</button>
+          <button class="filter-btn" onclick="setStatusFilter('pending', this)"><span data-i18n="fPending">Pending / future</span> (<span id="count-pending">0</span>)</button>
+        </div>
+        <input type="text" id="table-search" class="search-filter" data-i18n-ph="filterPh" placeholder="Filter table (text, category, citation)..." " oninput="renderTable()">
+      </div>
+      <table>
+        <thead>
+          <tr>
+            <th style="width: 110px;" data-i18n="thStatus">Status</th>
+            <th style="width: 150px;" data-i18n="thLevel">Level / place</th>
+            <th style="width: 160px;" data-i18n="thCat">Category</th>
+            <th data-i18n="thRule">Rule and requirement</th>
+            <th style="width: 160px;" data-i18n="thKey">Key value</th>
+            <th style="width: 220px;" data-i18n="thSource">Source and citation</th>
+          </tr>
+        </thead>
+        <tbody id="rules-tbody"></tbody>
+      </table>
+      <div id="questions-section" style="display: none;">
+        <h2 class="section-title" data-i18n="openQ">Open check questions for fact clarification</h2>
+        <table style="margin-top: 12px;">
+          <thead>
+            <tr>
+              <th style="width: 180px;">Fakt / Parameter</th>
+              <th>Prüffrage</th>
+              <th style="width: 240px;">Betroffene Vorschriften</th>
+            </tr>
+          </thead>
+          <tbody id="questions-tbody"></tbody>
+        </table>
+      </div>
+      <div style="font-size: 12px; color: #666; margin-top: 16px;" data-i18n="legalNoteRes">Legal texts shown in original (EN) only.</div><div class="disclaimer" id="disclaimer-box"></div>
+    </div>
+  </div>
+  <script>
+    let currentData = null;
+    let currentStatusFilter = 'all';
+    const urlParams = new URLSearchParams(window.location.search);
+    let query = urlParams.get('q') || 'A0001';
+    let asOf = urlParams.get('as_of') || '2026-10-01';
+    let addressId = query.split(' ')[0].trim();
+    fetch('/api/lookup', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ address_id: addressId, as_of: asOf })
+    })
+    .then(async r => {
+      if (!r.ok) {
+        const err = await r.json().catch(() => ({ error: 'Netzwerkfehler' }));
+        throw new Error(err.error || ('HTTP Fehler ' + r.status));
+      }
+      return r.json();
+    })
+    .then(data => { currentData = data; renderAll(); })
+    .catch(() => fetch("data/" + encodeURIComponent(addressId) + ".json").then(r => {
+      if (!r.ok) throw new Error("Static-Demo nicht gefunden");
+      return r.json();
+    }).then(data => { currentData = data; renderAll(); }))
+    .catch(err => {
+      document.getElementById('loading-state').style.display = 'none';
+      const errBox = document.getElementById('error-state');
+      errBox.style.display = 'block';
+      let hint = '';
+      if (window.location.protocol === 'file:') {
+        hint = '<br><br>Diese Seite wurde direkt als Datei geoeffnet und kann den Server nicht erreichen. Bitte ueber den Server nutzen: <strong>http://127.0.0.1:8765</strong> (Start: <strong>python3 -m navigator.app serve</strong> im Projektordner).';
+      } else if (err instanceof TypeError) {
+        hint = '<br><br>Der Server antwortet nicht. Bitte starten: <strong>python3 -m navigator.app serve</strong> im Projektordner, dann http://127.0.0.1:8765 oeffnen.';
+      }
+      errBox.innerHTML = '<strong>Fehler bei der Abfrage:</strong> ' + err.message + hint + '<br><br><a href="/" style="color: #000000; font-weight: 600;">Zurück zur Suche</a>';
+    });
+    function setStatusFilter(status, el) {
+      currentStatusFilter = status;
+      document.querySelectorAll('#status-filters .filter-btn').forEach(btn => btn.classList.remove('active'));
+      if (el) el.classList.add('active');
+      renderTable();
+    }
+    function renderAll() {
+      document.getElementById('loading-state').style.display = 'none';
+      document.getElementById('content-state').style.display = 'block';
+      const addr = currentData.address || {};
+      const geo = currentData.geography || {};
+      const decisions = currentData.decisions || [];
+      document.getElementById('page-title').textContent = (addr.street || 'Adresse') + ', ' + (addr.city || '') + ' ' + (addr.state || '');
+      document.getElementById('subtitle').textContent = 'ID: ' + (addr.address_id || addressId) + ' | Census-Status: ' + (geo.status || 'unbekannt');
+      document.getElementById('as-of-badge').textContent = (typeof t === 'function' ? t('asOf') : 'Stichtag: ') + currentData.as_of;
+      const meta = [
+        { label: 'Adresse ID', val: addr.address_id || '-' },
+        { label: 'Straße', val: addr.street || '-' },
+        { label: 'Stadt / Ort', val: addr.city || '-' },
+        { label: 'Bundesstaat', val: addr.state || '-' },
+        { label: 'PLZ (ZIP)', val: addr.zip || '-' },
+        { label: 'Rechtliche Jurisdiktion', val: geo.legal_city || geo.jurisdiction || addr.city || '-' },
+        { label: 'Wohneinheiten (Units)', val: addr.units !== undefined ? addr.units : 'unbekannt' },
+        { label: 'Baujahr (Year Built)', val: addr.year_built !== undefined ? addr.year_built : 'unbekannt' },
+        { label: 'Eigentümertyp', val: addr.owner_type || 'unbekannt' },
+        { label: 'Census Tract', val: geo.census_tract || geo.tract || 'unbekannt' }
+      ];
+      document.getElementById('meta-grid').innerHTML = meta.map(m => '<div class="meta-item"><div class="meta-label">' + m.label + '</div><div class="meta-value">' + m.val + '</div></div>').join('');
+      const appliesCount = decisions.filter(d => d.result === 'applies').length;
+      const unknownCount = decisions.filter(d => d.result === 'unknown').length;
+      const pendingCount = decisions.filter(d => ['pending', 'not_yet_effective', 'future_effective'].includes(d.result)).length;
+      const supersededCount = decisions.filter(d => ['superseded', 'not_applicable', 'repealed_or_expired', 'does_not_apply', 'failed'].includes(d.result)).length;
+      document.getElementById('count-all').textContent = decisions.length;
+      document.getElementById('count-applies').textContent = appliesCount;
+      document.getElementById('count-unknown').textContent = unknownCount;
+      document.getElementById('count-other').textContent = supersededCount;
+      document.getElementById('count-pending').textContent = pendingCount;
+      document.getElementById('stats-bar').innerHTML = '<div class="stat-badge">' + (typeof t === 'function' ? t('statValid') : 'Gültige Vorschriften: ') + '' + appliesCount + '</div><div class="stat-badge">' + (typeof t === 'function' ? t('statOpen') : 'Prüfung offen: ') + '' + unknownCount + '</div><div class="stat-badge">' + (typeof t === 'function' ? t('statPending') : 'Anhängig / Zukünftig: ') + '' + pendingCount + '</div><div class="stat-badge">' + (typeof t === 'function' ? t('statSup') : 'Verdrängt / Nicht aktiv: ') + '' + supersededCount + '</div><div class="stat-badge">' + (typeof t === 'function' ? t('statTotal') : 'Gesamte erfasste Regeln: ') + '' + decisions.length + '</div>';
+      const questions = currentData.questions || [];
+      if (questions.length > 0) {
+        document.getElementById('questions-section').style.display = 'block';
+        document.getElementById('questions-tbody').innerHTML = questions.map(q => '<tr><td><strong>' + (q.fact || '-') + '</strong></td><td>' + (q.question || q.prompt || '-') + '</td><td>' + ((q.citations || []).join(', ') || (q.rule_ids || []).join(', ')) + '</td></tr>').join('');
+      }
+      document.getElementById('disclaimer-box').textContent = currentData.disclaimer || 'Not legal advice.';
+      renderTable();
+    }
+    function afterLangChange() { if (currentData) { renderAll(); } }
+    function renderTable() {
+      const decisions = currentData.decisions || [];
+      const filterText = (document.getElementById('table-search').value || '').toLowerCase();
+      const filtered = decisions.filter(d => {
+        if (currentStatusFilter === 'applies' && d.result !== 'applies') return false;
+        if (currentStatusFilter === 'unknown' && d.result !== 'unknown') return false;
+        if (currentStatusFilter === 'pending' && !['pending', 'not_yet_effective', 'future_effective'].includes(d.result)) return false;
+        if (currentStatusFilter === 'superseded' && !['superseded', 'not_applicable', 'repealed_or_expired', 'does_not_apply', 'failed'].includes(d.result)) return false;
+        if (!filterText) return true;
+        const rule = d.rule || {};
+        const haystack = [d.result, rule.title, rule.requirement, rule.category, rule.jurisdiction, rule.level, rule.citation, rule.key_value, d.computed_value, rule.source_doc_id].join(' ').toLowerCase();
+        return haystack.includes(filterText);
+      });
+      const statusMap = {
+        'applies': { label: 'GILT', cls: 'badge-applies' },
+        'unknown': { label: 'UNKLAR', cls: 'badge-unknown' },
+        'superseded': { label: 'VERDRÄNGT', cls: 'badge-superseded' },
+        'future_effective': { label: 'ZUKÜNFTIG', cls: 'badge-future' },
+        'pending': { label: 'ANHÄNGIG', cls: 'badge-future' },
+        'not_yet_effective': { label: 'NOCH NICHT IN KRAFT', cls: 'badge-future' },
+        'does_not_apply': { label: 'GREIFT NICHT', cls: 'badge-other' },
+        'failed': { label: 'GESCHEITERT', cls: 'badge-other' },
+        'repealed_or_expired': { label: 'AUFGEHOBEN', cls: 'badge-other' },
+        'not_applicable': { label: 'NICHT ANWENDBAR', cls: 'badge-other' }
+      };
+      const categoryMap = {
+        'rent_increase_cap': 'Mietobergrenze',
+        'just_cause_eviction': 'Kündigungsschutz',
+        'security_deposit': 'Kaution',
+        'notice_period': 'Kündigungsfrist',
+        'lease_renewal': 'Vertragsverlängerung',
+        'algorithmic_devices': 'Preissetzungs-Algorithmen',
+        'code_compliance': 'Wohnungsstandards',
+        'retaliation_protection': 'Schutz vor Vergeltung'
+      };
+      const tbody = document.getElementById('rules-tbody');
+      if (filtered.length === 0) {
+        tbody.innerHTML = '<tr><td colspan="6" style="text-align: center; padding: 24px;">' + (typeof t === 'function' ? t('emptyMsg') : 'Keine Vorschriften für diese Filterauswahl gefunden.') + '</td></tr>';
+        return;
+      }
+      const allDec = currentData.decisions || currentData.rules || filtered;
+      const conflicts = allDec.filter(function(x) { return x.conflict_flag; });
+      const cb = document.getElementById('conflict-banner');
+      if (cb) {
+        if (conflicts.length > 0) { cb.style.display = 'block'; cb.textContent = conflicts.length + (typeof t === 'function' ? t('conflictSuffix') : ' Entscheidung(en) mit Konflikt-Flag: moegliche Normenkollision, menschliche Pruefung noetig.'); }
+        else { cb.style.display = 'none'; }
+      }
+      tbody.innerHTML = filtered.map(d => {
+        const rule = d.rule || {};
+        const sInfo = statusMap[d.result] || { label: d.result, cls: 'badge-other' };
+        const evC = d.evidence || {};
+        const quartet = (evC.citation || rule.citation) && (evC.quoted_span || rule.quoted_span) && (evC.source_url || rule.source_url) && (evC.retrieved_at || rule.retrieved_at);
+        let conf = 'mittel', confWhy = 'teilweise belegte Aussage', confCls = 'badge-future';
+        if (d.result === 'unknown') { conf = 'niedrig'; confWhy = 'Fakten oder Quellen offen, siehe Prueffragen'; confCls = 'badge-unknown'; }
+        else if (d.result === 'pending' || d.result === 'not_yet_effective') { conf = 'mittel'; confWhy = 'Zeitstand belegt, Inhalt anhaengig bzw. kuenftig'; }
+        else if (quartet && !(d.review_required && d.review_required.length)) { conf = 'hoch'; confWhy = 'Originalbeleg vollstaendig, kein Review-Bedarf'; confCls = 'badge-applies'; }
+        const confHtml = '<div style="margin-top: 4px;"><span class="badge ' + confCls + '">Vertrauen: ' + conf + '</span><div style="font-size: 11px; color: #666666; margin-top: 2px;">' + confWhy + '</div></div>';
+        const conflictHtml = d.conflict_flag ? '<div style="margin-top: 6px; border: 2px solid #000000; padding: 6px 8px; font-size: 12px; font-weight: 700;">KONFLIKT: moegliche Normenkollision, menschliche Pruefung noetig.</div>' : '';
+        const catLabel = categoryMap[rule.category] || rule.category || '-';
+        const levelJur = (rule.level ? rule.level.toUpperCase() : '') + ': ' + (rule.jurisdiction || '-');
+        let questionsHtml = '';
+        if (d.targeted_questions && d.targeted_questions.length > 0) {
+          questionsHtml = '<div class="questions-box"><strong>Offene Prüfung:</strong>' + d.targeted_questions.map(q => '• ' + (q.question || q.prompt || q.fact)).join('<br>') + '</div>';
+        }
+        let keyVal = d.computed_value || rule.key_value || '-';
+        if (typeof keyVal === 'object') keyVal = JSON.stringify(keyVal);
+        let sourceHtml = '';
+        const ev = d.evidence || {};
+        const srcUrl = ev.source_url || rule.source_url;
+        const cite = ev.citation || rule.citation;
+        const docId = ev.source_doc_id || rule.source_doc_id;
+        const quote = ev.quoted_span || rule.quoted_span;
+        const stripe = ev.retrieved_at || rule.retrieved_at;
+        if (srcUrl) {
+          sourceHtml = '<a href="' + srcUrl + '" target="_blank" class="source-link">' + (cite || docId || 'Quelle') + '</a>';
+        } else {
+          sourceHtml = cite || docId || '-';
+        }
+        if (docId) {
+          sourceHtml += '<div style="font-size: 11px; color: #666666; margin-top: 4px;">Dokument: ' + docId + '</div>';
+        }
+        if (quote) {
+          sourceHtml += '<blockquote style="font-size: 12px; color: #000000; border-left: 2px solid #000000; margin: 6px 0 0 0; padding: 4px 0 4px 8px; white-space: pre-wrap;">Originalbeleg: ' + quote + '</blockquote>';
+        }
+        if (stripe) {
+          sourceHtml += '<div style="font-size: 11px; color: #666666; margin-top: 4px;">Abgerufen: ' + stripe + '</div>';
+        }
+        sourceHtml += '<div style="font-size: 11px; color: #666666; margin-top: 4px;">Datum: ' + (rule.effective_date || 'unbekannt') + ' / Stichtag: ' + currentData.as_of + '</div>';
+        return '<tr>' +
+          '<td><span class="badge ' + sInfo.cls + '">' + sInfo.label + '</span>' + confHtml + '</td>' +
+          '<td>' + levelJur + '</td>' +
+          '<td><strong>' + catLabel + '</strong></td>' +
+          '<td><div class="rule-title">' + (rule.title || '-') + '</div><div class="rule-req">' + (rule.requirement || '-') + '</div>' + (d.explanation ? '<div style="font-size: 12px; color: #555555;">' + d.explanation + '</div>' : '') + questionsHtml + conflictHtml + '</td>' +
+          '<td><span class="key-value">' + keyVal + '</span></td>' +
+          '<td>' + sourceHtml + '</td>' +
+        '</tr>';
+      }).join('');
+    }
+  </script>
+<script>
+var I18N = {
+"en": {
+"subtitle": "Deterministic lookup of applicable rental housing rules.",
+"searchPh": "Enter address or ID (e.g. A0001, Hoboken, Boston)...",
+"submitBtn": "Run evaluation",
+"samples": "Examples:",
+"howTitle": "How the evaluation works:",
+"howBody": "Pick an address or type freely (ID e.g. A0001). Census geocoding determines state and legal city (ZIP city alone does not count). The engine filters rules by jurisdiction and checks as-of date, status, coverage and exemptions. The results table shows the original source per rule (document ID and quote). All data is live from the engine (/api/lookup), no demo data.",
+"legalNote": "Legal texts shown in original (EN) only.",
+"footer": "Not legal advice. Source gaps and unresolved interpretations require qualified review.",
+"back": "Back to search",
+"asOf": "As of: ",
+"fAll": "All",
+"fApplies": "Applies",
+"fUnknown": "Unclear / review needed",
+"fSup": "Superseded / not applicable",
+"fPending": "Pending / future",
+"filterPh": "Filter table (text, category, citation)...",
+"thStatus": "Status",
+"thLevel": "Level / place",
+"thCat": "Category",
+"thRule": "Rule and requirement",
+"thKey": "Key value",
+"thSource": "Source and citation",
+"openQ": "Open check questions for fact clarification",
+"conflictSuffix": " decision(s) with conflict flag: possible rule collision, human review needed.",
+"emptyMsg": "No rules found for this filter selection.",
+"legalNoteRes": "Legal texts shown in original (EN) only.",
+"statValid": "Valid rules: ",
+"statOpen": "Review open: ",
+"statPending": "Pending / future: ",
+"statSup": "Superseded / inactive: ",
+"statTotal": "Total captured rules: "
+},
+"de": {
+"subtitle": "Deterministische Auswertung anwendbarer Mietrechtsvorschriften.",
+"searchPh": "Adresse oder ID eingeben (z. B. A0001, Hoboken, Boston)...",
+"submitBtn": "Auswertung starten",
+"samples": "Beispiele:",
+"howTitle": "So funktioniert die Auswertung:",
+"howBody": "Adresse w\u00e4hlen oder frei eingeben (ID z. B. A0001). Census-Geocoding bestimmt Bundesstaat und rechtliche Stadt (Postleitzahl-Stadt allein z\u00e4hlt nicht). Die Engine filtert Vorschriften nach Jurisdiktion und pr\u00fcft Stichtag, Status, Deckung und Ausnahmen. Die Ergebnistabelle zeigt pro Regel den Originalbeleg (Dokument-ID und Zitat). Alle Daten kommen live aus der Engine (/api/lookup), keine Demonstrationsdaten.",
+"legalNote": "Rechtstexte nur im Original (EN).",
+"footer": "Keine Rechtsberatung. Quellenl\u00fccken und ungekl\u00e4rte Auslegungen erfordern fachkundige Pr\u00fcfung.",
+"back": "Zur\u00fcck zur Suche",
+"asOf": "Stichtag: ",
+"fAll": "Alle",
+"fApplies": "Gilt",
+"fUnknown": "Unklar / Pr\u00fcfung n\u00f6tig",
+"fSup": "Verdr\u00e4ngt / Nicht anwendbar",
+"fPending": "Anh\u00e4ngig / Zuk\u00fcnftig",
+"filterPh": "Tabelle filtern (Text, Kategorie, Zitation)...",
+"thStatus": "Status",
+"thLevel": "Ebene / Ort",
+"thCat": "Kategorie",
+"thRule": "Vorschrift & Anforderung",
+"thKey": "Schl\u00fcsselwert",
+"thSource": "Quelle & Zitation",
+"openQ": "Offene Pr\u00fcffragen f\u00fcr Faktenkl\u00e4rung",
+"conflictSuffix": " Entscheidung(en) mit Konflikt-Flag: m\u00f6gliche Normenkollision, menschliche Pr\u00fcfung n\u00f6tig.",
+"emptyMsg": "Keine Vorschriften f\u00fcr diese Filterauswahl gefunden.",
+"legalNoteRes": "Rechtstexte nur im Original (EN).",
+"statValid": "G\u00fcltige Vorschriften: ",
+"statOpen": "Pr\u00fcfung offen: ",
+"statPending": "Anh\u00e4ngig / Zuk\u00fcnftig: ",
+"statSup": "Verdr\u00e4ngt / Nicht aktiv: ",
+"statTotal": "Gesamte erfasste Regeln: "
+},
+"es": {
+"subtitle": "B\u00fasqueda determinista de las normas de alquiler aplicables.",
+"searchPh": "Ingrese direcci\u00f3n o ID (p. ej., A0001, Hoboken, Boston)...",
+"submitBtn": "Iniciar evaluaci\u00f3n",
+"samples": "Ejemplos:",
+"howTitle": "C\u00f3mo funciona la evaluaci\u00f3n:",
+"howBody": "Elija una direcci\u00f3n o escr\u00edbala libremente (ID p. ej. A0001). La geocodificaci\u00f3n del censo determina el estado y la ciudad legal (la ciudad del c\u00f3digo postal por s\u00ed sola no cuenta). El motor filtra las normas por jurisdicci\u00f3n y verifica fecha de referencia, estado, cobertura y exenciones. La tabla de resultados muestra la fuente original por norma (ID de documento y cita). Todos los datos provienen en vivo del motor (/api/lookup), sin datos de demostraci\u00f3n.",
+"legalNote": "Textos jur\u00eddicos solo en el original (EN).",
+"footer": "No es asesoramiento legal. Las lagunas de fuentes y las interpretaciones no resueltas requieren revisi\u00f3n calificada.",
+"back": "Volver a la b\u00fasqueda",
+"asOf": "Fecha de referencia: ",
+"fAll": "Todos",
+"fApplies": "Aplicable",
+"fUnknown": "Incierto / revisi\u00f3n necesaria",
+"fSup": "Desplazado / no aplicable",
+"fPending": "Pendiente / futuro",
+"filterPh": "Filtrar tabla (texto, categor\u00eda, cita)...",
+"thStatus": "Estado",
+"thLevel": "Nivel / lugar",
+"thCat": "Categor\u00eda",
+"thRule": "Norma y requisito",
+"thKey": "Valor clave",
+"thSource": "Fuente y cita",
+"openQ": "Preguntas abiertas para aclarar hechos",
+"conflictSuffix": " decisi\u00f3n(es) con bandera de conflicto: posible colisi\u00f3n de normas, se necesita revisi\u00f3n humana.",
+"emptyMsg": "No se encontraron normas para esta selecci\u00f3n de filtros.",
+"legalNoteRes": "Textos jur\u00eddicos solo en el original (EN).",
+"statValid": "Normas v\u00e1lidas: ",
+"statOpen": "Revisi\u00f3n abierta: ",
+"statPending": "Pendiente / futuro: ",
+"statSup": "Desplazado / inactivo: ",
+"statTotal": "Normas registradas en total: "
+}
+};
+var RHN_LANG = "en";
+function t(k) { var d = I18N[RHN_LANG] || I18N["en"]; var v = d ? d[k] : undefined; if (v === undefined) { v = I18N["en"][k]; } return (v === undefined) ? "" : v; }
+function applyI18n() {
+  var els = document.querySelectorAll("[data-i18n]");
+  for (var i = 0; i < els.length; i++) { var k = els[i].getAttribute("data-i18n"); var v = t(k); if (v) { els[i].textContent = v; } }
+  var ph = document.querySelectorAll("[data-i18n-ph]");
+  for (var j = 0; j < ph.length; j++) { var k2 = ph[j].getAttribute("data-i18n-ph"); var v2 = t(k2); if (v2) { ph[j].setAttribute("placeholder", v2); } }
+}
+function markLangButtons() {
+  var bs = document.querySelectorAll("#lang-toggle button");
+  for (var i = 0; i < bs.length; i++) { var on = bs[i].getAttribute("data-lang-btn") === RHN_LANG; bs[i].style.background = on ? "#000" : "#fff"; bs[i].style.color = on ? "#fff" : "#000"; }
+}
+function setLang(l) {
+  if (!I18N[l]) { l = "en"; }
+  RHN_LANG = l;
+  try { localStorage.setItem("rhn-lang", l); } catch (e) {}
+  document.documentElement.lang = l;
+  applyI18n();
+  markLangButtons();
+  if (typeof afterLangChange === "function") { try { afterLangChange(); } catch (e2) {} }
+}
+(function () {
+  var l = "en";
+  try { l = localStorage.getItem("rhn-lang") || "en"; } catch (e3) {}
+  if (!I18N[l]) { l = "en"; }
+  RHN_LANG = l;
+  document.documentElement.lang = l;
+  var bs = document.querySelectorAll("#lang-toggle button");
+  for (var i = 0; i < bs.length; i++) { (function (b) { b.addEventListener("click", function () { setLang(b.getAttribute("data-lang-btn")); }); })(bs[i]); }
+  applyI18n();
+  markLangButtons();
+})();
+</script>
+
+</body>
+</html>
