@@ -141,3 +141,19 @@ Anlass: Iteration 9 hatte Parcel-Facts (derived_from_use_code_unverified) im Exp
 - P7 bestaetigt (Haupt-Agent): 240/240 applies + 151/151 does_not_apply mit vollständigem Beleg-Quartett — Positivpfad erstmals auf Echtdaten belegt (vorher vakuos).
 - P1/P4/P6/P8/P9 fortgeltend gruen verifiziert: quotes 177/177, fact_vocabulary+redteam+engine 63 passed + 223 Subtests, unknown_noq 0, export_stats 24.970/0/0.
 - Freigabe: 10/10 — TEST BESTANDEN (Export-SHA 3fa123cf, Datum 2026-10-04). Rest-Backlog: T2-Beschaffung (Nutzerentscheidung), Demo-Track der Parallel-Session. Goal bleibt aktiv.
+
+## Iteration 11 (Goal-Runde, 2026-10-04, frisches Voll-Audit 10/10, Export-SHA 3fa123cf)
+
+Anlass: Voll-Re-Verifikation aller 10 Punkte durch 5 unabhaengige read-only Subagenten auf unveraendertem Stand (HEAD 7eda390). Keine Produktionsaenderung, kein Re-Export, keine Mocks.
+
+- P1 bestanden (audit11_p1p7): verify_quotes 177/177, 5-Regel-Kontextstichprobe 5/5 Full-Span-Match, 0 aus dem Zusammenhang gerissen.
+- P2 bestanden (audit11_p2p5): 23.578 jurisdiction-true-Decisions, 0 Cross-Jurisdiktion; 8 unresolved je 174 unknowns; D041-r005/D042-r001/D080-r002 omitted (bekannter Backlog P2-1).
+- P3 bestanden (audit11_p3p10): D022-Grenzproben 2025-12-31 not_yet_effective / ab 2026-01-01 in_force (mit Fakten applies, ohne fail-closed unknown); FAIR Act 2026-10-01 not_yet_effective / 2027-07-02 in_force. 0 falsche temporal_status.
+- P4 bestanden (audit11_p4p6): 0 untranslated, 367/367 Fakten kanonisch, test_fact_vocabulary 8 passed + 223 Subtests gruen.
+- P5 bestanden (audit11_p2p5): CSV 500x2 0 Mismatches; parcel-Facts 100 Prozent derived_from_use_code_unverified; year_built in 0/177 Regellogiken.
+- P6 bestanden (audit11_p4p6): unknown_noq patterns 0; 24.181/24.181 unknowns mit why_needed + acceptable_evidence.
+- P7 bestanden (audit11_p1p7): 240/240 applies (D024-r009) + 151/151 does_not_apply (D024-r015) mit Beleg-Quartett; missing_evidence 0, badurl 0.
+- P8 bestanden (audit11_p8p9): 55 Tests gruen, 4 Adversarial-Proben korrekt, 0 applies mit missing_facts.
+- P9 bestanden (audit11_p8p9): SHA-Recompute 3fa123cf MATCH, 500/500 Adressen, 0 leere Adressen.
+- P10 bestanden (audit11_p3p10): T1 evaluated_with_geographic_gaps (hyp248/unres256, SB763-research_task + Fail-closed-Note), T2 incomplete (HOB-ALG-01/JC-ALG-01), T3 hyp139, T4 affected105 pending, T5 correctly_empty. Notiz: Standard-Notessatz zu unresolved uebertreibt Geo-Anteil (Dokupraezision, changes.py Zeile 78).
+- Freigabe: 10/10 — TEST BESTANDEN (Export-SHA 3fa123cf, 177 Regeln, 500 Adressen, 24.970 Decisions, Datum 2026-10-04). Rest-Backlog: T2-Beschaffung (Nutzerentscheidung Kosten/Aufwand), Demo-Track der Parallel-Session (fremde Dateien data/A*.json, results.html, web/results.html nicht angefasst).
