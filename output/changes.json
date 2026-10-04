@@ -513,7 +513,7 @@
     ],
     "missing_rule_ids": [],
     "status": "evaluated_with_geographic_gaps",
-    "notes": "Evaluated using extracted rules and the same deterministic engine. Pending impact is hypothetical. hypothetically_affected means: jurisdiction established and rule in force, decision unknown only for lack of documented property facts (no jurisdiction, timing, or source gap); it never promotes unknown to applies. Missing rules do not imply absence of legal duties. Unresolved addresses lack a verified geocoded jurisdiction and are excluded from the affected count (never counted as affected, even for pending). SB 763: no verified statutory source text in the supplied corpus (unresolved_source_gap); open research_task: procure the authoritative SB 763 text and map its coverage separately. The CA-ALG-01 alias currently covers only AB 325 (D022-r001, Chapter 338). T1 fail-closed: jurisdiction is established and the mapped AB 325 rule is in force after 2026-01-01; only missing documented property facts (e.g. algorithm_used_*) prevent applies, so unknown plus hypothetically_affected is the honest result and the not_yet_effective-to-unknown flip demonstrates the law took effect; it never promotes unknown to applies.",
+    "notes": "Evaluated using extracted rules and the same deterministic engine. Pending impact is hypothetical. hypothetically_affected means: jurisdiction established and rule in force, decision unknown only for lack of documented property facts (no jurisdiction, timing, or source gap); it never promotes unknown to applies. Missing rules do not imply absence of legal duties. Unresolved addresses (256) have unknown in at least one snapshot from missing documented property facts or unverified jurisdiction; 8 of them lack a verified geocoded jurisdiction and are excluded from the affected count (never counted as affected, even for pending). SB 763: no verified statutory source text in the supplied corpus (unresolved_source_gap); open research_task: procure the authoritative SB 763 text and map its coverage separately. The CA-ALG-01 alias currently covers only AB 325 (D022-r001, Chapter 338). T1 fail-closed: jurisdiction is established and the mapped AB 325 rule is in force after 2026-01-01; only missing documented property facts (e.g. algorithm_used_*) prevent applies, so unknown plus hypothetically_affected is the honest result and the not_yet_effective-to-unknown flip demonstrates the law took effect; it never promotes unknown to applies.",
     "comparisons": [
       {
         "address_id": "A0001",
@@ -44769,7 +44769,7 @@
       "JC-ALG-01"
     ],
     "status": "incomplete",
-    "notes": "Evaluated using extracted rules and the same deterministic engine. Pending impact is hypothetical. hypothetically_affected means: jurisdiction established and rule in force, decision unknown only for lack of documented property facts (no jurisdiction, timing, or source gap); it never promotes unknown to applies. Missing rules do not imply absence of legal duties. Unresolved addresses lack a verified geocoded jurisdiction and are excluded from the affected count (never counted as affected, even for pending).",
+    "notes": "Evaluated using extracted rules and the same deterministic engine. Pending impact is hypothetical. hypothetically_affected means: jurisdiction established and rule in force, decision unknown only for lack of documented property facts (no jurisdiction, timing, or source gap); it never promotes unknown to applies. Missing rules do not imply absence of legal duties. Unresolved addresses (0) have unknown in at least one snapshot from missing documented property facts or unverified jurisdiction; 0 of them lack a verified geocoded jurisdiction and are excluded from the affected count (never counted as affected, even for pending).",
     "comparisons": [
       {
         "address_id": "A0001",
@@ -50570,7 +50570,7 @@
     ],
     "missing_rule_ids": [],
     "status": "evaluated_with_geographic_gaps",
-    "notes": "Evaluated using extracted rules and the same deterministic engine. Pending impact is hypothetical. hypothetically_affected means: jurisdiction established and rule in force, decision unknown only for lack of documented property facts (no jurisdiction, timing, or source gap); it never promotes unknown to applies. Missing rules do not imply absence of legal duties. Unresolved addresses lack a verified geocoded jurisdiction and are excluded from the affected count (never counted as affected, even for pending).",
+    "notes": "Evaluated using extracted rules and the same deterministic engine. Pending impact is hypothetical. hypothetically_affected means: jurisdiction established and rule in force, decision unknown only for lack of documented property facts (no jurisdiction, timing, or source gap); it never promotes unknown to applies. Missing rules do not imply absence of legal duties. Unresolved addresses (147) have unknown in at least one snapshot from missing documented property facts or unverified jurisdiction; 8 of them lack a verified geocoded jurisdiction and are excluded from the affected count (never counted as affected, even for pending).",
     "comparisons": [
       {
         "address_id": "A0001",
@@ -99536,7 +99536,7 @@
     "hypothetically_affected_address_ids": [],
     "missing_rule_ids": [],
     "status": "evaluated_with_geographic_gaps",
-    "notes": "Evaluated using extracted rules and the same deterministic engine. Pending impact is hypothetical. hypothetically_affected means: jurisdiction established and rule in force, decision unknown only for lack of documented property facts (no jurisdiction, timing, or source gap); it never promotes unknown to applies. Missing rules do not imply absence of legal duties. Unresolved addresses lack a verified geocoded jurisdiction and are excluded from the affected count (never counted as affected, even for pending).",
+    "notes": "Evaluated using extracted rules and the same deterministic engine. Pending impact is hypothetical. hypothetically_affected means: jurisdiction established and rule in force, decision unknown only for lack of documented property facts (no jurisdiction, timing, or source gap); it never promotes unknown to applies. Missing rules do not imply absence of legal duties. Unresolved addresses (8) have unknown in at least one snapshot from missing documented property facts or unverified jurisdiction; 8 of them lack a verified geocoded jurisdiction and are excluded from the affected count (never counted as affected, even for pending).",
     "comparisons": [
       {
         "address_id": "A0001",
@@ -114510,7 +114510,7 @@
       "MA-RENT-P1"
     ],
     "status": "correctly_empty",
-    "notes": "Referenzierte Maßnahme ist gescheitert/ohne Rechtswirkung; leere Treffermenge ist das erwartete Ergebnis. Evaluated using extracted rules and the same deterministic engine. Pending impact is hypothetical. hypothetically_affected means: jurisdiction established and rule in force, decision unknown only for lack of documented property facts (no jurisdiction, timing, or source gap); it never promotes unknown to applies. Missing rules do not imply absence of legal duties. Unresolved addresses lack a verified geocoded jurisdiction and are excluded from the affected count (never counted as affected, even for pending).",
+    "notes": "Referenzierte Maßnahme ist gescheitert/ohne Rechtswirkung; leere Treffermenge ist das erwartete Ergebnis. Evaluated using extracted rules and the same deterministic engine. Pending impact is hypothetical. hypothetically_affected means: jurisdiction established and rule in force, decision unknown only for lack of documented property facts (no jurisdiction, timing, or source gap); it never promotes unknown to applies. Missing rules do not imply absence of legal duties. Unresolved addresses (0) have unknown in at least one snapshot from missing documented property facts or unverified jurisdiction; 0 of them lack a verified geocoded jurisdiction and are excluded from the affected count (never counted as affected, even for pending).",
     "comparisons": [
       {
         "address_id": "A0001",

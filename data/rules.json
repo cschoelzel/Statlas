@@ -3479,7 +3479,9 @@
   ],
   "team_rule_id": "D022-r001",
   "source_doc_id": "D022",
-  "challenge_aliases": ["CA-ALG-01"],
+  "challenge_aliases": [
+   "CA-ALG-01"
+  ],
   "source_url": "https://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260AB325",
   "retrieved_at": "2026-10-01T22:35Z",
   "query_date": "2026-10-01",
@@ -6093,7 +6095,7 @@
   "title": "Exemption from Documentation for Small Deductions",
   "requirement": "Landlord need not comply with documentation requirements if deductions for repairs and cleaning together do not exceed $125.",
   "citation": "CA Civil Code § 1950.5(h)(4)(A)",
-  "quoted_span": "The landlord need not comply with paragraph (2) or (3) if either of the following applies:\n(A) The deductions for repairs and cleaning together do not exceed one hundred twenty-five dollars ($125) (5) Notwithstanding paragraph (4), the landlord shall comply with paragraphs (2) and (3) when a tenant makes a request for documentation within 14 calendar days after receiving the itemized statement specified in paragraph (1).",
+  "quoted_span": "The landlord need not comply with paragraph (2) or (3) if either of the following applies:\n(A) The deductions for repairs and cleaning together do not exceed one hundred twenty-five dollars ($125)",
   "key_value": "125 dollars",
   "coverage_conditions": "All security deposits with deductions of $125 or less",
   "exemptions": "Overridden when tenant requests documentation within 14 days after receiving the itemized statement (paragraph (5), notwithstanding paragraph (4))",
@@ -6172,7 +6174,7 @@
   "title": "Tenant Waiver of Documentation Rights",
   "requirement": "Tenant may waive documentation rights if waiver is signed at same time or after notice to terminate tenancy is given, or no earlier than 60 calendar days prior to lease expiration. Waiver must substantially include text of paragraph (2).",
   "citation": "CA Civil Code § 1950.5(h)(4)(B)",
-  "quoted_span": "(B) The tenant waived the rights specified in paragraphs (2) and (3). The waiver shall only be effective if it is signed by the tenant at the same time or after a notice to terminate a tenancy under Section 1946 or 1946.1 has been given, a notice under Section 1161 of the Code of Civil Procedure has been given, or no earlier than 60 calendar days prior to the expiration of a fixed-term lease. The waiver shall\nsubstantially include the text of paragraph (2) (5) Notwithstanding paragraph (4), the landlord shall comply with paragraphs (2) and (3) when a tenant makes a request for documentation within 14 calendar days after receiving the itemized statement specified in paragraph (1).",
+  "quoted_span": "(B) The tenant waived the rights specified in paragraphs (2) and (3). The waiver shall only be effective if it is signed by the tenant at the same time or after a notice to terminate a tenancy under Section 1946 or 1946.1 has been given, a notice under Section 1161 of the Code of Civil Procedure has been given, or no earlier than 60 calendar days prior to the expiration of a fixed-term lease. The waiver shall\nsubstantially include the text of paragraph (2)",
   "key_value": "signed waiver required",
   "coverage_conditions": "Waiver must be signed after termination notice or within 60 days of lease expiration",
   "exemptions": "Overridden when tenant requests documentation within 14 days after receiving the itemized statement (paragraph (5), notwithstanding paragraph (4))",
