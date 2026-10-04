@@ -51,7 +51,7 @@
     <button type="button" data-lang-btn="en" style="width:auto;padding:4px 8px;border:1px solid #000;font-weight:600;cursor:pointer;background:#fff;color:#000;" aria-label="English">EN</button><span style="color:#888;"> | </span><button type="button" data-lang-btn="de" style="width:auto;padding:4px 8px;border:1px solid #000;font-weight:600;cursor:pointer;background:#fff;color:#000;" aria-label="Deutsch">DE</button><span style="color:#888;"> | </span><button type="button" data-lang-btn="es" style="width:auto;padding:4px 8px;border:1px solid #000;font-weight:600;cursor:pointer;background:#fff;color:#000;" aria-label="Espanol">ES</button>
   </div>
   <div class="container">
-    <a href="/" class="nav-back" data-i18n="back">Back to search</a>
+    <a href="index.html" class="nav-back" data-i18n="back">Back to search</a>
     <header>
       <div>
         <h1 id="page-title">Auswertung Mietrecht</h1>
@@ -141,7 +141,7 @@
       } else if (err instanceof TypeError) {
         hint = '<br><br>Der Server antwortet nicht. Bitte starten: <strong>python3 -m navigator.app serve</strong> im Projektordner, dann http://127.0.0.1:8765 oeffnen.';
       }
-      errBox.innerHTML = '<strong>Fehler bei der Abfrage:</strong> ' + err.message + hint + '<br><br><a href="/" style="color: #000000; font-weight: 600;">Zurück zur Suche</a>';
+      errBox.innerHTML = '<strong>Fehler bei der Abfrage:</strong> ' + err.message + hint + '<br><br><a href="index.html" style="color: #000000; font-weight: 600;">Zurück zur Suche</a>';
     });
     function setStatusFilter(status, el) {
       currentStatusFilter = status;
@@ -155,16 +155,16 @@
       const addr = currentData.address || {};
       const geo = currentData.geography || {};
       const decisions = currentData.decisions || [];
-      document.getElementById('page-title').textContent = (addr.street || 'Adresse') + ', ' + (addr.city || '') + ' ' + (addr.state || '');
+      document.getElementById('page-title').textContent = (addr.street_address || addr.street || 'Adresse') + ', ' + (addr.postal_city || addr.city || '') + ' ' + (addr.state || '');
       document.getElementById('subtitle').textContent = 'ID: ' + (addr.address_id || addressId) + ' | Census-Status: ' + (geo.status || 'unbekannt');
       document.getElementById('as-of-badge').textContent = (typeof t === 'function' ? t('asOf') : 'Stichtag: ') + currentData.as_of;
       const meta = [
         { label: 'Adresse ID', val: addr.address_id || '-' },
-        { label: 'Straße', val: addr.street || '-' },
-        { label: 'Stadt / Ort', val: addr.city || '-' },
+        { label: 'Straße', val: addr.street_address || addr.street || '-' },
+        { label: 'Stadt / Ort', val: addr.postal_city || addr.city || '-' },
         { label: 'Bundesstaat', val: addr.state || '-' },
         { label: 'PLZ (ZIP)', val: addr.zip || '-' },
-        { label: 'Rechtliche Jurisdiktion', val: geo.legal_city || geo.jurisdiction || addr.city || '-' },
+        { label: 'Rechtliche Jurisdiktion', val: [geo.jurisdiction?.city, geo.jurisdiction?.state].filter(Boolean).join(', ') || '-' },
         { label: 'Wohneinheiten (Units)', val: addr.units !== undefined ? addr.units : 'unbekannt' },
         { label: 'Baujahr (Year Built)', val: addr.year_built !== undefined ? addr.year_built : 'unbekannt' },
         { label: 'Eigentümertyp', val: addr.owner_type || 'unbekannt' },
@@ -297,7 +297,7 @@ var I18N = {
 "submitBtn": "Run evaluation",
 "samples": "Examples:",
 "howTitle": "How the evaluation works:",
-"howBody": "Pick an address or type freely (ID e.g. A0001). Census geocoding determines state and legal city (ZIP city alone does not count). The engine filters rules by jurisdiction and checks as-of date, status, coverage and exemptions. The results table shows the original source per rule (document ID and quote). Results come from the engine, either evaluated live or loaded from a stored export for the displayed date.",
+"howBody": "Select a listed address or enter its ID (e.g. A0001). Census geocoding determines state and legal city (ZIP city alone does not count). The engine filters rules by jurisdiction and checks as-of date, status, coverage and exemptions. The results table shows the original source per rule (document ID and quote). Results come from the engine, either evaluated live or loaded from a stored export for the displayed date.",
 "legalNote": "Legal texts shown in original (EN) only.",
 "footer": "Not legal advice. Source gaps and unresolved interpretations require qualified review.",
 "back": "Back to search",
@@ -330,7 +330,7 @@ var I18N = {
 "submitBtn": "Auswertung starten",
 "samples": "Beispiele:",
 "howTitle": "So funktioniert die Auswertung:",
-"howBody": "Adresse w\u00e4hlen oder frei eingeben (ID z. B. A0001). Census-Geocoding bestimmt Bundesstaat und rechtliche Stadt (Postleitzahl-Stadt allein z\u00e4hlt nicht). Die Engine filtert Vorschriften nach Jurisdiktion und pr\u00fcft Stichtag, Status, Deckung und Ausnahmen. Die Ergebnistabelle zeigt pro Regel den Originalbeleg (Dokument-ID und Zitat). Ergebnisse stammen aus der Engine: live ausgewertet oder aus einem gespeicherten Export zum angezeigten Stichtag.",
+"howBody": "Eine gelistete Adresse ausw\u00e4hlen oder ihre ID eingeben (z. B. A0001). Census-Geocoding bestimmt Bundesstaat und rechtliche Stadt (Postleitzahl-Stadt allein z\u00e4hlt nicht). Die Engine filtert Vorschriften nach Jurisdiktion und pr\u00fcft Stichtag, Status, Deckung und Ausnahmen. Die Ergebnistabelle zeigt pro Regel den Originalbeleg (Dokument-ID und Zitat). Ergebnisse stammen aus der Engine: live ausgewertet oder aus einem gespeicherten Export zum angezeigten Stichtag.",
 "legalNote": "Rechtstexte nur im Original (EN).",
 "footer": "Keine Rechtsberatung. Quellenl\u00fccken und ungekl\u00e4rte Auslegungen erfordern fachkundige Pr\u00fcfung.",
 "back": "Zur\u00fcck zur Suche",
@@ -363,7 +363,7 @@ var I18N = {
 "submitBtn": "Iniciar evaluaci\u00f3n",
 "samples": "Ejemplos:",
 "howTitle": "C\u00f3mo funciona la evaluaci\u00f3n:",
-"howBody": "Elija una direcci\u00f3n o escr\u00edbala libremente (ID p. ej. A0001). La geocodificaci\u00f3n del censo determina el estado y la ciudad legal (la ciudad del c\u00f3digo postal por s\u00ed sola no cuenta). El motor filtra las normas por jurisdicci\u00f3n y verifica fecha de referencia, estado, cobertura y exenciones. La tabla de resultados muestra la fuente original por norma (ID de documento y cita). Los resultados proceden del motor, calculados en vivo o cargados desde una exportaci\u00f3n guardada para la fecha mostrada.",
+"howBody": "Seleccione una direcci\u00f3n de la lista o introduzca su ID (p. ej. A0001). La geocodificaci\u00f3n del censo determina el estado y la ciudad legal (la ciudad del c\u00f3digo postal por s\u00ed sola no cuenta). El motor filtra las normas por jurisdicci\u00f3n y verifica fecha de referencia, estado, cobertura y exenciones. La tabla de resultados muestra la fuente original por norma (ID de documento y cita). Los resultados proceden del motor, calculados en vivo o cargados desde una exportaci\u00f3n guardada para la fecha mostrada.",
 "legalNote": "Textos jur\u00eddicos solo en el original (EN).",
 "footer": "No es asesoramiento legal. Las lagunas de fuentes y las interpretaciones no resueltas requieren revisi\u00f3n calificada.",
 "back": "Volver a la b\u00fasqueda",
