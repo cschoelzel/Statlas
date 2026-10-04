@@ -22,8 +22,8 @@ class TestAuditRegression(unittest.TestCase):
         for date in ('2025-12-31', '2026-01-02'):
             decision = evaluate_rule(rule, facts, date)
             self.assertEqual(decision['result'], 'unknown')
-            self.assertIn('effective_date', decision['missing_facts'])
-            self.assertTrue(decision['targeted_questions'])
+            self.assertEqual(decision['targeted_questions'], [])
+            self.assertTrue(decision['review_required'])
 
     def test_negative_change_requires_recorded_failed_measure(self):
         from navigator.changes import evaluate_changes

@@ -404,7 +404,8 @@ def evaluate_rule(rule, facts, as_of="2026-10-01"):
     if status == "pending":
         return assemble("pending", "Proposal is pending; it is not an operative requirement.", set(), coverage_applies, "pending")
     if clock["timing_unknown"]:
-        return assemble("unknown", "The operative date requires source verification.", {"effective_date"}, None, "unknown")
+        review.append("Which operative date is supported by the primary legal sources? Qualified source review is required.")
+        return assemble("unknown", "The operative date requires source verification.", set(), None, "unknown")
     if clock["terminal"] == "not_yet_effective":
         return assemble("not_yet_effective", "Enacted, but the effective date is after the query date.", set(), coverage_applies, "not_yet_effective")
     if untranslated_coverage or untranslated_exemptions:
