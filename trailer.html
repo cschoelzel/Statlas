@@ -1,0 +1,110 @@
+ <!doctype html>
+ <html lang="en">
+ <head>
+ <meta charset="utf-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+ <title>Statlas - Product Trailer (58s)</title>
+ <style>
+ :root{--ink:#232323;--muted:#667085;--line:#e2e5ea;--accent:#e31b36;--soft:#f6f7f9;--font:'Plus Jakarta Sans',system-ui,-apple-system,'Segoe UI',Roboto,Arial,sans-serif}
+ *{box-sizing:border-box}body{margin:0;background:var(--soft);color:var(--ink);font-family:var(--font);-webkit-font-smoothing:antialiased}
+ .wrap{max-width:1080px;margin:0 auto;padding:28px 20px 60px}
+ .top{display:flex;align-items:center;justify-content:space-between;gap:16px;margin-bottom:16px}
+ .brand{display:flex;align-items:center;gap:12px}.tag{font-size:12px;color:var(--muted);letter-spacing:.14em;text-transform:uppercase;font-weight:700}
+ .controls{display:flex;align-items:center;gap:10px}
+ #playBtn{border:0;background:var(--accent);color:#fff;font-weight:700;font-size:14px;padding:12px 22px;border-radius:999px;cursor:pointer}
+ #replayBtn{border:1px solid var(--line);background:#fff;color:var(--ink);font-weight:700;font-size:14px;padding:12px 18px;border-radius:999px;cursor:pointer}
+ #clock{font-size:13px;color:var(--muted);font-variant-numeric:tabular-nums;min-width:92px;text-align:right}
+ .progress{height:8px;background:#e8ebf0;border-radius:99px;overflow:hidden;margin:6px 0 12px}
+ #bar{height:100%;width:0%;background:var(--accent);border-radius:99px}
+ .timeline{display:flex;gap:6px;margin-bottom:16px;flex-wrap:wrap}
+ .tl{flex:1 1 0;min-width:90px;border:1px solid var(--line);background:#fff;border-radius:12px;padding:8px 10px;cursor:pointer;text-align:left;font:inherit}
+ .tl b{display:block;font-size:11px}.tl span{font-size:10px;color:var(--muted)}
+ .tl.active{border-color:var(--accent);box-shadow:0 0 0 2px #e31b3622}
+ .stage{position:relative;background:#fff;border:1px solid var(--line);border-radius:24px;overflow:hidden;aspect-ratio:16/9;box-shadow:0 24px 60px #23232314}
+ .scene{position:absolute;inset:0;padding:48px 56px;display:flex;flex-direction:column;justify-content:center;gap:14px;opacity:0;transform:translateY(14px);transition:opacity .5s ease,transform .5s ease;pointer-events:none}
+ .scene.active{opacity:1;transform:none;pointer-events:auto}
+ .kicker{font-size:12px;font-weight:800;letter-spacing:.16em;text-transform:uppercase;color:var(--accent)}
+ h1,h2{margin:0;letter-spacing:-1.5px;line-height:1.04}h1{font-size:52px}h2{font-size:34px}
+ .sub{color:var(--muted);font-size:16px;max-width:640px;line-height:1.55;margin:0}
+ .pillrow{display:flex;gap:8px;flex-wrap:wrap;margin-top:6px}
+ .pill{font-size:12px;font-weight:700;border:1px solid var(--line);border-radius:999px;padding:7px 13px;color:var(--muted);background:#fff}
+ .pill.hot{color:var(--accent);border-color:var(--accent)}
+ .mockbar{display:flex;align-items:center;gap:10px;border:1px solid var(--line);border-radius:999px;padding:10px 10px 10px 24px;background:#fff;box-shadow:0 10px 30px #23232310;max-width:640px}
+ .mockbar .q{flex:1;font-size:16px;min-height:24px;white-space:nowrap;overflow:hidden}.caret{display:inline-block;width:2px;height:18px;background:var(--accent);vertical-align:-3px;animation:blink 1s steps(1) infinite}
+ @keyframes blink{50%{opacity:0}}
+ .go{width:44px;height:44px;border-radius:50%;background:var(--accent);color:#fff;display:grid;place-items:center;font-size:18px;flex-shrink:0}
+ .dropdown{border:1px solid var(--line);border-radius:16px;max-width:640px;overflow:hidden;opacity:0;transform:translateY(-6px);transition:all .45s ease;background:#fff}
+ .dropdown.show{opacity:1;transform:none}
+ .opt{display:flex;gap:12px;align-items:center;padding:12px 16px;font-size:14px;border-top:1px solid var(--line)}
+ .opt:first-child{border-top:0}.opt.sel{background:#fff5f6;box-shadow:inset 3px 0 0 var(--accent)}
+ .pin{width:32px;height:32px;border:1px solid var(--line);border-radius:9px;display:grid;place-items:center;flex-shrink:0}
+ .jur{display:flex;gap:10px;flex-wrap:wrap;align-items:center}.jnode{border:1px solid var(--line);border-radius:14px;padding:12px 16px;font-size:13px;font-weight:700;background:#fff;opacity:0;transform:translateY(10px);transition:all .5s ease}
+ .jnode.on{opacity:1;transform:none}.jnode.top{border-color:var(--accent);color:var(--accent)}
+ .arrow{color:var(--muted);font-weight:700}
+ #chipField{position:absolute;inset:0;overflow:hidden}
+ .chip{position:absolute;font-size:10px;font-weight:700;color:var(--muted);border:1px solid var(--line);background:#fff;border-radius:999px;padding:5px 10px;transition:left 1.1s cubic-bezier(.3,.7,.3,1),top 1.1s cubic-bezier(.3,.7,.3,1),opacity .8s;white-space:nowrap}
+ #answerCard{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%) scale(.8);background:#fff;border:2px solid var(--accent);border-radius:20px;padding:24px 32px;text-align:center;opacity:0;transition:all .6s cubic-bezier(.2,.9,.3,1.2);box-shadow:0 24px 60px #e31b3630;z-index:3;min-width:320px}
+ #answerCard.pop{opacity:1;transform:translate(-50%,-50%) scale(1)}
+ #answerCard .big{font-size:38px;font-weight:800;letter-spacing:-1px}
+ #answerCard .ok{display:inline-block;margin-top:8px;background:#0e9f6e;color:#fff;font-size:12px;font-weight:800;letter-spacing:.08em;border-radius:999px;padding:6px 14px;text-transform:uppercase}
+ .cards{display:flex;gap:12px}.rcard{flex:1;border:1px solid var(--line);border-radius:16px;padding:18px;background:#fff;opacity:0;transform:translateY(14px);transition:all .5s ease}
+ .rcard.on{opacity:1;transform:none}.rcard b{font-size:14px}.rcard .v{font-size:24px;font-weight:800;margin:6px 0 2px}.rcard small{color:var(--muted);font-size:12px}
+ .quote{border-left:4px solid var(--accent);background:var(--soft);border-radius:0 14px 14px 0;padding:18px 22px;font-size:15px;line-height:1.6;max-width:680px;opacity:0;transform:translateX(16px);transition:all .6s ease}
+ .quote.show{opacity:1;transform:none}.quote cite{display:block;margin-top:10px;font-style:normal;font-size:12px;color:var(--muted);font-weight:700}
+ .cta{text-align:center}.cta .url{font-size:24px;font-weight:800}.cta .url a{color:var(--accent);text-decoration:none}
+ .disc{font-size:12px;color:var(--muted);margin-top:10px}
+ .fadein{opacity:0;transform:translateY(10px);transition:all .5s ease}.fadein.on{opacity:1;transform:none}
+ @media(max-width:760px){.scene{padding:24px}h1{font-size:32px}h2{font-size:22px}.cards{flex-direction:column}}
+ </style>
+ </head>
+ <body>
+ <div class="wrap">
+ <div class="top">
+ <div class="brand"><svg width="140" height="48" viewBox="0 0 210 72" role="img" aria-label="statlas"><path d="M14 26 C 58 8, 128 6, 172 22" fill="none" stroke="#e31b36" stroke-width="4" stroke-linecap="round"/><circle cx="176" cy="23" r="5" fill="#e31b36"/><text x="12" y="60" font-family="Helvetica Neue,Helvetica,Arial,sans-serif" font-size="40" font-weight="700" letter-spacing="-2" fill="#222">statlas</text></svg><span class="tag">Product trailer - 58 sec</span></div>
+ <div class="controls"><button id="playBtn">Play</button><button id="replayBtn">Replay</button><span id="clock">0.0 / 58s</span></div>
+ </div>
+ <div class="progress"><div id="bar"></div></div>
+ <div class="timeline" id="timeline"></div>
+ <div class="stage" id="stage">
+ <section class="scene" data-dur="4000"><div class="kicker fadein">Rental law, clearly mapped</div><h1 class="fadein">Meet Statlas.</h1><p class="sub fadein">A navigator for rental housing law across states, counties and cities - every answer traced to its source.</p><div class="pillrow fadein"><span class="pill">State</span><span class="pill">County</span><span class="pill">City</span><span class="pill hot">Sourced answers</span></div></section>
+ <section class="scene" data-dur="6000"><div class="kicker fadein">The problem</div><h2 class="fadein">Rental rules change by address.<br>Most tools guess.</h2><p class="sub fadein">State statutes, county ordinances, city programs - layered, amended, full of exceptions. Renters and owners need precision, not generic summaries.</p></section>
+ <section class="scene" data-dur="10000"><div class="kicker fadein">1 - Search any address</div><h2 class="fadein">Start with an address.</h2><div class="mockbar fadein"><div class="q"><span id="typed"></span><span class="caret"></span></div><div class="go">&#8594;</div></div><div class="dropdown" id="dd"><div class="opt"><span class="pin">P</span><span><b>6238 De Longpre Ave</b><br><span style="color:#667085">Los Angeles, CA 90028</span></span></div><div class="opt sel"><span class="pin">P</span><span><b>6238 DE LONGPRE AVE, Los Angeles</b><br><span style="color:#667085">Exact match - LA County</span></span></div></div></section>
+ <section class="scene" data-dur="8000"><div class="kicker fadein">2 - Jurisdiction resolution</div><h2 class="fadein">One address. Every layer.</h2><div class="jur"><div class="jnode" id="j1">California - State</div><div class="arrow">--&gt;</div><div class="jnode" id="j2">Los Angeles County</div><div class="arrow">--&gt;</div><div class="jnode top" id="j3">City of Los Angeles OK</div></div><p class="sub fadein">Statlas resolves state, county and city rules for that exact property - including exemptions and effective dates.</p></section>
+ <section class="scene" data-dur="10000"><div class="kicker" style="z-index:4;position:relative">3 - From many data points to one answer</div><div id="chipField"></div><div id="answerCard"><div class="kicker">Rent increase - Los Angeles</div><div class="big">2.1% limit</div><div><span class="ok">Applies</span></div><div class="disc">Capped - verified against ordinance</div></div></section>
+ <section class="scene" data-dur="8000"><div class="kicker fadein">4 - Clear rule cards</div><h2 class="fadein">Limits, deposits, protections.</h2><div class="cards"><div class="rcard" id="r1"><b>Rent increase</b><div class="v">2.1%</div><small>Annual cap - city ordinance</small></div><div class="rcard" id="r2"><b>Deposit</b><div class="v">1 mo.</div><small>Unfurnished - state law</small></div><div class="rcard" id="r3"><b>Eviction protection</b><div class="v">Just cause</div><small>Covered units - RSO</small></div></div></section>
+ <section class="scene" data-dur="8000"><div class="kicker fadein">5 - Traceable to the source</div><h2 class="fadein">Every answer shows its proof.</h2><div class="quote" id="qt">The annual allowable rent increase shall not exceed the published percentage for the applicable period.<cite>Los Angeles Municipal Code - RSO provision - quoted span</cite></div></section>
+ <section class="scene" data-dur="4000"><div class="cta"><svg width="160" height="54" viewBox="0 0 210 72" role="img" aria-label="statlas"><path d="M14 26 C 58 8, 128 6, 172 22" fill="none" stroke="#e31b36" stroke-width="4" stroke-linecap="round"/><circle cx="176" cy="23" r="5" fill="#e31b36"/><text x="12" y="60" font-family="Helvetica Neue,Helvetica,Arial,sans-serif" font-size="40" font-weight="700" letter-spacing="-2" fill="#222">statlas</text></svg><div class="url"><a href="https://cschoelzel.github.io/Statlas">cschoelzel.github.io/Statlas</a></div><p class="sub" style="margin:10px auto 0;max-width:560px">Search an address. See the rules. Trace every answer.</p><div class="disc">Informational only - not legal advice.</div></div></section>
+ </div>
+ <p class="disc">Self-playing demo - CSS transitions only, no video files - total 58s - scenes: 4s + 6s + 10s + 8s + 10s + 8s + 8s + 4s.</p>
+ </div>
+ <script>
+ var scenes=[].slice.call(document.querySelectorAll(".scene"));
+ var durs=scenes.map(function(s){return +s.getAttribute("data-dur")});
+ var total=durs.reduce(function(a,b){return a+b},0);
+ var names=["Brand opener|4s","Problem|6s","Address search|10s","Jurisdiction|8s","Convergence|10s","Rule cards|8s","Traceability|8s","Closing CTA|4s"];
+ var tl=document.getElementById("timeline"),bar=document.getElementById("bar"),clock=document.getElementById("clock"),playBtn=document.getElementById("playBtn");
+ var starts=[],acc=0;durs.forEach(function(d){starts.push(acc);acc+=d});
+ names.forEach(function(n,i){var b=document.createElement("button");b.className="tl";var p=n.split("|");b.innerHTML="<b>"+(i+1)+". "+p[0]+"</b><span>"+p[1]+"</span>";b.onclick=function(){seek(starts[i]+50)};tl.appendChild(b)});
+ var tls=[].slice.call(tl.children);
+ var t0=null,raf=null,playing=false,elapsed=0,cur=-1;
+ var FULL="6238 DE LONGPRE AVE, Los Angeles";
+ var chips=["AB 1482 cap","RSO 4.3%","CPI 2.1%","LAMC 151.06","Civil Code 1947","Deposit 1 mo","Just cause","Relocation","Rent registry","Ellis Act","Costa-Hawkins","Exemption","+3% max","Notice 30d","Notice 60d","ADU rule","Fee cap","Late fee","Grace 5d","TOPA","Rent board","Appeal 15d","Mediation","Lease renewal","Sublease","Occupancy 2+1","Parking","Utilities","Smoking","Noise 10pm","Eviction stay","Buyout","Condo conv","Owner move-in","Hardship","Senior prot","Disabled prot","Veteran","Flood zone","Lead paint","Mold","Bedbug","Heat 68F","Hot water","Trash","EV charger","Solar","Section 8","Pet deposit","Storage","Waterbed","Relocation","Mills Act","School year","Winter ban","Military","Seismic","Recycling","Compost","Bike room","Arbitration","Roommate"];
+ var field=document.getElementById("chipField");
+ chips.slice(0,60).forEach(function(c,i){var s=document.createElement("span");s.className="chip";s.textContent=c;var ang=(i/60)*Math.PI*2;var x=50+Math.cos(ang)*42+(i%7-3)*1.4;var y=50+Math.sin(ang)*34+(i%5-2)*2;s.dataset.x=x;s.dataset.y=y;s.style.left=x+"%";s.style.top=y+"%";s.style.opacity="0";field.appendChild(s)});
+ function resetScene(i){var sc=scenes[i],f=sc.querySelectorAll(".fadein"),k;for(k=0;k<f.length;k++)f[k].classList.remove("on");if(i===2){document.getElementById("typed").textContent="";document.getElementById("dd").classList.remove("show")}if(i===3){for(k=1;k<=3;k++)document.getElementById("j"+k).classList.remove("on")}if(i===4){var ch=field.children;for(var c=0;c<ch.length;c++){ch[c].style.left=ch[c].dataset.x+"%";ch[c].style.top=ch[c].dataset.y+"%";ch[c].style.opacity="0"}document.getElementById("answerCard").classList.remove("pop")}if(i===5){for(k=1;k<=3;k++)document.getElementById("r"+k).classList.remove("on")}if(i===6){document.getElementById("qt").classList.remove("show")}}
+ function fireScene(i,local){var sc=scenes[i],f=sc.querySelectorAll(".fadein");for(var k=0;k<f.length;k++)f[k].classList.add("on");
+ if(i===2){var n=Math.min(FULL.length,Math.floor(local/220));document.getElementById("typed").textContent=FULL.slice(0,n);if(local>5200)document.getElementById("dd").classList.add("show")}
+ if(i===3){if(local>600)document.getElementById("j1").classList.add("on");if(local>1800)document.getElementById("j2").classList.add("on");if(local>3200)document.getElementById("j3").classList.add("on")}
+ if(i===4){var ch=field.children,p=Math.min(1,local/2600),c;for(c=0;c<ch.length;c++){var dx=50-(+ch[c].dataset.x),dy=50-(+ch[c].dataset.y);ch[c].style.opacity=local>200?"1":"0";ch[c].style.left=((+ch[c].dataset.x)+dx*Math.min(1,p))+"%";ch[c].style.top=((+ch[c].dataset.y)+dy*Math.min(1,p))+"%"}if(local>4200){for(c=0;c<ch.length;c++)ch[c].style.opacity="0";document.getElementById("answerCard").classList.add("pop")}}
+ if(i===5){if(local>500)document.getElementById("r1").classList.add("on");if(local>1500)document.getElementById("r2").classList.add("on");if(local>2500)document.getElementById("r3").classList.add("on")}
+ if(i===6){if(local>700)document.getElementById("qt").classList.add("show")}}
+ function frame(now){if(!playing)return;if(!t0)t0=now-elapsed;elapsed=now-t0;if(elapsed>=total){elapsed=total;playing=false;playBtn.textContent="Play again"}bar.style.width=(elapsed/total*100)+"%";clock.textContent=(elapsed/1000).toFixed(1)+" / 58s";var idx=0;for(var i=0;i<starts.length;i++)if(elapsed>=starts[i])idx=i;if(idx!==cur){cur=idx;for(var s=0;s<scenes.length;s++){scenes[s].classList.toggle("active",s===idx);tls[s].classList.toggle("active",s===idx)}resetScene(idx)}fireScene(idx,elapsed-starts[idx]);if(playing)raf=requestAnimationFrame(frame)}
+ function play(){if(playing){playing=false;cancelAnimationFrame(raf);playBtn.textContent="Resume";return}if(elapsed>=total){elapsed=0;t0=null;cur=-1;for(var s=0;s<scenes.length;s++){scenes[s].classList.remove("active");resetScene(s)}}playing=true;playBtn.textContent="Pause";raf=requestAnimationFrame(frame)}
+ function seek(ms){elapsed=Math.min(ms,total-1);t0=null;cur=-1;for(var s=0;s<scenes.length;s++)scenes[s].classList.remove("active");if(!playing)play()}
+ document.getElementById("playBtn").onclick=play;
+ document.getElementById("replayBtn").onclick=function(){elapsed=0;t0=null;cur=-1;for(var s=0;s<scenes.length;s++){scenes[s].classList.remove("active");resetScene(s)}if(!playing)play()};
+ scenes[0].classList.add("active");tls[0].classList.add("active");resetScene(0);fireScene(0,9999);
+ try{if(window.fetch)fetch("addresses.json").catch(function(){})}catch(e){}
+ </script>
+ </body>
+ </html>
