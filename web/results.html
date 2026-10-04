@@ -3,9 +3,9 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Rental Housing Law Navigator — Auswertung</title>
+  <title>statlas — Grundstücksregeln</title>
   <style>
-    :root { --ink:#252525; --muted:#75716f; --line:#e8e5e2; --accent:#ff385c; --soft:#f7f6f4; }
+    :root { --ink:#252525; --muted:#686868; --line:#e5e5e5; --accent:#e31b36; --soft:#f6f6f6; }
     * { box-sizing:border-box; }
     body { margin:0; background:#fff; color:var(--ink); font:14px/1.55 "Helvetica Neue",Arial,sans-serif; }
     button,input { font:inherit; } button,a,input { -webkit-tap-highlight-color:transparent; }
@@ -27,30 +27,46 @@
     .map-panel { min-width:0; } .map-frame { height:330px; border-radius:14px; background:var(--soft); overflow:hidden; border:1px solid var(--line); }
     .map-frame iframe { width:100%; height:100%; border:0; } .map-note { display:flex; justify-content:space-between; align-items:flex-start; gap:18px; color:var(--muted); font-size:11px; margin:10px 3px 0; } .map-note a { white-space:nowrap; color:var(--ink); font-weight:600; } .map-empty { height:100%; display:grid; place-content:center; padding:32px; text-align:center; color:var(--muted); }
     .rule-section { border-top:1px solid var(--line); padding-top:32px; } .section-description { color:var(--muted); margin:-10px 0 24px; }
-    .controls { margin-bottom:26px; } .filter-group { display:grid; grid-template-columns:repeat(5,minmax(0,1fr)); gap:12px; margin-bottom:36px; }
-    .filter-btn { display:flex; flex-direction:column; gap:8px; text-align:left; background:#fff; border:1px solid var(--line); border-radius:12px; padding:22px 20px; font-size:13px; font-weight:550; min-height:117px; transition:border-color .15s,background .15s; } .filter-btn .status-number { font-size:30px; line-height:1; font-weight:650; letter-spacing:-1px; } .filter-btn:hover { border-color:#999; background:#fafafa; } .filter-btn.active { border-color:var(--accent); background:#fff3f5; box-shadow:inset 0 0 0 1px var(--accent); } .filter-btn.active .status-number { color:var(--accent); }
-    .search-filter { width:100%; max-width:390px; border:1px solid var(--line); border-radius:12px; padding:12px 15px; outline:none; background:var(--soft); } .search-filter:focus { border-color:var(--ink); background:white; }
-    .rules-table-wrap { overflow-x:auto; border:1px solid var(--line); border-radius:14px; scroll-margin-top:28px; } .rules-table { min-width:820px; font-size:14px; } .rules-table th { font-size:12px; padding:18px 22px; } .rules-table td { padding:25px 22px; } .rules-table tbody tr:last-child td { border-bottom:0; } .rules-table tbody tr:hover { background:#fcfcfc; }
+    .rule-topic { margin-top:40px; } .topic-heading { font-size:28px; font-weight:650; letter-spacing:-.7px; line-height:1.25; margin:0 0 20px; } #rules-overview { scroll-margin-top:28px; }
+    .fact-grid { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:14px; }
+    .fact-card { border:1px solid var(--line); border-radius:14px; padding:22px; background:#fff; }
+    .fact-card.is-applies { border-color:var(--accent); }
+    .fact-value { font-size:32px; line-height:1.1; font-weight:700; letter-spacing:-1px; margin:0 0 6px; }
+    .fact-card.is-applies .fact-value { color:var(--accent); }
+    .fact-label { font-size:13px; font-weight:650; margin-bottom:6px; }
+    .fact-status { font-size:12px; color:var(--muted); }
+    .fact-status.is-applies { color:var(--accent); font-weight:700; }
+    .fact-details { margin-top:12px; }
+    .more-heading { font-size:14px; font-weight:650; margin:18px 0 8px; }
+    .more-rules { list-style:none; margin:0; padding:0; display:grid; gap:8px; }
+    .more-rules li { border:1px solid var(--line); border-radius:10px; background:#fff; padding:10px 14px; font-size:13px; }
+    .more-rules summary { cursor:pointer; font-weight:650; }
+    .more-title { font-weight:650; }
+    .more-status { font-size:12px; font-weight:400; color:var(--muted); }
+    .more-status.is-applies { color:var(--accent); font-weight:700; }
+    .more-body { margin-top:10px; }
+    .questions-list { list-style:none; margin:0; padding:0; display:grid; gap:10px; }
+    .questions-list li { background:var(--soft); border-radius:10px; padding:12px 14px; font-size:13px; color:#444; }
     .rule-title { font-size:15px; line-height:1.45; font-weight:650; margin:0 0 8px; } .rule-category { font-size:12px; color:var(--muted); } .rule-req { color:#454545; font-size:14px; line-height:1.6; } .rule-value { font-size:15px; font-weight:650; margin-top:12px; } .rule-location { font-size:12px; color:var(--muted); margin-top:5px; }
-    .badge { display:inline-block; font-size:11px; line-height:1.6; font-weight:650; border-radius:6px; padding:6px 9px; white-space:nowrap; } .badge-applies { color:#ce2747; background:#fff0f3; } .badge-unknown,.badge-future,.badge-other,.badge-superseded { background:#f0f0f0; color:#505050; }
+    .badge { display:inline-block; font-size:11px; line-height:1.6; font-weight:650; border-radius:6px; padding:6px 9px; white-space:nowrap; } .badge-applies { color:var(--accent); background:#fff; border:1px solid var(--accent); } .badge-unknown,.badge-future,.badge-other,.badge-superseded { background:#f0f0f0; color:#505050; }
     .questions-box { background:#f6f6f6; padding:13px 15px; border-radius:9px; color:#444; font-size:12px; margin-top:14px; } .questions-box strong { display:block; margin-bottom:5px; }
     .rule-source { font-size:12px; margin-top:13px; } .rule-source summary,.requirement-details summary { cursor:pointer; font-weight:600; color:#555; font-size:12px; } .rule-source-body { margin-top:12px; overflow-wrap:anywhere; } .source-link { font-size:13px; font-weight:650; text-underline-offset:4px; word-break:break-word; } blockquote { background:#f6f6f6; border-left:2px solid #ccc!important; padding:12px!important; border-radius:0 6px 6px 0; }
     .requirement-details { margin-top:10px; } .requirement-details p { font-size:13px; } .review-note { color:#555; font-size:12px; margin-top:12px; }
     .section-title { margin-top:42px; } table { width:100%; border-collapse:collapse; font-size:12px; } th { text-align:left; padding:12px 15px; background:var(--soft); font-weight:600; } td { border-bottom:1px solid var(--line); padding:15px; vertical-align:top; } .questions-table { overflow-x:auto; }
     .disclaimer { border-top:1px solid var(--line); padding-top:20px; font-size:11px; color:var(--muted); margin-top:32px; } .loading { padding:90px 24px; text-align:center; color:var(--muted); } .error { background:#fff4f1; padding:24px; border-radius:16px; margin:32px 0; } #conflict-banner { background:#f5f5f5; border-radius:12px; padding:14px 18px; font-size:12px; margin-bottom:20px; color:#444; } .no-rules { grid-column:1/-1; padding:40px; text-align:center; color:var(--muted); }
-    @media(max-width:800px) { .topbar { padding:0 20px; height:76px; gap:12px; } .brand { font-size:17px; } .nav-back { padding:9px 12px; font-size:11px; } .container { padding:30px 20px; } h1 { font-size:28px; } header { flex-wrap:wrap; gap:8px; } #as-of-badge { margin-top:0; } .property-overview { grid-template-columns:1fr; gap:25px; padding:22px; } .filter-group { grid-template-columns:repeat(3,minmax(0,1fr)); } .filter-btn { min-height:105px; padding:17px; } .rules-list { grid-template-columns:1fr; } .meta-grid { gap:20px 12px; } .rule-card { padding:22px; } .map-frame { height:260px; } }
-    @media(max-width:430px) { .brand { font-size:15px; gap:6px; } #lang-toggle { gap:0; } #lang-toggle button { padding:7px 5px; } .nav-back { font-size:10px; padding:8px; } .meta-grid { grid-template-columns:repeat(2,1fr); } .filter-group { grid-template-columns:repeat(2,minmax(0,1fr)); gap:8px; } .filter-btn { font-size:12px; padding:16px; } .meta-value { font-size:16px; } }
+    @media(max-width:800px) { .topbar { padding:0 20px; height:76px; gap:12px; } .brand { font-size:17px; } .nav-back { padding:9px 12px; font-size:11px; } .container { padding:30px 20px; } h1 { font-size:28px; } header { flex-wrap:wrap; gap:8px; } #as-of-badge { margin-top:0; } .property-overview { grid-template-columns:1fr; gap:25px; padding:22px; } .fact-grid { grid-template-columns:repeat(2,minmax(0,1fr)); } .rules-list { grid-template-columns:1fr; } .meta-grid { gap:20px 12px; } .rule-card { padding:22px; } .map-frame { height:260px; } }
+    @media(max-width:430px) { .brand { font-size:15px; gap:6px; } #lang-toggle { gap:0; } #lang-toggle button { padding:7px 5px; } .nav-back { font-size:10px; padding:8px; } .meta-grid { grid-template-columns:repeat(2,1fr); } .fact-grid { grid-template-columns:1fr; } .meta-value { font-size:16px; } }
   </style>
 </head>
 <body>
   <nav class="topbar" aria-label="Main navigation">
-    <a href="/" class="brand"><svg class="brand-mark" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><path d="M3 10.5 12 3l9 7.5M5.5 9v11h13V9M9 20v-7h6v7" stroke-linecap="round" stroke-linejoin="round"/></svg> rental navigator</a>
+    <a href="/" class="brand">statlas</a>
     <a href="/" class="nav-back"><span aria-hidden="true">← </span><span data-i18n="back">Back to search</span></a>
     <div id="lang-toggle"><button type="button" data-lang-btn="en" aria-label="English">EN</button><button type="button" data-lang-btn="de" aria-label="Deutsch">DE</button><button type="button" data-lang-btn="es" aria-label="Español">ES</button></div>
   </nav>
   <main class="container">
     <header>
-      <div><div class="eyebrow" data-i18n="propertyReport">PROPERTY REPORT</div><h1 id="page-title">Your property</h1><div id="subtitle">Loading address details…</div></div>
+      <div><h1 id="page-title">Your property</h1><div id="subtitle">Loading address details…</div></div>
       <div id="as-of-badge">As of: --</div>
     </header>
     <div id="loading-state" class="loading" role="status" data-i18n="loadingReport">Finding the rules for this address…</div>
@@ -60,18 +76,11 @@
         <div class="property-panel"><h2 data-i18n="propertyDetails">A closer look at your property</h2><div class="meta-grid" id="meta-grid"></div></div>
         <div class="map-panel"><div class="map-frame" id="property-map"></div><div class="map-note"><span id="map-note"></span><a id="map-link" target="_blank" rel="noopener" style="display:none" data-i18n="openMap">Open map ↗</a></div></div>
       </section>
-      <section class="rule-section"><h2 class="rules-heading" data-i18n="rulesHeading">The rules that matter here</h2><p class="section-description" data-i18n="rulesIntro">Explore requirements, check what applies, and go straight to the original source.</p>
+      <section class="rule-section"><h2 class="rules-heading" data-i18n="rulesHeading">The rules that matter here</h2>
       
       <div id="conflict-banner" style="display:none"></div>
-      <div class="controls"><div class="filter-group" id="status-filters">
-        <button class="filter-btn active" onclick="setStatusFilter('all',this)" aria-pressed="true"><span class="status-number" id="count-all">0</span><span data-i18n="fAll">all</span></button>
-        <button class="filter-btn" onclick="setStatusFilter('applies',this)" aria-pressed="false"><span class="status-number" id="count-applies">0</span><span data-i18n="fApplies">applies</span></button>
-        <button class="filter-btn" onclick="setStatusFilter('unknown',this)" aria-pressed="false"><span class="status-number" id="count-unknown">0</span><span data-i18n="fUnknown">unknown</span></button>
-        <button class="filter-btn" onclick="setStatusFilter('superseded',this)" aria-pressed="false"><span class="status-number" id="count-other">0</span><span data-i18n="fSup">superseded</span></button>
-        <button class="filter-btn" onclick="setStatusFilter('pending',this)" aria-pressed="false"><span class="status-number" id="count-pending">0</span><span data-i18n="fPending">pending</span></button>
-      </div><input type="search" id="table-search" class="search-filter" data-i18n-ph="filterPh" placeholder="Search rules, categories or citations" aria-label="Filter rules" oninput="renderTable()"></div>
-      <div class="rules-table-wrap" id="rules-overview"><table class="rules-table"><thead><tr><th style="width:27%" data-i18n="tableRule">Rule & category</th><th style="width:40%" data-i18n="tableRequirement">Requirement</th><th style="width:13%" data-i18n="thStatus">Status</th><th style="width:20%" data-i18n="tableSource">Original text</th></tr></thead><tbody id="rules-tbody"></tbody></table></div></section>
-      <section id="questions-section" style="display:none"><h2 class="section-title" data-i18n="openQ">Open questions for your property</h2><div class="questions-table"><table><thead><tr><th data-i18n="factHeader">Property detail</th><th data-i18n="questionHeader">Question</th><th data-i18n="affectedHeader">Affected rules</th></tr></thead><tbody id="questions-tbody"></tbody></table></div></section>
+      <div id="rules-overview"></div></section>
+      <section id="questions-section" style="display:none"><h2 class="section-title" data-i18n="openQ">Open questions for your property</h2><ul class="questions-list" id="questions-tbody"></ul></section>
       <div style="font-size:11px;color:var(--muted);margin-top:26px" data-i18n="legalNoteRes">Legal texts shown in original (EN) only.</div><div class="disclaimer" id="disclaimer-box"></div>
     </div>
   </main>
@@ -96,8 +105,19 @@
         value = String(value.value) + (unit && !unit.includes('_') ? ' ' + unit : '');
       }
       if (value == null || value === '') return '-';
-      const text = String(value);
+      let text = String(value).trim();
       if (/^[a-z0-9]+(?:_[a-z0-9]+)+$/i.test(text)) return '-';
+      const lang = (typeof RHN_LANG === 'string') ? RHN_LANG : 'de';
+      const dayMatch = text.match(/^(\d[\d.,]*)\s*(business\s+)?days?$/i);
+      if (dayMatch) {
+        if (lang === 'en') return dayMatch[1] + (dayMatch[2] ? ' business days' : ' days');
+        if (lang === 'es') return dayMatch[1] + (dayMatch[2] ? ' días hábiles' : ' días');
+        return dayMatch[1] + (dayMatch[2] ? ' Werktage' : ' Tage');
+      }
+      const monthMatch = text.match(/^(\d[\d.,]*)\s*months?$/i);
+      if (monthMatch) return monthMatch[1] + (lang === 'en' ? ' months' : (lang === 'es' ? ' meses' : ' Monate'));
+      const yearMatch = text.match(/^(\d[\d.,]*)\s*years?$/i);
+      if (yearMatch) return yearMatch[1] + (lang === 'en' ? ' years' : (lang === 'es' ? ' años' : ' Jahre'));
       return text;
     }
     function renderMap(geo) {
@@ -118,7 +138,6 @@
       link.href='https://www.openstreetmap.org/?mlat='+lat+'&mlon='+lon+'#map=18/'+lat+'/'+lon;
       link.style.display='inline';
     }
-    let currentStatusFilter = 'all';
     const urlParams = new URLSearchParams(window.location.search);
     let query = urlParams.get('q') || 'A0001';
     let asOf = urlParams.get('as_of') || '2026-10-01';
@@ -152,13 +171,6 @@
       }
       errBox.innerHTML = '<strong>Fehler bei der Abfrage:</strong> ' + escapeHtml(err.message) + hint + '<br><br><a href="/" style="color: #000000; font-weight: 600;">Zurück zur Suche</a>';
     });
-    function setStatusFilter(status, el) {
-      currentStatusFilter = status;
-      document.querySelectorAll('#status-filters .filter-btn').forEach(btn => { btn.classList.remove('active'); btn.setAttribute('aria-pressed','false'); });
-      if (el) { el.classList.add('active'); el.setAttribute('aria-pressed','true'); }
-      renderTable();
-      document.getElementById('rules-overview').scrollIntoView({behavior:'smooth',block:'start'});
-    }
     function renderAll() {
       document.getElementById('loading-state').style.display = 'none';
       document.getElementById('content-state').style.display = 'block';
@@ -180,121 +192,120 @@
         { label:t('metaZip'), val:addr.zip || '—' }
       ];
       document.getElementById('meta-grid').innerHTML = meta.map(m => '<div class="meta-item"><div class="meta-label">' + escapeHtml(m.label) + '</div><div class="meta-value">' + escapeHtml(m.val) + '</div></div>').join('');
-      const appliesCount = decisions.filter(d => d.result === 'applies').length;
-      const unknownCount = decisions.filter(d => d.result === 'unknown').length;
-      const pendingCount = decisions.filter(d => ['pending', 'not_yet_effective', 'future_effective'].includes(d.result)).length;
-      const supersededCount = decisions.filter(d => ['superseded', 'not_applicable', 'repealed_or_expired', 'does_not_apply', 'failed'].includes(d.result)).length;
-      document.getElementById('count-all').textContent = decisions.length;
-      document.getElementById('count-applies').textContent = appliesCount;
-      document.getElementById('count-unknown').textContent = unknownCount;
-      document.getElementById('count-other').textContent = supersededCount;
-      document.getElementById('count-pending').textContent = pendingCount;
+      const conflicts = decisions.filter(function(x) { return x.conflict_flag; });
+      const cb = document.getElementById('conflict-banner');
+      if (cb) {
+        if (conflicts.length > 0) { cb.style.display = 'block'; cb.textContent = conflicts.length + (typeof t === 'function' ? t('conflictSuffix') : ' Entscheidung(en) mit Konflikt-Flag.'); }
+        else { cb.style.display = 'none'; }
+      }
       const questions = currentData.questions || [];
       if (questions.length > 0) {
         document.getElementById('questions-section').style.display = 'block';
-        document.getElementById('questions-tbody').innerHTML = questions.map(q => '<tr><td><strong>' + humanizeFact(q.fact) + '</strong></td><td>' + escapeHtml(q.question || q.prompt || '-') + (q.why_needed ? '<div class="rule-location">' + escapeHtml(q.why_needed) + '</div>' : '') + (q.acceptable_evidence ? '<div class="rule-location">Nachweis: ' + escapeHtml(Array.isArray(q.acceptable_evidence) ? q.acceptable_evidence.join('; ') : q.acceptable_evidence) + '</div>' : '') + (q.research_task ? '<div class="rule-location">Research-Task (keine Nutzerantwort noetig)</div>' : '') + '</td><td>' + escapeHtml((q.citations || []).filter(Boolean).join(', ') || ((q.rule_ids || []).length + ' ' + t('ruleCountLabel'))) + '</td></tr>').join('');
+        document.getElementById('questions-tbody').innerHTML = questions.map(q => '<li><strong>' + humanizeFact(q.fact) + ':</strong> ' + escapeHtml(q.question || q.prompt || '-') + (q.why_needed ? '<div class="rule-location">' + escapeHtml(q.why_needed) + '</div>' : '') + ((q.rule_ids || []).length ? '<div class="rule-location">' + (q.rule_ids || []).length + ' ' + escapeHtml(t('ruleCountLabel')) + '</div>' : '') + '</li>').join('');
       }
       document.getElementById('disclaimer-box').textContent = currentData.disclaimer || 'Not legal advice.';
-      renderTable();
+      renderFacts();
     }
     function afterLangChange() { if (currentData) { renderAll(); } }
-    function renderTable() {
+    const FACT_THEMES = [
+      { id:'rent', key:'themeRent', test:c=> /rent_increase|rent_cap|rent_stabili|rent_control/.test(c) },
+      { id:'deposit', key:'themeDeposit', test:c=> /deposit/.test(c) },
+      { id:'eviction', key:'themeEviction', test:c=> /evict|just_cause|notice_period|lease_renewal|retaliation/.test(c) },
+      { id:'screening', key:'themeScreening', test:c=> /screen|application|fee|fair_chance/.test(c) },
+      { id:'algorithms', key:'themeAlgorithms', test:c=> /algorithm|pricing_software/.test(c) }
+    ];
+    function factLabel(category) {
+      const norm = String(category || '').toLowerCase().replace(/[^a-z0-9]+/g, '_');
+      const v = (typeof t === 'function') ? t('factCat_' + norm) : '';
+      if (v) return v;
+      return String(category || '').replace(/_/g, ' ').replace(/^./, c => c.toUpperCase()) || '—';
+    }
+    function readableValue(d) {
+      const rule = d.rule || {};
+      const raw = (d.computed_value != null) ? d.computed_value : rule.key_value;
+      if (raw == null || raw === '') return null;
+      const text = formatKeyValue(raw);
+      if (!text || text === '-') return null;
+      return text;
+    }
+    function factStatus(d) {
+      if (d.result === 'applies') return { label: t('factHolds'), cls: 'is-applies' };
+      if (d.result === 'does_not_apply') return { label: t('factNotApplies'), cls: 'is-not' };
+      if ((d.targeted_questions || []).length > 0) return { label: t('factReview'), cls: '' };
+      return { label: t('factConditional'), cls: '' };
+    }
+    function sourceBlock(d) {
+      const rule = d.rule || {};
+      const ev = d.evidence || {};
+      const srcUrl = ev.source_url || rule.source_url;
+      const cite = ev.citation || rule.citation;
+      const docId = ev.source_doc_id || rule.source_doc_id;
+      const quote = ev.quoted_span || rule.quoted_span;
+      let html = '';
+      if (srcUrl && /^https?:\/\//i.test(srcUrl)) {
+        html += '<a class="source-link" href="' + escapeHtml(srcUrl) + '" target="_blank" rel="noopener">' + escapeHtml(t('openOriginal')) + ' ↗</a>';
+      } else if (cite || docId) {
+        html += '<span class="rule-location">' + escapeHtml(cite || docId) + '</span>';
+      } else {
+        html += '<span class="rule-location">' + escapeHtml(t('sourceUnavailable')) + '</span>';
+      }
+      if (quote) {
+        html += '<blockquote style="font-size: 12px; color: #000000; border-left: 2px solid #000000; margin: 6px 0 0 0; padding: 4px 0 4px 8px; white-space: pre-wrap;">' + escapeHtml(quote) + '</blockquote>';
+      }
+      return html;
+    }
+    function renderFacts() {
       const decisions = currentData.decisions || [];
-      const filterText = (document.getElementById('table-search').value || '').toLowerCase();
-      const filtered = decisions.filter(d => {
-        if (currentStatusFilter === 'applies' && d.result !== 'applies') return false;
-        if (currentStatusFilter === 'unknown' && d.result !== 'unknown') return false;
-        if (currentStatusFilter === 'pending' && !['pending', 'not_yet_effective', 'future_effective'].includes(d.result)) return false;
-        if (currentStatusFilter === 'superseded' && !['superseded', 'not_applicable', 'repealed_or_expired', 'does_not_apply', 'failed'].includes(d.result)) return false;
-        if (!filterText) return true;
-        const rule = d.rule || {};
-        const haystack = [d.result, rule.title, rule.requirement, rule.category, rule.jurisdiction, rule.level, rule.citation, rule.key_value, d.computed_value, rule.source_doc_id].join(' ').toLowerCase();
-        return haystack.includes(filterText);
+      const box = document.getElementById('rules-overview');
+      const groups = FACT_THEMES.map(theme => ({ id: theme.id, key: theme.key, test: theme.test, cards: new Map(), rows: [] }));
+      decisions.forEach(d => {
+        const value = readableValue(d);
+        const category = String((d.rule || {}).category || '').toLowerCase();
+        const group = groups.find(g => g.test(category));
+        if (!group) return;
+        if (value && (group.id !== 'algorithms' || /\d/.test(value)) && value.length <= 48) {
+          const key = value.toLowerCase().replace(/\s+/g, ' ').trim();
+          if (!group.cards.has(key)) group.cards.set(key, { value: value, items: [] });
+          group.cards.get(key).items.push(d);
+        } else {
+          group.rows.push(d);
+        }
       });
-      const statusMap = {
-        'applies': { label: 'GILT', cls: 'badge-applies' },
-        'unknown': { label: 'UNKLAR', cls: 'badge-unknown' },
-        'superseded': { label: 'VERDRÄNGT', cls: 'badge-superseded' },
-        'future_effective': { label: 'ZUKÜNFTIG', cls: 'badge-future' },
-        'pending': { label: 'ANHÄNGIG', cls: 'badge-future' },
-        'not_yet_effective': { label: 'NOCH NICHT IN KRAFT', cls: 'badge-future' },
-        'does_not_apply': { label: 'GREIFT NICHT', cls: 'badge-other' },
-        'failed': { label: 'GESCHEITERT', cls: 'badge-other' },
-        'repealed_or_expired': { label: 'AUFGEHOBEN', cls: 'badge-other' },
-        'not_applicable': { label: 'NICHT ANWENDBAR', cls: 'badge-other' }
-      };
-      const categoryMap = {
-        'rent_increase_cap': 'Mietobergrenze',
-        'just_cause_eviction': 'Kündigungsschutz',
-        'security_deposit': 'Kaution',
-        'notice_period': 'Kündigungsfrist',
-        'lease_renewal': 'Vertragsverlängerung',
-        'algorithmic_devices': 'Preissetzungs-Algorithmen',
-        'code_compliance': 'Wohnungsstandards',
-        'retaliation_protection': 'Schutz vor Vergeltung',
-        'screening_restrictions': 'Bewerbungsprüfung',
-        'application_screening_fees': 'Bewerbungsgebühren',
-        'security_deposits': 'Kaution',
-        'algorithmic_rent_setting': 'Algorithmische Mietfestlegung'
-      };
-      const tbody = document.getElementById('rules-tbody');
-      if (filtered.length === 0) {
-        tbody.innerHTML = '<tr><td colspan="4" class="no-rules">' + (typeof t === 'function' ? t('emptyMsg') : 'Keine Vorschriften für diese Filterauswahl gefunden.') + '</td></tr>';
+      const visible = groups.filter(g => g.cards.size > 0 || g.rows.length > 0);
+      if (visible.length === 0) {
+        box.innerHTML = '<div class="no-rules">' + escapeHtml(typeof t === 'function' ? t('emptyFacts') : '—') + '</div>';
         return;
       }
-      const allDec = currentData.decisions || currentData.rules || filtered;
-      const conflicts = allDec.filter(function(x) { return x.conflict_flag; });
-      const cb = document.getElementById('conflict-banner');
-      if (cb) {
-        if (conflicts.length > 0) { cb.style.display = 'block'; cb.textContent = conflicts.length + (typeof t === 'function' ? t('conflictSuffix') : ' Entscheidung(en) mit Konflikt-Flag: moegliche Normenkollision, menschliche Pruefung noetig.'); }
-        else { cb.style.display = 'none'; }
-      }
-      tbody.innerHTML = filtered.map(d => {
+      const detailItem = d => {
         const rule = d.rule || {};
-        const sInfo = statusMap[d.result] || { label: t('fUnknown'), cls: 'badge-other' };
-        const catLabel = categoryMap[rule.category] || (rule.category ? rule.category.replace(/_/g, ' ').replace(/^./, c => c.toUpperCase()) : '—');
-        const levelJur = (rule.level ? rule.level.toUpperCase() : '') + ': ' + (rule.jurisdiction || '-');
-        let questionsHtml = '';
-        if (d.targeted_questions && d.targeted_questions.length > 0) {
-          questionsHtml = '<details class="requirement-details"><summary>' + t('openChecks') + ' (' + d.targeted_questions.length + ')</summary><div class="questions-box">' + d.targeted_questions.map(q => '<p><strong>' + escapeHtml(humanizeFact(q.fact || '')) + ':</strong> ' + escapeHtml(q.question || q.prompt || t('propertyClarification')) + (q.why_needed ? '<br><span>' + escapeHtml(q.why_needed) + '</span>' : '') + (q.acceptable_evidence ? '<br><span>Nachweis: ' + escapeHtml(Array.isArray(q.acceptable_evidence) ? q.acceptable_evidence.join('; ') : q.acceptable_evidence) + '</span>' : '') + (q.research_task ? '<br><span>Research-Task</span>' : '') + '</p>').join('') + '</div></details>';
-        }
-        let traceHtml = '';
-        if (d.trace && d.trace.length > 0) {
-          traceHtml = '<details class="requirement-details"><summary>Ableitungspfad (' + d.trace.length + ')</summary><div class="questions-box">' + d.trace.map(s => '<p>' + escapeHtml((s.fact || '') + ' ' + (s.operator || '') + ' ' + (s.expected !== undefined ? s.expected : '') + ' &rarr; ' + (s.actual !== undefined ? s.actual : s.value !== undefined ? s.value : '')) + '</p>').join('') + '</div></details>';
-        }
-        const keyVal = formatKeyValue(d.computed_value ?? rule.key_value);
-        let sourceHtml = '';
-        const ev = d.evidence || {};
-        const srcUrl = ev.source_url || rule.source_url;
-        const cite = ev.citation || rule.citation;
-        const docId = ev.source_doc_id || rule.source_doc_id;
-        const quote = ev.quoted_span || rule.quoted_span;
-        const stripe = ev.retrieved_at || rule.retrieved_at;
-        if (srcUrl && /^https?:\/\//i.test(srcUrl)) {
-          sourceHtml = '<a href="' + escapeHtml(/^https?:\/\//i.test(srcUrl) ? srcUrl : '#') + '" target="_blank" rel="noopener" class="source-link">' + escapeHtml(t('openOriginal')) + '</a>';
-        } else {
-          sourceHtml = escapeHtml(cite || docId || '-');
-        }
-        if (cite) sourceHtml += '<div class="rule-location">' + escapeHtml(cite) + '</div>';
-        if (quote) {
-          sourceHtml += '<blockquote style="font-size: 12px; color: #000000; border-left: 2px solid #000000; margin: 6px 0 0 0; padding: 4px 0 4px 8px; white-space: pre-wrap;">Originalbeleg: ' + escapeHtml(quote) + '</blockquote>';
-        }
-        if (stripe) {
-          sourceHtml += '<div style="font-size: 11px; color: #666666; margin-top: 4px;">Abgerufen: ' + escapeHtml(stripe) + '</div>';
-        }
-        sourceHtml += '<div style="font-size: 11px; color: #666666; margin-top: 4px;">Datum: ' + (rule.effective_date || 'unbekannt') + ' / Stichtag: ' + currentData.as_of + '</div>';
-        const requirement = String(rule.requirement || '—');
-        const shortRequirement = requirement.length > 230 ? requirement.slice(0,227).replace(/\s+\S*$/, '') + '…' : requirement;
-        const safeSource = srcUrl && /^https?:\/\//i.test(srcUrl);
-        const directSource = safeSource ? '<a class="source-link" href="' + escapeHtml(srcUrl) + '" target="_blank" rel="noopener">' + t('openOriginal') + ' ↗</a>' : '<span class="rule-location">' + t('sourceUnavailable') + '</span>';
-        const evidenceDetails = '<details class="rule-source"><summary>' + t('sourceEvidence') + '</summary><div class="rule-source-body">' + sourceHtml + '</div></details>';
-        return '<tr><td><div class="rule-title">' + escapeHtml(rule.title || '—') + '</div><div class="rule-category">' + escapeHtml(catLabel) + '</div><div class="rule-location">' + escapeHtml(rule.jurisdiction || '') + '</div></td>' +
-          '<td><div class="rule-req">' + escapeHtml(shortRequirement) + '</div>' +
-          (requirement.length > 230 ? '<details class="requirement-details"><summary>' + t('fullRequirement') + '</summary><p>' + escapeHtml(requirement) + '</p></details>' : '') +
-          (keyVal !== '-' ? '<div class="rule-value">' + escapeHtml(keyVal) + '</div>' : '') + questionsHtml + traceHtml +
-          (d.conflict_flag ? '<div class="review-note">' + t('conflictNote') + '</div>' : '') + '</td>' +
-          '<td><span class="badge ' + sInfo.cls + '">' + escapeHtml(sInfo.label) + '</span></td>' +
-          '<td>' + directSource + evidenceDetails + '</td></tr>';
+        const req = String(rule.requirement || '—');
+        const short = req.length > 230 ? req.slice(0, 227).replace(/\s+\S*$/, '') + '…' : req;
+        return '<div style="margin-bottom:14px"><div class="rule-title">' + escapeHtml(rule.title || '—') + '</div>' +
+          '<div class="rule-req">' + escapeHtml(short) + '</div>' +
+          (req.length > 230 ? '<details class="requirement-details"><summary>' + escapeHtml(t('fullRequirement')) + '</summary><p>' + escapeHtml(req) + '</p></details>' : '') +
+          (d.conflict_flag ? '<div class="review-note">' + escapeHtml(t('conflictNote')) + '</div>' : '') +
+          '<details class="rule-source"><summary>' + escapeHtml(t('sourceEvidence')) + '</summary><div class="rule-source-body">' + sourceBlock(d) + '</div></details></div>';
+      };
+      box.innerHTML = visible.map(g => {
+        const cards = [...g.cards.values()].map(card => {
+          const first = card.items.find(d => d.result === 'applies') || card.items[0];
+          const st = factStatus(first);
+          const cats = [...new Set(card.items.map(d => String((d.rule || {}).category || '')))].filter(Boolean);
+          const label = cats.length ? cats.map(factLabel).join(' · ') : factLabel('');
+const details = card.items.map(detailItem).join('');
+          return '<article class="fact-card' + (st.cls ? ' ' + st.cls : '') + '"><div class="fact-value">' + escapeHtml(card.value) + '</div>' +
+            '<div class="fact-label">' + escapeHtml(label) + '</div>' +
+            '<div class="fact-status' + (st.cls ? ' ' + st.cls : '') + '">' + escapeHtml(st.label) + (card.items.length > 1 ? ' · ' + card.items.length + ' ' + escapeHtml(t('ruleCountLabel')) + '</div>' : '</div>') +
+            '<details class="requirement-details fact-details"><summary>' + escapeHtml(t('factDetails')) + '</summary><div style="margin-top:12px">' + details + '</div></details></article>';
+        }).join('');
+        const rows = g.rows.map(d => {
+          const st = factStatus(d);
+          const rule = d.rule || {};
+          return '<li><details><summary><span class="more-title">' + escapeHtml(rule.title || '—') + '</span> <span class="more-status' + (st.cls ? ' ' + st.cls : '') + '">' + escapeHtml(st.label) + '</span></summary><div class="more-body">' + detailItem(d) + '</div></details></li>';
+        }).join('');
+        return '<section class="rule-topic" aria-labelledby="theme-' + g.id + '"><h3 class="topic-heading" id="theme-' + g.id + '">' + escapeHtml(t(g.key)) + '</h3>' +
+          (cards ? '<div class="fact-grid">' + cards + '</div>' : '') +
+          (rows ? '<h4 class="more-heading">' + escapeHtml(t('moreRules')) + '</h4><ul class="more-rules">' + rows + '</ul>' : '') + '</section>';
       }).join('');
     }
   </script>
@@ -400,15 +411,24 @@ var I18N = {
 "statTotal": "Normas registradas en total: "
 }
 };
-Object.assign(I18N["en"],{"propertyReport": "PROPERTY REPORT", "loadingReport": "Finding the rules for this address…", "propertyDetails": "A closer look at your property", "rulesHeading": "The rules that matter here", "rulesIntro": "Explore requirements, check what applies, and go straight to the original source.", "openMap": "Open map ↗", "mapUnavailable": "No confirmed location available", "mapNoCoordinates": "The address could not be located precisely.", "mapCaution": "Approximate address location · Parcel boundaries are not verified. © OpenStreetMap", "metaJurisdiction": "Legal jurisdiction", "metaUnits": "Residential units", "metaYear": "Year built", "metaType": "Property type", "metaState": "State", "metaZip": "ZIP code", "sourceEvidence": "Source & original evidence ↗", "factHeader": "Property detail", "questionHeader": "Question", "affectedHeader": "Affected rules", "filterPh": "Search rules, categories or citations", "fUnknown": "Needs review", "fSup": "Not active", "fPending": "Upcoming"});
-Object.assign(I18N["de"],{"propertyReport": "GRUNDSTÜCKSREPORT", "loadingReport": "Die Vorschriften für diese Adresse werden geladen…", "propertyDetails": "Dein Grundstück im Überblick", "rulesHeading": "Die Regeln für dieses Grundstück", "rulesIntro": "Vorschriften verstehen, Geltung prüfen und die Originalquelle direkt nachlesen.", "openMap": "Karte öffnen ↗", "mapUnavailable": "Kein bestätigter Standort verfügbar", "mapNoCoordinates": "Die Adresse konnte nicht eindeutig verortet werden.", "mapCaution": "Ungefähre Adressposition · Grundstücksgrenzen sind nicht verifiziert. © OpenStreetMap", "metaJurisdiction": "Rechtliche Zuständigkeit", "metaUnits": "Wohneinheiten", "metaYear": "Baujahr", "metaType": "Gebäudetyp", "metaState": "Bundesstaat", "metaZip": "Postleitzahl", "sourceEvidence": "Quelle & Originalbeleg ↗", "factHeader": "Grundstücksdetail", "questionHeader": "Prüffrage", "affectedHeader": "Betroffene Regeln", "filterPh": "Regeln, Kategorien oder Quellen suchen", "fUnknown": "Prüfung offen", "fSup": "Nicht aktiv", "fPending": "Zukünftig"});
-Object.assign(I18N["es"],{"propertyReport": "INFORME DEL INMUEBLE", "loadingReport": "Buscando las normas para esta dirección…", "propertyDetails": "Tu inmueble de un vistazo", "rulesHeading": "Las normas de este inmueble", "rulesIntro": "Consulta los requisitos, comprueba su aplicación y lee la fuente original.", "openMap": "Abrir mapa ↗", "mapUnavailable": "Ubicación no confirmada", "mapNoCoordinates": "La dirección no se ha localizado con precisión.", "mapCaution": "Ubicación aproximada · Límites de parcela no verificados. © OpenStreetMap", "metaJurisdiction": "Jurisdicción legal", "metaUnits": "Viviendas", "metaYear": "Año de construcción", "metaType": "Tipo de inmueble", "metaState": "Estado", "metaZip": "Código postal", "sourceEvidence": "Fuente y evidencia original ↗", "factHeader": "Detalle del inmueble", "questionHeader": "Pregunta", "affectedHeader": "Normas afectadas", "filterPh": "Buscar normas, categorías o fuentes", "fUnknown": "Revisión pendiente", "fSup": "Inactivas", "fPending": "Próximas"});
+Object.assign(I18N["en"],{factNotApplies:"Does not apply","propertyReport": "PROPERTY REPORT", "loadingReport": "Finding the rules for this address…", "propertyDetails": "A closer look at your property", "rulesHeading": "The rules that matter here", "rulesIntro": "Explore requirements, check what applies, and go straight to the original source.", "openMap": "Open map ↗", "mapUnavailable": "No confirmed location available", "mapNoCoordinates": "The address could not be located precisely.", "mapCaution": "Approximate address location · Parcel boundaries are not verified. © OpenStreetMap", "metaJurisdiction": "Legal jurisdiction", "metaUnits": "Residential units", "metaYear": "Year built", "metaType": "Property type", "metaState": "State", "metaZip": "ZIP code", "sourceEvidence": "Source & original evidence ↗", "factHeader": "Property detail", "questionHeader": "Question", "affectedHeader": "Affected rules", "filterPh": "Search rules, categories or citations", "fUnknown": "Needs review", "fSup": "Not active", "fPending": "Upcoming"});
+Object.assign(I18N["de"],{factNotApplies:"Gilt nicht","propertyReport": "GRUNDSTÜCKSREPORT", "loadingReport": "Die Vorschriften für diese Adresse werden geladen…", "propertyDetails": "Dein Grundstück im Überblick", "rulesHeading": "Die Regeln für dieses Grundstück", "rulesIntro": "Vorschriften verstehen, Geltung prüfen und die Originalquelle direkt nachlesen.", "openMap": "Karte öffnen ↗", "mapUnavailable": "Kein bestätigter Standort verfügbar", "mapNoCoordinates": "Die Adresse konnte nicht eindeutig verortet werden.", "mapCaution": "Ungefähre Adressposition · Grundstücksgrenzen sind nicht verifiziert. © OpenStreetMap", "metaJurisdiction": "Rechtliche Zuständigkeit", "metaUnits": "Wohneinheiten", "metaYear": "Baujahr", "metaType": "Gebäudetyp", "metaState": "Bundesstaat", "metaZip": "Postleitzahl", "sourceEvidence": "Quelle & Originalbeleg ↗", "factHeader": "Grundstücksdetail", "questionHeader": "Prüffrage", "affectedHeader": "Betroffene Regeln", "filterPh": "Regeln, Kategorien oder Quellen suchen", "fUnknown": "Prüfung offen", "fSup": "Nicht aktiv", "fPending": "Zukünftig"});
+Object.assign(I18N["es"],{factNotApplies:"No aplicable","propertyReport": "INFORME DEL INMUEBLE", "loadingReport": "Buscando las normas para esta dirección…", "propertyDetails": "Tu inmueble de un vistazo", "rulesHeading": "Las normas de este inmueble", "rulesIntro": "Consulta los requisitos, comprueba su aplicación y lee la fuente original.", "openMap": "Abrir mapa ↗", "mapUnavailable": "Ubicación no confirmada", "mapNoCoordinates": "La dirección no se ha localizado con precisión.", "mapCaution": "Ubicación aproximada · Límites de parcela no verificados. © OpenStreetMap", "metaJurisdiction": "Jurisdicción legal", "metaUnits": "Viviendas", "metaYear": "Año de construcción", "metaType": "Tipo de inmueble", "metaState": "Estado", "metaZip": "Código postal", "sourceEvidence": "Fuente y evidencia original ↗", "factHeader": "Detalle del inmueble", "questionHeader": "Pregunta", "affectedHeader": "Normas afectadas", "filterPh": "Buscar normas, categorías o fuentes", "fUnknown": "Revisión pendiente", "fSup": "Inactivas", "fPending": "Próximas"});
 Object.assign(I18N["en"],{"tableRule": "Rule & category", "tableRequirement": "What it means for your property", "tableSource": "Original text", "openOriginal": "Read original text", "sourceUnavailable": "Source not available", "fullRequirement": "Read full requirement", "sourceEvidence": "Citation & original excerpt", "conflictNote": "Potential conflict between rules. Qualified review is required.", "propertyClarification": "Further property details", "ruleCountLabel": "rules"});
 Object.assign(I18N["de"],{"tableRule": "Regel & Kategorie", "tableRequirement": "Was für dein Grundstück gilt", "tableSource": "Originaltext", "openOriginal": "Originaltext lesen", "sourceUnavailable": "Quelle nicht verfügbar", "fullRequirement": "Vollständige Anforderung", "sourceEvidence": "Fundstelle & Originalauszug", "conflictNote": "Möglicher Konflikt zwischen Vorschriften. Fachliche Prüfung erforderlich.", "propertyClarification": "Weitere Grundstücksangaben", "ruleCountLabel": "Regeln"});
 Object.assign(I18N["es"],{"tableRule": "Norma y categoría", "tableRequirement": "Requisito para tu inmueble", "tableSource": "Texto original", "openOriginal": "Leer texto original", "sourceUnavailable": "Fuente no disponible", "fullRequirement": "Requisito completo", "sourceEvidence": "Cita y extracto original", "conflictNote": "Posible conflicto entre normas. Requiere revisión profesional.", "propertyClarification": "Otros detalles del inmueble", "ruleCountLabel": "normas"});
 Object.assign(I18N.en,{openChecks:'Open check questions'});
 Object.assign(I18N.de,{openChecks:'Offene Prüffragen'});
 Object.assign(I18N.es,{openChecks:'Preguntas pendientes'});
+Object.assign(I18N["de"],{"themeRent": "Miete & Mieterhöhungen", "themeDeposit": "Kaution", "themeEviction": "Kündigung & Mieterschutz", "themeScreening": "Bewerbung & Auswahl", "themeAlgorithms": "Algorithmische Mietfestlegung", "themeOther": "Weitere Vorschriften"});
+Object.assign(I18N["en"],{"themeRent": "Rent & rent increases", "themeDeposit": "Security deposits", "themeEviction": "Eviction & tenant protection", "themeScreening": "Applications & screening", "themeAlgorithms": "Algorithmic rent setting", "themeOther": "Other requirements"});
+Object.assign(I18N["es"],{"themeRent": "Alquiler y aumentos", "themeDeposit": "Depósitos de garantía", "themeEviction": "Desalojo y protección del inquilino", "themeScreening": "Solicitudes y selección", "themeAlgorithms": "Fijación algorítmica del alquiler", "themeOther": "Otras normas"});
+Object.assign(I18N["en"],{factHolds:"Applies",factConditional:"Applies to this building once the process occurs",factReview:"Review open",factDetails:"Details & original text",moreRules:"More rules on this topic",emptyFacts:"No clear key figures available for this property yet."});
+Object.assign(I18N["de"],{factHolds:"Gilt",factConditional:"Gilt für dieses Gebäude, wenn der Vorgang eintritt",factReview:"Prüfung offen",factDetails:"Details & Originaltext",moreRules:"Weitere Regeln zu diesem Thema",emptyFacts:"Für dieses Grundstück liegen noch keine klaren Kennzahlen vor."});
+Object.assign(I18N["es"],{factHolds:"Aplicable",factConditional:"Aplicable a este inmueble cuando ocurra el proceso",factReview:"Revisión pendiente",factDetails:"Detalles y texto original",moreRules:"Más reglas sobre este tema",emptyFacts:"Aún no hay cifras claras para este inmueble."});
+Object.assign(I18N["en"],{factCat_security_deposits:"Security deposit",factCat_rent_increase_limits:"Rent increase",factCat_application_screening_fees:"Application fee",factCat_just_cause_eviction:"Eviction protection",factCat_algorithmic_rent_setting:"Algorithmic rent setting",factCat_notice_period:"Notice period",factCat_screening_restrictions:"Application screening"});
+Object.assign(I18N["de"],{factCat_security_deposits:"Kaution",factCat_rent_increase_limits:"Mieterhöhung",factCat_application_screening_fees:"Bewerbungsgebühr",factCat_just_cause_eviction:"Kündigungsschutz",factCat_algorithmic_rent_setting:"Algorithmische Mietfestlegung",factCat_notice_period:"Kündigungsfrist",factCat_screening_restrictions:"Bewerbungsprüfung"});
+Object.assign(I18N["es"],{factCat_security_deposits:"Depósito de garantía",factCat_rent_increase_limits:"Aumento del alquiler",factCat_application_screening_fees:"Tarifa de solicitud",factCat_just_cause_eviction:"Protección contra el desalojo",factCat_algorithmic_rent_setting:"Fijación algorítmica del alquiler",factCat_notice_period:"Plazo de preaviso",factCat_screening_restrictions:"Selección de solicitudes"});
 var RHN_LANG = "de";
 function t(k) { var d = I18N[RHN_LANG] || I18N["en"]; var v = d ? d[k] : undefined; if (v === undefined) { v = I18N["en"][k]; } return (v === undefined) ? "" : v; }
 function applyI18n() {
