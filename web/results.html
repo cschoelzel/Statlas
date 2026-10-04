@@ -254,7 +254,7 @@
         if (d.targeted_questions && d.targeted_questions.length > 0) {
           questionsHtml = '<div class="questions-box"><strong>Offene Prüfung:</strong>' + d.targeted_questions.map(q => '• ' + (q.question || q.prompt || q.fact)).join('<br>') + '</div>';
         }
-        if (d.review_required && d.review_required.length) {
+        if (Array.isArray(d.review_required) && d.review_required.length) {
           const escaped = d.review_required.map(note => String(note).replace(/[&<>"']/g, char => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[char])));
           questionsHtml += '<div class="questions-box"><strong>Quellenprüfung erforderlich:</strong><br>' + escaped.join('<br>') + '</div>';
         }
