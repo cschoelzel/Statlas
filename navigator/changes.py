@@ -49,7 +49,9 @@ def evaluate_changes(rules, addresses, tests=None):
             if any(s['conflicts'] for s in snapshots): flagged.append(address['address_id'])
             if any(d['result']=='unknown' for s in snapshots for d in s['decisions']): unresolved.append(address['address_id'])
             records.append({'address_id':address['address_id'],'snapshots':snapshots,'geography_status':geo['status']})
-        negative_empty=case.get('type')=='negative' and bool(selected) and not missing and not affected and not unresolved
+        negative_empty=(case.get('type')=='negative' and bool(selected) and not missing
+                        and bool(records) and all(r.get('status')=='failed' for r in selected)
+                        and not affected and not unresolved)
         status='incomplete' if missing else ('correctly_empty' if negative_empty else ('evaluated_with_geographic_gaps' if unresolved else 'evaluated'))
         result[case['test_id']]={'title':case['title'],'affected_address_ids':affected,
              'conflict_flag_address_ids':flagged,'unresolved_address_ids':unresolved,

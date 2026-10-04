@@ -31,6 +31,9 @@ class TestAuditRegression(unittest.TestCase):
         self.assertEqual(result['status'], 'correctly_empty')
         self.assertEqual(result['missing_rule_ids'], [])
         self.assertEqual(result['affected_address_ids'], [])
+        failed['status'] = 'pending'
+        result = evaluate_changes([failed], [], [case])['T5']
+        self.assertNotEqual(result['status'], 'correctly_empty')
     def test_changes_unresolved_never_affected(self):
         from navigator.changes import evaluate_changes
         from navigator.geography import load_addresses
