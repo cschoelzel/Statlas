@@ -1,0 +1,11 @@
+{
+  "doc_id": "JC-25-076-original",
+  "source_url": "https://cityofjerseycity.civicweb.net/document/433505/Amending%20218-12%20to%20clarify%20language.pdf?handle=42A331E429724B93A4477962ABE6783F",
+  "retrieved_at": "2026-10-04T11:01:15.076599+00:00",
+  "raw_sha256": "a97cb90af2ada60daf611fbc1227d02ad8c6a0dca8cf0d2c2ef83f02f0f222ac",
+  "text_sha256": "4f328d39fbeeb3400bd4682216a5913744662807ce53a5f3b036752a5413b36e",
+  "raw_file": "data/sources_new/JC_25076_official_pdf.pdf",
+  "text_file": "data/sources_new/JC_25076_official_pdf.txt",
+  "parser": "pdftotext-layout",
+  "status": "captured_requires_legal_extraction"
+}
