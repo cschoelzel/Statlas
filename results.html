@@ -1,111 +1,123 @@
 <!doctype html>
-<html lang="en">
+<html lang="de">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Rental Housing Law Navigator — Auswertung</title>
+  <title>statlas — Grundstücksregeln</title>
   <style>
-    * { box-sizing: border-box; margin: 0; padding: 0; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; }
-    body { background: #ffffff; color: #000000; padding: 24px; line-height: 1.4; }
-    .container { max-width: 1400px; margin: 0 auto; }
-    header { border-bottom: 2px solid #000000; padding-bottom: 16px; margin-bottom: 24px; display: flex; justify-content: space-between; align-items: flex-start; flex-wrap: wrap; gap: 16px; }
-    .nav-back { display: inline-block; text-decoration: none; color: #000000; font-weight: 600; font-size: 14px; border: 1px solid #000000; padding: 8px 14px; margin-bottom: 12px; }
-    .nav-back:hover { background: #000000; color: #ffffff; }
-    h1 { font-size: 24px; font-weight: 700; letter-spacing: -0.5px; }
-    .meta-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 12px; background: #fbfbfb; border: 1px solid #000000; padding: 16px; margin-bottom: 24px; }
-    .meta-item { font-size: 13px; }
-    .meta-label { font-size: 11px; text-transform: uppercase; letter-spacing: 0.5px; color: #555555; margin-bottom: 2px; }
-    .meta-value { font-weight: 600; color: #000000; }
-    .stats-bar { display: flex; gap: 16px; margin-bottom: 16px; flex-wrap: wrap; }
-    .stat-badge { border: 1px solid #000000; padding: 6px 12px; font-size: 13px; font-weight: 600; }
-    .controls { display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 12px; margin-bottom: 16px; }
-    .filter-group { display: flex; gap: 6px; flex-wrap: wrap; }
-    .filter-btn { background: #ffffff; color: #000000; border: 1px solid #000000; padding: 6px 12px; font-size: 13px; cursor: pointer; font-weight: 500; }
-    .filter-btn.active { background: #000000; color: #ffffff; }
-    .search-filter { padding: 6px 10px; font-size: 13px; border: 1px solid #000000; min-width: 240px; outline: none; }
-    table { width: 100%; border-collapse: collapse; border: 1px solid #000000; font-size: 13px; margin-bottom: 32px; }
-    th { background: #000000; color: #ffffff; text-align: left; padding: 10px 12px; font-weight: 600; border: 1px solid #000000; }
-    td { padding: 10px 12px; border: 1px solid #e0e0e0; vertical-align: top; }
-    tr:nth-child(even) td { background: #fafafa; }
-    tr:hover td { background: #f0f0f0; }
-    .badge { display: inline-block; padding: 2px 6px; font-size: 11px; font-weight: 700; text-transform: uppercase; border: 1px solid #000000; letter-spacing: 0.5px; }
-    .badge-applies { background: #000000; color: #ffffff; }
-    .badge-unknown { background: #ffffff; color: #000000; border: 1px dashed #000000; }
-    .badge-superseded { background: #eeeeee; color: #777777; border-color: #cccccc; text-decoration: line-through; }
-    .badge-future { background: #ffffff; color: #000000; border: 1px dotted #000000; }
-    .badge-other { background: #f5f5f5; color: #888888; border-color: #cccccc; }
-    .rule-title { font-weight: 600; margin-bottom: 4px; }
-    .rule-req { color: #333333; margin-bottom: 6px; }
-    .questions-box { margin-top: 6px; padding: 6px 8px; border-left: 2px solid #000000; background: #f4f4f4; font-size: 12px; }
-    .questions-box strong { display: block; margin-bottom: 2px; }
-    .source-link { color: #000000; text-decoration: underline; word-break: break-all; }
-    .key-value { font-family: ui-monospace, SFMono-Regular, Consolas, monospace; font-weight: 600; }
-    .section-title { font-size: 18px; font-weight: 700; margin-top: 32px; margin-bottom: 12px; border-bottom: 1px solid #000000; padding-bottom: 4px; }
-    .disclaimer { border: 1px solid #000000; padding: 12px 16px; font-size: 12px; color: #444444; margin-top: 32px; }
-    .loading { text-align: center; padding: 64px 0; font-size: 16px; }
-    .error { border: 2px solid #000000; padding: 24px; margin: 32px 0; background: #fafafa; }
+    :root { --ink:#252525; --muted:#686868; --line:#e5e5e5; --accent:#e31b36; --soft:#f6f6f6; }
+    * { box-sizing:border-box; }
+    body { margin:0; background:#fff; color:var(--ink); font:14px/1.55 "Helvetica Neue",Arial,sans-serif; }
+    button,input { font:inherit; } button,a,input { -webkit-tap-highlight-color:transparent; }
+    a { color:inherit; } button { cursor:pointer; } button:focus-visible,a:focus-visible,summary:focus-visible { outline:3px solid var(--accent); outline-offset:4px; }
+    .topbar { height:88px; border-bottom:1px solid var(--line); display:flex; align-items:center; justify-content:space-between; padding:0 max(32px,calc((100vw - 1240px)/2)); gap:24px; }
+    .brand { color:var(--accent); display:flex; align-items:center; gap:10px; font-size:20px; font-weight:750; letter-spacing:-.7px; text-decoration:none; white-space:nowrap; }
+    .brand-mark { color:var(--accent); font-size:28px; line-height:1; }
+    .nav-back { border:1px solid var(--line); border-radius:30px; padding:11px 20px; text-decoration:none; font-weight:600; box-shadow:0 2px 7px #00000006; }
+    .nav-back:hover { border-color:#b9b3af; } #lang-toggle { display:flex; gap:5px; } #lang-toggle button { background:white; border:0; border-radius:20px; padding:7px 9px; font-size:11px; font-weight:650; }
+    .container { max-width:1240px; margin:0 auto; padding:44px 32px 64px; }
+    header { display:flex; justify-content:space-between; align-items:flex-start; gap:24px; margin-bottom:30px; }
+    .eyebrow { color:var(--accent); font-size:11px; font-weight:750; text-transform:uppercase; letter-spacing:1.7px; margin-bottom:9px; }
+    h1 { font-size:34px; line-height:1.2; font-weight:650; letter-spacing:-1.1px; margin:0 0 9px; } #subtitle { color:var(--muted); }
+    #as-of-badge { white-space:nowrap; font-size:12px; background:var(--soft); border-radius:25px; padding:9px 15px; margin-top:20px; }
+    .property-overview { display:grid; grid-template-columns:1.08fr 1fr; gap:38px; margin-bottom:48px; padding:30px; border:1px solid var(--line); border-radius:20px; }
+    .property-panel { padding:6px 0; } .property-panel h2,.section-title,.rules-heading { font-size:23px; letter-spacing:-.5px; font-weight:650; margin:0 0 18px; }
+    .meta-grid { display:grid; grid-template-columns:repeat(3,1fr); gap:29px 20px; margin-top:27px; }
+    .meta-label { color:var(--muted); font-size:13px; margin-bottom:4px; } .meta-value { font-size:18px; font-weight:600; word-break:break-word; }
+    .map-panel { min-width:0; } .map-frame { height:330px; border-radius:14px; background:var(--soft); overflow:hidden; border:1px solid var(--line); }
+    .map-frame iframe { width:100%; height:100%; border:0; } .map-note { display:flex; justify-content:space-between; align-items:flex-start; gap:18px; color:var(--muted); font-size:11px; margin:10px 3px 0; } .map-note a { white-space:nowrap; color:var(--ink); font-weight:600; } .map-empty { height:100%; display:grid; place-content:center; padding:32px; text-align:center; color:var(--muted); }
+    .rule-section { border-top:1px solid var(--line); padding-top:32px; } .section-description { color:var(--muted); margin:-10px 0 24px; }
+    .controls { margin-bottom:26px; } .filter-group { display:grid; grid-template-columns:repeat(5,minmax(0,1fr)); gap:12px; margin-bottom:36px; }
+    .filter-btn { display:flex; flex-direction:column; gap:8px; text-align:left; background:#fff; color:var(--accent); border:1px solid var(--accent); border-radius:12px; padding:22px 20px; font-size:13px; font-weight:550; min-height:117px; transition:border-color .15s,background .15s; } .filter-btn .status-number { font-size:30px; line-height:1; font-weight:650; letter-spacing:-1px; } .filter-btn:hover { border-color:var(--accent); } .filter-btn.active { background:var(--accent); border-color:var(--accent); color:#fff; } .filter-btn.active .status-number { color:#fff; }
+    .search-filter { width:100%; max-width:390px; border:1px solid var(--line); border-radius:12px; padding:12px 15px; outline:none; background:var(--soft); } .search-filter:focus { border-color:var(--ink); background:white; }
+    .rules-table-wrap { overflow-x:auto; border-top:1px solid var(--line); border-bottom:1px solid var(--line); scroll-margin-top:28px; } .rules-table { min-width:820px; font-size:14px; } .rules-table th { font-size:12px; padding:18px 22px; } .rules-table td { padding:25px 22px; } .rules-table tbody tr:last-child td { border-bottom:0; } .rule-topic { margin-top:40px; } .topic-heading { font-size:28px; font-weight:650; letter-spacing:-.7px; line-height:1.25; margin:0 0 20px; } #rules-overview { scroll-margin-top:28px; }
+    .rule-title { font-size:15px; line-height:1.45; font-weight:650; margin:0 0 8px; } .rule-category { font-size:12px; color:var(--muted); } .rule-req { color:#454545; font-size:14px; line-height:1.6; } .rule-value { font-size:15px; font-weight:650; margin-top:12px; } .rule-location { font-size:12px; color:var(--muted); margin-top:5px; }
+    .badge { display:inline-block; font-size:11px; line-height:1.6; font-weight:650; border-radius:6px; padding:6px 9px; white-space:nowrap; } .badge-applies { color:var(--accent); background:#fff; border:1px solid var(--accent); } .badge-unknown,.badge-future,.badge-other,.badge-superseded { background:#f0f0f0; color:#505050; }
+    .questions-box { background:#f6f6f6; padding:13px 15px; border-radius:9px; color:#444; font-size:12px; margin-top:14px; } .questions-box strong { display:block; margin-bottom:5px; }
+    .rule-source { font-size:12px; margin-top:13px; } .rule-source summary,.requirement-details summary { cursor:pointer; font-weight:600; color:#555; font-size:12px; } .rule-source-body { margin-top:12px; overflow-wrap:anywhere; } .source-link { font-size:13px; font-weight:650; text-underline-offset:4px; word-break:break-word; } blockquote { background:#f6f6f6; border-left:2px solid #ccc!important; padding:12px!important; border-radius:0 6px 6px 0; }
+    .requirement-details { margin-top:10px; } .requirement-details p { font-size:13px; } .review-note { color:#555; font-size:12px; margin-top:12px; }
+    .section-title { margin-top:42px; } table { width:100%; border-collapse:collapse; font-size:12px; } th { text-align:left; padding:12px 15px; background:var(--soft); font-weight:600; } td { border-bottom:1px solid var(--line); padding:15px; vertical-align:top; } .questions-table { overflow-x:auto; }
+    .disclaimer { border-top:1px solid var(--line); padding-top:20px; font-size:11px; color:var(--muted); margin-top:32px; } .loading { padding:90px 24px; text-align:center; color:var(--muted); } .error { background:#fff4f1; padding:24px; border-radius:16px; margin:32px 0; } #conflict-banner { background:#f5f5f5; border-radius:12px; padding:14px 18px; font-size:12px; margin-bottom:20px; color:#444; } .no-rules { grid-column:1/-1; padding:40px; text-align:center; color:var(--muted); }
+    @media(max-width:800px) { .topbar { padding:0 20px; height:76px; gap:12px; } .brand { font-size:17px; } .nav-back { padding:9px 12px; font-size:11px; } .container { padding:30px 20px; } h1 { font-size:28px; } header { flex-wrap:wrap; gap:8px; } #as-of-badge { margin-top:0; } .property-overview { grid-template-columns:1fr; gap:25px; padding:22px; } .filter-group { grid-template-columns:repeat(3,minmax(0,1fr)); } .filter-btn { min-height:105px; padding:17px; } .rules-list { grid-template-columns:1fr; } .meta-grid { gap:20px 12px; } .rule-card { padding:22px; } .map-frame { height:260px; } }
+    @media(max-width:430px) { .brand { font-size:15px; gap:6px; } #lang-toggle { gap:0; } #lang-toggle button { padding:7px 5px; } .nav-back { font-size:10px; padding:8px; } .meta-grid { grid-template-columns:repeat(2,1fr); } .filter-group { grid-template-columns:repeat(2,minmax(0,1fr)); gap:8px; } .filter-btn { font-size:12px; padding:16px; } .meta-value { font-size:16px; } }
   </style>
 </head>
-<body style="position: relative;">
-  <div id="lang-toggle" style="position: absolute; top: 16px; right: 20px; font-size: 13px; font-weight: 600; z-index: 5;">
-    <button type="button" data-lang-btn="en" style="width:auto;padding:4px 8px;border:1px solid #000;font-weight:600;cursor:pointer;background:#fff;color:#000;" aria-label="English">EN</button><span style="color:#888;"> | </span><button type="button" data-lang-btn="de" style="width:auto;padding:4px 8px;border:1px solid #000;font-weight:600;cursor:pointer;background:#fff;color:#000;" aria-label="Deutsch">DE</button><span style="color:#888;"> | </span><button type="button" data-lang-btn="es" style="width:auto;padding:4px 8px;border:1px solid #000;font-weight:600;cursor:pointer;background:#fff;color:#000;" aria-label="Espanol">ES</button>
-  </div>
-  <div class="container">
-    <a href="/" class="nav-back" data-i18n="back">Back to search</a>
+<body>
+  <nav class="topbar" aria-label="Main navigation">
+    <a href="/" class="brand">statlas</a>
+    <a href="/" class="nav-back"><span aria-hidden="true">← </span><span data-i18n="back">Back to search</span></a>
+    <div id="lang-toggle"><button type="button" data-lang-btn="en" aria-label="English">EN</button><button type="button" data-lang-btn="de" aria-label="Deutsch">DE</button><button type="button" data-lang-btn="es" aria-label="Español">ES</button></div>
+  </nav>
+  <main class="container">
     <header>
-      <div>
-        <h1 id="page-title">Auswertung Mietrecht</h1>
-        <div id="subtitle" style="font-size: 14px; color: #555555; margin-top: 4px;">Wird geladen...</div>
-      </div>
-      <div id="as-of-badge" class="stat-badge">As of: --</div>
+      <div><h1 id="page-title">Your property</h1><div id="subtitle">Loading address details…</div></div>
+      <div id="as-of-badge">As of: --</div>
     </header>
-    <div id="loading-state" class="loading">Lade Vorschriften und Adressdaten...</div>
-    <div id="error-state" class="error" style="display: none;"></div>
-    <div id="content-state" style="display: none;">
-      <div class="meta-grid" id="meta-grid"></div>
-      <div class="stats-bar" id="stats-bar"></div>
-      <div id="conflict-banner" style="display: none; border: 2px solid #000000; padding: 10px 14px; font-size: 13px; font-weight: 600; margin-bottom: 16px;"></div>
-      <div class="controls">
-        <div class="filter-group" id="status-filters">
-          <button class="filter-btn active" onclick="setStatusFilter('all', this)"><span data-i18n="fAll">All</span> (<span id="count-all">0</span>)</button>
-          <button class="filter-btn" onclick="setStatusFilter('applies', this)"><span data-i18n="fApplies">Applies</span> (<span id="count-applies">0</span>)</button>
-          <button class="filter-btn" onclick="setStatusFilter('unknown', this)"><span data-i18n="fUnknown">Unclear / review needed</span> (<span id="count-unknown">0</span>)</button>
-          <button class="filter-btn" onclick="setStatusFilter('superseded', this)"><span data-i18n="fSup">Superseded / not applicable</span> (<span id="count-other">0</span>)</button>
-          <button class="filter-btn" onclick="setStatusFilter('pending', this)"><span data-i18n="fPending">Pending / future</span> (<span id="count-pending">0</span>)</button>
-        </div>
-        <input type="text" id="table-search" class="search-filter" data-i18n-ph="filterPh" placeholder="Filter table (text, category, citation)..." " oninput="renderTable()">
-      </div>
-      <table>
-        <thead>
-          <tr>
-            <th style="width: 110px;" data-i18n="thStatus">Status</th>
-            <th style="width: 150px;" data-i18n="thLevel">Level / place</th>
-            <th style="width: 160px;" data-i18n="thCat">Category</th>
-            <th data-i18n="thRule">Rule and requirement</th>
-            <th style="width: 160px;" data-i18n="thKey">Key value</th>
-            <th style="width: 220px;" data-i18n="thSource">Source and citation</th>
-          </tr>
-        </thead>
-        <tbody id="rules-tbody"></tbody>
-      </table>
-      <div id="questions-section" style="display: none;">
-        <h2 class="section-title" data-i18n="openQ">Open check questions for fact clarification</h2>
-        <table style="margin-top: 12px;">
-          <thead>
-            <tr>
-              <th style="width: 180px;">Fakt / Parameter</th>
-              <th>Prüffrage</th>
-              <th style="width: 240px;">Betroffene Vorschriften</th>
-            </tr>
-          </thead>
-          <tbody id="questions-tbody"></tbody>
-        </table>
-      </div>
-      <div style="font-size: 12px; color: #666; margin-top: 16px;" data-i18n="legalNoteRes">Legal texts shown in original (EN) only.</div><div class="disclaimer" id="disclaimer-box"></div>
+    <div id="loading-state" class="loading" role="status" data-i18n="loadingReport">Finding the rules for this address…</div>
+    <div id="error-state" class="error" style="display:none" role="alert"></div>
+    <div id="content-state" style="display:none">
+      <section class="property-overview">
+        <div class="property-panel"><h2 data-i18n="propertyDetails">A closer look at your property</h2><div class="meta-grid" id="meta-grid"></div></div>
+        <div class="map-panel"><div class="map-frame" id="property-map"></div><div class="map-note"><span id="map-note"></span><a id="map-link" target="_blank" rel="noopener" style="display:none" data-i18n="openMap">Open map ↗</a></div></div>
+      </section>
+      <section class="rule-section"><h2 class="rules-heading" data-i18n="rulesHeading">The rules that matter here</h2>
+      
+      <div id="conflict-banner" style="display:none"></div>
+      <div class="controls"><div class="filter-group" id="status-filters">
+        <button class="filter-btn active" onclick="setStatusFilter('all',this)" aria-pressed="true"><span class="status-number" id="count-all">0</span><span data-i18n="fAll">all</span></button>
+        <button class="filter-btn" onclick="setStatusFilter('applies',this)" aria-pressed="false"><span class="status-number" id="count-applies">0</span><span data-i18n="fApplies">applies</span></button>
+        <button class="filter-btn" onclick="setStatusFilter('unknown',this)" aria-pressed="false"><span class="status-number" id="count-unknown">0</span><span data-i18n="fUnknown">unknown</span></button>
+        <button class="filter-btn" onclick="setStatusFilter('superseded',this)" aria-pressed="false"><span class="status-number" id="count-other">0</span><span data-i18n="fSup">superseded</span></button>
+        <button class="filter-btn" onclick="setStatusFilter('pending',this)" aria-pressed="false"><span class="status-number" id="count-pending">0</span><span data-i18n="fPending">pending</span></button>
+      </div><input type="search" id="table-search" class="search-filter" data-i18n-ph="filterPh" placeholder="Search rules, categories or citations" aria-label="Filter rules" oninput="renderTable()"></div>
+      <div id="rules-overview"></div></section>
+      <section id="questions-section" style="display:none"><h2 class="section-title" data-i18n="openQ">Open questions for your property</h2><div class="questions-table"><table><thead><tr><th data-i18n="factHeader">Property detail</th><th data-i18n="questionHeader">Question</th><th data-i18n="affectedHeader">Affected rules</th></tr></thead><tbody id="questions-tbody"></tbody></table></div></section>
+      <div style="font-size:11px;color:var(--muted);margin-top:26px" data-i18n="legalNoteRes">Legal texts shown in original (EN) only.</div><div class="disclaimer" id="disclaimer-box"></div>
     </div>
-  </div>
+  </main>
   <script>
     let currentData = null;
+    function humanizeFact(fact) { const names = {legal_city:t('metaJurisdiction'),units:t('metaUnits'),unit_count:t('metaUnits'),year_built:t('metaYear'),owner_type:t('metaType')}; return escapeHtml(names[fact] || t('propertyClarification')); }
+    function escapeHtml(value) { return String(value ?? '').replace(/[&<>"']/g, ch => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[ch])); }
+    function formatKeyValue(input) {
+      let value = input;
+      if (typeof value === 'string' && /^[{[]/.test(value.trim())) {
+        try { value = JSON.parse(value); } catch { return '-'; }
+      }
+      if (value && typeof value === 'object') {
+        if (value.value == null || value.error || Array.isArray(value)) return '-';
+        const unit = String(value.unit || '').toLowerCase();
+        const amount = Number(value.value);
+        if (Number.isFinite(amount) && ['percent','percentage','%','usd','$','dollars','us_dollars'].includes(unit)) {
+          const locale = typeof RHN_LANG === 'string' ? RHN_LANG : 'de';
+          if (['percent','percentage','%'].includes(unit)) return new Intl.NumberFormat(locale,{maximumFractionDigits:2}).format(amount) + ' %';
+          return new Intl.NumberFormat(locale,{style:'currency',currency:'USD',minimumFractionDigits:0,maximumFractionDigits:2}).format(amount);
+        }
+        value = String(value.value) + (unit && !unit.includes('_') ? ' ' + unit : '');
+      }
+      if (value == null || value === '') return '-';
+      const text = String(value);
+      if (/^[a-z0-9]+(?:_[a-z0-9]+)+$/i.test(text)) return '-';
+      return text;
+    }
+    function renderMap(geo) {
+      const coords = geo.coordinates || {};
+      const lat = Number(coords.y ?? coords.lat ?? coords.latitude);
+      const lon = Number(coords.x ?? coords.lon ?? coords.longitude);
+      const frame = document.getElementById('property-map');
+      const link = document.getElementById('map-link');
+      if (!Number.isFinite(lat) || !Number.isFinite(lon) || Math.abs(lat)>90 || Math.abs(lon)>180) {
+        frame.innerHTML = '<div class="map-empty">' + t('mapUnavailable') + '</div>';
+        document.getElementById('map-note').textContent = t('mapNoCoordinates');
+        link.style.display='none'; return;
+      }
+      const bbox = [lon-.004,lat-.0025,lon+.004,lat+.0025].join(',');
+      const src = 'https://www.openstreetmap.org/export/embed.html?bbox=' + encodeURIComponent(bbox) + '&layer=mapnik&marker=' + lat + ',' + lon;
+      if (frame.dataset.mapSrc !== src) { frame.innerHTML='<iframe title="OpenStreetMap property location" loading="lazy" referrerpolicy="no-referrer" src="' + src + '"></iframe>'; frame.dataset.mapSrc=src; }
+      document.getElementById('map-note').textContent=t('mapCaution');
+      link.href='https://www.openstreetmap.org/?mlat='+lat+'&mlon='+lon+'#map=18/'+lat+'/'+lon;
+      link.style.display='inline';
+    }
     let currentStatusFilter = 'all';
     const urlParams = new URLSearchParams(window.location.search);
     let query = urlParams.get('q') || 'A0001';
@@ -138,13 +150,14 @@
       } else if (err instanceof TypeError) {
         hint = '<br><br>Der Server antwortet nicht. Bitte starten: <strong>python3 -m navigator.app serve</strong> im Projektordner, dann http://127.0.0.1:8765 oeffnen.';
       }
-      errBox.innerHTML = '<strong>Fehler bei der Abfrage:</strong> ' + err.message + hint + '<br><br><a href="/" style="color: #000000; font-weight: 600;">Zurück zur Suche</a>';
+      errBox.innerHTML = '<strong>Fehler bei der Abfrage:</strong> ' + escapeHtml(err.message) + hint + '<br><br><a href="/" style="color: #000000; font-weight: 600;">Zurück zur Suche</a>';
     });
     function setStatusFilter(status, el) {
       currentStatusFilter = status;
-      document.querySelectorAll('#status-filters .filter-btn').forEach(btn => btn.classList.remove('active'));
-      if (el) el.classList.add('active');
+      document.querySelectorAll('#status-filters .filter-btn').forEach(btn => { btn.classList.remove('active'); btn.setAttribute('aria-pressed','false'); });
+      if (el) { el.classList.add('active'); el.setAttribute('aria-pressed','true'); }
       renderTable();
+      document.getElementById('rules-overview').scrollIntoView({behavior:'smooth',block:'start'});
     }
     function renderAll() {
       document.getElementById('loading-state').style.display = 'none';
@@ -152,22 +165,21 @@
       const addr = currentData.address || {};
       const geo = currentData.geography || {};
       const decisions = currentData.decisions || [];
-      document.getElementById('page-title').textContent = (addr.street || 'Adresse') + ', ' + (addr.city || '') + ' ' + (addr.state || '');
-      document.getElementById('subtitle').textContent = 'ID: ' + (addr.address_id || addressId) + ' | Census-Status: ' + (geo.status || 'unbekannt');
+      renderMap(geo);
+      const street = addr.street_address || addr.street || 'Address';
+      const city = addr.postal_city || addr.city || '';
+      document.getElementById('page-title').textContent = street;
+      document.getElementById('subtitle').textContent = [city, addr.state, addr.zip].filter(Boolean).join(' · ') + ' · ' + (addr.address_id || addressId);
       document.getElementById('as-of-badge').textContent = (typeof t === 'function' ? t('asOf') : 'Stichtag: ') + currentData.as_of;
       const meta = [
-        { label: 'Adresse ID', val: addr.address_id || '-' },
-        { label: 'Straße', val: addr.street || '-' },
-        { label: 'Stadt / Ort', val: addr.city || '-' },
-        { label: 'Bundesstaat', val: addr.state || '-' },
-        { label: 'PLZ (ZIP)', val: addr.zip || '-' },
-        { label: 'Rechtliche Jurisdiktion', val: geo.legal_city || geo.jurisdiction || addr.city || '-' },
-        { label: 'Wohneinheiten (Units)', val: addr.units !== undefined ? addr.units : 'unbekannt' },
-        { label: 'Baujahr (Year Built)', val: addr.year_built !== undefined ? addr.year_built : 'unbekannt' },
-        { label: 'Eigentümertyp', val: addr.owner_type || 'unbekannt' },
-        { label: 'Census Tract', val: geo.census_tract || geo.tract || 'unbekannt' }
+        { label:t('metaJurisdiction'), val:geo.facts?.legal_city || geo.legal_city || geo.jurisdiction?.city || city || '—' },
+        { label:t('metaUnits'), val:addr.units || '—' },
+        { label:t('metaYear'), val:addr.year_built || '—' },
+        { label:t('metaType'), val:addr.use_description || addr.owner_type || '—' },
+        { label:t('metaState'), val:addr.state || '—' },
+        { label:t('metaZip'), val:addr.zip || '—' }
       ];
-      document.getElementById('meta-grid').innerHTML = meta.map(m => '<div class="meta-item"><div class="meta-label">' + m.label + '</div><div class="meta-value">' + m.val + '</div></div>').join('');
+      document.getElementById('meta-grid').innerHTML = meta.map(m => '<div class="meta-item"><div class="meta-label">' + escapeHtml(m.label) + '</div><div class="meta-value">' + escapeHtml(m.val) + '</div></div>').join('');
       const appliesCount = decisions.filter(d => d.result === 'applies').length;
       const unknownCount = decisions.filter(d => d.result === 'unknown').length;
       const pendingCount = decisions.filter(d => ['pending', 'not_yet_effective', 'future_effective'].includes(d.result)).length;
@@ -177,11 +189,10 @@
       document.getElementById('count-unknown').textContent = unknownCount;
       document.getElementById('count-other').textContent = supersededCount;
       document.getElementById('count-pending').textContent = pendingCount;
-      document.getElementById('stats-bar').innerHTML = '<div class="stat-badge">' + (typeof t === 'function' ? t('statValid') : 'Gültige Vorschriften: ') + '' + appliesCount + '</div><div class="stat-badge">' + (typeof t === 'function' ? t('statOpen') : 'Prüfung offen: ') + '' + unknownCount + '</div><div class="stat-badge">' + (typeof t === 'function' ? t('statPending') : 'Anhängig / Zukünftig: ') + '' + pendingCount + '</div><div class="stat-badge">' + (typeof t === 'function' ? t('statSup') : 'Verdrängt / Nicht aktiv: ') + '' + supersededCount + '</div><div class="stat-badge">' + (typeof t === 'function' ? t('statTotal') : 'Gesamte erfasste Regeln: ') + '' + decisions.length + '</div>';
       const questions = currentData.questions || [];
       if (questions.length > 0) {
         document.getElementById('questions-section').style.display = 'block';
-        document.getElementById('questions-tbody').innerHTML = questions.map(q => '<tr><td><strong>' + (q.fact || '-') + '</strong></td><td>' + (q.question || q.prompt || '-') + '</td><td>' + ((q.citations || []).join(', ') || (q.rule_ids || []).join(', ')) + '</td></tr>').join('');
+        document.getElementById('questions-tbody').innerHTML = questions.map(q => '<tr><td><strong>' + humanizeFact(q.fact) + '</strong></td><td>' + escapeHtml(q.question || q.prompt || '-') + (q.why_needed ? '<div class="rule-location">' + escapeHtml(q.why_needed) + '</div>' : '') + (q.acceptable_evidence ? '<div class="rule-location">Nachweis: ' + escapeHtml(Array.isArray(q.acceptable_evidence) ? q.acceptable_evidence.join('; ') : q.acceptable_evidence) + '</div>' : '') + (q.research_task ? '<div class="rule-location">Research-Task (keine Nutzerantwort noetig)</div>' : '') + '</td><td>' + escapeHtml((q.citations || []).filter(Boolean).join(', ') || ((q.rule_ids || []).length + ' ' + t('ruleCountLabel'))) + '</td></tr>').join('');
       }
       document.getElementById('disclaimer-box').textContent = currentData.disclaimer || 'Not legal advice.';
       renderTable();
@@ -220,11 +231,15 @@
         'lease_renewal': 'Vertragsverlängerung',
         'algorithmic_devices': 'Preissetzungs-Algorithmen',
         'code_compliance': 'Wohnungsstandards',
-        'retaliation_protection': 'Schutz vor Vergeltung'
+        'retaliation_protection': 'Schutz vor Vergeltung',
+        'screening_restrictions': 'Bewerbungsprüfung',
+        'application_screening_fees': 'Bewerbungsgebühren',
+        'security_deposits': 'Kaution',
+        'algorithmic_rent_setting': 'Algorithmische Mietfestlegung'
       };
-      const tbody = document.getElementById('rules-tbody');
+      const tbody = document.getElementById('rules-overview');
       if (filtered.length === 0) {
-        tbody.innerHTML = '<tr><td colspan="6" style="text-align: center; padding: 24px;">' + (typeof t === 'function' ? t('emptyMsg') : 'Keine Vorschriften für diese Filterauswahl gefunden.') + '</td></tr>';
+        tbody.innerHTML = '<div class="no-rules">' + (typeof t === 'function' ? t('emptyMsg') : 'Keine Vorschriften für diese Filterauswahl gefunden.') + '</div>';
         return;
       }
       const allDec = currentData.decisions || currentData.rules || filtered;
@@ -234,25 +249,20 @@
         if (conflicts.length > 0) { cb.style.display = 'block'; cb.textContent = conflicts.length + (typeof t === 'function' ? t('conflictSuffix') : ' Entscheidung(en) mit Konflikt-Flag: moegliche Normenkollision, menschliche Pruefung noetig.'); }
         else { cb.style.display = 'none'; }
       }
-      tbody.innerHTML = filtered.map(d => {
+      const renderRow = d => {
         const rule = d.rule || {};
-        const sInfo = statusMap[d.result] || { label: d.result, cls: 'badge-other' };
-        const evC = d.evidence || {};
-        const quartet = (evC.citation || rule.citation) && (evC.quoted_span || rule.quoted_span) && (evC.source_url || rule.source_url) && (evC.retrieved_at || rule.retrieved_at);
-        let conf = 'mittel', confWhy = 'teilweise belegte Aussage', confCls = 'badge-future';
-        if (d.result === 'unknown') { conf = 'niedrig'; confWhy = 'Fakten oder Quellen offen, siehe Prueffragen'; confCls = 'badge-unknown'; }
-        else if (d.result === 'pending' || d.result === 'not_yet_effective') { conf = 'mittel'; confWhy = 'Zeitstand belegt, Inhalt anhaengig bzw. kuenftig'; }
-        else if (quartet && !(d.review_required && d.review_required.length)) { conf = 'hoch'; confWhy = 'Originalbeleg vollstaendig, kein Review-Bedarf'; confCls = 'badge-applies'; }
-        const confHtml = '<div style="margin-top: 4px;"><span class="badge ' + confCls + '">Vertrauen: ' + conf + '</span><div style="font-size: 11px; color: #666666; margin-top: 2px;">' + confWhy + '</div></div>';
-        const conflictHtml = d.conflict_flag ? '<div style="margin-top: 6px; border: 2px solid #000000; padding: 6px 8px; font-size: 12px; font-weight: 700;">KONFLIKT: moegliche Normenkollision, menschliche Pruefung noetig.</div>' : '';
-        const catLabel = categoryMap[rule.category] || rule.category || '-';
+        const sInfo = statusMap[d.result] || { label: t('fUnknown'), cls: 'badge-other' };
+        const catLabel = categoryMap[rule.category] || (rule.category ? rule.category.replace(/_/g, ' ').replace(/^./, c => c.toUpperCase()) : '—');
         const levelJur = (rule.level ? rule.level.toUpperCase() : '') + ': ' + (rule.jurisdiction || '-');
         let questionsHtml = '';
         if (d.targeted_questions && d.targeted_questions.length > 0) {
-          questionsHtml = '<div class="questions-box"><strong>Offene Prüfung:</strong>' + d.targeted_questions.map(q => '• ' + (q.question || q.prompt || q.fact)).join('<br>') + '</div>';
+          questionsHtml = '<details class="requirement-details"><summary>' + t('openChecks') + ' (' + d.targeted_questions.length + ')</summary><div class="questions-box">' + d.targeted_questions.map(q => '<p><strong>' + escapeHtml(humanizeFact(q.fact || '')) + ':</strong> ' + escapeHtml(q.question || q.prompt || t('propertyClarification')) + (q.why_needed ? '<br><span>' + escapeHtml(q.why_needed) + '</span>' : '') + (q.acceptable_evidence ? '<br><span>Nachweis: ' + escapeHtml(Array.isArray(q.acceptable_evidence) ? q.acceptable_evidence.join('; ') : q.acceptable_evidence) + '</span>' : '') + (q.research_task ? '<br><span>Research-Task</span>' : '') + '</p>').join('') + '</div></details>';
         }
-        let keyVal = d.computed_value || rule.key_value || '-';
-        if (typeof keyVal === 'object') keyVal = JSON.stringify(keyVal);
+        let traceHtml = '';
+        if (d.trace && d.trace.length > 0) {
+          traceHtml = '<details class="requirement-details"><summary>Ableitungspfad (' + d.trace.length + ')</summary><div class="questions-box">' + d.trace.map(s => '<p>' + escapeHtml((s.fact || '') + ' ' + (s.operator || '') + ' ' + (s.expected !== undefined ? s.expected : '') + ' &rarr; ' + (s.actual !== undefined ? s.actual : s.value !== undefined ? s.value : '')) + '</p>').join('') + '</div></details>';
+        }
+        const keyVal = formatKeyValue(d.computed_value ?? rule.key_value);
         let sourceHtml = '';
         const ev = d.evidence || {};
         const srcUrl = ev.source_url || rule.source_url;
@@ -260,30 +270,44 @@
         const docId = ev.source_doc_id || rule.source_doc_id;
         const quote = ev.quoted_span || rule.quoted_span;
         const stripe = ev.retrieved_at || rule.retrieved_at;
-        if (srcUrl) {
-          sourceHtml = '<a href="' + srcUrl + '" target="_blank" class="source-link">' + (cite || docId || 'Quelle') + '</a>';
+        if (srcUrl && /^https?:\/\//i.test(srcUrl)) {
+          sourceHtml = '<a href="' + escapeHtml(/^https?:\/\//i.test(srcUrl) ? srcUrl : '#') + '" target="_blank" rel="noopener" class="source-link">' + escapeHtml(t('openOriginal')) + '</a>';
         } else {
-          sourceHtml = cite || docId || '-';
+          sourceHtml = escapeHtml(cite || docId || '-');
         }
-        if (docId) {
-          sourceHtml += '<div style="font-size: 11px; color: #666666; margin-top: 4px;">Dokument: ' + docId + '</div>';
-        }
+        if (cite) sourceHtml += '<div class="rule-location">' + escapeHtml(cite) + '</div>';
         if (quote) {
-          sourceHtml += '<blockquote style="font-size: 12px; color: #000000; border-left: 2px solid #000000; margin: 6px 0 0 0; padding: 4px 0 4px 8px; white-space: pre-wrap;">Originalbeleg: ' + quote + '</blockquote>';
+          sourceHtml += '<blockquote style="font-size: 12px; color: #000000; border-left: 2px solid #000000; margin: 6px 0 0 0; padding: 4px 0 4px 8px; white-space: pre-wrap;">Originalbeleg: ' + escapeHtml(quote) + '</blockquote>';
         }
         if (stripe) {
-          sourceHtml += '<div style="font-size: 11px; color: #666666; margin-top: 4px;">Abgerufen: ' + stripe + '</div>';
+          sourceHtml += '<div style="font-size: 11px; color: #666666; margin-top: 4px;">Abgerufen: ' + escapeHtml(stripe) + '</div>';
         }
         sourceHtml += '<div style="font-size: 11px; color: #666666; margin-top: 4px;">Datum: ' + (rule.effective_date || 'unbekannt') + ' / Stichtag: ' + currentData.as_of + '</div>';
-        return '<tr>' +
-          '<td><span class="badge ' + sInfo.cls + '">' + sInfo.label + '</span>' + confHtml + '</td>' +
-          '<td>' + levelJur + '</td>' +
-          '<td><strong>' + catLabel + '</strong></td>' +
-          '<td><div class="rule-title">' + (rule.title || '-') + '</div><div class="rule-req">' + (rule.requirement || '-') + '</div>' + (d.explanation ? '<div style="font-size: 12px; color: #555555;">' + d.explanation + '</div>' : '') + questionsHtml + conflictHtml + '</td>' +
-          '<td><span class="key-value">' + keyVal + '</span></td>' +
-          '<td>' + sourceHtml + '</td>' +
-        '</tr>';
-      }).join('');
+        const requirement = String(rule.requirement || '—');
+        const shortRequirement = requirement.length > 230 ? requirement.slice(0,227).replace(/\s+\S*$/, '') + '…' : requirement;
+        const safeSource = srcUrl && /^https?:\/\//i.test(srcUrl);
+        const directSource = safeSource ? '<a class="source-link" href="' + escapeHtml(srcUrl) + '" target="_blank" rel="noopener">' + t('openOriginal') + ' ↗</a>' : '<span class="rule-location">' + t('sourceUnavailable') + '</span>';
+        const evidenceDetails = '<details class="rule-source"><summary>' + t('sourceEvidence') + '</summary><div class="rule-source-body">' + sourceHtml + '</div></details>';
+        return '<tr><td><div class="rule-title">' + escapeHtml(rule.title || '—') + '</div><div class="rule-category">' + escapeHtml(catLabel) + '</div><div class="rule-location">' + escapeHtml(rule.jurisdiction || '') + '</div></td>' +
+          '<td><div class="rule-req">' + escapeHtml(shortRequirement) + '</div>' +
+          (requirement.length > 230 ? '<details class="requirement-details"><summary>' + t('fullRequirement') + '</summary><p>' + escapeHtml(requirement) + '</p></details>' : '') +
+          (keyVal !== '-' ? '<div class="rule-value">' + escapeHtml(keyVal) + '</div>' : '') + questionsHtml + traceHtml +
+          (d.conflict_flag ? '<div class="review-note">' + t('conflictNote') + '</div>' : '') + '</td>' +
+          '<td><span class="badge ' + sInfo.cls + '">' + escapeHtml(sInfo.label) + '</span></td>' +
+          '<td>' + directSource + evidenceDetails + '</td></tr>';
+      };
+      const themes = [
+        { id:'rent', title:t('themeRent'), test:c=> /rent_increase|rent_cap|rent_stabili|rent_control/.test(c) },
+        { id:'deposit', title:t('themeDeposit'), test:c=> /deposit/.test(c) },
+        { id:'eviction', title:t('themeEviction'), test:c=> /evict|just_cause|notice_period|lease_renewal|retaliation/.test(c) },
+        { id:'screening', title:t('themeScreening'), test:c=> /screen|application|fee|fair_chance/.test(c) },
+        { id:'algorithms', title:t('themeAlgorithms'), test:c=> /algorithm|pricing_software/.test(c) },
+        { id:'other', title:t('themeOther'), test:()=>true }
+      ];
+      const groups = themes.map(theme=>({...theme,rows:[]}));
+      filtered.forEach(d=> { const category = String(d.rule?.category || '').toLowerCase(); groups.find(group=>group.test(category)).rows.push(d); });
+      tbody.innerHTML = groups.filter(group=>group.rows.length).map(group=>'<section class="rule-topic" aria-labelledby="theme-'+group.id+'"><h3 class="topic-heading" id="theme-'+group.id+'">'+escapeHtml(group.title)+'</h3><div class="rules-table-wrap"><table class="rules-table"><thead><tr><th scope="col" style="width:27%">'+t('tableRule')+'</th><th scope="col" style="width:40%">'+t('tableRequirement')+'</th><th scope="col" style="width:13%">'+t('thStatus')+'</th><th scope="col" style="width:20%">'+t('tableSource')+'</th></tr></thead><tbody>'+group.rows.map(renderRow).join('')+'</tbody></table></div></section>').join('');
+
     }
   </script>
 <script>
@@ -388,7 +412,19 @@ var I18N = {
 "statTotal": "Normas registradas en total: "
 }
 };
-var RHN_LANG = "en";
+Object.assign(I18N["en"],{"propertyReport": "PROPERTY REPORT", "loadingReport": "Finding the rules for this address…", "propertyDetails": "A closer look at your property", "rulesHeading": "The rules that matter here", "rulesIntro": "Explore requirements, check what applies, and go straight to the original source.", "openMap": "Open map ↗", "mapUnavailable": "No confirmed location available", "mapNoCoordinates": "The address could not be located precisely.", "mapCaution": "Approximate address location · Parcel boundaries are not verified. © OpenStreetMap", "metaJurisdiction": "Legal jurisdiction", "metaUnits": "Residential units", "metaYear": "Year built", "metaType": "Property type", "metaState": "State", "metaZip": "ZIP code", "sourceEvidence": "Source & original evidence ↗", "factHeader": "Property detail", "questionHeader": "Question", "affectedHeader": "Affected rules", "filterPh": "Search rules, categories or citations", "fUnknown": "Needs review", "fSup": "Not active", "fPending": "Upcoming"});
+Object.assign(I18N["de"],{"propertyReport": "GRUNDSTÜCKSREPORT", "loadingReport": "Die Vorschriften für diese Adresse werden geladen…", "propertyDetails": "Dein Grundstück im Überblick", "rulesHeading": "Die Regeln für dieses Grundstück", "rulesIntro": "Vorschriften verstehen, Geltung prüfen und die Originalquelle direkt nachlesen.", "openMap": "Karte öffnen ↗", "mapUnavailable": "Kein bestätigter Standort verfügbar", "mapNoCoordinates": "Die Adresse konnte nicht eindeutig verortet werden.", "mapCaution": "Ungefähre Adressposition · Grundstücksgrenzen sind nicht verifiziert. © OpenStreetMap", "metaJurisdiction": "Rechtliche Zuständigkeit", "metaUnits": "Wohneinheiten", "metaYear": "Baujahr", "metaType": "Gebäudetyp", "metaState": "Bundesstaat", "metaZip": "Postleitzahl", "sourceEvidence": "Quelle & Originalbeleg ↗", "factHeader": "Grundstücksdetail", "questionHeader": "Prüffrage", "affectedHeader": "Betroffene Regeln", "filterPh": "Regeln, Kategorien oder Quellen suchen", "fUnknown": "Prüfung offen", "fSup": "Nicht aktiv", "fPending": "Zukünftig"});
+Object.assign(I18N["es"],{"propertyReport": "INFORME DEL INMUEBLE", "loadingReport": "Buscando las normas para esta dirección…", "propertyDetails": "Tu inmueble de un vistazo", "rulesHeading": "Las normas de este inmueble", "rulesIntro": "Consulta los requisitos, comprueba su aplicación y lee la fuente original.", "openMap": "Abrir mapa ↗", "mapUnavailable": "Ubicación no confirmada", "mapNoCoordinates": "La dirección no se ha localizado con precisión.", "mapCaution": "Ubicación aproximada · Límites de parcela no verificados. © OpenStreetMap", "metaJurisdiction": "Jurisdicción legal", "metaUnits": "Viviendas", "metaYear": "Año de construcción", "metaType": "Tipo de inmueble", "metaState": "Estado", "metaZip": "Código postal", "sourceEvidence": "Fuente y evidencia original ↗", "factHeader": "Detalle del inmueble", "questionHeader": "Pregunta", "affectedHeader": "Normas afectadas", "filterPh": "Buscar normas, categorías o fuentes", "fUnknown": "Revisión pendiente", "fSup": "Inactivas", "fPending": "Próximas"});
+Object.assign(I18N["en"],{"tableRule": "Rule & category", "tableRequirement": "What it means for your property", "tableSource": "Original text", "openOriginal": "Read original text", "sourceUnavailable": "Source not available", "fullRequirement": "Read full requirement", "sourceEvidence": "Citation & original excerpt", "conflictNote": "Potential conflict between rules. Qualified review is required.", "propertyClarification": "Further property details", "ruleCountLabel": "rules"});
+Object.assign(I18N["de"],{"tableRule": "Regel & Kategorie", "tableRequirement": "Was für dein Grundstück gilt", "tableSource": "Originaltext", "openOriginal": "Originaltext lesen", "sourceUnavailable": "Quelle nicht verfügbar", "fullRequirement": "Vollständige Anforderung", "sourceEvidence": "Fundstelle & Originalauszug", "conflictNote": "Möglicher Konflikt zwischen Vorschriften. Fachliche Prüfung erforderlich.", "propertyClarification": "Weitere Grundstücksangaben", "ruleCountLabel": "Regeln"});
+Object.assign(I18N["es"],{"tableRule": "Norma y categoría", "tableRequirement": "Requisito para tu inmueble", "tableSource": "Texto original", "openOriginal": "Leer texto original", "sourceUnavailable": "Fuente no disponible", "fullRequirement": "Requisito completo", "sourceEvidence": "Cita y extracto original", "conflictNote": "Posible conflicto entre normas. Requiere revisión profesional.", "propertyClarification": "Otros detalles del inmueble", "ruleCountLabel": "normas"});
+Object.assign(I18N.en,{openChecks:'Open check questions'});
+Object.assign(I18N.de,{openChecks:'Offene Prüffragen'});
+Object.assign(I18N.es,{openChecks:'Preguntas pendientes'});
+Object.assign(I18N["de"],{"themeRent": "Miete & Mieterhöhungen", "themeDeposit": "Kaution", "themeEviction": "Kündigung & Mieterschutz", "themeScreening": "Bewerbung & Auswahl", "themeAlgorithms": "Algorithmische Mietfestlegung", "themeOther": "Weitere Vorschriften"});
+Object.assign(I18N["en"],{"themeRent": "Rent & rent increases", "themeDeposit": "Security deposits", "themeEviction": "Eviction & tenant protection", "themeScreening": "Applications & screening", "themeAlgorithms": "Algorithmic rent setting", "themeOther": "Other requirements"});
+Object.assign(I18N["es"],{"themeRent": "Alquiler y aumentos", "themeDeposit": "Depósitos de garantía", "themeEviction": "Desalojo y protección del inquilino", "themeScreening": "Solicitudes y selección", "themeAlgorithms": "Fijación algorítmica del alquiler", "themeOther": "Otras normas"});
+var RHN_LANG = "de";
 function t(k) { var d = I18N[RHN_LANG] || I18N["en"]; var v = d ? d[k] : undefined; if (v === undefined) { v = I18N["en"][k]; } return (v === undefined) ? "" : v; }
 function applyI18n() {
   var els = document.querySelectorAll("[data-i18n]");
@@ -410,8 +446,8 @@ function setLang(l) {
   if (typeof afterLangChange === "function") { try { afterLangChange(); } catch (e2) {} }
 }
 (function () {
-  var l = "en";
-  try { l = localStorage.getItem("rhn-lang") || "en"; } catch (e3) {}
+  var l = "de";
+  try { l = localStorage.getItem("rhn-lang") || "de"; } catch (e3) {}
   if (!I18N[l]) { l = "en"; }
   RHN_LANG = l;
   document.documentElement.lang = l;

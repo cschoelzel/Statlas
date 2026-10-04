@@ -1,319 +1,72 @@
 <!doctype html>
-<html lang="en">
+<html lang="de">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Rental Housing Law Navigator — Suche</title>
-  <style>
-    * { box-sizing: border-box; margin: 0; padding: 0; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; }
-    body {
-      background: #ffffff;
-      color: #000000;
-      min-height: 100vh;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      padding: 24px;
-    }
-    .search-container {
-      width: 100%;
-      max-width: 640px;
-    }
-    h1 {
-      font-size: 28px;
-      font-weight: 600;
-      letter-spacing: -0.5px;
-      margin-bottom: 8px;
-      text-align: center;
-    }
-    .subtitle {
-      font-size: 14px;
-      color: #666666;
-      margin-bottom: 32px;
-      text-align: center;
-    }
-    form {
-      display: flex;
-      flex-direction: column;
-      gap: 12px;
-    }
-    .input-group {
-      display: flex;
-      gap: 8px;
-    }
-    input[type="text"] {
-      flex: 1;
-      padding: 14px 16px;
-      font-size: 16px;
-      border: 1px solid #000000;
-      border-radius: 0;
-      background: #ffffff;
-      color: #000000;
-      outline: none;
-    }
-    input[type="text"]:focus {
-      outline: 2px solid #000000;
-    }
-    input[type="date"] {
-      padding: 14px 16px;
-      font-size: 15px;
-      border: 1px solid #000000;
-      border-radius: 0;
-      background: #ffffff;
-      color: #000000;
-      outline: none;
-    }
-    input[type="date"]:focus {
-      outline: 2px solid #000000;
-    }
-    button {
-      padding: 14px 24px;
-      font-size: 16px;
-      font-weight: 600;
-      background: #000000;
-      color: #ffffff;
-      border: 1px solid #000000;
-      border-radius: 0;
-      cursor: pointer;
-      width: 100%;
-    }
-    button:hover {
-      background: #333333;
-    }
-    .samples {
-      margin-top: 24px;
-      display: flex;
-      flex-wrap: wrap;
-      gap: 6px;
-      justify-content: center;
-    }
-    .sample-tag {
-      font-size: 12px;
-      padding: 6px 10px;
-      border: 1px solid #cccccc;
-      background: #ffffff;
-      color: #333333;
-      cursor: pointer;
-      text-decoration: none;
-    }
-    .sample-tag:hover {
-      border-color: #000000;
-      color: #000000;
-    }
-    footer {
-      margin-top: 48px;
-      font-size: 12px;
-      color: #888888;
-      text-align: center;
-    }
-  </style>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Finde die Mietregeln für eine Immobilie. Adresse suchen, Vorschlag auswählen und belegte Regeln ansehen.">
+<title>statlas — Suche</title>
+<style>
+:root{color-scheme:light;--ink:#222;--muted:#717171;--line:#ddd;--accent:#e31b36}
+*{box-sizing:border-box}body{margin:0;background:white;color:var(--ink);font-family:'Helvetica Neue',Arial,sans-serif;-webkit-font-smoothing:antialiased}button,input{font:inherit}button{cursor:pointer}button,a,input{-webkit-tap-highlight-color:transparent}button:focus-visible,a:focus-visible{outline:2px solid var(--accent);outline-offset:4px}[hidden]{display:none!important}
+header{height:96px;padding:0 6%;display:flex;align-items:center;justify-content:space-between}.brand{text-decoration:none;color:var(--accent);font-size:24px;font-weight:650;letter-spacing:-.8px}.languages{display:flex;gap:2px}.languages button{border:0;background:white;border-radius:20px;padding:9px 11px;font-size:12px;color:var(--muted)}.languages button.active{color:var(--accent);font-weight:650}.languages button:hover{text-decoration:underline}
+main{min-height:calc(100dvh - 96px);display:grid;place-items:center;padding:24px 24px 150px}.search-container{width:min(850px,100%);position:relative}.search-bar{display:flex;align-items:center;position:relative;border:1px solid var(--line);border-radius:44px;padding:8px 9px 8px 0;background:white;box-shadow:0 8px 30px #2222220d;z-index:2}.search-bar:focus-within{border-color:#aaa}.address-field{flex:1;min-width:0;padding:13px 32px}.field-label{display:block;font-size:12px;font-weight:650;margin-bottom:7px}.address-field input{width:100%;outline:none;border:0;padding:0;background:white;font-size:15px;color:var(--ink);text-overflow:ellipsis}.address-field input::placeholder{color:var(--muted)}.date-field{position:relative;width:205px;flex-shrink:0;padding:7px 26px;border-left:1px solid var(--line)}.date-value{line-height:20px;white-space:nowrap}.date-value svg{display:block}.submit{border:0;width:54px;height:54px;flex-shrink:0;border-radius:50%;background:var(--accent);color:white;display:grid;place-items:center;transition:transform .15s}.submit:hover{box-shadow:0 0 0 3px white,0 0 0 4px var(--accent)}.submit:active{transform:scale(.96)}.submit svg{width:19px;height:19px}
+.search-bar:has(#q[aria-expanded=true]){border-radius:32px 32px 0 0;border-bottom-color:transparent;box-shadow:0 8px 30px #2222220a}.suggestions{position:absolute;top:calc(100% - 1px);left:-1px;width:calc(100% + 2px);padding:12px 20px 16px;background:white;border:1px solid var(--line);border-top:0;border-radius:0 0 32px 32px;box-shadow:0 20px 28px #2222220a;z-index:3;max-height:min(390px,45dvh);overflow:auto;scrollbar-width:thin;scrollbar-color:#ddd transparent}.search-bar:focus-within .suggestions{border-color:#aaa}.suggestion-heading{font-size:11px;color:var(--muted);font-weight:600;margin:0 12px 12px}.option{display:flex;align-items:center;gap:15px;width:100%;border:0;border-radius:10px;padding:12px;background:white;text-align:left;color:var(--ink)}.option:hover,.option[aria-selected=true]{outline:1px solid var(--line);outline-offset:-1px}.pin{width:44px;height:44px;flex-shrink:0;display:grid;place-items:center;border:1px solid var(--line);border-radius:10px}.pin svg{width:20px;height:20px}.option-text{min-width:0}.option strong{display:block;font-size:14px;font-weight:550;line-height:1.45}.option small{display:block;font-size:12px;color:var(--muted);margin-top:3px;line-height:1.5}.empty{padding:8px 12px 16px;font-size:13px;line-height:1.6;color:var(--muted)}.message{font-size:13px;color:var(--accent);margin:16px 28px;line-height:1.5}
+.date-trigger{border:0;background:transparent;text-align:left;width:100%;padding:0;color:var(--ink)}.date-value{display:flex;align-items:center;justify-content:flex-start;gap:10px;font-size:14px;color:var(--muted)}.date-value svg{order:-1;width:18px;height:18px;flex-shrink:0;color:var(--ink)}.date-field:has(.date-trigger[aria-expanded=true]){background:white;border-radius:35px}.calendar{position:absolute;top:calc(100% + 22px);right:-64px;width:340px;padding:22px;background:#fff;border:1px solid var(--line);border-radius:24px;box-shadow:0 14px 50px #22222218;z-index:4;animation:reveal .18s ease-out}.calendar-header{display:flex;align-items:center;justify-content:space-between;margin-bottom:20px;gap:8px}.month-nav{width:34px;height:34px;border:1px solid var(--line);border-radius:50%;background:white;font-size:24px;line-height:1}.month-nav:hover{background:white}.month-selectors{display:flex;align-items:center;justify-content:center;gap:7px}.month-selectors select,.month-selectors input{background:white;border:0;color:var(--ink);font-size:14px;font-weight:600;padding:5px;outline-offset:3px}.month-selectors input{width:68px}.weekdays,.calendar-days{display:grid;grid-template-columns:repeat(7,1fr);gap:4px}.weekdays{font-size:11px;color:var(--muted);text-align:center;margin-bottom:10px}.calendar-days button{height:38px;border:0;border-radius:50%;background:white;color:var(--ink);font-size:13px;font-variant-numeric:tabular-nums}.calendar-days button:hover{background:white;box-shadow:inset 0 0 0 1px var(--ink)}.calendar-days button.selected{background:var(--accent);color:white}.calendar-days button.today{box-shadow:inset 0 0 0 1px var(--ink)}.calendar-footer{border-top:1px solid var(--line);margin-top:18px;padding-top:15px;display:flex;align-items:center;justify-content:space-between;gap:8px;font-size:11px;color:var(--muted)}.calendar-footer button{background:white;border:0;color:var(--ink);text-decoration:underline;font-size:12px;font-weight:600;padding:5px}.sr-only{position:absolute;width:1px;height:1px;padding:0;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}@keyframes reveal{from{opacity:0;transform:translateY(-8px)}to{opacity:1;transform:translateY(0)}}
+
+@media(max-width:600px){header{height:80px;padding:0 24px}.brand{font-size:22px}.languages button{padding:8px}main{min-height:calc(100dvh - 80px);padding:24px 20px 120px}.search-bar{padding:7px 7px 7px 0}.address-field{padding:14px 16px}.address-field input{font-size:13px}.field-label{font-size:11px}.date-field{width:130px;padding:7px 12px}.date-value{font-size:12px;gap:7px}.date-value svg{width:15px;height:15px}.suggestions{padding:12px 10px}.option{gap:11px}.option strong{font-size:13px;overflow-wrap:anywhere}.calendar{position:fixed;top:auto;bottom:20px;left:20px;right:20px;width:auto}}
+@media(max-width:400px){.date-field{width:115px;padding:7px 8px}.date-value{gap:5px}.submit{width:46px;height:46px}.address-field{padding-left:14px;padding-right:8px}.address-field input{font-size:12px}.field-label{line-height:1.4}}
+@media(prefers-reduced-motion:reduce){*{transition:none!important;animation:none!important}}
+</style>
 </head>
-<body style="position: relative;">
-  <div id="lang-toggle" style="position: absolute; top: 16px; right: 20px; font-size: 13px; font-weight: 600;">
-    <button type="button" data-lang-btn="en" style="width:auto;padding:4px 8px;" aria-label="English">EN</button><span style="color:#888;"> | </span><button type="button" data-lang-btn="de" style="width:auto;padding:4px 8px;" aria-label="Deutsch">DE</button><span style="color:#888;"> | </span><button type="button" data-lang-btn="es" style="width:auto;padding:4px 8px;" aria-label="Espanol">ES</button>
-  </div>
-  <div class="search-container">
-    <h1>Rental Housing Law Navigator</h1>
-    <p class="subtitle" data-i18n="subtitle">Deterministic lookup of applicable rental housing rules.</p>
-
-    <form action="/results" method="GET">
-      <input 
-        type="text" 
-        name="q" 
-        id="q" 
-        list="addresses" 
-        data-i18n-ph="searchPh" placeholder="Enter address or ID (e.g. A0001, Hoboken, Boston)..."  (z. B. A0001, Hoboken, Boston)..." 
-        required 
-        autofocus
-        autocomplete="off"
-      >
-      <datalist id="addresses"></datalist>
-
-      <div class="input-group">
-        <input type="date" name="as_of" id="as_of" value="2026-10-01" required>
-        <button type="submit" data-i18n="submitBtn">Run evaluation</button>
-      </div>
-    </form>
-
-    <div class="samples">
-      <span style="font-size: 12px; color: #888888; align-self: center; margin-right: 4px;" data-i18n="samples">Examples:</span>
-      <a class="sample-tag" onclick="selectSample('A0001')">A0001 (Los Angeles, CA)</a>
-      <a class="sample-tag" onclick="selectSample('A0081')">A0081 (San Francisco, CA)</a>
-      <a class="sample-tag" onclick="selectSample('A0211')">A0211 (Hoboken, NJ)</a>
-      <a class="sample-tag" onclick="selectSample('A0251')">A0251 (Jersey City, NJ)</a>
-      <a class="sample-tag" onclick="selectSample('A0301')">A0301 (Newark, NJ)</a>
-      <a class="sample-tag" onclick="selectSample('A0351')">A0351 (Boston, MA)</a>
-      <a class="sample-tag" onclick="selectSample('A0451')">A0451 (Cambridge, MA)</a>
-    </div>
-
-    <div style="max-width: 640px; margin-top: 24px; border: 1px solid #000000; padding: 12px 16px; font-size: 13px; line-height: 1.5;">
-      <strong data-i18n="howTitle">How the evaluation works:</strong><span data-i18n="howBody" style="display:block;margin-top:4px;">Pick an address or type freely (ID e.g. A0001). Census geocoding determines state and legal city (ZIP city alone does not count). The engine filters rules by jurisdiction and checks as-of date, status, coverage and exemptions. The results table shows the original source per rule (document ID and quote). All data is live from the engine (/api/lookup), no demo data.</span> <span data-i18n="legalNote" style="display:block;margin-top:8px;color:#666;">Legal texts shown in original (EN) only.</span>
-    </div>
-    <footer>
-      <span data-i18n="footer">Not legal advice. Source gaps and unresolved interpretations require qualified review.</span>
-    </footer>
-  </div>
-
-  <script>
-    function fillDatalist(items) {
-      const dl = document.getElementById('addresses');
-      dl.innerHTML = '';
-      items.forEach(a => {
-        const id = a.address_id || a.id;
-        const label = a.street_address
-          ? (a.street_address + ', ' + (a.postal_city || a.city || '') + ', ' + (a.state || '') + ' ' + (a.zip || ''))
-          : (a.label || '');
-        const opt = document.createElement('option');
-        opt.value = id + ' - ' + label;
-        dl.appendChild(opt);
-      });
-    }
-    fetch('/api/addresses')
-      .then(r => { if (!r.ok) throw new Error('api'); return r.json(); })
-      .then(data => fillDatalist(data.addresses || []))
-      .catch(() => fetch('addresses.json').then(r => r.json()).then(fillDatalist).catch(() => {}));
-
-    function selectSample(id) {
-      document.getElementById('q').value = id;
-      document.querySelector('form').submit();
-    }
-  </script>
+<body>
+<header>
+<a class="brand" href="/" aria-label="statlas">statlas</a>
+<nav class="languages" aria-label="Sprache"><button type="button" data-lang="de">DE</button><button type="button" data-lang="en">EN</button><button type="button" data-lang="es">ES</button></nav>
+</header>
+<main>
+<section class="search-container" aria-label="Immobiliensuche">
+<form class="search-bar" action="/results" method="get" id="search-form">
+<div class="address-field"><label class="field-label" for="q" id="address-label">Wo liegt die Immobilie?</label><input id="q" type="text" placeholder="Adresse oder Stadt suchen" autocomplete="off" role="combobox" aria-autocomplete="list" aria-controls="suggestions-list" aria-expanded="false" aria-describedby="search-message" required><input type="hidden" name="q" id="selected-id"></div>
+<div class="date-field"><button type="button" class="date-trigger" id="date-trigger" aria-haspopup="dialog" aria-expanded="false" aria-controls="calendar"><span class="field-label" id="date-label">Regeln zum</span><span class="date-value"><span id="date-display">01.10.2026</span><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><rect x="4" y="5" width="16" height="15" rx="3" stroke="currentColor" stroke-width="1.5"/><path d="M8 3v4m8-4v4M4 10h16" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg></span></button><input type="hidden" name="as_of" id="as_of" value="2026-10-01"><div class="calendar" id="calendar" role="dialog" aria-labelledby="calendar-title" hidden><div class="calendar-header"><button type="button" class="month-nav" id="month-prev">‹</button><div class="month-selectors"><select id="calendar-month"></select><input type="number" id="calendar-year" min="1900" max="2100" value="2026"></div><button type="button" class="month-nav" id="month-next">›</button></div><h2 id="calendar-title" class="sr-only"></h2><div class="weekdays" id="calendar-weekdays" aria-hidden="true"></div><div class="calendar-days" id="calendar-days"></div><div class="calendar-footer"><button type="button" id="calendar-today">Heute</button><span id="calendar-hint">Stichtag auswählen</span></div></div></div>
+<button class="submit" type="submit" aria-label="Suchen"><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5" stroke="currentColor" stroke-width="2.2"/><path d="m16 16 5 5" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/></svg></button>
+<div class="suggestions" id="suggestions" hidden><p class="suggestion-heading" id="suggestion-heading">Adressen entdecken</p><div role="listbox" id="suggestions-list" aria-label="Adressvorschläge"></div><div class="empty" id="empty-message" role="status" hidden></div></div>
+</form>
+<p class="message" id="search-message" role="status" hidden></p>
+</section>
+</main>
 <script>
-var I18N = {
-"en": {
-"subtitle": "Deterministic lookup of applicable rental housing rules.",
-"searchPh": "Enter address or ID (e.g. A0001, Hoboken, Boston)...",
-"submitBtn": "Run evaluation",
-"samples": "Examples:",
-"howTitle": "How the evaluation works:",
-"howBody": "Pick an address or type freely (ID e.g. A0001). Census geocoding determines state and legal city (ZIP city alone does not count). The engine filters rules by jurisdiction and checks as-of date, status, coverage and exemptions. The results table shows the original source per rule (document ID and quote). All data is live from the engine (/api/lookup), no demo data.",
-"legalNote": "Legal texts shown in original (EN) only.",
-"footer": "Not legal advice. Source gaps and unresolved interpretations require qualified review.",
-"back": "Back to search",
-"asOf": "As of: ",
-"fAll": "All",
-"fApplies": "Applies",
-"fUnknown": "Unclear / review needed",
-"fSup": "Superseded / not applicable",
-"fPending": "Pending / future",
-"filterPh": "Filter table (text, category, citation)...",
-"thStatus": "Status",
-"thLevel": "Level / place",
-"thCat": "Category",
-"thRule": "Rule and requirement",
-"thKey": "Key value",
-"thSource": "Source and citation",
-"openQ": "Open check questions for fact clarification",
-"conflictSuffix": " decision(s) with conflict flag: possible rule collision, human review needed.",
-"emptyMsg": "No rules found for this filter selection.",
-"legalNoteRes": "Legal texts shown in original (EN) only.",
-"statValid": "Valid rules: ",
-"statOpen": "Review open: ",
-"statPending": "Pending / future: ",
-"statSup": "Superseded / inactive: ",
-"statTotal": "Total captured rules: "
-},
-"de": {
-"subtitle": "Deterministische Auswertung anwendbarer Mietrechtsvorschriften.",
-"searchPh": "Adresse oder ID eingeben (z. B. A0001, Hoboken, Boston)...",
-"submitBtn": "Auswertung starten",
-"samples": "Beispiele:",
-"howTitle": "So funktioniert die Auswertung:",
-"howBody": "Adresse w\u00e4hlen oder frei eingeben (ID z. B. A0001). Census-Geocoding bestimmt Bundesstaat und rechtliche Stadt (Postleitzahl-Stadt allein z\u00e4hlt nicht). Die Engine filtert Vorschriften nach Jurisdiktion und pr\u00fcft Stichtag, Status, Deckung und Ausnahmen. Die Ergebnistabelle zeigt pro Regel den Originalbeleg (Dokument-ID und Zitat). Alle Daten kommen live aus der Engine (/api/lookup), keine Demonstrationsdaten.",
-"legalNote": "Rechtstexte nur im Original (EN).",
-"footer": "Keine Rechtsberatung. Quellenl\u00fccken und ungekl\u00e4rte Auslegungen erfordern fachkundige Pr\u00fcfung.",
-"back": "Zur\u00fcck zur Suche",
-"asOf": "Stichtag: ",
-"fAll": "Alle",
-"fApplies": "Gilt",
-"fUnknown": "Unklar / Pr\u00fcfung n\u00f6tig",
-"fSup": "Verdr\u00e4ngt / Nicht anwendbar",
-"fPending": "Anh\u00e4ngig / Zuk\u00fcnftig",
-"filterPh": "Tabelle filtern (Text, Kategorie, Zitation)...",
-"thStatus": "Status",
-"thLevel": "Ebene / Ort",
-"thCat": "Kategorie",
-"thRule": "Vorschrift & Anforderung",
-"thKey": "Schl\u00fcsselwert",
-"thSource": "Quelle & Zitation",
-"openQ": "Offene Pr\u00fcffragen f\u00fcr Faktenkl\u00e4rung",
-"conflictSuffix": " Entscheidung(en) mit Konflikt-Flag: m\u00f6gliche Normenkollision, menschliche Pr\u00fcfung n\u00f6tig.",
-"emptyMsg": "Keine Vorschriften f\u00fcr diese Filterauswahl gefunden.",
-"legalNoteRes": "Rechtstexte nur im Original (EN).",
-"statValid": "G\u00fcltige Vorschriften: ",
-"statOpen": "Pr\u00fcfung offen: ",
-"statPending": "Anh\u00e4ngig / Zuk\u00fcnftig: ",
-"statSup": "Verdr\u00e4ngt / Nicht aktiv: ",
-"statTotal": "Gesamte erfasste Regeln: "
-},
-"es": {
-"subtitle": "B\u00fasqueda determinista de las normas de alquiler aplicables.",
-"searchPh": "Ingrese direcci\u00f3n o ID (p. ej., A0001, Hoboken, Boston)...",
-"submitBtn": "Iniciar evaluaci\u00f3n",
-"samples": "Ejemplos:",
-"howTitle": "C\u00f3mo funciona la evaluaci\u00f3n:",
-"howBody": "Elija una direcci\u00f3n o escr\u00edbala libremente (ID p. ej. A0001). La geocodificaci\u00f3n del censo determina el estado y la ciudad legal (la ciudad del c\u00f3digo postal por s\u00ed sola no cuenta). El motor filtra las normas por jurisdicci\u00f3n y verifica fecha de referencia, estado, cobertura y exenciones. La tabla de resultados muestra la fuente original por norma (ID de documento y cita). Todos los datos provienen en vivo del motor (/api/lookup), sin datos de demostraci\u00f3n.",
-"legalNote": "Textos jur\u00eddicos solo en el original (EN).",
-"footer": "No es asesoramiento legal. Las lagunas de fuentes y las interpretaciones no resueltas requieren revisi\u00f3n calificada.",
-"back": "Volver a la b\u00fasqueda",
-"asOf": "Fecha de referencia: ",
-"fAll": "Todos",
-"fApplies": "Aplicable",
-"fUnknown": "Incierto / revisi\u00f3n necesaria",
-"fSup": "Desplazado / no aplicable",
-"fPending": "Pendiente / futuro",
-"filterPh": "Filtrar tabla (texto, categor\u00eda, cita)...",
-"thStatus": "Estado",
-"thLevel": "Nivel / lugar",
-"thCat": "Categor\u00eda",
-"thRule": "Norma y requisito",
-"thKey": "Valor clave",
-"thSource": "Fuente y cita",
-"openQ": "Preguntas abiertas para aclarar hechos",
-"conflictSuffix": " decisi\u00f3n(es) con bandera de conflicto: posible colisi\u00f3n de normas, se necesita revisi\u00f3n humana.",
-"emptyMsg": "No se encontraron normas para esta selecci\u00f3n de filtros.",
-"legalNoteRes": "Textos jur\u00eddicos solo en el original (EN).",
-"statValid": "Normas v\u00e1lidas: ",
-"statOpen": "Revisi\u00f3n abierta: ",
-"statPending": "Pendiente / futuro: ",
-"statSup": "Desplazado / inactivo: ",
-"statTotal": "Normas registradas en total: "
-}
-};
-var RHN_LANG = "en";
-function t(k) { var d = I18N[RHN_LANG] || I18N["en"]; var v = d ? d[k] : undefined; if (v === undefined) { v = I18N["en"][k]; } return (v === undefined) ? "" : v; }
-function applyI18n() {
-  var els = document.querySelectorAll("[data-i18n]");
-  for (var i = 0; i < els.length; i++) { var k = els[i].getAttribute("data-i18n"); var v = t(k); if (v) { els[i].textContent = v; } }
-  var ph = document.querySelectorAll("[data-i18n-ph]");
-  for (var j = 0; j < ph.length; j++) { var k2 = ph[j].getAttribute("data-i18n-ph"); var v2 = t(k2); if (v2) { ph[j].setAttribute("placeholder", v2); } }
-}
-function markLangButtons() {
-  var bs = document.querySelectorAll("#lang-toggle button");
-  for (var i = 0; i < bs.length; i++) { var on = bs[i].getAttribute("data-lang-btn") === RHN_LANG; bs[i].style.background = on ? "#000" : "#fff"; bs[i].style.color = on ? "#fff" : "#000"; }
-}
-function setLang(l) {
-  if (!I18N[l]) { l = "en"; }
-  RHN_LANG = l;
-  try { localStorage.setItem("rhn-lang", l); } catch (e) {}
-  document.documentElement.lang = l;
-  applyI18n();
-  markLangButtons();
-  if (typeof afterLangChange === "function") { try { afterLangChange(); } catch (e2) {} }
-}
-(function () {
-  var l = "en";
-  try { l = localStorage.getItem("rhn-lang") || "en"; } catch (e3) {}
-  if (!I18N[l]) { l = "en"; }
-  RHN_LANG = l;
-  document.documentElement.lang = l;
-  var bs = document.querySelectorAll("#lang-toggle button");
-  for (var i = 0; i < bs.length; i++) { (function (b) { b.addEventListener("click", function () { setLang(b.getAttribute("data-lang-btn")); }); })(bs[i]); }
-  applyI18n();
-  markLangButtons();
-})();
-</script>
+const copy={de:{address:'Wo liegt die Immobilie?',placeholder:'Adresse oder Stadt suchen',date:'Regeln zum',search:'Suchen',discover:'Adressen entdecken',matches:'Passende Adressen',empty:'Keine passende Adresse gefunden. Suche nach einer anderen Straße, Stadt oder Adress-ID.',choose:'Wähle eine Adresse aus den Vorschlägen aus.',loading:'Adressen werden geladen …',error:'Die Adressen konnten nicht geladen werden. Bitte lade die Seite erneut.'},en:{address:'Where is the property?',placeholder:'Search an address or city',date:'Rules as of',search:'Search',discover:'Explore addresses',matches:'Matching addresses',empty:'No matching address. Try another street, city or address ID.',choose:'Choose an address from the suggestions.',loading:'Loading addresses …',error:'Could not load addresses. Please reload this page.'},es:{address:'¿Dónde está el inmueble?',placeholder:'Buscar dirección o ciudad',date:'Normas al',search:'Buscar',discover:'Explorar direcciones',matches:'Direcciones coincidentes',empty:'No hay coincidencias. Busca otra calle, ciudad o ID.',choose:'Selecciona una dirección de las sugerencias.',loading:'Cargando direcciones …',error:'No se pudieron cargar las direcciones. Recarga la página.'}};
+function readLanguage(){try{return localStorage.getItem('rhn-lang')||'de'}catch(e){return 'de'}}
+let lang=readLanguage();if(!copy[lang])lang='de';
+const input=document.getElementById('q'),panel=document.getElementById('suggestions'),list=document.getElementById('suggestions-list'),empty=document.getElementById('empty-message'),message=document.getElementById('search-message'),selectedId=document.getElementById('selected-id');
+let addresses=[],matches=[],selected=null,active=-1,loaded=false,failed=false;
+const text=()=>copy[lang];
+function setLanguage(value){lang=value;try{localStorage.setItem('rhn-lang',lang)}catch(e){};document.documentElement.lang=lang;document.getElementById('address-label').textContent=text().address;input.placeholder=text().placeholder;document.getElementById('date-label').textContent=text().date;document.querySelector('.submit').setAttribute('aria-label',text().search);document.querySelectorAll('[data-lang]').forEach(b=>{b.classList.toggle('active',b.dataset.lang===lang);b.setAttribute('aria-pressed',b.dataset.lang===lang)});if(!panel.hidden)renderSuggestions();updateDateDisplay();if(!calendar.hidden)renderCalendar()}
+document.querySelectorAll('[data-lang]').forEach(b=>b.addEventListener('click',()=>setLanguage(b.dataset.lang)));
+const pin='<svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M19 10c0 5-7 11-7 11S5 15 5 10a7 7 0 1 1 14 0Z" stroke="currentColor" stroke-width="1.5"/><circle cx="12" cy="10" r="2.5" stroke="currentColor" stroke-width="1.5"/></svg>';
+function closeSuggestions(){matches=[];panel.hidden=true;input.setAttribute('aria-expanded','false');input.removeAttribute('aria-activedescendant');active=-1}
+function pick(address){selected=address;selectedId.value=address.id;input.value=address.label;message.hidden=true;closeSuggestions();input.focus();closeSuggestions()}
+function renderSuggestions(){const query=input.value.trim().toLowerCase();if(!query||selected){closeSuggestions();return}closeCalendar();matches=addresses.filter(a=>a.search.includes(query)).slice(0,5);active=-1;input.removeAttribute('aria-activedescendant');list.replaceChildren();document.getElementById('suggestion-heading').textContent=query?text().matches:text().discover;matches.forEach((a,i)=>{const button=document.createElement('button');button.type='button';button.className='option';button.id='address-option-'+i;button.setAttribute('role','option');button.setAttribute('aria-selected','false');button.tabIndex=-1;const icon=document.createElement('span');icon.className='pin';icon.innerHTML=pin;const content=document.createElement('span');content.className='option-text';const title=document.createElement('strong');title.textContent=a.primary;const subtitle=document.createElement('small');subtitle.textContent=a.secondary;content.append(title,subtitle);button.append(icon,content);button.addEventListener('click',()=>pick(a));list.append(button)});empty.hidden=matches.length>0;empty.textContent=failed?text().error:loaded?text().empty:text().loading;panel.hidden=false;input.setAttribute('aria-expanded','true')}
+input.addEventListener('focus',renderSuggestions);input.addEventListener('click',renderSuggestions);input.addEventListener('input',()=>{selected=null;selectedId.value='';message.hidden=true;renderSuggestions()});
+input.addEventListener('keydown',event=>{if(event.key==='Escape'){closeSuggestions();return}if(event.key==='ArrowDown'||event.key==='ArrowUp'){event.preventDefault();if(panel.hidden)renderSuggestions();if(!matches.length)return;active=active<0?(event.key==='ArrowDown'?0:matches.length-1):(active+(event.key==='ArrowDown'?1:-1)+matches.length)%matches.length;Array.from(list.children).forEach((b,i)=>b.setAttribute('aria-selected',i===active));input.setAttribute('aria-activedescendant','address-option-'+active)}else if(event.key==='Enter'&&!panel.hidden&&active>=0){event.preventDefault();pick(matches[active])}});
+document.addEventListener('click',event=>{if(!event.target.closest('.address-field')&&!event.target.closest('#suggestions'))closeSuggestions();if(!event.target.closest('.date-field'))closeCalendar()});document.getElementById('search-form').addEventListener('focusout',()=>setTimeout(()=>{if(!document.activeElement.closest('.address-field')&&!document.activeElement.closest('#suggestions'))closeSuggestions();if(!document.activeElement.closest('.date-field'))closeCalendar()},0));
+document.getElementById('search-form').addEventListener('submit',event=>{if(!selected){const q=input.value.trim().toLowerCase();const exact=addresses.find(a=>a.id.toLowerCase()===q||a.label.toLowerCase()===q);if(exact){selected=exact;selectedId.value=exact.id}else{event.preventDefault();message.textContent=text().choose;message.hidden=false;input.focus();renderSuggestions()}}});
+function load(items){addresses=items.map(a=>{const id=a.address_id||a.id;const primary=a.street_address||(a.label||'').split(',')[0];const secondary=a.street_address?[a.postal_city||a.city,a.state,a.zip].filter(Boolean).join(', '):(a.label||'').split(',').slice(1).join(',').trim();const label=primary+(secondary?', '+secondary:'');return{id,primary,secondary,label,search:(id+' '+label).toLowerCase()}});loaded=true;if(document.activeElement===input)renderSuggestions()}
+fetch('/api/addresses').then(r=>{if(!r.ok)throw Error('addresses');return r.json()}).then(data=>load(data.addresses||[])).catch(()=>fetch('addresses.json').then(r=>{if(!r.ok)throw Error('addresses');return r.json()}).then(data=>load(Array.isArray(data)?data:data.addresses||[])).catch(()=>{failed=true;if(document.activeElement===input)renderSuggestions()}));
+const calendar=document.getElementById('calendar'),dateTrigger=document.getElementById('date-trigger'),dateInput=document.getElementById('as_of'),monthSelect=document.getElementById('calendar-month'),yearInput=document.getElementById('calendar-year'),dayGrid=document.getElementById('calendar-days');
+let calendarMonth=new Date(dateInput.value+'T12:00:00');calendarMonth.setDate(1);
+const calendarCopy={de:{prev:'Vorheriger Monat',next:'Nächster Monat',month:'Monat',year:'Jahr',today:'Heute',hint:'Stichtag auswählen'},en:{prev:'Previous month',next:'Next month',month:'Month',year:'Year',today:'Today',hint:'Choose a date'},es:{prev:'Mes anterior',next:'Mes siguiente',month:'Mes',year:'Año',today:'Hoy',hint:'Selecciona una fecha'}};
+function isoDate(date){return date.getFullYear()+'-'+String(date.getMonth()+1).padStart(2,'0')+'-'+String(date.getDate()).padStart(2,'0')}
+function updateDateDisplay(){document.getElementById('date-display').textContent=new Intl.DateTimeFormat(lang,{day:'2-digit',month:'2-digit',year:'numeric'}).format(new Date(dateInput.value+'T12:00:00'));dateTrigger.setAttribute('aria-label',text().date+': '+document.getElementById('date-display').textContent)}
+function closeCalendar(){calendar.hidden=true;dateTrigger.setAttribute('aria-expanded','false')}
+function chooseDate(value){dateInput.value=value;updateDateDisplay();closeCalendar();dateTrigger.focus()}
+function renderCalendar(){const labels=calendarCopy[lang];document.getElementById('month-prev').setAttribute('aria-label',labels.prev);document.getElementById('month-next').setAttribute('aria-label',labels.next);monthSelect.setAttribute('aria-label',labels.month);yearInput.setAttribute('aria-label',labels.year);document.getElementById('calendar-today').textContent=labels.today;document.getElementById('calendar-hint').textContent=labels.hint;document.getElementById('calendar-title').textContent=new Intl.DateTimeFormat(lang,{month:'long',year:'numeric'}).format(calendarMonth);monthSelect.replaceChildren();for(let m=0;m<12;m++){const option=document.createElement('option');option.value=m;option.textContent=new Intl.DateTimeFormat(lang,{month:'long'}).format(new Date(2026,m,1));monthSelect.append(option)}monthSelect.value=calendarMonth.getMonth();yearInput.value=calendarMonth.getFullYear();const weekdays=document.getElementById('calendar-weekdays');weekdays.replaceChildren();for(let i=0;i<7;i++){const label=document.createElement('span');label.textContent=new Intl.DateTimeFormat(lang,{weekday:'short'}).format(new Date(2026,9,5+i));weekdays.append(label)}dayGrid.replaceChildren();const offset=(calendarMonth.getDay()+6)%7;for(let i=0;i<offset;i++)dayGrid.append(document.createElement('span'));const total=new Date(calendarMonth.getFullYear(),calendarMonth.getMonth()+1,0).getDate();for(let d=1;d<=total;d++){const date=new Date(calendarMonth.getFullYear(),calendarMonth.getMonth(),d);const value=isoDate(date),button=document.createElement('button');button.type='button';button.textContent=d;button.dataset.date=value;button.classList.toggle('selected',value===dateInput.value);button.classList.toggle('today',value===isoDate(new Date()));button.setAttribute('aria-pressed',value===dateInput.value);button.setAttribute('aria-label',new Intl.DateTimeFormat(lang,{dateStyle:'full'}).format(date));button.addEventListener('click',()=>chooseDate(value));dayGrid.append(button)}}
+dateTrigger.addEventListener('click',()=>{if(!calendar.hidden){closeCalendar();return}closeSuggestions();calendarMonth=new Date(dateInput.value+'T12:00:00');calendarMonth.setDate(1);renderCalendar();calendar.hidden=false;dateTrigger.setAttribute('aria-expanded','true');dayGrid.querySelector('.selected').focus()});
+function moveMonth(delta){const next=new Date(calendarMonth.getFullYear(),calendarMonth.getMonth()+delta,1);if(next.getFullYear()<1900||next.getFullYear()>2100)return;calendarMonth=next;renderCalendar()}
+document.getElementById('month-prev').addEventListener('click',()=>moveMonth(-1));document.getElementById('month-next').addEventListener('click',()=>moveMonth(1));monthSelect.addEventListener('change',()=>{calendarMonth.setMonth(Number(monthSelect.value));renderCalendar()});yearInput.addEventListener('change',()=>{const year=Number(yearInput.value);if(Number.isInteger(year)&&year>=1900&&year<=2100){calendarMonth.setFullYear(year);renderCalendar()}else yearInput.value=calendarMonth.getFullYear()});document.getElementById('calendar-today').addEventListener('click',()=>chooseDate(isoDate(new Date())));
+calendar.addEventListener('keydown',event=>{if(event.key==='Escape'){event.preventDefault();closeCalendar();dateTrigger.focus();return}if(!event.target.dataset.date)return;const shifts={ArrowLeft:-1,ArrowRight:1,ArrowUp:-7,ArrowDown:7};if(!(event.key in shifts))return;event.preventDefault();const date=new Date(event.target.dataset.date+'T12:00:00');date.setDate(date.getDate()+shifts[event.key]);if(date.getFullYear()<1900||date.getFullYear()>2100)return;calendarMonth=new Date(date.getFullYear(),date.getMonth(),1);renderCalendar();dayGrid.querySelector('[data-date="'+isoDate(date)+'"]').focus()});
+setLanguage(lang);
 
+</script>
 </body>
 </html>
