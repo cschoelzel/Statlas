@@ -131,3 +131,13 @@ Anlass: T1-Audit (CA-ALG-01-Alias auf D022-r001) freigegeben mit zwei Doku-Aufla
 - Re-Export: 177 Regeln, 500 Adressen, 24.970 Decisions (unknown 24.181 / applies 240 D024-r009 / does_not_apply 151 / not_yet_effective 139 / pending 259), 0 fraglose Unknowns, 0 Adressen ohne Entscheidungen. SHA 3fa123cfe9f0b9c427394994ffe767e1776c9b63fba88665a27b0b24e303d070.
 - Verifikation (3 frische read-only Pruefer): Gates (quotes 177/177, unknown_noq 0, export_stats ok, SHA-Recompute MATCH) bestanden; T1-T5 (T1 mit SB763+Fail-closed-Notes, T2 incomplete HOB/JC, T3 hyp 139, T4 105 pending, T5 correctly_empty) erfuellt; Engine (65 passed + 223 Subtests, 3 Adversarial-Proben) PASS.
 - Restluecken (keine Gate-Verstoesse): T2-Beschaffung (HOB-ALG-01, JC-ALG-01) braucht Nutzerentscheidung; Demo-Track-Fehler der parallelen Session (web/*) nicht angefasst. Goal bleibt aktiv.
+
+## Iteration 10 (Goal-Runde, 2026-10-04, Post-Parcel-Re-Verifikation P2/P5/P7, Export-SHA 3fa123cf)
+
+Anlass: Iteration 9 hatte Parcel-Facts (derived_from_use_code_unverified) im Export; P2/P5/P7 mussten auf dem neuen SHA neu belegt werden. Keine Produktionsaenderung, nur Pruefung.
+
+- P2 bestanden (frischer Vollabgleich): 23.578 jurisdiction-true-Decisions, 0 Census-Mismatches; 8 unresolved je 174 unknowns mit jurisdiction null; Parcel-Facts liefern keine Jurisdiktions-Facts (strukturell getrennt in geography.py). Notiz: D041-r005/D042-r001/D080-r002 omitted (beendete Regeln, bekannter Backlog P2-1, kein Fehler).
+- P5 bestanden (frisch): CSV-Abgleich 500x2 Felder 0 Mismatches (massgeblich sample_addresses.csv); 437/292/159 parcel-Facts je 100 Prozent derived_from_use_code_unverified; unit_type wird per Design nie abgeleitet (Fail-closed); year_built 0x in Regellogik, 0 Occupancy-Facts; keine Exemption geraten.
+- P7 bestaetigt (Haupt-Agent): 240/240 applies + 151/151 does_not_apply mit vollständigem Beleg-Quartett — Positivpfad erstmals auf Echtdaten belegt (vorher vakuos).
+- P1/P4/P6/P8/P9 fortgeltend gruen verifiziert: quotes 177/177, fact_vocabulary+redteam+engine 63 passed + 223 Subtests, unknown_noq 0, export_stats 24.970/0/0.
+- Freigabe: 10/10 — TEST BESTANDEN (Export-SHA 3fa123cf, Datum 2026-10-04). Rest-Backlog: T2-Beschaffung (Nutzerentscheidung), Demo-Track der Parallel-Session. Goal bleibt aktiv.
