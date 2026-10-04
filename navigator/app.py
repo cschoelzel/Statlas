@@ -37,7 +37,16 @@ def source_coverage():
     for meta_path in sorted((ROOT / 'data/sources_new').glob('*.meta.json')):
         metadata = read_json(meta_path, {})
         stem = meta_path.name.removesuffix('.meta.json')
-        supplemental.append({'metadata': {key: metadata[key] for key in
+        text_path = meta_path.parent / (stem + '.txt')
+        expected_hash = metadata.get('text_sha256')
+        text_verified = bool(expected_hash and text_path.is_file()
+                             and hashlib.sha256(text_path.read_bytes()).hexdigest() == expected_hash)
+        supplemental.append({'source_doc_id': metadata.get('doc_id') or stem,
+                             'source_url': metadata.get('source_url') or metadata.get('url'),
+                             'text_sha256_verified': text_verified,
+                             'capture_quartet_complete': bool((metadata.get('source_url') or metadata.get('url'))
+                                 and metadata.get('retrieved_at') and text_verified),
+                             'metadata': {key: metadata[key] for key in
                              ('doc_id', 'source_url', 'retrieved_at', 'raw_sha256', 'text_sha256')
                              if key in metadata},
                              'metadata_file': str(meta_path.relative_to(ROOT)),
