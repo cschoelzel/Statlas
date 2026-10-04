@@ -1,6 +1,6 @@
 import json, re, sys
 from pathlib import Path
-ROOT = Path("/Users/constantinscholzel/Documents/Projekte/Aktiv/hacknation26")
+ROOT = Path(__file__).resolve().parent.parent
 def norm(s):
     return re.sub("[^a-z0-9]", "", (s or "").lower())
 def doctext(doc):
