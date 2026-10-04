@@ -82,3 +82,8 @@ Dokumentiert, nicht behoben (echte Luecken, fail-closed intakt):
 - A0384-Census-Luecke (Hausnummer vorhanden, kein Treffer) als begruendeter Verdacht; Gegenprobe mit ZIP offen.
 
 Teststand: 92 passed, 218 Subtests, 4 failed — alle 4 Demo-Track (S8 index.html-Disclaimer/i18n, S9 Vertrauen-Label, S11 README-Demo-Link), unabhaengig von Engine-Aenderungen (Branch-Bestand, Demo wird parallel umgebaut). Gate-Urteil dieser Runde: Engine-Gates intakt, Demo-Gates offen.
+
+## Iteration 5 (Goal-Runde, 2026-10-04, read-only Nachweise)
+
+- D001-Auslegung geschlossen (beibehalten mit Begruendung): Der Korpustext (8.000 Zeichen) endet beim Pass-to-print-Beschluss vom 18.11.2025 und enthaelt kein Adoption-Votum. Fuer in_force sprechen: vergebene Verordnungsnummer 7.992-N.S. (wird bei Verabschiedung erteilt), Rats-Item vom 02.12.2025, Stichtag 01.10.2026 elf Monate spaeter; evidence_gap effective_date bleibt markiert. Ein Flip auf pending waere gleich unbelegt und schlechter (falscher temporal_status fuer alle Berkeley-Adressen). Status: kein Fehler, offene Kommissionierung der Vollfassung als Backlog.
+- A0384-Verdacht geprueft (Live-Census, Benchmark Public_AR_Current): '21 GUERRERO ST, San Francisco' liefert 0 Treffer — auch mit ZIP 94103 und 94110. Echte Census-Luecke (Hausnummer 21 liegt ausserhalb interpolierter Adressbereiche), kein Engine-Fehler. unresolved mit Geo-Rueckfrage bleibt korrekt.
