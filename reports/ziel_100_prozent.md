@@ -103,3 +103,21 @@ Read-only, keine Produktionsaenderung, keine Mocks. Anlass: Re-Verifikation nach
 - Changes: T1 incomplete (missing CA-ALG-01), T2 incomplete (missing HOB-ALG-01, JC-ALG-01), T3 evaluated_with_geographic_gaps (affected 0, hypothetisch 139, alle 139 NJ), T4 (affected 105, alle 105 MA, unresolved 8 = exakt die 8 Geo-unresolved), T5 correctly_empty. D022-Probe an 3 CA-Adressen: 2025-12-31 not_yet_effective, 2026-01-01 in_force (unknown nur wegen fehlender Objektfakten).
 - Engine-Regression: test_fact_vocabulary 8+218 Subtests, test_redteam 6, test_regression_audit 4, test_engine 49 — alle gruen. Nebenbefund: evaluate_changes erwartet address_id-Schema (load_addresses), addresses.json mit id-Schema crasht mit KeyError (Robustheit, kein Blocker).
 - Offene Punkte ausserhalb Engine: T1/T2-Quellbeschaffung (Nutzerentscheidung Kosten/Aufwand), Demo-Track-Failures der parallelen Session (fremde Dateien nicht angefasst).
+- Offene Punkte ausserhalb Engine: T1/T2-Quellbeschaffung (Nutzerentscheidung Kosten/Aufwand), Demo-Track-Failures der parallelen Session (fremde Dateien nicht angefasst).
+
+## Iteration 8 (Goal-Runde, 2026-10-04, 4 unabhaengige Pruefer + 3 Folgefunde umgesetzt)
+
+Anlass: Voll-Re-Verifikation aller 10 Punkte nach Gate-Verifizierer-Fixes (ROOT-Pfade), danach Umsetzung der geringfuegigen Audit-Befunde. Alle Pruefer read-only, ohne Implementierer-Begruendung, ohne Mocks.
+
+- P1 bestanden (verify_quotes 177/177 + 10-Regel-Kontextlesung, 0 aus dem Zusammenhang gerissen; Notiz: D009-Tabellen-Disclaimer als Auslegungsfrage).
+- P2 bestanden (Vollzensus 492/492 adressrein, 0 Cross-Jurisdiktion; 8 unresolved mit dimensions.jurisdiction=None; Notiz P2-1: beendete Regeln omitted statt ended-sichtbar — Darstellungsfrage, Backlog).
+- P3 bestanden (T1/T2 incomplete mit missing_ids verifiziert, T3 139 NJ hypothetisch, T4 105 MA affected + 8 Geo-unresolved, T5 correctly_empty; 12-Regel-Temporal-Stichprobe mit Grenzproben, D001-Ehrlichkeit bestaetigt; Notiz P3-1: keine failed-Regel im Datensatz).
+- P4 bestanden (367/367 Fakten klassifiziert, 1 Alias-Gruppe units->unit_count belegt, 5 dokumentierte ALLOWED_DEAD, test_fact_vocabulary 8+218 gruen).
+- P5 bestanden (CSV-Abgleich 500x4 Felder 0 Mismatches, Provenienz lueckenlos, year_built inert per Test).
+- P6 bestanden (unknown_noq patterns 0, 30er-Stichprobe 0 fraglos/0 Cover-Fails, 9/9 Flips; Research-Fragen mit why_needed/evidence/source_doc_id; Notiz: Fallback-Fragetexte ueberwiegend generisch — Qualitaetsfrage, kein Fehler).
+- P7 bestanden (Vollscan 24.970/24.970 mit Quartett, URLs 24.970/24.970 gueltig, UI-Rendering per Code-Lesung bestaetigt; Hinweis P7-B3: 0 applies im Export — Positivpfad jetzt per Test belegt, siehe unten).
+- P8 bestanden (6/6 Redteam + 9/9 eigene Proben, 0 applies bei fehlenden Fakten; Befund P8-B1 umgesetzt: exemption- vs. coverage-Ausschluss jetzt in Explanation unterscheidbar).
+- P9 bestanden (SHA-Recompute d33244a8 match, 24.970 Decisions, 0 leere Adressen).
+- P10 bestanden (alle 5 Faelle protokollkonform; Befund P10-B1 umgesetzt: id-Schema wirft ValueError mit Hinweis statt KeyError; Notiz P10-B2: T3-unresolved-Zaehler enthaelt Fakt-Unknowns — Statusname uebertreibt Geo-Anteil, keine falsche Zaehlung).
+- Folgefunde umgesetzt (nur eigene Dateien): navigator/engine.py (P8-B1), navigator/changes.py (P10-B1), tests/test_iteration8.py (3 Tests: D084-r001-applies mit Quartett+Formel 2,4 %, Exemption-vs-Coverage, ValueError-Hint). Export-Drift 0 (verify_quotes 177/177, unknown_noq patterns 0, export_stats identisch: 24.970 Decisions, 0 leere Adressen). Suite-ausschnitt 66 passed + 218 Subtests (iteration8/engine/redteam/fact_vocabulary).
+- Freigabe: 10/10 — TEST BESTANDEN (Export-SHA d33244a8, 177 Regeln, 500 Adressen, Datum 2026-10-04). Rest-Backlog (keine Gate-Verstoesse): T1/T2-Beschaffung (Nutzerentscheidung), beendete-Regeln-Sichtbarkeit, regel­spezifische Fragetexte, failed-Rule-Unit-Test, T3-Statusname. Demo-Track gehoert der Parallel-Session (fremde Dateien nicht angefasst).

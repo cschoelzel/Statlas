@@ -32,6 +32,8 @@ def evaluate_changes(rules, addresses, tests=None):
         records=[]; affected=[]; flagged=[]; unresolved=[]
         hypothetical=[]
         for address in addresses:
+            if 'address_id' not in address:
+                raise ValueError('address missing address_id; use load_addresses() from the sample CSV or provide address_id.')
             geo=resolve_address(address); facts=geo['facts']
             dates=[case['as_of_before'],case['as_of_after']] if case.get('type')=='as_of' else [case.get('as_of','2026-10-01')]
             snapshots=[]

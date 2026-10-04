@@ -421,7 +421,9 @@ def evaluate_rule(rule, facts, as_of="2026-10-01"):
         return assemble("unknown", "Open legal evidence prevents a reliable coverage decision.",
                          set(coverage_gaps + exemption_gaps), None, "in_force")
     if coverage_applies is False:
-        return assemble("does_not_apply", "Coverage condition is false or an exemption is established.", set(), False, "in_force")
+        if exempt is True:
+            return assemble("does_not_apply", "An exemption is established; the rule does not apply to this property.", set(), False, "in_force")
+        return assemble("does_not_apply", "Coverage condition is false; the rule does not cover this property.", set(), False, "in_force")
     if coverage_applies is None:
         missing = needs | exemption_needs
         missing = {fact for fact in missing if not (isinstance(fact, str) and fact.startswith(_GAP_PREFIX))}
