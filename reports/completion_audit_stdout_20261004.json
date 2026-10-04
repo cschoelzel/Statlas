@@ -1,0 +1,88 @@
+{
+  "complete_for_checked_deliverables": false,
+  "scope": "T1-T6 completeness, official score run evidence, three distinct local video containers",
+  "checks": {
+    "rules_export_current": {
+      "pass": true,
+      "source_error": null,
+      "export_error": null,
+      "note": "Exact rule equality is necessary but does not prove lookup or change regeneration."
+    },
+    "T1": {
+      "pass": false,
+      "status": "incomplete",
+      "missing_rule_ids": [
+        "CA-ALG-01"
+      ],
+      "gaps": [
+        "status_not_evaluated",
+        "missing_rule_ids_not_empty"
+      ]
+    },
+    "T2": {
+      "pass": false,
+      "status": "incomplete",
+      "missing_rule_ids": [
+        "HOB-ALG-01",
+        "JC-ALG-01"
+      ],
+      "gaps": [
+        "status_not_evaluated",
+        "missing_rule_ids_not_empty"
+      ]
+    },
+    "T3": {
+      "pass": true,
+      "status": "evaluated_with_geographic_gaps",
+      "missing_rule_ids": [],
+      "gaps": []
+    },
+    "T4": {
+      "pass": true,
+      "status": "evaluated_with_geographic_gaps",
+      "missing_rule_ids": [],
+      "gaps": []
+    },
+    "T5": {
+      "pass": false,
+      "status": "incomplete",
+      "missing_rule_ids": [
+        "MA-RENT-P1"
+      ],
+      "gaps": [
+        "status_not_evaluated",
+        "missing_rule_ids_not_empty"
+      ]
+    },
+    "T6": {
+      "pass": false,
+      "status": null,
+      "missing_rule_ids": null,
+      "gaps": [
+        "case_missing_or_invalid",
+        "status_not_evaluated",
+        "missing_rule_ids_not_empty",
+        "comparison_evidence_missing"
+      ]
+    },
+    "official_score": {
+      "pass": false,
+      "gaps": [
+        "official_run_evidence_missing",
+        "successful_command_missing",
+        "script_file_missing",
+        "report_file_missing",
+        "rules.json_scored_version_unverified",
+        "lookups.json_scored_version_unverified",
+        "changes.json_scored_version_unverified"
+      ],
+      "note": "Local run evidence does not establish scorer provenance."
+    },
+    "videos": {
+      "pass": false,
+      "distinct_local_recordings": 0,
+      "files": [],
+      "note": "Remote URLs unverified; signatures do not prove playback, duration, or content."
+    }
+  }
+}
