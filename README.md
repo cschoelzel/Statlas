@@ -1,5 +1,7 @@
 # Rental Housing Law Navigator (HackNation26 × RealPage)
 
+**Live-Demo:** https://cschoelzel.github.io/hacknation26/
+
 Antwort auf eine Frage pro Adresse: welche Mietrechts-Regeln gelten hier heute, was aendert sich?
 Module: A Extraktion (Korpus -> rules.json), B Lookup (Adresse -> Regeln mit Beleg), C Change-Tracking (T1-T6).
 
@@ -7,7 +9,7 @@ Module: A Extraktion (Korpus -> rules.json), B Lookup (Adresse -> Regeln mit Bel
 - Korrektheit: 10/10 freigegeben (reports/ziel_100_prozent.md), Export-SHA siehe output/manifest.json
 - Spitze: reports/ziel_spitze.md (16 Abnahmetests, v3), Tests: tests/test_spitzen_goal.py
 - Dev-Score: reports/score_dev.md (offizielles score.py fehlt im Starter-Pack, Ersatzmetrik dokumentiert)
-- Live-Demo-Link: TODO (deploy ausstehend) - Videos: reports/videos.md
+- Live-Demo: https://cschoelzel.github.io/hacknation26/ | Videos: reports/videos.md
 
 ## Repro
 - python3 -m unittest discover -s tests
