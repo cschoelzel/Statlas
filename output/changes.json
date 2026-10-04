@@ -77765,8 +77765,8 @@
     "missing_rule_ids": [
       "MA-RENT-P1"
     ],
-    "status": "correctly_empty",
-    "notes": "Referenzierte Maßnahme ist gescheitert/ohne Rechtswirkung; leere Treffermenge ist das erwartete Ergebnis. Evaluated using extracted rules and the same deterministic engine. Pending impact is hypothetical. hypothetically_affected means: jurisdiction established and rule in force, decision unknown only for lack of documented property facts (no jurisdiction, timing, or source gap); it never promotes unknown to applies. Missing rules do not imply absence of legal duties. Unresolved addresses lack a verified geocoded jurisdiction and are excluded from the affected count (never counted as affected, even for pending).",
+    "status": "incomplete",
+    "notes": "Evaluated using extracted rules and the same deterministic engine. Pending impact is hypothetical. hypothetically_affected means: jurisdiction established and rule in force, decision unknown only for lack of documented property facts (no jurisdiction, timing, or source gap); it never promotes unknown to applies. Missing rules do not imply absence of legal duties. Unresolved addresses lack a verified geocoded jurisdiction and are excluded from the affected count (never counted as affected, even for pending).",
     "comparisons": [
       {
         "address_id": "A0001",

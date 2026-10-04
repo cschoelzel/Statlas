@@ -1,6 +1,6 @@
 # Rental Housing Law Navigator (HackNation26 × RealPage)
 
-**Demo:** lokal in `web/`; öffentliches Hosting ausstehend. Das GitHub-Repository bleibt privat.
+**Demo:** lokal in `web/`; Repo: https://github.com/cschoelzel/hacknation26 (privat); öffentliches Hosting ausstehend. Das GitHub-Repository bleibt privat.
 
 Antwort auf eine Frage pro Adresse: welche Mietrechts-Regeln gelten hier heute, was aendert sich?
 Module: A Extraktion (Korpus -> rules.json), B Lookup (Adresse -> Regeln mit Beleg), C Change-Tracking (T1-T6).
