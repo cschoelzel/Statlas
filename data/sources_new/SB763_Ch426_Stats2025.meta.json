@@ -1,0 +1,10 @@
+{
+  "doc_id": "T1-SB763",
+  "source_url": "https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202520260SB763",
+  "retrieved_at": "2026-10-04T10:34:15.693970+00:00",
+  "raw_sha256": "4359c3a935a66d8e32d41c38b9affab8ae78ebb3eb4f2570d79143881e9ed3d9",
+  "text_sha256": "93dc0c1ec0ea8a114ef3e00c25bcaec05af79df802c76384cce0932c79f6bad5",
+  "parser": "stdlib-HTMLParser-visible-text-v1",
+  "effective_date_verified": false,
+  "status": "captured_requires_legal_extraction"
+}

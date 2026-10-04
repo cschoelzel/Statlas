@@ -1,0 +1,17 @@
+{
+  "doc_id": "D059",
+  "url": "https://www.wbur.org/news/2026/06/23/massachusetts-high-court-rent-control-ballot-question-struck",
+  "retrieved_at": "2026-10-04T10:35:07.402021+00:00",
+  "http_status": 200,
+  "publisher": "WBUR",
+  "title": "High court derails rent control ballot question, citing mention of religion",
+  "publication_date": "2026-06-23",
+  "parser": "stdlib.HTMLParser visible-text excludes script/style v1",
+  "raw_file": "data/sources_new/D059_WBUR_ballot_struck.html",
+  "text_file": "data/sources_new/D059_WBUR_ballot_struck.txt",
+  "raw_sha256": "a3210eabfed4187da16ce2afc42f58528a83000450c89d5cd7733e6d75c5e87b",
+  "text_sha256": "c1136c8a7574a15bf36dd98b88e1d79191b41709e10a5fd56a2ebf71325691d0",
+  "supported_fact": "Massachusetts Supreme Judicial Court ruled rent-control ballot question cannot proceed in November because of religious exemption.",
+  "identity_gap": "Visible article does not identify petition as IP 25-21; no identifier mapping asserted.",
+  "not_imported": true
+}

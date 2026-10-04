@@ -14,6 +14,23 @@ class TestAuditRegression(unittest.TestCase):
         rules = json.loads((ROOT / 'data' / 'rules.json').read_text())
         bad = [x.get('team_rule_id') for x in rules if isinstance(x.get('logic'), dict) and x['logic'].get('coverage') is True]
         self.assertEqual(bad, [])
+    def test_negative_change_requires_recorded_failed_measure(self):
+        from navigator.changes import evaluate_changes
+        case = {'test_id': 'T5', 'title': 'Failed rent-control ballot',
+                'type': 'negative', 'rule_ids': ['MA-RENT-P1'], 'as_of': '2026-10-01'}
+        result = evaluate_changes([], [], [case])['T5']
+        self.assertEqual(result['status'], 'incomplete')
+        self.assertEqual(result['missing_rule_ids'], ['MA-RENT-P1'])
+        self.assertNotIn('gescheitert/ohne Rechtswirkung', result['notes'])
+        failed = {'team_rule_id': 'MA-RENT-P1', 'jurisdiction': 'MA',
+                  'level': 'state', 'status': 'failed',
+                  'logic': {'coverage': {'fact': 'state', 'op': 'eq', 'value': 'MA'}}}
+        from unittest.mock import patch
+        with patch('navigator.changes.resolve_address', return_value={'status': 'matched', 'facts': {'state': 'MA'}}):
+            result = evaluate_changes([failed], [{'address_id': 'ma-test'}], [case])['T5']
+        self.assertEqual(result['status'], 'correctly_empty')
+        self.assertEqual(result['missing_rule_ids'], [])
+        self.assertEqual(result['affected_address_ids'], [])
     def test_changes_unresolved_never_affected(self):
         from navigator.changes import evaluate_changes
         from navigator.geography import load_addresses
