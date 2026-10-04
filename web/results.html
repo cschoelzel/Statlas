@@ -11,7 +11,7 @@
   <style>
     :root { --ink:#232323; --muted:#667085; --line:#e5e5e5; --divider:#edf0f4; --accent:#e31b36; --soft:#f6f6f6; --font:"Plus Jakarta Sans",system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif; }
     * { box-sizing:border-box; }
-    body { margin:0; background:#fff; color:var(--ink); font:14px/1.5 var(--font); -webkit-font-smoothing:antialiased; }
+    body { margin:0; background:#fff; color:var(--ink); font:16px/1.6 var(--font); -webkit-font-smoothing:antialiased; }
     button,input { font:inherit; } button,a,input { -webkit-tap-highlight-color:transparent; }
     a { color:inherit; } button { cursor:pointer; } button:focus-visible,a:focus-visible,summary:focus-visible { outline:3px solid var(--accent); outline-offset:4px; }
     .topbar { height:76px; border-bottom:1px solid var(--line); display:flex; align-items:center; justify-content:space-between; padding:0 max(32px,calc((100vw - 1120px)/2)); gap:24px; }
@@ -21,22 +21,25 @@
     .nav-back:hover { border-color:var(--muted); } #lang-toggle { display:flex; gap:5px; } #lang-toggle button { background:white; border:0; border-radius:20px; padding:7px 9px; font-size:12px; font-weight:700; }
     .container { max-width:1120px; margin:0 auto; padding:40px 32px 64px; }
     header { display:flex; justify-content:space-between; align-items:flex-start; gap:24px; margin-bottom:8px; }
-    h1 { font-size:28px; line-height:1.2; font-weight:800; letter-spacing:-.02em; margin:0 0 4px; } #subtitle { color:var(--muted); font-size:14px; }
+    h1 { font-size:34px; line-height:1.15; font-weight:800; letter-spacing:-.02em; margin:0 0 6px; } #subtitle { color:var(--muted); font-size:16px; }
     #as-of-badge { white-space:nowrap; font-size:13px; font-weight:600; color:var(--muted); background:#fff; border:1px solid var(--line); border-radius:9999px; padding:8px 14px; margin-top:20px; }
     .property-overview { display:grid; grid-template-columns:1.05fr 1fr; gap:32px; margin:0; padding:32px 0; border-bottom:1px solid var(--divider); }
-    .property-panel { padding:0; } .property-panel h2,.section-title,.rules-heading { font-size:20px; letter-spacing:-.02em; font-weight:800; margin:0 0 4px; }
+    .property-panel { padding:0; } .property-panel h2,.section-title,.rules-heading { font-size:26px; letter-spacing:-.02em; font-weight:800; margin:0 0 6px; color:#0f172a; }
     .meta-grid { display:grid; grid-template-columns:repeat(3,1fr); gap:20px; margin-top:20px; }
     .meta-label { color:var(--muted); font-size:13px; margin-bottom:2px; } .meta-value { font-size:17px; font-weight:700; letter-spacing:-.01em; word-break:break-word; }
     .map-panel { min-width:0; } .map-frame { height:320px; border-radius:12px; background:var(--soft); overflow:hidden; border:1px solid var(--line); }
     .map-frame iframe { width:100%; height:100%; border:0; } .map-note { display:flex; justify-content:space-between; align-items:flex-start; gap:18px; color:var(--muted); font-size:12px; margin:10px 3px 0; } .map-note a { white-space:nowrap; color:var(--ink); font-weight:600; } .map-empty { height:100%; display:grid; place-content:center; padding:32px; text-align:center; color:var(--muted); }
-    .rule-section { border:0; padding-top:28px; } .section-header { display:flex; flex-direction:column; gap:4px; margin-bottom:6px; } .section-description { color:var(--muted); font-size:14px; line-height:1.4; margin:0; }
-    .rule-topic { margin:0; padding:26px 0; border-bottom:1px solid var(--divider); scroll-margin-top:90px; } .topic-heading { font-size:13px; font-weight:800; text-transform:uppercase; letter-spacing:.04em; color:var(--muted); line-height:1.4; margin:0 0 6px; } #rules-overview { scroll-margin-top:28px; }
-    .fact-grid { display:flex; flex-direction:column; }
-    .fact-card { border:0; border-bottom:1px solid var(--divider); border-radius:0; padding:16px 0; background:transparent; display:flex; flex-direction:column; align-items:flex-start; gap:4px; }
+    .detail-tabs { display:flex; align-items:center; gap:0; margin:18px 0 6px; overflow-x:auto; border-bottom:1px solid #e6e9ef; position:sticky; top:0; background:rgba(255,255,255,.96); backdrop-filter:blur(6px); z-index:5; scrollbar-width:none; }
+    .detail-tabs::-webkit-scrollbar { display:none; } .detail-tabs a { flex:0 0 auto; min-height:48px; display:inline-flex; align-items:center; padding:0 16px; border-bottom:2px solid transparent; text-decoration:none; color:#667085; font-size:14px; font-weight:750; white-space:nowrap; }
+    .detail-tabs a:hover { color:#0758f7; } .detail-tabs a:first-child { color:#0758f7; border-bottom-color:#0758f7; }
+    .rule-section { border:0; padding-top:28px; } .section-header { display:flex; flex-direction:column; gap:4px; margin-bottom:6px; } .section-description { color:var(--muted); font-size:16px; line-height:1.5; margin:0; }
+    .rule-topic { margin:0; padding:34px 0; border-bottom:1px solid var(--divider); scroll-margin-top:70px; } .topic-heading { font-size:22px; font-weight:800; letter-spacing:-.02em; color:#0f172a; line-height:1.3; margin:0 0 4px; } #rules-overview { scroll-margin-top:28px; }
+    .fact-grid { display:flex; flex-direction:column; gap:4px; }
+    .fact-card { border:0; border-bottom:1px solid var(--divider); border-radius:0; padding:22px 0; background:transparent; display:flex; flex-direction:column; align-items:flex-start; gap:6px; }
     .fact-grid .fact-card:last-child { border-bottom:0; }
-    .fact-value { font-size:22px; line-height:1.2; font-weight:800; letter-spacing:-.02em; margin:0; }
+    .fact-value { font-size:30px; line-height:1.15; font-weight:800; letter-spacing:-.02em; margin:0; }
     .fact-card.is-applies .fact-value { color:var(--accent); }
-    .fact-label { font-size:14px; font-weight:600; }
+    .fact-label { font-size:16px; font-weight:600; }
     .fact-status { display:inline-flex; align-items:center; border:1px solid var(--line); border-radius:9999px; padding:5px 12px; font-size:13px; font-weight:600; color:var(--muted); margin-top:6px; background:#fff; }
     .fact-status.is-applies { color:var(--accent); border-color:var(--accent); font-weight:700; }
     .fact-details { margin-top:10px; } .fact-details>summary { font-size:13px; font-weight:600; color:var(--muted); cursor:pointer; } .fact-details-body { margin-top:4px; }
@@ -53,7 +56,7 @@
     .questions-list { list-style:none; margin:0; padding:0; }
     .questions-list li { background:transparent; border-bottom:1px solid var(--divider); border-radius:0; padding:12px 0; font-size:14px; color:var(--ink); }
     .questions-list li:last-child { border-bottom:0; }
-    .rule-title { font-size:15px; line-height:1.45; font-weight:700; margin:0 0 6px; } .rule-category { font-size:12px; color:var(--muted); } .rule-req { color:var(--ink); font-size:14px; line-height:1.6; } .rule-value { font-size:15px; font-weight:700; margin-top:12px; } .rule-location { font-size:12px; color:var(--muted); margin-top:5px; }
+    .rule-title { font-size:17px; line-height:1.45; font-weight:700; margin:0 0 6px; } .rule-category { font-size:13px; color:var(--muted); } .rule-req { color:var(--ink); font-size:16px; line-height:1.65; } .rule-value { font-size:16px; font-weight:700; margin-top:12px; } .rule-location { font-size:13px; color:var(--muted); margin-top:5px; }
     .rule-expl { font-size:13px; color:var(--muted); margin:6px 0; } .fact-confidence { font-size:12px; color:var(--muted); margin:6px 0; }
     .badge { display:inline-block; font-size:12px; line-height:1.5; font-weight:700; border-radius:9999px; padding:5px 12px; white-space:nowrap; } .badge-applies { color:var(--accent); background:#fff; border:1px solid var(--accent); } .badge-unknown,.badge-future,.badge-other,.badge-superseded { background:var(--soft); color:var(--muted); }
     .questions-box { background:#fbfcfe; border:1px dashed #d8dde6; padding:12px 14px; border-radius:12px; color:var(--ink); font-size:13px; margin-top:12px; } .questions-box strong { display:block; margin-bottom:4px; }
@@ -80,12 +83,13 @@
     <div id="loading-state" class="loading" role="status" data-i18n="loadingReport">Finding the rules for this address…</div>
     <div id="error-state" class="error" style="display:none" role="alert"></div>
     <div id="content-state" style="display:none">
-      <section class="property-overview">
+      <section class="property-overview" id="overview">
         <div class="property-panel"><h2 data-i18n="propertyDetails">A closer look at your property</h2><div class="meta-grid" id="meta-grid"></div></div>
         <div class="map-panel"><div class="map-frame" id="property-map"></div><div class="map-note"><span id="map-note"></span><a id="map-link" target="_blank" rel="noopener" style="display:none" data-i18n="openMap">Open map ↗</a></div></div>
       </section>
       <section class="rule-section"><div class="section-header"><h2 class="rules-heading" data-i18n="rulesHeading">The rules that matter here</h2><p class="section-description" data-i18n="rulesIntro"></p></div>
       
+      <nav class="detail-tabs" id="quicklinks" aria-label="Themen"></nav>
       <div id="conflict-banner" style="display:none"></div>
       <div id="rules-overview"></div></section>
       <section id="questions-section" style="display:none"><h2 class="section-title" data-i18n="openQ">Open questions for your property</h2><ul class="questions-list" id="questions-tbody"></ul></section>
@@ -284,6 +288,22 @@
         box.innerHTML = '<div class="no-rules">' + escapeHtml(typeof t === 'function' ? t('emptyFacts') : '—') + '</div>';
         return;
       }
+      try {
+        var ql = document.getElementById('quicklinks');
+        if (ql) {
+          var qVisible = (currentData.questions || []).length > 0;
+          ql.innerHTML = '<a href="#overview">' + escapeHtml(t('propertyDetails')) + '</a>' + visible.map(function(g){ return '<a href="#theme-' + g.id + '">' + escapeHtml(t(g.key)) + '</a>'; }).join('') + (qVisible ? '<a href="#questions-section">' + escapeHtml(t('openQ')) + '</a>' : '');
+          ql.querySelectorAll('a').forEach(function(a){
+            a.addEventListener('click', function(e){
+              e.preventDefault();
+              var el = document.getElementById(a.getAttribute('href').slice(1));
+              if (el) { el.scrollIntoView({behavior:'smooth', block:'start'}); history.replaceState(null,'','#'+a.getAttribute('href').slice(1)); }
+              ql.querySelectorAll('a').forEach(function(x){ x.style.color=''; x.style.borderBottomColor=''; });
+              a.style.color = '#0758f7'; a.style.borderBottomColor = '#0758f7';
+            });
+          });
+        }
+      } catch(qlErr) {}
       function ruleExpl(x){return "<p class='rule-expl'>"+escapeHtml(x)+"</p>"}
     function ruleConf(r,rev){return "<div class='fact-confidence'>Vertrauen: "+escapeHtml(r||"-")+(rev?" / Review noetig":" / Quelle geprueft")+"</div>"}
     const detailItem = d => {
