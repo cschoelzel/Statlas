@@ -2,6 +2,12 @@
   "complete_for_checked_deliverables": false,
   "scope": "T1-T6 completeness, official score run evidence, three distinct local video containers",
   "checks": {
+    "rules_export_current": {
+      "pass": false,
+      "source_error": null,
+      "export_error": null,
+      "note": "Exact rule equality is necessary but does not prove lookup or change regeneration."
+    },
     "T1": {
       "pass": false,
       "status": "incomplete",
@@ -39,11 +45,12 @@
     },
     "T5": {
       "pass": false,
-      "status": "correctly_empty",
+      "status": "incomplete",
       "missing_rule_ids": [
         "MA-RENT-P1"
       ],
       "gaps": [
+        "status_not_evaluated",
         "missing_rule_ids_not_empty"
       ]
     },

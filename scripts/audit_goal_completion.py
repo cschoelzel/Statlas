@@ -29,6 +29,12 @@ def read_json(path):
 
 def audit(root):
     checks = {}
+    source_rules, source_error = read_json(root / 'data/rules.json')
+    exported_rules, export_error = read_json(root / 'output/rules.json')
+    checks['rules_export_current'] = {
+        'pass': not source_error and not export_error and source_rules == exported_rules,
+        'source_error': source_error, 'export_error': export_error,
+        'note': 'Exact rule equality is necessary but does not prove lookup or change regeneration.'}
     changes, error = read_json(root / 'output/changes.json')
     for number in range(1, 7):
         name = f'T{number}'
