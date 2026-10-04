@@ -176,14 +176,14 @@
 
     function selectSample(id) {
       document.getElementById('q').value = id;
-      document.querySelector('form').submit();
+      document.querySelector('form').requestSubmit();
     }
   </script>
 <script>
 var I18N = {
 "en": {
 "subtitle": "Deterministic lookup of applicable rental housing rules.",
-"searchPh": "Enter address or ID (e.g. A0001, Hoboken, Boston)...",
+"searchPh": "Select a listed address or enter its ID (e.g. A0001)...",
 "submitBtn": "Run evaluation",
 "samples": "Examples:",
 "howTitle": "How the evaluation works:",

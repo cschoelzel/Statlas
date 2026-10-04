@@ -110,7 +110,7 @@
     const urlParams = new URLSearchParams(window.location.search);
     let query = urlParams.get('q') || 'A0001';
     let asOf = urlParams.get('as_of') || '2026-10-01';
-    let addressId = query.split(' ')[0].trim();
+    let addressId = query.trim().split(/\s+/)[0];
     fetch('/api/lookup', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
