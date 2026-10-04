@@ -41,7 +41,12 @@ def source_coverage():
         expected_hash = metadata.get('text_sha256')
         text_verified = bool(expected_hash and text_path.is_file()
                              and hashlib.sha256(text_path.read_bytes()).hexdigest() == expected_hash)
-        supplemental.append({'source_doc_id': metadata.get('doc_id') or stem,
+        original_path = next((meta_path.parent / (stem + suffix) for suffix in ('.html', '.pdf')
+                              if (meta_path.parent / (stem + suffix)).is_file()), None)
+        raw_verified = bool(metadata.get('raw_sha256') and original_path
+                            and hashlib.sha256(original_path.read_bytes()).hexdigest() == metadata['raw_sha256'])
+        supplemental.append({'raw_sha256_verified': raw_verified,
+                             'source_doc_id': metadata.get('doc_id') or stem,
                              'source_url': metadata.get('source_url') or metadata.get('url'),
                              'text_sha256_verified': text_verified,
                              'capture_quartet_complete': bool((metadata.get('source_url') or metadata.get('url'))
