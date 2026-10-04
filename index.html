@@ -20,12 +20,12 @@ main{min-height:calc(100dvh - 96px);display:grid;place-items:center;padding:24px
 </head>
 <body>
 <header>
-<a class="brand" href="/" aria-label="statlas">statlas</a>
+<a class="brand" href="./" aria-label="statlas">statlas</a>
 <nav class="languages" aria-label="Sprache"><button type="button" data-lang="de">DE</button><button type="button" data-lang="en">EN</button><button type="button" data-lang="es">ES</button></nav>
 </header>
 <main>
 <section class="search-container" aria-label="Immobiliensuche">
-<form class="search-bar" action="/results" method="get" id="search-form">
+<form class="search-bar" action="results.html" method="get" id="search-form">
 <div class="address-field"><label class="field-label" for="q" id="address-label">Wo liegt die Immobilie?</label><input id="q" type="text" placeholder="Adresse oder Stadt suchen" autocomplete="off" role="combobox" aria-autocomplete="list" aria-controls="suggestions-list" aria-expanded="false" aria-describedby="search-message" required><input type="hidden" name="q" id="selected-id"></div>
 <div class="date-field"><button type="button" class="date-trigger" id="date-trigger" aria-haspopup="dialog" aria-expanded="false" aria-controls="calendar"><span class="field-label" id="date-label">Regeln zum</span><span class="date-value"><span id="date-display">01.10.2026</span><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><rect x="4" y="5" width="16" height="15" rx="3" stroke="currentColor" stroke-width="1.5"/><path d="M8 3v4m8-4v4M4 10h16" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg></span></button><input type="hidden" name="as_of" id="as_of" value="2026-10-01"><div class="calendar" id="calendar" role="dialog" aria-labelledby="calendar-title" hidden><div class="calendar-header"><button type="button" class="month-nav" id="month-prev">‹</button><div class="month-selectors"><select id="calendar-month"></select><input type="number" id="calendar-year" min="1900" max="2100" value="2026"></div><button type="button" class="month-nav" id="month-next">›</button></div><h2 id="calendar-title" class="sr-only"></h2><div class="weekdays" id="calendar-weekdays" aria-hidden="true"></div><div class="calendar-days" id="calendar-days"></div><div class="calendar-footer"><button type="button" id="calendar-today">Heute</button><span id="calendar-hint">Stichtag auswählen</span></div></div></div>
 <button class="submit" type="submit" aria-label="Suchen"><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5" stroke="currentColor" stroke-width="2.2"/><path d="m16 16 5 5" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/></svg></button>
