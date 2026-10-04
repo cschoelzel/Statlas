@@ -87,3 +87,19 @@ Teststand: 92 passed, 218 Subtests, 4 failed — alle 4 Demo-Track (S8 index.htm
 
 - D001-Auslegung geschlossen (beibehalten mit Begruendung): Der Korpustext (8.000 Zeichen) endet beim Pass-to-print-Beschluss vom 18.11.2025 und enthaelt kein Adoption-Votum. Fuer in_force sprechen: vergebene Verordnungsnummer 7.992-N.S. (wird bei Verabschiedung erteilt), Rats-Item vom 02.12.2025, Stichtag 01.10.2026 elf Monate spaeter; evidence_gap effective_date bleibt markiert. Ein Flip auf pending waere gleich unbelegt und schlechter (falscher temporal_status fuer alle Berkeley-Adressen). Status: kein Fehler, offene Kommissionierung der Vollfassung als Backlog.
 - A0384-Verdacht geprueft (Live-Census, Benchmark Public_AR_Current): '21 GUERRERO ST, San Francisco' liefert 0 Treffer — auch mit ZIP 94103 und 94110. Echte Census-Luecke (Hausnummer 21 liegt ausserhalb interpolierter Adressbereiche), kein Engine-Fehler. unresolved mit Geo-Rueckfrage bleibt korrekt.
+
+## Iteration 6 (Goal-Runde, 2026-10-04, 4 unabhaengige Pruefer)
+
+Vier read-only Pruefer (keine Produktionsaenderung, keine Mocks): Quellen/Recht (P1+P3+P7), Logik (P4+P6+P8), Geo/Fakten (P2+P5+P9), Changes/Demo-Abgrenzung (P10). Alle Engine-Gates bestanden:
+- P1: verify_quotes 177/177. P3: D022 effective+operative 2026-01-01 (Kippung 31.12./01.01. verifiziert), D041-r005 in_force. P7: web/results.html rendert trace/why_needed/acceptable_evidence. Manifest-SHA d33244a8.
+- P4: 0 untranslated in data/rules.json (177 Regeln mit ausfuehrbarem logic). P6: 24.572/24.572 unknowns mit Frage (0 ohne), Fragen mit why_needed+evidence. P8: 0 applies bei missing_facts, Adversarial-Proben gruen.
+- P2: 492 matched adressrein, 8 unresolved mit je 1 Jurisdiktionsfrage. P5: CSV-Abgleich 0 Mismatches, year_built nie Occupancy. P9: Fingerprint-Recompute match True, 500/500 Adressen mit Entscheidungen.
+- P10: T1/T2 ehrlich incomplete (CA-ALG-01, HOB-ALG-01, JC-ALG-01 fehlen), T3 139 hypothetisch, T4 105 pending, T5 correctly_empty. Suite: 97 passed + 218 Subtests, 4 failed — alle 4 Demo-Track (S8/S9/S11, parallele Demo-Session, fremde Dateien web/*, tests/test_temporal_labels.py, reports/current_500_* nicht angefasst). Engine-Gates intakt, Demo-Freigabe offen.
+
+## Iteration 7 (Goal-Runde, 2026-10-04, 3 frische Re-Verifizierer)
+
+Read-only, keine Produktionsaenderung, keine Mocks. Anlass: Re-Verifikation nach Datumfixes (D022 effective/operative 2026-01-01, D041-r005 in_force).
+- Untranslated/Unknowns: 177 Regeln, 367 distinkte Logik-Fakten; logic.coverage None 0, logic.exemptions None 0, String-Varianten 0; 24.970 Decisions (unknown 24.572 / pending 259 / not_yet_effective 139); fraglose Unknowns 0 (unknown_noq patterns 0, unabhaengige Nachzaehlung 0/24.572). Stichproben A0001/D022-r001 + A0001/D023-r001 mit why_needed/acceptable_evidence (generischer Fallback-Text als qualitative Notiz, kein Zaehlfehler).
+- Changes: T1 incomplete (missing CA-ALG-01), T2 incomplete (missing HOB-ALG-01, JC-ALG-01), T3 evaluated_with_geographic_gaps (affected 0, hypothetisch 139, alle 139 NJ), T4 (affected 105, alle 105 MA, unresolved 8 = exakt die 8 Geo-unresolved), T5 correctly_empty. D022-Probe an 3 CA-Adressen: 2025-12-31 not_yet_effective, 2026-01-01 in_force (unknown nur wegen fehlender Objektfakten).
+- Engine-Regression: test_fact_vocabulary 8+218 Subtests, test_redteam 6, test_regression_audit 4, test_engine 49 — alle gruen. Nebenbefund: evaluate_changes erwartet address_id-Schema (load_addresses), addresses.json mit id-Schema crasht mit KeyError (Robustheit, kein Blocker).
+- Offene Punkte ausserhalb Engine: T1/T2-Quellbeschaffung (Nutzerentscheidung Kosten/Aufwand), Demo-Track-Failures der parallelen Session (fremde Dateien nicht angefasst).
