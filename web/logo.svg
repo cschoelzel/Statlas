@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 210 72" role="img" aria-label="statlas">
+  <path d="M14 26 C 58 8, 128 6, 172 22" fill="none" stroke="#e31b36" stroke-width="4" stroke-linecap="round"/>
+  <circle cx="176" cy="23" r="5" fill="#e31b36"/>
+  <text x="12" y="60" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="40" font-weight="700" letter-spacing="-2" fill="#222">statlas</text>
+</svg>

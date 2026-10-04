@@ -3,6 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
   <title>statlas — Grundstücksregeln</title>
   <style>
     :root { --ink:#252525; --muted:#686868; --line:#e5e5e5; --accent:#e31b36; --soft:#f6f6f6; }
@@ -12,6 +13,7 @@
     a { color:inherit; } button { cursor:pointer; } button:focus-visible,a:focus-visible,summary:focus-visible { outline:3px solid var(--accent); outline-offset:4px; }
     .topbar { height:88px; border-bottom:1px solid var(--line); display:flex; align-items:center; justify-content:space-between; padding:0 max(32px,calc((100vw - 1240px)/2)); gap:24px; }
     .brand { color:var(--accent); display:flex; align-items:center; gap:10px; font-size:20px; font-weight:750; letter-spacing:-.7px; text-decoration:none; white-space:nowrap; }
+    .brand img { display:block; height:30px; width:auto; }
     .brand-mark { color:var(--accent); font-size:28px; line-height:1; }
     .nav-back { border:1px solid var(--line); border-radius:30px; padding:11px 20px; text-decoration:none; font-weight:600; box-shadow:0 2px 7px #00000006; }
     .nav-back:hover { border-color:#b9b3af; } #lang-toggle { display:flex; gap:5px; } #lang-toggle button { background:white; border:0; border-radius:20px; padding:7px 9px; font-size:11px; font-weight:650; }
@@ -60,7 +62,7 @@
 </head>
 <body>
   <nav class="topbar" aria-label="Main navigation">
-    <a href="./" class="brand">statlas</a>
+    <a href="./" class="brand" aria-label="statlas"><img src="logo.svg" alt="statlas" height="30"></a>
     <a href="./" class="nav-back"><span aria-hidden="true">← </span><span data-i18n="back">Back to search</span></a>
     <div id="lang-toggle"><button type="button" data-lang-btn="en" aria-label="English">EN</button><button type="button" data-lang-btn="de" aria-label="Deutsch">DE</button><button type="button" data-lang-btn="es" aria-label="Español">ES</button></div>
   </nav>
@@ -81,7 +83,7 @@
       <div id="conflict-banner" style="display:none"></div>
       <div id="rules-overview"></div></section>
       <section id="questions-section" style="display:none"><h2 class="section-title" data-i18n="openQ">Open questions for your property</h2><ul class="questions-list" id="questions-tbody"></ul></section>
-      <div style="font-size:11px;color:var(--muted);margin-top:26px" data-i18n="legalNoteRes">Legal texts shown in original (EN) only.</div><div class="disclaimer" id="disclaimer-box"></div>
+      <div style="font-size:11px;color:var(--muted);margin-top:26px" data-i18n="legalNoteRes">Legal texts shown in original (EN) only.</div><details class="audit-trail" style="margin-top:18px;font-size:12px;color:#555"><summary>Change-Tracking (Audit-Trail)</summary><p>T1 bis T5 mit der deterministischen Engine ausgewertet, Stichtag 2026-10-01. T6 (Hour-16) ausstehend. Datensaetze: output/changes.json und output/manifest.json im Repo.</p></details><div class="disclaimer" id="disclaimer-box"></div>
     </div>
   </main>
   <script>
@@ -276,12 +278,16 @@
         box.innerHTML = '<div class="no-rules">' + escapeHtml(typeof t === 'function' ? t('emptyFacts') : '—') + '</div>';
         return;
       }
-      const detailItem = d => {
+      function ruleExpl(x){return "<p class='rule-expl'>"+escapeHtml(x)+"</p>"}
+    function ruleConf(r,rev){return "<div class='fact-confidence'>Vertrauen: "+escapeHtml(r||"-")+(rev?" / Review noetig":" / Quelle geprueft")+"</div>"}
+    const detailItem = d => {
         const rule = d.rule || {};
         const req = String(rule.requirement || '—');
         const short = req.length > 230 ? req.slice(0, 227).replace(/\s+\S*$/, '') + '…' : req;
+        var explHtml = d.explanation ? ruleExpl(d.explanation) : "";
+        var confHtml = ruleConf(d.result, d.review_required);
         return '<div style="margin-bottom:14px"><div class="rule-title">' + escapeHtml(rule.title || '—') + '</div>' +
-          '<div class="rule-req">' + escapeHtml(short) + '</div>' +
+          confHtml + explHtml + '<div class="rule-req">' + escapeHtml(short) + '</div>' +
           (req.length > 230 ? '<details class="requirement-details"><summary>' + escapeHtml(t('fullRequirement')) + '</summary><p>' + escapeHtml(req) + '</p></details>' : '') +
           (d.conflict_flag ? '<div class="review-note">' + escapeHtml(t('conflictNote')) + '</div>' : '') +
           '<details class="rule-source"><summary>' + escapeHtml(t('sourceEvidence')) + '</summary><div class="rule-source-body">' + sourceBlock(d) + '</div></details></div>';
