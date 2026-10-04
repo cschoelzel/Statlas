@@ -33,7 +33,19 @@ def load_rules():
 def source_coverage():
     raw = read_json(ROOT / 'data/sources/index.json', [])
     records = raw.get('sources', []) if isinstance(raw, dict) else raw
-    return {'inventory': len(records), 'statuses': dict(Counter(r.get('status','unknown') for r in records)),
+    supplemental = []
+    for meta_path in sorted((ROOT / 'data/sources_new').glob('*.meta.json')):
+        metadata = read_json(meta_path, {})
+        stem = meta_path.name.removesuffix('.meta.json')
+        supplemental.append({'metadata': {key: metadata[key] for key in
+                             ('doc_id', 'source_url', 'retrieved_at', 'raw_sha256', 'text_sha256')
+                             if key in metadata},
+                             'metadata_file': str(meta_path.relative_to(ROOT)),
+                             'text_available': (meta_path.parent / (stem + '.txt')).is_file(),
+                             'rule_import_status': 'not_verified'})
+    return {'supplemental_sources': supplemental,
+            'supplemental_inventory': len(supplemental),
+            'inventory': len(records), 'statuses': dict(Counter(r.get('status','unknown') for r in records)),
             'review_status': 'External qualified legal review remains open.',
             'sources': records}
 
