@@ -22649,7 +22649,9 @@
                   "coverage": null,
                   "temporal_status": "not_yet_effective"
                 },
-                "review_required": [],
+                "review_required": [
+                  "Verify the address jurisdiction using authoritative geocoding before evaluating this rule."
+                ],
                 "computed_value": null,
                 "trace": [
                   {
@@ -22687,7 +22689,9 @@
                   "coverage": null,
                   "temporal_status": "not_yet_effective"
                 },
-                "review_required": [],
+                "review_required": [
+                  "Verify the address jurisdiction using authoritative geocoding before evaluating this rule."
+                ],
                 "computed_value": null,
                 "trace": [
                   {
@@ -26095,7 +26099,9 @@
                   "coverage": null,
                   "temporal_status": "not_yet_effective"
                 },
-                "review_required": [],
+                "review_required": [
+                  "Verify the address jurisdiction using authoritative geocoding before evaluating this rule."
+                ],
                 "computed_value": null,
                 "trace": [
                   {
@@ -26133,7 +26139,9 @@
                   "coverage": null,
                   "temporal_status": "not_yet_effective"
                 },
-                "review_required": [],
+                "review_required": [
+                  "Verify the address jurisdiction using authoritative geocoding before evaluating this rule."
+                ],
                 "computed_value": null,
                 "trace": [
                   {
@@ -41013,7 +41021,9 @@
                   "coverage": null,
                   "temporal_status": "not_yet_effective"
                 },
-                "review_required": [],
+                "review_required": [
+                  "Verify the address jurisdiction using authoritative geocoding before evaluating this rule."
+                ],
                 "computed_value": null,
                 "trace": [
                   {
@@ -41051,7 +41061,9 @@
                   "coverage": null,
                   "temporal_status": "not_yet_effective"
                 },
-                "review_required": [],
+                "review_required": [
+                  "Verify the address jurisdiction using authoritative geocoding before evaluating this rule."
+                ],
                 "computed_value": null,
                 "trace": [
                   {
@@ -46825,7 +46837,9 @@
                   "coverage": null,
                   "temporal_status": "not_yet_effective"
                 },
-                "review_required": [],
+                "review_required": [
+                  "Verify the address jurisdiction using authoritative geocoding before evaluating this rule."
+                ],
                 "computed_value": null,
                 "trace": [
                   {
@@ -46863,7 +46877,9 @@
                   "coverage": null,
                   "temporal_status": "not_yet_effective"
                 },
-                "review_required": [],
+                "review_required": [
+                  "Verify the address jurisdiction using authoritative geocoding before evaluating this rule."
+                ],
                 "computed_value": null,
                 "trace": [
                   {
@@ -47567,7 +47583,9 @@
                   "coverage": null,
                   "temporal_status": "not_yet_effective"
                 },
-                "review_required": [],
+                "review_required": [
+                  "Verify the address jurisdiction using authoritative geocoding before evaluating this rule."
+                ],
                 "computed_value": null,
                 "trace": [
                   {
@@ -47605,7 +47623,9 @@
                   "coverage": null,
                   "temporal_status": "not_yet_effective"
                 },
-                "review_required": [],
+                "review_required": [
+                  "Verify the address jurisdiction using authoritative geocoding before evaluating this rule."
+                ],
                 "computed_value": null,
                 "trace": [
                   {
@@ -49467,7 +49487,9 @@
                   "coverage": null,
                   "temporal_status": "not_yet_effective"
                 },
-                "review_required": [],
+                "review_required": [
+                  "Verify the address jurisdiction using authoritative geocoding before evaluating this rule."
+                ],
                 "computed_value": null,
                 "trace": [
                   {
@@ -49505,7 +49527,9 @@
                   "coverage": null,
                   "temporal_status": "not_yet_effective"
                 },
-                "review_required": [],
+                "review_required": [
+                  "Verify the address jurisdiction using authoritative geocoding before evaluating this rule."
+                ],
                 "computed_value": null,
                 "trace": [
                   {
@@ -49887,7 +49911,9 @@
                   "coverage": null,
                   "temporal_status": "not_yet_effective"
                 },
-                "review_required": [],
+                "review_required": [
+                  "Verify the address jurisdiction using authoritative geocoding before evaluating this rule."
+                ],
                 "computed_value": null,
                 "trace": [
                   {
@@ -49925,7 +49951,9 @@
                   "coverage": null,
                   "temporal_status": "not_yet_effective"
                 },
-                "review_required": [],
+                "review_required": [
+                  "Verify the address jurisdiction using authoritative geocoding before evaluating this rule."
+                ],
                 "computed_value": null,
                 "trace": [
                   {
@@ -50307,7 +50335,9 @@
                   "coverage": null,
                   "temporal_status": "not_yet_effective"
                 },
-                "review_required": [],
+                "review_required": [
+                  "Verify the address jurisdiction using authoritative geocoding before evaluating this rule."
+                ],
                 "computed_value": null,
                 "trace": [
                   {
@@ -50345,7 +50375,9 @@
                   "coverage": null,
                   "temporal_status": "not_yet_effective"
                 },
-                "review_required": [],
+                "review_required": [
+                  "Verify the address jurisdiction using authoritative geocoding before evaluating this rule."
+                ],
                 "computed_value": null,
                 "trace": [
                   {
@@ -66383,7 +66415,8 @@
                   "temporal_status": "pending"
                 },
                 "review_required": [
-                  "Unresolved legal evidence requires source review: unresolved_legal_evidence_D045_r001"
+                  "Unresolved legal evidence requires source review: unresolved_legal_evidence_D045_r001",
+                  "Verify the address jurisdiction using authoritative geocoding before evaluating this rule."
                 ],
                 "computed_value": null,
                 "trace": [
@@ -66429,7 +66462,8 @@
                   "temporal_status": "pending"
                 },
                 "review_required": [
-                  "Unresolved legal evidence requires source review: unresolved_legal_evidence_D046_r001"
+                  "Unresolved legal evidence requires source review: unresolved_legal_evidence_D046_r001",
+                  "Verify the address jurisdiction using authoritative geocoding before evaluating this rule."
                 ],
                 "computed_value": null,
                 "trace": [
@@ -67055,7 +67089,8 @@
                   "temporal_status": "pending"
                 },
                 "review_required": [
-                  "Unresolved legal evidence requires source review: unresolved_legal_evidence_D045_r001"
+                  "Unresolved legal evidence requires source review: unresolved_legal_evidence_D045_r001",
+                  "Verify the address jurisdiction using authoritative geocoding before evaluating this rule."
                 ],
                 "computed_value": null,
                 "trace": [
@@ -67101,7 +67136,8 @@
                   "temporal_status": "pending"
                 },
                 "review_required": [
-                  "Unresolved legal evidence requires source review: unresolved_legal_evidence_D046_r001"
+                  "Unresolved legal evidence requires source review: unresolved_legal_evidence_D046_r001",
+                  "Verify the address jurisdiction using authoritative geocoding before evaluating this rule."
                 ],
                 "computed_value": null,
                 "trace": [
@@ -72222,7 +72258,8 @@
                   "temporal_status": "pending"
                 },
                 "review_required": [
-                  "Unresolved legal evidence requires source review: unresolved_legal_evidence_D045_r001"
+                  "Unresolved legal evidence requires source review: unresolved_legal_evidence_D045_r001",
+                  "Verify the address jurisdiction using authoritative geocoding before evaluating this rule."
                 ],
                 "computed_value": null,
                 "trace": [
@@ -72268,7 +72305,8 @@
                   "temporal_status": "pending"
                 },
                 "review_required": [
-                  "Unresolved legal evidence requires source review: unresolved_legal_evidence_D046_r001"
+                  "Unresolved legal evidence requires source review: unresolved_legal_evidence_D046_r001",
+                  "Verify the address jurisdiction using authoritative geocoding before evaluating this rule."
                 ],
                 "computed_value": null,
                 "trace": [
@@ -73789,7 +73827,8 @@
                   "temporal_status": "pending"
                 },
                 "review_required": [
-                  "Unresolved legal evidence requires source review: unresolved_legal_evidence_D045_r001"
+                  "Unresolved legal evidence requires source review: unresolved_legal_evidence_D045_r001",
+                  "Verify the address jurisdiction using authoritative geocoding before evaluating this rule."
                 ],
                 "computed_value": null,
                 "trace": [
@@ -73835,7 +73874,8 @@
                   "temporal_status": "pending"
                 },
                 "review_required": [
-                  "Unresolved legal evidence requires source review: unresolved_legal_evidence_D046_r001"
+                  "Unresolved legal evidence requires source review: unresolved_legal_evidence_D046_r001",
+                  "Verify the address jurisdiction using authoritative geocoding before evaluating this rule."
                 ],
                 "computed_value": null,
                 "trace": [
@@ -73948,7 +73988,8 @@
                   "temporal_status": "pending"
                 },
                 "review_required": [
-                  "Unresolved legal evidence requires source review: unresolved_legal_evidence_D045_r001"
+                  "Unresolved legal evidence requires source review: unresolved_legal_evidence_D045_r001",
+                  "Verify the address jurisdiction using authoritative geocoding before evaluating this rule."
                 ],
                 "computed_value": null,
                 "trace": [
@@ -73994,7 +74035,8 @@
                   "temporal_status": "pending"
                 },
                 "review_required": [
-                  "Unresolved legal evidence requires source review: unresolved_legal_evidence_D046_r001"
+                  "Unresolved legal evidence requires source review: unresolved_legal_evidence_D046_r001",
+                  "Verify the address jurisdiction using authoritative geocoding before evaluating this rule."
                 ],
                 "computed_value": null,
                 "trace": [
@@ -74720,7 +74762,8 @@
                   "temporal_status": "pending"
                 },
                 "review_required": [
-                  "Unresolved legal evidence requires source review: unresolved_legal_evidence_D045_r001"
+                  "Unresolved legal evidence requires source review: unresolved_legal_evidence_D045_r001",
+                  "Verify the address jurisdiction using authoritative geocoding before evaluating this rule."
                 ],
                 "computed_value": null,
                 "trace": [
@@ -74766,7 +74809,8 @@
                   "temporal_status": "pending"
                 },
                 "review_required": [
-                  "Unresolved legal evidence requires source review: unresolved_legal_evidence_D046_r001"
+                  "Unresolved legal evidence requires source review: unresolved_legal_evidence_D046_r001",
+                  "Verify the address jurisdiction using authoritative geocoding before evaluating this rule."
                 ],
                 "computed_value": null,
                 "trace": [
@@ -74857,7 +74901,8 @@
                   "temporal_status": "pending"
                 },
                 "review_required": [
-                  "Unresolved legal evidence requires source review: unresolved_legal_evidence_D045_r001"
+                  "Unresolved legal evidence requires source review: unresolved_legal_evidence_D045_r001",
+                  "Verify the address jurisdiction using authoritative geocoding before evaluating this rule."
                 ],
                 "computed_value": null,
                 "trace": [
@@ -74903,7 +74948,8 @@
                   "temporal_status": "pending"
                 },
                 "review_required": [
-                  "Unresolved legal evidence requires source review: unresolved_legal_evidence_D046_r001"
+                  "Unresolved legal evidence requires source review: unresolved_legal_evidence_D046_r001",
+                  "Verify the address jurisdiction using authoritative geocoding before evaluating this rule."
                 ],
                 "computed_value": null,
                 "trace": [
@@ -74994,7 +75040,8 @@
                   "temporal_status": "pending"
                 },
                 "review_required": [
-                  "Unresolved legal evidence requires source review: unresolved_legal_evidence_D045_r001"
+                  "Unresolved legal evidence requires source review: unresolved_legal_evidence_D045_r001",
+                  "Verify the address jurisdiction using authoritative geocoding before evaluating this rule."
                 ],
                 "computed_value": null,
                 "trace": [
@@ -75040,7 +75087,8 @@
                   "temporal_status": "pending"
                 },
                 "review_required": [
-                  "Unresolved legal evidence requires source review: unresolved_legal_evidence_D046_r001"
+                  "Unresolved legal evidence requires source review: unresolved_legal_evidence_D046_r001",
+                  "Verify the address jurisdiction using authoritative geocoding before evaluating this rule."
                 ],
                 "computed_value": null,
                 "trace": [
