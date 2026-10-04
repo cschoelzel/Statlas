@@ -1,0 +1,602 @@
+{
+  "scope": "Date gaps require individual primary-source review; operative and effective dates are distinct.",
+  "rules_with_effective_date_gap": 72,
+  "rules": [
+    {
+      "team_rule_id": "D001-r001",
+      "effective_date": "2025-11-18",
+      "operative_date": "2025-11-18",
+      "status": "in_force",
+      "temporal_conflict": false,
+      "date_evidence": []
+    },
+    {
+      "team_rule_id": "D006-r011",
+      "effective_date": "2024-11-01",
+      "operative_date": "2024-11-01",
+      "status": "in_force",
+      "temporal_conflict": false,
+      "date_evidence": []
+    },
+    {
+      "team_rule_id": "D022-r001",
+      "effective_date": null,
+      "operative_date": null,
+      "status": "in_force",
+      "temporal_conflict": true,
+      "date_evidence": []
+    },
+    {
+      "team_rule_id": "D023-r001",
+      "effective_date": "2024-04-01",
+      "operative_date": "2024-04-01",
+      "status": "in_force",
+      "temporal_conflict": false,
+      "date_evidence": [
+        {
+          "field": "operative_date",
+          "quoted_span": "This section shall become operative on April 1, 2024",
+          "start_char": 24693,
+          "end_char": 24745
+        },
+        {
+          "field": "enacted_at",
+          "quoted_span": "Amended by Stats. 2025, Ch. 203, Sec. 1.   (AB 1529)   Effective January 1, 2026",
+          "start_char": 24849,
+          "end_char": 24929
+        }
+      ]
+    },
+    {
+      "team_rule_id": "D023-r004",
+      "effective_date": "2024-04-01",
+      "operative_date": "2024-04-01",
+      "status": "in_force",
+      "temporal_conflict": false,
+      "date_evidence": []
+    },
+    {
+      "team_rule_id": "D023-r008",
+      "effective_date": "2024-04-01",
+      "operative_date": "2024-04-01",
+      "status": "in_force",
+      "temporal_conflict": false,
+      "date_evidence": []
+    },
+    {
+      "team_rule_id": "D023-r012",
+      "effective_date": "2024-04-01",
+      "operative_date": "2024-04-01",
+      "status": "in_force",
+      "temporal_conflict": false,
+      "date_evidence": []
+    },
+    {
+      "team_rule_id": "D024-r001",
+      "effective_date": "2024-04-01",
+      "operative_date": "2024-04-01",
+      "status": "in_force",
+      "temporal_conflict": false,
+      "date_evidence": [
+        {
+          "field": "operative_date",
+          "quoted_span": "This section shall become operative on April 1, 2024",
+          "start_char": 15511,
+          "end_char": 15563
+        }
+      ]
+    },
+    {
+      "team_rule_id": "D024-r002",
+      "effective_date": "2024-04-01",
+      "operative_date": "2024-04-01",
+      "status": "in_force",
+      "temporal_conflict": false,
+      "date_evidence": []
+    },
+    {
+      "team_rule_id": "D024-r003",
+      "effective_date": "2024-04-01",
+      "operative_date": "2024-04-01",
+      "status": "in_force",
+      "temporal_conflict": false,
+      "date_evidence": []
+    },
+    {
+      "team_rule_id": "D024-r004",
+      "effective_date": "2024-04-01",
+      "operative_date": "2024-04-01",
+      "status": "in_force",
+      "temporal_conflict": false,
+      "date_evidence": []
+    },
+    {
+      "team_rule_id": "D024-r005",
+      "effective_date": "2024-04-01",
+      "operative_date": "2024-04-01",
+      "status": "in_force",
+      "temporal_conflict": false,
+      "date_evidence": []
+    },
+    {
+      "team_rule_id": "D024-r006",
+      "effective_date": "2024-04-01",
+      "operative_date": "2024-04-01",
+      "status": "in_force",
+      "temporal_conflict": false,
+      "date_evidence": []
+    },
+    {
+      "team_rule_id": "D024-r007",
+      "effective_date": "2024-04-01",
+      "operative_date": "2024-04-01",
+      "status": "in_force",
+      "temporal_conflict": false,
+      "date_evidence": []
+    },
+    {
+      "team_rule_id": "D024-r008",
+      "effective_date": "2024-04-01",
+      "operative_date": "2024-04-01",
+      "status": "in_force",
+      "temporal_conflict": false,
+      "date_evidence": []
+    },
+    {
+      "team_rule_id": "D024-r009",
+      "effective_date": "2024-04-01",
+      "operative_date": "2024-04-01",
+      "status": "in_force",
+      "temporal_conflict": false,
+      "date_evidence": []
+    },
+    {
+      "team_rule_id": "D024-r010",
+      "effective_date": "2024-04-01",
+      "operative_date": "2024-04-01",
+      "status": "in_force",
+      "temporal_conflict": false,
+      "date_evidence": []
+    },
+    {
+      "team_rule_id": "D024-r011",
+      "effective_date": "2024-04-01",
+      "operative_date": "2024-04-01",
+      "status": "in_force",
+      "temporal_conflict": false,
+      "date_evidence": []
+    },
+    {
+      "team_rule_id": "D024-r012",
+      "effective_date": "2024-04-01",
+      "operative_date": "2024-04-01",
+      "status": "in_force",
+      "temporal_conflict": false,
+      "date_evidence": []
+    },
+    {
+      "team_rule_id": "D024-r013",
+      "effective_date": "2024-04-01",
+      "operative_date": "2024-04-01",
+      "status": "in_force",
+      "temporal_conflict": false,
+      "date_evidence": []
+    },
+    {
+      "team_rule_id": "D024-r014",
+      "effective_date": "2024-04-01",
+      "operative_date": "2024-04-01",
+      "status": "in_force",
+      "temporal_conflict": false,
+      "date_evidence": []
+    },
+    {
+      "team_rule_id": "D024-r015",
+      "effective_date": "2024-04-01",
+      "operative_date": "2024-04-01",
+      "status": "in_force",
+      "temporal_conflict": false,
+      "date_evidence": []
+    },
+    {
+      "team_rule_id": "D025-r016",
+      "effective_date": "2026-01-01",
+      "operative_date": "2026-01-01",
+      "status": "in_force",
+      "temporal_conflict": false,
+      "date_evidence": []
+    },
+    {
+      "team_rule_id": "D025-r020",
+      "effective_date": "2026-01-01",
+      "operative_date": "2026-01-01",
+      "status": "in_force",
+      "temporal_conflict": false,
+      "date_evidence": []
+    },
+    {
+      "team_rule_id": "D025-r021",
+      "effective_date": "2026-01-01",
+      "operative_date": "2026-01-01",
+      "status": "in_force",
+      "temporal_conflict": false,
+      "date_evidence": []
+    },
+    {
+      "team_rule_id": "D025-r024",
+      "effective_date": "2026-01-01",
+      "operative_date": "2026-01-01",
+      "status": "in_force",
+      "temporal_conflict": false,
+      "date_evidence": []
+    },
+    {
+      "team_rule_id": "D025-r025",
+      "effective_date": "2026-01-01",
+      "operative_date": "2026-01-01",
+      "status": "in_force",
+      "temporal_conflict": false,
+      "date_evidence": []
+    },
+    {
+      "team_rule_id": "D025-r026",
+      "effective_date": "2026-01-01",
+      "operative_date": "2026-01-01",
+      "status": "in_force",
+      "temporal_conflict": false,
+      "date_evidence": []
+    },
+    {
+      "team_rule_id": "D025-r005",
+      "effective_date": "1950-01-01",
+      "operative_date": null,
+      "status": "in_force",
+      "temporal_conflict": false,
+      "date_evidence": []
+    },
+    {
+      "team_rule_id": "D025-r007",
+      "effective_date": "1950-01-01",
+      "operative_date": null,
+      "status": "in_force",
+      "temporal_conflict": false,
+      "date_evidence": []
+    },
+    {
+      "team_rule_id": "D025-r008",
+      "effective_date": "1950-01-01",
+      "operative_date": null,
+      "status": "in_force",
+      "temporal_conflict": false,
+      "date_evidence": []
+    },
+    {
+      "team_rule_id": "D025-r011",
+      "effective_date": "1950-01-01",
+      "operative_date": null,
+      "status": "in_force",
+      "temporal_conflict": false,
+      "date_evidence": []
+    },
+    {
+      "team_rule_id": "D025-r012",
+      "effective_date": "1950-01-01",
+      "operative_date": null,
+      "status": "in_force",
+      "temporal_conflict": false,
+      "date_evidence": []
+    },
+    {
+      "team_rule_id": "D025-r013",
+      "effective_date": "1950-01-01",
+      "operative_date": null,
+      "status": "in_force",
+      "temporal_conflict": false,
+      "date_evidence": []
+    },
+    {
+      "team_rule_id": "D025-r999",
+      "effective_date": "2025-04-01",
+      "operative_date": "2025-04-01",
+      "status": "in_force",
+      "temporal_conflict": false,
+      "date_evidence": []
+    },
+    {
+      "team_rule_id": "D025-r002",
+      "effective_date": "2026-01-01",
+      "operative_date": "2026-01-01",
+      "status": "in_force",
+      "temporal_conflict": false,
+      "date_evidence": []
+    },
+    {
+      "team_rule_id": "D025-r022",
+      "effective_date": "1950-01-01",
+      "operative_date": null,
+      "status": "in_force",
+      "temporal_conflict": false,
+      "date_evidence": []
+    },
+    {
+      "team_rule_id": "D025-r023",
+      "effective_date": "1950-01-01",
+      "operative_date": null,
+      "status": "in_force",
+      "temporal_conflict": false,
+      "date_evidence": []
+    },
+    {
+      "team_rule_id": "D026-r001",
+      "effective_date": "2026-01-01",
+      "operative_date": "2026-01-01",
+      "status": "in_force",
+      "temporal_conflict": false,
+      "date_evidence": []
+    },
+    {
+      "team_rule_id": "D026-r002",
+      "effective_date": "1998-01-01",
+      "operative_date": "1998-01-01",
+      "status": "in_force",
+      "temporal_conflict": false,
+      "date_evidence": []
+    },
+    {
+      "team_rule_id": "D026-r003",
+      "effective_date": "2026-01-01",
+      "operative_date": "2026-01-01",
+      "status": "in_force",
+      "temporal_conflict": false,
+      "date_evidence": []
+    },
+    {
+      "team_rule_id": "D026-r004",
+      "effective_date": "2026-01-01",
+      "operative_date": "2026-01-01",
+      "status": "in_force",
+      "temporal_conflict": false,
+      "date_evidence": []
+    },
+    {
+      "team_rule_id": "D026-r007",
+      "effective_date": "2026-01-01",
+      "operative_date": "2026-01-01",
+      "status": "in_force",
+      "temporal_conflict": false,
+      "date_evidence": []
+    },
+    {
+      "team_rule_id": "D026-r009",
+      "effective_date": "2026-01-01",
+      "operative_date": "2026-01-01",
+      "status": "in_force",
+      "temporal_conflict": false,
+      "date_evidence": []
+    },
+    {
+      "team_rule_id": "D026-r010",
+      "effective_date": "2026-01-01",
+      "operative_date": "2026-01-01",
+      "status": "in_force",
+      "temporal_conflict": false,
+      "date_evidence": []
+    },
+    {
+      "team_rule_id": "D026-r011",
+      "effective_date": "2026-01-01",
+      "operative_date": "2026-01-01",
+      "status": "in_force",
+      "temporal_conflict": false,
+      "date_evidence": []
+    },
+    {
+      "team_rule_id": "D026-r012",
+      "effective_date": "2026-01-01",
+      "operative_date": "2026-01-01",
+      "status": "in_force",
+      "temporal_conflict": false,
+      "date_evidence": []
+    },
+    {
+      "team_rule_id": "D026-r017",
+      "effective_date": "2026-01-01",
+      "operative_date": "2026-01-01",
+      "status": "in_force",
+      "temporal_conflict": false,
+      "date_evidence": []
+    },
+    {
+      "team_rule_id": "D041-r002",
+      "effective_date": "2026-02-02",
+      "operative_date": "2026-02-02",
+      "status": "in_force",
+      "temporal_conflict": false,
+      "date_evidence": []
+    },
+    {
+      "team_rule_id": "D041-r003",
+      "effective_date": "2026-02-02",
+      "operative_date": "2026-02-02",
+      "status": "in_force",
+      "temporal_conflict": false,
+      "date_evidence": []
+    },
+    {
+      "team_rule_id": "D041-r004",
+      "effective_date": "2026-02-02",
+      "operative_date": "2026-02-02",
+      "status": "in_force",
+      "temporal_conflict": false,
+      "date_evidence": []
+    },
+    {
+      "team_rule_id": "D041-r005",
+      "effective_date": "2020-03-30",
+      "operative_date": "2020-03-30",
+      "status": "not_yet_effective",
+      "temporal_conflict": false,
+      "date_evidence": []
+    },
+    {
+      "team_rule_id": "D041-r007",
+      "effective_date": "2020-01-01",
+      "operative_date": "2020-01-01",
+      "status": "in_force",
+      "temporal_conflict": false,
+      "date_evidence": []
+    },
+    {
+      "team_rule_id": "D041-r008",
+      "effective_date": "2022-01-01",
+      "operative_date": "2022-01-01",
+      "status": "in_force",
+      "temporal_conflict": false,
+      "date_evidence": []
+    },
+    {
+      "team_rule_id": "D043-r006",
+      "effective_date": "2026-07-01",
+      "operative_date": "2026-07-01",
+      "status": "in_force",
+      "temporal_conflict": false,
+      "date_evidence": []
+    },
+    {
+      "team_rule_id": "D052-r002",
+      "effective_date": "2025-08-01",
+      "operative_date": "2025-08-01",
+      "status": "in_force",
+      "temporal_conflict": false,
+      "date_evidence": []
+    },
+    {
+      "team_rule_id": "D065-r002",
+      "effective_date": "2022-01-18",
+      "operative_date": "2022-01-18",
+      "status": "in_force",
+      "temporal_conflict": false,
+      "date_evidence": []
+    },
+    {
+      "team_rule_id": "D065-r003",
+      "effective_date": "2022-01-18",
+      "operative_date": "2022-01-18",
+      "status": "in_force",
+      "temporal_conflict": false,
+      "date_evidence": []
+    },
+    {
+      "team_rule_id": "D065-r004",
+      "effective_date": "2022-01-18",
+      "operative_date": "2022-01-18",
+      "status": "in_force",
+      "temporal_conflict": false,
+      "date_evidence": []
+    },
+    {
+      "team_rule_id": "D065-r006",
+      "effective_date": "2022-01-18",
+      "operative_date": "2022-01-18",
+      "status": "in_force",
+      "temporal_conflict": false,
+      "date_evidence": []
+    },
+    {
+      "team_rule_id": "D065-r007",
+      "effective_date": "2022-01-18",
+      "operative_date": "2022-01-18",
+      "status": "in_force",
+      "temporal_conflict": false,
+      "date_evidence": []
+    },
+    {
+      "team_rule_id": "D065-r008",
+      "effective_date": "2022-01-18",
+      "operative_date": "2022-01-18",
+      "status": "in_force",
+      "temporal_conflict": false,
+      "date_evidence": []
+    },
+    {
+      "team_rule_id": "D065-r010",
+      "effective_date": "2022-01-18",
+      "operative_date": "2022-01-18",
+      "status": "in_force",
+      "temporal_conflict": false,
+      "date_evidence": []
+    },
+    {
+      "team_rule_id": "D065-r011",
+      "effective_date": "2022-01-18",
+      "operative_date": "2022-01-18",
+      "status": "in_force",
+      "temporal_conflict": false,
+      "date_evidence": []
+    },
+    {
+      "team_rule_id": "D065-r015",
+      "effective_date": "2022-01-18",
+      "operative_date": "2022-01-18",
+      "status": "in_force",
+      "temporal_conflict": false,
+      "date_evidence": []
+    },
+    {
+      "team_rule_id": "D065-r017",
+      "effective_date": "2022-01-18",
+      "operative_date": "2022-01-18",
+      "status": "in_force",
+      "temporal_conflict": false,
+      "date_evidence": []
+    },
+    {
+      "team_rule_id": "D073-r001",
+      "effective_date": "2023-06-24",
+      "operative_date": "2023-06-24",
+      "status": "in_force",
+      "temporal_conflict": false,
+      "date_evidence": []
+    },
+    {
+      "team_rule_id": "D073-r002",
+      "effective_date": "2023-06-24",
+      "operative_date": "2023-06-24",
+      "status": "in_force",
+      "temporal_conflict": false,
+      "date_evidence": []
+    },
+    {
+      "team_rule_id": "D073-r004",
+      "effective_date": "2023-06-24",
+      "operative_date": "2023-06-24",
+      "status": "in_force",
+      "temporal_conflict": false,
+      "date_evidence": []
+    },
+    {
+      "team_rule_id": "D073-r011",
+      "effective_date": "2023-06-24",
+      "operative_date": "2023-06-24",
+      "status": "in_force",
+      "temporal_conflict": false,
+      "date_evidence": []
+    },
+    {
+      "team_rule_id": "D085-r002",
+      "effective_date": "2021-11-19",
+      "operative_date": "2021-11-19",
+      "status": "in_force",
+      "temporal_conflict": false,
+      "date_evidence": []
+    },
+    {
+      "team_rule_id": "D085-r004",
+      "effective_date": "2021-11-19",
+      "operative_date": "2021-11-19",
+      "status": "in_force",
+      "temporal_conflict": false,
+      "date_evidence": []
+    }
+  ]
+}
