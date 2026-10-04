@@ -1,10 +1,10 @@
 <!doctype html>
-<html lang="de">
+<html lang="en">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="icon" type="image/svg+xml" href="favicon.svg">
-  <title>statlas — Grundstücksregeln</title>
+  <link rel="icon" type="image/svg+xml" href="favicon.svg?v=2">
+  <title>statlas — Property rules</title>
   <style>
     :root { --ink:#252525; --muted:#686868; --line:#e5e5e5; --accent:#e31b36; --soft:#f6f6f6; }
     * { box-sizing:border-box; }
@@ -13,7 +13,7 @@
     a { color:inherit; } button { cursor:pointer; } button:focus-visible,a:focus-visible,summary:focus-visible { outline:3px solid var(--accent); outline-offset:4px; }
     .topbar { height:88px; border-bottom:1px solid var(--line); display:flex; align-items:center; justify-content:space-between; padding:0 max(32px,calc((100vw - 1240px)/2)); gap:24px; }
     .brand { color:var(--accent); display:flex; align-items:center; gap:10px; font-size:20px; font-weight:750; letter-spacing:-.7px; text-decoration:none; white-space:nowrap; }
-    .brand img { display:block; height:30px; width:auto; }
+    .brand img { display:block; height:42px; width:auto; }
     .brand-mark { color:var(--accent); font-size:28px; line-height:1; }
     .nav-back { border:1px solid var(--line); border-radius:30px; padding:11px 20px; text-decoration:none; font-weight:600; box-shadow:0 2px 7px #00000006; }
     .nav-back:hover { border-color:#b9b3af; } #lang-toggle { display:flex; gap:5px; } #lang-toggle button { background:white; border:0; border-radius:20px; padding:7px 9px; font-size:11px; font-weight:650; }
@@ -457,8 +457,8 @@ function setLang(l) {
   if (typeof afterLangChange === "function") { try { afterLangChange(); } catch (e2) {} }
 }
 (function () {
-  var l = "de";
-  try { l = localStorage.getItem("rhn-lang") || "de"; } catch (e3) {}
+  var l = "en";
+  try { l = localStorage.getItem("rhn-lang") || "en"; } catch (e3) {}
   if (!I18N[l]) { l = "en"; }
   RHN_LANG = l;
   document.documentElement.lang = l;
